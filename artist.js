@@ -265,7 +265,8 @@ function renderArtistSongs() {
 
         // Track and Radio links
         const trackUrl = song.spotifyUrl || (song.id ? `https://open.spotify.com/track/${song.id}` : '#');
-        const radioUrl = song.id ? `spotify:station:track:${song.id}` : `https://open.spotify.com/search/${encodeURIComponent(song.name + ' radio')}`;
+        const artistQuery = song.artistNames ? ` ${song.artistNames}` : '';
+        const radioUrl = `https://open.spotify.com/search/${encodeURIComponent(song.name + artistQuery + ' Radio')}`;
 
         card.innerHTML = `
             <div class="cover-wrapper">

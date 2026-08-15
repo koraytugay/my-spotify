@@ -240,7 +240,8 @@ function createTrackCard(t) {
 
     // Track and Radio links
     const trackUrl = t.spotifyUrl || (t.id ? `https://open.spotify.com/track/${t.id}` : '#');
-    const radioUrl = t.id ? `spotify:station:track:${t.id}` : `https://open.spotify.com/search/${encodeURIComponent(t.name + ' radio')}`;
+    const artistQuery = t.artistNames ? ` ${t.artistNames}` : '';
+    const radioUrl = `https://open.spotify.com/search/${encodeURIComponent(t.name + artistQuery + ' Radio')}`;
 
     card.innerHTML = `
         <div class="cover-wrapper">
