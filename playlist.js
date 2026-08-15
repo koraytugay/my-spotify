@@ -238,12 +238,15 @@ function createTrackCard(t) {
         albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
     }
 
-    // Track link
+    // Track and Radio links
     const trackUrl = t.spotifyUrl || (t.id ? `https://open.spotify.com/track/${t.id}` : '#');
+    const radioUrl = t.id ? `https://open.spotify.com/station/track/${t.id}` : `https://open.spotify.com/search/${encodeURIComponent(t.name + ' radio')}`;
 
     card.innerHTML = `
         <div class="cover-wrapper">
-            <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
+            <a href="${trackUrl}" target="_blank">
+                <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
+            </a>
             ${t.previewUrl ? `
                 <button class="play-btn-overlay" onclick="togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
                     ${isPlaying ? '⏸' : '▶'}
@@ -255,6 +258,12 @@ function createTrackCard(t) {
                 <a href="${trackUrl}" target="_blank" class="song-title-link">${t.name}</a>
             </div>
             <div class="song-artist">${artistsHtml}${albumHtml}</div>
+        </div>
+        <div class="song-actions">
+            <a href="${radioUrl}" target="_blank" class="btn-radio" title="Go to Song Radio on Spotify">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.9 19.1C1 15.2 1 8.8 4.9 4.9"/><path d="M7.8 16.2c-2.3-2.3-2.3-6.1 0-8.5"/><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8c2.3 2.3 2.3 6.1 0 8.5"/><path d="M19.1 4.9C23 8.8 23 15.2 19.1 19.1"/></svg>
+                <span>Radio</span>
+            </a>
         </div>
     `;
 

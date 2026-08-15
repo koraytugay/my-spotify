@@ -551,6 +551,52 @@ body.dark-mode .control-group input[type="text"]:hover {
     flex-shrink: 0;
 }
 
+/* Song Actions & Radio Button */
+.song-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.music-grid.view-list .song-actions {
+    margin-left: auto;
+}
+
+.music-grid:not(.view-list) .song-actions {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+    justify-content: flex-end;
+}
+
+.btn-radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 11px;
+    border-radius: var(--radius-sm);
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    background: var(--bg-surface-active);
+    border: 1px solid var(--border);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.btn-radio:hover {
+    color: #fff;
+    background: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 2px 8px rgba(29, 185, 84, 0.3);
+}
+
+.btn-radio svg {
+    flex-shrink: 0;
+}
+
 /* Modal */
 .modal {
     position: fixed;
