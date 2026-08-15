@@ -46,11 +46,13 @@ async function initArtistDetail() {
         artistInfo = matchedArtist;
         const canonicalName = (artistInfo.name || '').toLowerCase().trim();
 
-        // Helper to check if artist is in artist array or string
         const isMatchingArtist = (artistsArr, artistNamesStr) => {
             if (artistId && Array.isArray(artistsArr) && artistsArr.some(a => a.id === artistId)) return true;
-            if (Array.isArray(artistsArr) && artistsArr.some(a => a.name && a.name.toLowerCase() === canonicalName)) return true;
-            if (artistNamesStr && artistNamesStr.toLowerCase().includes(canonicalName)) return true;
+            if (Array.isArray(artistsArr) && artistsArr.some(a => a.name && a.name.toLowerCase().trim() === canonicalName)) return true;
+            if (artistNamesStr) {
+                const names = artistNamesStr.toLowerCase().split(/,\s*|\s*&\s*|\s*feat\.?\s*/);
+                if (names.some(n => n.trim() === canonicalName)) return true;
+            }
             return false;
         };
 
@@ -128,43 +130,6 @@ async function initArtistDetail() {
                 source: 'discography'
             });
         });
-
-        // 4. Fetch Complete Discography from Public Catalog API for 100% full coverage
-        try {
-            const publicCatalogUrl = `https://itunes.apple.com/search?term=${encodeURIComponent(artistInfo.name)}&entity=album&limit=100`;
-            const catRes = await fetch(publicCatalogUrl);
-            if (catRes.ok) {
-                const catData = await catRes.json();
-                (catData.results || []).forEach(alb => {
-                    const albArtist = (alb.artistName || '').toLowerCase().trim();
-                    // Match artist name
-                    if (albArtist === canonicalName || albArtist.includes(canonicalName) || canonicalName.includes(albArtist)) {
-                        const normName = (alb.collectionName || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
-                        const key = normName || alb.collectionId;
-                        if (!albumMap.has(key)) {
-                            const releaseDate = alb.releaseDate ? alb.releaseDate.substring(0, 10) : '';
-                            const releaseYear = releaseDate ? releaseDate.substring(0, 4) : '';
-                            const hiresCover = (alb.artworkUrl100 || '').replace('100x100bb', '600x600bb');
-                            const isSaved = savedAlbumNameSet.has(normName);
-                            albumMap.set(key, {
-                                id: '',
-                                name: alb.collectionName,
-                                artistNames: artistInfo.name,
-                                coverUrl: hiresCover || 'https://via.placeholder.com/300x300?text=Album',
-                                releaseYear: releaseYear,
-                                releaseDate: releaseDate,
-                                totalTracks: alb.trackCount || 0,
-                                spotifyUrl: `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name + ' ' + alb.collectionName)}`,
-                                isSaved: isSaved,
-                                source: 'catalog'
-                            });
-                        }
-                    }
-                });
-            }
-        } catch (catErr) {
-            console.warn('Could not fetch external catalog:', catErr.message);
-        }
 
         allArtistAlbums = Array.from(albumMap.values());
         filteredAlbums = [...allArtistAlbums];

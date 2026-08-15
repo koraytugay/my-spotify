@@ -347,47 +347,6 @@ async function main() {
         writeJson(path.join(dataDir, 'followed-artists.json'), followedArtists);
         console.log(` ✅ Total: ${followedArtists.length}`);
         console.log(`💾 Saved ${followedArtists.length} Followed Artists to data/followed-artists.json\n`);
-
-        // 4.6 Complete Artist Discographies for Followed Artists
-        const artistsDir = path.join(dataDir, 'artists');
-        if (!fs.existsSync(artistsDir)) fs.mkdirSync(artistsDir, { recursive: true });
-
-        console.log(`💿 Fetching complete album discographies for ${followedArtists.length} followed artists...`);
-        for (let i = 0; i < followedArtists.length; i++) {
-            const art = followedArtists[i];
-            if (!art.id) continue;
-            try {
-                let artistAlbums = [];
-                let nextUrl = `https://api.spotify.com/v1/artists/${art.id}/albums?limit=10&include_groups=album%2Csingle`;
-                const seenNames = new Set();
-                while (nextUrl && artistAlbums.length < 100) {
-                    const data = await spotifyFetch(nextUrl, token);
-                    const items = data.items || [];
-                    for (const item of items) {
-                        const nameKey = (item.name || '').toLowerCase().trim();
-                        if (!seenNames.has(nameKey)) {
-                            seenNames.add(nameKey);
-                            artistAlbums.push({
-                                id: item.id,
-                                name: item.name,
-                                albumType: item.album_type || item.album_group || 'album',
-                                releaseDate: item.release_date || '',
-                                releaseYear: item.release_date ? item.release_date.substring(0, 4) : '',
-                                totalTracks: item.total_tracks || 0,
-                                coverUrl: item.images?.[0]?.url || '',
-                                spotifyUrl: item.external_urls?.spotify
-                            });
-                        }
-                    }
-                    nextUrl = data.next || null;
-                }
-                writeJson(path.join(artistsDir, `${art.id}.json`), artistAlbums);
-                process.stdout.write(` [${i + 1}/${followedArtists.length} ${art.name}: ${artistAlbums.length}]`);
-            } catch (e) {
-                // Ignore individual rate limits or errors
-            }
-        }
-        console.log('\n💾 Saved all artist discographies to data/artists/\n');
     } catch (e) {
         console.warn(`⚠️ Note: ${e.message}. Run 'npm run auth' once to grant followed artists permission if needed.\n`);
         const existingPath = path.join(dataDir, 'followed-artists.json');
