@@ -109,6 +109,28 @@ async function initArtistDetail() {
             }
         });
 
+        // 3. Add Pre-synced Discography if available
+        (discography || []).forEach(d => {
+            const normName = (d.name || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+            const key = normName || d.id;
+            const existing = albumMap.get(key) || {};
+            const isSaved = existing.isSaved || savedAlbumIdSet.has(d.id) || savedAlbumNameSet.has(normName);
+            albumMap.set(key, {
+                ...existing,
+                id: d.id || existing.id,
+                name: d.name || existing.name,
+                artistNames: artistInfo.name,
+                coverUrl: existing.coverUrl || d.coverUrl || 'https://via.placeholder.com/300x300?text=Album',
+                releaseYear: d.releaseYear || existing.releaseYear,
+                releaseDate: d.releaseDate || existing.releaseDate || (d.releaseYear ? `${d.releaseYear}-01-01` : ''),
+                totalTracks: existing.totalTracks || (d.primaryType === 'Single' ? 1 : 0),
+                spotifyUrl: existing.spotifyUrl || d.spotifyUrl || `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name + ' ' + d.name)}`,
+                isSaved: isSaved,
+                primaryType: d.primaryType || 'Album',
+                source: 'discography'
+            });
+        });
+
         allArtistAlbums = Array.from(albumMap.values());
         filteredAlbums = [...allArtistAlbums];
 
@@ -192,8 +214,8 @@ function filterArtistContent() {
     const onlySaved = document.getElementById('only-saved-toggle')?.checked ?? false;
 
     filteredAlbums = allArtistAlbums.filter(a => {
-        // Singles filter (hide if totalTracks is 1 or less when includeSingles is unchecked)
-        if (!includeSingles && a.totalTracks <= 1) {
+        // Singles filter (hide if Single or 1 track when includeSingles is unchecked)
+        if (!includeSingles && (a.primaryType === 'Single' || a.totalTracks === 1)) {
             return false;
         }
 
@@ -244,7 +266,7 @@ function renderArtistAlbums() {
 
         card.innerHTML = `
             <div class="cover-wrapper">
-                <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
+                <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=Album';">
             </div>
             <div class="song-details">
                 <div class="song-title">

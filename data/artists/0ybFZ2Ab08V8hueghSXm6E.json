@@ -1,0 +1,824 @@
+[
+  {
+    "id": "00f78b7d-bd0a-356a-aec4-925e529023f8",
+    "name": "Ghost Reveries",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2005-08-26",
+    "releaseYear": "2005",
+    "coverUrl": "https://coverartarchive.org/release-group/00f78b7d-bd0a-356a-aec4-925e529023f8/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Ghost%20Reveries"
+  },
+  {
+    "id": "0198b8cc-1ba3-4f4b-af77-5704f922bba4",
+    "name": "Metal Radio Sampler",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2011-09",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/0198b8cc-1ba3-4f4b-af77-5704f922bba4/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Metal%20Radio%20Sampler"
+  },
+  {
+    "id": "04aec7a5-7756-47ff-89e8-1bb3f40ae730",
+    "name": "Sorceress",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2016-08-02",
+    "releaseYear": "2016",
+    "coverUrl": "https://coverartarchive.org/release-group/04aec7a5-7756-47ff-89e8-1bb3f40ae730/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Sorceress"
+  },
+  {
+    "id": "04dcc03c-be47-4b7e-b207-1c16aa18f8a2",
+    "name": "Selections From Ghost Reveries",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2005",
+    "releaseYear": "2005",
+    "coverUrl": "https://coverartarchive.org/release-group/04dcc03c-be47-4b7e-b207-1c16aa18f8a2/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Selections%20From%20Ghost%20Reveries"
+  },
+  {
+    "id": "0e4d2ae2-3d1a-32ff-88de-4e88af2318db",
+    "name": "2001-12-07: The Shelter, Dublin, Ireland",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/0e4d2ae2-3d1a-32ff-88de-4e88af2318db/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202001-12-07%3A%20The%20Shelter%2C%20Dublin%2C%20Ireland"
+  },
+  {
+    "id": "1e8e4ce8-f334-3ec7-af9a-d7babbdb2fd2",
+    "name": "Orchid",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "1995-05-15",
+    "releaseYear": "1995",
+    "coverUrl": "https://coverartarchive.org/release-group/1e8e4ce8-f334-3ec7-af9a-d7babbdb2fd2/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Orchid"
+  },
+  {
+    "id": "1f4a9f6f-9621-3e46-977d-8503e8386768",
+    "name": "Blackwater Park",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2001-03-12",
+    "releaseYear": "2001",
+    "coverUrl": "https://coverartarchive.org/release-group/1f4a9f6f-9621-3e46-977d-8503e8386768/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Blackwater%20Park"
+  },
+  {
+    "id": "2864ec02-5e6a-36d8-9960-ccd959b9a618",
+    "name": "Damnation",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2003-04-07",
+    "releaseYear": "2003",
+    "coverUrl": "https://coverartarchive.org/release-group/2864ec02-5e6a-36d8-9960-ccd959b9a618/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Damnation"
+  },
+  {
+    "id": "2be1fddb-42ea-4bcd-ad0b-fd01405ae235",
+    "name": "Still Day Beneath the Sun",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2003-02-25",
+    "releaseYear": "2003",
+    "coverUrl": "https://coverartarchive.org/release-group/2be1fddb-42ea-4bcd-ad0b-fd01405ae235/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Still%20Day%20Beneath%20the%20Sun"
+  },
+  {
+    "id": "2ec8f167-a990-4198-95b8-f5358c4a2915",
+    "name": "Slither",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2011-11-21",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/2ec8f167-a990-4198-95b8-f5358c4a2915/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Slither"
+  },
+  {
+    "id": "304858e8-c85e-3e5f-b996-e83216b23ce5",
+    "name": "Morningrise",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "1996-06-24",
+    "releaseYear": "1996",
+    "coverUrl": "https://coverartarchive.org/release-group/304858e8-c85e-3e5f-b996-e83216b23ce5/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Morningrise"
+  },
+  {
+    "id": "3594d259-e18a-3fe5-9bd7-c397bf2ceeb5",
+    "name": "2003‐07‐23: Saint Andrew’s Hall, Detroit, MI, USA",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/3594d259-e18a-3fe5-9bd7-c397bf2ceeb5/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202003%E2%80%9007%E2%80%9023%3A%20Saint%20Andrew%E2%80%99s%20Hall%2C%20Detroit%2C%20MI%2C%20USA"
+  },
+  {
+    "id": "374c933f-7e63-39bc-a541-17153bc4e512",
+    "name": "2000-07-29: Milwaukee Metalfest, Milwaukee, WI, USA",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/374c933f-7e63-39bc-a541-17153bc4e512/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202000-07-29%3A%20Milwaukee%20Metalfest%2C%20Milwaukee%2C%20WI%2C%20USA"
+  },
+  {
+    "id": "3a050737-01b2-4eea-aaa0-d961020fbe00",
+    "name": "Heritage",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2011-09-14",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/3a050737-01b2-4eea-aaa0-d961020fbe00/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Heritage"
+  },
+  {
+    "id": "4003a7a1-a190-4c84-b73b-57b5f3ae5bc7",
+    "name": "§3",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2024-09-06",
+    "releaseYear": "2024",
+    "coverUrl": "https://coverartarchive.org/release-group/4003a7a1-a190-4c84-b73b-57b5f3ae5bc7/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20%C2%A73"
+  },
+  {
+    "id": "4042cba1-9518-3d56-84fc-6bdfb29cdfb0",
+    "name": "2005‐12‐22: De Boerderij, Zoetermeer, Netherlands",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/4042cba1-9518-3d56-84fc-6bdfb29cdfb0/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202005%E2%80%9012%E2%80%9022%3A%20De%20Boerderij%2C%20Zoetermeer%2C%20Netherlands"
+  },
+  {
+    "id": "454a9fb6-1952-43aa-ac2e-8be5d281c341",
+    "name": "1995‐10‐31: Astoria, London, England, UK",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/454a9fb6-1952-43aa-ac2e-8be5d281c341/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%201995%E2%80%9010%E2%80%9031%3A%20Astoria%2C%20London%2C%20England%2C%20UK"
+  },
+  {
+    "id": "4b13bc96-efa5-3041-8a5e-84019cc39911",
+    "name": "The Candlelight Years",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2008-06-28",
+    "releaseYear": "2008",
+    "coverUrl": "https://coverartarchive.org/release-group/4b13bc96-efa5-3041-8a5e-84019cc39911/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Candlelight%20Years"
+  },
+  {
+    "id": "4e94deb3-26df-3376-a55d-297e8275a518",
+    "name": "Watershed",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2008-05-28",
+    "releaseYear": "2008",
+    "coverUrl": "https://coverartarchive.org/release-group/4e94deb3-26df-3376-a55d-297e8275a518/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Watershed"
+  },
+  {
+    "id": "53030b5d-9f23-38d3-83e3-4f7053955992",
+    "name": "Burden",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2008-12-09",
+    "releaseYear": "2008",
+    "coverUrl": "https://coverartarchive.org/release-group/53030b5d-9f23-38d3-83e3-4f7053955992/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Burden"
+  },
+  {
+    "id": "583f913f-cf4d-4cac-b19a-5053afd7a9f2",
+    "name": "Ghost of Perdition",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2006",
+    "releaseYear": "2006",
+    "coverUrl": "https://coverartarchive.org/release-group/583f913f-cf4d-4cac-b19a-5053afd7a9f2/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Ghost%20of%20Perdition"
+  },
+  {
+    "id": "58c4873b-2b79-4ea8-a6da-f5db9822db0e",
+    "name": "In Live Concert at the Royal Albert Hall",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2010-09-17",
+    "releaseYear": "2010",
+    "coverUrl": "https://coverartarchive.org/release-group/58c4873b-2b79-4ea8-a6da-f5db9822db0e/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20In%20Live%20Concert%20at%20the%20Royal%20Albert%20Hall"
+  },
+  {
+    "id": "59426c7e-6c67-3c62-8e56-83137ccc422d",
+    "name": "2001‐04‐10: Jaxx Nightclub, Springfield, VA, USA",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/59426c7e-6c67-3c62-8e56-83137ccc422d/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202001%E2%80%9004%E2%80%9010%3A%20Jaxx%20Nightclub%2C%20Springfield%2C%20VA%2C%20USA"
+  },
+  {
+    "id": "5a78dabc-f2c6-4cc6-9977-3af8bf7d925f",
+    "name": "Deliverance",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2002",
+    "releaseYear": "2002",
+    "coverUrl": "https://coverartarchive.org/release-group/5a78dabc-f2c6-4cc6-9977-3af8bf7d925f/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Deliverance"
+  },
+  {
+    "id": "5a917ec7-f29d-400b-8fc0-2d7a97817c48",
+    "name": "Dirge for November",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2010-08-25",
+    "releaseYear": "2010",
+    "coverUrl": "https://coverartarchive.org/release-group/5a917ec7-f29d-400b-8fc0-2d7a97817c48/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Dirge%20for%20November"
+  },
+  {
+    "id": "5ada2026-1a48-49e1-a697-6ea548597751",
+    "name": "Garden of the Titans: Opeth Live at Red Rocks Amphitheatre",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2018-11-02",
+    "releaseYear": "2018",
+    "coverUrl": "https://coverartarchive.org/release-group/5ada2026-1a48-49e1-a697-6ea548597751/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Garden%20of%20the%20Titans%3A%20Opeth%20Live%20at%20Red%20Rocks%20Amphitheatre"
+  },
+  {
+    "id": "5bac381c-f947-42de-ad28-8f7f6bf6833a",
+    "name": "Cirkelns riktning",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2019-10-02",
+    "releaseYear": "2019",
+    "coverUrl": "https://coverartarchive.org/release-group/5bac381c-f947-42de-ad28-8f7f6bf6833a/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Cirkelns%20riktning"
+  },
+  {
+    "id": "5c63727e-cfc0-3b27-8bcb-40ec31e839a5",
+    "name": "2003-05-28: Live on TV4 (Swedish TV-Network)",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/5c63727e-cfc0-3b27-8bcb-40ec31e839a5/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202003-05-28%3A%20Live%20on%20TV4%20(Swedish%20TV-Network)"
+  },
+  {
+    "id": "6e82a4c0-6939-308b-8f70-9f496ab43278",
+    "name": "Deliverance",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2002-11-04",
+    "releaseYear": "2002",
+    "coverUrl": "https://coverartarchive.org/release-group/6e82a4c0-6939-308b-8f70-9f496ab43278/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Deliverance"
+  },
+  {
+    "id": "6fada0dc-6d05-3a43-b9c6-19f28a754364",
+    "name": "Farewell to Providence",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2009",
+    "releaseYear": "2009",
+    "coverUrl": "https://coverartarchive.org/release-group/6fada0dc-6d05-3a43-b9c6-19f28a754364/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Farewell%20to%20Providence"
+  },
+  {
+    "id": "72b0f39a-89c7-45aa-97f6-765ae96f91b6",
+    "name": "The Grand Conjuration",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2005-06-26",
+    "releaseYear": "2005",
+    "coverUrl": "https://coverartarchive.org/release-group/72b0f39a-89c7-45aa-97f6-765ae96f91b6/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Grand%20Conjuration"
+  },
+  {
+    "id": "73465695-e26d-3fea-b349-06e74a7a32c9",
+    "name": "2005-07-31: Sounds of the Underground, Denver, CO, USA",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/73465695-e26d-3fea-b349-06e74a7a32c9/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202005-07-31%3A%20Sounds%20of%20the%20Underground%2C%20Denver%2C%20CO%2C%20USA"
+  },
+  {
+    "id": "75b9ea10-1f20-42b2-a89d-e0d374b86e13",
+    "name": "The Lines in My Hand",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2012-11-12",
+    "releaseYear": "2012",
+    "coverUrl": "https://coverartarchive.org/release-group/75b9ea10-1f20-42b2-a89d-e0d374b86e13/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Lines%20in%20My%20Hand"
+  },
+  {
+    "id": "765d517d-4343-3ed4-a8fd-40c43699c314",
+    "name": "1991‐11‐30: Akalla, Stockholm, Sweden",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/765d517d-4343-3ed4-a8fd-40c43699c314/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%201991%E2%80%9011%E2%80%9030%3A%20Akalla%2C%20Stockholm%2C%20Sweden"
+  },
+  {
+    "id": "784c4974-64f0-3fcd-bcba-5c689c74f593",
+    "name": "Lamentations: Live at Shepherd’s Bush Empire 2003",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2003-11-24",
+    "releaseYear": "2003",
+    "coverUrl": "https://coverartarchive.org/release-group/784c4974-64f0-3fcd-bcba-5c689c74f593/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Lamentations%3A%20Live%20at%20Shepherd%E2%80%99s%20Bush%20Empire%202003"
+  },
+  {
+    "id": "7cbd98d1-740f-425a-9dc4-46351f016800",
+    "name": "Svekets prins",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2019",
+    "releaseYear": "2019",
+    "coverUrl": "https://coverartarchive.org/release-group/7cbd98d1-740f-425a-9dc4-46351f016800/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Svekets%20prins"
+  },
+  {
+    "id": "7dbe85da-dfef-43b2-b544-987c328600e7",
+    "name": "§1 (radio edit)",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2024-08-02",
+    "releaseYear": "2024",
+    "coverUrl": "https://coverartarchive.org/release-group/7dbe85da-dfef-43b2-b544-987c328600e7/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20%C2%A71%20(radio%20edit)"
+  },
+  {
+    "id": "8099cf8b-b514-44e8-a9d9-106d12ddfe2c",
+    "name": "The Throat of Winter",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2011-04-16",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/8099cf8b-b514-44e8-a9d9-106d12ddfe2c/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Throat%20of%20Winter"
+  },
+  {
+    "id": "88deebc6-0a65-4fd8-91d3-0949dd9687af",
+    "name": "Cusp of Eternity",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2014-06-03",
+    "releaseYear": "2014",
+    "coverUrl": "https://coverartarchive.org/release-group/88deebc6-0a65-4fd8-91d3-0949dd9687af/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Cusp%20of%20Eternity"
+  },
+  {
+    "id": "8902256f-d9f0-4043-a8f3-2412fb3d3db7",
+    "name": "Sorceress",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2016-09-30",
+    "releaseYear": "2016",
+    "coverUrl": "https://coverartarchive.org/release-group/8902256f-d9f0-4043-a8f3-2412fb3d3db7/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Sorceress"
+  },
+  {
+    "id": "8b5e26ba-d9b0-479c-bb02-473a8d5c004b",
+    "name": "The Drapery Falls (radio edit)",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2001",
+    "releaseYear": "2001",
+    "coverUrl": "https://coverartarchive.org/release-group/8b5e26ba-d9b0-479c-bb02-473a8d5c004b/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Drapery%20Falls%20(radio%20edit)"
+  },
+  {
+    "id": "94ed3e46-1b22-404a-a2cc-051624db4647",
+    "name": "Opeth / Enslaved",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2017-10-06",
+    "releaseYear": "2017",
+    "coverUrl": "https://coverartarchive.org/release-group/94ed3e46-1b22-404a-a2cc-051624db4647/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Opeth%20%2F%20Enslaved"
+  },
+  {
+    "id": "97d3b1b7-9e68-3ae6-b36a-065f93b78046",
+    "name": "The Smell of Death",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/97d3b1b7-9e68-3ae6-b36a-065f93b78046/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Smell%20of%20Death"
+  },
+  {
+    "id": "9ab92a45-2156-3dea-ba7a-d64b089b8c06",
+    "name": "2005-09-21: Klubben, Stockholm, Sweden",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/9ab92a45-2156-3dea-ba7a-d64b089b8c06/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202005-09-21%3A%20Klubben%2C%20Stockholm%2C%20Sweden"
+  },
+  {
+    "id": "9e915d33-b517-4874-b7c5-ef9709c71666",
+    "name": "Roadrunner Records 2007 Prog Sampler",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2007",
+    "releaseYear": "2007",
+    "coverUrl": "https://coverartarchive.org/release-group/9e915d33-b517-4874-b7c5-ef9709c71666/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Roadrunner%20Records%202007%20Prog%20Sampler"
+  },
+  {
+    "id": "9ea1b69a-81a8-4a75-95af-5601956a3b99",
+    "name": "Blackwater Park / Deliverance",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2007-09-17",
+    "releaseYear": "2007",
+    "coverUrl": "https://coverartarchive.org/release-group/9ea1b69a-81a8-4a75-95af-5601956a3b99/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Blackwater%20Park%20%2F%20Deliverance"
+  },
+  {
+    "id": "a368082f-370c-3206-a1c1-e9d11211877f",
+    "name": "The Roundhouse Tapes",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2007-10-29",
+    "releaseYear": "2007",
+    "coverUrl": "https://coverartarchive.org/release-group/a368082f-370c-3206-a1c1-e9d11211877f/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Roundhouse%20Tapes"
+  },
+  {
+    "id": "a90b27df-1c7d-44e1-a332-03e27a51f02d",
+    "name": "Collector’s Edition Slipcase",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2006-10-31",
+    "releaseYear": "2006",
+    "coverUrl": "https://coverartarchive.org/release-group/a90b27df-1c7d-44e1-a332-03e27a51f02d/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Collector%E2%80%99s%20Edition%20Slipcase"
+  },
+  {
+    "id": "aacc81ab-eb11-47d7-8c36-7b4bfa13ea70",
+    "name": "Width of a Circle",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2022-03-25",
+    "releaseYear": "2022",
+    "coverUrl": "https://coverartarchive.org/release-group/aacc81ab-eb11-47d7-8c36-7b4bfa13ea70/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Width%20of%20a%20Circle"
+  },
+  {
+    "id": "abd446a2-98c5-4ed5-8b88-50247bf5baf6",
+    "name": "The Devil’s Orchard",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2011-07-25",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/abd446a2-98c5-4ed5-8b88-50247bf5baf6/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Devil%E2%80%99s%20Orchard"
+  },
+  {
+    "id": "b098443c-7551-4f00-914f-8a9e261e61c0",
+    "name": "2013-04-20: Record Store Day, Newbury Comics, Leominster, MA, USA",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2013",
+    "releaseYear": "2013",
+    "coverUrl": "https://coverartarchive.org/release-group/b098443c-7551-4f00-914f-8a9e261e61c0/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202013-04-20%3A%20Record%20Store%20Day%2C%20Newbury%20Comics%2C%20Leominster%2C%20MA%2C%20USA"
+  },
+  {
+    "id": "b2896060-c317-32d7-9224-d530ce503871",
+    "name": "Still Life",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "1999-10-18",
+    "releaseYear": "1999",
+    "coverUrl": "https://coverartarchive.org/release-group/b2896060-c317-32d7-9224-d530ce503871/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Still%20Life"
+  },
+  {
+    "id": "ba77dd93-271d-4adb-996b-8b5df342c5aa",
+    "name": "Solitude (live)",
+    "primaryType": "Single",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2014-08-26",
+    "releaseYear": "2014",
+    "coverUrl": "https://coverartarchive.org/release-group/ba77dd93-271d-4adb-996b-8b5df342c5aa/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Solitude%20(live)"
+  },
+  {
+    "id": "bebafd96-e226-3935-82db-0825710d8a29",
+    "name": "2006‐11‐10: Manchester Academy, Manchester, England, UK",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/bebafd96-e226-3935-82db-0825710d8a29/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202006%E2%80%9011%E2%80%9010%3A%20Manchester%20Academy%2C%20Manchester%2C%20England%2C%20UK"
+  },
+  {
+    "id": "bf1ef08a-5705-49ee-8e92-ec3501f502e9",
+    "name": "Soldier of Fortune",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2007-03-06",
+    "releaseYear": "2007",
+    "coverUrl": "https://coverartarchive.org/release-group/bf1ef08a-5705-49ee-8e92-ec3501f502e9/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Soldier%20of%20Fortune"
+  },
+  {
+    "id": "c2ce88dd-6f71-4ada-9bf5-00140d26a0c1",
+    "name": "Will o the Wisp",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2016-09-04",
+    "releaseYear": "2016",
+    "coverUrl": "https://coverartarchive.org/release-group/c2ce88dd-6f71-4ada-9bf5-00140d26a0c1/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Will%20o%20the%20Wisp"
+  },
+  {
+    "id": "c950ce2a-9f07-3b9b-bb9c-ab1a1f5b292b",
+    "name": "2001-11-13: La Locomotive, Paris, France",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/c950ce2a-9f07-3b9b-bb9c-ab1a1f5b292b/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202001-11-13%3A%20La%20Locomotive%2C%20Paris%2C%20France"
+  },
+  {
+    "id": "c9a0eb4a-13a7-3e61-84ae-98974d4296c3",
+    "name": "1996-11-13: Club Splendid, Lille, France",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/c9a0eb4a-13a7-3e61-84ae-98974d4296c3/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%201996-11-13%3A%20Club%20Splendid%2C%20Lille%2C%20France"
+  },
+  {
+    "id": "cbbc0784-a6e1-307c-aa4b-4ac1e15482d4",
+    "name": "2003-02-13: Montréal, QC, Canada",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/cbbc0784-a6e1-307c-aa4b-4ac1e15482d4/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202003-02-13%3A%20Montr%C3%A9al%2C%20QC%2C%20Canada"
+  },
+  {
+    "id": "cd725d34-9746-4211-b487-5e8a8b2142cd",
+    "name": "In Cauda Venenum",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2019-09-27",
+    "releaseYear": "2019",
+    "coverUrl": "https://coverartarchive.org/release-group/cd725d34-9746-4211-b487-5e8a8b2142cd/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20In%20Cauda%20Venenum"
+  },
+  {
+    "id": "ceaacbf6-d2a3-3e40-9c6a-3a5b868d4bfe",
+    "name": "2003‐04‐18: Inferno Festival, Oslo, Norway",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/ceaacbf6-d2a3-3e40-9c6a-3a5b868d4bfe/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202003%E2%80%9004%E2%80%9018%3A%20Inferno%20Festival%2C%20Oslo%2C%20Norway"
+  },
+  {
+    "id": "d0461c0a-849c-4059-835b-2b186722e385",
+    "name": "Var kommer barnen in (live)",
+    "primaryType": "Single",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2014-08-26",
+    "releaseYear": "2014",
+    "coverUrl": "https://coverartarchive.org/release-group/d0461c0a-849c-4059-835b-2b186722e385/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Var%20kommer%20barnen%20in%20(live)"
+  },
+  {
+    "id": "d50a27f5-73c8-325e-875e-2470728c9d20",
+    "name": "Welcome to the Drapery Falls Cafe",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/d50a27f5-73c8-325e-875e-2470728c9d20/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Welcome%20to%20the%20Drapery%20Falls%20Cafe"
+  },
+  {
+    "id": "d6e2ef6a-67c9-4d6d-b172-80178f6042f3",
+    "name": "The Devil’s Orchard: Live at Rock Hard Festival 2009",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2011-08",
+    "releaseYear": "2011",
+    "coverUrl": "https://coverartarchive.org/release-group/d6e2ef6a-67c9-4d6d-b172-80178f6042f3/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Devil%E2%80%99s%20Orchard%3A%20Live%20at%20Rock%20Hard%20Festival%202009"
+  },
+  {
+    "id": "d7605e9c-8a96-4a41-9cf6-f45f80de112f",
+    "name": "Pale Communion",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2014-06-17",
+    "releaseYear": "2014",
+    "coverUrl": "https://coverartarchive.org/release-group/d7605e9c-8a96-4a41-9cf6-f45f80de112f/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Pale%20Communion"
+  },
+  {
+    "id": "d7fc1e26-f4e6-44a4-bda8-08403ca25b7c",
+    "name": "The Wilde Flowers",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2016-09-21",
+    "releaseYear": "2016",
+    "coverUrl": "https://coverartarchive.org/release-group/d7fc1e26-f4e6-44a4-bda8-08403ca25b7c/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Wilde%20Flowers"
+  },
+  {
+    "id": "da8433e6-a5df-3d6b-bf27-4aa069e8adee",
+    "name": "My Arms, Your Hearse",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "1998-06-15",
+    "releaseYear": "1998",
+    "coverUrl": "https://coverartarchive.org/release-group/da8433e6-a5df-3d6b-bf27-4aa069e8adee/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20My%20Arms%2C%20Your%20Hearse"
+  },
+  {
+    "id": "dfddf6d4-06ca-4e09-abdb-40d1eb79b910",
+    "name": "The Last Will and Testament",
+    "primaryType": "Album",
+    "secondaryTypes": [],
+    "releaseDate": "2024-11-22",
+    "releaseYear": "2024",
+    "coverUrl": "https://coverartarchive.org/release-group/dfddf6d4-06ca-4e09-abdb-40d1eb79b910/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20The%20Last%20Will%20and%20Testament"
+  },
+  {
+    "id": "e1d8c7ab-3da1-39fa-9b66-f79b6ce619ec",
+    "name": "Apostle in Triumph",
+    "primaryType": "Other",
+    "secondaryTypes": [
+      "Demo"
+    ],
+    "releaseDate": "1993",
+    "releaseYear": "1993",
+    "coverUrl": "https://coverartarchive.org/release-group/e1d8c7ab-3da1-39fa-9b66-f79b6ce619ec/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Apostle%20in%20Triumph"
+  },
+  {
+    "id": "e8229170-3a92-4971-b5e6-eb498b5b4025",
+    "name": "Ghost of Perdition (live)",
+    "primaryType": "Single",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "2018-10-19",
+    "releaseYear": "2018",
+    "coverUrl": "https://coverartarchive.org/release-group/e8229170-3a92-4971-b5e6-eb498b5b4025/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Ghost%20of%20Perdition%20(live)"
+  },
+  {
+    "id": "e8272b2d-aff2-3cbb-b71f-02e15db5f32f",
+    "name": "Mellotron Heart",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2008-06-03",
+    "releaseYear": "2008",
+    "coverUrl": "https://coverartarchive.org/release-group/e8272b2d-aff2-3cbb-b71f-02e15db5f32f/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Mellotron%20Heart"
+  },
+  {
+    "id": "e844db73-e4a5-4368-b555-7f6756302c12",
+    "name": "Peaceville Presents… Opeth",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2013-05-20",
+    "releaseYear": "2013",
+    "coverUrl": "https://coverartarchive.org/release-group/e844db73-e4a5-4368-b555-7f6756302c12/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Peaceville%20Presents%E2%80%A6%20Opeth"
+  },
+  {
+    "id": "e99c1787-118b-4e99-8800-f0a8fecaa749",
+    "name": "Porcelain Heart",
+    "primaryType": "Single",
+    "secondaryTypes": [],
+    "releaseDate": "2008-04-19",
+    "releaseYear": "2008",
+    "coverUrl": "https://coverartarchive.org/release-group/e99c1787-118b-4e99-8800-f0a8fecaa749/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Porcelain%20Heart"
+  },
+  {
+    "id": "f1cb012c-81c7-47bb-b5f2-7a85c399c029",
+    "name": "Deliverance & Damnation",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Compilation"
+    ],
+    "releaseDate": "2015-10-30",
+    "releaseYear": "2015",
+    "coverUrl": "https://coverartarchive.org/release-group/f1cb012c-81c7-47bb-b5f2-7a85c399c029/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%20Deliverance%20%26%20Damnation"
+  },
+  {
+    "id": "fac831df-c99c-3b89-9d8d-cbb128550aca",
+    "name": "2009‐02‐16: Pakkahuone, Tampere, Finland",
+    "primaryType": "Album",
+    "secondaryTypes": [
+      "Live"
+    ],
+    "releaseDate": "",
+    "releaseYear": "",
+    "coverUrl": "https://coverartarchive.org/release-group/fac831df-c99c-3b89-9d8d-cbb128550aca/front-250",
+    "spotifyUrl": "https://open.spotify.com/search/Opeth%202009%E2%80%9002%E2%80%9016%3A%20Pakkahuone%2C%20Tampere%2C%20Finland"
+  }
+]
