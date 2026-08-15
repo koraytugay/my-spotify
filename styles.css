@@ -16,9 +16,6 @@
     --radius-lg: 12px;
     --radius-full: 9999px;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    
-    --link-underline-internal: #000000;
-    --link-underline-spotify: #1db954;
 }
 
 body.dark-mode {
@@ -34,9 +31,6 @@ body.dark-mode {
     --accent-light: rgba(29, 185, 84, 0.18);
     --border: #333333;
     --card-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    
-    --link-underline-internal: #ffffff;
-    --link-underline-spotify: #1db954;
 }
 
 * {
@@ -62,32 +56,11 @@ body {
 
 /* ----------------------------------------------------
    LINKS & TYPOGRAPHY
-   Links ALWAYS have an underline.
-   - If opening Spotify: Spotify green underline.
-   - If staying on own page (internal): Black (white in dark mode).
+   Links always have a clean, clear underline.
    ---------------------------------------------------- */
 a {
     color: var(--text-primary);
     text-decoration: underline;
-    text-decoration-color: var(--link-underline-internal);
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
-}
-
-/* Spotify Links (Open in Spotify) -> Spotify Green Underline */
-a[href*="spotify.com"],
-a[href^="spotify:"],
-a.spotify-link {
-    text-decoration: underline !important;
-    text-decoration-color: var(--link-underline-spotify) !important;
-    text-decoration-thickness: 1.5px;
-    text-underline-offset: 3px;
-}
-
-/* Internal / Stays on Page Links -> Black / White Underline */
-a:not([href*="spotify.com"]):not([href^="spotify:"]):not(.spotify-link):not(.btn):not(.nav-link):not(.spotify-icon-btn):not(.cover-wrapper a):not(.modal-close) {
-    text-decoration: underline;
-    text-decoration-color: var(--link-underline-internal);
     text-decoration-thickness: 1.5px;
     text-underline-offset: 3px;
 }
@@ -116,9 +89,10 @@ a:not([href*="spotify.com"]):not([href^="spotify:"]):not(.spotify-link):not(.btn
 .nav-link,
 .btn,
 .spotify-icon-btn,
+.spotify-pill-btn,
 .cover-wrapper a,
 .modal-close {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* Header */
@@ -544,6 +518,33 @@ header {
     width: 16px;
     height: 16px;
     fill: #000000;
+}
+
+/* Spotify Pill Button */
+.spotify-pill-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: var(--radius-full);
+    background: var(--accent);
+    color: #000000 !important;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    cursor: pointer;
+    border: none;
+    line-height: 1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.spotify-pill-btn svg {
+    display: block;
+    width: 14px;
+    height: 14px;
+    fill: #000000;
+    flex-shrink: 0;
 }
 
 /* Modal */
