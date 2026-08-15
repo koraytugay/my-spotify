@@ -17,42 +17,51 @@ async function init() {
             getStats()
         ]);
 
-        if (profile?.displayName) {
-            document.getElementById('user-info').innerHTML = `
+        const userInfoEl = document.getElementById('user-info');
+        if (userInfoEl && profile?.displayName) {
+            userInfoEl.innerHTML = `
                 Archived for <a href="${profile.spotifyUrl || '#'}" target="_blank">@${profile.displayName}</a>
             `;
         }
 
-        allSongs = songs || [];
+        allSongs = Array.isArray(songs) ? songs : [];
         filteredSongs = [...allSongs];
 
         populateDecadeFilter();
         updateRibbon(stats);
         sortSongs(currentSort);
 
-        loadingEl.style.display = 'none';
-        statsRibbonEl.style.display = 'grid';
-        controlsEl.style.display = 'flex';
+        if (loadingEl) loadingEl.style.display = 'none';
+        if (statsRibbonEl) statsRibbonEl.style.display = 'grid';
+        if (controlsEl) controlsEl.style.display = 'flex';
 
         loadThemePreference();
     } catch (e) {
         console.error('Error initializing:', e);
-        loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load local data. Run <code>npm run sync</code> first.</p>`;
+        if (loadingEl) {
+            loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load local data (${e.message}). Run <code>npm run sync</code> first.</p>`;
+        }
     }
 }
 
 function updateRibbon(stats) {
-    document.getElementById('total-songs').textContent = (allSongs.length).toLocaleString();
+    const totalSongsEl = document.getElementById('total-songs');
+    if (totalSongsEl) totalSongsEl.textContent = (allSongs.length).toLocaleString();
     
     if (stats) {
-        document.getElementById('total-artists').textContent = (stats.uniqueArtistsCount || 0).toLocaleString();
-        document.getElementById('total-albums').textContent = (stats.totalSavedAlbums || 0).toLocaleString();
-        document.getElementById('top-artist-name').textContent = stats.topLikedArtists?.[0]?.name || '-';
+        const totalArtistsEl = document.getElementById('total-artists');
+        if (totalArtistsEl) totalArtistsEl.textContent = (stats.uniqueArtistsCount || 0).toLocaleString();
+        const totalAlbumsEl = document.getElementById('total-albums');
+        if (totalAlbumsEl) totalAlbumsEl.textContent = (stats.totalSavedAlbums || 0).toLocaleString();
+        const topArtistNameEl = document.getElementById('top-artist-name');
+        if (topArtistNameEl) topArtistNameEl.textContent = stats.topLikedArtists?.[0]?.name || '-';
     } else {
         const artists = new Set();
         allSongs.forEach(s => s.artists?.forEach(a => artists.add(a.name)));
-        document.getElementById('total-artists').textContent = artists.size.toLocaleString();
-        document.getElementById('total-albums').textContent = '0';
+        const totalArtistsEl = document.getElementById('total-artists');
+        if (totalArtistsEl) totalArtistsEl.textContent = artists.size.toLocaleString();
+        const totalAlbumsEl = document.getElementById('total-albums');
+        if (totalAlbumsEl) totalAlbumsEl.textContent = '0';
     }
 }
 
