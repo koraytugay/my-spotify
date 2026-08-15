@@ -117,7 +117,6 @@ function sortSongs(criteria) {
 function applyFilters() {
     const search = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
     const decade = document.getElementById('decade-filter')?.value || 'all';
-    const previewsOnly = document.getElementById('previews-only')?.checked || false;
 
     filteredSongs = allSongs.filter(song => {
         // Search
@@ -134,9 +133,6 @@ function applyFilters() {
             const year = parseInt(song.album?.releaseYear, 10);
             if (isNaN(year) || Math.floor(year / 10) * 10 !== decNum) return false;
         }
-
-        // Previews only
-        if (previewsOnly && !song.previewUrl) return false;
 
         return true;
     });

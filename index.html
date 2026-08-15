@@ -73,17 +73,6 @@
                 </div>
 
                 <div class="control-group">
-                    <label for="view-mode">View:</label>
-                    <select id="view-mode" onchange="changeViewMode(this.value)">
-                        <option value="list" selected>List</option>
-                        <option value="grid">Grid</option>
-                        <option value="compact">Compact</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="controls-row">
-                <div class="control-group">
                     <label for="decade-filter">Decade:</label>
                     <select id="decade-filter" onchange="applyFilters()">
                         <option value="all">All Decades</option>
@@ -91,10 +80,12 @@
                 </div>
 
                 <div class="control-group">
-                    <label class="checkbox-toggle">
-                        <input type="checkbox" id="previews-only" onchange="applyFilters()">
-                        Has Preview Audio
-                    </label>
+                    <label for="view-mode">View:</label>
+                    <select id="view-mode" onchange="changeViewMode(this.value)">
+                        <option value="list" selected>List</option>
+                        <option value="grid">Grid</option>
+                        <option value="compact">Compact</option>
+                    </select>
                 </div>
 
                 <div class="control-group" style="margin-left: auto;">
