@@ -74,3 +74,9 @@ async function getPlaylistById(id) {
     const playlists = await getPlaylists();
     return playlists.find(p => p.id === id) || null;
 }
+
+async function getArtistDiscography(artistId) {
+    if (!artistId) return [];
+    const disco = await fetchJson(`data/artists/${artistId}.json`);
+    return disco || [];
+}

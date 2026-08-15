@@ -17,11 +17,12 @@ async function initArtistDetail() {
     }
 
     try {
-        const [followedArtists, topArtists, savedAlbums, likedSongs] = await Promise.all([
+        const [followedArtists, topArtists, savedAlbums, likedSongs, discography] = await Promise.all([
             getFollowedArtists(),
             getTopArtists(),
             getSavedAlbums(),
-            getLikedSongs()
+            getLikedSongs(),
+            getArtistDiscography(artistId)
         ]);
 
         const allArtistsList = [...followedArtists, ...topArtists];
@@ -43,8 +44,7 @@ async function initArtistDetail() {
         }
 
         artistInfo = matchedArtist;
-
-        const canonicalName = artistInfo.name.toLowerCase();
+        const canonicalName = (artistInfo.name || '').toLowerCase().trim();
 
         // Helper to check if artist is in artist array or string
         const isMatchingArtist = (artistsArr, artistNamesStr) => {
@@ -54,51 +54,117 @@ async function initArtistDetail() {
             return false;
         };
 
-        // 1. Gather albums from Saved Albums
         const albumMap = new Map();
+        const savedAlbumNameSet = new Set();
+        const savedAlbumIdSet = new Set();
 
+        // 1. Gather Saved Albums from Spotify Library
         (savedAlbums || []).forEach(a => {
             if (isMatchingArtist(a.artists, a.artistNames)) {
-                const key = a.id || a.name.toLowerCase();
+                const normName = (a.name || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+                savedAlbumNameSet.add(normName);
+                if (a.id) savedAlbumIdSet.add(a.id);
+
+                const key = normName || a.id;
                 albumMap.set(key, {
                     id: a.id,
                     name: a.name,
-                    artists: a.artists,
                     artistNames: a.artistNames || artistInfo.name,
                     coverUrl: a.coverUrl,
                     releaseYear: a.releaseYear,
-                    releaseDate: a.releaseDate,
+                    releaseDate: a.releaseDate || (a.releaseYear ? `${a.releaseYear}-01-01` : ''),
                     totalTracks: a.totalTracks || 0,
-                    spotifyUrl: a.spotifyUrl,
+                    spotifyUrl: a.spotifyUrl || `https://open.spotify.com/album/${a.id}`,
+                    isSaved: true,
                     source: 'saved_album'
                 });
             }
         });
 
-        // 2. Gather additional albums from Liked Songs
+        // 2. Gather Liked Songs Albums
         let likedTrackCount = 0;
         (likedSongs || []).forEach(s => {
             if (isMatchingArtist(s.artists, s.artistNames)) {
                 likedTrackCount++;
                 if (s.album && s.album.name) {
-                    const key = s.album.id || s.album.name.toLowerCase();
+                    const normName = (s.album.name || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+                    const key = normName || s.album.id;
                     if (!albumMap.has(key)) {
                         albumMap.set(key, {
                             id: s.album.id,
                             name: s.album.name,
-                            artists: s.artists,
                             artistNames: s.artistNames || artistInfo.name,
                             coverUrl: s.album.coverUrl || s.coverUrl,
                             releaseYear: s.album.releaseYear,
-                            releaseDate: s.album.releaseDate,
+                            releaseDate: s.album.releaseDate || (s.album.releaseYear ? `${s.album.releaseYear}-01-01` : ''),
                             totalTracks: s.album.totalTracks || 0,
-                            spotifyUrl: s.album.id ? `https://open.spotify.com/album/${s.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(s.album.name)}`,
+                            spotifyUrl: s.album.id ? `https://open.spotify.com/album/${s.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name + ' ' + s.album.name)}`,
+                            isSaved: savedAlbumIdSet.has(s.album.id) || savedAlbumNameSet.has(normName),
                             source: 'liked_songs'
                         });
                     }
                 }
             }
         });
+
+        // 3. Add Pre-synced Spotify Discography if available
+        (discography || []).forEach(d => {
+            const normName = (d.name || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+            const key = normName || d.id;
+            const existing = albumMap.get(key) || {};
+            const isSaved = existing.isSaved || savedAlbumIdSet.has(d.id) || savedAlbumNameSet.has(normName);
+            albumMap.set(key, {
+                ...existing,
+                id: d.id || existing.id,
+                name: d.name || existing.name,
+                artistNames: artistInfo.name,
+                coverUrl: d.coverUrl || existing.coverUrl,
+                releaseYear: d.releaseYear || existing.releaseYear,
+                releaseDate: d.releaseDate || existing.releaseDate,
+                totalTracks: d.totalTracks || existing.totalTracks || 0,
+                spotifyUrl: d.spotifyUrl || existing.spotifyUrl || `https://open.spotify.com/album/${d.id}`,
+                isSaved: isSaved,
+                albumType: d.albumType,
+                source: 'discography'
+            });
+        });
+
+        // 4. Fetch Complete Discography from Public Catalog API for 100% full coverage
+        try {
+            const publicCatalogUrl = `https://itunes.apple.com/search?term=${encodeURIComponent(artistInfo.name)}&entity=album&limit=100`;
+            const catRes = await fetch(publicCatalogUrl);
+            if (catRes.ok) {
+                const catData = await catRes.json();
+                (catData.results || []).forEach(alb => {
+                    const albArtist = (alb.artistName || '').toLowerCase().trim();
+                    // Match artist name
+                    if (albArtist === canonicalName || albArtist.includes(canonicalName) || canonicalName.includes(albArtist)) {
+                        const normName = (alb.collectionName || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
+                        const key = normName || alb.collectionId;
+                        if (!albumMap.has(key)) {
+                            const releaseDate = alb.releaseDate ? alb.releaseDate.substring(0, 10) : '';
+                            const releaseYear = releaseDate ? releaseDate.substring(0, 4) : '';
+                            const hiresCover = (alb.artworkUrl100 || '').replace('100x100bb', '600x600bb');
+                            const isSaved = savedAlbumNameSet.has(normName);
+                            albumMap.set(key, {
+                                id: '',
+                                name: alb.collectionName,
+                                artistNames: artistInfo.name,
+                                coverUrl: hiresCover || 'https://via.placeholder.com/300x300?text=Album',
+                                releaseYear: releaseYear,
+                                releaseDate: releaseDate,
+                                totalTracks: alb.trackCount || 0,
+                                spotifyUrl: `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name + ' ' + alb.collectionName)}`,
+                                isSaved: isSaved,
+                                source: 'catalog'
+                            });
+                        }
+                    }
+                });
+            }
+        } catch (catErr) {
+            console.warn('Could not fetch external catalog:', catErr.message);
+        }
 
         allArtistAlbums = Array.from(albumMap.values());
         filteredAlbums = [...allArtistAlbums];
@@ -113,16 +179,23 @@ async function initArtistDetail() {
         if (savedTheme === 'dark') document.body.classList.add('dark-mode');
 
         // Populate Hero Header
-        document.getElementById('page-heading').textContent = artistInfo.name;
-        document.getElementById('hero-title').textContent = artistInfo.name;
-        document.getElementById('hero-img').src = artistInfo.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
+        const pageHeadingEl = document.getElementById('page-heading');
+        if (pageHeadingEl) pageHeadingEl.textContent = artistInfo.name;
+
+        const heroTitleEl = document.getElementById('hero-title');
+        if (heroTitleEl) heroTitleEl.textContent = artistInfo.name;
+
+        const heroImgEl = document.getElementById('hero-img');
+        if (heroImgEl) heroImgEl.src = artistInfo.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
         
         const genresText = (artistInfo.genres && artistInfo.genres.length > 0) 
             ? artistInfo.genres.join(' · ') 
             : 'Artist';
-        document.getElementById('hero-genres').textContent = genresText;
+        const heroGenresEl = document.getElementById('hero-genres');
+        if (heroGenresEl) heroGenresEl.textContent = genresText;
 
-        document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} ${allArtistAlbums.length === 1 ? 'album' : 'albums'}`;
+        const savedCount = allArtistAlbums.filter(a => a.isSaved).length;
+        document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} albums (${savedCount} saved)`;
         document.getElementById('hero-track-count').textContent = `${likedTrackCount} liked ${likedTrackCount === 1 ? 'song' : 'songs'}`;
 
         const spotifyUrl = artistInfo.spotifyUrl || (artistInfo.id ? `https://open.spotify.com/artist/${artistInfo.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name)}`);
@@ -205,6 +278,10 @@ function renderArtistAlbums() {
         const artistName = artistInfo ? artistInfo.name : (a.artistNames || 'Artist');
         const releaseYear = a.releaseYear ? ` (${a.releaseYear})` : '';
 
+        const savedBadgeHtml = a.isSaved
+            ? `<span class="badge" style="background: var(--accent-light); color: var(--accent);">Saved</span>`
+            : '';
+
         card.innerHTML = `
             <div class="cover-wrapper">
                 <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
@@ -216,7 +293,8 @@ function renderArtistAlbums() {
                 <div class="song-artist">${artistName}<span class="album-year">${releaseYear}</span></div>
             </div>
             <div class="song-meta">
-                ${a.totalTracks ? `<span>${a.totalTracks} tracks</span>` : ''}
+                ${a.totalTracks ? `<span>${a.totalTracks} tracks</span>` : '<span>Album</span>'}
+                ${savedBadgeHtml}
             </div>
         `;
 

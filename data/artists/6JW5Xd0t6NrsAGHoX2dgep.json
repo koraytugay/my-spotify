@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0yNd3kCuWGRVVtziPIQynv",
+    "name": "Ayrılmayalım",
+    "albumType": "album",
+    "releaseDate": "2006-07-31",
+    "releaseYear": "2006",
+    "totalTracks": 11,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737adc559e7fe77940b9caf1ef",
+    "spotifyUrl": "https://open.spotify.com/album/0yNd3kCuWGRVVtziPIQynv"
+  },
+  {
+    "id": "232C3abUdgOjO1KjlcPDaX",
+    "name": "Unuttum Sanma",
+    "albumType": "album",
+    "releaseDate": "1999-06-17",
+    "releaseYear": "1999",
+    "totalTracks": 11,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ddd788d061c20f127b8884a2",
+    "spotifyUrl": "https://open.spotify.com/album/232C3abUdgOjO1KjlcPDaX"
+  },
+  {
+    "id": "2RHGvQqJdwtRd6OLepwThu",
+    "name": "Sonuna Kadar",
+    "albumType": "album",
+    "releaseDate": "1995-12-27",
+    "releaseYear": "1995",
+    "totalTracks": 10,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737aa72bbe4feb8333c82f2bef",
+    "spotifyUrl": "https://open.spotify.com/album/2RHGvQqJdwtRd6OLepwThu"
+  },
+  {
+    "id": "4tddjSEgdqlYYDVAfjll5j",
+    "name": "Aşkın Yetmez",
+    "albumType": "album",
+    "releaseDate": "1993-12-09",
+    "releaseYear": "1993",
+    "totalTracks": 11,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273403b149d9bfa8bf3e8de1b48",
+    "spotifyUrl": "https://open.spotify.com/album/4tddjSEgdqlYYDVAfjll5j"
+  },
+  {
+    "id": "4GdODtH2NQm8oh2jjkcmx2",
+    "name": "Üzülme",
+    "albumType": "single",
+    "releaseDate": "2024-06-25",
+    "releaseYear": "2024",
+    "totalTracks": 1,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273125e77a799152e0e4a354946",
+    "spotifyUrl": "https://open.spotify.com/album/4GdODtH2NQm8oh2jjkcmx2"
+  }
+]
