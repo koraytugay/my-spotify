@@ -1,7 +1,6 @@
 let allArtists = [];
 let filteredArtists = [];
 let currentSort = 'name-asc';
-let currentViewMode = 'compact';
 
 async function initArtists() {
     const loadingEl = document.getElementById('loading');
@@ -88,14 +87,6 @@ function renderArtists() {
     const grid = document.getElementById('artists-grid');
     const noResults = document.getElementById('no-results');
 
-    if (currentViewMode === 'grid') {
-        grid.className = 'music-grid';
-    } else if (currentViewMode === 'compact') {
-        grid.className = 'music-grid view-compact';
-    } else if (currentViewMode === 'list') {
-        grid.className = 'music-grid view-list';
-    }
-
     if (filteredArtists.length === 0) {
         grid.innerHTML = '';
         noResults.style.display = 'block';
@@ -107,42 +98,30 @@ function renderArtists() {
 
     filteredArtists.forEach(art => {
         const card = document.createElement('div');
-        card.className = 'artist-card';
-        const image = art.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
+        card.className = 'song-card';
+        const cover = art.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
         const url = art.spotifyUrl || (art.id ? `https://open.spotify.com/artist/${art.id}` : '#');
-
-        const genresHtml = (art.genres && art.genres.length > 0)
-            ? art.genres.slice(0, 3).map(g => `<span class="genre-pill">${g}</span>`).join('')
-            : '';
+        const genresText = (art.genres && art.genres.length > 0)
+            ? art.genres.slice(0, 2).join(', ')
+            : 'Artist';
 
         card.innerHTML = `
-            <div class="artist-avatar-wrapper">
-                <img src="${image}" alt="${art.name}" class="artist-avatar-img" loading="lazy">
+            <div class="cover-wrapper">
+                <img src="${cover}" alt="${art.name}" class="cover-img" loading="lazy">
             </div>
-            <div class="artist-card-info">
-                <div class="artist-card-name">
+            <div class="song-details">
+                <div class="song-title">
                     <a href="${url}" target="_blank" class="song-title-link">${art.name}</a>
                 </div>
-                ${genresHtml ? `<div class="artist-card-genres">${genresHtml}</div>` : ''}
+                <div class="song-artist">${genresText}</div>
+            </div>
+            <div class="song-meta">
+                <span>${art.followers ? art.followers.toLocaleString() + ' followers' : 'Followed'}</span>
             </div>
         `;
 
         grid.appendChild(card);
     });
-}
-
-function changeViewMode(mode) {
-    currentViewMode = mode;
-    renderArtists();
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
 }
 
 document.addEventListener('DOMContentLoaded', initArtists);

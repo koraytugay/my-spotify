@@ -48,25 +48,11 @@
                         <option value="followers-desc">Followers (Most)</option>
                     </select>
                 </div>
-                <div class="control-group">
-                    <label for="view-mode">View:</label>
-                    <select id="view-mode" onchange="changeViewMode(this.value)">
-                        <option value="compact" selected>Compact</option>
-                        <option value="grid">Grid</option>
-                        <option value="list">List</option>
-                    </select>
-                </div>
-                <div class="control-group" style="margin-left: auto;">
-                    <label class="checkbox-toggle">
-                        <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
-                        Dark Mode
-                    </label>
-                </div>
             </div>
         </div>
 
         <!-- Artists Grid -->
-        <div id="artists-grid" class="music-grid view-compact"></div>
+        <div id="artists-grid" class="music-grid"></div>
         <div id="no-results" class="empty-box" style="display: none;">
             <h3>No artists found</h3>
         </div>
