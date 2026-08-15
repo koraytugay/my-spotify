@@ -124,7 +124,34 @@ async function initArtistDetail() {
 
         document.getElementById('hero-spotify-link').href = spotifyUrl;
 
-        sortArtistContent(currentSort);
+        // Default sort chronologically (Oldest to Newest)
+        allArtistAlbums.sort((a, b) => {
+            const yearA = parseInt(a.releaseYear) || 0;
+            const yearB = parseInt(b.releaseYear) || 0;
+            if (yearA !== yearB) return yearA - yearB;
+            const dateA = a.releaseDate || '';
+            const dateB = b.releaseDate || '';
+            const cmpDate = dateA.localeCompare(dateB);
+            if (cmpDate !== 0) return cmpDate;
+            return (a.name || '').localeCompare(b.name || '');
+        });
+
+        allArtistSongs.sort((a, b) => {
+            const yearA = parseInt(a.album?.releaseYear) || 0;
+            const yearB = parseInt(b.album?.releaseYear) || 0;
+            if (yearA !== yearB) return yearA - yearB;
+            const dateA = a.album?.releaseDate || '';
+            const dateB = b.album?.releaseDate || '';
+            const cmpDate = dateA.localeCompare(dateB);
+            if (cmpDate !== 0) return cmpDate;
+            return (a.name || '').localeCompare(b.name || '');
+        });
+
+        filteredAlbums = [...allArtistAlbums];
+        filteredSongs = [...allArtistSongs];
+
+        renderArtistAlbums();
+        renderArtistSongs();
 
         loadingEl.style.display = 'none';
         viewEl.style.display = 'block';
@@ -133,94 +160,6 @@ async function initArtistDetail() {
         console.error('Error loading artist details:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Error loading artist content: ${e.message}</p>`;
     }
-}
-
-function sortArtistContent(criteria) {
-    currentSort = criteria;
-    
-    // Sort Albums
-    allArtistAlbums.sort((a, b) => {
-        switch (criteria) {
-            case 'year-asc': {
-                const yearA = parseInt(a.releaseYear) || 0;
-                const yearB = parseInt(b.releaseYear) || 0;
-                if (yearA !== yearB) return yearA - yearB;
-                const dateA = a.releaseDate || '';
-                const dateB = b.releaseDate || '';
-                const cmpDate = dateA.localeCompare(dateB);
-                if (cmpDate !== 0) return cmpDate;
-                return (a.name || '').localeCompare(b.name || '');
-            }
-            case 'year-desc': {
-                const yearA = parseInt(a.releaseYear) || 0;
-                const yearB = parseInt(b.releaseYear) || 0;
-                if (yearA !== yearB) return yearB - yearA;
-                const dateA = a.releaseDate || '';
-                const dateB = b.releaseDate || '';
-                return dateB.localeCompare(dateA);
-            }
-            case 'name-asc':
-                return (a.name || '').localeCompare(b.name || '');
-            default:
-                return 0;
-        }
-    });
-
-    // Sort Liked Songs
-    allArtistSongs.sort((a, b) => {
-        switch (criteria) {
-            case 'year-asc': {
-                const yearA = parseInt(a.album?.releaseYear) || 0;
-                const yearB = parseInt(b.album?.releaseYear) || 0;
-                if (yearA !== yearB) return yearA - yearB;
-                const dateA = a.album?.releaseDate || '';
-                const dateB = b.album?.releaseDate || '';
-                const cmpDate = dateA.localeCompare(dateB);
-                if (cmpDate !== 0) return cmpDate;
-                return (a.name || '').localeCompare(b.name || '');
-            }
-            case 'year-desc': {
-                const yearA = parseInt(a.album?.releaseYear) || 0;
-                const yearB = parseInt(b.album?.releaseYear) || 0;
-                if (yearA !== yearB) return yearB - yearA;
-                const dateA = a.album?.releaseDate || '';
-                const dateB = b.album?.releaseDate || '';
-                return dateB.localeCompare(dateA);
-            }
-            case 'name-asc':
-                return (a.name || '').localeCompare(b.name || '');
-            default:
-                return 0;
-        }
-    });
-
-    filterArtistContent();
-}
-
-function filterArtistContent() {
-    const search = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
-
-    filteredAlbums = allArtistAlbums.filter(a => {
-        if (search) {
-            const matchName = (a.name || '').toLowerCase().includes(search);
-            const matchYear = (a.releaseYear || '').toString().includes(search);
-            if (!matchName && !matchYear) return false;
-        }
-        return true;
-    });
-
-    filteredSongs = allArtistSongs.filter(s => {
-        if (search) {
-            const matchTitle = (s.name || '').toLowerCase().includes(search);
-            const matchAlbum = (s.album?.name || '').toLowerCase().includes(search);
-            const matchYear = (s.album?.releaseYear || '').toString().includes(search);
-            if (!matchTitle && !matchAlbum && !matchYear) return false;
-        }
-        return true;
-    });
-
-    renderArtistAlbums();
-    renderArtistSongs();
 }
 
 function renderArtistAlbums() {

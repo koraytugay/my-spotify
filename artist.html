@@ -119,24 +119,6 @@
                 </div>
             </div>
 
-            <!-- Controls -->
-            <div class="controls-card">
-                <div class="controls-row">
-                    <div class="control-group search-group">
-                        <label for="search-input">Search:</label>
-                        <input type="text" id="search-input" placeholder="Search albums and songs..." oninput="filterArtistContent()">
-                    </div>
-                    <div class="control-group">
-                        <label for="sort-select">Sort:</label>
-                        <select id="sort-select" onchange="sortArtistContent(this.value)">
-                            <option value="year-asc" selected>Release Date (Oldest to Newest)</option>
-                            <option value="year-desc">Release Date (Newest to Oldest)</option>
-                            <option value="name-asc">Title (A-Z)</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
             <!-- Albums Section -->
             <div id="albums-section">
                 <h3 class="section-heading">💿 Albums <span id="albums-count-badge" class="section-count">0</span></h3>
