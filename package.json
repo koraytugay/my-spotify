@@ -1,0 +1,21 @@
+{
+  "name": "my-spotify",
+  "version": "1.0.0",
+  "description": "Personal Spotify collection, backup, and statistics static website",
+  "type": "module",
+  "main": "sync.js",
+  "scripts": {
+    "auth": "node auth.js",
+    "sync": "node sync.js",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "spotify",
+    "backup",
+    "collection",
+    "music",
+    "stats"
+  ],
+  "author": "Koray Tugay",
+  "license": "ISC"
+}

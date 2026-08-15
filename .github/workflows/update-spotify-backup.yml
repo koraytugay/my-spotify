@@ -1,0 +1,55 @@
+name: Update Spotify Backup & Collection
+
+on:
+  schedule:
+    # Runs daily at 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: spotify-collection-sync
+  cancel-in-progress: false
+
+jobs:
+  backup-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fetch and Backup Spotify Data
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          set -euo pipefail
+          node sync.js
+
+      - name: Commit & Push Changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git pull --rebase --autostash origin ${{ github.ref_name }}
+
+          git add data/
+
+          if git diff --quiet --staged; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore(backup): update spotify collection and liked songs archive ($(date -u +%F))"
+          git push

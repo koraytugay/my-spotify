@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spotify Collection - Liked Songs</title>
+    <meta name="description" content="Personal backup, visual collection, and statistics for Spotify Liked Songs">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-title">
+                <svg class="spotify-icon" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                </svg>
+                <h1>My Spotify Collection</h1>
+            </div>
+            <p class="user-subtitle" id="user-info">Liked Songs Archive</p>
+            
+            <nav class="page-nav">
+                <a href="index.html" class="nav-link active">💚 Liked Songs</a>
+                <a href="playlists.html" class="nav-link">📑 Playlists</a>
+                <a href="albums.html" class="nav-link">💿 Saved Albums</a>
+                <a href="stats.html" class="nav-link">📊 Statistics</a>
+                <a href="history.html" class="nav-link">📅 Timeline</a>
+                <button id="random-song-btn" class="nav-link nav-button">🎲 Random Song</button>
+            </nav>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading-box">
+            <div class="spinner"></div>
+            <p>Loading your Spotify collection archive...</p>
+        </div>
+
+        <!-- Quick Stats Ribbon -->
+        <div id="stats-ribbon" class="stats-ribbon" style="display: none;">
+            <div class="stat-card">
+                <span class="stat-number" id="total-songs">0</span>
+                <span class="stat-label">Liked Songs</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-artists">0</span>
+                <span class="stat-label">Unique Artists</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-duration">0h</span>
+                <span class="stat-label">Total Duration</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="top-artist-name">-</span>
+                <span class="stat-label">Top Artist</span>
+            </div>
+        </div>
+
+        <!-- Controls & Filters -->
+        <div id="controls" class="controls-card" style="display: none;">
+            <div class="controls-row">
+                <div class="control-group search-group">
+                    <label for="search-input">Search:</label>
+                    <input type="text" id="search-input" placeholder="Search track, artist, album..." oninput="applyFilters()">
+                </div>
+
+                <div class="control-group">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select" onchange="sortSongs(this.value)">
+                        <option value="added-desc">Date Liked (Newest)</option>
+                        <option value="added-asc">Date Liked (Oldest)</option>
+                        <option value="name-asc">Title (A-Z)</option>
+                        <option value="artist-asc">Artist (A-Z)</option>
+                        <option value="year-desc">Release Year (Newest)</option>
+                        <option value="year-asc">Release Year (Oldest)</option>
+                        <option value="duration-desc">Duration (Longest)</option>
+                        <option value="duration-asc">Duration (Shortest)</option>
+                        <option value="popularity-desc">Popularity</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="view-mode">View:</label>
+                    <select id="view-mode" onchange="changeViewMode(this.value)">
+                        <option value="grid">Grid</option>
+                        <option value="compact">Compact</option>
+                        <option value="list">List</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="controls-row">
+                <div class="control-group">
+                    <label for="decade-filter">Decade:</label>
+                    <select id="decade-filter" onchange="applyFilters()">
+                        <option value="all">All Decades</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="duration-filter">Duration:</label>
+                    <select id="duration-filter" onchange="applyFilters()">
+                        <option value="all">All Lengths</option>
+                        <option value="short">&lt; 3 mins</option>
+                        <option value="medium">3 - 5 mins</option>
+                        <option value="long">&gt; 5 mins</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label class="checkbox-toggle">
+                        <input type="checkbox" id="previews-only" onchange="applyFilters()">
+                        Has Preview Audio
+                    </label>
+                </div>
+
+                <div class="control-group" style="margin-left: auto;">
+                    <label class="checkbox-toggle">
+                        <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                        Dark Mode
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Grid -->
+        <div id="music-grid" class="music-grid"></div>
+
+        <!-- Empty Results -->
+        <div id="no-results" class="empty-box" style="display: none;">
+            <h3>No tracks found</h3>
+            <p>Try adjusting your search or filters.</p>
+        </div>
+    </div>
+
+    <!-- Random Song Modal -->
+    <div id="random-modal" class="modal" style="display: none;">
+        <div class="modal-overlay" onclick="closeRandomModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeRandomModal()">×</button>
+            <h2>🎲 Random Pick</h2>
+            <div class="random-display">
+                <img id="random-cover" class="random-cover" src="" alt="Album Cover">
+                <h3 id="random-title" style="margin-bottom: 4px;"></h3>
+                <p id="random-artist" style="color: var(--text-secondary); margin-bottom: 12px;"></p>
+                <p id="random-meta" style="color: var(--text-muted); font-size: 0.85rem;"></p>
+            </div>
+            <div class="modal-actions">
+                <button onclick="pickRandomSong()" class="btn btn-secondary">Pick Another</button>
+                <a id="random-spotify-link" href="#" target="_blank" class="btn btn-primary">Open in Spotify</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
