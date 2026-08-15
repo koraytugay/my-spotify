@@ -197,7 +197,7 @@ function createSongCard(song) {
 
     // Track and Radio links
     const trackUrl = song.spotifyUrl || (song.id ? `https://open.spotify.com/track/${song.id}` : '#');
-    const radioUrl = song.id ? `https://open.spotify.com/station/track/${song.id}` : `https://open.spotify.com/search/${encodeURIComponent(song.name + ' radio')}`;
+    const radioUrl = song.id ? `spotify:station:track:${song.id}` : `https://open.spotify.com/search/${encodeURIComponent(song.name + ' radio')}`;
 
     card.innerHTML = `
         <div class="cover-wrapper">
