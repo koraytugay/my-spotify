@@ -1,3 +1,23 @@
+if (typeof getSpotifyUri === 'undefined') {
+    window.getSpotifyUri = function(itemOrUrl, type = 'track') {
+        if (!itemOrUrl) return '#';
+        if (typeof itemOrUrl === 'string') {
+            if (itemOrUrl.startsWith('spotify:')) return itemOrUrl;
+            const match = itemOrUrl.match(/spotify\.com\/(track|album|artist|playlist)\/([a-zA-Z0-9]+)/);
+            if (match) return `spotify:${match[1]}:${match[2]}`;
+            return itemOrUrl;
+        }
+        if (itemOrUrl.uri && itemOrUrl.uri.startsWith('spotify:')) return itemOrUrl.uri;
+        if (itemOrUrl.id) return `spotify:${type}:${itemOrUrl.id}`;
+        if (itemOrUrl.spotifyUrl) {
+            const match = itemOrUrl.spotifyUrl.match(/spotify\.com\/(track|album|artist|playlist)\/([a-zA-Z0-9]+)/);
+            if (match) return `spotify:${match[1]}:${match[2]}`;
+            return itemOrUrl.spotifyUrl;
+        }
+        return '#';
+    };
+}
+
 let allSongs = [];
 let filteredSongs = [];
 let currentSort = 'artist-asc';

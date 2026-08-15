@@ -103,3 +103,18 @@ function getSpotifyUri(itemOrUrl, type = 'track') {
     }
     return '#';
 }
+
+if (typeof window !== 'undefined') {
+    window.getSpotifyUri = getSpotifyUri;
+    window.fetchJson = fetchJson;
+    window.getProfile = getProfile;
+    window.getLikedSongs = getLikedSongs;
+    window.getPlaylists = getPlaylists;
+    window.getSavedAlbums = getSavedAlbums;
+    window.getFollowedArtists = getFollowedArtists;
+    window.getTopArtists = getTopArtists;
+    window.getTopTracks = getTopTracks;
+    window.getStats = getStats;
+    window.getPlaylistById = getPlaylistById;
+    window.getArtistDiscography = getArtistDiscography;
+}
