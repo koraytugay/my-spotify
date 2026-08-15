@@ -1,6 +1,6 @@
 let allAlbums = [];
 let filteredAlbums = [];
-let currentSort = 'name-asc';
+let currentSort = 'artist-asc';
 
 async function initAlbums() {
     const loadingEl = document.getElementById('loading');
@@ -27,11 +27,34 @@ async function initAlbums() {
 function sortAlbums(criteria) {
     currentSort = criteria;
     allAlbums.sort((a, b) => {
-        if (criteria === 'name-asc') return (a.name || '').localeCompare(b.name || '');
-        if (criteria === 'artist-asc') return (a.artistNames || '').localeCompare(b.artistNames || '');
-        if (criteria === 'year-desc') return (parseInt(b.releaseYear) || 0) - (parseInt(a.releaseYear) || 0);
-        if (criteria === 'year-asc') return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0);
-        return 0;
+        switch (criteria) {
+            case 'artist-asc': {
+                const artistA = (a.artists?.[0]?.name || a.artistNames || '').toLowerCase();
+                const artistB = (b.artists?.[0]?.name || b.artistNames || '').toLowerCase();
+                const cmpArtist = artistA.localeCompare(artistB);
+                if (cmpArtist !== 0) return cmpArtist;
+
+                // Within same artist: sort by release date / year
+                const yearA = parseInt(a.releaseYear) || 0;
+                const yearB = parseInt(b.releaseYear) || 0;
+                if (yearA !== yearB) return yearA - yearB;
+                const dateA = a.releaseDate || '';
+                const dateB = b.releaseDate || '';
+                const cmpDate = dateA.localeCompare(dateB);
+                if (cmpDate !== 0) return cmpDate;
+
+                // Within same release date: sort by album name
+                return (a.name || '').localeCompare(b.name || '');
+            }
+            case 'name-asc':
+                return (a.name || '').localeCompare(b.name || '');
+            case 'year-desc':
+                return (parseInt(b.releaseYear) || 0) - (parseInt(a.releaseYear) || 0);
+            case 'year-asc':
+                return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0);
+            default:
+                return 0;
+        }
     });
     filterAlbums();
 }
