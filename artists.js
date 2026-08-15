@@ -101,6 +101,7 @@ function renderArtists() {
         card.className = 'song-card';
         card.style.cursor = 'pointer';
         const cover = art.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
+        const spotifyUrl = art.spotifyUrl || (art.id ? `https://open.spotify.com/artist/${art.id}` : `https://open.spotify.com/search/${encodeURIComponent(art.name || '')}`);
         const artistPageUrl = `artist.html?id=${encodeURIComponent(art.id || '')}&name=${encodeURIComponent(art.name || '')}`;
         const genresText = (art.genres && art.genres.length > 0)
             ? art.genres.slice(0, 2).join(', ')
@@ -112,7 +113,7 @@ function renderArtists() {
             </div>
             <div class="song-details">
                 <div class="song-title">
-                    <a href="${artistPageUrl}" class="song-title-link">${art.name}</a>
+                    <a href="${spotifyUrl}" target="_blank" class="song-title-link">${art.name}</a>
                 </div>
                 <div class="song-artist">${genresText}</div>
             </div>
@@ -122,11 +123,12 @@ function renderArtists() {
         `;
 
         card.onclick = (e) => {
-            // Navigate to artist discography page unless specifically opening in new tab
-            if (e.target.tagName !== 'A' || e.target.getAttribute('href') === artistPageUrl) {
-                e.preventDefault();
-                window.location.href = artistPageUrl;
+            // If clicking the Spotify link directly, let it open Spotify in new tab
+            if (e.target.closest('a')) {
+                return;
             }
+            // Clicking anywhere else on the card opens their albums page
+            window.location.href = artistPageUrl;
         };
 
         grid.appendChild(card);
