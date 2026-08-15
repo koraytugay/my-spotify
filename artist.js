@@ -2,7 +2,12 @@
 let artistInfo = null;
 let allArtistAlbums = [];
 let filteredAlbums = [];
+let allArtistSongs = [];
+let filteredSongs = [];
 let currentSort = 'year-asc';
+
+let currentAudio = null;
+let currentPlayingId = null;
 
 async function initArtistDetail() {
     const loadingEl = document.getElementById('loading');
@@ -80,16 +85,12 @@ async function initArtistDetail() {
             }
         });
 
-        // 2. Count Liked Songs by this artist for hero metrics
-        let likedTrackCount = 0;
-        (likedSongs || []).forEach(s => {
-            if (isMatchingArtist(s.artists, s.artistNames)) {
-                likedTrackCount++;
-            }
-        });
+        // 2. Gather Liked Songs by this artist
+        allArtistSongs = (likedSongs || []).filter(s => isMatchingArtist(s.artists, s.artistNames));
 
         allArtistAlbums = Array.from(albumMap.values());
         filteredAlbums = [...allArtistAlbums];
+        filteredSongs = [...allArtistSongs];
 
         // If artist avatar is missing, use first available album cover
         if (!artistInfo.imageUrl && allArtistAlbums.length > 0) {
@@ -119,23 +120,25 @@ async function initArtistDetail() {
         if (heroGenresEl) heroGenresEl.textContent = genresText;
 
         document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} saved ${allArtistAlbums.length === 1 ? 'album' : 'albums'}`;
-        document.getElementById('hero-track-count').textContent = `${likedTrackCount} liked ${likedTrackCount === 1 ? 'song' : 'songs'}`;
+        document.getElementById('hero-track-count').textContent = `${allArtistSongs.length} liked ${allArtistSongs.length === 1 ? 'song' : 'songs'}`;
 
         document.getElementById('hero-spotify-link').href = spotifyUrl;
 
-        sortAlbums(currentSort);
+        sortArtistContent(currentSort);
 
         loadingEl.style.display = 'none';
         viewEl.style.display = 'block';
 
     } catch (e) {
         console.error('Error loading artist details:', e);
-        loadingEl.innerHTML = `<p style="color: #ff5555;">Error loading artist albums: ${e.message}</p>`;
+        loadingEl.innerHTML = `<p style="color: #ff5555;">Error loading artist content: ${e.message}</p>`;
     }
 }
 
-function sortAlbums(criteria) {
+function sortArtistContent(criteria) {
     currentSort = criteria;
+    
+    // Sort Albums
     allArtistAlbums.sort((a, b) => {
         switch (criteria) {
             case 'year-asc': {
@@ -162,6 +165,35 @@ function sortAlbums(criteria) {
                 return 0;
         }
     });
+
+    // Sort Liked Songs
+    allArtistSongs.sort((a, b) => {
+        switch (criteria) {
+            case 'year-asc': {
+                const yearA = parseInt(a.album?.releaseYear) || 0;
+                const yearB = parseInt(b.album?.releaseYear) || 0;
+                if (yearA !== yearB) return yearA - yearB;
+                const dateA = a.album?.releaseDate || '';
+                const dateB = b.album?.releaseDate || '';
+                const cmpDate = dateA.localeCompare(dateB);
+                if (cmpDate !== 0) return cmpDate;
+                return (a.name || '').localeCompare(b.name || '');
+            }
+            case 'year-desc': {
+                const yearA = parseInt(a.album?.releaseYear) || 0;
+                const yearB = parseInt(b.album?.releaseYear) || 0;
+                if (yearA !== yearB) return yearB - yearA;
+                const dateA = a.album?.releaseDate || '';
+                const dateB = b.album?.releaseDate || '';
+                return dateB.localeCompare(dateA);
+            }
+            case 'name-asc':
+                return (a.name || '').localeCompare(b.name || '');
+            default:
+                return 0;
+        }
+    });
+
     filterArtistContent();
 }
 
@@ -177,7 +209,18 @@ function filterArtistContent() {
         return true;
     });
 
+    filteredSongs = allArtistSongs.filter(s => {
+        if (search) {
+            const matchTitle = (s.name || '').toLowerCase().includes(search);
+            const matchAlbum = (s.album?.name || '').toLowerCase().includes(search);
+            const matchYear = (s.album?.releaseYear || '').toString().includes(search);
+            if (!matchTitle && !matchAlbum && !matchYear) return false;
+        }
+        return true;
+    });
+
     renderArtistAlbums();
+    renderArtistSongs();
 }
 
 function renderArtistAlbums() {
@@ -234,6 +277,101 @@ function renderArtistAlbums() {
 
         grid.appendChild(card);
     });
+}
+
+function renderArtistSongs() {
+    const grid = document.getElementById('songs-grid');
+    const noSongs = document.getElementById('no-songs');
+    const countBadge = document.getElementById('songs-count-badge');
+
+    if (countBadge) countBadge.textContent = filteredSongs.length;
+
+    if (filteredSongs.length === 0) {
+        grid.innerHTML = '';
+        noSongs.style.display = 'block';
+        return;
+    }
+
+    noSongs.style.display = 'none';
+    grid.innerHTML = '';
+
+    filteredSongs.forEach(song => {
+        const card = document.createElement('div');
+        card.className = 'song-card';
+
+        const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
+        const isPlaying = currentPlayingId === song.id;
+
+        // Build artist link(s)
+        let artistsHtml = '';
+        if (Array.isArray(song.artists) && song.artists.length > 0) {
+            artistsHtml = song.artists.map(a => {
+                const url = a.id ? `https://open.spotify.com/artist/${a.id}` : `https://open.spotify.com/search/${encodeURIComponent(a.name)}`;
+                return `<a href="${url}" target="_blank" class="artist-link">${a.name}</a>`;
+            }).join(', ');
+        } else {
+            artistsHtml = `<span class="artist-link">${song.artistNames || 'Unknown Artist'}</span>`;
+        }
+
+        // Build album link and release year next to it
+        const albumName = song.album?.name || '';
+        const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
+        let albumHtml = '';
+        if (albumName) {
+            const albumUrl = song.album?.id ? `https://open.spotify.com/album/${song.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+            albumHtml = ` · <a href="${albumUrl}" target="_blank" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
+        } else if (releaseYear) {
+            albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
+        }
+
+        // Track link
+        const trackUrl = song.spotifyUrl || (song.id ? `https://open.spotify.com/track/${song.id}` : '#');
+
+        card.innerHTML = `
+            <div class="cover-wrapper">
+                <a href="${trackUrl}" target="_blank">
+                    <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=No+Cover';">
+                </a>
+                ${song.previewUrl ? `
+                    <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
+                        ${isPlaying ? '⏸' : '▶'}
+                    </button>
+                ` : ''}
+            </div>
+            <div class="song-details">
+                <div class="song-title">
+                    <a href="${trackUrl}" target="_blank" class="song-title-link">${song.name}</a>
+                </div>
+                <div class="song-artist">${artistsHtml}${albumHtml}</div>
+            </div>
+        `;
+
+        grid.appendChild(card);
+    });
+}
+
+function togglePlayPreview(id, previewUrl) {
+    if (currentPlayingId === id && currentAudio) {
+        if (currentAudio.paused) {
+            currentAudio.play();
+        } else {
+            currentAudio.pause();
+            currentPlayingId = null;
+        }
+    } else {
+        if (currentAudio) {
+            currentAudio.pause();
+        }
+        currentAudio = new Audio(previewUrl);
+        currentPlayingId = id;
+        currentAudio.play();
+
+        currentAudio.onended = () => {
+            currentPlayingId = null;
+            renderArtistSongs();
+        };
+    }
+    renderArtistSongs();
 }
 
 document.addEventListener('DOMContentLoaded', initArtistDetail);

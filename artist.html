@@ -124,25 +124,37 @@
                 <div class="controls-row">
                     <div class="control-group search-group">
                         <label for="search-input">Search:</label>
-                        <input type="text" id="search-input" placeholder="Search albums..." oninput="filterArtistContent()">
+                        <input type="text" id="search-input" placeholder="Search albums and songs..." oninput="filterArtistContent()">
                     </div>
                     <div class="control-group">
-                        <label for="sort-select">Sort Albums:</label>
-                        <select id="sort-select" onchange="sortAlbums(this.value)">
+                        <label for="sort-select">Sort:</label>
+                        <select id="sort-select" onchange="sortArtistContent(this.value)">
                             <option value="year-asc" selected>Release Date (Oldest to Newest)</option>
                             <option value="year-desc">Release Date (Newest to Oldest)</option>
-                            <option value="name-asc">Album Title (A-Z)</option>
+                            <option value="name-asc">Title (A-Z)</option>
                         </select>
                     </div>
                 </div>
             </div>
 
             <!-- Albums Section -->
-            <h3 class="section-heading">💿 Albums <span id="albums-count-badge" class="section-count">0</span></h3>
-            <div id="albums-grid" class="music-grid"></div>
+            <div id="albums-section">
+                <h3 class="section-heading">💿 Albums <span id="albums-count-badge" class="section-count">0</span></h3>
+                <div id="albums-grid" class="music-grid"></div>
 
-            <div id="no-albums" class="empty-box" style="display: none;">
-                <h3>No albums found in library for this artist</h3>
+                <div id="no-albums" class="empty-box" style="display: none;">
+                    <h3>No saved albums found in library for this artist</h3>
+                </div>
+            </div>
+
+            <!-- Liked Songs Section -->
+            <div id="liked-songs-section" style="margin-top: 40px;">
+                <h3 class="section-heading">💚 Liked Songs <span id="songs-count-badge" class="section-count">0</span></h3>
+                <div id="songs-grid" class="music-grid"></div>
+
+                <div id="no-songs" class="empty-box" style="display: none;">
+                    <h3>No liked songs found for this artist</h3>
+                </div>
             </div>
         </div>
     </div>
