@@ -104,8 +104,12 @@ async function initArtistDetail() {
         const pageHeadingEl = document.getElementById('page-heading');
         if (pageHeadingEl) pageHeadingEl.textContent = artistInfo.name;
 
+        const spotifyUrl = artistInfo.spotifyUrl || (artistInfo.id ? `https://open.spotify.com/artist/${artistInfo.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name)}`);
+
         const heroTitleEl = document.getElementById('hero-title');
-        if (heroTitleEl) heroTitleEl.textContent = artistInfo.name;
+        if (heroTitleEl) {
+            heroTitleEl.innerHTML = `<a href="${spotifyUrl}" target="_blank" style="color: inherit; text-decoration: none;">${artistInfo.name}</a>`;
+        }
 
         const heroImgEl = document.getElementById('hero-img');
         if (heroImgEl) heroImgEl.src = artistInfo.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
@@ -119,7 +123,6 @@ async function initArtistDetail() {
         document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} saved ${allArtistAlbums.length === 1 ? 'album' : 'albums'}`;
         document.getElementById('hero-track-count').textContent = `${likedTrackCount} liked ${likedTrackCount === 1 ? 'song' : 'songs'}`;
 
-        const spotifyUrl = artistInfo.spotifyUrl || (artistInfo.id ? `https://open.spotify.com/artist/${artistInfo.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name)}`);
         document.getElementById('hero-spotify-link').href = spotifyUrl;
 
         sortAlbums(currentSort);
@@ -200,8 +203,19 @@ function renderArtistAlbums() {
         card.className = 'song-card';
         const cover = a.coverUrl || 'https://via.placeholder.com/300x300?text=Album';
         const albumUrl = a.spotifyUrl || (a.id ? `https://open.spotify.com/album/${a.id}` : '#');
-        const artistName = artistInfo ? artistInfo.name : (a.artistNames || 'Artist');
         const releaseYear = a.releaseYear ? ` (${a.releaseYear})` : '';
+
+        let artistsHtml = '';
+        if (Array.isArray(a.artists) && a.artists.length > 0) {
+            artistsHtml = a.artists.map(art => {
+                const url = art.id ? `https://open.spotify.com/artist/${art.id}` : `https://open.spotify.com/search/${encodeURIComponent(art.name)}`;
+                return `<a href="${url}" target="_blank" class="artist-link">${art.name}</a>`;
+            }).join(', ');
+        } else {
+            const artUrl = artistInfo?.spotifyUrl || (artistInfo?.id ? `https://open.spotify.com/artist/${artistInfo.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo?.name || a.artistNames || 'Artist')}`);
+            const artName = artistInfo ? artistInfo.name : (a.artistNames || 'Artist');
+            artistsHtml = `<a href="${artUrl}" target="_blank" class="artist-link">${artName}</a>`;
+        }
 
         card.innerHTML = `
             <div class="cover-wrapper">
@@ -211,7 +225,7 @@ function renderArtistAlbums() {
                 <div class="song-title">
                     <a href="${albumUrl}" target="_blank" class="song-title-link">${a.name}</a>
                 </div>
-                <div class="song-artist">${artistName}<span class="album-year">${releaseYear}</span></div>
+                <div class="song-artist">${artistsHtml}<span class="album-year">${releaseYear}</span></div>
             </div>
             <div class="song-meta">
                 ${a.totalTracks ? `<span>${a.totalTracks} tracks</span>` : '<span>Album</span>'}
