@@ -5,6 +5,7 @@ const DATA_PATHS = {
     likedSongs: 'data/liked-songs.json',
     playlists: 'data/playlists.json',
     albums: 'data/albums.json',
+    followedArtists: 'data/followed-artists.json',
     topArtists: 'data/top-artists.json',
     topTracks: 'data/top-tracks.json',
     stats: 'data/stats.json'
@@ -45,6 +46,11 @@ async function getPlaylists() {
 async function getSavedAlbums() {
     const albums = await fetchJson(DATA_PATHS.albums);
     return albums || [];
+}
+
+async function getFollowedArtists() {
+    const artists = await fetchJson(DATA_PATHS.followedArtists);
+    return artists || [];
 }
 
 async function getTopArtists() {

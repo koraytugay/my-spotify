@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Spotify Collection - Playlists</title>
-    <meta name="description" content="Backup and visual browser for your Spotify Playlists">
+    <title>My Spotify Collection - Followed Artists</title>
+    <meta name="description" content="Backup and visual browser for followed and favorite Spotify Artists">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,15 +14,15 @@
                 <svg class="spotify-icon" viewBox="0 0 24 24">
                     <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
                 </svg>
-                <h1>Playlists Archive</h1>
+                <h1>Followed Artists</h1>
             </div>
-            <p class="user-subtitle">All your curated and followed playlists backed up</p>
+            <p class="user-subtitle">All your followed and favorite artists backed up</p>
             
             <nav class="page-nav">
                 <a href="index.html" class="nav-link">💚 Liked Songs</a>
-                <a href="playlists.html" class="nav-link active">📑 Playlists</a>
+                <a href="playlists.html" class="nav-link">📑 Playlists</a>
                 <a href="albums.html" class="nav-link">💿 Saved Albums</a>
-                <a href="artists.html" class="nav-link">👥 Artists</a>
+                <a href="artists.html" class="nav-link active">👥 Artists</a>
                 <a href="stats.html" class="nav-link">📊 Statistics</a>
             </nav>
         </header>
@@ -30,7 +30,7 @@
         <!-- Loading State -->
         <div id="loading" class="loading-box">
             <div class="spinner"></div>
-            <p>Loading playlists...</p>
+            <p>Loading artists...</p>
         </div>
 
         <!-- Controls -->
@@ -38,26 +38,41 @@
             <div class="controls-row">
                 <div class="control-group search-group">
                     <label for="search-input">Search:</label>
-                    <input type="text" id="search-input" placeholder="Search playlist name or owner..." oninput="filterPlaylists()">
+                    <input type="text" id="search-input" placeholder="Search artist or genre..." oninput="filterArtists()">
                 </div>
                 <div class="control-group">
                     <label for="sort-select">Sort:</label>
-                    <select id="sort-select" onchange="sortPlaylists(this.value)">
-                        <option value="tracks-desc">Tracks (Most to Least)</option>
-                        <option value="name-asc">Name (A-Z)</option>
+                    <select id="sort-select" onchange="sortArtists(this.value)">
+                        <option value="name-asc" selected>Artist Name (A-Z)</option>
+                        <option value="popularity-desc">Popularity</option>
+                        <option value="followers-desc">Followers (Most)</option>
                     </select>
+                </div>
+                <div class="control-group">
+                    <label for="view-mode">View:</label>
+                    <select id="view-mode" onchange="changeViewMode(this.value)">
+                        <option value="grid" selected>Grid</option>
+                        <option value="compact">Compact</option>
+                        <option value="list">List</option>
+                    </select>
+                </div>
+                <div class="control-group" style="margin-left: auto;">
+                    <label class="checkbox-toggle">
+                        <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                        Dark Mode
+                    </label>
                 </div>
             </div>
         </div>
 
-        <!-- Playlists Grid -->
-        <div id="playlists-grid" class="music-grid"></div>
+        <!-- Artists Grid -->
+        <div id="artists-grid" class="music-grid"></div>
         <div id="no-results" class="empty-box" style="display: none;">
-            <h3>No playlists found</h3>
+            <h3>No artists found</h3>
         </div>
     </div>
 
     <script src="api.js"></script>
-    <script src="playlists.js"></script>
+    <script src="artists.js"></script>
 </body>
 </html>

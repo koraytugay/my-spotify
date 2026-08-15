@@ -324,6 +324,39 @@ async function main() {
     writeJson(path.join(dataDir, 'albums.json'), albums);
     console.log(`💾 Saved ${albums.length} Saved Albums to data/albums.json\n`);
 
+    // 4.5 Followed Artists
+    console.log('👥 Fetching Followed Artists...');
+    let followedArtists = [];
+    try {
+        let nextUrl = 'https://api.spotify.com/v1/me/following?type=artist&limit=50';
+        while (nextUrl) {
+            const followData = await spotifyFetch(nextUrl, token);
+            const items = followData.artists?.items || [];
+            followedArtists.push(...items.map(art => ({
+                id: art.id,
+                name: art.name,
+                genres: art.genres || [],
+                popularity: art.popularity,
+                followers: art.followers?.total || 0,
+                imageUrl: art.images?.[0]?.url || '',
+                spotifyUrl: art.external_urls?.spotify
+            })));
+            process.stdout.write(` [${followedArtists.length} items]`);
+            nextUrl = followData.artists?.next || null;
+        }
+        writeJson(path.join(dataDir, 'followed-artists.json'), followedArtists);
+        console.log(` ✅ Total: ${followedArtists.length}`);
+        console.log(`💾 Saved ${followedArtists.length} Followed Artists to data/followed-artists.json\n`);
+    } catch (e) {
+        console.warn(`⚠️ Note: ${e.message}. Run 'npm run auth' once to grant followed artists permission if needed.\n`);
+        const existingPath = path.join(dataDir, 'followed-artists.json');
+        if (fs.existsSync(existingPath)) {
+            try {
+                followedArtists = JSON.parse(fs.readFileSync(existingPath, 'utf8'));
+            } catch (err) {}
+        }
+    }
+
     // 5. Top Artists & Top Tracks (Long Term)
     console.log('🌟 Fetching Top Artists & Tracks...');
     let topArtists = [];
@@ -386,7 +419,7 @@ async function main() {
 
     // 6. Generate Analytics & Stats Summary
     console.log('📊 Computing statistics & collection insights...');
-    const stats = generateStats(likedSongs, playlists, albums, topArtists, artistGenresMap);
+    const stats = generateStats(likedSongs, playlists, albums, topArtists, artistGenresMap, followedArtists);
     writeJson(path.join(dataDir, 'stats.json'), stats);
     console.log('💾 Saved Stats to data/stats.json\n');
 
@@ -407,7 +440,7 @@ function formatDuration(ms) {
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 }
 
-function generateStats(likedSongs, playlists, albums, topArtists, artistGenresMap = {}) {
+function generateStats(likedSongs, playlists, albums, topArtists, artistGenresMap = {}, followedArtists = []) {
     const totalMs = likedSongs.reduce((acc, s) => acc + (s.durationMs || 0), 0);
     const totalHours = (totalMs / (1000 * 60 * 60)).toFixed(1);
     const totalDays = (totalMs / (1000 * 60 * 60 * 24)).toFixed(1);
@@ -453,6 +486,7 @@ function generateStats(likedSongs, playlists, albums, topArtists, artistGenresMa
         totalLikedSongs: likedSongs.length,
         totalPlaylists: playlists.length,
         totalSavedAlbums: albums.length,
+        totalFollowedArtists: followedArtists.length,
         totalDurationMs: totalMs,
         totalDurationHours: parseFloat(totalHours),
         totalDurationDays: parseFloat(totalDays),

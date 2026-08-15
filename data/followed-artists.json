@@ -1,0 +1,452 @@
+[
+  {
+    "rank": 1,
+    "id": "57ylwQTnFnIhJh4nu4rxCs",
+    "name": "In Flames",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5c3bd919d1344a738af14136",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/57ylwQTnFnIhJh4nu4rxCs"
+  },
+  {
+    "rank": 2,
+    "id": "0ybFZ2Ab08V8hueghSXm6E",
+    "name": "Opeth",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb45e1bb6e5285297f9e55e550",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ybFZ2Ab08V8hueghSXm6E"
+  },
+  {
+    "rank": 3,
+    "id": "3Meu28o8P5z9Zjm6NTGihT",
+    "name": "Agalloch",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebea06e6637a861aba6cba7e58",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3Meu28o8P5z9Zjm6NTGihT"
+  },
+  {
+    "rank": 4,
+    "id": "2NFrAuh8RQdQoS7iYFbckw",
+    "name": "The Midnight",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebbeb65e1c821ecd888cf5e115",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2NFrAuh8RQdQoS7iYFbckw"
+  },
+  {
+    "rank": 5,
+    "id": "6mdiAmATAx73kdxrNrnlao",
+    "name": "Iron Maiden",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebf9978ad4808f6f2723124d19",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/6mdiAmATAx73kdxrNrnlao"
+  },
+  {
+    "rank": 6,
+    "id": "2aaLAng2L2aWD2FClzwiep",
+    "name": "Dream Theater",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb6c2390469c190a49f3926865",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2aaLAng2L2aWD2FClzwiep"
+  },
+  {
+    "rank": 7,
+    "id": "3N1B1g6JtIgd6ClRkzD4yT",
+    "name": "Savatage",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb28ce3420531dadeaea4d8aef",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3N1B1g6JtIgd6ClRkzD4yT"
+  },
+  {
+    "rank": 8,
+    "id": "0ZZDIo31D35xGrXYTodWrL",
+    "name": "Zeki Müren",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb73f8c083460fab4bd812cf6d",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ZZDIo31D35xGrXYTodWrL"
+  },
+  {
+    "rank": 9,
+    "id": "1w5Kfo2jwwIPruYS2UWh56",
+    "name": "Pearl Jam",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebe431fb8ba17cdee73e4ce08a",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/1w5Kfo2jwwIPruYS2UWh56"
+  },
+  {
+    "rank": 10,
+    "id": "4li4dx5mFgZlMVeHlARBHP",
+    "name": "Nazan Öncel",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb41a2fc1a85b6004f9ec819e8",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4li4dx5mFgZlMVeHlARBHP"
+  },
+  {
+    "rank": 11,
+    "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+    "name": "Supertramp",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/eebed895cad509b17c7c6faf47f21f1fc35e8829",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3JsMj0DEzyWc0VDlHuy9Bx"
+  },
+  {
+    "rank": 12,
+    "id": "1Xz8iP9Dvl5uI88iraOhs7",
+    "name": "Pentagram",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb04ffe7847c4fe6f506cc05e0",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/1Xz8iP9Dvl5uI88iraOhs7"
+  },
+  {
+    "rank": 13,
+    "id": "7oPgCQqMMXEXrNau5vxYZP",
+    "name": "Tracy Chapman",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/965060777aeacb43659097cddc16b741785a508f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7oPgCQqMMXEXrNau5vxYZP"
+  },
+  {
+    "rank": 14,
+    "id": "14H7ag1wpQOsPPQJOD6Dqr",
+    "name": "Zero 7",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb85c10aefe83110535eea474c",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/14H7ag1wpQOsPPQJOD6Dqr"
+  },
+  {
+    "rank": 15,
+    "id": "5keeQyPKYRxUCKDMECTXG3",
+    "name": "Black Uhuru",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5444325144ecc7fc7649fd91",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
+  },
+  {
+    "rank": 16,
+    "id": "63hFhXYW3r2q8uW2Rf3LUw",
+    "name": "H Magnum",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebaf02b0f8af61fb64456919a3",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/63hFhXYW3r2q8uW2Rf3LUw"
+  },
+  {
+    "rank": 17,
+    "id": "7Iffw1nP3NjCWkRIx3Ily9",
+    "name": "Bruce Dickinson",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd90e4a9038787929178b4815",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9"
+  },
+  {
+    "rank": 18,
+    "id": "1AzrlUnOS6dhH0iMV86ctS",
+    "name": "Oi Va Voi",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb6fed21342e14d5a8ed4c3bbf",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/1AzrlUnOS6dhH0iMV86ctS"
+  },
+  {
+    "rank": 19,
+    "id": "0PFtn5NtBbbUNbU9EAmIWF",
+    "name": "TOTO",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eba59a5bcab211f964fe9bfb06",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0PFtn5NtBbbUNbU9EAmIWF"
+  },
+  {
+    "rank": 20,
+    "id": "5Oo6D3FLRpWjgBn0mqfiA3",
+    "name": "Yeni Türkü",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb56a94add45fa74c4e10fde40",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5Oo6D3FLRpWjgBn0mqfiA3"
+  },
+  {
+    "rank": 21,
+    "id": "4inwzuD2iBZK8Ck3ft7Wlk",
+    "name": "Yavuz Çetin",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2583c2bb637aaecd94253eb7",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4inwzuD2iBZK8Ck3ft7Wlk"
+  },
+  {
+    "rank": 22,
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+  },
+  {
+    "rank": 23,
+    "id": "4uGB0nZ5d1iCXS3sHR3pzm",
+    "name": "Gökhan Türkmen",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebecc4a1c2a6a66ac658f71e2c",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
+  },
+  {
+    "rank": 24,
+    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
+    "name": "Erkin Koray",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
+  },
+  {
+    "rank": 25,
+    "id": "0ou1EkRCAJcfRv2P1qKVPo",
+    "name": "Flört",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc673f392f7f1de80088217ca",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
+  },
+  {
+    "rank": 26,
+    "id": "0ylYRIvKTpv9uvTfKbYjM0",
+    "name": "Mehmet Erdem",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebec7d2c6098bd5602395c0eb1",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ylYRIvKTpv9uvTfKbYjM0"
+  },
+  {
+    "rank": 27,
+    "id": "4M6Z1wubeKtwPqbjJygTOc",
+    "name": "Shontelle",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebec9c41070714905a34319341",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4M6Z1wubeKtwPqbjJygTOc"
+  },
+  {
+    "rank": 28,
+    "id": "5EHvXKnNz78jkAVgTQLQ5O",
+    "name": "Dark Tranquillity",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb473898d318f6958efb692c2f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5EHvXKnNz78jkAVgTQLQ5O"
+  },
+  {
+    "rank": 29,
+    "id": "2PfiteGKkLREGubVMoSUE3",
+    "name": "Douglas Holmquist",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb737e8be6dc14ff293a8596ed",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2PfiteGKkLREGubVMoSUE3"
+  },
+  {
+    "rank": 30,
+    "id": "2nszamLjZFgu3Yx77mKxuC",
+    "name": "UNKLE",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebac89f1cb4f6881854f55f761",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2nszamLjZFgu3Yx77mKxuC"
+  },
+  {
+    "rank": 31,
+    "id": "36QJpDe2go2KgaRleHCDTp",
+    "name": "Led Zeppelin",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+  },
+  {
+    "rank": 32,
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+  },
+  {
+    "rank": 33,
+    "id": "7jxJ25p0pPjk0MStloN6o6",
+    "name": "Blind Guardian",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb26139a78b669ae67aacde9f3",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
+  },
+  {
+    "rank": 34,
+    "id": "1O8CSXsPwEqxcoBE360PPO",
+    "name": "Stratovarius",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4733f393ad04f47b31edaadb",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
+  },
+  {
+    "rank": 35,
+    "id": "4tZwfgrHOc3mvqYlEYSvVi",
+    "name": "Daft Punk",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+  },
+  {
+    "rank": 36,
+    "id": "2QsEbhCFyEzogaOtMYeXO4",
+    "name": "Düş Sokağı Sakinleri",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273159256f0284d592dc45795c3",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2QsEbhCFyEzogaOtMYeXO4"
+  },
+  {
+    "rank": 37,
+    "id": "6SLAMfhOi7UJI0fMztaK0m",
+    "name": "Rainbow",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/e0ad73e5231086142031094d86e8bef61576268c",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"
+  },
+  {
+    "rank": 38,
+    "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+    "name": "Gaye Su Akyol",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb936dc1a7f81b5977de499dea",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
+  },
+  {
+    "rank": 39,
+    "id": "4vnmifnGOeRXfNTRtgd4Tj",
+    "name": "Sexion d'Assaut",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebe5380469a579bd4fc105899f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4vnmifnGOeRXfNTRtgd4Tj"
+  },
+  {
+    "rank": 40,
+    "id": "64d1rUxfizSAOE9UbMnUZd",
+    "name": "Sezen Aksu",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd32dbe03236eda653b1a2bd0",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/64d1rUxfizSAOE9UbMnUZd"
+  },
+  {
+    "rank": 41,
+    "id": "0k17h0D3J5VfsdmQ1iZtE9",
+    "name": "Pink Floyd",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3c9e8c67b087ba0cb5923b78",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
+  },
+  {
+    "rank": 42,
+    "id": "6WDnC2nx6hEPdtcU2LLGtE",
+    "name": "Ezginin Günlügü",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
+  },
+  {
+    "rank": 43,
+    "id": "4CYeVo5iZbtYGBN4Isc3n6",
+    "name": "Dio",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb555c8199ba80168cfeafdfbc",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4CYeVo5iZbtYGBN4Isc3n6"
+  },
+  {
+    "rank": 44,
+    "id": "5QpQ8Zu2s3aMjYf88au1Le",
+    "name": "Kurban",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd48e0c17d5987fa9c31baf3e",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5QpQ8Zu2s3aMjYf88au1Le"
+  },
+  {
+    "rank": 45,
+    "id": "03vX1djHak8X52SuNfr3U7",
+    "name": "Babutsa",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273cb82d2fda8b507679000d8b5",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/03vX1djHak8X52SuNfr3U7"
+  },
+  {
+    "rank": 46,
+    "id": "5KORW1YGiERJqfuYjXMCyz",
+    "name": "Mattafix",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/1d8589383d89667bb14105f345e67b22bf99a217",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5KORW1YGiERJqfuYjXMCyz"
+  },
+  {
+    "rank": 47,
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb119b61b35985e3b957c5ecb7",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+  },
+  {
+    "rank": 48,
+    "id": "4h7NLIlg1oYdEtfQJfyto0",
+    "name": "Nouvelle Vague",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eba22b295cff7c7ff45da90a22",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4h7NLIlg1oYdEtfQJfyto0"
+  },
+  {
+    "rank": 49,
+    "id": "568ZhdwyaiCyOGJRtNYhWf",
+    "name": "Deep Purple",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb0097f1c2830a6ecdda16d4de",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf"
+  },
+  {
+    "rank": 50,
+    "id": "5Y1mtkFXBCx0dyL93Wt54T",
+    "name": "Otis Taylor",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6772690000c46c742b53bd01463200acbc4319",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5Y1mtkFXBCx0dyL93Wt54T"
+  }
+]
