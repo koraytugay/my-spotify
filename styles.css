@@ -416,6 +416,13 @@ header {
     text-decoration: underline;
 }
 
+.album-year {
+    color: var(--text-muted);
+    font-size: 0.84rem;
+    font-weight: normal;
+    margin-left: 2px;
+}
+
 .song-meta {
     margin-top: auto;
     display: flex;

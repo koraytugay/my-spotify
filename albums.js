@@ -85,10 +85,9 @@ function renderAlbums() {
                 <div class="song-title">
                     <a href="${albumUrl}" target="_blank" class="song-title-link">${a.name}</a>
                 </div>
-                <div class="song-artist">${artistsHtml}</div>
+                <div class="song-artist">${artistsHtml} <span class="album-year">${a.releaseYear ? `(${a.releaseYear})` : ''}</span></div>
             </div>
             <div class="song-meta">
-                <span>${a.releaseYear || ''}</span>
                 <span>${a.totalTracks || 0} tracks</span>
             </div>
         `;

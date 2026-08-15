@@ -188,12 +188,15 @@ function createSongCard(song) {
         artistsHtml = `<span class="artist-link">${song.artistNames || 'Unknown Artist'}</span>`;
     }
 
-    // Build album link
+    // Build album link and release year next to it
     const albumName = song.album?.name || '';
+    const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
     let albumHtml = '';
     if (albumName) {
         const albumUrl = song.album?.id ? `https://open.spotify.com/album/${song.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
-        albumHtml = ` · <a href="${albumUrl}" target="_blank" class="album-link">${albumName}</a>`;
+        albumHtml = ` · <a href="${albumUrl}" target="_blank" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
+    } else if (releaseYear) {
+        albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
     }
 
     // Track link
@@ -213,9 +216,6 @@ function createSongCard(song) {
                 <a href="${trackUrl}" target="_blank" class="song-title-link">${song.name}</a>
             </div>
             <div class="song-artist">${artistsHtml}${albumHtml}</div>
-        </div>
-        <div class="song-meta">
-            ${song.album?.releaseYear ? `<span class="badge">${song.album.releaseYear}</span>` : ''}
         </div>
     `;
 
