@@ -1,6 +1,7 @@
 async function initStats() {
     const loadingEl = document.getElementById('loading');
     const contentEl = document.getElementById('stats-content');
+    const controlsEl = document.getElementById('controls');
 
     try {
         const stats = await getStats();
@@ -9,9 +10,7 @@ async function initStats() {
             return;
         }
 
-        // Apply saved theme
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        if (savedTheme === 'dark') document.body.classList.add('dark-mode');
+        loadThemePreference();
 
         // Top Metrics
         document.getElementById('stat-total-songs').textContent = (stats.totalLikedSongs || 0).toLocaleString();
@@ -20,9 +19,10 @@ async function initStats() {
         document.getElementById('stat-playlists').textContent = (stats.totalPlaylists || 0).toLocaleString();
         document.getElementById('stat-albums').textContent = (stats.totalSavedAlbums || 0).toLocaleString();
 
-        // 1. Render Top Artists Bar Chart
+        // 1. Render Top Artists Bar Chart with links to internal artist profile
         renderBarChart('top-artists-chart', stats.topLikedArtists?.slice(0, 10).map(a => ({
             label: a.name,
+            link: `artist.html?name=${encodeURIComponent(a.name)}`,
             value: a.count,
             formattedValue: `${a.count} tracks`
         })) || []);
@@ -56,12 +56,14 @@ async function initStats() {
             .slice(0, 10)
             .map(s => ({
                 label: `${s.name} (${s.artistNames})`,
+                link: s.spotifyUrl || (s.id ? `https://open.spotify.com/track/${s.id}` : null),
                 value: Math.round(s.durationMs / 1000),
                 formattedValue: s.durationFormatted || ''
             }));
         renderBarChart('longest-tracks-chart', longestTracks);
 
         loadingEl.style.display = 'none';
+        controlsEl.style.display = 'flex';
         contentEl.style.display = 'block';
 
     } catch (e) {
@@ -84,8 +86,13 @@ function renderBarChart(containerId, items) {
         const percent = ((item.value / maxValue) * 100).toFixed(1);
         const row = document.createElement('div');
         row.className = 'bar-row';
+        
+        const labelHtml = item.link 
+            ? `<a href="${item.link}" ${item.link.includes('spotify.com') ? 'target="_blank"' : ''}>${item.label}</a>`
+            : item.label;
+
         row.innerHTML = `
-            <div class="bar-label" title="${item.label}">${item.label}</div>
+            <div class="bar-label" title="${item.label}">${labelHtml}</div>
             <div class="bar-track">
                 <div class="bar-fill" style="width: ${percent}%"></div>
             </div>
@@ -95,9 +102,21 @@ function renderBarChart(containerId, items) {
     });
 }
 
-function capitalize(str) {
-    if (!str) return '';
-    return str.charAt(0).toUpperCase() + str.slice(1);
+function toggleDarkMode(isDark) {
+    if (isDark) {
+        document.body.classList.add('dark-mode');
+    } else {
+        document.body.classList.remove('dark-mode');
+    }
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+}
+
+function loadThemePreference() {
+    const saved = localStorage.getItem('theme') || 'light';
+    const isDark = saved === 'dark';
+    const toggle = document.getElementById('dark-mode-toggle');
+    if (toggle) toggle.checked = isDark;
+    if (isDark) document.body.classList.add('dark-mode');
 }
 
 document.addEventListener('DOMContentLoaded', initStats);

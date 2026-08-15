@@ -51,6 +51,9 @@
         }
         .back-nav {
             margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .section-heading {
             font-size: 1.3rem;
@@ -84,6 +87,10 @@
     <div class="container">
         <div class="back-nav">
             <a href="artists.html" class="nav-link">← Back to Followed Artists</a>
+            <label class="checkbox-toggle">
+                <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                Dark Mode
+            </label>
         </div>
 
         <header>

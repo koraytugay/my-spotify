@@ -33,6 +33,18 @@
             <p>Analyzing your collection stats...</p>
         </div>
 
+        <!-- Controls / Theme -->
+        <div id="controls" class="controls-card" style="display: none; align-items: flex-end;">
+            <div class="controls-row" style="width: 100%; justify-content: flex-end;">
+                <div class="control-group">
+                    <label class="checkbox-toggle">
+                        <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                        Dark Mode
+                    </label>
+                </div>
+            </div>
+        </div>
+
         <!-- Big Metrics Grid -->
         <div id="stats-content" style="display: none;">
             <div class="stats-ribbon">
