@@ -30,13 +30,32 @@ async function initPlaylistDetail() {
         if (savedTheme === 'dark') document.body.classList.add('dark-mode');
 
         // Populate Hero Header
-        document.getElementById('hero-title').textContent = playlistData.name || 'Untitled Playlist';
-        document.getElementById('hero-desc').textContent = playlistData.description || '';
-        document.getElementById('hero-owner').textContent = `By ${playlistData.owner || 'Spotify'}`;
-        document.getElementById('hero-cover').src = playlistData.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
+        const pageHeadingEl = document.getElementById('page-heading');
+        if (pageHeadingEl) pageHeadingEl.textContent = playlistData.name || 'Playlist Details';
+
+        const heroTitleEl = document.getElementById('hero-title');
+        if (heroTitleEl) heroTitleEl.textContent = playlistData.name || 'Untitled Playlist';
+
+        const descEl = document.getElementById('hero-desc');
+        if (descEl) {
+            if (playlistData.description && playlistData.description.trim()) {
+                descEl.textContent = playlistData.description;
+                descEl.style.display = 'block';
+            } else {
+                descEl.textContent = '';
+                descEl.style.display = 'none';
+            }
+        }
+
+        const heroOwnerEl = document.getElementById('hero-owner');
+        if (heroOwnerEl) heroOwnerEl.textContent = `By ${playlistData.owner || 'Spotify'}`;
+
+        const heroImgEl = document.getElementById('hero-img');
+        if (heroImgEl) heroImgEl.src = playlistData.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
         
         const spotifyUrl = playlistData.spotifyUrl || (playlistData.id ? `https://open.spotify.com/playlist/${playlistData.id}` : '#');
-        document.getElementById('hero-spotify-link').href = spotifyUrl;
+        const spotifyLinkEl = document.getElementById('hero-spotify-link');
+        if (spotifyLinkEl) spotifyLinkEl.href = spotifyUrl;
 
         allTracks = (playlistData.tracks || []).map((t, idx) => ({ ...t, originalIndex: idx }));
         filteredTracks = [...allTracks];
