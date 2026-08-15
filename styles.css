@@ -157,11 +157,10 @@ header {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    transition: border-color 0.2s ease;
 }
 
 .stat-card:hover {
-    transform: translateY(-2px);
     border-color: var(--accent);
 }
 
@@ -343,7 +342,6 @@ body.dark-mode .control-group input[type="text"]:hover {
 
 .music-grid:not(.view-list) .song-card:hover {
     background: var(--bg-surface-hover);
-    transform: translateY(-4px);
     box-shadow: var(--card-shadow);
     border-color: #404040;
 }
@@ -368,11 +366,6 @@ body.dark-mode .control-group input[type="text"]:hover {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
-}
-
-.song-card:hover .cover-img {
-    transform: scale(1.03);
 }
 
 .play-btn-overlay {
@@ -642,7 +635,6 @@ body.dark-mode .control-group input[type="text"]:hover {
 
 .btn-primary:hover {
     background: var(--accent-hover);
-    transform: scale(1.03);
 }
 
 .btn-secondary {
@@ -881,7 +873,6 @@ body.dark-mode .control-group input[type="text"]:hover {
 
 .music-grid:not(.view-list) .artist-card:hover {
     background: var(--bg-surface-hover);
-    transform: translateY(-4px);
     box-shadow: var(--card-shadow);
     border-color: #404040;
 }
@@ -902,11 +893,6 @@ body.dark-mode .control-group input[type="text"]:hover {
     height: 100%;
     object-fit: cover;
     display: block;
-    transition: transform 0.3s ease;
-}
-
-.artist-card:hover .artist-avatar-img {
-    transform: scale(1.05);
 }
 
 .artist-card-info {

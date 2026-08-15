@@ -1,7 +1,7 @@
 let allArtists = [];
 let filteredArtists = [];
 let currentSort = 'name-asc';
-let currentViewMode = 'grid';
+let currentViewMode = 'compact';
 
 async function initArtists() {
     const loadingEl = document.getElementById('loading');

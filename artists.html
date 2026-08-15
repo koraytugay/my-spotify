@@ -51,8 +51,8 @@
                 <div class="control-group">
                     <label for="view-mode">View:</label>
                     <select id="view-mode" onchange="changeViewMode(this.value)">
-                        <option value="grid" selected>Grid</option>
-                        <option value="compact">Compact</option>
+                        <option value="compact" selected>Compact</option>
+                        <option value="grid">Grid</option>
                         <option value="list">List</option>
                     </select>
                 </div>
@@ -66,7 +66,7 @@
         </div>
 
         <!-- Artists Grid -->
-        <div id="artists-grid" class="music-grid"></div>
+        <div id="artists-grid" class="music-grid view-compact"></div>
         <div id="no-results" class="empty-box" style="display: none;">
             <h3>No artists found</h3>
         </div>
