@@ -61,7 +61,8 @@ body {
 a {
     color: var(--text-primary);
     text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+    text-decoration-color: var(--text-muted);
+    text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
 
@@ -69,15 +70,24 @@ a {
 .song-title-link {
     color: var(--text-primary);
     font-weight: 700;
+    text-decoration: none !important;
 }
 
 .artist-link {
     color: var(--text-secondary);
     font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: var(--text-muted);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .album-link {
     color: var(--text-secondary);
+    text-decoration: underline;
+    text-decoration-color: var(--text-muted);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 .user-subtitle a {
@@ -501,8 +511,8 @@ header {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     background: var(--accent);
     color: #000000 !important;
@@ -515,8 +525,8 @@ header {
 
 .spotify-icon-btn svg {
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     fill: #000000;
 }
 
