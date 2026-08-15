@@ -16,7 +16,7 @@ async function initArtistDetail() {
     const artistName = params.get('name') || '';
 
     if (!artistId && !artistName) {
-        loadingEl.innerHTML = `<p style="color: #ff5555;">No artist specified. <a href="artists.html">Back to Artists</a></p>`;
+        loadingEl.innerHTML = `<p style="color: #ff5555;">No artist specified.</p>`;
         return;
     }
 

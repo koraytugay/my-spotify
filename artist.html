@@ -85,14 +85,6 @@
 </head>
 <body>
     <div class="container">
-        <div class="back-nav">
-            <a href="artists.html" class="nav-link">← Back to Followed Artists</a>
-            <label class="checkbox-toggle">
-                <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
-                Dark Mode
-            </label>
-        </div>
-
         <header>
             <div class="header-title">
                 <svg class="spotify-icon" viewBox="0 0 24 24">
@@ -100,6 +92,14 @@
                 </svg>
                 <h1 id="page-heading">Artist Discography</h1>
             </div>
+
+            <nav class="page-nav">
+                <a href="index.html" class="nav-link">💚 Liked Songs</a>
+                <a href="playlists.html" class="nav-link">📑 Playlists</a>
+                <a href="albums.html" class="nav-link">💿 Saved Albums</a>
+                <a href="artists.html" class="nav-link active">👥 Artists</a>
+                <a href="stats.html" class="nav-link">📊 Statistics</a>
+            </nav>
         </header>
 
         <!-- Loading State -->
@@ -121,7 +121,19 @@
                         <span id="hero-track-count">0 tracks</span>
                     </div>
                     <div>
-                        <a id="hero-spotify-link" href="#" target="_blank" class="btn btn-primary">Open in Spotify</a>
+                        <a id="hero-spotify-link" href="#" class="btn btn-primary">Open in Spotify</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls / Dark Mode -->
+            <div class="controls-card" style="margin-bottom: 24px;">
+                <div class="controls-row" style="justify-content: flex-end;">
+                    <div class="control-group">
+                        <label class="checkbox-toggle">
+                            <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                            Dark Mode
+                        </label>
                     </div>
                 </div>
             </div>

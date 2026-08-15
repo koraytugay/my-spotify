@@ -15,7 +15,7 @@ async function initPlaylistDetail() {
     const playlistId = params.get('id');
 
     if (!playlistId) {
-        loadingEl.innerHTML = `<p style="color: #ff5555;">No playlist ID provided. <a href="playlists.html">Back to playlists</a></p>`;
+        loadingEl.innerHTML = `<p style="color: #ff5555;">No playlist ID provided.</p>`;
         return;
     }
 
@@ -23,7 +23,7 @@ async function initPlaylistDetail() {
         playlistData = await getPlaylistById(playlistId);
 
         if (!playlistData) {
-            loadingEl.innerHTML = `<p style="color: #ff5555;">Playlist not found. <a href="playlists.html">Back to playlists</a></p>`;
+            loadingEl.innerHTML = `<p style="color: #ff5555;">Playlist not found.</p>`;
             return;
         }
 
