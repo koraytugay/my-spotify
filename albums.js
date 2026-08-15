@@ -102,7 +102,9 @@ function renderAlbums() {
 
         card.innerHTML = `
             <div class="cover-wrapper">
-                <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
+                <a href="${albumUrl}" target="_blank">
+                    <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
+                </a>
             </div>
             <div class="song-details">
                 <div class="song-title">

@@ -217,7 +217,9 @@ function renderArtistAlbums() {
 
         card.innerHTML = `
             <div class="cover-wrapper">
-                <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=Album';">
+                <a href="${albumUrl}" target="_blank">
+                    <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=Album';">
+                </a>
             </div>
             <div class="song-details">
                 <div class="song-title">
