@@ -99,8 +99,9 @@ function renderArtists() {
     filteredArtists.forEach(art => {
         const card = document.createElement('div');
         card.className = 'song-card';
+        card.style.cursor = 'pointer';
         const cover = art.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
-        const url = art.spotifyUrl || (art.id ? `https://open.spotify.com/artist/${art.id}` : '#');
+        const artistPageUrl = `artist.html?id=${encodeURIComponent(art.id || '')}&name=${encodeURIComponent(art.name || '')}`;
         const genresText = (art.genres && art.genres.length > 0)
             ? art.genres.slice(0, 2).join(', ')
             : 'Artist';
@@ -111,7 +112,7 @@ function renderArtists() {
             </div>
             <div class="song-details">
                 <div class="song-title">
-                    <a href="${url}" target="_blank" class="song-title-link">${art.name}</a>
+                    <a href="${artistPageUrl}" class="song-title-link">${art.name}</a>
                 </div>
                 <div class="song-artist">${genresText}</div>
             </div>
@@ -119,6 +120,14 @@ function renderArtists() {
                 <span>${art.followers ? art.followers.toLocaleString() + ' followers' : 'Followed'}</span>
             </div>
         `;
+
+        card.onclick = (e) => {
+            // Navigate to artist discography page unless specifically opening in new tab
+            if (e.target.tagName !== 'A' || e.target.getAttribute('href') === artistPageUrl) {
+                e.preventDefault();
+                window.location.href = artistPageUrl;
+            }
+        };
 
         grid.appendChild(card);
     });
