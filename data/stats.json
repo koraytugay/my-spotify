@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 622,
+  "totalLikedSongs": 623,
   "totalPlaylists": 12,
   "totalSavedAlbums": 77,
-  "totalFollowedArtists": 85,
-  "totalDurationMs": 162057395,
-  "totalDurationHours": 45,
+  "totalFollowedArtists": 86,
+  "totalDurationMs": 162339595,
+  "totalDurationHours": 45.1,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "45 hrs 0 mins",
+  "totalDurationFormatted": "45 hrs 5 mins",
   "uniqueArtistsCount": 495,
   "topLikedArtists": [
     {
@@ -40,6 +40,10 @@
     {
       "name": "Agalloch",
       "count": 5
+    },
+    {
+      "name": "Aşkın Nur Yengi",
+      "count": 4
     },
     {
       "name": "Opeth",
@@ -124,20 +128,16 @@
     {
       "name": "Ezginin Günlügü",
       "count": 3
-    },
-    {
-      "name": "Dire Straits",
-      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "1990s": 141,
     "1980s": 88,
     "2000s": 150,
     "2010s": 155,
     "1970s": 46,
     "2020s": 24,
-    "1990s": 140,
     "1960s": 18,
     "1950s": 1
   },
@@ -172,7 +172,7 @@
     "1990": 10,
     "1991": 9,
     "1992": 11,
-    "1993": 11,
+    "1993": 12,
     "1994": 11,
     "1995": 7,
     "1996": 25,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-15T18:20:31.003Z"
+  "lastUpdated": "2026-08-15T18:26:26.304Z"
 }
