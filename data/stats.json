@@ -1,7 +1,7 @@
 {
   "totalLikedSongs": 622,
   "totalPlaylists": 12,
-  "totalSavedAlbums": 75,
+  "totalSavedAlbums": 77,
   "totalFollowedArtists": 85,
   "totalDurationMs": 162057395,
   "totalDurationHours": 45,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-15T16:31:31.256Z"
+  "lastUpdated": "2026-08-15T18:20:31.003Z"
 }

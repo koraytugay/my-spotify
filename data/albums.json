@@ -1,5 +1,39 @@
 [
   {
+    "id": "1oupMKdNzd7u1isqbtM4so",
+    "name": "The Jester Race (Black Ash-Inheritance Version)",
+    "artists": [
+      {
+        "id": "57ylwQTnFnIhJh4nu4rxCs",
+        "name": "In Flames"
+      }
+    ],
+    "artistNames": "In Flames",
+    "releaseDate": "1996-02-20",
+    "releaseYear": "1996",
+    "totalTracks": 14,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b967d82647ad3a36a098334",
+    "spotifyUrl": "https://open.spotify.com/album/1oupMKdNzd7u1isqbtM4so",
+    "addedAt": "2026-08-15T16:38:59Z"
+  },
+  {
+    "id": "6E4wzHgEc1wu0AJbtW4fN8",
+    "name": "Groove Operator EP",
+    "artists": [
+      {
+        "id": "3hO4VZ2PMOLzrzr7hqyXeb",
+        "name": "Belinse & Lavejazz"
+      }
+    ],
+    "artistNames": "Belinse & Lavejazz",
+    "releaseDate": "2009-11-11",
+    "releaseYear": "2009",
+    "totalTracks": 3,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731befeb6c478b05929860335f",
+    "spotifyUrl": "https://open.spotify.com/album/6E4wzHgEc1wu0AJbtW4fN8",
+    "addedAt": "2026-08-15T16:34:48Z"
+  },
+  {
     "id": "5kQUIjlpXoMMAHRAhbXmpp",
     "name": "Kids",
     "artists": [
