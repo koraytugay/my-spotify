@@ -63,6 +63,7 @@ function renderPlaylists() {
         const card = document.createElement('div');
         card.className = 'song-card';
         const cover = p.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
+        const trackCount = p.tracks?.length || p.tracksTotal || 0;
 
         card.innerHTML = `
             <div class="cover-wrapper">
@@ -73,13 +74,13 @@ function renderPlaylists() {
                 <div class="song-artist">By ${p.owner || 'Spotify'}</div>
             </div>
             <div class="song-meta">
-                <span>${p.tracksTotal} tracks</span>
-                ${p.public === false ? '<span class="badge">Private</span>' : '<span class="badge">Public</span>'}
+                <span>${trackCount} tracks</span>
+                ${p.owner === 'koraytugay' ? '<span class="badge" style="background: var(--accent-light); color: var(--accent);">Your Playlist</span>' : '<span class="badge">Followed</span>'}
             </div>
         `;
 
         card.onclick = () => {
-            if (p.spotifyUrl) window.open(p.spotifyUrl, '_blank');
+            window.location.href = `playlist.html?id=${p.id}`;
         };
 
         grid.appendChild(card);

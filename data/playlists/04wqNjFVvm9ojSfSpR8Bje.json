@@ -1,0 +1,656 @@
+{
+  "id": "04wqNjFVvm9ojSfSpR8Bje",
+  "name": "Iron Maiden Ballads",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 25,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e022dec15ec59146ae03cbe7fdbab67616d00001e025c29a88ba5341ca428f0c322ab67616d00001e026ac3ed972e1c181cd2ee8d55ab67616d00001e02eab7b968bf8762355df7d840",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e022dec15ec59146ae03cbe7fdbab67616d00001e025c29a88ba5341ca428f0c322ab67616d00001e026ac3ed972e1c181cd2ee8d55ab67616d00001e02eab7b968bf8762355df7d840",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e022dec15ec59146ae03cbe7fdbab67616d00001e025c29a88ba5341ca428f0c322ab67616d00001e026ac3ed972e1c181cd2ee8d55ab67616d00001e02eab7b968bf8762355df7d840",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e022dec15ec59146ae03cbe7fdbab67616d00001e025c29a88ba5341ca428f0c322ab67616d00001e026ac3ed972e1c181cd2ee8d55ab67616d00001e02eab7b968bf8762355df7d840",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/04wqNjFVvm9ojSfSpR8Bje",
+  "uri": "spotify:playlist:04wqNjFVvm9ojSfSpR8Bje",
+  "tracks": [
+    {
+      "id": "2zg6aGS3qFpVYqEkGy0vVB",
+      "name": "Strange World - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "3DNeMApEMCo4IDXNMYnlFi",
+        "name": "Iron Maiden (2015 Remaster)",
+        "releaseDate": "1980",
+        "releaseYear": "1980"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ac3ed972e1c181cd2ee8d55",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516ac3ed972e1c181cd2ee8d55",
+      "durationMs": 347346,
+      "durationFormatted": "5:47",
+      "spotifyUrl": "https://open.spotify.com/track/2zg6aGS3qFpVYqEkGy0vVB",
+      "uri": "spotify:track:2zg6aGS3qFpVYqEkGy0vVB",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "67jyLOxan1EkuAqMRgb3Uc",
+      "name": "Prodigal Son - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "5REF2imQI3lMAmeWcDXE3D",
+        "name": "Killers (2015 Remaster)",
+        "releaseDate": "1981",
+        "releaseYear": "1981"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732dec15ec59146ae03cbe7fdb",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512dec15ec59146ae03cbe7fdb",
+      "durationMs": 373266,
+      "durationFormatted": "6:13",
+      "spotifyUrl": "https://open.spotify.com/track/67jyLOxan1EkuAqMRgb3Uc",
+      "uri": "spotify:track:67jyLOxan1EkuAqMRgb3Uc",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7tcaQvBbSpNN0P2UF6WXxB",
+      "name": "Children of the Damned - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "5S3gls8Kjn8KVmqlIDEBbO",
+        "name": "The Number of the Beast (2015 Remaster)",
+        "releaseDate": "1982",
+        "releaseYear": "1982"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c29a88ba5341ca428f0c322",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515c29a88ba5341ca428f0c322",
+      "durationMs": 275280,
+      "durationFormatted": "4:35",
+      "spotifyUrl": "https://open.spotify.com/track/7tcaQvBbSpNN0P2UF6WXxB",
+      "uri": "spotify:track:7tcaQvBbSpNN0P2UF6WXxB",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "2yGdYMeYIjCQFiBRPnKKiZ",
+      "name": "Infinite Dreams - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1rG6IgNdwE1IGFuIKuYosz",
+        "name": "Seventh Son of a Seventh Son (2015 Remaster)",
+        "releaseDate": "1988",
+        "releaseYear": "1988"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab7b968bf8762355df7d840",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851eab7b968bf8762355df7d840",
+      "durationMs": 369373,
+      "durationFormatted": "6:09",
+      "spotifyUrl": "https://open.spotify.com/track/2yGdYMeYIjCQFiBRPnKKiZ",
+      "uri": "spotify:track:2yGdYMeYIjCQFiBRPnKKiZ",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1QEfmtZFmBz4cCh80Yfstr",
+      "name": "No Prayer for the Dying - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "21ZEAwY2TDnoQvVMJKkjUk",
+        "name": "No Prayer for the Dying (2015 Remaster)",
+        "releaseDate": "1990-10-01",
+        "releaseYear": "1990"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273320e4fca6198cee1a6d7f0b3",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851320e4fca6198cee1a6d7f0b3",
+      "durationMs": 263213,
+      "durationFormatted": "4:23",
+      "spotifyUrl": "https://open.spotify.com/track/1QEfmtZFmBz4cCh80Yfstr",
+      "uri": "spotify:track:1QEfmtZFmBz4cCh80Yfstr",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "2KKLuHN6zDxVnWtFKO8vo4",
+      "name": "Wasting Love - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "16Su3EUFLPqWVyrwN1q5wO",
+        "name": "Fear of the Dark (2015 Remaster)",
+        "releaseDate": "1992",
+        "releaseYear": "1992"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510dda9c11454b9053d07f585a",
+      "durationMs": 351026,
+      "durationFormatted": "5:51",
+      "spotifyUrl": "https://open.spotify.com/track/2KKLuHN6zDxVnWtFKO8vo4",
+      "uri": "spotify:track:2KKLuHN6zDxVnWtFKO8vo4",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3xFBMimcxKrNXzeAnRE9pJ",
+      "name": "2 AM - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "3irqbaStVsDR9IEdg8Cdwz",
+        "name": "The X Factor (2015 Remaster)",
+        "releaseDate": "1995",
+        "releaseYear": "1995"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ee8e0e9afc080aebb01f36c3",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ee8e0e9afc080aebb01f36c3",
+      "durationMs": 337586,
+      "durationFormatted": "5:37",
+      "spotifyUrl": "https://open.spotify.com/track/3xFBMimcxKrNXzeAnRE9pJ",
+      "uri": "spotify:track:3xFBMimcxKrNXzeAnRE9pJ",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7B69qpOG6y9IVsTDec8FF3",
+      "name": "Como Estais Amigos - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "4olc018Cln2QaMRFy1sk7v",
+        "name": "Virtual XI (2015 Remaster)",
+        "releaseDate": "1998",
+        "releaseYear": "1998"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27322eeb46298bb4d0df1402b64",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485122eeb46298bb4d0df1402b64",
+      "durationMs": 330093,
+      "durationFormatted": "5:30",
+      "spotifyUrl": "https://open.spotify.com/track/7B69qpOG6y9IVsTDec8FF3",
+      "uri": "spotify:track:7B69qpOG6y9IVsTDec8FF3",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "4q9YY8eorYGjpjk3Zko7l9",
+      "name": "Blood Brothers - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1hDF0QPIHVTnSJtxyQVguB",
+        "name": "Brave New World (2015 Remaster)",
+        "releaseDate": "2000",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e1c50403652529dccf16f84c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e1c50403652529dccf16f84c",
+      "durationMs": 434293,
+      "durationFormatted": "7:14",
+      "spotifyUrl": "https://open.spotify.com/track/4q9YY8eorYGjpjk3Zko7l9",
+      "uri": "spotify:track:4q9YY8eorYGjpjk3Zko7l9",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3u9bs8Q4fMYuHFyNLCzidg",
+      "name": "Journeyman - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "2Y8x0EEu7il0K2gCQIqVRh",
+        "name": "Dance of Death (2015 Remaster)",
+        "releaseDate": "2003",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+      "durationMs": 426306,
+      "durationFormatted": "7:06",
+      "spotifyUrl": "https://open.spotify.com/track/3u9bs8Q4fMYuHFyNLCzidg",
+      "uri": "spotify:track:3u9bs8Q4fMYuHFyNLCzidg",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "5xX9duoLvVMFUqaD8NgrKC",
+      "name": "Out of the Shadows - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1gdB9kn59KSAVG5VQcjdHi",
+        "name": "A Matter of Life and Death (2015 Remaster)",
+        "releaseDate": "2006-08-28",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27348b81a9fd94c4262f3b472c5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485148b81a9fd94c4262f3b472c5",
+      "durationMs": 336640,
+      "durationFormatted": "5:36",
+      "spotifyUrl": "https://open.spotify.com/track/5xX9duoLvVMFUqaD8NgrKC",
+      "uri": "spotify:track:5xX9duoLvVMFUqaD8NgrKC",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "6LBk0GNgOLB9S4BaGzeRZ8",
+      "name": "Coming Home - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "5YAfxU5OZKqAvE1GZPRQYY",
+        "name": "The Final Frontier (2015 Remaster)",
+        "releaseDate": "2010",
+        "releaseYear": "2010"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736afa62d8424c574900eff429",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516afa62d8424c574900eff429",
+      "durationMs": 352453,
+      "durationFormatted": "5:52",
+      "spotifyUrl": "https://open.spotify.com/track/6LBk0GNgOLB9S4BaGzeRZ8",
+      "uri": "spotify:track:6LBk0GNgOLB9S4BaGzeRZ8",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "6ghkCWKk438MyEbOr9Nrrq",
+      "name": "The Man of Sorrows",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "4vSfHrq6XxVyMcJ6PguFR2",
+        "name": "The Book of Souls",
+        "releaseDate": "2015-09-04",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737564c49838b67fd816348e6b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517564c49838b67fd816348e6b",
+      "durationMs": 387542,
+      "durationFormatted": "6:27",
+      "spotifyUrl": "https://open.spotify.com/track/6ghkCWKk438MyEbOr9Nrrq",
+      "uri": "spotify:track:6ghkCWKk438MyEbOr9Nrrq",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "64og4LmCUQRq4wvZeMdKdh",
+      "name": "Tears of the Dragon - Acoustic Chillout; 2001 Remastered Version",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "6Jbj3GyCsicdHpMDlMchN8",
+        "name": "Balls To Picasso (2001 Remastered Version)",
+        "releaseDate": "1994-06-03",
+        "releaseYear": "1994"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27398dd6112761aadc93bca0a4a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485198dd6112761aadc93bca0a4a",
+      "durationMs": 271933,
+      "durationFormatted": "4:31",
+      "spotifyUrl": "https://open.spotify.com/track/64og4LmCUQRq4wvZeMdKdh",
+      "uri": "spotify:track:64og4LmCUQRq4wvZeMdKdh",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "0zCiI3Jp5TRXAVqcCHBKr7",
+      "name": "Navigate The Seas Of The Sun",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "5MnnGkYAxmNH6OpPPbCTUm",
+        "name": "Tyranny Of Souls",
+        "releaseDate": "2005",
+        "releaseYear": "2005"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27314d7763e9f017d425a3ff75f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485114d7763e9f017d425a3ff75f",
+      "durationMs": 351760,
+      "durationFormatted": "5:51",
+      "spotifyUrl": "https://open.spotify.com/track/0zCiI3Jp5TRXAVqcCHBKr7",
+      "uri": "spotify:track:0zCiI3Jp5TRXAVqcCHBKr7",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3aKlrWvtDCJ13npobUO5zg",
+      "name": "Man of Sorrows - 2001 Remaster",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "0yPd9nZ543MWHGoGHcFKRR",
+        "name": "The Best of Bruce Dickinson",
+        "releaseDate": "2001-09-25",
+        "releaseYear": "2001"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c1b74b82d62902aad206e17",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515c1b74b82d62902aad206e17",
+      "durationMs": 320106,
+      "durationFormatted": "5:20",
+      "spotifyUrl": "https://open.spotify.com/track/3aKlrWvtDCJ13npobUO5zg",
+      "uri": "spotify:track:3aKlrWvtDCJ13npobUO5zg",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1NILMHSfpDZd7Rn73d7bEP",
+      "name": "Remember Tomorrow - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "3DNeMApEMCo4IDXNMYnlFi",
+        "name": "Iron Maiden (2015 Remaster)",
+        "releaseDate": "1980",
+        "releaseYear": "1980"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736ac3ed972e1c181cd2ee8d55",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516ac3ed972e1c181cd2ee8d55",
+      "durationMs": 328920,
+      "durationFormatted": "5:28",
+      "spotifyUrl": "https://open.spotify.com/track/1NILMHSfpDZd7Rn73d7bEP",
+      "uri": "spotify:track:1NILMHSfpDZd7Rn73d7bEP",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7K1yQ1Kb5mk5EVsuPt0cIA",
+      "name": "Arc of Space - 2001 Remastered Version",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "0rObhc2HXzPkL9rKL1mRrF",
+        "name": "Accident of Birth (Expanded Edition)",
+        "releaseDate": "1997",
+        "releaseYear": "1997"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737abc820db6e09ab373f2fed1",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517abc820db6e09ab373f2fed1",
+      "durationMs": 258133,
+      "durationFormatted": "4:18",
+      "spotifyUrl": "https://open.spotify.com/track/7K1yQ1Kb5mk5EVsuPt0cIA",
+      "uri": "spotify:track:7K1yQ1Kb5mk5EVsuPt0cIA",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1zEveL7yInhEX62N5evdip",
+      "name": "Eternal",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "6UzvYfuSncsP45oMnMjY67",
+        "name": "Scream for Me Sarajevo (Music from the Motion Picture)",
+        "releaseDate": "2018-06-29",
+        "releaseYear": "2018"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397cbabe89f1af4b8e66bae63",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485197cbabe89f1af4b8e66bae63",
+      "durationMs": 359238,
+      "durationFormatted": "5:59",
+      "spotifyUrl": "https://open.spotify.com/track/1zEveL7yInhEX62N5evdip",
+      "uri": "spotify:track:1zEveL7yInhEX62N5evdip",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "0Kkbl4JxLJTMwMEFaFL5qk",
+      "name": "The Silent Guide",
+      "artists": [
+        {
+          "id": "2dPJve8VOM1hJPYHBq5To5",
+          "name": "Kilmara"
+        }
+      ],
+      "artistNames": "Kilmara",
+      "album": {
+        "id": "6QotKEEwWgE2eMp9pOg1As",
+        "name": "Across the Realm of Time",
+        "releaseDate": "2018-08-31",
+        "releaseYear": "2018"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273427864825aaba965cba93d53",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851427864825aaba965cba93d53",
+      "durationMs": 333693,
+      "durationFormatted": "5:33",
+      "spotifyUrl": "https://open.spotify.com/track/0Kkbl4JxLJTMwMEFaFL5qk",
+      "uri": "spotify:track:0Kkbl4JxLJTMwMEFaFL5qk",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7C6K5CQkYOqCS1qcmGUQfV",
+      "name": "Empire of the Clouds",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "4vSfHrq6XxVyMcJ6PguFR2",
+        "name": "The Book of Souls",
+        "releaseDate": "2015-09-04",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737564c49838b67fd816348e6b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517564c49838b67fd816348e6b",
+      "durationMs": 1081316,
+      "durationFormatted": "18:01",
+      "spotifyUrl": "https://open.spotify.com/track/7C6K5CQkYOqCS1qcmGUQfV",
+      "uri": "spotify:track:7C6K5CQkYOqCS1qcmGUQfV",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1UuWgZ0TXOAKCa7bXD0zW8",
+      "name": "Tears of a Clown",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "4vSfHrq6XxVyMcJ6PguFR2",
+        "name": "The Book of Souls",
+        "releaseDate": "2015-09-04",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737564c49838b67fd816348e6b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517564c49838b67fd816348e6b",
+      "durationMs": 298886,
+      "durationFormatted": "4:58",
+      "spotifyUrl": "https://open.spotify.com/track/1UuWgZ0TXOAKCa7bXD0zW8",
+      "uri": "spotify:track:1UuWgZ0TXOAKCa7bXD0zW8",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "5Gy3Zj7P2LgcPbxZLPciKq",
+      "name": "Winds of Change",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "1aqh0If9HGAhFt7aia9HoJ",
+        "name": "Tattooed Millionaire",
+        "releaseDate": "1990-01-01",
+        "releaseYear": "1990"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273425773c0ef56cf7e0ec4b87d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851425773c0ef56cf7e0ec4b87d",
+      "durationMs": 202613,
+      "durationFormatted": "3:22",
+      "spotifyUrl": "https://open.spotify.com/track/5Gy3Zj7P2LgcPbxZLPciKq",
+      "uri": "spotify:track:5Gy3Zj7P2LgcPbxZLPciKq",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7alWWzJJM0nPexp8hP9Ik1",
+      "name": "Darkness Be My Friend - 2001 Remastered Version",
+      "artists": [
+        {
+          "id": "7Iffw1nP3NjCWkRIx3Ily9",
+          "name": "Bruce Dickinson"
+        }
+      ],
+      "artistNames": "Bruce Dickinson",
+      "album": {
+        "id": "1aqh0If9HGAhFt7aia9HoJ",
+        "name": "Tattooed Millionaire",
+        "releaseDate": "1990-01-01",
+        "releaseYear": "1990"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273425773c0ef56cf7e0ec4b87d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851425773c0ef56cf7e0ec4b87d",
+      "durationMs": 123280,
+      "durationFormatted": "2:03",
+      "spotifyUrl": "https://open.spotify.com/track/7alWWzJJM0nPexp8hP9Ik1",
+      "uri": "spotify:track:7alWWzJJM0nPexp8hP9Ik1",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "01n8OBPVoR4dotXQxwhnH6",
+      "name": "Darkest Hour",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "3TymcPWXqsCRA5oSL0TkPU",
+        "name": "Senjutsu",
+        "releaseDate": "2021-09-03",
+        "releaseYear": "2021"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d651f19c9f8b28c0bbbea574",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d651f19c9f8b28c0bbbea574",
+      "durationMs": 440464,
+      "durationFormatted": "7:20",
+      "spotifyUrl": "https://open.spotify.com/track/01n8OBPVoR4dotXQxwhnH6",
+      "uri": "spotify:track:01n8OBPVoR4dotXQxwhnH6",
+      "addedAt": "2022-11-06T01:30:57Z",
+      "addedDate": "2022-11-06"
+    }
+  ]
+}

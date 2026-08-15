@@ -1,0 +1,260 @@
+{
+  "id": "1YhqlVLHrpG20Dy8uhS4Z4",
+  "name": "iki balık",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 9,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e025c9890c0456a3719eeecd8aaab67616d00001e027861a9cd320d38165d3705a4ab67616d00001e02dffe8e5a1e7c4eed82fbbfd5",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e025c9890c0456a3719eeecd8aaab67616d00001e027861a9cd320d38165d3705a4ab67616d00001e02dffe8e5a1e7c4eed82fbbfd5",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e025c9890c0456a3719eeecd8aaab67616d00001e027861a9cd320d38165d3705a4ab67616d00001e02dffe8e5a1e7c4eed82fbbfd5",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e025c9890c0456a3719eeecd8aaab67616d00001e027861a9cd320d38165d3705a4ab67616d00001e02dffe8e5a1e7c4eed82fbbfd5",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/1YhqlVLHrpG20Dy8uhS4Z4",
+  "uri": "spotify:playlist:1YhqlVLHrpG20Dy8uhS4Z4",
+  "tracks": [
+    {
+      "id": "6tJPdGKrbAeyhkkhn44RHR",
+      "name": "Days of Thunder",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        }
+      ],
+      "artistNames": "The Midnight",
+      "album": {
+        "id": "54xM746igJkdPJenRhW1za",
+        "name": "Days of Thunder",
+        "releaseDate": "2014-03-19",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+      "durationMs": 324018,
+      "durationFormatted": "5:24",
+      "spotifyUrl": "https://open.spotify.com/track/6tJPdGKrbAeyhkkhn44RHR",
+      "uri": "spotify:track:6tJPdGKrbAeyhkkhn44RHR",
+      "addedAt": "2021-07-26T03:58:46Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "4loXMor75kKVBB03ygwDlh",
+      "name": "Los Angeles",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        }
+      ],
+      "artistNames": "The Midnight",
+      "album": {
+        "id": "54xM746igJkdPJenRhW1za",
+        "name": "Days of Thunder",
+        "releaseDate": "2014-03-19",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+      "durationMs": 389094,
+      "durationFormatted": "6:29",
+      "spotifyUrl": "https://open.spotify.com/track/4loXMor75kKVBB03ygwDlh",
+      "uri": "spotify:track:4loXMor75kKVBB03ygwDlh",
+      "addedAt": "2021-07-26T03:59:09Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "5KTPybHCIBg51n52WpPAOn",
+      "name": "Dance With Somebody",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        }
+      ],
+      "artistNames": "The Midnight",
+      "album": {
+        "id": "1WKMbxcldmwnXaCIGgEpUW",
+        "name": "Monsters",
+        "releaseDate": "2020-07-10",
+        "releaseYear": "2020"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737861a9cd320d38165d3705a4",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517861a9cd320d38165d3705a4",
+      "durationMs": 257893,
+      "durationFormatted": "4:17",
+      "spotifyUrl": "https://open.spotify.com/track/5KTPybHCIBg51n52WpPAOn",
+      "uri": "spotify:track:5KTPybHCIBg51n52WpPAOn",
+      "addedAt": "2021-07-26T03:59:19Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "0Zt2QrNiWuMXzaSZocol9E",
+      "name": "Fire In The Sky",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        }
+      ],
+      "artistNames": "The Midnight",
+      "album": {
+        "id": "1WKMbxcldmwnXaCIGgEpUW",
+        "name": "Monsters",
+        "releaseDate": "2020-07-10",
+        "releaseYear": "2020"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737861a9cd320d38165d3705a4",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517861a9cd320d38165d3705a4",
+      "durationMs": 249440,
+      "durationFormatted": "4:09",
+      "spotifyUrl": "https://open.spotify.com/track/0Zt2QrNiWuMXzaSZocol9E",
+      "uri": "spotify:track:0Zt2QrNiWuMXzaSZocol9E",
+      "addedAt": "2021-07-26T03:59:24Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "7t1fRN6WbAmFY0YtuiuX7a",
+      "name": "Monsters",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        },
+        {
+          "id": "3b3uDVnwdfot4Dr41EMZc8",
+          "name": "Jupiter Winter"
+        }
+      ],
+      "artistNames": "The Midnight, Jupiter Winter",
+      "album": {
+        "id": "1WKMbxcldmwnXaCIGgEpUW",
+        "name": "Monsters",
+        "releaseDate": "2020-07-10",
+        "releaseYear": "2020"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737861a9cd320d38165d3705a4",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517861a9cd320d38165d3705a4",
+      "durationMs": 197933,
+      "durationFormatted": "3:17",
+      "spotifyUrl": "https://open.spotify.com/track/7t1fRN6WbAmFY0YtuiuX7a",
+      "uri": "spotify:track:7t1fRN6WbAmFY0YtuiuX7a",
+      "addedAt": "2021-07-26T03:59:28Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "2KKLuHN6zDxVnWtFKO8vo4",
+      "name": "Wasting Love - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "16Su3EUFLPqWVyrwN1q5wO",
+        "name": "Fear of the Dark (2015 Remaster)",
+        "releaseDate": "1992",
+        "releaseYear": "1992"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510dda9c11454b9053d07f585a",
+      "durationMs": 351026,
+      "durationFormatted": "5:51",
+      "spotifyUrl": "https://open.spotify.com/track/2KKLuHN6zDxVnWtFKO8vo4",
+      "uri": "spotify:track:2KKLuHN6zDxVnWtFKO8vo4",
+      "addedAt": "2021-07-26T04:00:08Z",
+      "addedDate": "2021-07-26"
+    },
+    {
+      "id": "0SiywuOBRcynK0uKGWdCnn",
+      "name": "Bad Romance",
+      "artists": [
+        {
+          "id": "1HY2Jd0NmPuamShAr6KMms",
+          "name": "Lady Gaga"
+        }
+      ],
+      "artistNames": "Lady Gaga",
+      "album": {
+        "id": "6rePArBMb5nLWEaY9aQqL4",
+        "name": "The Fame Monster (Deluxe Edition)",
+        "releaseDate": "2009-11-05",
+        "releaseYear": "2009"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c9890c0456a3719eeecd8aa",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515c9890c0456a3719eeecd8aa",
+      "durationMs": 294573,
+      "durationFormatted": "4:54",
+      "spotifyUrl": "https://open.spotify.com/track/0SiywuOBRcynK0uKGWdCnn",
+      "uri": "spotify:track:0SiywuOBRcynK0uKGWdCnn",
+      "addedAt": "2021-07-28T12:13:31Z",
+      "addedDate": "2021-07-28"
+    },
+    {
+      "id": "6xdLJrVj4vIXwhuG8TMopk",
+      "name": "Crazy Little Thing Called Love - Remastered 2011",
+      "artists": [
+        {
+          "id": "1dfeR4HaWDbWqFHLkxsg1d",
+          "name": "Queen"
+        }
+      ],
+      "artistNames": "Queen",
+      "album": {
+        "id": "58alCatewkjNm9IM1Ucj67",
+        "name": "The Game (2011 Remaster)",
+        "releaseDate": "1980-06-27",
+        "releaseYear": "1980"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273056e90910cbaf5c5b892aeba",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851056e90910cbaf5c5b892aeba",
+      "durationMs": 163373,
+      "durationFormatted": "2:43",
+      "spotifyUrl": "https://open.spotify.com/track/6xdLJrVj4vIXwhuG8TMopk",
+      "uri": "spotify:track:6xdLJrVj4vIXwhuG8TMopk",
+      "addedAt": "2021-08-09T20:59:28Z",
+      "addedDate": "2021-08-09"
+    },
+    {
+      "id": "6O20JhBJPePEkBdrB5sqRx",
+      "name": "Diamonds",
+      "artists": [
+        {
+          "id": "5pKCCKE2ajJHZ9KAiaK11H",
+          "name": "Rihanna"
+        }
+      ],
+      "artistNames": "Rihanna",
+      "album": {
+        "id": "5pLlGJrxuQO3jMoQe1XxZY",
+        "name": "Unapologetic (Deluxe)",
+        "releaseDate": "2012-12-11",
+        "releaseYear": "2012"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736dee21d6cd1823e4d6231d37",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516dee21d6cd1823e4d6231d37",
+      "durationMs": 225146,
+      "durationFormatted": "3:45",
+      "spotifyUrl": "https://open.spotify.com/track/6O20JhBJPePEkBdrB5sqRx",
+      "uri": "spotify:track:6O20JhBJPePEkBdrB5sqRx",
+      "addedAt": "2021-08-09T20:59:46Z",
+      "addedDate": "2021-08-09"
+    }
+  ]
+}

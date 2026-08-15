@@ -184,23 +184,72 @@ async function main() {
     writeJson(path.join(dataDir, 'liked-songs.json'), likedSongs);
     console.log(`💾 Saved ${likedSongs.length} Liked Songs to data/liked-songs.json\n`);
 
-    // 3. Playlists
+    // 3. Playlists & Full Tracklists Backup
     const rawPlaylists = await fetchAllPages('https://api.spotify.com/v1/me/playlists?limit=50', token, 'Playlists');
-    const playlists = rawPlaylists.map(p => ({
-        id: p.id,
-        name: p.name,
-        description: p.description || '',
-        public: p.public,
-        collaborative: p.collaborative,
-        tracksTotal: p.tracks?.total || 0,
-        images: p.images || [],
-        coverUrl: p.images?.[0]?.url || '',
-        owner: p.owner?.display_name || '',
-        spotifyUrl: p.external_urls?.spotify,
-        uri: p.uri
-    }));
+    console.log(`\n📑 Fetching complete tracklists for ${rawPlaylists.length} playlists...`);
+    
+    const playlistsDir = path.join(dataDir, 'playlists');
+    ensureDir(playlistsDir);
+
+    const playlists = [];
+    for (const p of rawPlaylists) {
+        let rawTracks = [];
+        try {
+            rawTracks = await fetchAllPages(`https://api.spotify.com/v1/playlists/${p.id}/items?limit=100`, token, `"${p.name}"`);
+        } catch (err) {
+            console.warn(`⚠️ Could not fetch items for playlist "${p.name}":`, err.message);
+        }
+
+        const tracks = rawTracks.map(item => {
+            const t = item.track || item.item;
+            if (!t) return null;
+            const images = t.album?.images || [];
+            const releaseDate = t.album?.release_date || '';
+            return {
+                id: t.id,
+                name: t.name,
+                artists: (t.artists || []).map(a => ({ id: a.id, name: a.name })),
+                artistNames: (t.artists || []).map(a => a.name).join(', '),
+                album: {
+                    id: t.album?.id,
+                    name: t.album?.name,
+                    releaseDate: releaseDate,
+                    releaseYear: releaseDate.length >= 4 ? releaseDate.substring(0, 4) : ''
+                },
+                coverUrl: images[0]?.url || '',
+                thumbnailUrl: images[images.length - 1]?.url || images[0]?.url || '',
+                durationMs: t.duration_ms,
+                durationFormatted: formatDuration(t.duration_ms),
+                previewUrl: t.preview_url,
+                spotifyUrl: t.external_urls?.spotify,
+                uri: t.uri,
+                addedAt: item.added_at,
+                addedDate: item.added_at ? item.added_at.substring(0, 10) : ''
+            };
+        }).filter(Boolean);
+
+        const playlistObj = {
+            id: p.id,
+            name: p.name,
+            description: p.description || '',
+            public: p.public,
+            collaborative: p.collaborative,
+            tracksTotal: tracks.length,
+            images: p.images || [],
+            coverUrl: p.images?.[0]?.url || (tracks[0]?.coverUrl || ''),
+            owner: p.owner?.display_name || '',
+            spotifyUrl: p.external_urls?.spotify,
+            uri: p.uri,
+            tracks: tracks
+        };
+
+        // Write individual playlist backup JSON file
+        writeJson(path.join(playlistsDir, `${p.id}.json`), playlistObj);
+        playlists.push(playlistObj);
+    }
+
     writeJson(path.join(dataDir, 'playlists.json'), playlists);
-    console.log(`💾 Saved ${playlists.length} Playlists to data/playlists.json\n`);
+    console.log(`💾 Saved ${playlists.length} Playlists with all tracklists to data/playlists.json and data/playlists/\n`);
 
     // 4. Saved Albums
     const rawAlbums = await fetchAllPages('https://api.spotify.com/v1/me/albums?limit=50', token, 'Saved Albums');

@@ -1,0 +1,506 @@
+{
+  "id": "1gbR2LswqZYu4mxsrGV2uC",
+  "name": "Hakan Altun Hareketli",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 19,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e024ef745e96ab9420d24bbf004ab67616d00001e02792491de5de5b2ef53c03e8bab67616d00001e02d39274da40299768e4089d4cab67616d00001e02e79fe07cf86d8221c7c5a449",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e024ef745e96ab9420d24bbf004ab67616d00001e02792491de5de5b2ef53c03e8bab67616d00001e02d39274da40299768e4089d4cab67616d00001e02e79fe07cf86d8221c7c5a449",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e024ef745e96ab9420d24bbf004ab67616d00001e02792491de5de5b2ef53c03e8bab67616d00001e02d39274da40299768e4089d4cab67616d00001e02e79fe07cf86d8221c7c5a449",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e024ef745e96ab9420d24bbf004ab67616d00001e02792491de5de5b2ef53c03e8bab67616d00001e02d39274da40299768e4089d4cab67616d00001e02e79fe07cf86d8221c7c5a449",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/1gbR2LswqZYu4mxsrGV2uC",
+  "uri": "spotify:playlist:1gbR2LswqZYu4mxsrGV2uC",
+  "tracks": [
+    {
+      "id": "33ePxGFvKJPs77ZZnQI8Th",
+      "name": "Düğünse Düğün",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "4mG6XGwPG0e0lgPOmp7Gm0",
+        "name": "Konu: Aşk",
+        "releaseDate": "2017-05-18",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b6c7ff9dedbc4d9756e1a357",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b6c7ff9dedbc4d9756e1a357",
+      "durationMs": 233587,
+      "durationFormatted": "3:53",
+      "spotifyUrl": "https://open.spotify.com/track/33ePxGFvKJPs77ZZnQI8Th",
+      "uri": "spotify:track:33ePxGFvKJPs77ZZnQI8Th",
+      "addedAt": "2017-09-18T12:47:22Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "3Xq3Gozb3Iq02reKbWIx0w",
+      "name": "Bana Göresin",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "1ekBPRVc8B3ri25ukhDcVF",
+        "name": "Hakan (Hani Bekleyecektin)",
+        "releaseDate": "1999-04-19",
+        "releaseYear": "1999"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d39274da40299768e4089d4c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d39274da40299768e4089d4c",
+      "durationMs": 207106,
+      "durationFormatted": "3:27",
+      "spotifyUrl": "https://open.spotify.com/track/3Xq3Gozb3Iq02reKbWIx0w",
+      "uri": "spotify:track:3Xq3Gozb3Iq02reKbWIx0w",
+      "addedAt": "2017-09-18T12:48:24Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "3sJW9mNtO5ZpJlCi9zrnG2",
+      "name": "Maçka Yolları Taşlı",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "1756Is1DXQckXVqm3DLgYJ",
+        "name": "Maçka Yolları Taşlı",
+        "releaseDate": "2014-10-24",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273792491de5de5b2ef53c03e8b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851792491de5de5b2ef53c03e8b",
+      "durationMs": 206306,
+      "durationFormatted": "3:26",
+      "spotifyUrl": "https://open.spotify.com/track/3sJW9mNtO5ZpJlCi9zrnG2",
+      "uri": "spotify:track:3sJW9mNtO5ZpJlCi9zrnG2",
+      "addedAt": "2017-09-18T12:56:33Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "7aesa5BJdn2re7opi5i5v6",
+      "name": "Teklif Ediyorum",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "2nj81kdOP6zpd861tmscJy",
+        "name": "Nefesimsin / Aşkıma Son Şarkım",
+        "releaseDate": "2002-04-03",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e79fe07cf86d8221c7c5a449",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e79fe07cf86d8221c7c5a449",
+      "durationMs": 192200,
+      "durationFormatted": "3:12",
+      "spotifyUrl": "https://open.spotify.com/track/7aesa5BJdn2re7opi5i5v6",
+      "uri": "spotify:track:7aesa5BJdn2re7opi5i5v6",
+      "addedAt": "2017-09-18T13:15:05Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "6BbuY5LzjtdxiNjBPNga01",
+      "name": "Unutamıyorum",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "2nj81kdOP6zpd861tmscJy",
+        "name": "Nefesimsin / Aşkıma Son Şarkım",
+        "releaseDate": "2002-04-03",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e79fe07cf86d8221c7c5a449",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e79fe07cf86d8221c7c5a449",
+      "durationMs": 215106,
+      "durationFormatted": "3:35",
+      "spotifyUrl": "https://open.spotify.com/track/6BbuY5LzjtdxiNjBPNga01",
+      "uri": "spotify:track:6BbuY5LzjtdxiNjBPNga01",
+      "addedAt": "2017-09-18T13:29:56Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "6NyRzvaeOpbw2kUGuwfjKH",
+      "name": "Ah Be Anacığım",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "2nj81kdOP6zpd861tmscJy",
+        "name": "Nefesimsin / Aşkıma Son Şarkım",
+        "releaseDate": "2002-04-03",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e79fe07cf86d8221c7c5a449",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e79fe07cf86d8221c7c5a449",
+      "durationMs": 241973,
+      "durationFormatted": "4:01",
+      "spotifyUrl": "https://open.spotify.com/track/6NyRzvaeOpbw2kUGuwfjKH",
+      "uri": "spotify:track:6NyRzvaeOpbw2kUGuwfjKH",
+      "addedAt": "2017-09-18T13:48:40Z",
+      "addedDate": "2017-09-18"
+    },
+    {
+      "id": "1yrzXucAiK9np8iTwdfOLh",
+      "name": "Yollara Taşlara",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "6c6f64QcI1MVqbCse0Bcy4",
+        "name": "Küstüm Aşklara",
+        "releaseDate": "2006-03-21",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d62254ba24334fcf356ba9c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517d62254ba24334fcf356ba9c",
+      "durationMs": 214866,
+      "durationFormatted": "3:34",
+      "spotifyUrl": "https://open.spotify.com/track/1yrzXucAiK9np8iTwdfOLh",
+      "uri": "spotify:track:1yrzXucAiK9np8iTwdfOLh",
+      "addedAt": "2017-09-19T07:31:15Z",
+      "addedDate": "2017-09-19"
+    },
+    {
+      "id": "6x7Yv0cGmJVHZ3suH9IJbq",
+      "name": "Yalancı Aşkların Ol",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "6c6f64QcI1MVqbCse0Bcy4",
+        "name": "Küstüm Aşklara",
+        "releaseDate": "2006-03-21",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d62254ba24334fcf356ba9c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517d62254ba24334fcf356ba9c",
+      "durationMs": 231960,
+      "durationFormatted": "3:51",
+      "spotifyUrl": "https://open.spotify.com/track/6x7Yv0cGmJVHZ3suH9IJbq",
+      "uri": "spotify:track:6x7Yv0cGmJVHZ3suH9IJbq",
+      "addedAt": "2017-09-19T07:37:11Z",
+      "addedDate": "2017-09-19"
+    },
+    {
+      "id": "3CYIth7MvTKCdDgsLkAxlK",
+      "name": "Çok Gereksiz",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "6c6f64QcI1MVqbCse0Bcy4",
+        "name": "Küstüm Aşklara",
+        "releaseDate": "2006-03-21",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d62254ba24334fcf356ba9c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517d62254ba24334fcf356ba9c",
+      "durationMs": 206000,
+      "durationFormatted": "3:26",
+      "spotifyUrl": "https://open.spotify.com/track/3CYIth7MvTKCdDgsLkAxlK",
+      "uri": "spotify:track:3CYIth7MvTKCdDgsLkAxlK",
+      "addedAt": "2017-09-19T07:53:15Z",
+      "addedDate": "2017-09-19"
+    },
+    {
+      "id": "4Zf3Wr7jHgJpcdEYQamWK8",
+      "name": "Nokta",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "6c6f64QcI1MVqbCse0Bcy4",
+        "name": "Küstüm Aşklara",
+        "releaseDate": "2006-03-21",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d62254ba24334fcf356ba9c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517d62254ba24334fcf356ba9c",
+      "durationMs": 223840,
+      "durationFormatted": "3:43",
+      "spotifyUrl": "https://open.spotify.com/track/4Zf3Wr7jHgJpcdEYQamWK8",
+      "uri": "spotify:track:4Zf3Wr7jHgJpcdEYQamWK8",
+      "addedAt": "2017-09-19T08:30:41Z",
+      "addedDate": "2017-09-19"
+    },
+    {
+      "id": "4auuQnrbJ87BXQBHLWo5EJ",
+      "name": "Tedavül",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 200386,
+      "durationFormatted": "3:20",
+      "spotifyUrl": "https://open.spotify.com/track/4auuQnrbJ87BXQBHLWo5EJ",
+      "uri": "spotify:track:4auuQnrbJ87BXQBHLWo5EJ",
+      "addedAt": "2017-09-20T07:59:20Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "2E2OCmGyAPfGq7uyLKmx90",
+      "name": "Kara Gözlüm",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "3egUvFtrVWZRv80bIMuPzV",
+        "name": "Ağlamak Yok Yüreğim",
+        "releaseDate": "2000-10-12",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736c858222a4a8e42570108c5e",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516c858222a4a8e42570108c5e",
+      "durationMs": 207133,
+      "durationFormatted": "3:27",
+      "spotifyUrl": "https://open.spotify.com/track/2E2OCmGyAPfGq7uyLKmx90",
+      "uri": "spotify:track:2E2OCmGyAPfGq7uyLKmx90",
+      "addedAt": "2017-09-20T08:35:52Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "5qiTs9z0qZyWNuKY4u0BNN",
+      "name": "Değer Canım",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 209560,
+      "durationFormatted": "3:29",
+      "spotifyUrl": "https://open.spotify.com/track/5qiTs9z0qZyWNuKY4u0BNN",
+      "uri": "spotify:track:5qiTs9z0qZyWNuKY4u0BNN",
+      "addedAt": "2017-09-20T10:44:30Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "12ngpHD8U8253orYeAeJro",
+      "name": "Aşkım Aşkım",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 189040,
+      "durationFormatted": "3:09",
+      "spotifyUrl": "https://open.spotify.com/track/12ngpHD8U8253orYeAeJro",
+      "uri": "spotify:track:12ngpHD8U8253orYeAeJro",
+      "addedAt": "2017-09-20T10:44:36Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "3T5dk5A8CxnM5qyTrmYlGM",
+      "name": "Çok Arayacaksın",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 237826,
+      "durationFormatted": "3:57",
+      "spotifyUrl": "https://open.spotify.com/track/3T5dk5A8CxnM5qyTrmYlGM",
+      "uri": "spotify:track:3T5dk5A8CxnM5qyTrmYlGM",
+      "addedAt": "2017-09-20T11:01:00Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "7E3HoN27uvy8DKnirezFMa",
+      "name": "Darısı Size",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 191133,
+      "durationFormatted": "3:11",
+      "spotifyUrl": "https://open.spotify.com/track/7E3HoN27uvy8DKnirezFMa",
+      "uri": "spotify:track:7E3HoN27uvy8DKnirezFMa",
+      "addedAt": "2017-09-20T11:14:31Z",
+      "addedDate": "2017-09-20"
+    },
+    {
+      "id": "2OqN0u38hYLT4i9Z73dryX",
+      "name": "Usandım Sevgilim",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "0XJdhipfavGLg5hvswCj3u",
+        "name": "Hediye",
+        "releaseDate": "2004-12-31",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320c5db3f28033ce439b693ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120c5db3f28033ce439b693ca",
+      "durationMs": 223693,
+      "durationFormatted": "3:43",
+      "spotifyUrl": "https://open.spotify.com/track/2OqN0u38hYLT4i9Z73dryX",
+      "uri": "spotify:track:2OqN0u38hYLT4i9Z73dryX",
+      "addedAt": "2017-09-25T07:35:28Z",
+      "addedDate": "2017-09-25"
+    },
+    {
+      "id": "3Fw5WN6QbwR6DL44f2zYtf",
+      "name": "Gör Gör",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "477CqgwoZxa8W9rhjF6mJI",
+        "name": "Tercihimdir",
+        "releaseDate": "2010-04-09",
+        "releaseYear": "2010"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ded1957d522be5bd4c74c941",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ded1957d522be5bd4c74c941",
+      "durationMs": 221813,
+      "durationFormatted": "3:41",
+      "spotifyUrl": "https://open.spotify.com/track/3Fw5WN6QbwR6DL44f2zYtf",
+      "uri": "spotify:track:3Fw5WN6QbwR6DL44f2zYtf",
+      "addedAt": "2017-10-10T05:54:58Z",
+      "addedDate": "2017-10-10"
+    },
+    {
+      "id": "6JArBxUqmWF4CWfE2XPbA3",
+      "name": "İçelim Gönlüm",
+      "artists": [
+        {
+          "id": "2AhmWHekrahJri4f5e08Tf",
+          "name": "Hakan Altun"
+        }
+      ],
+      "artistNames": "Hakan Altun",
+      "album": {
+        "id": "7ygFhaY4jFHn7OkmiK18rm",
+        "name": "Aklın Bende Kalmasın",
+        "releaseDate": "2008-09-05",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27301147a82bec82848b0b28ab0",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485101147a82bec82848b0b28ab0",
+      "durationMs": 232710,
+      "durationFormatted": "3:52",
+      "spotifyUrl": "https://open.spotify.com/track/6JArBxUqmWF4CWfE2XPbA3",
+      "uri": "spotify:track:6JArBxUqmWF4CWfE2XPbA3",
+      "addedAt": "2017-10-10T07:14:59Z",
+      "addedDate": "2017-10-10"
+    }
+  ]
+}

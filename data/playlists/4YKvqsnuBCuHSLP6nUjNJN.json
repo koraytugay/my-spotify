@@ -1,0 +1,706 @@
+{
+  "id": "4YKvqsnuBCuHSLP6nUjNJN",
+  "name": "Opeth Ballads",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 27,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e0213d0ed017d3ad35ed6bd1e90ab67616d00001e021451fa8ef96932abd5a81791ab67616d00001e024fda697ad1d3866d9418dcb1ab67616d00001e02cf5507e5a84e6332c910b0d5",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e0213d0ed017d3ad35ed6bd1e90ab67616d00001e021451fa8ef96932abd5a81791ab67616d00001e024fda697ad1d3866d9418dcb1ab67616d00001e02cf5507e5a84e6332c910b0d5",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e0213d0ed017d3ad35ed6bd1e90ab67616d00001e021451fa8ef96932abd5a81791ab67616d00001e024fda697ad1d3866d9418dcb1ab67616d00001e02cf5507e5a84e6332c910b0d5",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0213d0ed017d3ad35ed6bd1e90ab67616d00001e021451fa8ef96932abd5a81791ab67616d00001e024fda697ad1d3866d9418dcb1ab67616d00001e02cf5507e5a84e6332c910b0d5",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/4YKvqsnuBCuHSLP6nUjNJN",
+  "uri": "spotify:playlist:4YKvqsnuBCuHSLP6nUjNJN",
+  "tracks": [
+    {
+      "id": "37FRgLtvyh6Df8xu1qTXwC",
+      "name": "Patterns in the Ivy",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "7cMJfxkJwUAcxHCHQMNYYs",
+        "name": "Blackwater Park",
+        "releaseDate": "2001-02-27",
+        "releaseYear": "2001"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313d0ed017d3ad35ed6bd1e90",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485113d0ed017d3ad35ed6bd1e90",
+      "durationMs": 112400,
+      "durationFormatted": "1:52",
+      "spotifyUrl": "https://open.spotify.com/track/37FRgLtvyh6Df8xu1qTXwC",
+      "uri": "spotify:track:37FRgLtvyh6Df8xu1qTXwC",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "05lem7bHWxyo98HOwPmils",
+      "name": "Hope Leaves",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 267146,
+      "durationFormatted": "4:27",
+      "spotifyUrl": "https://open.spotify.com/track/05lem7bHWxyo98HOwPmils",
+      "uri": "spotify:track:05lem7bHWxyo98HOwPmils",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "2wXSx9UxsNIYidGi5r0SZ4",
+      "name": "Ending Credits",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 216280,
+      "durationFormatted": "3:36",
+      "spotifyUrl": "https://open.spotify.com/track/2wXSx9UxsNIYidGi5r0SZ4",
+      "uri": "spotify:track:2wXSx9UxsNIYidGi5r0SZ4",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1fd8YbOoVAU8KK5ONDOqs9",
+      "name": "Hours of Wealth",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "74QPd1WqK8kTsVNtHdBzJ8",
+        "name": "Ghost Reveries",
+        "releaseDate": "2005-08-30",
+        "releaseYear": "2005"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731451fa8ef96932abd5a81791",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511451fa8ef96932abd5a81791",
+      "durationMs": 320453,
+      "durationFormatted": "5:20",
+      "spotifyUrl": "https://open.spotify.com/track/1fd8YbOoVAU8KK5ONDOqs9",
+      "uri": "spotify:track:1fd8YbOoVAU8KK5ONDOqs9",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "5HGzGElmhG7Fk2d0qh00Zh",
+      "name": "Isolation Years",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "74QPd1WqK8kTsVNtHdBzJ8",
+        "name": "Ghost Reveries",
+        "releaseDate": "2005-08-30",
+        "releaseYear": "2005"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731451fa8ef96932abd5a81791",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511451fa8ef96932abd5a81791",
+      "durationMs": 231426,
+      "durationFormatted": "3:51",
+      "spotifyUrl": "https://open.spotify.com/track/5HGzGElmhG7Fk2d0qh00Zh",
+      "uri": "spotify:track:5HGzGElmhG7Fk2d0qh00Zh",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "12bVZuuIZS6jVv6jobbOH1",
+      "name": "Faith in Others",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0DLImjuzdrOBQKtYLlf3C5",
+        "name": "Pale Communion",
+        "releaseDate": "2014-08-25",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734fda697ad1d3866d9418dcb1",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514fda697ad1d3866d9418dcb1",
+      "durationMs": 461360,
+      "durationFormatted": "7:41",
+      "spotifyUrl": "https://open.spotify.com/track/12bVZuuIZS6jVv6jobbOH1",
+      "uri": "spotify:track:12bVZuuIZS6jVv6jobbOH1",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3gmTdnSXoccT7MVKAE3JaK",
+      "name": "Benighted",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "2tUzYGfa0hY2KXY5k2Mtbd",
+        "name": "Still Life (Remastered Edition)",
+        "releaseDate": "1999-10-19",
+        "releaseYear": "1999"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27322391b97f8ec25be6311846a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485122391b97f8ec25be6311846a",
+      "durationMs": 300346,
+      "durationFormatted": "5:00",
+      "spotifyUrl": "https://open.spotify.com/track/3gmTdnSXoccT7MVKAE3JaK",
+      "uri": "spotify:track:3gmTdnSXoccT7MVKAE3JaK",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7pFJfx81AYULOkg0xmS017",
+      "name": "Coil",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "54ITQfr6GVGx9c5XiLUQH7",
+        "name": "Watershed",
+        "releaseDate": "2008-06-03",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27308162a481c82a21fbf943463",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485108162a481c82a21fbf943463",
+      "durationMs": 190693,
+      "durationFormatted": "3:10",
+      "spotifyUrl": "https://open.spotify.com/track/7pFJfx81AYULOkg0xmS017",
+      "uri": "spotify:track:7pFJfx81AYULOkg0xmS017",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "6aEBNoaRMoIgOLfG8YyVkq",
+      "name": "Burden",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "54ITQfr6GVGx9c5XiLUQH7",
+        "name": "Watershed",
+        "releaseDate": "2008-06-03",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27308162a481c82a21fbf943463",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485108162a481c82a21fbf943463",
+      "durationMs": 461053,
+      "durationFormatted": "7:41",
+      "spotifyUrl": "https://open.spotify.com/track/6aEBNoaRMoIgOLfG8YyVkq",
+      "uri": "spotify:track:6aEBNoaRMoIgOLfG8YyVkq",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "0fBPwRmfNmOdpNcxOoli9Q",
+      "name": "Harvest",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "7cMJfxkJwUAcxHCHQMNYYs",
+        "name": "Blackwater Park",
+        "releaseDate": "2001-02-27",
+        "releaseYear": "2001"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313d0ed017d3ad35ed6bd1e90",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485113d0ed017d3ad35ed6bd1e90",
+      "durationMs": 361466,
+      "durationFormatted": "6:01",
+      "spotifyUrl": "https://open.spotify.com/track/0fBPwRmfNmOdpNcxOoli9Q",
+      "uri": "spotify:track:0fBPwRmfNmOdpNcxOoli9Q",
+      "addedAt": "2022-11-06T01:32:29Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3WtsQAngIkmcNeqVeK3fXQ",
+      "name": "In My Time of Need",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 346733,
+      "durationFormatted": "5:46",
+      "spotifyUrl": "https://open.spotify.com/track/3WtsQAngIkmcNeqVeK3fXQ",
+      "uri": "spotify:track:3WtsQAngIkmcNeqVeK3fXQ",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1oaJ2Rvy5UXIesXn4I18Cl",
+      "name": "A Fleeting Glance",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0JVRcixQ87LgQL1vMZ8KwV",
+        "name": "Sorceress",
+        "releaseDate": "2016-09-30",
+        "releaseYear": "2016"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6fb2218126611815e6900ff",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e6fb2218126611815e6900ff",
+      "durationMs": 306653,
+      "durationFormatted": "5:06",
+      "spotifyUrl": "https://open.spotify.com/track/1oaJ2Rvy5UXIesXn4I18Cl",
+      "uri": "spotify:track:1oaJ2Rvy5UXIesXn4I18Cl",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3nL9VFvk1oAD3HO8hWoM94",
+      "name": "I Feel the Dark",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "6I6rZw3H59ka6nDYsXcpDC",
+        "name": "Heritage",
+        "releaseDate": "2011-09-20",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ed50c4654934dbbd545b742b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ed50c4654934dbbd545b742b",
+      "durationMs": 397453,
+      "durationFormatted": "6:37",
+      "spotifyUrl": "https://open.spotify.com/track/3nL9VFvk1oAD3HO8hWoM94",
+      "uri": "spotify:track:3nL9VFvk1oAD3HO8hWoM94",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "6lKG104xIQ7DIuSYOnCqfZ",
+      "name": "To Rid the Disease",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 378373,
+      "durationFormatted": "6:18",
+      "spotifyUrl": "https://open.spotify.com/track/6lKG104xIQ7DIuSYOnCqfZ",
+      "uri": "spotify:track:6lKG104xIQ7DIuSYOnCqfZ",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "4uJSCrI7r0usNJ3aaHAuC6",
+      "name": "Windowpane",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 464280,
+      "durationFormatted": "7:44",
+      "spotifyUrl": "https://open.spotify.com/track/4uJSCrI7r0usNJ3aaHAuC6",
+      "uri": "spotify:track:4uJSCrI7r0usNJ3aaHAuC6",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "08Y8SAlpd9q9gWy41Lhj2m",
+      "name": "Will O the Wisp",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0JVRcixQ87LgQL1vMZ8KwV",
+        "name": "Sorceress",
+        "releaseDate": "2016-09-30",
+        "releaseYear": "2016"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6fb2218126611815e6900ff",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e6fb2218126611815e6900ff",
+      "durationMs": 307786,
+      "durationFormatted": "5:07",
+      "spotifyUrl": "https://open.spotify.com/track/08Y8SAlpd9q9gWy41Lhj2m",
+      "uri": "spotify:track:08Y8SAlpd9q9gWy41Lhj2m",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "3P0LXXybFHgu2aY1NyGViV",
+      "name": "Coil",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0fayDgcekIaW0yQtUQ8CDm",
+        "name": "Watershed (Special Edition)",
+        "releaseDate": "2008-06-03",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e43bd4878a9915fad4587e63",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e43bd4878a9915fad4587e63",
+      "durationMs": 190693,
+      "durationFormatted": "3:10",
+      "spotifyUrl": "https://open.spotify.com/track/3P0LXXybFHgu2aY1NyGViV",
+      "uri": "spotify:track:3P0LXXybFHgu2aY1NyGViV",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "61Hd6XNqSpreYVEiMkaHvq",
+      "name": "Death Whispered a Lullaby",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 349746,
+      "durationFormatted": "5:49",
+      "spotifyUrl": "https://open.spotify.com/track/61Hd6XNqSpreYVEiMkaHvq",
+      "uri": "spotify:track:61Hd6XNqSpreYVEiMkaHvq",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "4ivQi8hyTIjutY5MnjkBkS",
+      "name": "For Absent Friends",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0qCxwUOJJSowIzexnZeX4m",
+        "name": "Deliverance",
+        "releaseDate": "2002-10-23",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6339451fdf4b62bfdc2d54b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f6339451fdf4b62bfdc2d54b",
+      "durationMs": 137466,
+      "durationFormatted": "2:17",
+      "spotifyUrl": "https://open.spotify.com/track/4ivQi8hyTIjutY5MnjkBkS",
+      "uri": "spotify:track:4ivQi8hyTIjutY5MnjkBkS",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "7EqkvBTdhYPTd91mN2DmcA",
+      "name": "Burden",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0fayDgcekIaW0yQtUQ8CDm",
+        "name": "Watershed (Special Edition)",
+        "releaseDate": "2008-06-03",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e43bd4878a9915fad4587e63",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e43bd4878a9915fad4587e63",
+      "durationMs": 461053,
+      "durationFormatted": "7:41",
+      "spotifyUrl": "https://open.spotify.com/track/7EqkvBTdhYPTd91mN2DmcA",
+      "uri": "spotify:track:7EqkvBTdhYPTd91mN2DmcA",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "4lPvQJ48sGao1zQPfnGDPj",
+      "name": "Face Of Melinda (Remastered)",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "5iA9ECcGKLN2BSxikuENma",
+        "name": "Still Life (Remastered)",
+        "releaseDate": "1999-10-19",
+        "releaseYear": "1999"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d4ab9bf3bdea52371415ad6",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516d4ab9bf3bdea52371415ad6",
+      "durationMs": 478933,
+      "durationFormatted": "7:58",
+      "spotifyUrl": "https://open.spotify.com/track/4lPvQJ48sGao1zQPfnGDPj",
+      "uri": "spotify:track:4lPvQJ48sGao1zQPfnGDPj",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "26DLya8CVvUBWRFI6zggsA",
+      "name": "Heritage",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "6I6rZw3H59ka6nDYsXcpDC",
+        "name": "Heritage",
+        "releaseDate": "2011-09-20",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ed50c4654934dbbd545b742b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ed50c4654934dbbd545b742b",
+      "durationMs": 124640,
+      "durationFormatted": "2:04",
+      "spotifyUrl": "https://open.spotify.com/track/26DLya8CVvUBWRFI6zggsA",
+      "uri": "spotify:track:26DLya8CVvUBWRFI6zggsA",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "5c1Fu2ETbvOhMV9NL3UkS5",
+      "name": "Weakness",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 248840,
+      "durationFormatted": "4:08",
+      "spotifyUrl": "https://open.spotify.com/track/5c1Fu2ETbvOhMV9NL3UkS5",
+      "uri": "spotify:track:5c1Fu2ETbvOhMV9NL3UkS5",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "31sCixHTcZyEGjjmKHcG5B",
+      "name": "Benighted (Remastered)",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "5iA9ECcGKLN2BSxikuENma",
+        "name": "Still Life (Remastered)",
+        "releaseDate": "1999-10-19",
+        "releaseYear": "1999"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d4ab9bf3bdea52371415ad6",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516d4ab9bf3bdea52371415ad6",
+      "durationMs": 300293,
+      "durationFormatted": "5:00",
+      "spotifyUrl": "https://open.spotify.com/track/31sCixHTcZyEGjjmKHcG5B",
+      "uri": "spotify:track:31sCixHTcZyEGjjmKHcG5B",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "1I98CzExh9HtZjt3Akz1q4",
+      "name": "Credence",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4b7oroZfX3w5vaRaotvr6p",
+        "name": "My Arms, Your Hearse",
+        "releaseDate": "1998-08-18",
+        "releaseYear": "1998"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e4f5448b3adf7854889ce6c1",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e4f5448b3adf7854889ce6c1",
+      "durationMs": 326026,
+      "durationFormatted": "5:26",
+      "spotifyUrl": "https://open.spotify.com/track/1I98CzExh9HtZjt3Akz1q4",
+      "uri": "spotify:track:1I98CzExh9HtZjt3Akz1q4",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "6NqqSj2aREcJBNYyzcyv3L",
+      "name": "Bridge of Sighs",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "0fayDgcekIaW0yQtUQ8CDm",
+        "name": "Watershed (Special Edition)",
+        "releaseDate": "2008-06-03",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e43bd4878a9915fad4587e63",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e43bd4878a9915fad4587e63",
+      "durationMs": 355773,
+      "durationFormatted": "5:55",
+      "spotifyUrl": "https://open.spotify.com/track/6NqqSj2aREcJBNYyzcyv3L",
+      "uri": "spotify:track:6NqqSj2aREcJBNYyzcyv3L",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    },
+    {
+      "id": "2ptvBQV0kcrNcfQCtSNaRF",
+      "name": "Häxprocess",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "6I6rZw3H59ka6nDYsXcpDC",
+        "name": "Heritage",
+        "releaseDate": "2011-09-20",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ed50c4654934dbbd545b742b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ed50c4654934dbbd545b742b",
+      "durationMs": 417720,
+      "durationFormatted": "6:57",
+      "spotifyUrl": "https://open.spotify.com/track/2ptvBQV0kcrNcfQCtSNaRF",
+      "uri": "spotify:track:2ptvBQV0kcrNcfQCtSNaRF",
+      "addedAt": "2022-11-06T01:32:37Z",
+      "addedDate": "2022-11-06"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Details - My Spotify Collection</title>
+    <meta name="description" content="Detailed playlist tracklist and backup">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .playlist-hero {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin-bottom: 28px;
+        }
+        .hero-cover {
+            width: 180px;
+            height: 180px;
+            border-radius: var(--radius-md);
+            object-fit: cover;
+            flex-shrink: 0;
+            box-shadow: var(--card-shadow);
+        }
+        .hero-details {
+            flex: 1;
+        }
+        .hero-tag {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+        .hero-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+        .hero-desc {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 12px;
+        }
+        .hero-meta {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .back-nav {
+            margin-bottom: 20px;
+        }
+        @media (max-width: 600px) {
+            .playlist-hero {
+                flex-direction: column;
+                text-align: center;
+                gap: 16px;
+            }
+            .hero-meta {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-nav">
+            <a href="playlists.html" class="nav-link">← Back to All Playlists</a>
+        </div>
+
+        <header>
+            <div class="header-title">
+                <svg class="spotify-icon" viewBox="0 0 24 24">
+                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                </svg>
+                <h1 id="page-heading">Playlist Details</h1>
+            </div>
+        </header>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading-box">
+            <div class="spinner"></div>
+            <p>Loading playlist tracklist...</p>
+        </div>
+
+        <div id="playlist-view" style="display: none;">
+            <!-- Hero Card -->
+            <div class="playlist-hero">
+                <img id="hero-img" class="hero-cover" src="" alt="Cover Art">
+                <div class="hero-details">
+                    <div class="hero-tag">Playlist Backup</div>
+                    <h2 id="hero-title" class="hero-title"></h2>
+                    <p id="hero-desc" class="hero-desc"></p>
+                    <div class="hero-meta">
+                        <span id="hero-owner"></span>
+                        <span>•</span>
+                        <span id="hero-track-count"></span>
+                        <span>•</span>
+                        <span id="hero-duration"></span>
+                    </div>
+                    <div>
+                        <a id="hero-spotify-link" href="#" target="_blank" class="btn btn-primary">Open in Spotify</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="controls-card">
+                <div class="controls-row">
+                    <div class="control-group search-group">
+                        <label for="search-input">Search in Playlist:</label>
+                        <input type="text" id="search-input" placeholder="Search track, artist, album..." oninput="applyFilters()">
+                    </div>
+                    <div class="control-group">
+                        <label for="sort-select">Sort:</label>
+                        <select id="sort-select" onchange="sortTracks(this.value)">
+                            <option value="default">Original Order</option>
+                            <option value="name-asc">Title (A-Z)</option>
+                            <option value="artist-asc">Artist (A-Z)</option>
+                            <option value="year-desc">Release Year (Newest)</option>
+                            <option value="duration-desc">Duration (Longest)</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="view-mode">View:</label>
+                        <select id="view-mode" onchange="changeViewMode(this.value)">
+                            <option value="list">List</option>
+                            <option value="grid">Grid</option>
+                            <option value="compact">Compact</option>
+                        </select>
+                    </div>
+                    <div class="control-group" style="margin-left: auto;">
+                        <label class="checkbox-toggle">
+                            <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
+                            Dark Mode
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tracks Grid -->
+            <div id="tracks-grid" class="music-grid view-list"></div>
+            <div id="no-results" class="empty-box" style="display: none;">
+                <h3>No tracks found</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="playlist.js"></script>
+</body>
+</html>

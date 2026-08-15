@@ -60,3 +60,11 @@ async function getTopTracks() {
 async function getStats() {
     return await fetchJson(DATA_PATHS.stats);
 }
+
+async function getPlaylistById(id) {
+    if (!id) return null;
+    const individual = await fetchJson(`data/playlists/${id}.json`);
+    if (individual) return individual;
+    const playlists = await getPlaylists();
+    return playlists.find(p => p.id === id) || null;
+}

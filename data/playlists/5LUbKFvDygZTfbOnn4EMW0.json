@@ -1,0 +1,30 @@
+{
+  "id": "5LUbKFvDygZTfbOnn4EMW0",
+  "name": "Shazam Şarkılarım",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 0,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e028a4409496dc76a5637e40840ab67616d00001e02ced305b8774dbe88a5f4db76",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e028a4409496dc76a5637e40840ab67616d00001e02ced305b8774dbe88a5f4db76",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e028a4409496dc76a5637e40840ab67616d00001e02ced305b8774dbe88a5f4db76",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e028a4409496dc76a5637e40840ab67616d00001e02ced305b8774dbe88a5f4db76",
+  "owner": "bahtiyaratam",
+  "spotifyUrl": "https://open.spotify.com/playlist/5LUbKFvDygZTfbOnn4EMW0",
+  "uri": "spotify:playlist:5LUbKFvDygZTfbOnn4EMW0",
+  "tracks": []
+}

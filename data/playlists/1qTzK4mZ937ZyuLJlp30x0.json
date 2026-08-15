@@ -1,0 +1,372 @@
+{
+  "id": "1qTzK4mZ937ZyuLJlp30x0",
+  "name": "2020-02",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 13,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e0213e51226c9a4e4f5f3ed9b88ab67616d00001e022dc6ac7792ea2d6e5ed86825ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02ad419b53eb86b9ca1decfaa3",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e0213e51226c9a4e4f5f3ed9b88ab67616d00001e022dc6ac7792ea2d6e5ed86825ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02ad419b53eb86b9ca1decfaa3",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e0213e51226c9a4e4f5f3ed9b88ab67616d00001e022dc6ac7792ea2d6e5ed86825ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02ad419b53eb86b9ca1decfaa3",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0213e51226c9a4e4f5f3ed9b88ab67616d00001e022dc6ac7792ea2d6e5ed86825ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02ad419b53eb86b9ca1decfaa3",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/1qTzK4mZ937ZyuLJlp30x0",
+  "uri": "spotify:playlist:1qTzK4mZ937ZyuLJlp30x0",
+  "tracks": [
+    {
+      "id": "08GaPOJGiNDyK5s3rV6BSC",
+      "name": "Proof of Existence",
+      "artists": [
+        {
+          "id": "08TGV83UEqrOTm6mHIkfA3",
+          "name": "Buzz Gravelle"
+        }
+      ],
+      "artistNames": "Buzz Gravelle",
+      "album": {
+        "id": "1NsPL84AmOheqmfUYB6YDq",
+        "name": "The Realm of Endless Concepts",
+        "releaseDate": "2019-02-10",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313e51226c9a4e4f5f3ed9b88",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485113e51226c9a4e4f5f3ed9b88",
+      "durationMs": 264408,
+      "durationFormatted": "4:24",
+      "spotifyUrl": "https://open.spotify.com/track/08GaPOJGiNDyK5s3rV6BSC",
+      "uri": "spotify:track:08GaPOJGiNDyK5s3rV6BSC",
+      "addedAt": "2020-02-03T19:05:16Z",
+      "addedDate": "2020-02-03"
+    },
+    {
+      "id": "1vHuPoG0FE0lxgqaDyZpyG",
+      "name": "Crockett's Theme - From \"Miami Vice II\" Soundtrack",
+      "artists": [
+        {
+          "id": "50zRydJXfkLzGIOj9mITfy",
+          "name": "Jan Hammer"
+        }
+      ],
+      "artistNames": "Jan Hammer",
+      "album": {
+        "id": "55BbFFEsis6G2SLaj656wV",
+        "name": "Music For Eighties",
+        "releaseDate": "2007-01-01",
+        "releaseYear": "2007"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732dc6ac7792ea2d6e5ed86825",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512dc6ac7792ea2d6e5ed86825",
+      "durationMs": 204386,
+      "durationFormatted": "3:24",
+      "spotifyUrl": "https://open.spotify.com/track/1vHuPoG0FE0lxgqaDyZpyG",
+      "uri": "spotify:track:1vHuPoG0FE0lxgqaDyZpyG",
+      "addedAt": "2020-02-04T01:28:51Z",
+      "addedDate": "2020-02-04"
+    },
+    {
+      "id": "6GJZaic4HSan2B2jgvI2L4",
+      "name": "Free",
+      "artists": [
+        {
+          "id": "6G7OerKc3eBO9sVkRNopFC",
+          "name": "Cat Power"
+        }
+      ],
+      "artistNames": "Cat Power",
+      "album": {
+        "id": "38CsAH6IM7fKMN0XnZReR6",
+        "name": "You Are Free",
+        "releaseDate": "2003-02-17",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273046945e6f2b2a19885ba55d3",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851046945e6f2b2a19885ba55d3",
+      "durationMs": 213106,
+      "durationFormatted": "3:33",
+      "spotifyUrl": "https://open.spotify.com/track/6GJZaic4HSan2B2jgvI2L4",
+      "uri": "spotify:track:6GJZaic4HSan2B2jgvI2L4",
+      "addedAt": "2020-02-04T01:57:45Z",
+      "addedDate": "2020-02-04"
+    },
+    {
+      "id": "2xYIBDUd1ftJTzXkUVgy6C",
+      "name": "In A Manner Of Speaking",
+      "artists": [
+        {
+          "id": "4h7NLIlg1oYdEtfQJfyto0",
+          "name": "Nouvelle Vague"
+        }
+      ],
+      "artistNames": "Nouvelle Vague",
+      "album": {
+        "id": "4eTJmNY6X5VJ0v8d0x0lkh",
+        "name": "Nouvelle Vague",
+        "releaseDate": "2004-05-11",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273196984e2a865307132e18e9c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851196984e2a865307132e18e9c",
+      "durationMs": 238000,
+      "durationFormatted": "3:58",
+      "spotifyUrl": "https://open.spotify.com/track/2xYIBDUd1ftJTzXkUVgy6C",
+      "uri": "spotify:track:2xYIBDUd1ftJTzXkUVgy6C",
+      "addedAt": "2020-02-04T02:02:31Z",
+      "addedDate": "2020-02-04"
+    },
+    {
+      "id": "4PMmwowVLOajPdiKnrU1vK",
+      "name": "Sunset",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        }
+      ],
+      "artistNames": "The Midnight",
+      "album": {
+        "id": "4Krg8zvprquh7TVn9OxZn8",
+        "name": "Endless Summer",
+        "releaseDate": "2016-08-01",
+        "releaseYear": "2016"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737d7737237b5742e6a8b05b2d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517d7737237b5742e6a8b05b2d",
+      "durationMs": 326520,
+      "durationFormatted": "5:26",
+      "spotifyUrl": "https://open.spotify.com/track/4PMmwowVLOajPdiKnrU1vK",
+      "uri": "spotify:track:4PMmwowVLOajPdiKnrU1vK",
+      "addedAt": "2020-02-09T03:02:51Z",
+      "addedDate": "2020-02-09"
+    },
+    {
+      "id": "0fYbhMj96zG9fpUK10e8kB",
+      "name": "Don't Leave Me This Way",
+      "artists": [
+        {
+          "id": "438JBZR1AR0l04AzcYW9gy",
+          "name": "Harold Melvin & The Blue Notes"
+        }
+      ],
+      "artistNames": "Harold Melvin & The Blue Notes",
+      "album": {
+        "id": "4FyAsercGqajQeEdk2Isj6",
+        "name": "The Best Of Harold Melvin & The Blue Notes: If You Don't Know Me By Now (Featuring Teddy Pendergrass) (feat. Teddy Pendergrass)",
+        "releaseDate": "1995-02-28",
+        "releaseYear": "1995"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273efe108fd52bee77d29571e0f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851efe108fd52bee77d29571e0f",
+      "durationMs": 366573,
+      "durationFormatted": "6:06",
+      "spotifyUrl": "https://open.spotify.com/track/0fYbhMj96zG9fpUK10e8kB",
+      "uri": "spotify:track:0fYbhMj96zG9fpUK10e8kB",
+      "addedAt": "2020-02-09T03:12:46Z",
+      "addedDate": "2020-02-09"
+    },
+    {
+      "id": "65B3D9QcN8zfKI6b5YyAoA",
+      "name": "System Error",
+      "artists": [
+        {
+          "id": "3r5rHoyzqZHGJkU8fGZtNO",
+          "name": "Tonebox"
+        }
+      ],
+      "artistNames": "Tonebox",
+      "album": {
+        "id": "4pZRg3gdstKlGTLKR0FsxT",
+        "name": "Nocturn",
+        "releaseDate": "2016-10-28",
+        "releaseYear": "2016"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27344d66e01a3bd0c5d478a0aaa",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485144d66e01a3bd0c5d478a0aaa",
+      "durationMs": 297577,
+      "durationFormatted": "4:57",
+      "spotifyUrl": "https://open.spotify.com/track/65B3D9QcN8zfKI6b5YyAoA",
+      "uri": "spotify:track:65B3D9QcN8zfKI6b5YyAoA",
+      "addedAt": "2020-02-09T03:48:59Z",
+      "addedDate": "2020-02-09"
+    },
+    {
+      "id": "1auEcKGJGWqcsjMFTMCjez",
+      "name": "Mystery of Arabia",
+      "artists": [
+        {
+          "id": "2ucNjOKWBIEBnzvFgmJAn3",
+          "name": "Magnus Deus"
+        },
+        {
+          "id": "0c2te8OzhhVjiqXaAku4Hx",
+          "name": "Mark Holiday"
+        }
+      ],
+      "artistNames": "Magnus Deus, Mark Holiday",
+      "album": {
+        "id": "1oT24wKtD89gMMnYswZmFL",
+        "name": "Mystery of Arabia",
+        "releaseDate": "2019-12-23",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f4d407b83caacd957ea2b00",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519f4d407b83caacd957ea2b00",
+      "durationMs": 328427,
+      "durationFormatted": "5:28",
+      "spotifyUrl": "https://open.spotify.com/track/1auEcKGJGWqcsjMFTMCjez",
+      "uri": "spotify:track:1auEcKGJGWqcsjMFTMCjez",
+      "addedAt": "2020-02-09T03:56:40Z",
+      "addedDate": "2020-02-09"
+    },
+    {
+      "id": "1skUhc3JS3jLCfugI3gm41",
+      "name": "Kein Plan",
+      "artists": [
+        {
+          "id": "2Im8m4STDBosjfmb5hmP80",
+          "name": "Loredana"
+        },
+        {
+          "id": "5wyWp867LWGjFmYZXVSFnZ",
+          "name": "MERO"
+        }
+      ],
+      "artistNames": "Loredana, MERO",
+      "album": {
+        "id": "0a4KL551wKL7l8O6xU0nlB",
+        "name": "Kein Plan",
+        "releaseDate": "2019-09-06",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ca62a0c638b06dad79ed3ae3",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ca62a0c638b06dad79ed3ae3",
+      "durationMs": 155017,
+      "durationFormatted": "2:35",
+      "spotifyUrl": "https://open.spotify.com/track/1skUhc3JS3jLCfugI3gm41",
+      "uri": "spotify:track:1skUhc3JS3jLCfugI3gm41",
+      "addedAt": "2020-02-09T18:59:05Z",
+      "addedDate": "2020-02-09"
+    },
+    {
+      "id": "0uKrhHBDUQ4w5fv4qwOubP",
+      "name": "Breathe",
+      "artists": [
+        {
+          "id": "3aKCo8gLJfuPYtr88aWKjF",
+          "name": "Télépopmusik"
+        },
+        {
+          "id": "5AlIxbb8HarTSm2tdA5F0x",
+          "name": "Angela McCluskey"
+        }
+      ],
+      "artistNames": "Télépopmusik, Angela McCluskey",
+      "album": {
+        "id": "1H10CTGW4xbk0IQewKbK50",
+        "name": "Genetic World",
+        "releaseDate": "2001-01-01",
+        "releaseYear": "2001"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c65b1f9d6ca322de8b85c505",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c65b1f9d6ca322de8b85c505",
+      "durationMs": 282240,
+      "durationFormatted": "4:42",
+      "spotifyUrl": "https://open.spotify.com/track/0uKrhHBDUQ4w5fv4qwOubP",
+      "uri": "spotify:track:0uKrhHBDUQ4w5fv4qwOubP",
+      "addedAt": "2020-02-10T01:52:00Z",
+      "addedDate": "2020-02-10"
+    },
+    {
+      "id": "3fwCVOe47XTKmJiAD6u81J",
+      "name": "Testarossa",
+      "artists": [
+        {
+          "id": "3TQ9JTBI2n2hfo7aRONEYV",
+          "name": "Sir Mix-A-Lot"
+        }
+      ],
+      "artistNames": "Sir Mix-A-Lot",
+      "album": {
+        "id": "3HLm6FUiTvjPGHKMdggK0t",
+        "name": "Hip Hop Dreams",
+        "releaseDate": "2019-11-28",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2ff68a911a0c15ef076808b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e2ff68a911a0c15ef076808b",
+      "durationMs": 308733,
+      "durationFormatted": "5:08",
+      "spotifyUrl": "https://open.spotify.com/track/3fwCVOe47XTKmJiAD6u81J",
+      "uri": "spotify:track:3fwCVOe47XTKmJiAD6u81J",
+      "addedAt": "2020-02-14T03:06:59Z",
+      "addedDate": "2020-02-14"
+    },
+    {
+      "id": "0rnsCkei7qBWm9NNJNXVHo",
+      "name": "Light Years",
+      "artists": [
+        {
+          "id": "2NFrAuh8RQdQoS7iYFbckw",
+          "name": "The Midnight"
+        },
+        {
+          "id": "21q45xu51WtV5Td6ZBJHiB",
+          "name": "Nikki Flores"
+        }
+      ],
+      "artistNames": "The Midnight, Nikki Flores",
+      "album": {
+        "id": "42sLDZoNRGO3YnTgpAbk9o",
+        "name": "Nocturnal",
+        "releaseDate": "2017-10-14",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27383b1bde5d94b7ff8deef5496",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485183b1bde5d94b7ff8deef5496",
+      "durationMs": 321360,
+      "durationFormatted": "5:21",
+      "spotifyUrl": "https://open.spotify.com/track/0rnsCkei7qBWm9NNJNXVHo",
+      "uri": "spotify:track:0rnsCkei7qBWm9NNJNXVHo",
+      "addedAt": "2020-02-15T01:29:21Z",
+      "addedDate": "2020-02-15"
+    },
+    {
+      "id": "61Hd6XNqSpreYVEiMkaHvq",
+      "name": "Death Whispered a Lullaby",
+      "artists": [
+        {
+          "id": "0ybFZ2Ab08V8hueghSXm6E",
+          "name": "Opeth"
+        }
+      ],
+      "artistNames": "Opeth",
+      "album": {
+        "id": "4FmI0F5GvvR1M9RURWnJV9",
+        "name": "Damnation",
+        "releaseDate": "2003-04-22",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5507e5a84e6332c910b0d5",
+      "durationMs": 349746,
+      "durationFormatted": "5:49",
+      "spotifyUrl": "https://open.spotify.com/track/61Hd6XNqSpreYVEiMkaHvq",
+      "uri": "spotify:track:61Hd6XNqSpreYVEiMkaHvq",
+      "addedAt": "2020-02-21T20:50:08Z",
+      "addedDate": "2020-02-21"
+    }
+  ]
+}

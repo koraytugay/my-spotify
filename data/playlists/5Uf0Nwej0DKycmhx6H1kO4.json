@@ -1,0 +1,30 @@
+{
+  "id": "5Uf0Nwej0DKycmhx6H1kO4",
+  "name": "Yudum Yudum Anadolu",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 0,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e0219233178b4cf960ae70e88dcab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02f77380b0aed103cf7de618d8",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e0219233178b4cf960ae70e88dcab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02f77380b0aed103cf7de618d8",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e0219233178b4cf960ae70e88dcab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02f77380b0aed103cf7de618d8",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219233178b4cf960ae70e88dcab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02f77380b0aed103cf7de618d8",
+  "owner": "bahtiyaratam",
+  "spotifyUrl": "https://open.spotify.com/playlist/5Uf0Nwej0DKycmhx6H1kO4",
+  "uri": "spotify:playlist:5Uf0Nwej0DKycmhx6H1kO4",
+  "tracks": []
+}

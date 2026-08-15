@@ -1,0 +1,1197 @@
+{
+  "id": "2cFuICAnlrgsFQ3oh5k0Rl",
+  "name": "Afraid to Shoot Strangers - Radio",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 46,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e02682038384d91c13d048fff5aab67616d00001e027b967d82647ad3a36a098334ab67616d00001e02e1c50403652529dccf16f84c",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e02682038384d91c13d048fff5aab67616d00001e027b967d82647ad3a36a098334ab67616d00001e02e1c50403652529dccf16f84c",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e02682038384d91c13d048fff5aab67616d00001e027b967d82647ad3a36a098334ab67616d00001e02e1c50403652529dccf16f84c",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020dda9c11454b9053d07f585aab67616d00001e02682038384d91c13d048fff5aab67616d00001e027b967d82647ad3a36a098334ab67616d00001e02e1c50403652529dccf16f84c",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/2cFuICAnlrgsFQ3oh5k0Rl",
+  "uri": "spotify:playlist:2cFuICAnlrgsFQ3oh5k0Rl",
+  "tracks": [
+    {
+      "id": "6QKhecJ2JuajCTPTtYkKUQ",
+      "name": "Afraid to Shoot Strangers - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "16Su3EUFLPqWVyrwN1q5wO",
+        "name": "Fear of the Dark (2015 Remaster)",
+        "releaseDate": "1992",
+        "releaseYear": "1992"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510dda9c11454b9053d07f585a",
+      "durationMs": 416560,
+      "durationFormatted": "6:56",
+      "spotifyUrl": "https://open.spotify.com/track/6QKhecJ2JuajCTPTtYkKUQ",
+      "uri": "spotify:track:6QKhecJ2JuajCTPTtYkKUQ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5qEZvemAAeZ8E9KmyyGaLe",
+      "name": "The Jester's Dance",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "1oupMKdNzd7u1isqbtM4so",
+        "name": "The Jester Race (Black Ash-Inheritance Version)",
+        "releaseDate": "1996-02-20",
+        "releaseYear": "1996"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737b967d82647ad3a36a098334",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517b967d82647ad3a36a098334",
+      "durationMs": 129199,
+      "durationFormatted": "2:09",
+      "spotifyUrl": "https://open.spotify.com/track/5qEZvemAAeZ8E9KmyyGaLe",
+      "uri": "spotify:track:5qEZvemAAeZ8E9KmyyGaLe",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "54UebiPUTkbry37srTjGDu",
+      "name": "Same Old Song",
+      "artists": [
+        {
+          "id": "0hGpZy6ws8FofByMkt0CV1",
+          "name": "PAIN"
+        }
+      ],
+      "artistNames": "PAIN",
+      "album": {
+        "id": "0T0UIc5jluxXeyCXyRsNRM",
+        "name": "Dancing With The Dead",
+        "releaseDate": "2004-01-01",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fff9038597a94c807b2db54",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517fff9038597a94c807b2db54",
+      "durationMs": 238800,
+      "durationFormatted": "3:58",
+      "spotifyUrl": "https://open.spotify.com/track/54UebiPUTkbry37srTjGDu",
+      "uri": "spotify:track:54UebiPUTkbry37srTjGDu",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1diuZVsxD74xvtUSABRUoF",
+      "name": "The Wicker Man - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1hDF0QPIHVTnSJtxyQVguB",
+        "name": "Brave New World (2015 Remaster)",
+        "releaseDate": "2000",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e1c50403652529dccf16f84c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e1c50403652529dccf16f84c",
+      "durationMs": 275253,
+      "durationFormatted": "4:35",
+      "spotifyUrl": "https://open.spotify.com/track/1diuZVsxD74xvtUSABRUoF",
+      "uri": "spotify:track:1diuZVsxD74xvtUSABRUoF",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2z5lSCbzVRMrBpc8jJFSAZ",
+      "name": "Come Clarity",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "2fLMg10IFuqgkmSlIAXjwu",
+        "name": "Come Clarity",
+        "releaseDate": "2006-02-03",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731909382b1294cd831759c14a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511909382b1294cd831759c14a",
+      "durationMs": 255712,
+      "durationFormatted": "4:15",
+      "spotifyUrl": "https://open.spotify.com/track/2z5lSCbzVRMrBpc8jJFSAZ",
+      "uri": "spotify:track:2z5lSCbzVRMrBpc8jJFSAZ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "7dIOlmWKSZoaKXtFZw5Lm5",
+      "name": "Dying for an Angel - The Wicked Symphony",
+      "artists": [
+        {
+          "id": "1Ih0fEQQsy9EeAJbYEeQRa",
+          "name": "Avantasia"
+        }
+      ],
+      "artistNames": "Avantasia",
+      "album": {
+        "id": "60eZe7AFmKL69PBFVGCwUU",
+        "name": "The Wicked Symphony",
+        "releaseDate": "2010-04-03",
+        "releaseYear": "2010"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f6ee0e2503a3fe5c7c2f7a9f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f6ee0e2503a3fe5c7c2f7a9f",
+      "durationMs": 271826,
+      "durationFormatted": "4:31",
+      "spotifyUrl": "https://open.spotify.com/track/7dIOlmWKSZoaKXtFZw5Lm5",
+      "uri": "spotify:track:7dIOlmWKSZoaKXtFZw5Lm5",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0gaMmmhGi5buPXpquSAfxg",
+      "name": "The Temple Of The King",
+      "artists": [
+        {
+          "id": "6SLAMfhOi7UJI0fMztaK0m",
+          "name": "Rainbow"
+        }
+      ],
+      "artistNames": "Rainbow",
+      "album": {
+        "id": "3LXOrVXLXwRiOguE446OZo",
+        "name": "Ritchie Blackmore's Rainbow",
+        "releaseDate": "1975-01-01",
+        "releaseYear": "1975"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733626f32e555553b537a6493f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513626f32e555553b537a6493f",
+      "durationMs": 282013,
+      "durationFormatted": "4:42",
+      "spotifyUrl": "https://open.spotify.com/track/0gaMmmhGi5buPXpquSAfxg",
+      "uri": "spotify:track:0gaMmmhGi5buPXpquSAfxg",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0jfNgP8sP2tnOloYDw0HoM",
+      "name": "Small Town Boy",
+      "artists": [
+        {
+          "id": "0gIo6kGl4KsCeIbqtZVHYp",
+          "name": "Paradise Lost"
+        }
+      ],
+      "artistNames": "Paradise Lost",
+      "album": {
+        "id": "1lvVqodR4aT3R8WemeIgDN",
+        "name": "Symbol Of Life",
+        "releaseDate": "2002-10-21",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273353a9dd1cfdd30b79148eb90",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851353a9dd1cfdd30b79148eb90",
+      "durationMs": 317573,
+      "durationFormatted": "5:17",
+      "spotifyUrl": "https://open.spotify.com/track/0jfNgP8sP2tnOloYDw0HoM",
+      "uri": "spotify:track:0jfNgP8sP2tnOloYDw0HoM",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "3wFGRek61NIF330UwJCI52",
+      "name": "Aces High - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "309KOMEivisMmBuzk09635",
+        "name": "Powerslave (2015 Remaster)",
+        "releaseDate": "1984",
+        "releaseYear": "1984"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327d333178ab5837fd8eebba9",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485127d333178ab5837fd8eebba9",
+      "durationMs": 271906,
+      "durationFormatted": "4:31",
+      "spotifyUrl": "https://open.spotify.com/track/3wFGRek61NIF330UwJCI52",
+      "uri": "spotify:track:3wFGRek61NIF330UwJCI52",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0deI3lZkgbVt6wRsv5s0Ev",
+      "name": "Out In The Fields",
+      "artists": [
+        {
+          "id": "23wr9RJZg0PmYvVFyNkQ4j",
+          "name": "Gary Moore"
+        },
+        {
+          "id": "7yVrX2XZQ8eaRiD1ykz0H7",
+          "name": "Phil Lynott"
+        }
+      ],
+      "artistNames": "Gary Moore, Phil Lynott",
+      "album": {
+        "id": "5L7OArC51NP8i6EswjugZI",
+        "name": "Run For Cover",
+        "releaseDate": "1985-01-01",
+        "releaseYear": "1985"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273335f4d574fe93c68dbf88733",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851335f4d574fe93c68dbf88733",
+      "durationMs": 257706,
+      "durationFormatted": "4:17",
+      "spotifyUrl": "https://open.spotify.com/track/0deI3lZkgbVt6wRsv5s0Ev",
+      "uri": "spotify:track:0deI3lZkgbVt6wRsv5s0Ev",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0JBQnLKfLXmlkquabLtAgd",
+      "name": "Only for the Weak",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "1hVhTWO9hlpPr7T8ORczRd",
+        "name": "Clayman",
+        "releaseDate": "2000-07-03",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27341ae9b691f3c18957c8fcdb1",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485141ae9b691f3c18957c8fcdb1",
+      "durationMs": 294866,
+      "durationFormatted": "4:54",
+      "spotifyUrl": "https://open.spotify.com/track/0JBQnLKfLXmlkquabLtAgd",
+      "uri": "spotify:track:0JBQnLKfLXmlkquabLtAgd",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1KmeyQfVjX1odybN9aEfWt",
+      "name": "Inis Mona",
+      "artists": [
+        {
+          "id": "5X0N2k3qMnI8kSrGJT3kfT",
+          "name": "Eluveitie"
+        }
+      ],
+      "artistNames": "Eluveitie",
+      "album": {
+        "id": "4UEyHAjtjEs3JNjR4NyyMJ",
+        "name": "Slania",
+        "releaseDate": "2008-02-15",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731208d90b7117ae7762892455",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511208d90b7117ae7762892455",
+      "durationMs": 249240,
+      "durationFormatted": "4:09",
+      "spotifyUrl": "https://open.spotify.com/track/1KmeyQfVjX1odybN9aEfWt",
+      "uri": "spotify:track:1KmeyQfVjX1odybN9aEfWt",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "42MQXpUYDam6Ty5mSsHGt1",
+      "name": "I'm Sorry - Remastered",
+      "artists": [
+        {
+          "id": "4S0foX2r0RlC12KBW8u73D",
+          "name": "Evergrey"
+        }
+      ],
+      "artistNames": "Evergrey",
+      "album": {
+        "id": "79an5lJLqFoj5KYKJj4zJa",
+        "name": "Recreation Day (Remasters Edition)",
+        "releaseDate": "2003-03-11",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a4d0fb911ddac07cf8d5095c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a4d0fb911ddac07cf8d5095c",
+      "durationMs": 198973,
+      "durationFormatted": "3:18",
+      "spotifyUrl": "https://open.spotify.com/track/42MQXpUYDam6Ty5mSsHGt1",
+      "uri": "spotify:track:42MQXpUYDam6Ty5mSsHGt1",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1NVvYEAv61lWHmptNEBUHf",
+      "name": "The Clairvoyant - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1rG6IgNdwE1IGFuIKuYosz",
+        "name": "Seventh Son of a Seventh Son (2015 Remaster)",
+        "releaseDate": "1988",
+        "releaseYear": "1988"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab7b968bf8762355df7d840",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851eab7b968bf8762355df7d840",
+      "durationMs": 267293,
+      "durationFormatted": "4:27",
+      "spotifyUrl": "https://open.spotify.com/track/1NVvYEAv61lWHmptNEBUHf",
+      "uri": "spotify:track:1NVvYEAv61lWHmptNEBUHf",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "3OXrBGvCWpZWmNHHqX3UE3",
+      "name": "After The War",
+      "artists": [
+        {
+          "id": "23wr9RJZg0PmYvVFyNkQ4j",
+          "name": "Gary Moore"
+        }
+      ],
+      "artistNames": "Gary Moore",
+      "album": {
+        "id": "0usWhhLEel7wT6r1QUec1x",
+        "name": "After The War",
+        "releaseDate": "1989-01-01",
+        "releaseYear": "1989"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739bafc4818d7b02bffdf57ba0",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519bafc4818d7b02bffdf57ba0",
+      "durationMs": 257066,
+      "durationFormatted": "4:17",
+      "spotifyUrl": "https://open.spotify.com/track/3OXrBGvCWpZWmNHHqX3UE3",
+      "uri": "spotify:track:3OXrBGvCWpZWmNHHqX3UE3",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "34JS7SWgCH3282btYwsPWQ",
+      "name": "Alias",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "4gawnDNMLPfB4McPaWeO2d",
+        "name": "A Sense of Purpose (The Mirror's Truth Version)",
+        "releaseDate": "2008-04-04",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730cc0e7621bf93b73ae65ceff",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510cc0e7621bf93b73ae65ceff",
+      "durationMs": 289240,
+      "durationFormatted": "4:49",
+      "spotifyUrl": "https://open.spotify.com/track/34JS7SWgCH3282btYwsPWQ",
+      "uri": "spotify:track:34JS7SWgCH3282btYwsPWQ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5VZwMq6yaFb04PCTfdNY3K",
+      "name": "I Want Out",
+      "artists": [
+        {
+          "id": "4pQN0GB0fNEEOfQCaWotsY",
+          "name": "Helloween"
+        }
+      ],
+      "artistNames": "Helloween",
+      "album": {
+        "id": "0C00ibrtAGw59osJUg5qOO",
+        "name": "Keeper of the Seven Keys, Pt. II (Expanded Edition)",
+        "releaseDate": "1988",
+        "releaseYear": "1988"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733ab4dc4b31ad6870b455ac80",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513ab4dc4b31ad6870b455ac80",
+      "durationMs": 280213,
+      "durationFormatted": "4:40",
+      "spotifyUrl": "https://open.spotify.com/track/5VZwMq6yaFb04PCTfdNY3K",
+      "uri": "spotify:track:5VZwMq6yaFb04PCTfdNY3K",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5MXJgX5SC6scU62uwyb8nU",
+      "name": "Follow Me",
+      "artists": [
+        {
+          "id": "0hGpZy6ws8FofByMkt0CV1",
+          "name": "PAIN"
+        },
+        {
+          "id": "37561fPR6pVMtyLd3eOFys",
+          "name": "Anette Olzon"
+        }
+      ],
+      "artistNames": "PAIN, Anette Olzon",
+      "album": {
+        "id": "32CAbkoWH03pMOp82jRU13",
+        "name": "Cynic Paradise",
+        "releaseDate": "2008-10-31",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27317ca786d0081e1ad461382e5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485117ca786d0081e1ad461382e5",
+      "durationMs": 256760,
+      "durationFormatted": "4:16",
+      "spotifyUrl": "https://open.spotify.com/track/5MXJgX5SC6scU62uwyb8nU",
+      "uri": "spotify:track:5MXJgX5SC6scU62uwyb8nU",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2L6LeWFHYhcxisYJ9X0Adn",
+      "name": "Can't Let You Go",
+      "artists": [
+        {
+          "id": "6SLAMfhOi7UJI0fMztaK0m",
+          "name": "Rainbow"
+        }
+      ],
+      "artistNames": "Rainbow",
+      "album": {
+        "id": "0f65AyIqY5pg9URI3vf2Pw",
+        "name": "Bent Out Of Shape",
+        "releaseDate": "1983-01-01",
+        "releaseYear": "1983"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273037dacfcb682d6ec0da10b05",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851037dacfcb682d6ec0da10b05",
+      "durationMs": 259866,
+      "durationFormatted": "4:19",
+      "spotifyUrl": "https://open.spotify.com/track/2L6LeWFHYhcxisYJ9X0Adn",
+      "uri": "spotify:track:2L6LeWFHYhcxisYJ9X0Adn",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5hAAcyKfcw8nJ2Kgx3FXd0",
+      "name": "Brave New World - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1hDF0QPIHVTnSJtxyQVguB",
+        "name": "Brave New World (2015 Remaster)",
+        "releaseDate": "2000",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e1c50403652529dccf16f84c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e1c50403652529dccf16f84c",
+      "durationMs": 379066,
+      "durationFormatted": "6:19",
+      "spotifyUrl": "https://open.spotify.com/track/5hAAcyKfcw8nJ2Kgx3FXd0",
+      "uri": "spotify:track:5hAAcyKfcw8nJ2Kgx3FXd0",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5WQC3PGajELM3QpHWIsbQg",
+      "name": "The Loner",
+      "artists": [
+        {
+          "id": "23wr9RJZg0PmYvVFyNkQ4j",
+          "name": "Gary Moore"
+        }
+      ],
+      "artistNames": "Gary Moore",
+      "album": {
+        "id": "7HSONsw7mumBE5q0e7KJW2",
+        "name": "Wild Frontier",
+        "releaseDate": "1987",
+        "releaseYear": "1987"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27325fbfe01ca17e9984362f805",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485125fbfe01ca17e9984362f805",
+      "durationMs": 354266,
+      "durationFormatted": "5:54",
+      "spotifyUrl": "https://open.spotify.com/track/5WQC3PGajELM3QpHWIsbQg",
+      "uri": "spotify:track:5WQC3PGajELM3QpHWIsbQg",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "24fWeFwEJQlce7B3grrgR1",
+      "name": "Deliver Us",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "12WYGQwbMFAVdVBFmXT4ny",
+        "name": "Sounds Of A Playground Fading",
+        "releaseDate": "2011-06-15",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305a0a629a962da34367822e5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485105a0a629a962da34367822e5",
+      "durationMs": 209800,
+      "durationFormatted": "3:29",
+      "spotifyUrl": "https://open.spotify.com/track/24fWeFwEJQlce7B3grrgR1",
+      "uri": "spotify:track:24fWeFwEJQlce7B3grrgR1",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0qgrrDnUUhyxpxbBznUnzg",
+      "name": "18 and Life",
+      "artists": [
+        {
+          "id": "4opTS86dN9uO313J9CE8xg",
+          "name": "Skid Row"
+        }
+      ],
+      "artistNames": "Skid Row",
+      "album": {
+        "id": "0kSTuMp9GpX9pJR45Bksgi",
+        "name": "Skid Row",
+        "releaseDate": "1989-01-24",
+        "releaseYear": "1989"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ae63b58e90bef8888658ae21",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ae63b58e90bef8888658ae21",
+      "durationMs": 229960,
+      "durationFormatted": "3:49",
+      "spotifyUrl": "https://open.spotify.com/track/0qgrrDnUUhyxpxbBznUnzg",
+      "uri": "spotify:track:0qgrrDnUUhyxpxbBznUnzg",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "33j9ZDRyZn5pre5kvZ65Nm",
+      "name": "Superheroes",
+      "artists": [
+        {
+          "id": "3AGFqPP3gt5rMSvhR87Xxu",
+          "name": "Edguy"
+        }
+      ],
+      "artistNames": "Edguy",
+      "album": {
+        "id": "7gyYQ6GGxQnPpgur3PBp6B",
+        "name": "Rocket Ride",
+        "releaseDate": "2006-01-20",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cee8a6267baad67e116b893c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cee8a6267baad67e116b893c",
+      "durationMs": 199533,
+      "durationFormatted": "3:19",
+      "spotifyUrl": "https://open.spotify.com/track/33j9ZDRyZn5pre5kvZ65Nm",
+      "uri": "spotify:track:33j9ZDRyZn5pre5kvZ65Nm",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2dHjSNCw10clC9oOld8tPn",
+      "name": "I Surrender",
+      "artists": [
+        {
+          "id": "6SLAMfhOi7UJI0fMztaK0m",
+          "name": "Rainbow"
+        }
+      ],
+      "artistNames": "Rainbow",
+      "album": {
+        "id": "6bLrltddpgzAPMlefww9Ex",
+        "name": "Difficult To Cure",
+        "releaseDate": "1981-02-03",
+        "releaseYear": "1981"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5e7b3e0afd166871ce2d8c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf5e7b3e0afd166871ce2d8c",
+      "durationMs": 241893,
+      "durationFormatted": "4:01",
+      "spotifyUrl": "https://open.spotify.com/track/2dHjSNCw10clC9oOld8tPn",
+      "uri": "spotify:track:2dHjSNCw10clC9oOld8tPn",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2ItrQShUvHTeaiZiDukjNo",
+      "name": "Stranger in a Strange Land - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "0OEg65hPhgP7B0Dy9TqP2L",
+        "name": "Somewhere in Time (2015 Remaster)",
+        "releaseDate": "1986",
+        "releaseYear": "1986"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e113e5fda96f8b219faf6ff0",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e113e5fda96f8b219faf6ff0",
+      "durationMs": 346666,
+      "durationFormatted": "5:46",
+      "spotifyUrl": "https://open.spotify.com/track/2ItrQShUvHTeaiZiDukjNo",
+      "uri": "spotify:track:2ItrQShUvHTeaiZiDukjNo",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1yrquRdZk965GKv2kDHGpL",
+      "name": "Say Just Words",
+      "artists": [
+        {
+          "id": "0gIo6kGl4KsCeIbqtZVHYp",
+          "name": "Paradise Lost"
+        }
+      ],
+      "artistNames": "Paradise Lost",
+      "album": {
+        "id": "6xf27M8BHlFb0xqH17k0tD",
+        "name": "One Second",
+        "releaseDate": "1997-02-13",
+        "releaseYear": "1997"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273faf17a6ceb9fe1feada91ef0",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851faf17a6ceb9fe1feada91ef0",
+      "durationMs": 242733,
+      "durationFormatted": "4:02",
+      "spotifyUrl": "https://open.spotify.com/track/1yrquRdZk965GKv2kDHGpL",
+      "uri": "spotify:track:1yrquRdZk965GKv2kDHGpL",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "698vuWfDdmDnv3xKs231IL",
+      "name": "Free Fall",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "2V5Jx67RInNn2v0LGihiWh",
+        "name": "Reroute to Remain",
+        "releaseDate": "2002-09-02",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e388f5608715802c0421ecb8",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e388f5608715802c0421ecb8",
+      "durationMs": 238293,
+      "durationFormatted": "3:58",
+      "spotifyUrl": "https://open.spotify.com/track/698vuWfDdmDnv3xKs231IL",
+      "uri": "spotify:track:698vuWfDdmDnv3xKs231IL",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "4Qe4jyrOpoUeph5U8gwwxA",
+      "name": "Farewell",
+      "artists": [
+        {
+          "id": "1Ih0fEQQsy9EeAJbYEeQRa",
+          "name": "Avantasia"
+        }
+      ],
+      "artistNames": "Avantasia",
+      "album": {
+        "id": "2HA77HLuzBmzeJp0Hc4YFO",
+        "name": "The Metal Opera, Pt. I",
+        "releaseDate": "2001-01-22",
+        "releaseYear": "2001"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad1a8e0311bbe50db73c3db8",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad1a8e0311bbe50db73c3db8",
+      "durationMs": 392400,
+      "durationFormatted": "6:32",
+      "spotifyUrl": "https://open.spotify.com/track/4Qe4jyrOpoUeph5U8gwwxA",
+      "uri": "spotify:track:4Qe4jyrOpoUeph5U8gwwxA",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1FDfpnaU7zrZpNLPGQJfsG",
+      "name": "Save Me",
+      "artists": [
+        {
+          "id": "3AGFqPP3gt5rMSvhR87Xxu",
+          "name": "Edguy"
+        }
+      ],
+      "artistNames": "Edguy",
+      "album": {
+        "id": "7gyYQ6GGxQnPpgur3PBp6B",
+        "name": "Rocket Ride",
+        "releaseDate": "2006-01-20",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cee8a6267baad67e116b893c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cee8a6267baad67e116b893c",
+      "durationMs": 227240,
+      "durationFormatted": "3:47",
+      "spotifyUrl": "https://open.spotify.com/track/1FDfpnaU7zrZpNLPGQJfsG",
+      "uri": "spotify:track:1FDfpnaU7zrZpNLPGQJfsG",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "1AWIrCRUkah9En7yTNGNEm",
+      "name": "When Love Comes Close",
+      "artists": [
+        {
+          "id": "1OHNvr18TssBKYK0A75yvx",
+          "name": "Masterplan"
+        }
+      ],
+      "artistNames": "Masterplan",
+      "album": {
+        "id": "6FxqNK88NImuiMIpCrTZee",
+        "name": "Masterplan",
+        "releaseDate": "2003-01-20",
+        "releaseYear": "2003"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737479397fc56803ba3511fd1c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517479397fc56803ba3511fd1c",
+      "durationMs": 248560,
+      "durationFormatted": "4:08",
+      "spotifyUrl": "https://open.spotify.com/track/1AWIrCRUkah9En7yTNGNEm",
+      "uri": "spotify:track:1AWIrCRUkah9En7yTNGNEm",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "7xa3dJQMzBVzsrZ81tNcHP",
+      "name": "Be Quick or Be Dead - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "16Su3EUFLPqWVyrwN1q5wO",
+        "name": "Fear of the Dark (2015 Remaster)",
+        "releaseDate": "1992",
+        "releaseYear": "1992"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510dda9c11454b9053d07f585a",
+      "durationMs": 203653,
+      "durationFormatted": "3:23",
+      "spotifyUrl": "https://open.spotify.com/track/7xa3dJQMzBVzsrZ81tNcHP",
+      "uri": "spotify:track:7xa3dJQMzBVzsrZ81tNcHP",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "6V8vNnVazB8BtWFbZuxJrZ",
+      "name": "Dark Saga",
+      "artists": [
+        {
+          "id": "3KEixcRfBS5K3E91Vn1Kdy",
+          "name": "Iced Earth"
+        }
+      ],
+      "artistNames": "Iced Earth",
+      "album": {
+        "id": "0bGhZHGL1hrkLSn354mB8W",
+        "name": "The Dark Saga",
+        "releaseDate": "1996-06-03",
+        "releaseYear": "1996"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738513b250b4b1115e372c6ffd",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518513b250b4b1115e372c6ffd",
+      "durationMs": 222426,
+      "durationFormatted": "3:42",
+      "spotifyUrl": "https://open.spotify.com/track/6V8vNnVazB8BtWFbZuxJrZ",
+      "uri": "spotify:track:6V8vNnVazB8BtWFbZuxJrZ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "459enxUuE0F6ToP4YrC7UX",
+      "name": "Where the Dead Ships Dwell",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "12WYGQwbMFAVdVBFmXT4ny",
+        "name": "Sounds Of A Playground Fading",
+        "releaseDate": "2011-06-15",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305a0a629a962da34367822e5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485105a0a629a962da34367822e5",
+      "durationMs": 266026,
+      "durationFormatted": "4:26",
+      "spotifyUrl": "https://open.spotify.com/track/459enxUuE0F6ToP4YrC7UX",
+      "uri": "spotify:track:459enxUuE0F6ToP4YrC7UX",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "37YrYrBqxnBm9zCTcBVMBu",
+      "name": "Lost in Space",
+      "artists": [
+        {
+          "id": "1Ih0fEQQsy9EeAJbYEeQRa",
+          "name": "Avantasia"
+        },
+        {
+          "id": "1NSJ4RUZuxUMshly86zXqc",
+          "name": "Amanda Somerville"
+        },
+        {
+          "id": "2pZl4xj6yEZxNoGWAnonVK",
+          "name": "Michael Rodernberg"
+        }
+      ],
+      "artistNames": "Avantasia, Amanda Somerville, Michael Rodernberg",
+      "album": {
+        "id": "5qKWbaQiCWiL0Iu3XknMrz",
+        "name": "The Scarecrow",
+        "releaseDate": "2008-01-25",
+        "releaseYear": "2008"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27307beb25e5d0c07e73f22a0ff",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485107beb25e5d0c07e73f22a0ff",
+      "durationMs": 232600,
+      "durationFormatted": "3:52",
+      "spotifyUrl": "https://open.spotify.com/track/37YrYrBqxnBm9zCTcBVMBu",
+      "uri": "spotify:track:37YrYrBqxnBm9zCTcBVMBu",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "6jCA4rJ4caeRuyTxvf9UvA",
+      "name": "Believe",
+      "artists": [
+        {
+          "id": "3N1B1g6JtIgd6ClRkzD4yT",
+          "name": "Savatage"
+        }
+      ],
+      "artistNames": "Savatage",
+      "album": {
+        "id": "5bMMMSrjV78gkbhxarBbWT",
+        "name": "Streets - A Rock Opera (2011 Edition)",
+        "releaseDate": "2011-02-25",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733ac25821bb901bb68639b201",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513ac25821bb901bb68639b201",
+      "durationMs": 342426,
+      "durationFormatted": "5:42",
+      "spotifyUrl": "https://open.spotify.com/track/6jCA4rJ4caeRuyTxvf9UvA",
+      "uri": "spotify:track:6jCA4rJ4caeRuyTxvf9UvA",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2hDopFcMjFcRi5IRpTSSyr",
+      "name": "Street Of Dreams",
+      "artists": [
+        {
+          "id": "6SLAMfhOi7UJI0fMztaK0m",
+          "name": "Rainbow"
+        }
+      ],
+      "artistNames": "Rainbow",
+      "album": {
+        "id": "0f65AyIqY5pg9URI3vf2Pw",
+        "name": "Bent Out Of Shape",
+        "releaseDate": "1983-01-01",
+        "releaseYear": "1983"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273037dacfcb682d6ec0da10b05",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851037dacfcb682d6ec0da10b05",
+      "durationMs": 265506,
+      "durationFormatted": "4:25",
+      "spotifyUrl": "https://open.spotify.com/track/2hDopFcMjFcRi5IRpTSSyr",
+      "uri": "spotify:track:2hDopFcMjFcRi5IRpTSSyr",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "5YBRbCkuzxkxA3e5BfetdI",
+      "name": "Can I Play with Madness - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1rG6IgNdwE1IGFuIKuYosz",
+        "name": "Seventh Son of a Seventh Son (2015 Remaster)",
+        "releaseDate": "1988",
+        "releaseYear": "1988"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab7b968bf8762355df7d840",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851eab7b968bf8762355df7d840",
+      "durationMs": 211253,
+      "durationFormatted": "3:31",
+      "spotifyUrl": "https://open.spotify.com/track/5YBRbCkuzxkxA3e5BfetdI",
+      "uri": "spotify:track:5YBRbCkuzxkxA3e5BfetdI",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "6olS0TmHmsGr0hXtcBsiVM",
+      "name": "A Tout Le Monde - Remastered 2004",
+      "artists": [
+        {
+          "id": "1Yox196W7bzVNZI7RBaPnf",
+          "name": "Megadeth"
+        }
+      ],
+      "artistNames": "Megadeth",
+      "album": {
+        "id": "5UvUjC3G4UKSrwOeBA0qob",
+        "name": "Youthanasia (Expanded Edition - Remastered)",
+        "releaseDate": "1994-10-28",
+        "releaseYear": "1994"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733171798d5cfc745f0ba24c84",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513171798d5cfc745f0ba24c84",
+      "durationMs": 262133,
+      "durationFormatted": "4:22",
+      "spotifyUrl": "https://open.spotify.com/track/6olS0TmHmsGr0hXtcBsiVM",
+      "uri": "spotify:track:6olS0TmHmsGr0hXtcBsiVM",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2gUrjc9fWHZytKm6FtBY7E",
+      "name": "The Quiet Place",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "62MmtzoCMy82PoeKb6TIVf",
+        "name": "Soundtrack to Your Escape (The Quiet Place Version)",
+        "releaseDate": "2004",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ea8c7a717a063f8bbe4e6ead",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ea8c7a717a063f8bbe4e6ead",
+      "durationMs": 225026,
+      "durationFormatted": "3:45",
+      "spotifyUrl": "https://open.spotify.com/track/2gUrjc9fWHZytKm6FtBY7E",
+      "uri": "spotify:track:2gUrjc9fWHZytKm6FtBY7E",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "6w8dBm5KlXxWejYrbGS1EJ",
+      "name": "I Wanna Be Somebody",
+      "artists": [
+        {
+          "id": "3BVkDHWRvLJEyKdvhLbjsq",
+          "name": "W.A.S.P."
+        }
+      ],
+      "artistNames": "W.A.S.P.",
+      "album": {
+        "id": "25pbI5TFqt2tzGS4XSMnog",
+        "name": "W.A.S.P.",
+        "releaseDate": "1984",
+        "releaseYear": "1984"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1aa6ce113de70498eb295da",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b1aa6ce113de70498eb295da",
+      "durationMs": 223533,
+      "durationFormatted": "3:43",
+      "spotifyUrl": "https://open.spotify.com/track/6w8dBm5KlXxWejYrbGS1EJ",
+      "uri": "spotify:track:6w8dBm5KlXxWejYrbGS1EJ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2JjRySKmXZGHRyCHOyhDr9",
+      "name": "Edge of Thorns",
+      "artists": [
+        {
+          "id": "3N1B1g6JtIgd6ClRkzD4yT",
+          "name": "Savatage"
+        }
+      ],
+      "artistNames": "Savatage",
+      "album": {
+        "id": "4A5NBtITpBxtxA6Fcp0xqB",
+        "name": "Edge of Thorns (Bonus Track Edition)",
+        "releaseDate": "1993",
+        "releaseYear": "1993"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df389fd5138d90c0b184d807",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851df389fd5138d90c0b184d807",
+      "durationMs": 356160,
+      "durationFormatted": "5:56",
+      "spotifyUrl": "https://open.spotify.com/track/2JjRySKmXZGHRyCHOyhDr9",
+      "uri": "spotify:track:2JjRySKmXZGHRyCHOyhDr9",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "6NFKy0jg3S6x380iuF47jX",
+      "name": "He Is",
+      "artists": [
+        {
+          "id": "1Qp56T7n950O3EGMsSl81D",
+          "name": "Ghost"
+        }
+      ],
+      "artistNames": "Ghost",
+      "album": {
+        "id": "7wcMxzlZFIxccoeiSix0O2",
+        "name": "Meliora",
+        "releaseDate": "2015-01-01",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27320b19a218a86e6946387f56e",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485120b19a218a86e6946387f56e",
+      "durationMs": 253173,
+      "durationFormatted": "4:13",
+      "spotifyUrl": "https://open.spotify.com/track/6NFKy0jg3S6x380iuF47jX",
+      "uri": "spotify:track:6NFKy0jg3S6x380iuF47jX",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "2yGdYMeYIjCQFiBRPnKKiZ",
+      "name": "Infinite Dreams - 2015 Remaster",
+      "artists": [
+        {
+          "id": "6mdiAmATAx73kdxrNrnlao",
+          "name": "Iron Maiden"
+        }
+      ],
+      "artistNames": "Iron Maiden",
+      "album": {
+        "id": "1rG6IgNdwE1IGFuIKuYosz",
+        "name": "Seventh Son of a Seventh Son (2015 Remaster)",
+        "releaseDate": "1988",
+        "releaseYear": "1988"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273eab7b968bf8762355df7d840",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851eab7b968bf8762355df7d840",
+      "durationMs": 369373,
+      "durationFormatted": "6:09",
+      "spotifyUrl": "https://open.spotify.com/track/2yGdYMeYIjCQFiBRPnKKiZ",
+      "uri": "spotify:track:2yGdYMeYIjCQFiBRPnKKiZ",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "687klRjBy7iqdzCBtQwcQf",
+      "name": "Lost Boys",
+      "artists": [
+        {
+          "id": "0Z1UczcSjwKNuv4HgdjH3b",
+          "name": "The 69 Eyes"
+        }
+      ],
+      "artistNames": "The 69 Eyes",
+      "album": {
+        "id": "2upv5guRDK6ThUT4CzrDIc",
+        "name": "Devils",
+        "releaseDate": "2004-01-01",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739608604a88bdb849331a21ae",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519608604a88bdb849331a21ae",
+      "durationMs": 203186,
+      "durationFormatted": "3:23",
+      "spotifyUrl": "https://open.spotify.com/track/687klRjBy7iqdzCBtQwcQf",
+      "uri": "spotify:track:687klRjBy7iqdzCBtQwcQf",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    },
+    {
+      "id": "0CBdCjnx3MY81m1XProC0S",
+      "name": "My Sweet Shadow",
+      "artists": [
+        {
+          "id": "57ylwQTnFnIhJh4nu4rxCs",
+          "name": "In Flames"
+        }
+      ],
+      "artistNames": "In Flames",
+      "album": {
+        "id": "62MmtzoCMy82PoeKb6TIVf",
+        "name": "Soundtrack to Your Escape (The Quiet Place Version)",
+        "releaseDate": "2004",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ea8c7a717a063f8bbe4e6ead",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ea8c7a717a063f8bbe4e6ead",
+      "durationMs": 278653,
+      "durationFormatted": "4:38",
+      "spotifyUrl": "https://open.spotify.com/track/0CBdCjnx3MY81m1XProC0S",
+      "uri": "spotify:track:0CBdCjnx3MY81m1XProC0S",
+      "addedAt": "2023-01-31T14:39:34Z",
+      "addedDate": "2023-01-31"
+    }
+  ]
+}

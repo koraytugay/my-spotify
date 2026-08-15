@@ -1,0 +1,567 @@
+{
+  "id": "5FMQLdsQnxaXzpxLjVSHgI",
+  "name": "2020-01",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 20,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e020a3954f5712fa6bde742ff61ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e02ac58f4098f7ae521dc0afeb2ab67616d00001e02c1fa18fcff45677fa780844f",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e020a3954f5712fa6bde742ff61ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e02ac58f4098f7ae521dc0afeb2ab67616d00001e02c1fa18fcff45677fa780844f",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e020a3954f5712fa6bde742ff61ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e02ac58f4098f7ae521dc0afeb2ab67616d00001e02c1fa18fcff45677fa780844f",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020a3954f5712fa6bde742ff61ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e02ac58f4098f7ae521dc0afeb2ab67616d00001e02c1fa18fcff45677fa780844f",
+  "owner": "koraytugay",
+  "spotifyUrl": "https://open.spotify.com/playlist/5FMQLdsQnxaXzpxLjVSHgI",
+  "uri": "spotify:playlist:5FMQLdsQnxaXzpxLjVSHgI",
+  "tracks": [
+    {
+      "id": "3cnhQxjmgPhiYOMO0XcKpM",
+      "name": "İnsan İnsan",
+      "artists": [
+        {
+          "id": "15NSFL63oPhmpXLcZHny2N",
+          "name": "Fazıl Say"
+        },
+        {
+          "id": "2AWUCT9xtcvkjpFq1ZgpPj",
+          "name": "Cem Adrian"
+        },
+        {
+          "id": "2s71N4gp7Ybok1jP2TV6fr",
+          "name": "Guvenc Dagustun"
+        },
+        {
+          "id": "16fEBDsX5HU0deiykRIyJP",
+          "name": "Burcu Uyar"
+        },
+        {
+          "id": "1IKW9Yfrlm7ADQrPx4mqkQ",
+          "name": "Selva Erdener"
+        }
+      ],
+      "artistNames": "Fazıl Say, Cem Adrian, Guvenc Dagustun, Burcu Uyar, Selva Erdener",
+      "album": {
+        "id": "1cBltJhF1ylxCVX3t0Tu7m",
+        "name": "İlk Şarkılar",
+        "releaseDate": "2013-06-11",
+        "releaseYear": "2013"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6a89e40ad23ad19df54af33",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e6a89e40ad23ad19df54af33",
+      "durationMs": 391453,
+      "durationFormatted": "6:31",
+      "spotifyUrl": "https://open.spotify.com/track/3cnhQxjmgPhiYOMO0XcKpM",
+      "uri": "spotify:track:3cnhQxjmgPhiYOMO0XcKpM",
+      "addedAt": "2020-01-07T04:18:37Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "4wHbmF84ypSrqSdOBVHPLR",
+      "name": "Amandrai (with Ry Cooder)",
+      "artists": [
+        {
+          "id": "3mNygoyrEKLgo6sx0MzwOL",
+          "name": "Ali Farka Touré"
+        },
+        {
+          "id": "1CPwHx5lgVxv0rfcp7UXLx",
+          "name": "Ry Cooder"
+        }
+      ],
+      "artistNames": "Ali Farka Touré, Ry Cooder",
+      "album": {
+        "id": "2MSgPFGGgIn5EqLezjLpt9",
+        "name": "Talking Timbuktu (with Ry Cooder)",
+        "releaseDate": "1994-03-28",
+        "releaseYear": "1994"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734209569110ce50ca88e1dc46",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514209569110ce50ca88e1dc46",
+      "durationMs": 563800,
+      "durationFormatted": "9:23",
+      "spotifyUrl": "https://open.spotify.com/track/4wHbmF84ypSrqSdOBVHPLR",
+      "uri": "spotify:track:4wHbmF84ypSrqSdOBVHPLR",
+      "addedAt": "2020-01-07T04:18:44Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "018SQDupRTRsl1Wolu1X0c",
+      "name": "Star Eater",
+      "artists": [
+        {
+          "id": "0OTY72l7CC7ynKzp6N2o5b",
+          "name": "Daniel Deluxe"
+        }
+      ],
+      "artistNames": "Daniel Deluxe",
+      "album": {
+        "id": "7LFFQrgPPbPzS6Q61Y3o4F",
+        "name": "Magnatron",
+        "releaseDate": "2015-07-14",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c1fa18fcff45677fa780844f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c1fa18fcff45677fa780844f",
+      "durationMs": 272855,
+      "durationFormatted": "4:32",
+      "spotifyUrl": "https://open.spotify.com/track/018SQDupRTRsl1Wolu1X0c",
+      "uri": "spotify:track:018SQDupRTRsl1Wolu1X0c",
+      "addedAt": "2020-01-07T04:18:49Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "0tFQm8EGvBrhq23UZtkzHs",
+      "name": "Kimse Bilmez",
+      "artists": [
+        {
+          "id": "6dsovaQel9LvTdY8wpWCoO",
+          "name": "Mehmet Güreli"
+        }
+      ],
+      "artistNames": "Mehmet Güreli",
+      "album": {
+        "id": "3oCq9JtrvzpJ9XVDxt2Kqf",
+        "name": "Zamboni Sokağı",
+        "releaseDate": "2017-05-19",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e0a692e9fed46e90e90ee42a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e0a692e9fed46e90e90ee42a",
+      "durationMs": 205786,
+      "durationFormatted": "3:25",
+      "spotifyUrl": "https://open.spotify.com/track/0tFQm8EGvBrhq23UZtkzHs",
+      "uri": "spotify:track:0tFQm8EGvBrhq23UZtkzHs",
+      "addedAt": "2020-01-07T13:26:17Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "1d9et2LURX22InUyLMeVfN",
+      "name": "Profesyonel",
+      "artists": [
+        {
+          "id": "1OhpnvMZLbqa46ZCNdMmwr",
+          "name": "Fatih Erdemci"
+        }
+      ],
+      "artistNames": "Fatih Erdemci",
+      "album": {
+        "id": "0jEVLWLsKCIu0S5PzJhz8t",
+        "name": "Yaşamak Zor",
+        "releaseDate": "2017-11-20",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27357edb2714779649bcc282c8a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485157edb2714779649bcc282c8a",
+      "durationMs": 287226,
+      "durationFormatted": "4:47",
+      "spotifyUrl": "https://open.spotify.com/track/1d9et2LURX22InUyLMeVfN",
+      "uri": "spotify:track:1d9et2LURX22InUyLMeVfN",
+      "addedAt": "2020-01-07T21:25:45Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "2RadPnVMed6QVd3hobQTiO",
+      "name": "Braquer nos rêves",
+      "artists": [
+        {
+          "id": "63hFhXYW3r2q8uW2Rf3LUw",
+          "name": "H Magnum"
+        }
+      ],
+      "artistNames": "H Magnum",
+      "album": {
+        "id": "4VK4wc3ZtDiOckIBlNEEaX",
+        "name": "Gotham City",
+        "releaseDate": "2015-10-30",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273410d4fd9ade8f4dfbcc0d986",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851410d4fd9ade8f4dfbcc0d986",
+      "durationMs": 211586,
+      "durationFormatted": "3:31",
+      "spotifyUrl": "https://open.spotify.com/track/2RadPnVMed6QVd3hobQTiO",
+      "uri": "spotify:track:2RadPnVMed6QVd3hobQTiO",
+      "addedAt": "2020-01-07T21:25:55Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "3KU6OeuIiHlBzdBDDGwfut",
+      "name": "Sultan-ı Yegah",
+      "artists": [
+        {
+          "id": "5ayzrYOahi5XNF9eRwYMKv",
+          "name": "Nur Yoldas"
+        }
+      ],
+      "artistNames": "Nur Yoldas",
+      "album": {
+        "id": "4bo0s0upy72JpXN8w3TZHS",
+        "name": "Sultan-ı Yegah",
+        "releaseDate": "1998-06-11",
+        "releaseYear": "1998"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737e79187a48acee89bee6b25d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517e79187a48acee89bee6b25d",
+      "durationMs": 193666,
+      "durationFormatted": "3:13",
+      "spotifyUrl": "https://open.spotify.com/track/3KU6OeuIiHlBzdBDDGwfut",
+      "uri": "spotify:track:3KU6OeuIiHlBzdBDDGwfut",
+      "addedAt": "2020-01-07T21:32:12Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "1oKC4dau1saBGLn3eC1m2a",
+      "name": "Koleler Ve Kilitler",
+      "artists": [
+        {
+          "id": "6gPaETmwMTVwGdrd5eIiog",
+          "name": "Peyk"
+        }
+      ],
+      "artistNames": "Peyk",
+      "album": {
+        "id": "2DQPGK3p5y6u5ANYJc9VrT",
+        "name": "Koleler Ve Kilitler",
+        "releaseDate": "2017-02-01",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735d3eec2cdd33fc74673e8f44",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515d3eec2cdd33fc74673e8f44",
+      "durationMs": 247870,
+      "durationFormatted": "4:07",
+      "spotifyUrl": "https://open.spotify.com/track/1oKC4dau1saBGLn3eC1m2a",
+      "uri": "spotify:track:1oKC4dau1saBGLn3eC1m2a",
+      "addedAt": "2020-01-07T21:38:03Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "2tnVG71enUj33Ic2nFN6kZ",
+      "name": "Ride It",
+      "artists": [
+        {
+          "id": "4ofCBoyEiGSePFAG500xev",
+          "name": "Regard"
+        }
+      ],
+      "artistNames": "Regard",
+      "album": {
+        "id": "4zOhjJfe0dwqsNdDYk622E",
+        "name": "Ride It",
+        "releaseDate": "2019-07-26",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735c27813ae019011fcb370c78",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515c27813ae019011fcb370c78",
+      "durationMs": 157605,
+      "durationFormatted": "2:37",
+      "spotifyUrl": "https://open.spotify.com/track/2tnVG71enUj33Ic2nFN6kZ",
+      "uri": "spotify:track:2tnVG71enUj33Ic2nFN6kZ",
+      "addedAt": "2020-01-07T21:42:52Z",
+      "addedDate": "2020-01-07"
+    },
+    {
+      "id": "7ixiCZEHWHc8FxaQXQh2P4",
+      "name": "Bam Bam",
+      "artists": [
+        {
+          "id": "21pMSs2JHWwwy2kp1QIIVB",
+          "name": "Sister Nancy"
+        }
+      ],
+      "artistNames": "Sister Nancy",
+      "album": {
+        "id": "3Il1CWXA64e8gukuJZoj0e",
+        "name": "One Two",
+        "releaseDate": "1982",
+        "releaseYear": "1982"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333c6f21ab00263515f0b0d6d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133c6f21ab00263515f0b0d6d",
+      "durationMs": 196506,
+      "durationFormatted": "3:16",
+      "spotifyUrl": "https://open.spotify.com/track/7ixiCZEHWHc8FxaQXQh2P4",
+      "uri": "spotify:track:7ixiCZEHWHc8FxaQXQh2P4",
+      "addedAt": "2020-01-08T02:35:42Z",
+      "addedDate": "2020-01-08"
+    },
+    {
+      "id": "0YPHxhTtceIbXF5ioGEwGO",
+      "name": "Folon",
+      "artists": [
+        {
+          "id": "0VVnWF3KNaa5O7ESohKhAx",
+          "name": "Salif Keita"
+        }
+      ],
+      "artistNames": "Salif Keita",
+      "album": {
+        "id": "29kRIxD16ZaWot5NKCtS9O",
+        "name": "Folon",
+        "releaseDate": "1995-01-01",
+        "releaseYear": "1995"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733fefe9bf22b696602f55e6f5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513fefe9bf22b696602f55e6f5",
+      "durationMs": 267693,
+      "durationFormatted": "4:27",
+      "spotifyUrl": "https://open.spotify.com/track/0YPHxhTtceIbXF5ioGEwGO",
+      "uri": "spotify:track:0YPHxhTtceIbXF5ioGEwGO",
+      "addedAt": "2020-01-09T03:25:48Z",
+      "addedDate": "2020-01-09"
+    },
+    {
+      "id": "1P74IFharEhy18PbwwiR1x",
+      "name": "Hands on Your Stomach",
+      "artists": [
+        {
+          "id": "5Y1mtkFXBCx0dyL93Wt54T",
+          "name": "Otis Taylor"
+        }
+      ],
+      "artistNames": "Otis Taylor",
+      "album": {
+        "id": "1du4GDgGELRt5DPj49ArGH",
+        "name": "Clovis People, Vol. 3",
+        "releaseDate": "2010-06-08",
+        "releaseYear": "2010"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e44c71d776de737ab544c4ca",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e44c71d776de737ab544c4ca",
+      "durationMs": 229813,
+      "durationFormatted": "3:49",
+      "spotifyUrl": "https://open.spotify.com/track/1P74IFharEhy18PbwwiR1x",
+      "uri": "spotify:track:1P74IFharEhy18PbwwiR1x",
+      "addedAt": "2020-01-12T00:54:51Z",
+      "addedDate": "2020-01-12"
+    },
+    {
+      "id": "5DJEXxOutnFD5GEUVk88yE",
+      "name": "Kazılı Kuyum",
+      "artists": [
+        {
+          "id": "7gobcoscOfsY0nOeqqFzvU",
+          "name": "Yüzyüzeyken Konuşuruz"
+        }
+      ],
+      "artistNames": "Yüzyüzeyken Konuşuruz",
+      "album": {
+        "id": "4L3KecBdi6B1G1xX2F4xZT",
+        "name": "Kazılı Kuyum",
+        "releaseDate": "2020-01-10",
+        "releaseYear": "2020"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731ea923bbaa892b32621a8b08",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511ea923bbaa892b32621a8b08",
+      "durationMs": 208628,
+      "durationFormatted": "3:28",
+      "spotifyUrl": "https://open.spotify.com/track/5DJEXxOutnFD5GEUVk88yE",
+      "uri": "spotify:track:5DJEXxOutnFD5GEUVk88yE",
+      "addedAt": "2020-01-12T01:46:02Z",
+      "addedDate": "2020-01-12"
+    },
+    {
+      "id": "4UP4DqFHeSxVg6CeyFnPZ5",
+      "name": "One More Time",
+      "artists": [
+        {
+          "id": "159cwGtgCzNpyHWY6tzihH",
+          "name": "Milk & Sugar"
+        },
+        {
+          "id": "5jSyEHI4tPkBgp84luyqpO",
+          "name": "Munich Philharmonic Orchestra"
+        },
+        {
+          "id": "6S3HruXvguQcK7xsJUwtM0",
+          "name": "Euphonica"
+        }
+      ],
+      "artistNames": "Milk & Sugar, Munich Philharmonic Orchestra, Euphonica",
+      "album": {
+        "id": "1YngiyXCkcNyfk8ukh3ylN",
+        "name": "IBIZA SYMPHONICA - One More Time",
+        "releaseDate": "2020-01-10",
+        "releaseYear": "2020"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2aef09e4e3912e313ab80db",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e2aef09e4e3912e313ab80db",
+      "durationMs": 219680,
+      "durationFormatted": "3:39",
+      "spotifyUrl": "https://open.spotify.com/track/4UP4DqFHeSxVg6CeyFnPZ5",
+      "uri": "spotify:track:4UP4DqFHeSxVg6CeyFnPZ5",
+      "addedAt": "2020-01-12T01:58:58Z",
+      "addedDate": "2020-01-12"
+    },
+    {
+      "id": "2eS6pqoic3puCKVWmwZxD3",
+      "name": "Stay The Night",
+      "artists": [
+        {
+          "id": "4bazJLWIv8CuqmgxJRiGqo",
+          "name": "Just Kiddin"
+        },
+        {
+          "id": "5mNpMP01Co4vXZ3U0fWP3C",
+          "name": "Camden Cox"
+        }
+      ],
+      "artistNames": "Just Kiddin, Camden Cox",
+      "album": {
+        "id": "6s84sQcwx65J1TD5U2l3MQ",
+        "name": "Stay The Night",
+        "releaseDate": "2019-07-05",
+        "releaseYear": "2019"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273664019291e2f0c711310978b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851664019291e2f0c711310978b",
+      "durationMs": 166533,
+      "durationFormatted": "2:46",
+      "spotifyUrl": "https://open.spotify.com/track/2eS6pqoic3puCKVWmwZxD3",
+      "uri": "spotify:track:2eS6pqoic3puCKVWmwZxD3",
+      "addedAt": "2020-01-12T02:20:41Z",
+      "addedDate": "2020-01-12"
+    },
+    {
+      "id": "2wYcFlIcbj0Aw1Jsek5jjS",
+      "name": "Politely",
+      "artists": [
+        {
+          "id": "6JpZEemWmunccsrHXFUOgi",
+          "name": "Tony Allen"
+        }
+      ],
+      "artistNames": "Tony Allen",
+      "album": {
+        "id": "6Di99uGNb1ITzZVPigCpES",
+        "name": "A Tribute To Art Blakey And The Jazz Messengers",
+        "releaseDate": "2017-05-19",
+        "releaseYear": "2017"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730498da7b723e462aaac395cb",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510498da7b723e462aaac395cb",
+      "durationMs": 400706,
+      "durationFormatted": "6:40",
+      "spotifyUrl": "https://open.spotify.com/track/2wYcFlIcbj0Aw1Jsek5jjS",
+      "uri": "spotify:track:2wYcFlIcbj0Aw1Jsek5jjS",
+      "addedAt": "2020-01-14T01:58:23Z",
+      "addedDate": "2020-01-14"
+    },
+    {
+      "id": "72V1bO55c4PUcJiaq8dIqf",
+      "name": "Ten Million Slaves",
+      "artists": [
+        {
+          "id": "5Y1mtkFXBCx0dyL93Wt54T",
+          "name": "Otis Taylor"
+        },
+        {
+          "id": "3rHAg1yXbyNq0mnPgsVahe",
+          "name": "Cassie Taylor"
+        }
+      ],
+      "artistNames": "Otis Taylor, Cassie Taylor",
+      "album": {
+        "id": "34eZ7HZsBjphKMjZC2itFP",
+        "name": "Otis Taylor Collection",
+        "releaseDate": "2014-11-24",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c75ef99201651723c00a9da5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c75ef99201651723c00a9da5",
+      "durationMs": 249160,
+      "durationFormatted": "4:09",
+      "spotifyUrl": "https://open.spotify.com/track/72V1bO55c4PUcJiaq8dIqf",
+      "uri": "spotify:track:72V1bO55c4PUcJiaq8dIqf",
+      "addedAt": "2020-01-16T02:38:08Z",
+      "addedDate": "2020-01-16"
+    },
+    {
+      "id": "7iTqzuMT36gPjF6BC043DC",
+      "name": "Mayıs",
+      "artists": [
+        {
+          "id": "6dsovaQel9LvTdY8wpWCoO",
+          "name": "Mehmet Güreli"
+        }
+      ],
+      "artistNames": "Mehmet Güreli",
+      "album": {
+        "id": "4fXNgIRlPhU64nxk0L1J1P",
+        "name": "Odamda Yolculuk",
+        "releaseDate": "2002-06-26",
+        "releaseYear": "2002"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735ab659fdf94b88c74e21dcda",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515ab659fdf94b88c74e21dcda",
+      "durationMs": 258279,
+      "durationFormatted": "4:18",
+      "spotifyUrl": "https://open.spotify.com/track/7iTqzuMT36gPjF6BC043DC",
+      "uri": "spotify:track:7iTqzuMT36gPjF6BC043DC",
+      "addedAt": "2020-01-22T03:01:26Z",
+      "addedDate": "2020-01-22"
+    },
+    {
+      "id": "5dDEnmFr29XhNPpSEnuzl2",
+      "name": "Kara Toprak",
+      "artists": [
+        {
+          "id": "2yMN0IP20GOaN6q0p0zL5k",
+          "name": "Tarkan"
+        }
+      ],
+      "artistNames": "Tarkan",
+      "album": {
+        "id": "4IMp5fNjMZwPCrhMGnHsX9",
+        "name": "Kara Toprak",
+        "releaseDate": "2010-11-01",
+        "releaseYear": "2010"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273362f896b38b3ecda9de819be",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851362f896b38b3ecda9de819be",
+      "durationMs": 243591,
+      "durationFormatted": "4:03",
+      "spotifyUrl": "https://open.spotify.com/track/5dDEnmFr29XhNPpSEnuzl2",
+      "uri": "spotify:track:5dDEnmFr29XhNPpSEnuzl2",
+      "addedAt": "2020-01-23T03:18:35Z",
+      "addedDate": "2020-01-23"
+    },
+    {
+      "id": "53PCsZ23I1bG1NSFFuUYuX",
+      "name": "Lazarus",
+      "artists": [
+        {
+          "id": "5NXHXK6hOCotCF8lvGM1I0",
+          "name": "Porcupine Tree"
+        }
+      ],
+      "artistNames": "Porcupine Tree",
+      "album": {
+        "id": "4gGjMpqUDO8UIS3N9UrbUa",
+        "name": "Deadwing",
+        "releaseDate": "2005-03-28",
+        "releaseYear": "2005"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d88601ed869a074f20010424",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d88601ed869a074f20010424",
+      "durationMs": 258586,
+      "durationFormatted": "4:18",
+      "spotifyUrl": "https://open.spotify.com/track/53PCsZ23I1bG1NSFFuUYuX",
+      "uri": "spotify:track:53PCsZ23I1bG1NSFFuUYuX",
+      "addedAt": "2020-01-23T03:30:32Z",
+      "addedDate": "2020-01-23"
+    }
+  ]
+}

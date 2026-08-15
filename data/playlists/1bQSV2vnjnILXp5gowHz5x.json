@@ -1,0 +1,30 @@
+{
+  "id": "1bQSV2vnjnILXp5gowHz5x",
+  "name": "Dream Theater Ballads",
+  "description": "",
+  "public": true,
+  "collaborative": false,
+  "tracksTotal": 0,
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "width": 60
+    }
+  ],
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+  "owner": "Nathan Culberson",
+  "spotifyUrl": "https://open.spotify.com/playlist/1bQSV2vnjnILXp5gowHz5x",
+  "uri": "spotify:playlist:1bQSV2vnjnILXp5gowHz5x",
+  "tracks": []
+}
