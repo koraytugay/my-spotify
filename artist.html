@@ -124,7 +124,7 @@
                 <div class="controls-row">
                     <div class="control-group search-group">
                         <label for="search-input">Search:</label>
-                        <input type="text" id="search-input" placeholder="Search album or song..." oninput="filterArtistContent()">
+                        <input type="text" id="search-input" placeholder="Search albums..." oninput="filterArtistContent()">
                     </div>
                     <div class="control-group">
                         <label for="sort-select">Sort Albums:</label>
@@ -133,18 +133,6 @@
                             <option value="year-desc">Release Date (Newest to Oldest)</option>
                             <option value="name-asc">Album Title (A-Z)</option>
                         </select>
-                    </div>
-                    <div class="control-group">
-                        <label class="checkbox-toggle">
-                            <input type="checkbox" id="include-singles-toggle" checked onchange="filterArtistContent()">
-                            Include Singles
-                        </label>
-                    </div>
-                    <div class="control-group">
-                        <label class="checkbox-toggle">
-                            <input type="checkbox" id="only-saved-toggle" onchange="filterArtistContent()">
-                            Only Saved Albums
-                        </label>
                     </div>
                 </div>
             </div>
