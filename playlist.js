@@ -103,17 +103,16 @@ function applyFilters() {
     renderTracks();
 }
 
+let isGroupedByAlbum = false;
+
+function toggleGroupByAlbum(isGrouped) {
+    isGroupedByAlbum = isGrouped;
+    renderTracks();
+}
+
 function renderTracks() {
     const grid = document.getElementById('tracks-grid');
     const noResults = document.getElementById('no-results');
-
-    if (currentViewMode === 'grid') {
-        grid.className = 'music-grid';
-    } else if (currentViewMode === 'compact') {
-        grid.className = 'music-grid view-compact';
-    } else if (currentViewMode === 'list') {
-        grid.className = 'music-grid view-list';
-    }
 
     if (filteredTracks.length === 0) {
         grid.innerHTML = '';
@@ -124,37 +123,104 @@ function renderTracks() {
     noResults.style.display = 'none';
     grid.innerHTML = '';
 
-    filteredTracks.forEach(t => {
-        const card = document.createElement('div');
-        card.className = 'song-card';
-        const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
-        const isPlaying = currentPlayingId === t.id;
+    if (!isGroupedByAlbum) {
+        // Flat Rendering
+        if (currentViewMode === 'grid') {
+            grid.className = 'music-grid';
+        } else if (currentViewMode === 'compact') {
+            grid.className = 'music-grid view-compact';
+        } else if (currentViewMode === 'list') {
+            grid.className = 'music-grid view-list';
+        }
 
-        card.innerHTML = `
-            <div class="cover-wrapper">
-                <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
-                ${t.previewUrl ? `
-                    <button class="play-btn-overlay" onclick="event.stopPropagation(); togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
-                        ${isPlaying ? '⏸' : '▶'}
-                    </button>
-                ` : ''}
-            </div>
-            <div class="song-details">
-                <div class="song-title">${t.name}</div>
-                <div class="song-artist">${t.artistNames} · <span style="color: var(--text-muted);">${t.album?.name || ''}</span></div>
-            </div>
-            <div class="song-meta">
-                <span>${t.album?.releaseYear || ''}</span>
-                <span>${t.durationFormatted || ''}</span>
-            </div>
-        `;
+        filteredTracks.forEach(t => {
+            grid.appendChild(createTrackCard(t));
+        });
+    } else {
+        // Grouped by Album Rendering
+        grid.className = '';
 
-        card.onclick = () => {
-            if (t.spotifyUrl) window.open(t.spotifyUrl, '_blank');
-        };
+        // Group tracks by album
+        const albumGroups = new Map();
+        filteredTracks.forEach(t => {
+            const albumKey = t.album?.name || 'Unknown Album';
+            if (!albumGroups.has(albumKey)) {
+                albumGroups.set(albumKey, {
+                    name: albumKey,
+                    artist: t.artistNames || '',
+                    releaseYear: t.album?.releaseYear || '',
+                    coverUrl: t.coverUrl || t.thumbnailUrl || '',
+                    tracks: []
+                });
+            }
+            albumGroups.get(albumKey).tracks.push(t);
+        });
 
-        grid.appendChild(card);
-    });
+        albumGroups.forEach(group => {
+            const section = document.createElement('div');
+            section.className = 'album-group-section';
+
+            const header = document.createElement('div');
+            header.className = 'album-group-header';
+            header.innerHTML = `
+                <img src="${group.coverUrl || 'https://via.placeholder.com/300x300?text=Album'}" alt="${group.name}" class="album-group-thumb">
+                <div class="album-group-info">
+                    <div class="album-group-name">${group.name}</div>
+                    <div class="album-group-artist">${group.artist} ${group.releaseYear ? `(${group.releaseYear})` : ''}</div>
+                </div>
+                <div class="album-group-badge">${group.tracks.length} track${group.tracks.length > 1 ? 's' : ''}</div>
+            `;
+            section.appendChild(header);
+
+            const tracksContainer = document.createElement('div');
+            if (currentViewMode === 'grid') {
+                tracksContainer.className = 'music-grid';
+            } else if (currentViewMode === 'compact') {
+                tracksContainer.className = 'music-grid view-compact';
+            } else if (currentViewMode === 'list') {
+                tracksContainer.className = 'music-grid view-list';
+            }
+
+            group.tracks.forEach(t => {
+                tracksContainer.appendChild(createTrackCard(t));
+            });
+
+            section.appendChild(tracksContainer);
+            grid.appendChild(section);
+        });
+    }
+}
+
+function createTrackCard(t) {
+    const card = document.createElement('div');
+    card.className = 'song-card';
+    const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
+    const isPlaying = currentPlayingId === t.id;
+
+    card.innerHTML = `
+        <div class="cover-wrapper">
+            <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
+            ${t.previewUrl ? `
+                <button class="play-btn-overlay" onclick="event.stopPropagation(); togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
+                    ${isPlaying ? '⏸' : '▶'}
+                </button>
+            ` : ''}
+        </div>
+        <div class="song-details">
+            <div class="song-title">${t.name}</div>
+            <div class="song-artist">${t.artistNames} · <span style="color: var(--text-muted);">${t.album?.name || ''}</span></div>
+        </div>
+        <div class="song-meta">
+            <span>${t.album?.releaseYear || ''}</span>
+            <span>${t.durationFormatted || ''}</span>
+        </div>
+    `;
+
+    card.onclick = () => {
+        if (t.spotifyUrl) window.open(t.spotifyUrl, '_blank');
+    };
+
+    return card;
 }
 
 function togglePlayPreview(id, url) {
