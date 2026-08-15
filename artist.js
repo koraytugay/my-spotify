@@ -245,11 +245,28 @@ function sortAlbums(criteria) {
 
 function filterArtistContent() {
     const search = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
+    const includeSingles = document.getElementById('include-singles-toggle')?.checked ?? true;
+    const onlySaved = document.getElementById('only-saved-toggle')?.checked ?? false;
+
     filteredAlbums = allArtistAlbums.filter(a => {
-        if (!search) return true;
-        const matchName = (a.name || '').toLowerCase().includes(search);
-        const matchYear = (a.releaseYear || '').toString().includes(search);
-        return matchName || matchYear;
+        // Singles filter (hide if totalTracks is 1 or less when includeSingles is unchecked)
+        if (!includeSingles && a.totalTracks <= 1) {
+            return false;
+        }
+
+        // Only saved filter
+        if (onlySaved && !a.isSaved) {
+            return false;
+        }
+
+        // Search
+        if (search) {
+            const matchName = (a.name || '').toLowerCase().includes(search);
+            const matchYear = (a.releaseYear || '').toString().includes(search);
+            if (!matchName && !matchYear) return false;
+        }
+
+        return true;
     });
     renderArtistAlbums();
 }

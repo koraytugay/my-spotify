@@ -134,6 +134,18 @@
                             <option value="name-asc">Album Title (A-Z)</option>
                         </select>
                     </div>
+                    <div class="control-group">
+                        <label class="checkbox-toggle">
+                            <input type="checkbox" id="include-singles-toggle" checked onchange="filterArtistContent()">
+                            Include Singles
+                        </label>
+                    </div>
+                    <div class="control-group">
+                        <label class="checkbox-toggle">
+                            <input type="checkbox" id="only-saved-toggle" onchange="filterArtistContent()">
+                            Only Saved Albums
+                        </label>
+                    </div>
                 </div>
             </div>
 
