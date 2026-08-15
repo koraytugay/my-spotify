@@ -109,43 +109,6 @@ async function initArtistDetail() {
             }
         });
 
-        // 3. Fetch Full Complete Discography with Strict Artist Matching
-        try {
-            const catalogUrl = `https://itunes.apple.com/search?term=${encodeURIComponent(artistInfo.name)}&entity=album&limit=100`;
-            const catRes = await fetch(catalogUrl);
-            if (catRes.ok) {
-                const catData = await catRes.json();
-                (catData.results || []).forEach(alb => {
-                    const albArtist = (alb.artistName || '').toLowerCase().trim();
-                    // STRICT exact artist name match to avoid false positive keyword bleed
-                    if (albArtist === canonicalName) {
-                        const normName = (alb.collectionName || '').toLowerCase().replace(/\s*\(.*?\)\s*/g, '').trim();
-                        const key = normName || String(alb.collectionId);
-                        if (!albumMap.has(key)) {
-                            const releaseDate = alb.releaseDate ? alb.releaseDate.substring(0, 10) : '';
-                            const releaseYear = releaseDate ? releaseDate.substring(0, 4) : '';
-                            const hiresCover = (alb.artworkUrl100 || '').replace('100x100bb', '600x600bb');
-                            const isSaved = savedAlbumNameSet.has(normName);
-                            albumMap.set(key, {
-                                id: '',
-                                name: alb.collectionName,
-                                artistNames: artistInfo.name,
-                                coverUrl: hiresCover || 'https://via.placeholder.com/300x300?text=Album',
-                                releaseYear: releaseYear,
-                                releaseDate: releaseDate,
-                                totalTracks: alb.trackCount || 0,
-                                spotifyUrl: `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name + ' ' + alb.collectionName)}`,
-                                isSaved: isSaved,
-                                source: 'discography'
-                            });
-                        }
-                    }
-                });
-            }
-        } catch (e) {
-            console.warn('Could not fetch external catalog:', e.message);
-        }
-
         allArtistAlbums = Array.from(albumMap.values());
         filteredAlbums = [...allArtistAlbums];
 
