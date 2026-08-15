@@ -56,7 +56,7 @@ async function initStats() {
             .slice(0, 10)
             .map(s => ({
                 label: `${s.name} (${s.artistNames})`,
-                link: s.spotifyUrl || (s.id ? `https://open.spotify.com/track/${s.id}` : null),
+                link: getSpotifyUri(s, 'track'),
                 value: Math.round(s.durationMs / 1000),
                 formattedValue: s.durationFormatted || ''
             }));
