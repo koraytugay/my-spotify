@@ -1,5 +1,73 @@
 [
   {
+    "id": "5kQUIjlpXoMMAHRAhbXmpp",
+    "name": "Kids",
+    "artists": [
+      {
+        "id": "2NFrAuh8RQdQoS7iYFbckw",
+        "name": "The Midnight"
+      }
+    ],
+    "artistNames": "The Midnight",
+    "releaseDate": "2018-09-21",
+    "releaseYear": "2018",
+    "totalTracks": 9,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273631319a763a0878386d283fa",
+    "spotifyUrl": "https://open.spotify.com/album/5kQUIjlpXoMMAHRAhbXmpp",
+    "addedAt": "2026-08-15T16:27:37Z"
+  },
+  {
+    "id": "4W76YA2i0qSPFKIGG6rA6a",
+    "name": "Days of Thunder",
+    "artists": [
+      {
+        "id": "2NFrAuh8RQdQoS7iYFbckw",
+        "name": "The Midnight"
+      }
+    ],
+    "artistNames": "The Midnight",
+    "releaseDate": "2014-03-19",
+    "releaseYear": "2014",
+    "totalTracks": 6,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
+    "spotifyUrl": "https://open.spotify.com/album/4W76YA2i0qSPFKIGG6rA6a",
+    "addedAt": "2026-08-15T16:27:15Z"
+  },
+  {
+    "id": "0ZbnBDVUkpegVOfgPFr1wr",
+    "name": "Endless Summer",
+    "artists": [
+      {
+        "id": "2NFrAuh8RQdQoS7iYFbckw",
+        "name": "The Midnight"
+      }
+    ],
+    "artistNames": "The Midnight",
+    "releaseDate": "2016-08-01",
+    "releaseYear": "2016",
+    "totalTracks": 12,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
+    "spotifyUrl": "https://open.spotify.com/album/0ZbnBDVUkpegVOfgPFr1wr",
+    "addedAt": "2026-08-15T16:27:03Z"
+  },
+  {
+    "id": "0V8iFftiuRJESNykeAlajg",
+    "name": "Nocturnal",
+    "artists": [
+      {
+        "id": "2NFrAuh8RQdQoS7iYFbckw",
+        "name": "The Midnight"
+      }
+    ],
+    "artistNames": "The Midnight",
+    "releaseDate": "2017-10-14",
+    "releaseYear": "2017",
+    "totalTracks": 7,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c42ca55774cd3b4dcb53f20e",
+    "spotifyUrl": "https://open.spotify.com/album/0V8iFftiuRJESNykeAlajg",
+    "addedAt": "2026-08-15T16:26:53Z"
+  },
+  {
     "id": "0PSKQG07y29y4u0XKOecEK",
     "name": "London Calling",
     "artists": [
