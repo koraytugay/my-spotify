@@ -105,6 +105,43 @@ async function fetchAllPages(initialUrl, token, label) {
     return items;
 }
 
+// Fallback to fetch public playlist tracklists if API returns 403
+async function fetchPlaylistTracksFromEmbed(playlistId) {
+    try {
+        const res = await fetch(`https://open.spotify.com/embed/playlist/${playlistId}`);
+        if (!res.ok) return [];
+        const html = await res.text();
+        const match = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+        if (!match) return [];
+        const json = JSON.parse(match[1]);
+        const entity = json.props?.pageProps?.state?.data?.entity;
+        if (!entity || !entity.trackList) return [];
+
+        return entity.trackList.map((t, idx) => {
+            const trackId = t.uri ? t.uri.replace('spotify:track:', '') : `embed_${idx}`;
+            return {
+                id: trackId,
+                name: t.title || 'Unknown Track',
+                artists: [{ name: t.subtitle || '' }],
+                artistNames: t.subtitle || '',
+                album: {
+                    name: entity.name || '',
+                    releaseYear: ''
+                },
+                coverUrl: entity.coverArt?.sources?.[0]?.url || '',
+                thumbnailUrl: entity.coverArt?.sources?.[entity.coverArt.sources.length - 1]?.url || entity.coverArt?.sources?.[0]?.url || '',
+                durationMs: t.duration || 0,
+                durationFormatted: formatDuration(t.duration || 0),
+                previewUrl: t.audioPreview?.url || null,
+                spotifyUrl: `https://open.spotify.com/track/${trackId}`,
+                uri: t.uri
+            };
+        });
+    } catch (e) {
+        return [];
+    }
+}
+
 function ensureDir(dirPath) {
     if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
@@ -193,40 +230,55 @@ async function main() {
 
     const playlists = [];
     for (const p of rawPlaylists) {
+        let tracks = [];
         let rawTracks = [];
         try {
             rawTracks = await fetchAllPages(`https://api.spotify.com/v1/playlists/${p.id}/items?limit=100`, token, `"${p.name}"`);
         } catch (err) {
-            console.warn(`⚠️ Could not fetch items for playlist "${p.name}":`, err.message);
+            // If Spotify API restricts followed playlist, fallback to embed endpoint
         }
 
-        const tracks = rawTracks.map(item => {
-            const t = item.track || item.item;
-            if (!t) return null;
-            const images = t.album?.images || [];
-            const releaseDate = t.album?.release_date || '';
-            return {
-                id: t.id,
-                name: t.name,
-                artists: (t.artists || []).map(a => ({ id: a.id, name: a.name })),
-                artistNames: (t.artists || []).map(a => a.name).join(', '),
-                album: {
-                    id: t.album?.id,
-                    name: t.album?.name,
-                    releaseDate: releaseDate,
-                    releaseYear: releaseDate.length >= 4 ? releaseDate.substring(0, 4) : ''
-                },
-                coverUrl: images[0]?.url || '',
-                thumbnailUrl: images[images.length - 1]?.url || images[0]?.url || '',
-                durationMs: t.duration_ms,
-                durationFormatted: formatDuration(t.duration_ms),
-                previewUrl: t.preview_url,
-                spotifyUrl: t.external_urls?.spotify,
-                uri: t.uri,
-                addedAt: item.added_at,
-                addedDate: item.added_at ? item.added_at.substring(0, 10) : ''
-            };
-        }).filter(Boolean);
+        if (rawTracks && rawTracks.length > 0) {
+            tracks = rawTracks.map(item => {
+                const t = item.track || item.item;
+                if (!t) return null;
+                const images = t.album?.images || [];
+                const releaseDate = t.album?.release_date || '';
+                return {
+                    id: t.id,
+                    name: t.name,
+                    artists: (t.artists || []).map(a => ({ id: a.id, name: a.name })),
+                    artistNames: (t.artists || []).map(a => a.name).join(', '),
+                    album: {
+                        id: t.album?.id,
+                        name: t.album?.name,
+                        releaseDate: releaseDate,
+                        releaseYear: releaseDate.length >= 4 ? releaseDate.substring(0, 4) : ''
+                    },
+                    coverUrl: images[0]?.url || '',
+                    thumbnailUrl: images[images.length - 1]?.url || images[0]?.url || '',
+                    durationMs: t.duration_ms,
+                    durationFormatted: formatDuration(t.duration_ms),
+                    previewUrl: t.preview_url,
+                    spotifyUrl: t.external_urls?.spotify,
+                    uri: t.uri,
+                    addedAt: item.added_at,
+                    addedDate: item.added_at ? item.added_at.substring(0, 10) : ''
+                };
+            }).filter(Boolean);
+        }
+
+        // If tracks still empty, fetch from public embed extractor
+        if (tracks.length === 0) {
+            process.stdout.write(`  🌐 Extracting "${p.name}" from public playlist data... `);
+            const embedTracks = await fetchPlaylistTracksFromEmbed(p.id);
+            if (embedTracks && embedTracks.length > 0) {
+                tracks = embedTracks;
+                console.log(`[${tracks.length} tracks extracted]`);
+            } else {
+                console.log(`[0 tracks]`);
+            }
+        }
 
         const playlistObj = {
             id: p.id,

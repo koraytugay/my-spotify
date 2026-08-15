@@ -4,7 +4,7 @@
   "description": "",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 0,
+  "tracksTotal": 20,
   "images": [
     {
       "height": 640,
@@ -26,5 +26,426 @@
   "owner": "Nathan Culberson",
   "spotifyUrl": "https://open.spotify.com/playlist/1bQSV2vnjnILXp5gowHz5x",
   "uri": "spotify:playlist:1bQSV2vnjnILXp5gowHz5x",
-  "tracks": []
+  "tracks": [
+    {
+      "id": "1CLRbfi8OTKOF7895kT4qu",
+      "name": "Far from Heaven",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 236093,
+      "durationFormatted": "3:56",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a90d7ec4391d56648e3743993ba2b06c5d520233",
+      "spotifyUrl": "https://open.spotify.com/track/1CLRbfi8OTKOF7895kT4qu",
+      "uri": "spotify:track:1CLRbfi8OTKOF7895kT4qu"
+    },
+    {
+      "id": "0hl8ee70gsV10DLVGPF1RC",
+      "name": "Beneath the Surface",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 326426,
+      "durationFormatted": "5:26",
+      "previewUrl": "https://p.scdn.co/mp3-preview/573d0a4f5e43a36689fe21f9d448dddc7b02c6c3",
+      "spotifyUrl": "https://open.spotify.com/track/0hl8ee70gsV10DLVGPF1RC",
+      "uri": "spotify:track:0hl8ee70gsV10DLVGPF1RC"
+    },
+    {
+      "id": "4lhhIUf7IYoQ7Lj8mQ8uq4",
+      "name": "Repentance",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 643426,
+      "durationFormatted": "10:43",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c2a1d0de0b62aaa2106eca9a661d2cb824d3bdbc",
+      "spotifyUrl": "https://open.spotify.com/track/4lhhIUf7IYoQ7Lj8mQ8uq4",
+      "uri": "spotify:track:4lhhIUf7IYoQ7Lj8mQ8uq4"
+    },
+    {
+      "id": "6CyVqwjJ5WuIRKHpqvF4Wr",
+      "name": "Prophets of War",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 360706,
+      "durationFormatted": "6:00",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d7405dbb93dae6043d507f293d4e1b06b4cc2ac4",
+      "spotifyUrl": "https://open.spotify.com/track/6CyVqwjJ5WuIRKHpqvF4Wr",
+      "uri": "spotify:track:6CyVqwjJ5WuIRKHpqvF4Wr"
+    },
+    {
+      "id": "35g2NgdfhlAYE2IeEgY82a",
+      "name": "The Answer Lies Within",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 333093,
+      "durationFormatted": "5:33",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7ae40b1d837d78651f49cdee5c27d0c0882ccb6c",
+      "spotifyUrl": "https://open.spotify.com/track/35g2NgdfhlAYE2IeEgY82a",
+      "uri": "spotify:track:35g2NgdfhlAYE2IeEgY82a"
+    },
+    {
+      "id": "0jr4vNJF3wDt0CNNmuq7Zt",
+      "name": "Scene Three: I. Through My Words",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 62173,
+      "durationFormatted": "1:02",
+      "previewUrl": "https://p.scdn.co/mp3-preview/8cff85af853b83000dc07a585016d828505116b5",
+      "spotifyUrl": "https://open.spotify.com/track/0jr4vNJF3wDt0CNNmuq7Zt",
+      "uri": "spotify:track:0jr4vNJF3wDt0CNNmuq7Zt"
+    },
+    {
+      "id": "19CegINw7X0pqHaY7YOaz8",
+      "name": "Scene Five: Through Her Eyes",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 329266,
+      "durationFormatted": "5:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c2f86c600872c72fdb287a7b512f041d2e2e5378",
+      "spotifyUrl": "https://open.spotify.com/track/19CegINw7X0pqHaY7YOaz8",
+      "uri": "spotify:track:19CegINw7X0pqHaY7YOaz8"
+    },
+    {
+      "id": "7lr5pyqusxUQgkJYk5rPX1",
+      "name": "Scene Seven: II. One Last Time",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 226733,
+      "durationFormatted": "3:46",
+      "previewUrl": "https://p.scdn.co/mp3-preview/70768cce945493fc89f59683209d524d1c953356",
+      "spotifyUrl": "https://open.spotify.com/track/7lr5pyqusxUQgkJYk5rPX1",
+      "uri": "spotify:track:7lr5pyqusxUQgkJYk5rPX1"
+    },
+    {
+      "id": "7ycz6sgZWp4wvF53BZVTjE",
+      "name": "Scene Eight: The Spirit Carries On",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 398266,
+      "durationFormatted": "6:38",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0b92e205438c86631e00dea8cb1468894e2e66b0",
+      "spotifyUrl": "https://open.spotify.com/track/7ycz6sgZWp4wvF53BZVTjE",
+      "uri": "spotify:track:7ycz6sgZWp4wvF53BZVTjE"
+    },
+    {
+      "id": "3inuafyrtfbh2g30IFRdip",
+      "name": "Wither",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 325960,
+      "durationFormatted": "5:25",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ef1bc89d21d011569d61820fc38f6b51ac975bae",
+      "spotifyUrl": "https://open.spotify.com/track/3inuafyrtfbh2g30IFRdip",
+      "uri": "spotify:track:3inuafyrtfbh2g30IFRdip"
+    },
+    {
+      "id": "1s8YWgAwKQVzgkptAAlBkt",
+      "name": "These Walls",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 456040,
+      "durationFormatted": "7:36",
+      "previewUrl": "https://p.scdn.co/mp3-preview/142bec8e37fc9fd12f9a55941337c5eb985125a6",
+      "spotifyUrl": "https://open.spotify.com/track/1s8YWgAwKQVzgkptAAlBkt",
+      "uri": "spotify:track:1s8YWgAwKQVzgkptAAlBkt"
+    },
+    {
+      "id": "3aO8SF6z2kdg8Mraz9rJHI",
+      "name": "I Walk Beside You",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 269333,
+      "durationFormatted": "4:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/fc742727df39355f7cd9d4876f22e5fb6561e767",
+      "spotifyUrl": "https://open.spotify.com/track/3aO8SF6z2kdg8Mraz9rJHI",
+      "uri": "spotify:track:3aO8SF6z2kdg8Mraz9rJHI"
+    },
+    {
+      "id": "5PtA2XXIrUWLZ3ZELnTOUi",
+      "name": "Space-Dye Vest",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 449106,
+      "durationFormatted": "7:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/93eec11130d18628977d5e4d2210e8be1b1c5241",
+      "spotifyUrl": "https://open.spotify.com/track/5PtA2XXIrUWLZ3ZELnTOUi",
+      "uri": "spotify:track:5PtA2XXIrUWLZ3ZELnTOUi"
+    },
+    {
+      "id": "4jYEyc4XjI0nrY1bCLf8BO",
+      "name": "The Ministry of Lost Souls",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 897066,
+      "durationFormatted": "14:57",
+      "previewUrl": "https://p.scdn.co/mp3-preview/72f7289709fbf5d205586c22c0801e5046ce7b60",
+      "spotifyUrl": "https://open.spotify.com/track/4jYEyc4XjI0nrY1bCLf8BO",
+      "uri": "spotify:track:4jYEyc4XjI0nrY1bCLf8BO"
+    },
+    {
+      "id": "69lnwrongzgfM1PLuzWHAu",
+      "name": "Wither - Piano Version",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 308733,
+      "durationFormatted": "5:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/3a5ecbef009274e7a91d6d159b48867039ed29f9",
+      "spotifyUrl": "https://open.spotify.com/track/69lnwrongzgfM1PLuzWHAu",
+      "uri": "spotify:track:69lnwrongzgfM1PLuzWHAu"
+    },
+    {
+      "id": "0PqPOnfpXphJljMgIzG4QO",
+      "name": "Wither - John Petrucci Vocal Demo",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 326186,
+      "durationFormatted": "5:26",
+      "previewUrl": "https://p.scdn.co/mp3-preview/688e699f290a1fce341d72a4a8ee940658721406",
+      "spotifyUrl": "https://open.spotify.com/track/0PqPOnfpXphJljMgIzG4QO",
+      "uri": "spotify:track:0PqPOnfpXphJljMgIzG4QO"
+    },
+    {
+      "id": "4sJOuZGBuoNhtocxAO9IkC",
+      "name": "Breaking All Illusions",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 745546,
+      "durationFormatted": "12:25",
+      "previewUrl": "https://p.scdn.co/mp3-preview/211067c55f8209c391c6ce40cf677e1acf7ea4a8",
+      "spotifyUrl": "https://open.spotify.com/track/4sJOuZGBuoNhtocxAO9IkC",
+      "uri": "spotify:track:4sJOuZGBuoNhtocxAO9IkC"
+    },
+    {
+      "id": "0mnEyl2VAoakpGmYOGR6WV",
+      "name": "Along for the Ride",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 285120,
+      "durationFormatted": "4:45",
+      "previewUrl": "https://p.scdn.co/mp3-preview/0cc8c166b0eb37d2538bba9a748cd9e283edae6a",
+      "spotifyUrl": "https://open.spotify.com/track/0mnEyl2VAoakpGmYOGR6WV",
+      "uri": "spotify:track:0mnEyl2VAoakpGmYOGR6WV"
+    },
+    {
+      "id": "6gvjoGJ5ENrstW6K9p8Tl5",
+      "name": "The Bigger Picture",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 460653,
+      "durationFormatted": "7:40",
+      "previewUrl": "https://p.scdn.co/mp3-preview/917c1d6b51fda52bfd7f4f9655bd7030087649fb",
+      "spotifyUrl": "https://open.spotify.com/track/6gvjoGJ5ENrstW6K9p8Tl5",
+      "uri": "spotify:track:6gvjoGJ5ENrstW6K9p8Tl5"
+    },
+    {
+      "id": "4vHi9eTIa4XDHBGez4dNB8",
+      "name": "This Is the Life",
+      "artists": [
+        {
+          "name": "Dream Theater"
+        }
+      ],
+      "artistNames": "Dream Theater",
+      "album": {
+        "name": "Dream Theater Ballads",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e020b397870badd21af7104b0f1ab67616d00001e02321b6ec2add70c1063e231d8ab67616d00001e02dbb83b10ff18df1213b76ac5ab67616d00001e02f58c468c711f44450a87cb42",
+      "durationMs": 417466,
+      "durationFormatted": "6:57",
+      "previewUrl": "https://p.scdn.co/mp3-preview/79a1ade29c02d74f8936c30a206ff96936111c95",
+      "spotifyUrl": "https://open.spotify.com/track/4vHi9eTIa4XDHBGez4dNB8",
+      "uri": "spotify:track:4vHi9eTIa4XDHBGez4dNB8"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "description": "",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 0,
+  "tracksTotal": 8,
   "images": [
     {
       "height": 640,
@@ -26,5 +26,174 @@
   "owner": "bahtiyaratam",
   "spotifyUrl": "https://open.spotify.com/playlist/5Uf0Nwej0DKycmhx6H1kO4",
   "uri": "spotify:playlist:5Uf0Nwej0DKycmhx6H1kO4",
-  "tracks": []
+  "tracks": [
+    {
+      "id": "6X0nSfLp6Ic4MCj0wtRmF2",
+      "name": "Burası Türkiye",
+      "artists": [
+        {
+          "name": "Ugur Arslan"
+        }
+      ],
+      "artistNames": "Ugur Arslan",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 308320,
+      "durationFormatted": "5:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a9f4c02a3de62d721c843a5e5b9caa8165a9d2d0",
+      "spotifyUrl": "https://open.spotify.com/track/6X0nSfLp6Ic4MCj0wtRmF2",
+      "uri": "spotify:track:6X0nSfLp6Ic4MCj0wtRmF2"
+    },
+    {
+      "id": "0v3Xo280yr1DHebEbEhBHj",
+      "name": "La Bize Heryer Ankara",
+      "artists": [
+        {
+          "name": "Ankaralı Hüseyin"
+        }
+      ],
+      "artistNames": "Ankaralı Hüseyin",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 255294,
+      "durationFormatted": "4:15",
+      "previewUrl": "https://p.scdn.co/mp3-preview/04435a6a2d94f287cdc42e41790b9b1c12b3799e",
+      "spotifyUrl": "https://open.spotify.com/track/0v3Xo280yr1DHebEbEhBHj",
+      "uri": "spotify:track:0v3Xo280yr1DHebEbEhBHj"
+    },
+    {
+      "id": "3Ps6gaQxCIV2ClLNQNI1CW",
+      "name": "Delalım",
+      "artists": [
+        {
+          "name": "Soner Sarıkabadayı"
+        }
+      ],
+      "artistNames": "Soner Sarıkabadayı",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 136317,
+      "durationFormatted": "2:16",
+      "previewUrl": "https://p.scdn.co/mp3-preview/871aa67d3d16b82cc813c21c2af547ccf9786f04",
+      "spotifyUrl": "https://open.spotify.com/track/3Ps6gaQxCIV2ClLNQNI1CW",
+      "uri": "spotify:track:3Ps6gaQxCIV2ClLNQNI1CW"
+    },
+    {
+      "id": "6Jy0U9vKVc6K8Wa23SBiG2",
+      "name": "Hele Ninna Olasan",
+      "artists": [
+        {
+          "name": "Burak Akagün"
+        }
+      ],
+      "artistNames": "Burak Akagün",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 226666,
+      "durationFormatted": "3:46",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ebfda01528d4664a0d84ad3cefd7bc75b1f1596d",
+      "spotifyUrl": "https://open.spotify.com/track/6Jy0U9vKVc6K8Wa23SBiG2",
+      "uri": "spotify:track:6Jy0U9vKVc6K8Wa23SBiG2"
+    },
+    {
+      "id": "5EQyFki3DzgDeAFD9yzdaR",
+      "name": "Lo Lo",
+      "artists": [
+        {
+          "name": "Mahmut Tuncer"
+        }
+      ],
+      "artistNames": "Mahmut Tuncer",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 231423,
+      "durationFormatted": "3:51",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d17395951c94f9f5fb62de52fa7f1617b15ee493",
+      "spotifyUrl": "https://open.spotify.com/track/5EQyFki3DzgDeAFD9yzdaR",
+      "uri": "spotify:track:5EQyFki3DzgDeAFD9yzdaR"
+    },
+    {
+      "id": "6EdcKLn0YK1cqv53OI5yPS",
+      "name": "Ha Babam Ha",
+      "artists": [
+        {
+          "name": "Ferhat Altınel"
+        }
+      ],
+      "artistNames": "Ferhat Altınel",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 137090,
+      "durationFormatted": "2:17",
+      "previewUrl": "https://p.scdn.co/mp3-preview/eaaa9c49b1e9b1730b32ac51cb9f7ee406d9c9de",
+      "spotifyUrl": "https://open.spotify.com/track/6EdcKLn0YK1cqv53OI5yPS",
+      "uri": "spotify:track:6EdcKLn0YK1cqv53OI5yPS"
+    },
+    {
+      "id": "1fnTVJoEjQZrICJvzHDoAd",
+      "name": "Körebe",
+      "artists": [
+        {
+          "name": "Yiğit Aktaş"
+        }
+      ],
+      "artistNames": "Yiğit Aktaş",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 223654,
+      "durationFormatted": "3:43",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4ac737087d6af9cdf51359520200b35aafa1f7b6",
+      "spotifyUrl": "https://open.spotify.com/track/1fnTVJoEjQZrICJvzHDoAd",
+      "uri": "spotify:track:1fnTVJoEjQZrICJvzHDoAd"
+    },
+    {
+      "id": "3haeH4lnHLwz2Cfi5qZnHg",
+      "name": "Hıçkırık",
+      "artists": [
+        {
+          "name": "Serkan Nişancı"
+        }
+      ],
+      "artistNames": "Serkan Nişancı",
+      "album": {
+        "name": "Yudum Yudum Anadolu",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e021a6f3ca5b3030f9ee1412b40ab67616d00001e02b0d99482c7560a9b3f6f051eab67616d00001e02bc22a5aeec3c5936d12617f5ab67616d00001e02e3dd829e97f7a7a848367de2",
+      "durationMs": 249469,
+      "durationFormatted": "4:09",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a8d2e37b67c46dae416a69bb96b63dd0af4443aa",
+      "spotifyUrl": "https://open.spotify.com/track/3haeH4lnHLwz2Cfi5qZnHg",
+      "uri": "spotify:track:3haeH4lnHLwz2Cfi5qZnHg"
+    }
+  ]
 }

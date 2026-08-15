@@ -4,7 +4,7 @@
   "description": "",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 0,
+  "tracksTotal": 12,
   "images": [
     {
       "height": null,
@@ -16,5 +16,258 @@
   "owner": "Acconcia",
   "spotifyUrl": "https://open.spotify.com/playlist/4CuqBD01YP6xntST1gcCrG",
   "uri": "spotify:playlist:4CuqBD01YP6xntST1gcCrG",
-  "tracks": []
+  "tracks": [
+    {
+      "id": "1wL2dk42Cxu4zCJs4SvFsZ",
+      "name": "Brigas Nunca Mais",
+      "artists": [
+        {
+          "name": "Paula Morelenbaum"
+        }
+      ],
+      "artistNames": "Paula Morelenbaum",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 204026,
+      "durationFormatted": "3:24",
+      "previewUrl": "https://p.scdn.co/mp3-preview/cad5f6778e185b93c3e5d778a4919b3a6a0854da",
+      "spotifyUrl": "https://open.spotify.com/track/1wL2dk42Cxu4zCJs4SvFsZ",
+      "uri": "spotify:track:1wL2dk42Cxu4zCJs4SvFsZ"
+    },
+    {
+      "id": "5hO3HgwIygwqjkGsw6wdP3",
+      "name": "Meu Esquema",
+      "artists": [
+        {
+          "name": "Mundo Livre S/A"
+        }
+      ],
+      "artistNames": "Mundo Livre S/A",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 259480,
+      "durationFormatted": "4:19",
+      "previewUrl": "https://p.scdn.co/mp3-preview/095dc809b2f0273b9e55cb2ce5f6dd74c41d8cd4",
+      "spotifyUrl": "https://open.spotify.com/track/5hO3HgwIygwqjkGsw6wdP3",
+      "uri": "spotify:track:5hO3HgwIygwqjkGsw6wdP3"
+    },
+    {
+      "id": "0w7F4Q5zDFGGScrrGPYQzq",
+      "name": "Ha dias",
+      "artists": [
+        {
+          "name": "Luca Mundaca"
+        }
+      ],
+      "artistNames": "Luca Mundaca",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 231413,
+      "durationFormatted": "3:51",
+      "previewUrl": "https://p.scdn.co/mp3-preview/af2862f7310a8b023b64410f7df0271b1491914a",
+      "spotifyUrl": "https://open.spotify.com/track/0w7F4Q5zDFGGScrrGPYQzq",
+      "uri": "spotify:track:0w7F4Q5zDFGGScrrGPYQzq"
+    },
+    {
+      "id": "1Bh6mkWq3CWDIGdhRfIcXt",
+      "name": "Previsåo",
+      "artists": [
+        {
+          "name": "Bossacucanova"
+        }
+      ],
+      "artistNames": "Bossacucanova",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 183133,
+      "durationFormatted": "3:03",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f1520c17047ca8c34cb21ab2347d1ce145f20767",
+      "spotifyUrl": "https://open.spotify.com/track/1Bh6mkWq3CWDIGdhRfIcXt",
+      "uri": "spotify:track:1Bh6mkWq3CWDIGdhRfIcXt"
+    },
+    {
+      "id": "0vaI1KPCp8ryF7CSk0KVfU",
+      "name": "Água de Coco",
+      "artists": [
+        {
+          "name": "Marcos Valle"
+        }
+      ],
+      "artistNames": "Marcos Valle",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 287560,
+      "durationFormatted": "4:47",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f45b18965b047a4bb62036f87d14bdd397e275ae",
+      "spotifyUrl": "https://open.spotify.com/track/0vaI1KPCp8ryF7CSk0KVfU",
+      "uri": "spotify:track:0vaI1KPCp8ryF7CSk0KVfU"
+    },
+    {
+      "id": "4Lx7fiZRVb7j4U1xFZ9fyo",
+      "name": "Mariana",
+      "artists": [
+        {
+          "name": "Bïa"
+        }
+      ],
+      "artistNames": "Bïa",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 192240,
+      "durationFormatted": "3:12",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ec064d57d1c2c5ab0f9b0830a0c296150a23f318",
+      "spotifyUrl": "https://open.spotify.com/track/4Lx7fiZRVb7j4U1xFZ9fyo",
+      "uri": "spotify:track:4Lx7fiZRVb7j4U1xFZ9fyo"
+    },
+    {
+      "id": "3HXjqdaRm8R1p3E7Lzqwfc",
+      "name": "Parece Mentira",
+      "artists": [
+        {
+          "name": "Katia B"
+        }
+      ],
+      "artistNames": "Katia B",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 217266,
+      "durationFormatted": "3:37",
+      "previewUrl": "https://p.scdn.co/mp3-preview/329436058ec7449af76a01ea068dc29aa888c723",
+      "spotifyUrl": "https://open.spotify.com/track/3HXjqdaRm8R1p3E7Lzqwfc",
+      "uri": "spotify:track:3HXjqdaRm8R1p3E7Lzqwfc"
+    },
+    {
+      "id": "69h9YorEIvIuYGnfSOESyu",
+      "name": "E Depois",
+      "artists": [
+        {
+          "name": "BiD, Seu Jorge"
+        }
+      ],
+      "artistNames": "BiD, Seu Jorge",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 227226,
+      "durationFormatted": "3:47",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a9a782d7ab1b1ecdc2d70e4e1f0fa3d4a3d564cc",
+      "spotifyUrl": "https://open.spotify.com/track/69h9YorEIvIuYGnfSOESyu",
+      "uri": "spotify:track:69h9YorEIvIuYGnfSOESyu"
+    },
+    {
+      "id": "0imblKkKW4hUe7MYBZfZSo",
+      "name": "August Day Song - King Britt Remix",
+      "artists": [
+        {
+          "name": "Bebel Gilberto"
+        }
+      ],
+      "artistNames": "Bebel Gilberto",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 247333,
+      "durationFormatted": "4:07",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5fec39073e0d29f947324632a8ffc49ce142c7b4",
+      "spotifyUrl": "https://open.spotify.com/track/0imblKkKW4hUe7MYBZfZSo",
+      "uri": "spotify:track:0imblKkKW4hUe7MYBZfZSo"
+    },
+    {
+      "id": "2zgV9YuRRo656FnUJhqC5E",
+      "name": "Como Vou Fazer? (lounge remix)",
+      "artists": [
+        {
+          "name": "Dois Irmãos"
+        }
+      ],
+      "artistNames": "Dois Irmãos",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 282466,
+      "durationFormatted": "4:42",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a48e8a8401bdf8967bef54781b42564fc1adbcbe",
+      "spotifyUrl": "https://open.spotify.com/track/2zgV9YuRRo656FnUJhqC5E",
+      "uri": "spotify:track:2zgV9YuRRo656FnUJhqC5E"
+    },
+    {
+      "id": "7xCGHKDyDM8OAauVHJ3Kcg",
+      "name": "Os Grilos",
+      "artists": [
+        {
+          "name": "Marcela Mangabeira"
+        }
+      ],
+      "artistNames": "Marcela Mangabeira",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 186280,
+      "durationFormatted": "3:06",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2bfe25044048929c81d293dbb81646110b4a585e",
+      "spotifyUrl": "https://open.spotify.com/track/7xCGHKDyDM8OAauVHJ3Kcg",
+      "uri": "spotify:track:7xCGHKDyDM8OAauVHJ3Kcg"
+    },
+    {
+      "id": "2nY6cvDJABISu2ehxyWW5m",
+      "name": "Saudade Fez um Samba",
+      "artists": [
+        {
+          "name": "Marissa"
+        }
+      ],
+      "artistNames": "Marissa",
+      "album": {
+        "name": "Putumayo Brazilian lounge",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+      "durationMs": 173853,
+      "durationFormatted": "2:53",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5f28daa164ba0d22b847ad79a190d5e39d9e4f69",
+      "spotifyUrl": "https://open.spotify.com/track/2nY6cvDJABISu2ehxyWW5m",
+      "uri": "spotify:track:2nY6cvDJABISu2ehxyWW5m"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "description": "",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 0,
+  "tracksTotal": 68,
   "images": [
     {
       "height": 640,
@@ -26,5 +26,1434 @@
   "owner": "bahtiyaratam",
   "spotifyUrl": "https://open.spotify.com/playlist/5LUbKFvDygZTfbOnn4EMW0",
   "uri": "spotify:playlist:5LUbKFvDygZTfbOnn4EMW0",
-  "tracks": []
+  "tracks": [
+    {
+      "id": "12UuHoc1ZI6rWVCM7gwUsi",
+      "name": "Let Me Go",
+      "artists": [
+        {
+          "name": "No Method"
+        }
+      ],
+      "artistNames": "No Method",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 211252,
+      "durationFormatted": "3:31",
+      "previewUrl": "https://p.scdn.co/mp3-preview/dfb651ed856cb0effeda7061b235a647e50544cf",
+      "spotifyUrl": "https://open.spotify.com/track/12UuHoc1ZI6rWVCM7gwUsi",
+      "uri": "spotify:track:12UuHoc1ZI6rWVCM7gwUsi"
+    },
+    {
+      "id": "3EfugazgSddQvzZpkof5I4",
+      "name": "Ciao Adios",
+      "artists": [
+        {
+          "name": "Anne-Marie"
+        }
+      ],
+      "artistNames": "Anne-Marie",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 200104,
+      "durationFormatted": "3:20",
+      "previewUrl": "https://p.scdn.co/mp3-preview/34a82f1ffa581dcab005deed60a44ffdb779b8ea",
+      "spotifyUrl": "https://open.spotify.com/track/3EfugazgSddQvzZpkof5I4",
+      "uri": "spotify:track:3EfugazgSddQvzZpkof5I4"
+    },
+    {
+      "id": "1JO2oS5Gv04NoUQsR2GtZc",
+      "name": "Taped up Heart (feat. Clara Mae) - Acoustic",
+      "artists": [
+        {
+          "name": "KREAM, Clara Mae"
+        }
+      ],
+      "artistNames": "KREAM, Clara Mae",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 226379,
+      "durationFormatted": "3:46",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c7ca6b0eb500fa18fa2c53419d84062495d5f093",
+      "spotifyUrl": "https://open.spotify.com/track/1JO2oS5Gv04NoUQsR2GtZc",
+      "uri": "spotify:track:1JO2oS5Gv04NoUQsR2GtZc"
+    },
+    {
+      "id": "0IJ1ijo3uoJzy6ZE5wxJio",
+      "name": "Grizzly Bear",
+      "artists": [
+        {
+          "name": "Angus & Julia Stone"
+        }
+      ],
+      "artistNames": "Angus & Julia Stone",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 248520,
+      "durationFormatted": "4:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/874689ed50faeda8494aec352dd788f8f0002b28",
+      "spotifyUrl": "https://open.spotify.com/track/0IJ1ijo3uoJzy6ZE5wxJio",
+      "uri": "spotify:track:0IJ1ijo3uoJzy6ZE5wxJio"
+    },
+    {
+      "id": "3nj43eJ93sld7RHsIegCUI",
+      "name": "Smooth Operator",
+      "artists": [
+        {
+          "name": "Sade"
+        }
+      ],
+      "artistNames": "Sade",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 298893,
+      "durationFormatted": "4:58",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7cd5501c4e39b8c44336d20e139252f25a8ddf04",
+      "spotifyUrl": "https://open.spotify.com/track/3nj43eJ93sld7RHsIegCUI",
+      "uri": "spotify:track:3nj43eJ93sld7RHsIegCUI"
+    },
+    {
+      "id": "3s5waV2HFTDvPUafdL13Au",
+      "name": "Bad and Boujee (feat. Lil Uzi Vert) - Radio Version",
+      "artists": [
+        {
+          "name": "Migos, Lil Uzi Vert"
+        }
+      ],
+      "artistNames": "Migos, Lil Uzi Vert",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 207869,
+      "durationFormatted": "3:27",
+      "previewUrl": null,
+      "spotifyUrl": "https://open.spotify.com/track/3s5waV2HFTDvPUafdL13Au",
+      "uri": "spotify:track:3s5waV2HFTDvPUafdL13Au"
+    },
+    {
+      "id": "76t5B0ttSAje5KHmQbv88t",
+      "name": "Treat You Better",
+      "artists": [
+        {
+          "name": "Shawn Mendes"
+        }
+      ],
+      "artistNames": "Shawn Mendes",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 187973,
+      "durationFormatted": "3:07",
+      "previewUrl": "https://p.scdn.co/mp3-preview/964acb3eecee3568fb10baf97d094b34887fb292",
+      "spotifyUrl": "https://open.spotify.com/track/76t5B0ttSAje5KHmQbv88t",
+      "uri": "spotify:track:76t5B0ttSAje5KHmQbv88t"
+    },
+    {
+      "id": "6swQNgqYQmtBlUT7VydnxU",
+      "name": "Lose Control",
+      "artists": [
+        {
+          "name": "Matt Simons"
+        }
+      ],
+      "artistNames": "Matt Simons",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 193493,
+      "durationFormatted": "3:13",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7b7c459c9f1e16d980adaf7c0020f6bf056c781e",
+      "spotifyUrl": "https://open.spotify.com/track/6swQNgqYQmtBlUT7VydnxU",
+      "uri": "spotify:track:6swQNgqYQmtBlUT7VydnxU"
+    },
+    {
+      "id": "5Oh3cW5gnEEKPsHb1WrVWm",
+      "name": "Lights Out (Too Drunk) [feat. Hayla]",
+      "artists": [
+        {
+          "name": "DJ Katch, HAYLA"
+        }
+      ],
+      "artistNames": "DJ Katch, HAYLA",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 197000,
+      "durationFormatted": "3:17",
+      "previewUrl": "https://p.scdn.co/mp3-preview/57e3b613d5143fb48bbebeb3e8e44f82b17e9ce4",
+      "spotifyUrl": "https://open.spotify.com/track/5Oh3cW5gnEEKPsHb1WrVWm",
+      "uri": "spotify:track:5Oh3cW5gnEEKPsHb1WrVWm"
+    },
+    {
+      "id": "1adsIqHxkDNYvsQYsX9x8I",
+      "name": "Vallee Des Larmes - Radio Edit",
+      "artists": [
+        {
+          "name": "Luc Margeaux"
+        }
+      ],
+      "artistNames": "Luc Margeaux",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 188746,
+      "durationFormatted": "3:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7b2a3457cf07d5c678c5366a6ef86ce670bd728c",
+      "spotifyUrl": "https://open.spotify.com/track/1adsIqHxkDNYvsQYsX9x8I",
+      "uri": "spotify:track:1adsIqHxkDNYvsQYsX9x8I"
+    },
+    {
+      "id": "3Md4WAeVbgzTpqBPJqmAFM",
+      "name": "Higher Love (feat. Grace Grundy)",
+      "artists": [
+        {
+          "name": "Charming Horses, Grace Grundy"
+        }
+      ],
+      "artistNames": "Charming Horses, Grace Grundy",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 149706,
+      "durationFormatted": "2:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2d1964a1d9ab6e597a464b8013e61dc1c9140855",
+      "spotifyUrl": "https://open.spotify.com/track/3Md4WAeVbgzTpqBPJqmAFM",
+      "uri": "spotify:track:3Md4WAeVbgzTpqBPJqmAFM"
+    },
+    {
+      "id": "7piSkCWDRFySzQOycwsFCI",
+      "name": "Good Vibe (feat. Nyla)",
+      "artists": [
+        {
+          "name": "Strobe!, Nyla"
+        }
+      ],
+      "artistNames": "Strobe!, Nyla",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 203428,
+      "durationFormatted": "3:23",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ef77caec1d5c7246be3a2feb396191bc448070f0",
+      "spotifyUrl": "https://open.spotify.com/track/7piSkCWDRFySzQOycwsFCI",
+      "uri": "spotify:track:7piSkCWDRFySzQOycwsFCI"
+    },
+    {
+      "id": "2KklXplRtxMsBYo474Es0w",
+      "name": "Be Mine",
+      "artists": [
+        {
+          "name": "Ofenbach"
+        }
+      ],
+      "artistNames": "Ofenbach",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 161322,
+      "durationFormatted": "2:41",
+      "previewUrl": "https://p.scdn.co/mp3-preview/75802cd657ad13acf3eb372204cc32b1e9eb2b9f",
+      "spotifyUrl": "https://open.spotify.com/track/2KklXplRtxMsBYo474Es0w",
+      "uri": "spotify:track:2KklXplRtxMsBYo474Es0w"
+    },
+    {
+      "id": "73Mfgc0HTZeNCoNrDI46sJ",
+      "name": "Move Your Body",
+      "artists": [
+        {
+          "name": "Sia"
+        }
+      ],
+      "artistNames": "Sia",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 247213,
+      "durationFormatted": "4:07",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2dbe70fb18e5621da2714e7b2820d3d7aafb70a3",
+      "spotifyUrl": "https://open.spotify.com/track/73Mfgc0HTZeNCoNrDI46sJ",
+      "uri": "spotify:track:73Mfgc0HTZeNCoNrDI46sJ"
+    },
+    {
+      "id": "6IHQYCcVjN6byEKKsx5n1K",
+      "name": "Crapa pelada",
+      "artists": [
+        {
+          "name": "Quartetto Cetra"
+        }
+      ],
+      "artistNames": "Quartetto Cetra",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 156933,
+      "durationFormatted": "2:36",
+      "previewUrl": "https://p.scdn.co/mp3-preview/533cc71d6407b06007b4ccd5f28c1cd16e7db431",
+      "spotifyUrl": "https://open.spotify.com/track/6IHQYCcVjN6byEKKsx5n1K",
+      "uri": "spotify:track:6IHQYCcVjN6byEKKsx5n1K"
+    },
+    {
+      "id": "2SZy40PLDk3vFucXUGFCFA",
+      "name": "You Don't Know Me",
+      "artists": [
+        {
+          "name": "Jax Jones, RAYE"
+        }
+      ],
+      "artistNames": "Jax Jones, RAYE",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 213946,
+      "durationFormatted": "3:33",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2f01414c58bd8fcbfe4d26e643fc7d18a4380ea3",
+      "spotifyUrl": "https://open.spotify.com/track/2SZy40PLDk3vFucXUGFCFA",
+      "uri": "spotify:track:2SZy40PLDk3vFucXUGFCFA"
+    },
+    {
+      "id": "3bDKCuFzwuQmhioPLPap7r",
+      "name": "I Never Felt so Right - Original Mix",
+      "artists": [
+        {
+          "name": "Ben Delay"
+        }
+      ],
+      "artistNames": "Ben Delay",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 410322,
+      "durationFormatted": "6:50",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c6aa0521c54ee8ff61f23250915334846aea48eb",
+      "spotifyUrl": "https://open.spotify.com/track/3bDKCuFzwuQmhioPLPap7r",
+      "uri": "spotify:track:3bDKCuFzwuQmhioPLPap7r"
+    },
+    {
+      "id": "6b8Be6ljOzmkOmFslEb23P",
+      "name": "24K Magic",
+      "artists": [
+        {
+          "name": "Bruno Mars"
+        }
+      ],
+      "artistNames": "Bruno Mars",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 225983,
+      "durationFormatted": "3:45",
+      "previewUrl": "https://p.scdn.co/mp3-preview/3a76820d510fa5f84abb413e9d13815bcc86da0f",
+      "spotifyUrl": "https://open.spotify.com/track/6b8Be6ljOzmkOmFslEb23P",
+      "uri": "spotify:track:6b8Be6ljOzmkOmFslEb23P"
+    },
+    {
+      "id": "5uUWqvKVm8tmgD3t7IIguP",
+      "name": "Ateşler İçinde",
+      "artists": [
+        {
+          "name": "Keremcem, Imba"
+        }
+      ],
+      "artistNames": "Keremcem, Imba",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 219428,
+      "durationFormatted": "3:39",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e6e2a82c6f619d0637497884433527720c972738",
+      "spotifyUrl": "https://open.spotify.com/track/5uUWqvKVm8tmgD3t7IIguP",
+      "uri": "spotify:track:5uUWqvKVm8tmgD3t7IIguP"
+    },
+    {
+      "id": "5uUWqvKVm8tmgD3t7IIguP",
+      "name": "Ateşler İçinde",
+      "artists": [
+        {
+          "name": "Keremcem, Imba"
+        }
+      ],
+      "artistNames": "Keremcem, Imba",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 219428,
+      "durationFormatted": "3:39",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e6e2a82c6f619d0637497884433527720c972738",
+      "spotifyUrl": "https://open.spotify.com/track/5uUWqvKVm8tmgD3t7IIguP",
+      "uri": "spotify:track:5uUWqvKVm8tmgD3t7IIguP"
+    },
+    {
+      "id": "5UNwwU4P7ySsqqVGf9uxS7",
+      "name": "Sound of Freedom",
+      "artists": [
+        {
+          "name": "Gary Pine, DollarMan, Bob Sinclar, Sly & Robbie"
+        }
+      ],
+      "artistNames": "Gary Pine, DollarMan, Bob Sinclar, Sly & Robbie",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 283880,
+      "durationFormatted": "4:43",
+      "previewUrl": "https://p.scdn.co/mp3-preview/28a2aad6aa97034716a7c41b66659e4268cd48ba",
+      "spotifyUrl": "https://open.spotify.com/track/5UNwwU4P7ySsqqVGf9uxS7",
+      "uri": "spotify:track:5UNwwU4P7ySsqqVGf9uxS7"
+    },
+    {
+      "id": "4XnTz61bLlapgYdfNiAsct",
+      "name": "Rise Up - Original Mix",
+      "artists": [
+        {
+          "name": "Yves Larock feat. Jaba"
+        }
+      ],
+      "artistNames": "Yves Larock feat. Jaba",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 454704,
+      "durationFormatted": "7:34",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7c31e579ef3474b7f5b1583c356b2c46301150fd",
+      "spotifyUrl": "https://open.spotify.com/track/4XnTz61bLlapgYdfNiAsct",
+      "uri": "spotify:track:4XnTz61bLlapgYdfNiAsct"
+    },
+    {
+      "id": "5uUWqvKVm8tmgD3t7IIguP",
+      "name": "Ateşler İçinde",
+      "artists": [
+        {
+          "name": "Keremcem, Imba"
+        }
+      ],
+      "artistNames": "Keremcem, Imba",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 219428,
+      "durationFormatted": "3:39",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e6e2a82c6f619d0637497884433527720c972738",
+      "spotifyUrl": "https://open.spotify.com/track/5uUWqvKVm8tmgD3t7IIguP",
+      "uri": "spotify:track:5uUWqvKVm8tmgD3t7IIguP"
+    },
+    {
+      "id": "1aISWWWGUZo0zxRzPxtcbt",
+      "name": "Change",
+      "artists": [
+        {
+          "name": "The Spooks"
+        }
+      ],
+      "artistNames": "The Spooks",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 261266,
+      "durationFormatted": "4:21",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4a47b2931afb1da5f8528106937ba835bb80da1f",
+      "spotifyUrl": "https://open.spotify.com/track/1aISWWWGUZo0zxRzPxtcbt",
+      "uri": "spotify:track:1aISWWWGUZo0zxRzPxtcbt"
+    },
+    {
+      "id": "7M13UypmYfwGN3pE7aSdux",
+      "name": "Se una regola c'è",
+      "artists": [
+        {
+          "name": "Nek"
+        }
+      ],
+      "artistNames": "Nek",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 215722,
+      "durationFormatted": "3:35",
+      "previewUrl": "https://p.scdn.co/mp3-preview/fd1128a3dd9e02e04e7d51b485caaf685979c729",
+      "spotifyUrl": "https://open.spotify.com/track/7M13UypmYfwGN3pE7aSdux",
+      "uri": "spotify:track:7M13UypmYfwGN3pE7aSdux"
+    },
+    {
+      "id": "3GhuNU58hVUuzKY7LHmFRB",
+      "name": "4 My People (feat. Eve)",
+      "artists": [
+        {
+          "name": "Missy Elliott, Eve"
+        }
+      ],
+      "artistNames": "Missy Elliott, Eve",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 289373,
+      "durationFormatted": "4:49",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1a263b313ea2a1243d093a63565976ebf991e963",
+      "spotifyUrl": "https://open.spotify.com/track/3GhuNU58hVUuzKY7LHmFRB",
+      "uri": "spotify:track:3GhuNU58hVUuzKY7LHmFRB"
+    },
+    {
+      "id": "2Z8WUj0LXwV3FT6D3hJ7Dc",
+      "name": "Best Of My Love",
+      "artists": [
+        {
+          "name": "Javine"
+        }
+      ],
+      "artistNames": "Javine",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 204000,
+      "durationFormatted": "3:24",
+      "previewUrl": "https://p.scdn.co/mp3-preview/20822bd08481d68ba6490975b1044383c328c8a3",
+      "spotifyUrl": "https://open.spotify.com/track/2Z8WUj0LXwV3FT6D3hJ7Dc",
+      "uri": "spotify:track:2Z8WUj0LXwV3FT6D3hJ7Dc"
+    },
+    {
+      "id": "4fTr7J9vEIm2FYCok8E5rQ",
+      "name": "I'm Sorry 2016 - Extended Mix",
+      "artists": [
+        {
+          "name": "Just a man, Chester Page"
+        }
+      ],
+      "artistNames": "Just a man, Chester Page",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 232501,
+      "durationFormatted": "3:52",
+      "previewUrl": "https://p.scdn.co/mp3-preview/4910d59989a185bb2e403dbbf48a522ad5475292",
+      "spotifyUrl": "https://open.spotify.com/track/4fTr7J9vEIm2FYCok8E5rQ",
+      "uri": "spotify:track:4fTr7J9vEIm2FYCok8E5rQ"
+    },
+    {
+      "id": "06taLPh9efELnSEQGiBdWt",
+      "name": "Kardia Mou Min Anisihis (Kardia Mou Min Anisihis)",
+      "artists": [
+        {
+          "name": "Antonis Remos"
+        }
+      ],
+      "artistNames": "Antonis Remos",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 232133,
+      "durationFormatted": "3:52",
+      "previewUrl": "https://p.scdn.co/mp3-preview/b3b527880556fc130360341cfb95d2dec1735de3",
+      "spotifyUrl": "https://open.spotify.com/track/06taLPh9efELnSEQGiBdWt",
+      "uri": "spotify:track:06taLPh9efELnSEQGiBdWt"
+    },
+    {
+      "id": "72tluODkZH8jq8TJ3fONZR",
+      "name": "Space Melody - Radio Version",
+      "artists": [
+        {
+          "name": "Luna Park"
+        }
+      ],
+      "artistNames": "Luna Park",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 199533,
+      "durationFormatted": "3:19",
+      "previewUrl": "https://p.scdn.co/mp3-preview/619f1266125e6b0f92c8de4bb9cad4f1603bb1a6",
+      "spotifyUrl": "https://open.spotify.com/track/72tluODkZH8jq8TJ3fONZR",
+      "uri": "spotify:track:72tluODkZH8jq8TJ3fONZR"
+    },
+    {
+      "id": "4IagqziFYWBHqwl0oDpWXO",
+      "name": "Party People - Radio Mix",
+      "artists": [
+        {
+          "name": "Christian Dio"
+        }
+      ],
+      "artistNames": "Christian Dio",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 228973,
+      "durationFormatted": "3:48",
+      "previewUrl": "https://p.scdn.co/mp3-preview/b424cc6fc46b88c3c2a468edd25683007f3891db",
+      "spotifyUrl": "https://open.spotify.com/track/4IagqziFYWBHqwl0oDpWXO",
+      "uri": "spotify:track:4IagqziFYWBHqwl0oDpWXO"
+    },
+    {
+      "id": "3pBSNPj4A0EQxtYDQMtSJQ",
+      "name": "Radio edit",
+      "artists": [
+        {
+          "name": "De-Javu"
+        }
+      ],
+      "artistNames": "De-Javu",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 239186,
+      "durationFormatted": "3:59",
+      "previewUrl": null,
+      "spotifyUrl": "https://open.spotify.com/track/3pBSNPj4A0EQxtYDQMtSJQ",
+      "uri": "spotify:track:3pBSNPj4A0EQxtYDQMtSJQ"
+    },
+    {
+      "id": "1D6lIY6kxQJvZojiU4k8ti",
+      "name": "Love Generation",
+      "artists": [
+        {
+          "name": "Gary Pine Participação Super Dragões, Bob Sinclar"
+        }
+      ],
+      "artistNames": "Gary Pine Participação Super Dragões, Bob Sinclar",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 251933,
+      "durationFormatted": "4:11",
+      "previewUrl": "https://p.scdn.co/mp3-preview/8a6bdca0542802539e7234645d5e90014933028b",
+      "spotifyUrl": "https://open.spotify.com/track/1D6lIY6kxQJvZojiU4k8ti",
+      "uri": "spotify:track:1D6lIY6kxQJvZojiU4k8ti"
+    },
+    {
+      "id": "5TfzDMZJVlN6DNWhNSD8GY",
+      "name": "Let The Drums Speak - Original Mix",
+      "artists": [
+        {
+          "name": "Mighty Dub Katz"
+        }
+      ],
+      "artistNames": "Mighty Dub Katz",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 511320,
+      "durationFormatted": "8:31",
+      "previewUrl": "https://p.scdn.co/mp3-preview/75c4eb177d70fd935858f36ff58896c06ed0fb9a",
+      "spotifyUrl": "https://open.spotify.com/track/5TfzDMZJVlN6DNWhNSD8GY",
+      "uri": "spotify:track:5TfzDMZJVlN6DNWhNSD8GY"
+    },
+    {
+      "id": "22HYEJveCvykVDHDiEEmjZ",
+      "name": "Tubthumping",
+      "artists": [
+        {
+          "name": "Chumbawamba"
+        }
+      ],
+      "artistNames": "Chumbawamba",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 278778,
+      "durationFormatted": "4:38",
+      "previewUrl": "https://p.scdn.co/mp3-preview/135ed2e5aff4240f7a3ee668a303eb87c2c01898",
+      "spotifyUrl": "https://open.spotify.com/track/22HYEJveCvykVDHDiEEmjZ",
+      "uri": "spotify:track:22HYEJveCvykVDHDiEEmjZ"
+    },
+    {
+      "id": "13z6reE8328KHoXoO0OMJN",
+      "name": "Like a Prayer",
+      "artists": [
+        {
+          "name": "MadHouse"
+        }
+      ],
+      "artistNames": "MadHouse",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 264293,
+      "durationFormatted": "4:24",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1c34b03c1098494eb70324f6ed0b0a30297c0f8b",
+      "spotifyUrl": "https://open.spotify.com/track/13z6reE8328KHoXoO0OMJN",
+      "uri": "spotify:track:13z6reE8328KHoXoO0OMJN"
+    },
+    {
+      "id": "2JgLS3CJLyBffCUrJaFgdM",
+      "name": "In These Shadows (feat. Carmen Forbes)",
+      "artists": [
+        {
+          "name": "Fytch, Carmen Forbes"
+        }
+      ],
+      "artistNames": "Fytch, Carmen Forbes",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 329142,
+      "durationFormatted": "5:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c02b09720f4eafbebfd3b4fc31fb28b58f325142",
+      "spotifyUrl": "https://open.spotify.com/track/2JgLS3CJLyBffCUrJaFgdM",
+      "uri": "spotify:track:2JgLS3CJLyBffCUrJaFgdM"
+    },
+    {
+      "id": "0IJ1ijo3uoJzy6ZE5wxJio",
+      "name": "Grizzly Bear",
+      "artists": [
+        {
+          "name": "Angus & Julia Stone"
+        }
+      ],
+      "artistNames": "Angus & Julia Stone",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 248520,
+      "durationFormatted": "4:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/874689ed50faeda8494aec352dd788f8f0002b28",
+      "spotifyUrl": "https://open.spotify.com/track/0IJ1ijo3uoJzy6ZE5wxJio",
+      "uri": "spotify:track:0IJ1ijo3uoJzy6ZE5wxJio"
+    },
+    {
+      "id": "1LVYzYJ23UuS4R2C4X8ov8",
+      "name": "Remember Me - Original Mix",
+      "artists": [
+        {
+          "name": "Roger Sanchez, Stealth"
+        }
+      ],
+      "artistNames": "Roger Sanchez, Stealth",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 413316,
+      "durationFormatted": "6:53",
+      "previewUrl": "https://p.scdn.co/mp3-preview/88c1d97d8ad814c5defda4148da1596b21b74325",
+      "spotifyUrl": "https://open.spotify.com/track/1LVYzYJ23UuS4R2C4X8ov8",
+      "uri": "spotify:track:1LVYzYJ23UuS4R2C4X8ov8"
+    },
+    {
+      "id": "42ydLwx4i5V49RXHOozJZq",
+      "name": "Scars To Your Beautiful",
+      "artists": [
+        {
+          "name": "Alessia Cara"
+        }
+      ],
+      "artistNames": "Alessia Cara",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 230226,
+      "durationFormatted": "3:50",
+      "previewUrl": "https://p.scdn.co/mp3-preview/da7510a6987187086774a17a3f79cf6752ff1f87",
+      "spotifyUrl": "https://open.spotify.com/track/42ydLwx4i5V49RXHOozJZq",
+      "uri": "spotify:track:42ydLwx4i5V49RXHOozJZq"
+    },
+    {
+      "id": "0ek0iml4wRfudYNSvryrbx",
+      "name": "Halite",
+      "artists": [
+        {
+          "name": "Shahram Solati"
+        }
+      ],
+      "artistNames": "Shahram Solati",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 262817,
+      "durationFormatted": "4:22",
+      "previewUrl": "https://p.scdn.co/mp3-preview/37eda9f5761e1d44d9251b0d63113f825fe2858b",
+      "spotifyUrl": "https://open.spotify.com/track/0ek0iml4wRfudYNSvryrbx",
+      "uri": "spotify:track:0ek0iml4wRfudYNSvryrbx"
+    },
+    {
+      "id": "0uEftEHpAjuL2V6NScCs4n",
+      "name": "My Love",
+      "artists": [
+        {
+          "name": "Kovacs"
+        }
+      ],
+      "artistNames": "Kovacs",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 235626,
+      "durationFormatted": "3:55",
+      "previewUrl": "https://p.scdn.co/mp3-preview/033899e5cf7939b4f067c4b65aa7856e40e9efcd",
+      "spotifyUrl": "https://open.spotify.com/track/0uEftEHpAjuL2V6NScCs4n",
+      "uri": "spotify:track:0uEftEHpAjuL2V6NScCs4n"
+    },
+    {
+      "id": "1qDrWA6lyx8cLECdZE7TV7",
+      "name": "Somebody That I Used To Know",
+      "artists": [
+        {
+          "name": "Gotye, Kimbra"
+        }
+      ],
+      "artistNames": "Gotye, Kimbra",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 244884,
+      "durationFormatted": "4:04",
+      "previewUrl": "https://p.scdn.co/mp3-preview/d125c2d009d8388e01078361811e910f71966746",
+      "spotifyUrl": "https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7",
+      "uri": "spotify:track:1qDrWA6lyx8cLECdZE7TV7"
+    },
+    {
+      "id": "5MFzQMkrl1FOOng9tq6R9r",
+      "name": "Don't Wanna Know",
+      "artists": [
+        {
+          "name": "Maroon 5, Kendrick Lamar"
+        }
+      ],
+      "artistNames": "Maroon 5, Kendrick Lamar",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 214480,
+      "durationFormatted": "3:34",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7e9c77a2e24e979397d07e24be75e4e3148670e0",
+      "spotifyUrl": "https://open.spotify.com/track/5MFzQMkrl1FOOng9tq6R9r",
+      "uri": "spotify:track:5MFzQMkrl1FOOng9tq6R9r"
+    },
+    {
+      "id": "0sHnZNTPbyAFqoN67JbGo5",
+      "name": "Just Say (feat. Tinashe)",
+      "artists": [
+        {
+          "name": "KDA, Tinashe"
+        }
+      ],
+      "artistNames": "KDA, Tinashe",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 232089,
+      "durationFormatted": "3:52",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7e3a674a1c69fa5411ab6a6b341b703d19010d02",
+      "spotifyUrl": "https://open.spotify.com/track/0sHnZNTPbyAFqoN67JbGo5",
+      "uri": "spotify:track:0sHnZNTPbyAFqoN67JbGo5"
+    },
+    {
+      "id": "0sbEUxUKmdD3dTSgBNTO0r",
+      "name": "Missing - Radio Edit",
+      "artists": [
+        {
+          "name": "Rebel, Brooklyn Rose"
+        }
+      ],
+      "artistNames": "Rebel, Brooklyn Rose",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 224648,
+      "durationFormatted": "3:44",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c6343e89e0511681641d5b3a1bd0926a83f73bb9",
+      "spotifyUrl": "https://open.spotify.com/track/0sbEUxUKmdD3dTSgBNTO0r",
+      "uri": "spotify:track:0sbEUxUKmdD3dTSgBNTO0r"
+    },
+    {
+      "id": "0zgV7B2prmMVkff1CCJNlJ",
+      "name": "Aja Mara",
+      "artists": [
+        {
+          "name": "Iana, Alessandra"
+        }
+      ],
+      "artistNames": "Iana, Alessandra",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 187111,
+      "durationFormatted": "3:07",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ae532373edc1b5c6a5391fdce2f3e8cbd96dc995",
+      "spotifyUrl": "https://open.spotify.com/track/0zgV7B2prmMVkff1CCJNlJ",
+      "uri": "spotify:track:0zgV7B2prmMVkff1CCJNlJ"
+    },
+    {
+      "id": "70JLyMnOeUYolQOECv6Oht",
+      "name": "Firoozeh",
+      "artists": [
+        {
+          "name": "Abbas Ghaderi"
+        }
+      ],
+      "artistNames": "Abbas Ghaderi",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 250600,
+      "durationFormatted": "4:10",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2e012f1b62f3b30789eb5619e4b4752330d9c3ce",
+      "spotifyUrl": "https://open.spotify.com/track/70JLyMnOeUYolQOECv6Oht",
+      "uri": "spotify:track:70JLyMnOeUYolQOECv6Oht"
+    },
+    {
+      "id": "0XS86sZvBKYrwVwMuSVBXq",
+      "name": "You Can Have It All - Radio Edit",
+      "artists": [
+        {
+          "name": "Jackie Tech"
+        }
+      ],
+      "artistNames": "Jackie Tech",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 168435,
+      "durationFormatted": "2:48",
+      "previewUrl": "https://p.scdn.co/mp3-preview/a63ec85afc71f019e0d82f1835c189d7b5e4f372",
+      "spotifyUrl": "https://open.spotify.com/track/0XS86sZvBKYrwVwMuSVBXq",
+      "uri": "spotify:track:0XS86sZvBKYrwVwMuSVBXq"
+    },
+    {
+      "id": "3BSuigcsSDa8rcMj6152wJ",
+      "name": "I See Fire - Remastered",
+      "artists": [
+        {
+          "name": "Ed Sheeran, The Highend Cover"
+        }
+      ],
+      "artistNames": "Ed Sheeran, The Highend Cover",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 300808,
+      "durationFormatted": "5:00",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ebc55d28f1c8c35a512fdcf6700f89a32b5ba122",
+      "spotifyUrl": "https://open.spotify.com/track/3BSuigcsSDa8rcMj6152wJ",
+      "uri": "spotify:track:3BSuigcsSDa8rcMj6152wJ"
+    },
+    {
+      "id": "0sHnZNTPbyAFqoN67JbGo5",
+      "name": "Just Say (feat. Tinashe)",
+      "artists": [
+        {
+          "name": "KDA, Tinashe"
+        }
+      ],
+      "artistNames": "KDA, Tinashe",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 232089,
+      "durationFormatted": "3:52",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7e3a674a1c69fa5411ab6a6b341b703d19010d02",
+      "spotifyUrl": "https://open.spotify.com/track/0sHnZNTPbyAFqoN67JbGo5",
+      "uri": "spotify:track:0sHnZNTPbyAFqoN67JbGo5"
+    },
+    {
+      "id": "29NjaVT0UIw4Jc4HK21C0Y",
+      "name": "Black Beatles",
+      "artists": [
+        {
+          "name": "Rae Sremmurd, Gucci Mane"
+        }
+      ],
+      "artistNames": "Rae Sremmurd, Gucci Mane",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 291866,
+      "durationFormatted": "4:51",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e77b0a991277e06733cfcccabc72fc0281a4d676",
+      "spotifyUrl": "https://open.spotify.com/track/29NjaVT0UIw4Jc4HK21C0Y",
+      "uri": "spotify:track:29NjaVT0UIw4Jc4HK21C0Y"
+    },
+    {
+      "id": "21x3daASXbdJMklA1j9SKI",
+      "name": "Breaking Their Hearts",
+      "artists": [
+        {
+          "name": "Tom Aris"
+        }
+      ],
+      "artistNames": "Tom Aris",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 183773,
+      "durationFormatted": "3:03",
+      "previewUrl": "https://p.scdn.co/mp3-preview/ac754e8713a6b98107ebd9556853ddde69b22ab0",
+      "spotifyUrl": "https://open.spotify.com/track/21x3daASXbdJMklA1j9SKI",
+      "uri": "spotify:track:21x3daASXbdJMklA1j9SKI"
+    },
+    {
+      "id": "2aW5z2LFsJwWl7gAPQCap8",
+      "name": "Save Me (feat. Alden Jacob)",
+      "artists": [
+        {
+          "name": "The Parakit, Alden Jacob"
+        }
+      ],
+      "artistNames": "The Parakit, Alden Jacob",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 177931,
+      "durationFormatted": "2:57",
+      "previewUrl": "https://p.scdn.co/mp3-preview/6c75d3212f1ed00e01822b9d5f4d3a585d41ffec",
+      "spotifyUrl": "https://open.spotify.com/track/2aW5z2LFsJwWl7gAPQCap8",
+      "uri": "spotify:track:2aW5z2LFsJwWl7gAPQCap8"
+    },
+    {
+      "id": "3up1uPuvL5vkfJ6aOeSRtD",
+      "name": "Loin (feat. Dany Synthé & soFLY & Nius) - Pilule violette",
+      "artists": [
+        {
+          "name": "GIMS, Dany Synthé, SoFLY & Nius"
+        }
+      ],
+      "artistNames": "GIMS, Dany Synthé, SoFLY & Nius",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 188040,
+      "durationFormatted": "3:08",
+      "previewUrl": "https://p.scdn.co/mp3-preview/f3976683975f1fd90d111986a842f38b7b8aea62",
+      "spotifyUrl": "https://open.spotify.com/track/3up1uPuvL5vkfJ6aOeSRtD",
+      "uri": "spotify:track:3up1uPuvL5vkfJ6aOeSRtD"
+    },
+    {
+      "id": "6roEbeXiBuGiZsGEGwmQmr",
+      "name": "Waves feat. Chris Brown & T.I (feat. Chris Brown & T.I.) - Robin Schulz Remix",
+      "artists": [
+        {
+          "name": "Mr. Probz, Chris Brown, T.I., Robin Schulz"
+        }
+      ],
+      "artistNames": "Mr. Probz, Chris Brown, T.I., Robin Schulz",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 190846,
+      "durationFormatted": "3:10",
+      "previewUrl": "https://p.scdn.co/mp3-preview/31c46d969461082362a6855e41f8d2f28c3ddf38",
+      "spotifyUrl": "https://open.spotify.com/track/6roEbeXiBuGiZsGEGwmQmr",
+      "uri": "spotify:track:6roEbeXiBuGiZsGEGwmQmr"
+    },
+    {
+      "id": "7xHWNBFm6ObGEQPaUxHuKO",
+      "name": "The Greatest (feat. Kendrick Lamar)",
+      "artists": [
+        {
+          "name": "Sia, Kendrick Lamar"
+        }
+      ],
+      "artistNames": "Sia, Kendrick Lamar",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 210226,
+      "durationFormatted": "3:30",
+      "previewUrl": "https://p.scdn.co/mp3-preview/bf4367f4a9537c7d533723c22368a9e968de0a3a",
+      "spotifyUrl": "https://open.spotify.com/track/7xHWNBFm6ObGEQPaUxHuKO",
+      "uri": "spotify:track:7xHWNBFm6ObGEQPaUxHuKO"
+    },
+    {
+      "id": "20RO66E2YhxDEM75kEQg5R",
+      "name": "Madan",
+      "artists": [
+        {
+          "name": "Salif Keita"
+        }
+      ],
+      "artistNames": "Salif Keita",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 359733,
+      "durationFormatted": "5:59",
+      "previewUrl": "https://p.scdn.co/mp3-preview/2214d9ed42c0d575760b4c63a7dfa13947f99aad",
+      "spotifyUrl": "https://open.spotify.com/track/20RO66E2YhxDEM75kEQg5R",
+      "uri": "spotify:track:20RO66E2YhxDEM75kEQg5R"
+    },
+    {
+      "id": "3m5WQZeRfYjm0KlvXqOOX8",
+      "name": "Far l'amore",
+      "artists": [
+        {
+          "name": "Bob Sinclar, Raffaella Carrà"
+        }
+      ],
+      "artistNames": "Bob Sinclar, Raffaella Carrà",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 181693,
+      "durationFormatted": "3:01",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e082693f04c51580389e04542a0e3600718c4ab8",
+      "spotifyUrl": "https://open.spotify.com/track/3m5WQZeRfYjm0KlvXqOOX8",
+      "uri": "spotify:track:3m5WQZeRfYjm0KlvXqOOX8"
+    },
+    {
+      "id": "0cAuqPI1R8RlFsXXWWO039",
+      "name": "Don't You Know - Radio Edit",
+      "artists": [
+        {
+          "name": "Kungs, Jamie N Commons"
+        }
+      ],
+      "artistNames": "Kungs, Jamie N Commons",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 184986,
+      "durationFormatted": "3:04",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e38f33875e51dc281e2b69ee6b7b0067a0bfaa72",
+      "spotifyUrl": "https://open.spotify.com/track/0cAuqPI1R8RlFsXXWWO039",
+      "uri": "spotify:track:0cAuqPI1R8RlFsXXWWO039"
+    },
+    {
+      "id": "7KhrxbRmgecCVcwYyyHdRY",
+      "name": "I Was Wrong - Acoustic",
+      "artists": [
+        {
+          "name": "A R I Z O N A"
+        }
+      ],
+      "artistNames": "A R I Z O N A",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 211525,
+      "durationFormatted": "3:31",
+      "previewUrl": "https://p.scdn.co/mp3-preview/97b9c7db3b749091acd497260c84566e6ee4b9cc",
+      "spotifyUrl": "https://open.spotify.com/track/7KhrxbRmgecCVcwYyyHdRY",
+      "uri": "spotify:track:7KhrxbRmgecCVcwYyyHdRY"
+    },
+    {
+      "id": "5MIsgmxWOaftT7WXKznmZ7",
+      "name": "Böyle Gelmiş Böyle Geçer Dünya",
+      "artists": [
+        {
+          "name": "Gönül Akkor"
+        }
+      ],
+      "artistNames": "Gönül Akkor",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 184830,
+      "durationFormatted": "3:04",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e08c0a8af9441332fd634526c9683d4ae538236a",
+      "spotifyUrl": "https://open.spotify.com/track/5MIsgmxWOaftT7WXKznmZ7",
+      "uri": "spotify:track:5MIsgmxWOaftT7WXKznmZ7"
+    },
+    {
+      "id": "1YLaJsTeBcKMaPkvgG0uSK",
+      "name": "Hate Street Dialogue",
+      "artists": [
+        {
+          "name": "Rodríguez"
+        }
+      ],
+      "artistNames": "Rodríguez",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 153653,
+      "durationFormatted": "2:33",
+      "previewUrl": "https://p.scdn.co/mp3-preview/342c68134bcfbfc81ef48460d6d51f3a13f16176",
+      "spotifyUrl": "https://open.spotify.com/track/1YLaJsTeBcKMaPkvgG0uSK",
+      "uri": "spotify:track:1YLaJsTeBcKMaPkvgG0uSK"
+    },
+    {
+      "id": "5XZyIOvleZYTh0DD399M90",
+      "name": "tous les mêmes",
+      "artists": [
+        {
+          "name": "Stromae"
+        }
+      ],
+      "artistNames": "Stromae",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 210933,
+      "durationFormatted": "3:30",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e4c71b477a5c3f992b34bb57eabf6e1b94e69147",
+      "spotifyUrl": "https://open.spotify.com/track/5XZyIOvleZYTh0DD399M90",
+      "uri": "spotify:track:5XZyIOvleZYTh0DD399M90"
+    },
+    {
+      "id": "6GyFP1nfCDB8lbD2bG0Hq9",
+      "name": "Midnight City",
+      "artists": [
+        {
+          "name": "M83"
+        }
+      ],
+      "artistNames": "M83",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 243960,
+      "durationFormatted": "4:03",
+      "previewUrl": "https://p.scdn.co/mp3-preview/5aa3429867af2283925c942e7051342a464460b0",
+      "spotifyUrl": "https://open.spotify.com/track/6GyFP1nfCDB8lbD2bG0Hq9",
+      "uri": "spotify:track:6GyFP1nfCDB8lbD2bG0Hq9"
+    },
+    {
+      "id": "0jSP6F0jRuCDwb1xOocgi6",
+      "name": "Kek",
+      "artists": [
+        {
+          "name": "Yavuz Akyazıcı"
+        }
+      ],
+      "artistNames": "Yavuz Akyazıcı",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 355360,
+      "durationFormatted": "5:55",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e5a3ae7cabf4eacade96a06f4bf20e7f6bad46dc",
+      "spotifyUrl": "https://open.spotify.com/track/0jSP6F0jRuCDwb1xOocgi6",
+      "uri": "spotify:track:0jSP6F0jRuCDwb1xOocgi6"
+    },
+    {
+      "id": "5GmY5DDPOm2rf8IXP5jZDK",
+      "name": "La Mordidita (feat. Yotuel) - Brian Cross Remix",
+      "artists": [
+        {
+          "name": "Ricky Martin, Yotuel, Brian Cross"
+        }
+      ],
+      "artistNames": "Ricky Martin, Yotuel, Brian Cross",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 214153,
+      "durationFormatted": "3:34",
+      "previewUrl": "https://p.scdn.co/mp3-preview/6ef34cb3669b70180acb9baa15da4cce5b7a0777",
+      "spotifyUrl": "https://open.spotify.com/track/5GmY5DDPOm2rf8IXP5jZDK",
+      "uri": "spotify:track:5GmY5DDPOm2rf8IXP5jZDK"
+    },
+    {
+      "id": "0lc9D8qKdwqzfuPisIMSHL",
+      "name": "Summer Dream",
+      "artists": [
+        {
+          "name": "Gary Owen"
+        }
+      ],
+      "artistNames": "Gary Owen",
+      "album": {
+        "name": "Shazam Şarkılarım",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "thumbnailUrl": "https://mosaic.scdn.co/60/ab67616d00001e0219f06fd0fc43d3ebed4f041dab67616d00001e023d18cec22e0ea98bc74e7cb0ab67616d00001e0272c44a5485b0a4b666e58068ab67616d00001e028a4409496dc76a5637e40840",
+      "durationMs": 246080,
+      "durationFormatted": "4:06",
+      "previewUrl": "https://p.scdn.co/mp3-preview/759f1cac00285481bc219940a2357f8ec0e23eef",
+      "spotifyUrl": "https://open.spotify.com/track/0lc9D8qKdwqzfuPisIMSHL",
+      "uri": "spotify:track:0lc9D8qKdwqzfuPisIMSHL"
+    }
+  ]
 }
