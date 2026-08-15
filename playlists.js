@@ -1,6 +1,6 @@
 let allPlaylists = [];
 let filteredPlaylists = [];
-let currentSort = 'tracks-desc';
+let currentSort = 'name-asc';
 
 async function initPlaylists() {
     const loadingEl = document.getElementById('loading');
