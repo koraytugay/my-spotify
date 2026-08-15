@@ -1,5 +1,7 @@
 # 🎧 My Spotify Collection & Backup
 
+Running at: https://koraytugay.github.io/my-spotify
+
 A static web app and automated backup archive for your personal Spotify music library, built with HTML, CSS, and Vanilla JavaScript.
 
 Inspired by [`my-board-game-collection`](https://github.com/koraytugay/my-board-game-collection).
