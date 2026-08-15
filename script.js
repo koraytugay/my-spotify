@@ -1,7 +1,8 @@
 let allSongs = [];
 let filteredSongs = [];
-let currentSort = 'name-asc';
-let currentViewMode = 'grid';
+let currentSort = 'artist-asc';
+let currentViewMode = 'list';
+let isGroupedByAlbum = true;
 let currentAudio = null;
 let currentPlayingId = null;
 
@@ -80,10 +81,10 @@ function sortSongs(criteria) {
 
     allSongs.sort((a, b) => {
         switch (criteria) {
-            case 'name-asc':
-                return (a.name || '').localeCompare(b.name || '');
             case 'artist-asc':
                 return (a.artistNames || '').localeCompare(b.artistNames || '');
+            case 'name-asc':
+                return (a.name || '').localeCompare(b.name || '');
             case 'year-desc':
                 return (parseInt(b.album?.releaseYear) || 0) - (parseInt(a.album?.releaseYear) || 0);
             case 'year-asc':
@@ -100,6 +101,11 @@ function sortSongs(criteria) {
     });
 
     applyFilters();
+}
+
+function toggleGroupByAlbum(isGrouped) {
+    isGroupedByAlbum = isGrouped;
+    renderSongs();
 }
 
 function applyFilters() {
@@ -145,14 +151,6 @@ function renderSongs() {
     const grid = document.getElementById('music-grid');
     const noResults = document.getElementById('no-results');
 
-    if (currentViewMode === 'grid') {
-        grid.className = 'music-grid';
-    } else if (currentViewMode === 'compact') {
-        grid.className = 'music-grid view-compact';
-    } else if (currentViewMode === 'list') {
-        grid.className = 'music-grid view-list';
-    }
-
     if (filteredSongs.length === 0) {
         grid.innerHTML = '';
         noResults.style.display = 'block';
@@ -162,19 +160,120 @@ function renderSongs() {
     noResults.style.display = 'none';
     grid.innerHTML = '';
 
-    // Render in chunks for silky performance on large collections
-    const limit = 300;
-    const toRender = filteredSongs.slice(0, limit);
+    if (!isGroupedByAlbum) {
+        // Flat Rendering
+        if (currentViewMode === 'grid') {
+            grid.className = 'music-grid';
+        } else if (currentViewMode === 'compact') {
+            grid.className = 'music-grid view-compact';
+        } else if (currentViewMode === 'list') {
+            grid.className = 'music-grid view-list';
+        }
 
-    toRender.forEach(song => {
-        grid.appendChild(createSongCard(song));
-    });
+        const limit = 400;
+        const toRender = filteredSongs.slice(0, limit);
+        toRender.forEach(song => {
+            grid.appendChild(createSongCard(song));
+        });
 
-    if (filteredSongs.length > limit) {
-        const loadMoreBox = document.createElement('div');
-        loadMoreBox.className = 'empty-box';
-        loadMoreBox.innerHTML = `<p>Showing first ${limit} of ${filteredSongs.length} tracks. Use search/filters to narrow down.</p>`;
-        grid.appendChild(loadMoreBox);
+        if (filteredSongs.length > limit) {
+            const loadMoreBox = document.createElement('div');
+            loadMoreBox.className = 'empty-box';
+            loadMoreBox.innerHTML = `<p>Showing first ${limit} of ${filteredSongs.length} tracks. Use search/filters to narrow down.</p>`;
+            grid.appendChild(loadMoreBox);
+        }
+    } else {
+        // Grouped by Artist -> Grouped by Album (sorted by Release Date)
+        grid.className = '';
+
+        // 1. Group by Artist
+        const artistGroups = new Map();
+        filteredSongs.forEach(song => {
+            const primaryArtist = song.artists?.[0]?.name || song.artistNames || 'Unknown Artist';
+            if (!artistGroups.has(primaryArtist)) {
+                artistGroups.set(primaryArtist, {
+                    name: primaryArtist,
+                    albums: new Map(),
+                    totalTracks: 0
+                });
+            }
+
+            const artistObj = artistGroups.get(primaryArtist);
+            artistObj.totalTracks++;
+
+            const albumKey = song.album?.name || 'Singles';
+            if (!artistObj.albums.has(albumKey)) {
+                artistObj.albums.set(albumKey, {
+                    name: albumKey,
+                    releaseDate: song.album?.releaseDate || '',
+                    releaseYear: song.album?.releaseYear || '',
+                    coverUrl: song.coverUrl || song.thumbnailUrl || '',
+                    tracks: []
+                });
+            }
+
+            artistObj.albums.get(albumKey).tracks.push(song);
+        });
+
+        // 2. Sort Artists
+        const sortedArtists = Array.from(artistGroups.values()).sort((a, b) => a.name.localeCompare(b.name));
+
+        // 3. Render Artist & Album Sections
+        sortedArtists.forEach(artistObj => {
+            const artistSection = document.createElement('div');
+            artistSection.className = 'artist-group-section';
+
+            const artistHeader = document.createElement('div');
+            artistHeader.className = 'artist-group-header';
+            artistHeader.innerHTML = `
+                <div class="artist-group-title">${artistObj.name}</div>
+                <div class="artist-group-badge">${artistObj.totalTracks} track${artistObj.totalTracks > 1 ? 's' : ''}</div>
+            `;
+            artistSection.appendChild(artistHeader);
+
+            // Sort Albums by Release Date chronologically (oldest to newest)
+            const sortedAlbums = Array.from(artistObj.albums.values()).sort((a, b) => {
+                const yearA = parseInt(a.releaseYear) || 0;
+                const yearB = parseInt(b.releaseYear) || 0;
+                if (yearA !== yearB) return yearA - yearB;
+                return (a.releaseDate || '').localeCompare(b.releaseDate || '');
+            });
+
+            sortedAlbums.forEach(albumObj => {
+                const albumSection = document.createElement('div');
+                albumSection.className = 'album-group-section';
+
+                const albumHeader = document.createElement('div');
+                albumHeader.className = 'album-group-header';
+                albumHeader.innerHTML = `
+                    <img src="${albumObj.coverUrl || 'https://via.placeholder.com/300x300?text=Album'}" alt="${albumObj.name}" class="album-group-thumb">
+                    <div class="album-group-info">
+                        <div class="album-group-name">${albumObj.name}</div>
+                        <div class="album-group-artist">${artistObj.name} ${albumObj.releaseYear ? `(${albumObj.releaseYear})` : ''}</div>
+                    </div>
+                    <div class="album-group-badge">${albumObj.tracks.length} track${albumObj.tracks.length > 1 ? 's' : ''}</div>
+                `;
+                albumSection.appendChild(albumHeader);
+
+                const tracksContainer = document.createElement('div');
+                if (currentViewMode === 'grid') {
+                    tracksContainer.className = 'music-grid';
+                } else if (currentViewMode === 'compact') {
+                    tracksContainer.className = 'music-grid view-compact';
+                } else if (currentViewMode === 'list') {
+                    tracksContainer.className = 'music-grid view-list';
+                }
+
+                albumObj.tracks.forEach(song => {
+                    tracksContainer.appendChild(createSongCard(song));
+                });
+
+                albumSection.appendChild(tracksContainer);
+                artistSection.appendChild(albumSection);
+            });
+
+            grid.appendChild(artistSection);
+        });
     }
 }
 

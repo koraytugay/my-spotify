@@ -667,13 +667,43 @@ header {
     }
 }
 
+/* Artist Grouping */
+.artist-group-section {
+    margin-bottom: 36px;
+}
+
+.artist-group-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+}
+
+.artist-group-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+}
+
+.artist-group-badge {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    background: var(--bg-surface-active);
+    padding: 3px 9px;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+}
+
 /* Album Grouping Sections */
 .album-group-section {
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    padding: 20px;
-    margin-bottom: 24px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
     transition: all 0.2s ease;
 }
 

@@ -64,8 +64,8 @@
                 <div class="control-group">
                     <label for="sort-select">Sort by:</label>
                     <select id="sort-select" onchange="sortSongs(this.value)">
+                        <option value="artist-asc" selected>Artist (A-Z)</option>
                         <option value="name-asc">Title (A-Z)</option>
-                        <option value="artist-asc">Artist (A-Z)</option>
                         <option value="year-desc">Release Year (Newest)</option>
                         <option value="year-asc">Release Year (Oldest)</option>
                         <option value="duration-desc">Duration (Longest)</option>
@@ -77,14 +77,21 @@
                 <div class="control-group">
                     <label for="view-mode">View:</label>
                     <select id="view-mode" onchange="changeViewMode(this.value)">
+                        <option value="list" selected>List</option>
                         <option value="grid">Grid</option>
                         <option value="compact">Compact</option>
-                        <option value="list">List</option>
                     </select>
                 </div>
             </div>
 
             <div class="controls-row">
+                <div class="control-group">
+                    <label class="checkbox-toggle">
+                        <input type="checkbox" id="group-album-toggle" checked onchange="toggleGroupByAlbum(this.checked)">
+                        💿 Group by Album
+                    </label>
+                </div>
+
                 <div class="control-group">
                     <label for="decade-filter">Decade:</label>
                     <select id="decade-filter" onchange="applyFilters()">
@@ -119,7 +126,7 @@
         </div>
 
         <!-- Music Grid -->
-        <div id="music-grid" class="music-grid"></div>
+        <div id="music-grid" class="music-grid view-list"></div>
 
         <!-- Empty Results -->
         <div id="no-results" class="empty-box" style="display: none;">
