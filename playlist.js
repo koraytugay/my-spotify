@@ -1,7 +1,7 @@
 let playlistData = null;
 let allTracks = [];
 let filteredTracks = [];
-let currentSort = 'default';
+let currentSort = 'artist-asc';
 let currentViewMode = 'list';
 let currentAudio = null;
 let currentPlayingId = null;
@@ -26,26 +26,17 @@ async function initPlaylistDetail() {
             return;
         }
 
-        // Apply theme
         const savedTheme = localStorage.getItem('theme') || 'light';
-        const isDark = savedTheme === 'dark';
-        const toggle = document.getElementById('dark-mode-toggle');
-        if (toggle) toggle.checked = isDark;
-        if (isDark) document.body.classList.add('dark-mode');
+        if (savedTheme === 'dark') document.body.classList.add('dark-mode');
 
-        // Hero Info
-        document.getElementById('page-heading').textContent = playlistData.name;
-        document.getElementById('hero-title').textContent = playlistData.name;
-        document.getElementById('hero-desc').textContent = playlistData.description || 'Archived Playlist';
-        document.getElementById('hero-owner').textContent = `Created by ${playlistData.owner || 'You'}`;
-        document.getElementById('hero-img').src = playlistData.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
+        // Populate Hero Header
+        document.getElementById('hero-title').textContent = playlistData.name || 'Untitled Playlist';
+        document.getElementById('hero-desc').textContent = playlistData.description || '';
+        document.getElementById('hero-owner').textContent = `By ${playlistData.owner || 'Spotify'}`;
+        document.getElementById('hero-cover').src = playlistData.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
         
-        const spotifyLink = document.getElementById('hero-spotify-link');
-        if (playlistData.spotifyUrl) {
-            spotifyLink.href = playlistData.spotifyUrl;
-        } else {
-            spotifyLink.style.display = 'none';
-        }
+        const spotifyUrl = playlistData.spotifyUrl || (playlistData.id ? `https://open.spotify.com/playlist/${playlistData.id}` : '#');
+        document.getElementById('hero-spotify-link').href = spotifyUrl;
 
         allTracks = (playlistData.tracks || []).map((t, idx) => ({ ...t, originalIndex: idx }));
         filteredTracks = [...allTracks];
@@ -71,10 +62,28 @@ function sortTracks(criteria) {
                 return (a.originalIndex || 0) - (b.originalIndex || 0);
             case 'name-asc':
                 return (a.name || '').localeCompare(b.name || '');
-            case 'artist-asc':
-                return (a.artistNames || '').localeCompare(b.artistNames || '');
+            case 'artist-asc': {
+                const artistA = (a.artists?.[0]?.name || a.artistNames || '').toLowerCase();
+                const artistB = (b.artists?.[0]?.name || b.artistNames || '').toLowerCase();
+                const cmpArtist = artistA.localeCompare(artistB);
+                if (cmpArtist !== 0) return cmpArtist;
+
+                // Within same artist: sort by release date / year
+                const yearA = parseInt(a.album?.releaseYear) || 0;
+                const yearB = parseInt(b.album?.releaseYear) || 0;
+                if (yearA !== yearB) return yearA - yearB;
+                const dateA = a.album?.releaseDate || '';
+                const dateB = b.album?.releaseDate || '';
+                const cmpDate = dateA.localeCompare(dateB);
+                if (cmpDate !== 0) return cmpDate;
+
+                // Within same release date: sort by song title
+                return (a.name || '').localeCompare(b.name || '');
+            }
             case 'year-desc':
                 return (parseInt(b.album?.releaseYear) || 0) - (parseInt(a.album?.releaseYear) || 0);
+            case 'year-asc':
+                return (parseInt(a.album?.releaseYear) || 0) - (parseInt(b.album?.releaseYear) || 0);
             default:
                 return 0;
         }
