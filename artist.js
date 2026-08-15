@@ -107,9 +107,7 @@ async function initArtistDetail() {
         const spotifyUrl = artistInfo.spotifyUrl || (artistInfo.id ? `https://open.spotify.com/artist/${artistInfo.id}` : `https://open.spotify.com/search/${encodeURIComponent(artistInfo.name)}`);
 
         const heroTitleEl = document.getElementById('hero-title');
-        if (heroTitleEl) {
-            heroTitleEl.innerHTML = `<a href="${spotifyUrl}" target="_blank" style="color: inherit; text-decoration: none;">${artistInfo.name}</a>`;
-        }
+        if (heroTitleEl) heroTitleEl.textContent = artistInfo.name;
 
         const heroImgEl = document.getElementById('hero-img');
         if (heroImgEl) heroImgEl.src = artistInfo.imageUrl || 'https://via.placeholder.com/300x300?text=Artist';
