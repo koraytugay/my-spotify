@@ -50,14 +50,7 @@ async function initPlaylistDetail() {
         allTracks = (playlistData.tracks || []).map((t, idx) => ({ ...t, originalIndex: idx }));
         filteredTracks = [...allTracks];
 
-        const totalMs = allTracks.reduce((acc, t) => acc + (t.durationMs || 0), 0);
-        const totalMinutes = Math.floor(totalMs / 60000);
-        const totalHours = Math.floor(totalMinutes / 60);
-        const remMins = totalMinutes % 60;
-        const durationFormatted = totalHours > 0 ? `${totalHours} hr ${remMins} min` : `${totalMinutes} min`;
-
         document.getElementById('hero-track-count').textContent = `${allTracks.length} tracks`;
-        document.getElementById('hero-duration').textContent = durationFormatted;
 
         sortTracks(currentSort);
 
@@ -82,8 +75,6 @@ function sortTracks(criteria) {
                 return (a.artistNames || '').localeCompare(b.artistNames || '');
             case 'year-desc':
                 return (parseInt(b.album?.releaseYear) || 0) - (parseInt(a.album?.releaseYear) || 0);
-            case 'duration-desc':
-                return (b.durationMs || 0) - (a.durationMs || 0);
             default:
                 return 0;
         }
@@ -197,28 +188,47 @@ function createTrackCard(t) {
     const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
     const isPlaying = currentPlayingId === t.id;
 
+    // Build artist link(s)
+    let artistsHtml = '';
+    if (Array.isArray(t.artists) && t.artists.length > 0) {
+        artistsHtml = t.artists.map(a => {
+            const url = a.id ? `https://open.spotify.com/artist/${a.id}` : `https://open.spotify.com/search/${encodeURIComponent(a.name)}`;
+            return `<a href="${url}" target="_blank" class="artist-link">${a.name}</a>`;
+        }).join(', ');
+    } else {
+        artistsHtml = `<span class="artist-link">${t.artistNames || 'Unknown Artist'}</span>`;
+    }
+
+    // Build album link
+    const albumName = t.album?.name || '';
+    let albumHtml = '';
+    if (albumName) {
+        const albumUrl = t.album?.id ? `https://open.spotify.com/album/${t.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+        albumHtml = ` · <a href="${albumUrl}" target="_blank" class="album-link">${albumName}</a>`;
+    }
+
+    // Track link
+    const trackUrl = t.spotifyUrl || (t.id ? `https://open.spotify.com/track/${t.id}` : '#');
+
     card.innerHTML = `
         <div class="cover-wrapper">
             <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
             ${t.previewUrl ? `
-                <button class="play-btn-overlay" onclick="event.stopPropagation(); togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
+                <button class="play-btn-overlay" onclick="togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
                     ${isPlaying ? '⏸' : '▶'}
                 </button>
             ` : ''}
         </div>
         <div class="song-details">
-            <div class="song-title">${t.name}</div>
-            <div class="song-artist">${t.artistNames} · <span style="color: var(--text-muted);">${t.album?.name || ''}</span></div>
+            <div class="song-title">
+                <a href="${trackUrl}" target="_blank" class="song-title-link">${t.name}</a>
+            </div>
+            <div class="song-artist">${artistsHtml}${albumHtml}</div>
         </div>
         <div class="song-meta">
-            <span>${t.album?.releaseYear || ''}</span>
-            <span>${t.durationFormatted || ''}</span>
+            ${t.album?.releaseYear ? `<span class="badge">${t.album.releaseYear}</span>` : ''}
         </div>
     `;
-
-    card.onclick = () => {
-        if (t.spotifyUrl) window.open(t.spotifyUrl, '_blank');
-    };
 
     return card;
 }

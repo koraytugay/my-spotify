@@ -47,14 +47,13 @@ function updateRibbon(stats) {
     
     if (stats) {
         document.getElementById('total-artists').textContent = (stats.uniqueArtistsCount || 0).toLocaleString();
-        document.getElementById('total-duration').textContent = `${Math.round(stats.totalDurationHours || 0)}h`;
+        document.getElementById('total-albums').textContent = (stats.totalSavedAlbums || 0).toLocaleString();
         document.getElementById('top-artist-name').textContent = stats.topLikedArtists?.[0]?.name || '-';
     } else {
         const artists = new Set();
         allSongs.forEach(s => s.artists?.forEach(a => artists.add(a.name)));
         document.getElementById('total-artists').textContent = artists.size.toLocaleString();
-        const totalMs = allSongs.reduce((acc, s) => acc + (s.durationMs || 0), 0);
-        document.getElementById('total-duration').textContent = `${Math.round(totalMs / (1000 * 60 * 60))}h`;
+        document.getElementById('total-albums').textContent = '0';
     }
 }
 
@@ -105,10 +104,6 @@ function sortSongs(criteria) {
                 return (parseInt(b.album?.releaseYear) || 0) - (parseInt(a.album?.releaseYear) || 0);
             case 'year-asc':
                 return (parseInt(a.album?.releaseYear) || 0) - (parseInt(b.album?.releaseYear) || 0);
-            case 'duration-desc':
-                return (b.durationMs || 0) - (a.durationMs || 0);
-            case 'duration-asc':
-                return (a.durationMs || 0) - (b.durationMs || 0);
             case 'popularity-desc':
                 return (b.popularity || 0) - (a.popularity || 0);
             default:
@@ -122,7 +117,6 @@ function sortSongs(criteria) {
 function applyFilters() {
     const search = (document.getElementById('search-input')?.value || '').toLowerCase().trim();
     const decade = document.getElementById('decade-filter')?.value || 'all';
-    const duration = document.getElementById('duration-filter')?.value || 'all';
     const previewsOnly = document.getElementById('previews-only')?.checked || false;
 
     filteredSongs = allSongs.filter(song => {
@@ -139,14 +133,6 @@ function applyFilters() {
             const decNum = parseInt(decade, 10);
             const year = parseInt(song.album?.releaseYear, 10);
             if (isNaN(year) || Math.floor(year / 10) * 10 !== decNum) return false;
-        }
-
-        // Duration
-        if (duration !== 'all') {
-            const mins = (song.durationMs || 0) / (1000 * 60);
-            if (duration === 'short' && mins >= 3) return false;
-            if (duration === 'medium' && (mins < 3 || mins > 5)) return false;
-            if (duration === 'long' && mins <= 5) return false;
         }
 
         // Previews only
@@ -187,35 +173,51 @@ function renderSongs() {
 function createSongCard(song) {
     const card = document.createElement('div');
     card.className = 'song-card';
-    card.title = `${song.name} by ${song.artistNames}`;
 
     const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
     const isPlaying = currentPlayingId === song.id;
+
+    // Build artist link(s)
+    let artistsHtml = '';
+    if (Array.isArray(song.artists) && song.artists.length > 0) {
+        artistsHtml = song.artists.map(a => {
+            const url = a.id ? `https://open.spotify.com/artist/${a.id}` : `https://open.spotify.com/search/${encodeURIComponent(a.name)}`;
+            return `<a href="${url}" target="_blank" class="artist-link">${a.name}</a>`;
+        }).join(', ');
+    } else {
+        artistsHtml = `<span class="artist-link">${song.artistNames || 'Unknown Artist'}</span>`;
+    }
+
+    // Build album link
+    const albumName = song.album?.name || '';
+    let albumHtml = '';
+    if (albumName) {
+        const albumUrl = song.album?.id ? `https://open.spotify.com/album/${song.album.id}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+        albumHtml = ` · <a href="${albumUrl}" target="_blank" class="album-link">${albumName}</a>`;
+    }
+
+    // Track link
+    const trackUrl = song.spotifyUrl || (song.id ? `https://open.spotify.com/track/${song.id}` : '#');
 
     card.innerHTML = `
         <div class="cover-wrapper">
             <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy">
             ${song.previewUrl ? `
-                <button class="play-btn-overlay" onclick="event.stopPropagation(); togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
+                <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
                     ${isPlaying ? '⏸' : '▶'}
                 </button>
             ` : ''}
         </div>
         <div class="song-details">
-            <div class="song-title">${song.name}</div>
-            <div class="song-artist">${song.artistNames} · <span style="color: var(--text-muted);">${song.album?.name || ''}</span></div>
+            <div class="song-title">
+                <a href="${trackUrl}" target="_blank" class="song-title-link">${song.name}</a>
+            </div>
+            <div class="song-artist">${artistsHtml}${albumHtml}</div>
         </div>
         <div class="song-meta">
-            <span>${song.album?.releaseYear || ''}</span>
-            <span>${song.durationFormatted || ''}</span>
+            ${song.album?.releaseYear ? `<span class="badge">${song.album.releaseYear}</span>` : ''}
         </div>
     `;
-
-    card.onclick = () => {
-        if (song.spotifyUrl) {
-            window.open(song.spotifyUrl, '_blank');
-        }
-    };
 
     return card;
 }

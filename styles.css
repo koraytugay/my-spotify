@@ -295,14 +295,18 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    transition: all 0.25s ease;
-    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
-.song-card:hover {
+.music-grid:not(.view-list) .song-card:hover {
     background: var(--bg-surface-hover);
     transform: translateY(-4px);
     box-shadow: var(--card-shadow);
+    border-color: #404040;
+}
+
+.music-grid.view-list .song-card:hover {
+    background: var(--bg-surface-hover);
     border-color: #404040;
 }
 
@@ -360,7 +364,7 @@ header {
 }
 
 .song-title {
-    font-size: 0.95rem;
+    font-size: 0.98rem;
     font-weight: 700;
     color: var(--text-primary);
     white-space: nowrap;
@@ -369,8 +373,19 @@ header {
     margin-bottom: 4px;
 }
 
+.song-title-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.song-title-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
 .song-artist {
-    font-size: 0.82rem;
+    font-size: 0.84rem;
     color: var(--text-secondary);
     white-space: nowrap;
     overflow: hidden;
@@ -378,12 +393,35 @@ header {
     margin-bottom: 8px;
 }
 
+.artist-link {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.artist-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.album-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.album-link:hover {
+    color: var(--text-primary);
+    text-decoration: underline;
+}
+
 .song-meta {
     margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 0.76rem;
+    font-size: 0.8rem;
     color: var(--text-muted);
     padding-top: 8px;
     border-top: 1px solid var(--border);
@@ -421,26 +459,45 @@ header {
 .music-grid.view-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
 }
 
 .music-grid.view-list .song-card {
     flex-direction: row;
     align-items: center;
-    padding: 10px 16px;
-    gap: 16px;
+    padding: 12px 18px;
+    gap: 20px;
 }
 
 .music-grid.view-list .cover-wrapper {
-    width: 48px;
-    height: 48px;
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
     margin-bottom: 0;
     flex-shrink: 0;
+    border-radius: var(--radius-md);
+}
+
+.music-grid.view-list .play-btn-overlay {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+    bottom: 6px;
+    right: 6px;
 }
 
 .music-grid.view-list .song-details {
     flex: 1 1 auto;
     min-width: 0;
+}
+
+.music-grid.view-list .song-title {
+    font-size: 1.05rem;
+}
+
+.music-grid.view-list .song-artist {
+    font-size: 0.88rem;
+    margin-bottom: 0;
 }
 
 .music-grid.view-list .song-meta {

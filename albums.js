@@ -65,23 +65,33 @@ function renderAlbums() {
         card.className = 'song-card';
         const cover = a.coverUrl || 'https://via.placeholder.com/300x300?text=Album';
 
+        let artistsHtml = '';
+        if (Array.isArray(a.artists) && a.artists.length > 0) {
+            artistsHtml = a.artists.map(art => {
+                const url = art.id ? `https://open.spotify.com/artist/${art.id}` : `https://open.spotify.com/search/${encodeURIComponent(art.name)}`;
+                return `<a href="${url}" target="_blank" class="artist-link">${art.name}</a>`;
+            }).join(', ');
+        } else {
+            artistsHtml = `<span class="artist-link">${a.artistNames || 'Unknown Artist'}</span>`;
+        }
+
+        const albumUrl = a.spotifyUrl || (a.id ? `https://open.spotify.com/album/${a.id}` : '#');
+
         card.innerHTML = `
             <div class="cover-wrapper">
                 <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
             </div>
             <div class="song-details">
-                <div class="song-title">${a.name}</div>
-                <div class="song-artist">${a.artistNames}</div>
+                <div class="song-title">
+                    <a href="${albumUrl}" target="_blank" class="song-title-link">${a.name}</a>
+                </div>
+                <div class="song-artist">${artistsHtml}</div>
             </div>
             <div class="song-meta">
                 <span>${a.releaseYear || ''}</span>
                 <span>${a.totalTracks || 0} tracks</span>
             </div>
         `;
-
-        card.onclick = () => {
-            if (a.spotifyUrl) window.open(a.spotifyUrl, '_blank');
-        };
 
         grid.appendChild(card);
     });

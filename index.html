@@ -44,8 +44,8 @@
                 <span class="stat-label">Unique Artists</span>
             </div>
             <div class="stat-card">
-                <span class="stat-number" id="total-duration">0h</span>
-                <span class="stat-label">Total Duration</span>
+                <span class="stat-number" id="total-albums">0</span>
+                <span class="stat-label">Saved Albums</span>
             </div>
             <div class="stat-card">
                 <span class="stat-number" id="top-artist-name">-</span>
@@ -68,8 +68,6 @@
                         <option value="name-asc">Title (A-Z)</option>
                         <option value="year-desc">Release Year (Newest)</option>
                         <option value="year-asc">Release Year (Oldest)</option>
-                        <option value="duration-desc">Duration (Longest)</option>
-                        <option value="duration-asc">Duration (Shortest)</option>
                         <option value="popularity-desc">Popularity</option>
                     </select>
                 </div>
@@ -89,16 +87,6 @@
                     <label for="decade-filter">Decade:</label>
                     <select id="decade-filter" onchange="applyFilters()">
                         <option value="all">All Decades</option>
-                    </select>
-                </div>
-
-                <div class="control-group">
-                    <label for="duration-filter">Duration:</label>
-                    <select id="duration-filter" onchange="applyFilters()">
-                        <option value="all">All Lengths</option>
-                        <option value="short">&lt; 3 mins</option>
-                        <option value="medium">3 - 5 mins</option>
-                        <option value="long">&gt; 5 mins</option>
                     </select>
                 </div>
 
