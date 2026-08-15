@@ -23,7 +23,6 @@
                 <a href="playlists.html" class="nav-link">📑 Playlists</a>
                 <a href="albums.html" class="nav-link active">💿 Saved Albums</a>
                 <a href="stats.html" class="nav-link">📊 Statistics</a>
-                <a href="history.html" class="nav-link">📅 Timeline</a>
             </nav>
         </header>
 
@@ -43,11 +42,10 @@
                 <div class="control-group">
                     <label for="sort-select">Sort:</label>
                     <select id="sort-select" onchange="sortAlbums(this.value)">
-                        <option value="added-desc">Date Added (Newest)</option>
-                        <option value="year-desc">Release Year (Newest)</option>
-                        <option value="year-asc">Release Year (Oldest)</option>
                         <option value="name-asc">Album Title (A-Z)</option>
                         <option value="artist-asc">Artist (A-Z)</option>
+                        <option value="year-desc">Release Year (Newest)</option>
+                        <option value="year-asc">Release Year (Oldest)</option>
                     </select>
                 </div>
             </div>

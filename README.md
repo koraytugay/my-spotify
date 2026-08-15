@@ -9,11 +9,10 @@ Inspired by [`my-board-game-collection`](https://github.com/koraytugay/my-board-
 ---
 
 ## 🌟 Features
-* **💚 Complete Liked Songs Archive**: All your saved/liked tracks backed up with metadata (artist, album, release year, duration, date added, cover art, Spotify link).
-* **📑 Playlists Explorer**: Browse all your custom and followed playlists.
+* **💚 Complete Liked Songs Archive**: All your saved/liked tracks backed up with metadata (artist, album, release year, duration, cover art, Spotify link).
+* **📑 Playlists Explorer**: Browse all your custom and followed playlists with complete song lists and "Group by Album" mode.
 * **💿 Saved Albums**: Visual grid of all saved full albums.
-* **📊 Deep Statistics**: Top artists by track count, release decade distribution, most popular release years, and monthly additions timeline.
-* **📅 Discovery Timeline**: Chronological archive of when songs were discovered and liked month by month.
+* **📊 Deep Statistics**: Top artists by track count, release decade distribution, most popular release years, and longest epic tracks.
 * **🎲 Random Song Picker**: Pick random tracks from your collection with the `r` keyboard shortcut.
 * **🔍 Search & Filter**: Real-time search, decade filters, duration filters, and sorting.
 * **🌓 Dark & Light Mode**: Built-in theme toggle with `localStorage` persistence.

@@ -437,18 +437,6 @@ function generateStats(likedSongs, playlists, albums, topArtists, artistGenresMa
         }
     });
 
-    // Added by Year / Month Timeline
-    const addedByMonth = {};
-    const addedByYear = {};
-    likedSongs.forEach(song => {
-        if (song.addedAt) {
-            const yearMonth = song.addedAt.substring(0, 7); // YYYY-MM
-            const year = song.addedAt.substring(0, 4);
-            addedByMonth[yearMonth] = (addedByMonth[yearMonth] || 0) + 1;
-            addedByYear[year] = (addedByYear[year] || 0) + 1;
-        }
-    });
-
     // Top Genres from Top Artists & Liked Artists
     const genreCounts = { ...artistGenresMap };
     topArtists.forEach(art => {
@@ -474,8 +462,6 @@ function generateStats(likedSongs, playlists, albums, topArtists, artistGenresMa
         topGenres,
         decadeDistribution: decadeCounts,
         yearDistribution: yearCounts,
-        addedByMonthTimeline: addedByMonth,
-        addedByYearTimeline: addedByYear,
         lastUpdated: new Date().toISOString()
     };
 }

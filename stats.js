@@ -37,17 +37,7 @@ async function initStats() {
             }));
         renderBarChart('decades-chart', decadeData);
 
-        // 3. Render Songs Liked Per Year
-        const yearData = Object.entries(stats.addedByYearTimeline || {})
-            .sort((a, b) => a[0].localeCompare(b[0]))
-            .map(([year, count]) => ({
-                label: year,
-                value: count,
-                formattedValue: `${count} songs`
-            }));
-        renderBarChart('additions-chart', yearData);
-
-        // 4. Render Top Release Years
+        // 3. Render Top Release Years
         const topReleaseYears = Object.entries(stats.yearDistribution || {})
             .sort((a, b) => b[1] - a[1])
             .slice(0, 10)
@@ -57,6 +47,19 @@ async function initStats() {
                 formattedValue: `${count} tracks`
             }));
         renderBarChart('years-chart', topReleaseYears);
+
+        // 4. Render Longest Epic Tracks
+        const songs = await getLikedSongs();
+        const longestTracks = (songs || [])
+            .filter(s => s.durationMs > 0)
+            .sort((a, b) => b.durationMs - a.durationMs)
+            .slice(0, 10)
+            .map(s => ({
+                label: `${s.name} (${s.artistNames})`,
+                value: Math.round(s.durationMs / 1000),
+                formattedValue: s.durationFormatted || ''
+            }));
+        renderBarChart('longest-tracks-chart', longestTracks);
 
         loadingEl.style.display = 'none';
         contentEl.style.display = 'block';

@@ -1,6 +1,6 @@
 let allSongs = [];
 let filteredSongs = [];
-let currentSort = 'added-desc';
+let currentSort = 'name-asc';
 let currentViewMode = 'grid';
 let currentAudio = null;
 let currentPlayingId = null;
@@ -19,7 +19,7 @@ async function init() {
 
         if (profile?.displayName) {
             document.getElementById('user-info').innerHTML = `
-                Archived for <a href="${profile.spotifyUrl || '#'}" target="_blank">@${profile.displayName}</a> · Last synced: ${stats?.lastUpdated ? new Date(stats.lastUpdated).toLocaleDateString() : 'Ready'}
+                Archived for <a href="${profile.spotifyUrl || '#'}" target="_blank">@${profile.displayName}</a>
             `;
         }
 
@@ -80,10 +80,6 @@ function sortSongs(criteria) {
 
     allSongs.sort((a, b) => {
         switch (criteria) {
-            case 'added-desc':
-                return (b.addedAt || '').localeCompare(a.addedAt || '');
-            case 'added-asc':
-                return (a.addedAt || '').localeCompare(b.addedAt || '');
             case 'name-asc':
                 return (a.name || '').localeCompare(b.name || '');
             case 'artist-asc':
@@ -206,7 +202,6 @@ function createSongCard(song) {
         <div class="song-meta">
             <span>${song.album?.releaseYear || ''}</span>
             <span>${song.durationFormatted || ''}</span>
-            ${song.addedDate ? `<span class="badge">Liked ${song.addedDate}</span>` : ''}
         </div>
     `;
 

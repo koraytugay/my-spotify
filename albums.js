@@ -1,6 +1,6 @@
 let allAlbums = [];
 let filteredAlbums = [];
-let currentSort = 'added-desc';
+let currentSort = 'name-asc';
 
 async function initAlbums() {
     const loadingEl = document.getElementById('loading');
@@ -27,11 +27,10 @@ async function initAlbums() {
 function sortAlbums(criteria) {
     currentSort = criteria;
     allAlbums.sort((a, b) => {
-        if (criteria === 'added-desc') return (b.addedAt || '').localeCompare(a.addedAt || '');
-        if (criteria === 'year-desc') return (parseInt(b.releaseYear) || 0) - (parseInt(a.releaseYear) || 0);
-        if (criteria === 'year-asc') return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0);
         if (criteria === 'name-asc') return (a.name || '').localeCompare(b.name || '');
         if (criteria === 'artist-asc') return (a.artistNames || '').localeCompare(b.artistNames || '');
+        if (criteria === 'year-desc') return (parseInt(b.releaseYear) || 0) - (parseInt(a.releaseYear) || 0);
+        if (criteria === 'year-asc') return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0);
         return 0;
     });
     filterAlbums();

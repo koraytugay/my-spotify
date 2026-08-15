@@ -23,7 +23,6 @@
                 <a href="playlists.html" class="nav-link">📑 Playlists</a>
                 <a href="albums.html" class="nav-link">💿 Saved Albums</a>
                 <a href="stats.html" class="nav-link">📊 Statistics</a>
-                <a href="history.html" class="nav-link">📅 Timeline</a>
                 <button id="random-song-btn" class="nav-link nav-button">🎲 Random Song</button>
             </nav>
         </header>
@@ -65,8 +64,6 @@
                 <div class="control-group">
                     <label for="sort-select">Sort by:</label>
                     <select id="sort-select" onchange="sortSongs(this.value)">
-                        <option value="added-desc">Date Liked (Newest)</option>
-                        <option value="added-asc">Date Liked (Oldest)</option>
                         <option value="name-asc">Title (A-Z)</option>
                         <option value="artist-asc">Artist (A-Z)</option>
                         <option value="year-desc">Release Year (Newest)</option>
