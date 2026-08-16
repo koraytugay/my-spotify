@@ -577,10 +577,18 @@ function generateCustomArtistBlend(autoScroll = true) {
 
     // Generate up to 2 hours (~7,200,000 ms) of interleaved music
     const blended = smartInterleave(tracksByArtist, 7200000);
-    const namesList = Array.from(selectedArtistNames).join(' + ');
+    
+    // Clean, readable title formatting avoiding long unreadable chains
+    const artistArray = Array.from(selectedArtistNames);
+    if (artistArray.length <= 3) {
+        currentMixTitle = `🎪 ${artistArray.join(' + ')} Lineup`;
+    } else if (artistArray.length <= 5) {
+        currentMixTitle = `🎪 ${artistArray.slice(0, 3).join(', ')} + ${artistArray.length - 3} more`;
+    } else {
+        currentMixTitle = `🎪 Multi-Artist Festival Blend (${artistArray.length} Artists)`;
+    }
 
     currentMixTracks = blended;
-    currentMixTitle = `🎪 ${namesList} Lineup`;
     renderMixResult(autoScroll);
 }
 
@@ -598,11 +606,22 @@ function renderMixResult(autoScroll = false) {
     const resultSection = document.getElementById('mix-result-section');
     const titleEl = document.getElementById('mix-result-title');
     const metaEl = document.getElementById('mix-result-meta');
+    const badgeEl = document.getElementById('mix-badge-label');
     const gridEl = document.getElementById('mix-tracks-grid');
 
     if (!resultSection || !gridEl) return;
 
     resultSection.style.display = 'block';
+
+    if (badgeEl) {
+        if (currentMixType === 'blend') {
+            badgeEl.textContent = `🎪 ${selectedArtistNames.size} Artists Blend`;
+        } else if (currentMixType === 'mood_tag') {
+            badgeEl.textContent = '✨ Curated Mix';
+        } else {
+            badgeEl.textContent = '🎲 Preset Mix';
+        }
+    }
 
     if (titleEl) titleEl.textContent = currentMixTitle;
 
@@ -614,7 +633,11 @@ function renderMixResult(autoScroll = false) {
     const durationStr = hrs > 0 ? `~${hrs} hr ${mins} min` : `~${mins} min`;
 
     if (metaEl) {
-        metaEl.textContent = `${count} tracks • ${durationStr}`;
+        if (currentMixType === 'blend' && selectedArtistNames.size > 3) {
+            metaEl.textContent = `${count} tracks • ${durationStr} • ${selectedArtistNames.size} artists seamlessly interleaved`;
+        } else {
+            metaEl.textContent = `${count} tracks • ${durationStr}`;
+        }
     }
 
     gridEl.innerHTML = '';
