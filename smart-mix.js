@@ -711,6 +711,29 @@ async function getValidSpotifyToken() {
     return token;
 }
 
+function copyMixTrackLinks() {
+    if (!currentMixTracks || currentMixTracks.length === 0) {
+        alert('Generate a mix first!');
+        return;
+    }
+
+    const links = currentMixTracks.map(t => {
+        const url = getSpotifyUrl(t, 'track');
+        const artist = t.artistNames || (t.artists && t.artists[0]?.name) || 'Unknown Artist';
+        return `${t.name} - ${artist}: ${url}`;
+    }).join('\n');
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(links).then(() => {
+            alert(`📋 Copied ${currentMixTracks.length} Spotify track links to your clipboard!`);
+        }).catch(() => {
+            prompt('Copy track links below:', links);
+        });
+    } else {
+        prompt('Copy track links below:', links);
+    }
+}
+
 async function syncCurrentMixToSpotify() {
     if (!currentMixTracks || currentMixTracks.length === 0) {
         alert('Generate a mix first before syncing!');
@@ -822,9 +845,7 @@ async function syncCurrentMixToSpotify() {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        name: 'My Smart Mix',
-                        description: desc,
-                        public: false
+                        name: 'My Smart Mix'
                     })
                 });
             }
