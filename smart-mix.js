@@ -645,7 +645,9 @@ async function handleSpotifyAuthCallback() {
 
         if (res.ok) {
             const data = await res.json();
+            console.log('Spotify Auth successful! Granted scopes:', data.scope);
             localStorage.setItem('spotify_user_access_token', data.access_token);
+            if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
             if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
             localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
             localStorage.removeItem('spotify_pkce_verifier');
@@ -658,7 +660,7 @@ async function handleSpotifyAuthCallback() {
                     const parsed = JSON.parse(pending);
                     currentMixTracks = parsed.tracks || [];
                     currentMixTitle = parsed.title || 'Curated Smart Mix';
-                    setTimeout(() => syncCurrentMixToSpotify(), 200);
+                    setTimeout(() => syncCurrentMixToSpotify(), 300);
                 } catch (e) {}
             }
         } else {
@@ -696,6 +698,7 @@ async function getValidSpotifyToken() {
             if (res.ok) {
                 const data = await res.json();
                 localStorage.setItem('spotify_user_access_token', data.access_token);
+                if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
                 if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
                 localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
                 return data.access_token;
@@ -750,9 +753,11 @@ async function syncCurrentMixToSpotify() {
         }
 
         let userId = null;
+        let userEmail = null;
         if (userRes.ok) {
             const userData = await userRes.json();
             userId = userData.id;
+            userEmail = userData.email;
         }
 
         const dateStr = new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
@@ -826,6 +831,11 @@ async function syncCurrentMixToSpotify() {
 
             if (!createRes.ok) {
                 const errText = await createRes.text();
+                if (createRes.status === 403) {
+                    const granted = localStorage.getItem('spotify_granted_scopes') || 'unknown';
+                    const userHint = userEmail ? ` (logged in as ${userEmail} / ${userId})` : '';
+                    throw new Error(`Spotify 403 Forbidden${userHint}.\n\nCheck:\n1. Your Spotify Developer App is in Development Mode and your account (${userEmail || userId || 'email'}) must be added under 'User Management' in https://developer.spotify.com/dashboard\n2. Granted scopes: ${granted}`);
+                }
                 throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
             }
 
@@ -891,6 +901,11 @@ async function syncCurrentMixToSpotify() {
 
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
+            if (replaceRes.status === 403) {
+                const granted = localStorage.getItem('spotify_granted_scopes') || 'unknown';
+                const userHint = userEmail ? ` (logged in as ${userEmail} / ${userId})` : '';
+                throw new Error(`Spotify 403 Forbidden${userHint}.\n\nCheck:\n1. Your Spotify Developer App is in Development Mode and your account (${userEmail || userId || 'email'}) must be added under 'User Management' in https://developer.spotify.com/dashboard\n2. Granted scopes: ${granted}`);
+            }
             throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);
         }
 
