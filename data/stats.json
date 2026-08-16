@@ -1,17 +1,17 @@
 {
-  "totalLikedSongs": 624,
+  "totalLikedSongs": 592,
   "totalPlaylists": 12,
   "totalSavedAlbums": 78,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 162672155,
-  "totalDurationHours": 45.2,
-  "totalDurationDays": 1.9,
-  "totalDurationFormatted": "45 hrs 11 mins",
+  "totalDurationMs": 154465752,
+  "totalDurationHours": 42.9,
+  "totalDurationDays": 1.8,
+  "totalDurationFormatted": "42 hrs 54 mins",
   "uniqueArtistsCount": 495,
   "topLikedArtists": [
     {
       "name": "In Flames",
-      "count": 16
+      "count": 14
     },
     {
       "name": "Savatage",
@@ -23,15 +23,7 @@
     },
     {
       "name": "Erkin Koray",
-      "count": 7
-    },
-    {
-      "name": "Aşkın Nur Yengi",
-      "count": 5
-    },
-    {
-      "name": "Thievery Corporation",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Yavuz Çetin",
@@ -54,23 +46,11 @@
       "count": 4
     },
     {
-      "name": "Black Uhuru",
-      "count": 4
-    },
-    {
-      "name": "The Midnight",
-      "count": 4
-    },
-    {
       "name": "Foreigner",
       "count": 4
     },
     {
       "name": "Pentagram",
-      "count": 4
-    },
-    {
-      "name": "Mattafix",
       "count": 4
     },
     {
@@ -90,18 +70,6 @@
       "count": 4
     },
     {
-      "name": "Deep Purple",
-      "count": 4
-    },
-    {
-      "name": "HammerFall",
-      "count": 4
-    },
-    {
-      "name": "Guns N' Roses",
-      "count": 4
-    },
-    {
       "name": "The Beatles",
       "count": 4
     },
@@ -110,7 +78,11 @@
       "count": 4
     },
     {
-      "name": "Emilíana Torrini",
+      "name": "Aşkın Nur Yengi",
+      "count": 3
+    },
+    {
+      "name": "Thievery Corporation",
       "count": 3
     },
     {
@@ -122,21 +94,49 @@
       "count": 3
     },
     {
+      "name": "Black Uhuru",
+      "count": 3
+    },
+    {
+      "name": "The Midnight",
+      "count": 3
+    },
+    {
       "name": "İlhan İrem",
       "count": 3
     },
     {
       "name": "Ezginin Günlügü",
       "count": 3
+    },
+    {
+      "name": "Dire Straits",
+      "count": 3
+    },
+    {
+      "name": "Bill Withers",
+      "count": 3
+    },
+    {
+      "name": "Stevie Wonder",
+      "count": 3
+    },
+    {
+      "name": "Pearl Jam",
+      "count": 3
+    },
+    {
+      "name": "Sade",
+      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "1990s": 142,
-    "1980s": 88,
-    "2000s": 150,
-    "2010s": 155,
-    "1970s": 46,
+    "1990s": 133,
+    "1980s": 85,
+    "2000s": 139,
+    "2010s": 147,
+    "1970s": 45,
     "2020s": 24,
     "1960s": 18,
     "1950s": 1
@@ -155,48 +155,48 @@
     "1973": 5,
     "1974": 4,
     "1975": 4,
-    "1976": 9,
+    "1976": 8,
     "1977": 3,
     "1978": 8,
     "1979": 5,
     "1980": 10,
-    "1981": 12,
+    "1981": 11,
     "1982": 3,
     "1983": 5,
-    "1984": 15,
+    "1984": 13,
     "1985": 7,
     "1986": 7,
     "1987": 15,
     "1988": 6,
     "1989": 8,
-    "1990": 10,
+    "1990": 8,
     "1991": 9,
-    "1992": 11,
-    "1993": 12,
-    "1994": 12,
+    "1992": 10,
+    "1993": 11,
+    "1994": 11,
     "1995": 7,
-    "1996": 25,
-    "1997": 23,
+    "1996": 22,
+    "1997": 22,
     "1998": 12,
     "1999": 21,
     "2000": 13,
-    "2001": 13,
-    "2002": 16,
-    "2003": 13,
-    "2004": 16,
-    "2005": 15,
+    "2001": 12,
+    "2002": 15,
+    "2003": 12,
+    "2004": 15,
+    "2005": 12,
     "2006": 15,
-    "2007": 19,
-    "2008": 14,
+    "2007": 16,
+    "2008": 13,
     "2009": 16,
     "2010": 11,
     "2011": 14,
     "2012": 13,
-    "2013": 15,
-    "2014": 25,
+    "2013": 14,
+    "2014": 21,
     "2015": 23,
-    "2016": 23,
-    "2017": 13,
+    "2016": 22,
+    "2017": 11,
     "2018": 7,
     "2019": 11,
     "2020": 6,

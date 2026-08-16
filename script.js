@@ -61,7 +61,9 @@ async function init() {
     try {
         const songs = await getLikedSongs();
 
-        allSongs = Array.isArray(songs) ? songs : [];
+        allSongs = Array.isArray(songs) 
+            ? (typeof deduplicateSongs === 'function' ? deduplicateSongs(songs) : songs)
+            : [];
         filteredSongs = [...allSongs];
 
         populateDecadeFilter();

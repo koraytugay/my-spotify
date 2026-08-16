@@ -33,9 +33,44 @@ async function getProfile() {
     };
 }
 
+function getTrackDeduplicationKey(song) {
+    if (!song) return '';
+    const name = (song.name || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    const artist = (song.artistNames || (song.artists && song.artists[0] && song.artists[0].name) || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    return `${name}:::${artist}`;
+}
+
+function deduplicateSongs(songs) {
+    if (!Array.isArray(songs)) return [];
+    const seenKeys = new Set();
+    const seenIds = new Set();
+    const result = [];
+    for (const song of songs) {
+        if (!song) continue;
+        const key = getTrackDeduplicationKey(song);
+        const id = song.id;
+        if (id && seenIds.has(id)) continue;
+        if (key && seenKeys.has(key)) continue;
+        if (id) seenIds.add(id);
+        if (key) seenKeys.add(key);
+        result.push(song);
+    }
+    return result;
+}
+
 async function getLikedSongs() {
     const songs = await fetchJson(DATA_PATHS.likedSongs);
-    return songs || [];
+    return deduplicateSongs(songs || []);
 }
 
 async function getPlaylists() {
@@ -162,6 +197,7 @@ if (typeof window !== 'undefined') {
     window.getSpotifyUri = getSpotifyUri;
     window.fetchJson = fetchJson;
     window.getProfile = getProfile;
+    window.deduplicateSongs = deduplicateSongs;
     window.getLikedSongs = getLikedSongs;
     window.getPlaylists = getPlaylists;
     window.getSavedAlbums = getSavedAlbums;

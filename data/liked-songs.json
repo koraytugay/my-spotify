@@ -1683,37 +1683,6 @@
     "addedDate": "2025-10-24"
   },
   {
-    "id": "4lYa0StDrab39X1panRPN7",
-    "name": "Décollage",
-    "artists": [
-      {
-        "id": "25KNo5GDS6ZpLkjasaecA3",
-        "name": "Thievery Corporation"
-      },
-      {
-        "id": "45JTooca2TKpIE9nLnT5U5",
-        "name": "Lou Lou Gehlickhani"
-      }
-    ],
-    "artistNames": "Thievery Corporation, Lou Lou Gehlickhani",
-    "album": {
-      "id": "0XSDdumsjbikADECzlPMXq",
-      "name": "Saudade",
-      "releaseDate": "2014-03-25",
-      "releaseYear": "2014",
-      "totalTracks": 13
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bff7b876dfc636ea5da66219",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851bff7b876dfc636ea5da66219",
-    "durationMs": 203890,
-    "durationFormatted": "3:23",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/4lYa0StDrab39X1panRPN7",
-    "uri": "spotify:track:4lYa0StDrab39X1panRPN7",
-    "addedAt": "2025-10-22T18:32:07Z",
-    "addedDate": "2025-10-22"
-  },
-  {
     "id": "3Ydwbd3REFlpWIEhCNI6fC",
     "name": "Simply Falling",
     "artists": [
@@ -3302,37 +3271,6 @@
     "uri": "spotify:track:76SEZdYnMNnUqi43anI14r",
     "addedAt": "2025-02-25T13:51:23Z",
     "addedDate": "2025-02-25"
-  },
-  {
-    "id": "7nNUSD1jkWC71zIOUWY03E",
-    "name": "Until The Morning",
-    "artists": [
-      {
-        "id": "25KNo5GDS6ZpLkjasaecA3",
-        "name": "Thievery Corporation"
-      },
-      {
-        "id": "08j69Ndyx1P7RLO3Janb5P",
-        "name": "Emilíana Torrini"
-      }
-    ],
-    "artistNames": "Thievery Corporation, Emilíana Torrini",
-    "album": {
-      "id": "22Y3wMfU6Bm0rtnjaljDSn",
-      "name": "The Richest Man In Babylon",
-      "releaseDate": "2003-01-14",
-      "releaseYear": "2003",
-      "totalTracks": 15
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733f9ad61ff13105727454dd50",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513f9ad61ff13105727454dd50",
-    "durationMs": 236960,
-    "durationFormatted": "3:56",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/7nNUSD1jkWC71zIOUWY03E",
-    "uri": "spotify:track:7nNUSD1jkWC71zIOUWY03E",
-    "addedAt": "2025-02-12T21:31:57Z",
-    "addedDate": "2025-02-12"
   },
   {
     "id": "1ibHApXtb0pgplmNDRLHrJ",
@@ -6095,33 +6033,6 @@
     "addedDate": "2022-12-14"
   },
   {
-    "id": "3KpzWwsvsZLDbLhIZQA9xE",
-    "name": "Journey",
-    "artists": [
-      {
-        "id": "5keeQyPKYRxUCKDMECTXG3",
-        "name": "Black Uhuru"
-      }
-    ],
-    "artistNames": "Black Uhuru",
-    "album": {
-      "id": "2OCqRoV6adWSAJXivSnFWs",
-      "name": "Red",
-      "releaseDate": "1981-01-01",
-      "releaseYear": "1981",
-      "totalTracks": 8
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-    "durationMs": 322293,
-    "durationFormatted": "5:22",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3KpzWwsvsZLDbLhIZQA9xE",
-    "uri": "spotify:track:3KpzWwsvsZLDbLhIZQA9xE",
-    "addedAt": "2022-12-12T18:48:17Z",
-    "addedDate": "2022-12-12"
-  },
-  {
     "id": "4xHWH1jwV5j4mBYRhxPbwZ",
     "name": "Time - 2011 Remastered Version",
     "artists": [
@@ -6801,33 +6712,6 @@
     "addedDate": "2022-08-17"
   },
   {
-    "id": "7a19y3FBr1qbTPWHsCokoW",
-    "name": "Navigate the Seas of the Sun",
-    "artists": [
-      {
-        "id": "7Iffw1nP3NjCWkRIx3Ily9",
-        "name": "Bruce Dickinson"
-      }
-    ],
-    "artistNames": "Bruce Dickinson",
-    "album": {
-      "id": "6Jpi0RF8aCFeVj9JtNPlRY",
-      "name": "Tyranny of Souls",
-      "releaseDate": "2005-05-23",
-      "releaseYear": "2005",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a0631efff71f41a0c06ac03b",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a0631efff71f41a0c06ac03b",
-    "durationMs": 351760,
-    "durationFormatted": "5:51",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/7a19y3FBr1qbTPWHsCokoW",
-    "uri": "spotify:track:7a19y3FBr1qbTPWHsCokoW",
-    "addedAt": "2022-08-16T12:08:42Z",
-    "addedDate": "2022-08-16"
-  },
-  {
     "id": "2JjRySKmXZGHRyCHOyhDr9",
     "name": "Edge of Thorns",
     "artists": [
@@ -6914,33 +6798,6 @@
     "spotifyUrl": "https://open.spotify.com/track/4gvrJnKCKIPiacNsWVQwEU",
     "uri": "spotify:track:4gvrJnKCKIPiacNsWVQwEU",
     "addedAt": "2022-08-13T03:13:24Z",
-    "addedDate": "2022-08-13"
-  },
-  {
-    "id": "6tJPdGKrbAeyhkkhn44RHR",
-    "name": "Days of Thunder",
-    "artists": [
-      {
-        "id": "2NFrAuh8RQdQoS7iYFbckw",
-        "name": "The Midnight"
-      }
-    ],
-    "artistNames": "The Midnight",
-    "album": {
-      "id": "54xM746igJkdPJenRhW1za",
-      "name": "Days of Thunder",
-      "releaseDate": "2014-03-19",
-      "releaseYear": "2014",
-      "totalTracks": 6
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-    "durationMs": 324018,
-    "durationFormatted": "5:24",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/6tJPdGKrbAeyhkkhn44RHR",
-    "uri": "spotify:track:6tJPdGKrbAeyhkkhn44RHR",
-    "addedAt": "2022-08-13T02:52:37Z",
     "addedDate": "2022-08-13"
   },
   {
@@ -8192,33 +8049,6 @@
     "addedDate": "2022-04-04"
   },
   {
-    "id": "6JLWscSAPrRHmZfHTWdC2u",
-    "name": "Kimse Bilmez",
-    "artists": [
-      {
-        "id": "6dsovaQel9LvTdY8wpWCoO",
-        "name": "Mehmet Güreli"
-      }
-    ],
-    "artistNames": "Mehmet Güreli",
-    "album": {
-      "id": "2Aq7brNwuNN4hjbV8YYb7A",
-      "name": "Zamboni Sokağı",
-      "releaseDate": "2017-05-19",
-      "releaseYear": "2017",
-      "totalTracks": 12
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a3954f5712fa6bde742ff61",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510a3954f5712fa6bde742ff61",
-    "durationMs": 205786,
-    "durationFormatted": "3:25",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/6JLWscSAPrRHmZfHTWdC2u",
-    "uri": "spotify:track:6JLWscSAPrRHmZfHTWdC2u",
-    "addedAt": "2022-04-04T01:45:50Z",
-    "addedDate": "2022-04-04"
-  },
-  {
     "id": "6p10uRYb1zlOFv2AVHSAEw",
     "name": "Kimse Bilemez",
     "artists": [
@@ -8603,33 +8433,6 @@
     "uri": "spotify:track:5NsOnvpjvH9sCz8TyVOmOz",
     "addedAt": "2021-09-02T02:19:22Z",
     "addedDate": "2021-09-02"
-  },
-  {
-    "id": "1CLyjTwovBxe69MXK1qEn4",
-    "name": "Sonsuza Dek",
-    "artists": [
-      {
-        "id": "7lAMAZizRgc9vwXHQOULe4",
-        "name": "Doğan Canku"
-      }
-    ],
-    "artistNames": "Doğan Canku",
-    "album": {
-      "id": "4DHKeXsLcAkgXC9rtsP8VW",
-      "name": "Sonsuza Dek / Ayrılık",
-      "releaseDate": "1990",
-      "releaseYear": "1990",
-      "totalTracks": 9
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273081edcd8c0ad2dbcbfe3903d",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851081edcd8c0ad2dbcbfe3903d",
-    "durationMs": 336360,
-    "durationFormatted": "5:36",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/1CLyjTwovBxe69MXK1qEn4",
-    "uri": "spotify:track:1CLyjTwovBxe69MXK1qEn4",
-    "addedAt": "2021-09-01T23:46:03Z",
-    "addedDate": "2021-09-01"
   },
   {
     "id": "6L5BZEcZmD6RBJnimzlyKr",
@@ -9188,33 +8991,6 @@
     "addedDate": "2019-04-25"
   },
   {
-    "id": "3NE63nBeJOdpW2tSjiXDBJ",
-    "name": "Bir Zaman Hatası",
-    "artists": [
-      {
-        "id": "2fYdUIUPS7aDdWCzb8Aw2k",
-        "name": "Aşkın Nur Yengi"
-      }
-    ],
-    "artistNames": "Aşkın Nur Yengi",
-    "album": {
-      "id": "16TqQdxkWe5wRdHzQkONPC",
-      "name": "Sıramı Bekliyorum",
-      "releaseDate": "1993-07-15",
-      "releaseYear": "1993",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732df012f945f198d80f58b0af",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512df012f945f198d80f58b0af",
-    "durationMs": 282200,
-    "durationFormatted": "4:42",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3NE63nBeJOdpW2tSjiXDBJ",
-    "uri": "spotify:track:3NE63nBeJOdpW2tSjiXDBJ",
-    "addedAt": "2019-04-23T00:08:01Z",
-    "addedDate": "2019-04-23"
-  },
-  {
     "id": "08mG3Y1vljYA6bvDt4Wqkj",
     "name": "Back In Black",
     "artists": [
@@ -9267,33 +9043,6 @@
     "uri": "spotify:track:5lWSa1rmuSL6OBPOnkAqoa",
     "addedAt": "2019-02-26T13:13:18Z",
     "addedDate": "2019-02-26"
-  },
-  {
-    "id": "0uvx2NCmezldX5aPjnKe3g",
-    "name": "Öyle Bir Geçer Zaman ki",
-    "artists": [
-      {
-        "id": "4o3Nv2BAyoZkyGaRXv4rT3",
-        "name": "Erkin Koray"
-      }
-    ],
-    "artistNames": "Erkin Koray",
-    "album": {
-      "id": "1XGapvM1aruymuhFSrsCjG",
-      "name": "Tamam Artık (Remastered)",
-      "releaseDate": "1990-06-29",
-      "releaseYear": "1990",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe67c9370a8380183b1555f9",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fe67c9370a8380183b1555f9",
-    "durationMs": 319268,
-    "durationFormatted": "5:19",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/0uvx2NCmezldX5aPjnKe3g",
-    "uri": "spotify:track:0uvx2NCmezldX5aPjnKe3g",
-    "addedAt": "2019-02-21T21:11:25Z",
-    "addedDate": "2019-02-21"
   },
   {
     "id": "0WK9PPF7nvSvlr3r4tKgEn",
@@ -9771,33 +9520,6 @@
     "addedDate": "2018-08-13"
   },
   {
-    "id": "4stm6lf1vQBSl7Eq4Npzr0",
-    "name": "Big City Life",
-    "artists": [
-      {
-        "id": "5KORW1YGiERJqfuYjXMCyz",
-        "name": "Mattafix"
-      }
-    ],
-    "artistNames": "Mattafix",
-    "album": {
-      "id": "4n1tYB2t7IsIPoyCSooPHK",
-      "name": "Signs Of A Struggle",
-      "releaseDate": "2005",
-      "releaseYear": "2005",
-      "totalTracks": 14
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dfbe0339ddb5d5bb033b0735",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851dfbe0339ddb5d5bb033b0735",
-    "durationMs": 240893,
-    "durationFormatted": "4:00",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/4stm6lf1vQBSl7Eq4Npzr0",
-    "uri": "spotify:track:4stm6lf1vQBSl7Eq4Npzr0",
-    "addedAt": "2018-08-03T13:39:50Z",
-    "addedDate": "2018-08-03"
-  },
-  {
     "id": "301f0azFG1uXqtiSn2FP09",
     "name": "Mor Dağlar",
     "artists": [
@@ -9984,33 +9706,6 @@
     "spotifyUrl": "https://open.spotify.com/track/300RfAPZ57B0y6YYj9n6DN",
     "uri": "spotify:track:300RfAPZ57B0y6YYj9n6DN",
     "addedAt": "2018-06-15T17:20:32Z",
-    "addedDate": "2018-06-15"
-  },
-  {
-    "id": "5XE8c07vbpQBUriwybOHtd",
-    "name": "Have You Ever Seen The Rain",
-    "artists": [
-      {
-        "id": "3IYUhFvPQItj6xySrBmZkd",
-        "name": "Creedence Clearwater Revival"
-      }
-    ],
-    "artistNames": "Creedence Clearwater Revival",
-    "album": {
-      "id": "03GKkfyog7hnllilFS3jIV",
-      "name": "Chronicle: 20 Greatest Hits",
-      "releaseDate": "1976-01-01",
-      "releaseYear": "1976",
-      "totalTracks": 20
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735b18abb5facf12c82192bda7",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515b18abb5facf12c82192bda7",
-    "durationMs": 160000,
-    "durationFormatted": "2:40",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/5XE8c07vbpQBUriwybOHtd",
-    "uri": "spotify:track:5XE8c07vbpQBUriwybOHtd",
-    "addedAt": "2018-06-15T17:13:46Z",
     "addedDate": "2018-06-15"
   },
   {
@@ -10513,33 +10208,6 @@
     "spotifyUrl": "https://open.spotify.com/track/7KKx4INB8LyGUeNXKiqQHK",
     "uri": "spotify:track:7KKx4INB8LyGUeNXKiqQHK",
     "addedAt": "2018-04-21T02:52:58Z",
-    "addedDate": "2018-04-21"
-  },
-  {
-    "id": "43tqYFCVZdqXFNQ3PzNbt8",
-    "name": "Bira Ve Kahve",
-    "artists": [
-      {
-        "id": "2ZdsrdDvi0wtkrCswBDINB",
-        "name": "Grizu"
-      }
-    ],
-    "artistNames": "Grizu",
-    "album": {
-      "id": "751OCWl7lg9F0W42lWHKtc",
-      "name": "Tuzla Buz",
-      "releaseDate": "1996-09-13",
-      "releaseYear": "1996",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734239f58f6f15474d6c9a8dc6",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514239f58f6f15474d6c9a8dc6",
-    "durationMs": 264106,
-    "durationFormatted": "4:24",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/43tqYFCVZdqXFNQ3PzNbt8",
-    "uri": "spotify:track:43tqYFCVZdqXFNQ3PzNbt8",
-    "addedAt": "2018-04-21T02:02:51Z",
     "addedDate": "2018-04-21"
   },
   {
@@ -11087,33 +10755,6 @@
     "addedDate": "2017-10-22"
   },
   {
-    "id": "5nNmj1cLH3r4aA4XDJ2bgY",
-    "name": "September",
-    "artists": [
-      {
-        "id": "4QQgXkCYTt3BlENzhyNETg",
-        "name": "Earth, Wind & Fire"
-      }
-    ],
-    "artistNames": "Earth, Wind & Fire",
-    "album": {
-      "id": "6UixeNUSjrBnxeYV0ZuGHR",
-      "name": "The Eternal Dance",
-      "releaseDate": "1992-09-08",
-      "releaseYear": "1992",
-      "totalTracks": 55
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af0d466d16c97b6385219d90",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af0d466d16c97b6385219d90",
-    "durationMs": 214826,
-    "durationFormatted": "3:34",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/5nNmj1cLH3r4aA4XDJ2bgY",
-    "uri": "spotify:track:5nNmj1cLH3r4aA4XDJ2bgY",
-    "addedAt": "2017-10-22T08:36:33Z",
-    "addedDate": "2017-10-22"
-  },
-  {
     "id": "2EqlS6tkEnglzr7tkKAAYD",
     "name": "Come Together - Remastered 2009",
     "artists": [
@@ -11493,33 +11134,6 @@
     "spotifyUrl": "https://open.spotify.com/track/0mJwTj7ldazo0CIYPt4wkN",
     "uri": "spotify:track:0mJwTj7ldazo0CIYPt4wkN",
     "addedAt": "2017-10-05T08:01:29Z",
-    "addedDate": "2017-10-05"
-  },
-  {
-    "id": "6WBSXuEF25lbXSNSDhQOpz",
-    "name": "Ay İnanmıyorum",
-    "artists": [
-      {
-        "id": "2fYdUIUPS7aDdWCzb8Aw2k",
-        "name": "Aşkın Nur Yengi"
-      }
-    ],
-    "artistNames": "Aşkın Nur Yengi",
-    "album": {
-      "id": "1lqRZGZGpKQ0TxAIprIBvn",
-      "name": "Kara Çiçeğim",
-      "releaseDate": "1994-12-12",
-      "releaseYear": "1994",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737292be2112d41e420370434e",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517292be2112d41e420370434e",
-    "durationMs": 261093,
-    "durationFormatted": "4:21",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/6WBSXuEF25lbXSNSDhQOpz",
-    "uri": "spotify:track:6WBSXuEF25lbXSNSDhQOpz",
-    "addedAt": "2017-10-05T07:52:44Z",
     "addedDate": "2017-10-05"
   },
   {
@@ -12098,33 +11712,6 @@
     "addedDate": "2017-09-20"
   },
   {
-    "id": "7v4bJYRbqVn2sIYe5Z5gxZ",
-    "name": "Dialogue with the Stars",
-    "artists": [
-      {
-        "id": "57ylwQTnFnIhJh4nu4rxCs",
-        "name": "In Flames"
-      }
-    ],
-    "artistNames": "In Flames",
-    "album": {
-      "id": "3KXb9Mu6857q52N437b6VV",
-      "name": "Whoracle (Reissue 2014)",
-      "releaseDate": "1997-10-27",
-      "releaseYear": "1997",
-      "totalTracks": 13
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730966f64bbae8427c0df8dd0d",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510966f64bbae8427c0df8dd0d",
-    "durationMs": 180960,
-    "durationFormatted": "3:00",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/7v4bJYRbqVn2sIYe5Z5gxZ",
-    "uri": "spotify:track:7v4bJYRbqVn2sIYe5Z5gxZ",
-    "addedAt": "2017-09-20T14:25:28Z",
-    "addedDate": "2017-09-20"
-  },
-  {
     "id": "3b6gEWHvgs6S7kw7YtQP5t",
     "name": "The Jester Race",
     "artists": [
@@ -12149,33 +11736,6 @@
     "spotifyUrl": "https://open.spotify.com/track/3b6gEWHvgs6S7kw7YtQP5t",
     "uri": "spotify:track:3b6gEWHvgs6S7kw7YtQP5t",
     "addedAt": "2017-09-20T12:03:07Z",
-    "addedDate": "2017-09-20"
-  },
-  {
-    "id": "6gcxrtkza2PE7BEF5iAcPD",
-    "name": "The Jester's Dance",
-    "artists": [
-      {
-        "id": "57ylwQTnFnIhJh4nu4rxCs",
-        "name": "In Flames"
-      }
-    ],
-    "artistNames": "In Flames",
-    "album": {
-      "id": "4xLwdPJXwzy4yDUR3DtYio",
-      "name": "The Jester Race (Reissue 2014)",
-      "releaseDate": "1996-02-20",
-      "releaseYear": "1996",
-      "totalTracks": 17
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b362b95cd48dca4110dc93cd",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b362b95cd48dca4110dc93cd",
-    "durationMs": 129199,
-    "durationFormatted": "2:09",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/6gcxrtkza2PE7BEF5iAcPD",
-    "uri": "spotify:track:6gcxrtkza2PE7BEF5iAcPD",
-    "addedAt": "2017-09-20T11:45:54Z",
     "addedDate": "2017-09-20"
   },
   {
@@ -12345,33 +11905,6 @@
     "addedDate": "2017-09-14"
   },
   {
-    "id": "3hxMQKMSDbLaCHxnJsWNyF",
-    "name": "Yine",
-    "artists": [
-      {
-        "id": "5QpQ8Zu2s3aMjYf88au1Le",
-        "name": "Kurban"
-      }
-    ],
-    "artistNames": "Kurban",
-    "album": {
-      "id": "0betvnNsgmgKVl0nvKLaGD",
-      "name": "İnsanlar",
-      "releaseDate": "2005-05-06",
-      "releaseYear": "2005",
-      "totalTracks": 14
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27383ea77a5d83c2fbdaa552f6b",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485183ea77a5d83c2fbdaa552f6b",
-    "durationMs": 261642,
-    "durationFormatted": "4:21",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3hxMQKMSDbLaCHxnJsWNyF",
-    "uri": "spotify:track:3hxMQKMSDbLaCHxnJsWNyF",
-    "addedAt": "2017-09-14T20:15:04Z",
-    "addedDate": "2017-09-14"
-  },
-  {
     "id": "7JG7tn9tgEy2NwuPVAIkzE",
     "name": "Fırtınam",
     "artists": [
@@ -12504,33 +12037,6 @@
     "spotifyUrl": "https://open.spotify.com/track/0yd0NF2DaG04KLqJT5LLV2",
     "uri": "spotify:track:0yd0NF2DaG04KLqJT5LLV2",
     "addedAt": "2017-09-14T20:07:26Z",
-    "addedDate": "2017-09-14"
-  },
-  {
-    "id": "521gC8oqqmUknLZpodHOh9",
-    "name": "Perfect Strangers",
-    "artists": [
-      {
-        "id": "568ZhdwyaiCyOGJRtNYhWf",
-        "name": "Deep Purple"
-      }
-    ],
-    "artistNames": "Deep Purple",
-    "album": {
-      "id": "6qbsMDJ0kNKlROFRiK3uQB",
-      "name": "Perfect Strangers",
-      "releaseDate": "1984",
-      "releaseYear": "1984",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d517e371476b4420131ede41",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d517e371476b4420131ede41",
-    "durationMs": 328426,
-    "durationFormatted": "5:28",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/521gC8oqqmUknLZpodHOh9",
-    "uri": "spotify:track:521gC8oqqmUknLZpodHOh9",
-    "addedAt": "2017-09-14T20:06:59Z",
     "addedDate": "2017-09-14"
   },
   {
@@ -12889,33 +12395,6 @@
     "addedDate": "2017-09-14"
   },
   {
-    "id": "3wfujdbamR3Z46F4xav7LM",
-    "name": "Drive",
-    "artists": [
-      {
-        "id": "6DCIj8jNaNpBz8e5oKFPtp",
-        "name": "The Cars"
-      }
-    ],
-    "artistNames": "The Cars",
-    "album": {
-      "id": "5ycnwHGkzOlTuMOI3Zh4iO",
-      "name": "Heartbeat City",
-      "releaseDate": "1984-03-13",
-      "releaseYear": "1984",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273473881855ae3ceadb949a625",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851473881855ae3ceadb949a625",
-    "durationMs": 234493,
-    "durationFormatted": "3:54",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3wfujdbamR3Z46F4xav7LM",
-    "uri": "spotify:track:3wfujdbamR3Z46F4xav7LM",
-    "addedAt": "2017-09-14T07:05:49Z",
-    "addedDate": "2017-09-14"
-  },
-  {
     "id": "4rr67zXmEYf9ykLigeEsbv",
     "name": "Don't Dream It's Over",
     "artists": [
@@ -13053,33 +12532,6 @@
     "uri": "spotify:track:0ErrsvDylBWZeAUYbqLllv",
     "addedAt": "2017-09-07T18:16:33Z",
     "addedDate": "2017-09-07"
-  },
-  {
-    "id": "3Mh4EaJcfM4v2hpY49rjg6",
-    "name": "Lost on You",
-    "artists": [
-      {
-        "id": "0J7U24vlOOIeMpuaO6Q85A",
-        "name": "LP"
-      }
-    ],
-    "artistNames": "LP",
-    "album": {
-      "id": "6cnTDvhgqcc6d69Q9IoFeW",
-      "name": "Lost on You",
-      "releaseDate": "2016-12-09",
-      "releaseYear": "2016",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733b7f761a6d19ed94abe9b417",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513b7f761a6d19ed94abe9b417",
-    "durationMs": 268465,
-    "durationFormatted": "4:28",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3Mh4EaJcfM4v2hpY49rjg6",
-    "uri": "spotify:track:3Mh4EaJcfM4v2hpY49rjg6",
-    "addedAt": "2017-09-06T14:53:52Z",
-    "addedDate": "2017-09-06"
   },
   {
     "id": "2Yjv7MOdst5y6fFsq4cKOL",
@@ -14452,33 +13904,6 @@
     "addedDate": "2017-04-25"
   },
   {
-    "id": "2aU56ZwZBtPcBjz60OS6gO",
-    "name": "Glory To The Brave",
-    "artists": [
-      {
-        "id": "2o18h28enlHxj887tATc58",
-        "name": "HammerFall"
-      }
-    ],
-    "artistNames": "HammerFall",
-    "album": {
-      "id": "7nTDtVSBkJH9y7k2bSOedJ",
-      "name": "Steel Meets Steel - 10 Years Of Glory",
-      "releaseDate": "2007-10-23",
-      "releaseYear": "2007",
-      "totalTracks": 29
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273496ee110da8eeda2dfb04fa5",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851496ee110da8eeda2dfb04fa5",
-    "durationMs": 440293,
-    "durationFormatted": "7:20",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/2aU56ZwZBtPcBjz60OS6gO",
-    "uri": "spotify:track:2aU56ZwZBtPcBjz60OS6gO",
-    "addedAt": "2017-04-25T05:39:28Z",
-    "addedDate": "2017-04-25"
-  },
-  {
     "id": "6cHadcYgwBlltHwpZVtGXw",
     "name": "The Homecoming",
     "artists": [
@@ -14585,37 +14010,6 @@
     "uri": "spotify:track:0OynfSZQ7mM23NrS4nrSS0",
     "addedAt": "2017-03-18T11:25:43Z",
     "addedDate": "2017-03-18"
-  },
-  {
-    "id": "36pLU2ywVeBKEF0rrKtmCB",
-    "name": "La La La",
-    "artists": [
-      {
-        "id": "1bT7m67vi78r2oqvxrP3X5",
-        "name": "Naughty Boy"
-      },
-      {
-        "id": "2wY79sveU1sp5g7SokKOiI",
-        "name": "Sam Smith"
-      }
-    ],
-    "artistNames": "Naughty Boy, Sam Smith",
-    "album": {
-      "id": "2SVSPhDBqChBe10hJh5owv",
-      "name": "Hotel Cabana (Deluxe Version)",
-      "releaseDate": "2014-01-01",
-      "releaseYear": "2014",
-      "totalTracks": 21
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384c36b88540d1c658a02dfc9",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485184c36b88540d1c658a02dfc9",
-    "durationMs": 222200,
-    "durationFormatted": "3:42",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/36pLU2ywVeBKEF0rrKtmCB",
-    "uri": "spotify:track:36pLU2ywVeBKEF0rrKtmCB",
-    "addedAt": "2017-03-11T09:32:11Z",
-    "addedDate": "2017-03-11"
   },
   {
     "id": "77TT8Xvx637TpzV8kKGkUw",
@@ -14842,68 +14236,6 @@
     "addedDate": "2017-03-02"
   },
   {
-    "id": "4nthV2eZAXnt4yiJMocLkG",
-    "name": "Dilemma",
-    "artists": [
-      {
-        "id": "2gBjLmx6zQnFGQJCAQpRgw",
-        "name": "Nelly"
-      },
-      {
-        "id": "3AuMNF8rQAKOzjYppFNAoB",
-        "name": "Kelly Rowland"
-      }
-    ],
-    "artistNames": "Nelly, Kelly Rowland",
-    "album": {
-      "id": "502wXEj9iWWdqaAi0CO75M",
-      "name": "Nellyville (Explicit Version)",
-      "releaseDate": "2002-06-25",
-      "releaseYear": "2002",
-      "totalTracks": 19
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399ad1a6dd3c8b95ca4778d34",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485199ad1a6dd3c8b95ca4778d34",
-    "durationMs": 289173,
-    "durationFormatted": "4:49",
-    "explicit": true,
-    "spotifyUrl": "https://open.spotify.com/track/4nthV2eZAXnt4yiJMocLkG",
-    "uri": "spotify:track:4nthV2eZAXnt4yiJMocLkG",
-    "addedAt": "2017-03-02T13:39:03Z",
-    "addedDate": "2017-03-02"
-  },
-  {
-    "id": "12GEpg2XOPyqk03JZEZnJs",
-    "name": "It Ain’t Me (with Selena Gomez)",
-    "artists": [
-      {
-        "id": "23fqKkggKUBHNkbKtXEls4",
-        "name": "Kygo"
-      },
-      {
-        "id": "0C8ZW7ezQVs4URX5aX7Kqx",
-        "name": "Selena Gomez"
-      }
-    ],
-    "artistNames": "Kygo, Selena Gomez",
-    "album": {
-      "id": "4VNy5ifZtW3E9SgffbGEti",
-      "name": "It Ain't Me",
-      "releaseDate": "2017-02-17",
-      "releaseYear": "2017",
-      "totalTracks": 1
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f9dcc529e62f2a4675f88738",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f9dcc529e62f2a4675f88738",
-    "durationMs": 220780,
-    "durationFormatted": "3:40",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/12GEpg2XOPyqk03JZEZnJs",
-    "uri": "spotify:track:12GEpg2XOPyqk03JZEZnJs",
-    "addedAt": "2017-03-02T13:00:27Z",
-    "addedDate": "2017-03-02"
-  },
-  {
     "id": "1PLnW2LFLZZpXtYwjXoMkD",
     "name": "E 30'a Biner",
     "artists": [
@@ -14964,33 +14296,6 @@
     "uri": "spotify:track:4KcVVhAaHxqtX2ANt4b3tc",
     "addedAt": "2017-03-02T11:19:22Z",
     "addedDate": "2017-03-02"
-  },
-  {
-    "id": "48fKgzfvTU4U7eyRtIYaHP",
-    "name": "Bilionera",
-    "artists": [
-      {
-        "id": "6RQDTlies3nrNDJwXvbBZT",
-        "name": "Otilia"
-      }
-    ],
-    "artistNames": "Otilia",
-    "album": {
-      "id": "63X6DY5KlW80AJF2JcztdI",
-      "name": "Bilionera",
-      "releaseDate": "2014-08-28",
-      "releaseYear": "2014",
-      "totalTracks": 2
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fed7d8c8daad59181bbe6bcd",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fed7d8c8daad59181bbe6bcd",
-    "durationMs": 185294,
-    "durationFormatted": "3:05",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/48fKgzfvTU4U7eyRtIYaHP",
-    "uri": "spotify:track:48fKgzfvTU4U7eyRtIYaHP",
-    "addedAt": "2017-03-01T11:27:05Z",
-    "addedDate": "2017-03-01"
   },
   {
     "id": "1VYJi7SDb18xtJ6Hou5mm1",
@@ -15321,33 +14626,6 @@
     "addedDate": "2017-02-17"
   },
   {
-    "id": "46RVKt5Edm1zl0rXhPJZxz",
-    "name": "Down Under",
-    "artists": [
-      {
-        "id": "0f3EsoviYnRKTkmayI3cux",
-        "name": "Men At Work"
-      }
-    ],
-    "artistNames": "Men At Work",
-    "album": {
-      "id": "6GYIy1SuhPDrugCZ5yNeQy",
-      "name": "The Best Of Men At Work: Contraband",
-      "releaseDate": "1996-02-01",
-      "releaseYear": "1996",
-      "totalTracks": 16
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d6a1f7a12629154fa274631f",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d6a1f7a12629154fa274631f",
-    "durationMs": 220866,
-    "durationFormatted": "3:40",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/46RVKt5Edm1zl0rXhPJZxz",
-    "uri": "spotify:track:46RVKt5Edm1zl0rXhPJZxz",
-    "addedAt": "2017-02-17T18:08:47Z",
-    "addedDate": "2017-02-17"
-  },
-  {
     "id": "1KU5EHSz04JhGg3rReGJ0N",
     "name": "Black Velvet",
     "artists": [
@@ -15601,33 +14879,6 @@
     "uri": "spotify:track:2yWuMt4oYwf4zAYz8Z3Tno",
     "addedAt": "2017-02-05T07:23:56Z",
     "addedDate": "2017-02-05"
-  },
-  {
-    "id": "3jNGLTOcA4a34rZD2y392C",
-    "name": "Bourée",
-    "artists": [
-      {
-        "id": "6w6z8m4WXX7Tub4Rb6Lu7R",
-        "name": "Jethro Tull"
-      }
-    ],
-    "artistNames": "Jethro Tull",
-    "album": {
-      "id": "6ldHzgzoAgWgs2yNYJpZzo",
-      "name": "Repeat - The Best of Jethro Tull, Vol. II",
-      "releaseDate": "2007-03-16",
-      "releaseYear": "2007",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349fba10ef5df5b635e050389",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485149fba10ef5df5b635e050389",
-    "durationMs": 226506,
-    "durationFormatted": "3:46",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3jNGLTOcA4a34rZD2y392C",
-    "uri": "spotify:track:3jNGLTOcA4a34rZD2y392C",
-    "addedAt": "2017-01-29T10:53:56Z",
-    "addedDate": "2017-01-29"
   },
   {
     "id": "6mxk16qj6voBakMjXQr1o4",
@@ -16090,33 +15341,6 @@
     "spotifyUrl": "https://open.spotify.com/track/0tAw48efZ1VzUrHQCUCSjU",
     "uri": "spotify:track:0tAw48efZ1VzUrHQCUCSjU",
     "addedAt": "2016-04-01T11:53:45Z",
-    "addedDate": "2016-04-01"
-  },
-  {
-    "id": "548Dh2CxAhM1ZgRVxTmgcv",
-    "name": "This I Love",
-    "artists": [
-      {
-        "id": "3qm84nBOXUEQ2vnTfUTTFC",
-        "name": "Guns N' Roses"
-      }
-    ],
-    "artistNames": "Guns N' Roses",
-    "album": {
-      "id": "7vigRrDl9JImL8q8IghhlM",
-      "name": "Chinese Democracy (Version 1)",
-      "releaseDate": "2008-11-23",
-      "releaseYear": "2008",
-      "totalTracks": 14
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734923f001843656088a2d0835",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514923f001843656088a2d0835",
-    "durationMs": 334373,
-    "durationFormatted": "5:34",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/548Dh2CxAhM1ZgRVxTmgcv",
-    "uri": "spotify:track:548Dh2CxAhM1ZgRVxTmgcv",
-    "addedAt": "2016-04-01T11:34:47Z",
     "addedDate": "2016-04-01"
   },
   {
@@ -16691,64 +15915,6 @@
     "addedDate": "2015-12-26"
   },
   {
-    "id": "58ZRR9iLSx6RrspaeEdojS",
-    "name": "Aganju",
-    "artists": [
-      {
-        "id": "6gk4ierjjSVPoZep27VfZz",
-        "name": "Bebel Gilberto"
-      }
-    ],
-    "artistNames": "Bebel Gilberto",
-    "album": {
-      "id": "6PVjQRNp4r4NxDqXOXJEKv",
-      "name": "Bebel Gilberto",
-      "releaseDate": "2004-06-08",
-      "releaseYear": "2004",
-      "totalTracks": 12
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d60946a2e2a51a575185ddc7",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d60946a2e2a51a575185ddc7",
-    "durationMs": 284600,
-    "durationFormatted": "4:44",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/58ZRR9iLSx6RrspaeEdojS",
-    "uri": "spotify:track:58ZRR9iLSx6RrspaeEdojS",
-    "addedAt": "2015-12-18T18:02:58Z",
-    "addedDate": "2015-12-18"
-  },
-  {
-    "id": "0loyR2bojWw8jpUqHcCmTj",
-    "name": "Canto del Pilón - Original Radio Mix",
-    "artists": [
-      {
-        "id": "159cwGtgCzNpyHWY6tzihH",
-        "name": "Milk & Sugar"
-      },
-      {
-        "id": "3zOkRbObx7ELfEpCzc8geE",
-        "name": "Maria Marquez"
-      }
-    ],
-    "artistNames": "Milk & Sugar, Maria Marquez",
-    "album": {
-      "id": "50CO0NjiDwLhUtZELfKFqe",
-      "name": "Canto del Pilón",
-      "releaseDate": "2013",
-      "releaseYear": "2013",
-      "totalTracks": 13
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27354ec9055c168b58202858943",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485154ec9055c168b58202858943",
-    "durationMs": 213934,
-    "durationFormatted": "3:33",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/0loyR2bojWw8jpUqHcCmTj",
-    "uri": "spotify:track:0loyR2bojWw8jpUqHcCmTj",
-    "addedAt": "2015-12-18T17:24:11Z",
-    "addedDate": "2015-12-18"
-  },
-  {
     "id": "2yO5l7wy1k16fnFWMGBlcL",
     "name": "Sunday 29th",
     "artists": [
@@ -16831,33 +15997,6 @@
     "spotifyUrl": "https://open.spotify.com/track/5kHiHWLcbsvTDtmHxBiaID",
     "uri": "spotify:track:5kHiHWLcbsvTDtmHxBiaID",
     "addedAt": "2015-12-04T16:31:47Z",
-    "addedDate": "2015-12-04"
-  },
-  {
-    "id": "7t5VwAEPTzucO58Bi13XLC",
-    "name": "Living Darfur",
-    "artists": [
-      {
-        "id": "5KORW1YGiERJqfuYjXMCyz",
-        "name": "Mattafix"
-      }
-    ],
-    "artistNames": "Mattafix",
-    "album": {
-      "id": "5tT3LW5nlnXYxLvpzUwKOf",
-      "name": "Living Darfur",
-      "releaseDate": "2007-09-07",
-      "releaseYear": "2007",
-      "totalTracks": 1
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734bf03e5844d9b21eb546447e",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514bf03e5844d9b21eb546447e",
-    "durationMs": 255213,
-    "durationFormatted": "4:15",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/7t5VwAEPTzucO58Bi13XLC",
-    "uri": "spotify:track:7t5VwAEPTzucO58Bi13XLC",
-    "addedAt": "2015-12-04T11:30:18Z",
     "addedDate": "2015-12-04"
   },
   {
@@ -17137,33 +16276,6 @@
     "uri": "spotify:track:1yzllWuQIJPOFVtn2pCoHL",
     "addedAt": "2015-10-13T09:44:11Z",
     "addedDate": "2015-10-13"
-  },
-  {
-    "id": "29xKs5BAHlmlX1u4gzQAbJ",
-    "name": "Hash Pipe",
-    "artists": [
-      {
-        "id": "3jOstUTkEu2JkjvRdBA5Gu",
-        "name": "Weezer"
-      }
-    ],
-    "artistNames": "Weezer",
-    "album": {
-      "id": "2hDiTEsKePTnDcvKEuLizk",
-      "name": "Weezer (Green Album)",
-      "releaseDate": "2001-05-15",
-      "releaseYear": "2001",
-      "totalTracks": 10
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27349052c8767d68e177fb704a0",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485149052c8767d68e177fb704a0",
-    "durationMs": 186533,
-    "durationFormatted": "3:06",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/29xKs5BAHlmlX1u4gzQAbJ",
-    "uri": "spotify:track:29xKs5BAHlmlX1u4gzQAbJ",
-    "addedAt": "2015-10-01T15:35:02Z",
-    "addedDate": "2015-10-01"
   },
   {
     "id": "60PAzFNW3vAiAiVK6DRJfB",
