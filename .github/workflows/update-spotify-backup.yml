@@ -35,6 +35,7 @@ jobs:
         run: |
           set -euo pipefail
           node sync.js
+          node enrich-moods.js
 
       - name: Commit & Push Changes
         run: |
