@@ -1578,12 +1578,12 @@ body.dark-mode .np-backdrop-aura::after {
 }
 
 /* ----------------------------------------------------
-   MOBILE RESPONSIVENESS & POLISH
+   MOBILE RESPONSIVENESS & POLISH (Modern & Borderless)
    ---------------------------------------------------- */
 @media (max-width: 900px) {
     .now-playing-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 24px;
     }
 
     .now-playing-hero-card {
@@ -1601,7 +1601,7 @@ body.dark-mode .np-backdrop-aura::after {
 
 @media (max-width: 600px) {
     body {
-        padding: 12px 10px 100px;
+        padding: 10px 8px 110px;
     }
 
     .container {
@@ -1609,41 +1609,67 @@ body.dark-mode .np-backdrop-aura::after {
     }
 
     header {
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 
     .header-title {
         gap: 8px;
+        margin-bottom: 4px;
     }
 
     .header-title h1 {
-        font-size: 1.45rem;
+        font-size: 1.35rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
     }
 
     .spotify-icon {
-        width: 26px;
-        height: 26px;
+        width: 24px;
+        height: 24px;
     }
 
+    .user-subtitle {
+        font-size: 0.8rem;
+        margin-bottom: 12px;
+    }
+
+    /* Horizontal swipeable navigation pills on mobile */
     .page-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start;
         gap: 6px;
-        margin-top: 12px;
+        padding: 4px 2px 8px;
+        margin-top: 8px;
+        scrollbar-width: none;
+    }
+
+    .page-nav::-webkit-scrollbar {
+        display: none;
     }
 
     .nav-link {
-        padding: 6px 12px;
+        flex-shrink: 0;
+        padding: 6px 14px;
         font-size: 0.78rem;
+        border-radius: var(--radius-full);
+        background: var(--bg-surface);
+        border: 1px solid var(--border);
+        white-space: nowrap;
     }
 
-    /* Controls & Filters Card */
+    /* Controls & Filters: Clean & subtle */
     .controls-card {
-        padding: 12px;
+        padding: 12px 14px;
         margin-bottom: 16px;
         border-radius: var(--radius-md);
+        gap: 10px;
     }
 
     .controls-row {
-        gap: 10px;
+        gap: 8px;
     }
 
     .control-group {
@@ -1656,8 +1682,8 @@ body.dark-mode .np-backdrop-aura::after {
     }
 
     .control-group label {
-        font-size: 0.78rem;
-        min-width: 55px;
+        font-size: 0.76rem;
+        min-width: 50px;
     }
 
     .control-group select,
@@ -1668,10 +1694,10 @@ body.dark-mode .np-backdrop-aura::after {
 
     .checkbox-toggle {
         padding: 4px 8px;
-        font-size: 0.78rem;
+        font-size: 0.76rem;
     }
 
-    /* Grid & Cards */
+    /* Music Grid: Modern 2-Column Touch Layout */
     .music-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -1683,12 +1709,15 @@ body.dark-mode .np-backdrop-aura::after {
     }
 
     .song-card {
-        padding: 8px;
-        border-radius: 8px;
+        padding: 9px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: var(--bg-surface);
+        box-shadow: var(--shadow-sm);
     }
 
     .song-title {
-        font-size: 0.82rem;
+        font-size: 0.84rem;
     }
 
     .song-artist {
@@ -1713,12 +1742,13 @@ body.dark-mode .np-backdrop-aura::after {
     .music-grid.view-list .song-card {
         padding: 8px 10px;
         gap: 12px;
+        border-radius: 10px;
     }
 
     .music-grid.view-list .cover-wrapper {
-        width: 48px;
-        height: 48px;
-        min-width: 48px;
+        width: 46px;
+        height: 46px;
+        min-width: 46px;
         border-radius: 6px;
     }
 
@@ -1730,93 +1760,137 @@ body.dark-mode .np-backdrop-aura::after {
         font-size: 0.75rem;
     }
 
-    /* Currently Playing View */
+    /* ====================================================
+       CURRENTLY PLAYING SHOWCASE: Modern & Borderless
+       ==================================================== */
     .now-playing-wrapper {
-        margin-top: 12px;
+        margin-top: 8px;
     }
 
     .now-playing-hero-card {
-        padding: 20px 14px;
-        border-radius: var(--radius-md);
-        box-shadow: var(--shadow-sm);
-    }
-
-    .hero-cover-container {
-        width: min(220px, 64vw);
-        height: min(220px, 64vw);
-        margin-bottom: 14px;
-        border-radius: 12px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
-    }
-
-    .hero-title {
-        font-size: 1.2rem;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 4px 4px 16px;
         margin-bottom: 4px;
     }
 
+    .hero-cover-container {
+        width: min(250px, 70vw);
+        height: min(250px, 70vw);
+        margin: 0 auto 16px;
+        border-radius: 18px;
+        overflow: hidden;
+        background: #121212;
+        box-shadow: 0 16px 44px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-details {
+        margin-bottom: 12px;
+    }
+
+    .hero-title {
+        font-size: 1.35rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        margin-bottom: 3px;
+        line-height: 1.25;
+    }
+
     .hero-artist {
-        font-size: 0.92rem;
+        font-size: 0.95rem;
+        font-weight: 600;
         margin-bottom: 4px;
     }
 
     .hero-album {
         font-size: 0.78rem;
+        opacity: 0.8;
     }
 
     .hero-actions {
-        gap: 16px;
-        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 22px;
+        margin: 14px 0 16px;
     }
 
     .hero-play-btn {
-        width: 48px;
-        height: 48px;
-        font-size: 18px;
+        width: 56px;
+        height: 56px;
+        font-size: 22px;
+        box-shadow: 0 6px 22px rgba(29, 185, 84, 0.4);
     }
 
     .hero-ctrl-btn {
-        padding: 8px;
+        padding: 10px;
     }
 
+    .mini-spotify-btn {
+        padding: 6px 14px;
+        font-size: 0.78rem;
+        border-radius: var(--radius-full);
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    /* Seamless Glass Queue on Mobile */
     .now-playing-queue-card {
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 18px;
         padding: 16px 10px;
-        border-radius: var(--radius-md);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    body.dark-mode .now-playing-queue-card {
+        background: rgba(18, 18, 18, 0.65);
+        border: 1px solid rgba(255, 255, 255, 0.06);
     }
 
     .queue-header {
         padding-bottom: 10px;
         margin-bottom: 8px;
+        border-bottom: 1px solid var(--border);
     }
 
     .queue-header h3 {
         font-size: 1.05rem;
+        font-weight: 700;
     }
 
     .queue-track-list {
-        max-height: 460px;
+        max-height: 480px;
         padding-right: 2px;
-        gap: 4px;
+        gap: 3px;
     }
 
     .queue-track-item {
         padding: 6px 6px;
         gap: 8px;
-        border-radius: 6px;
+        border-radius: 8px;
     }
 
     .queue-track-num {
-        min-width: 18px;
-        font-size: 0.75rem;
+        min-width: 16px;
+        font-size: 0.72rem;
     }
 
     .queue-cover-wrap {
         width: 38px;
         height: 38px;
         min-width: 38px;
+        border-radius: 6px;
     }
 
     .queue-track-title {
-        font-size: 0.85rem;
+        font-size: 0.86rem;
+        font-weight: 600;
     }
 
     .queue-track-artist {
@@ -1824,9 +1898,9 @@ body.dark-mode .np-backdrop-aura::after {
     }
 
     .queue-track-liked {
-        width: 20px;
-        min-width: 20px;
-        font-size: 0.75rem;
+        width: 18px;
+        min-width: 18px;
+        font-size: 0.72rem;
     }
 
     .queue-track-duration {
@@ -1838,14 +1912,14 @@ body.dark-mode .np-backdrop-aura::after {
     .playlist-hero {
         padding: 18px 14px;
         gap: 14px;
-        border-radius: var(--radius-md);
+        border-radius: 16px;
         margin-bottom: 18px;
     }
 
     .hero-cover {
         width: 120px;
         height: 120px;
-        border-radius: 10px;
+        border-radius: 12px;
     }
 
     .hero-title {
@@ -1869,7 +1943,7 @@ body.dark-mode .np-backdrop-aura::after {
     /* Mini Player Dock */
     .mini-player-container {
         width: min(340px, calc(100vw - 16px));
-        bottom: 12px;
+        bottom: 10px;
     }
 
     .handle-pill {
@@ -1885,6 +1959,7 @@ body.dark-mode .np-backdrop-aura::after {
 
     .stat-card {
         padding: 12px 14px;
+        border-radius: 12px;
     }
 
     .stat-number {
