@@ -129,7 +129,7 @@ const MOOD_TAG_DEFINITIONS = [
     { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic },
     { id: 'progressive', label: '🎼 Progressive & Psychedelic', test: (s, m) => m?.isProgressive },
     { id: 'party', label: '🎉 Party & Upbeat', test: (s, m) => m?.isParty },
-    { id: 'turkish', label: '🇹🇷 Turkish & Anatolian Rock', test: (s, m) => m?.isTurkish },
+    { id: 'anadolu_rock', label: '🎸 Anadolu Rock & Psych', test: (s, m) => m?.isAnadoluRock },
 
     // Spotify Popularity, Live & Heavy Rotation
     { id: 'top_played', label: '🌟 Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },

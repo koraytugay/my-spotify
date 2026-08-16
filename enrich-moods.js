@@ -156,6 +156,7 @@ function loadUserPlaylistSignals() {
     const acousticTrackIds = new Set();
     const partyTrackIds = new Set();
     const chillTrackIds = new Set();
+    const anadoluTrackIds = new Set();
 
     if (fs.existsSync(PLAYLISTS_PATH)) {
         try {
@@ -169,28 +170,45 @@ function loadUserPlaylistSignals() {
                         if (name.includes('unplugged') || name.includes('acoustic') || name.includes('akustik')) acousticTrackIds.add(t.id);
                         if (name.includes('hareketli') || name.includes('dance') || name.includes('party')) partyTrackIds.add(t.id);
                         if (name.includes('lounge') || name.includes('chill')) chillTrackIds.add(t.id);
+                        if (name.includes('anadolu')) anadoluTrackIds.add(t.id);
                     });
                 });
             }
         } catch (e) {}
     }
 
-    return { balladTrackIds, acousticTrackIds, partyTrackIds, chillTrackIds };
+    return { balladTrackIds, acousticTrackIds, partyTrackIds, chillTrackIds, anadoluTrackIds };
 }
+
+const ANATOLIAN_ROCK_ARTISTS = [
+    'erkin koray', 'barış manço', 'baris manco', 'cem karaca', 'moğollar', 'mogollar',
+    'fikret kızılok', 'fikret kizilok', 'kurtalan ekspres', 'bulutsuzluk özlemi', 'bulutsuzluk ozlemi',
+    'hardal', '3 hürel', '3 hurel', 'üç hürel', 'düş sokağı sakinleri', 'dus sokagi sakinleri',
+    'altın gün', 'altin gun', 'gaye su akyol', 'özlem tekin', 'ozlem tekin', 'şebnem ferah', 'sebnem ferah',
+    'pentagram', 'mezarkabul', 'kurban', 'duman', 'mor ve ötesi', 'mor ve otesi', 'hayko cepkin',
+    'yavuz çetin', 'yavuz cetin', 'pilli bebek', 'haluk levent', 'edip akbayram', 'selda bağcan', 'selda bagcan',
+    'tual', 'kesmeşeker', 'mavi sakal', 'yaşar kurt', 'yasar kurt', 'feridun düzağaç'
+];
 
 function analyzeTags(tags, track, audioFeature, playlistSignals) {
     const tagStr = tags.join(' ');
     const title = (track.name || '').toLowerCase();
     const duration = track.durationMs || (audioFeature?.duration_ms) || 0;
+    const artistLower = (track.artistNames || (track.artists && track.artists[0]?.name) || track.artist || '').toLowerCase();
 
     const inBalladPlaylist = playlistSignals?.balladTrackIds?.has(track.id);
     const inAcousticPlaylist = playlistSignals?.acousticTrackIds?.has(track.id);
     const inPartyPlaylist = playlistSignals?.partyTrackIds?.has(track.id);
     const inChillPlaylist = playlistSignals?.chillTrackIds?.has(track.id);
+    const inAnadoluPlaylist = playlistSignals?.anadoluTrackIds?.has(track.id);
 
     const isMetalArtist = /metal|death metal|thrash|black metal|heavy metal|hard rock|metalcore|grunge|sludge|stoner rock|nwobhm/i.test(tagStr);
     const isProgArtist = /progressive rock|prog|progressive metal|art rock|krautrock|post-rock|psychedelic rock|space rock|fusion/i.test(tagStr);
-    const isTurkish = /turkish|anatolian rock|turkce|turkey|arabesk|anadolu rock/i.test(tagStr);
+    
+    // Dedicated Anadolu Rock & Psychedelic detection
+    const isAnadoluRock = inAnadoluPlaylist ||
+                          /anatolian rock|anadolu rock|turkish rock|turkish psychedelic|anadolu pop/i.test(tagStr) ||
+                          ANATOLIAN_ROCK_ARTISTS.some(a => artistLower.includes(a));
 
     const isBalladTitle = /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember|özledim|unutamadım|ayrılık|hasret|ağla|gözyaşı|eskidendi|sevgilim|veda)\b/i.test(title);
     const isAcousticTitle = /\b(acoustic|akustik|unplugged|piano|strings|classical guitar|session)\b/i.test(title);
@@ -228,7 +246,7 @@ function analyzeTags(tags, track, audioFeature, playlistSignals) {
     if (isAcoustic) moods.push('acoustic');
     if (isChill) moods.push('chill');
     if (isParty) moods.push('party');
-    if (isTurkish) moods.push('turkish');
+    if (isAnadoluRock) moods.push('anadolu_rock');
     if (isEpics) moods.push('epics');
     if (isBangers) moods.push('bangers');
 
@@ -243,7 +261,7 @@ function analyzeTags(tags, track, audioFeature, playlistSignals) {
         isAcoustic,
         isChill,
         isParty,
-        isTurkish,
+        isAnadoluRock,
         isEpics,
         isBangers
     };
