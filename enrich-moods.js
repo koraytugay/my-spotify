@@ -138,6 +138,7 @@ async function getTrackTags(artist, title) {
 }
 
 const AUDIO_FEATURES_PATH = path.resolve('data/audio-features.json');
+const PLAYLISTS_PATH = path.resolve('data/playlists.json');
 
 function loadAudioFeatures() {
     if (fs.existsSync(AUDIO_FEATURES_PATH)) {
@@ -150,67 +151,68 @@ function loadAudioFeatures() {
     return {};
 }
 
-function analyzeTags(tags, track, audioFeature) {
+function loadUserPlaylistSignals() {
+    const balladTrackIds = new Set();
+    const acousticTrackIds = new Set();
+    const partyTrackIds = new Set();
+    const chillTrackIds = new Set();
+
+    if (fs.existsSync(PLAYLISTS_PATH)) {
+        try {
+            const playlists = JSON.parse(fs.readFileSync(PLAYLISTS_PATH, 'utf8'));
+            if (Array.isArray(playlists)) {
+                playlists.forEach(p => {
+                    const name = (p.name || '').toLowerCase();
+                    (p.tracks || []).forEach(t => {
+                        if (!t || !t.id) return;
+                        if (name.includes('ballad')) balladTrackIds.add(t.id);
+                        if (name.includes('unplugged') || name.includes('acoustic') || name.includes('akustik')) acousticTrackIds.add(t.id);
+                        if (name.includes('hareketli') || name.includes('dance') || name.includes('party')) partyTrackIds.add(t.id);
+                        if (name.includes('lounge') || name.includes('chill')) chillTrackIds.add(t.id);
+                    });
+                });
+            }
+        } catch (e) {}
+    }
+
+    return { balladTrackIds, acousticTrackIds, partyTrackIds, chillTrackIds };
+}
+
+function analyzeTags(tags, track, audioFeature, playlistSignals) {
     const tagStr = tags.join(' ');
     const title = (track.name || '').toLowerCase();
     const duration = track.durationMs || (audioFeature?.duration_ms) || 0;
+
+    const inBalladPlaylist = playlistSignals?.balladTrackIds?.has(track.id);
+    const inAcousticPlaylist = playlistSignals?.acousticTrackIds?.has(track.id);
+    const inPartyPlaylist = playlistSignals?.partyTrackIds?.has(track.id);
+    const inChillPlaylist = playlistSignals?.chillTrackIds?.has(track.id);
 
     const isMetalArtist = /metal|death metal|thrash|black metal|heavy metal|hard rock|metalcore|grunge|sludge|stoner rock|nwobhm/i.test(tagStr);
     const isProgArtist = /progressive rock|prog|progressive metal|art rock|krautrock|post-rock|psychedelic rock|space rock|fusion/i.test(tagStr);
     const isTurkish = /turkish|anatolian rock|turkce|turkey|arabesk|anadolu rock/i.test(tagStr);
 
-    let isAcoustic = false;
-    let isHighEnergy = false;
-    let isBallad = false;
-    let isChill = false;
-    let isMelancholic = false;
-    let isParty = false;
-    let isHeavy = false;
+    const isBalladTitle = /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember|özledim|unutamadım|ayrılık|hasret|ağla|gözyaşı|eskidendi|sevgilim|veda)\b/i.test(title);
+    const isAcousticTitle = /\b(acoustic|akustik|unplugged|piano|strings|classical guitar|session)\b/i.test(title);
+    const isPartyTitle = /\b(remix|club mix|extended mix|dance mix|hareketli|parti|oyna|disco)\b/i.test(title);
+    const isMelancholicTitle = /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol|yalnız|hüzün|karanlık|acı|yas)\b/i.test(title);
 
-    if (audioFeature && typeof audioFeature.energy === 'number') {
-        const { energy, acousticness, danceability, valence, tempo, loudness, mode } = audioFeature;
+    const isMelancholic = isMelancholicTitle ||
+                          (audioFeature && audioFeature.valence <= 0.32 && (audioFeature.energy <= 0.65 || audioFeature.mode === 0)) ||
+                          /melanchol|dark metal|doom|depressive|sad|gothic|atmospheric black metal|funeral doom/i.test(tagStr);
 
-        isAcoustic = acousticness >= 0.55 || /\b(acoustic|unplugged|piano|strings|classical guitar)\b/i.test(title);
-        
-        isBallad = (acousticness >= 0.4 && energy <= 0.45 && tempo <= 100) ||
-                   (valence <= 0.35 && acousticness >= 0.6) ||
-                   /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember)\b/i.test(title);
+    const isAcoustic = inAcousticPlaylist || isAcousticTitle || (audioFeature && audioFeature.acousticness >= 0.55) || /acoustic|unplugged|neofolk|fingerstyle|classical guitar/i.test(tagStr);
 
-        isHighEnergy = (energy >= 0.78) || (tempo >= 135 && energy >= 0.6) || (isMetalArtist && energy >= 0.65);
+    const isBallad = inBalladPlaylist || isBalladTitle || (audioFeature && audioFeature.acousticness >= 0.4 && audioFeature.energy <= 0.45 && audioFeature.tempo <= 100) || /ballad|power ballad|slow/i.test(tagStr) || (isMelancholic && isAcoustic);
 
-        isChill = (energy <= 0.48 && loudness <= -8 && danceability <= 0.6) ||
-                  (!isMetalArtist && isAcoustic && energy <= 0.5);
+    const isHeavy = !isBallad && (isMetalArtist || (audioFeature && audioFeature.energy >= 0.78 && audioFeature.loudness >= -7.5 && audioFeature.acousticness <= 0.18));
 
-        isMelancholic = (valence <= 0.32 && (energy <= 0.65 || mode === 0)) ||
-                        /melanchol|dark metal|doom|depressive|sad|gothic/i.test(tagStr) ||
-                        /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
+    const isHighEnergy = !isBallad && (isHeavy && duration > 0 && duration < 240000 || (audioFeature && (audioFeature.energy >= 0.78 || (audioFeature.tempo >= 135 && audioFeature.energy >= 0.6))) || /thrash|speed metal|power metal|heavy metal|hard rock|punk|metalcore|energetic|intense|fast/i.test(tagStr));
 
-        // Party must be genuinely high danceability & energy, never slow ballads
-        isParty = (danceability >= 0.65 && energy >= 0.58 && valence >= 0.45 && !isBallad) ||
-                  /disco|house|eurodance|club|techno|dance pop/i.test(tagStr);
+    const isChill = inChillPlaylist || (audioFeature && audioFeature.energy <= 0.48 && audioFeature.loudness <= -8 && audioFeature.danceability <= 0.6) || (!isHeavy && !isHighEnergy && (isAcoustic || isMelancholic)) || /chill|ambient|lounge|downtempo|lo-fi/i.test(tagStr);
 
-        isHeavy = ((energy >= 0.78 && loudness >= -7.5 && acousticness <= 0.18) || isMetalArtist) && !isBallad;
-    } else {
-        // Heuristic fallback when audio features are not yet generated
-        isAcoustic = /acoustic|unplugged|folk|neofolk|fingerstyle|classical guitar|singer-songwriter/i.test(tagStr) ||
-                     /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(title);
-
-        isMelancholic = /melanchol|dark metal|doom|depressive|sad|gothic|atmospheric black metal|funeral doom/i.test(tagStr) ||
-                        /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
-
-        isHeavy = isMetalArtist;
-        isHighEnergy = /thrash|speed metal|power metal|heavy metal|hard rock|punk|metalcore|energetic|intense|fast/i.test(tagStr) ||
-                       (isHeavy && duration > 0 && duration < 240000);
-
-        isBallad = /ballad|power ballad|slow|love songs/i.test(tagStr) ||
-                   /\b(ballad|slow|farewell|remember|heaven|forever|rain|heart|love)\b/i.test(title) ||
-                   (isMelancholic && isAcoustic);
-
-        isChill = /chill|chillout|relaxed|ambient|lounge|downtempo|lo-fi|trip hop|mellow|easy listening|calm/i.test(tagStr) ||
-                  (!isHeavy && !isHighEnergy && (isAcoustic || isMelancholic));
-
-        isParty = /dance|club|disco|house|eurodance|edm|techno|reggaeton|funk/i.test(tagStr) && !isBallad;
-    }
+    // Party: strictly true dance/club/party, NEVER ballads or acoustic slow tracks
+    const isParty = !isBallad && (inPartyPlaylist || isPartyTitle || (audioFeature && audioFeature.danceability >= 0.65 && audioFeature.energy >= 0.58 && audioFeature.valence >= 0.45) || /disco|house|eurodance|club|techno|dance pop|reggaeton|funk/i.test(tagStr));
 
     const isProgressive = isProgArtist || (duration >= 420000);
     const isEpics = duration >= 420000;
@@ -259,10 +261,11 @@ async function main() {
         } catch (e) {}
     }
 
-    const missingTracks = allTracks.filter(t => !existingMoods[t.id] || existingMoods[t.id].source !== 'lastfm');
-    console.log(`Found ${Object.keys(existingMoods).length} existing entries in data/song-moods.json (${missingTracks.length} new/missing).`);
+    const isForce = process.argv.includes('--force');
+    const missingTracks = isForce ? allTracks : allTracks.filter(t => !existingMoods[t.id]);
+    console.log(`Found ${Object.keys(existingMoods).length} existing entries in data/song-moods.json (${missingTracks.length} to process).`);
 
-    if (missingTracks.length === 0) {
+    if (missingTracks.length === 0 && !isForce) {
         console.log('✨ All tracks are already enriched! Nothing to do.');
         return;
     }
@@ -285,20 +288,22 @@ async function main() {
         await getArtistTags(artist);
     }
 
-    console.log(`\n🏷️ Classifying ${missingTracks.length} new tracks with Last.fm tags & Spotify Audio Features...`);
+    console.log(`\n🏷️ Classifying all ${allTracks.length} library tracks with Last.fm tags, Spotify Playlists & Audio Features...`);
     const audioFeatures = loadAudioFeatures();
+    const playlistSignals = loadUserPlaylistSignals();
+    const finalMoods = {};
 
-    for (let i = 0; i < missingTracks.length; i++) {
-        const track = missingTracks[i];
+    for (let i = 0; i < allTracks.length; i++) {
+        const track = allTracks[i];
         if (!track || !track.id) continue;
 
         const rawArtist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
         const artistTags = await getArtistTags(rawArtist);
         const audioFeature = audioFeatures[track.id] || null;
 
-        const classification = analyzeTags(artistTags, track, audioFeature);
+        const classification = analyzeTags(artistTags, track, audioFeature, playlistSignals);
 
-        existingMoods[track.id] = {
+        finalMoods[track.id] = {
             id: track.id,
             name: track.name,
             artist: rawArtist,
@@ -317,9 +322,9 @@ async function main() {
         };
     }
 
-    fs.writeFileSync(MOODS_PATH, JSON.stringify(existingMoods, null, 2), 'utf8');
-    console.log(`\n✅ Last.fm Tag Enrichment Complete!`);
-    console.log(`Saved ${Object.keys(existingMoods).length} total tagged tracks to ${MOODS_PATH}`);
+    fs.writeFileSync(MOODS_PATH, JSON.stringify(finalMoods, null, 2), 'utf8');
+    console.log(`\n✅ Last.fm & Playlist Tag Enrichment Complete!`);
+    console.log(`Saved ${Object.keys(finalMoods).length} total tagged tracks to ${MOODS_PATH}`);
 }
 
 main().catch(err => {
