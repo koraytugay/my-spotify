@@ -922,8 +922,8 @@ async function syncCurrentMixToSpotify() {
             }).catch(() => {});
         }
 
-        // 4. Overwrite tracks in the single playlist
-        let replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
+        // 4. Overwrite tracks in the single playlist (Spotify updated /tracks to /items)
+        let replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -933,7 +933,29 @@ async function syncCurrentMixToSpotify() {
         });
 
         if (!replaceRes.ok) {
-            // Fallback: POST /v1/playlists/{id}/tracks
+            replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uris })
+            });
+        }
+
+        if (!replaceRes.ok) {
+            // Legacy /tracks endpoint fallback
+            replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uris })
+            });
+        }
+
+        if (!replaceRes.ok) {
             replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
                 method: 'POST',
                 headers: {
