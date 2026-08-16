@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 592,
+  "totalLikedSongs": 593,
   "totalPlaylists": 12,
   "totalSavedAlbums": 78,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 154465752,
-  "totalDurationHours": 42.9,
+  "totalDurationMs": 154708285,
+  "totalDurationHours": 43,
   "totalDurationDays": 1.8,
-  "totalDurationFormatted": "42 hrs 54 mins",
+  "totalDurationFormatted": "42 hrs 58 mins",
   "uniqueArtistsCount": 495,
   "topLikedArtists": [
     {
@@ -36,6 +36,10 @@
     {
       "name": "Agalloch",
       "count": 5
+    },
+    {
+      "name": "Aşkın Nur Yengi",
+      "count": 4
     },
     {
       "name": "Opeth",
@@ -76,10 +80,6 @@
     {
       "name": "The Doors",
       "count": 4
-    },
-    {
-      "name": "Aşkın Nur Yengi",
-      "count": 3
     },
     {
       "name": "Thievery Corporation",
@@ -132,7 +132,7 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "1990s": 133,
+    "1990s": 134,
     "1980s": 85,
     "2000s": 139,
     "2010s": 147,
@@ -172,7 +172,7 @@
     "1990": 8,
     "1991": 9,
     "1992": 10,
-    "1993": 11,
+    "1993": 12,
     "1994": 11,
     "1995": 7,
     "1996": 22,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-16T16:10:06.159Z"
+  "lastUpdated": "2026-08-16T16:31:58.635Z"
 }
