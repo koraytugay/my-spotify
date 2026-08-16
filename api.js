@@ -8,9 +8,7 @@ const DATA_PATHS = {
     followedArtists: 'data/followed-artists.json',
     topArtists: 'data/top-artists.json',
     topTracks: 'data/top-tracks.json',
-    stats: 'data/stats.json',
-    songMoods: 'data/song-moods.json',
-    audioFeatures: 'data/audio-features.json'
+    stats: 'data/stats.json'
 };
 
 async function fetchJson(path) {
@@ -191,14 +189,6 @@ function getSpotifyLinkAttrs(itemOrUrl, type = 'track') {
     return { href, targetAttrs, isMobile };
 }
 
-async function getSongMoods() {
-    return await fetchJson(DATA_PATHS.songMoods) || {};
-}
-
-async function getAudioFeatures() {
-    return await fetchJson(DATA_PATHS.audioFeatures) || {};
-}
-
 if (typeof window !== 'undefined') {
     window.isMobileDevice = isMobileDevice;
     window.getSpotifyLink = getSpotifyLink;
@@ -215,8 +205,6 @@ if (typeof window !== 'undefined') {
     window.getTopArtists = getTopArtists;
     window.getTopTracks = getTopTracks;
     window.getStats = getStats;
-    window.getSongMoods = getSongMoods;
-    window.getAudioFeatures = getAudioFeatures;
     window.getPlaylistById = getPlaylistById;
     window.getArtistDiscography = getArtistDiscography;
 }

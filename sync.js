@@ -456,21 +456,7 @@ async function main() {
         // Ignored if Spotify restricts bulk artist catalog endpoint
     }
 
-    // 6. Spotify Audio Features (Per-Song Audio Measurement)
-    const allTrackIds = new Set();
-    likedSongs.forEach(s => { if (s && s.id) allTrackIds.add(s.id); });
-    albums.forEach(a => {
-        if (Array.isArray(a.tracks)) {
-            a.tracks.forEach(t => { if (t && t.id) allTrackIds.add(t.id); });
-        }
-    });
-    topTracks.forEach(t => { if (t && t.id) allTrackIds.add(t.id); });
-
-    const audioFeaturesMap = await fetchAudioFeatures(Array.from(allTrackIds), token);
-    writeJson(path.join(dataDir, 'audio-features.json'), audioFeaturesMap);
-    console.log(`💾 Saved ${Object.keys(audioFeaturesMap).length} Per-Song Audio Features to data/audio-features.json\n`);
-
-    // 7. Generate Analytics & Stats Summary
+    // 6. Generate Analytics & Stats Summary
     console.log('📊 Computing statistics & collection insights...');
     const stats = generateStats(likedSongs, playlists, albums, topArtists, artistGenresMap, followedArtists);
     writeJson(path.join(dataDir, 'stats.json'), stats);
@@ -481,61 +467,8 @@ async function main() {
     console.log(`   - Liked Songs: ${likedSongs.length}`);
     console.log(`   - Total Playlists: ${playlists.length}`);
     console.log(`   - Saved Albums: ${albums.length}`);
-    console.log(`   - Audio Features: ${Object.keys(audioFeaturesMap).length}`);
     console.log(`   - Total Playtime: ${stats.totalDurationFormatted}`);
     console.log(`   - Unique Artists: ${stats.uniqueArtistsCount}\n`);
-}
-
-async function fetchAudioFeatures(trackIds, token) {
-    if (!Array.isArray(trackIds) || trackIds.length === 0) return {};
-
-    const validIds = Array.from(new Set(trackIds.filter(id => id && /^[a-zA-Z0-9]{22}$/.test(id))));
-    console.log(`\n🎧 Fetching Spotify Audio Features for ${validIds.length} tracks...`);
-
-    const featuresMap = {};
-    const batchSize = 100;
-
-    for (let i = 0; i < validIds.length; i += batchSize) {
-        const chunk = validIds.slice(i, i + batchSize);
-        try {
-            const url = `https://api.spotify.com/v1/audio-features?ids=${chunk.join(',')}`;
-            const res = await fetch(url, {
-                headers: { 'Authorization': `Bearer ${token}` }
-            });
-            if (res.ok) {
-                const data = await res.json();
-                if (Array.isArray(data.audio_features)) {
-                    data.audio_features.forEach(f => {
-                        if (f && f.id) {
-                            featuresMap[f.id] = {
-                                id: f.id,
-                                danceability: f.danceability,
-                                energy: f.energy,
-                                key: f.key,
-                                loudness: f.loudness,
-                                mode: f.mode,
-                                speechiness: f.speechiness,
-                                acousticness: f.acousticness,
-                                instrumentalness: f.instrumentalness,
-                                liveness: f.liveness,
-                                valence: f.valence,
-                                tempo: f.tempo ? Math.round(f.tempo) : null,
-                                duration_ms: f.duration_ms
-                            };
-                        }
-                    });
-                }
-            } else {
-                console.warn(`  Warning: Audio features batch ${Math.floor(i / batchSize) + 1} returned status ${res.status}`);
-            }
-        } catch (err) {
-            console.warn(`  Warning fetching audio features batch ${Math.floor(i / batchSize) + 1}:`, err.message);
-        }
-        await new Promise(r => setTimeout(r, 100));
-    }
-
-    console.log(`✨ Successfully retrieved audio features for ${Object.keys(featuresMap).length} tracks.`);
-    return featuresMap;
 }
 
 function formatDuration(ms) {

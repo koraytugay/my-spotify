@@ -59,7 +59,6 @@ if (typeof getSpotifyLinkAttrs === 'undefined') {
 var allLikedSongs = [];
 var allAlbums = [];
 var allArtists = [];
-var allSongMoods = {};
 var allTopTracks = [];
 var topTrackIdSet = new Set();
 var selectedArtistNames = new Set();
@@ -76,18 +75,16 @@ async function initSmartMix() {
     if (contentEl) contentEl.style.display = 'none';
 
     try {
-        const [songs, albums, artists, moods, topTracks] = await Promise.all([
+        const [songs, albums, artists, topTracks] = await Promise.all([
             getLikedSongs(),
             getSavedAlbums(),
             getFollowedArtists(),
-            typeof getSongMoods === 'function' ? getSongMoods() : Promise.resolve({}),
             typeof getTopTracks === 'function' ? getTopTracks() : Promise.resolve([])
         ]);
 
         allLikedSongs = songs || [];
         allAlbums = albums || [];
         allArtists = artists || [];
-        allSongMoods = moods || {};
         allTopTracks = topTracks || [];
         topTrackIdSet = new Set((allTopTracks || []).map(t => t.id).filter(Boolean));
 
@@ -115,36 +112,21 @@ async function initSmartMix() {
 }
 
 /* ----------------------------------------------------
-   MOOD & TAG MULTI-BLENDER
+   ERA, DURATION & LIBRARY FILTERS MULTI-BLENDER
    ---------------------------------------------------- */
 var selectedMoodTags = new Set();
 
 const MOOD_TAG_DEFINITIONS = [
-    // Moods & Energy
-    { id: 'melancholic', label: '🌧️ Dark & Melancholic', test: (s, m) => m?.isMelancholic },
-    { id: 'heavy', label: '🛡️ Heavy Riffs & Metal', test: (s, m) => m?.isHeavy },
-    { id: 'high_energy', label: '⚡ High Energy & Workout', test: (s, m) => m?.isHighEnergy },
-    { id: 'ballad', label: '🕯️ Ballads & Slow Jams', test: (s, m) => m?.isBallad },
-    { id: 'chill', label: '☕ Chill & Relaxed', test: (s, m) => m?.isChill },
-    { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic },
-    { id: 'progressive', label: '🎼 Progressive & Psychedelic', test: (s, m) => m?.isProgressive },
-    { id: 'party', label: '🎉 Party & Upbeat', test: (s, m) => m?.isParty },
-    { id: 'anadolu_rock', label: '🎸 Anadolu Rock & Psych', test: (s, m) => m?.isAnadoluRock },
-
-    // Spotify Popularity, Live & Heavy Rotation
-    { id: 'top_played', label: '🌟 Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },
-    { id: 'hits', label: '🔥 Global Hits & Popular', test: (s) => (s.popularity || 0) >= 48 },
-    { id: 'deep_cuts', label: '💎 Deep Cuts & Underrated', test: (s) => (s.popularity || 0) > 0 && (s.popularity || 0) < 32 },
-    { id: 'live', label: '🎙️ Live & Concerts', test: (s) => /\b(live|concert|tour|unplugged|live at|session)\b/i.test(s.name || '') },
-
-    // Forms & Eras
+    { id: 'mega', label: '🎲 Mega Shuffle', test: () => true },
     { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => (s.durationMs || 0) >= 420000 },
     { id: 'bangers', label: '⚡ Short Bangers (< 3.5 Min)', test: (s) => (s.durationMs || 0) > 0 && (s.durationMs || 0) < 210000 },
-    { id: 'era_60s_70s', label: '📻 60s & 70s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
-    { id: 'era_80s', label: '📼 80s Rock Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
+    { id: 'era_60s_70s', label: '📻 60s & 70s Classic Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
+    { id: 'era_80s', label: '📼 80s Rock & Metal', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
     { id: 'era_90s_00s', label: '💿 90s & 2000s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 2009; } },
     { id: 'era_2010s', label: '✨ 2010s & Beyond', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
-    { id: 'mega', label: '🎲 Mega Shuffle', test: () => true }
+    { id: 'top_played', label: '🌟 Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },
+    { id: 'hits', label: '🔥 Global Hits & Popular', test: (s) => (s.popularity || 0) >= 48 },
+    { id: 'deep_cuts', label: '💎 Deep Cuts & Underrated', test: (s) => (s.popularity || 0) > 0 && (s.popularity || 0) < 32 }
 ];
 
 function renderMoodChips() {
@@ -157,7 +139,7 @@ function renderMoodChips() {
     container.innerHTML = '';
 
     MOOD_TAG_DEFINITIONS.forEach(def => {
-        const count = allTracks.filter(s => def.test(s, allSongMoods[s.id])).length;
+        const count = allTracks.filter(s => def.test(s)).length;
         if (count === 0) return;
 
         const isSelected = selectedMoodTags.has(def.id);
@@ -230,20 +212,20 @@ function generateMoodTagBlend(autoScroll = true) {
 
     if (selectedDefs.length === 1) {
         const def = selectedDefs[0];
-        const matching = allTracks.filter(s => def.test(s, allSongMoods[s.id]));
+        const matching = allTracks.filter(s => def.test(s));
         currentMixTracks = shuffleArray(matching).slice(0, 35);
-        currentMixTitle = `🎭 ${def.label} Mix`;
+        currentMixTitle = `✨ ${def.label} Mix`;
     } else {
         // Multi-tag: Group by tag definition and interleave
         const groups = {};
         selectedDefs.forEach(def => {
-            groups[def.id] = shuffleArray(allTracks.filter(s => def.test(s, allSongMoods[s.id])));
+            groups[def.id] = shuffleArray(allTracks.filter(s => def.test(s)));
         });
 
         const blended = smartInterleave(groups, 7200000); // Up to 2 hours
         const labels = selectedDefs.map(d => d.label.split(' ')[0] + ' ' + (d.label.split(' ')[1] || '')).join(' + ');
         currentMixTracks = blended;
-        currentMixTitle = `🎭 ${labels} Blend`;
+        currentMixTitle = `✨ ${labels} Blend`;
     }
 
     renderMixResult(autoScroll);

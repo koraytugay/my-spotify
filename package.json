@@ -7,7 +7,6 @@
   "scripts": {
     "auth": "node auth.js",
     "sync": "node sync.js",
-    "enrich-moods": "node enrich-moods.js",
     "start": "npx serve ."
   },
   "keywords": [
