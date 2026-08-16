@@ -655,7 +655,8 @@ function renderMixResult(autoScroll = false) {
         // Album HTML
         let albumHtml = '';
         if (song.album && song.album.name) {
-            albumHtml = ` • <span class="album-year">${song.album.name}</span>`;
+            const albumUrl = song.album.id ? `album.html?id=${encodeURIComponent(song.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(song.album.name)}`;
+            albumHtml = ` • <a href="${albumUrl}" class="album-link">${song.album.name}</a>`;
         }
 
         const trackUrl = getSpotifyUrl(song, 'track');

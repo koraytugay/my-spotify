@@ -223,7 +223,7 @@ function renderAlbums() {
                 </button>
             </div>
             <div class="song-details">
-                <div class="song-title">${a.name}</div>
+                <div class="song-title"><a href="album.html?id=${encodeURIComponent(a.id)}" class="song-title-link">${a.name}</a></div>
                 <div class="song-artist">${artistsHtml}<span class="album-year">${releaseYear}</span></div>
             </div>
             <div class="song-meta">

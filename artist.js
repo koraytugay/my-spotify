@@ -205,7 +205,7 @@ function renderArtistAlbums() {
             </div>
             <div class="song-details">
                 <div class="song-title">
-                    <a href="${albumUrl}" class="song-title-link">${a.name}</a>
+                    <a href="album.html?id=${encodeURIComponent(a.id)}" class="song-title-link">${a.name}</a>
                 </div>
                 <div class="song-artist">${artistsHtml}<span class="album-year">${releaseYear}</span></div>
             </div>
@@ -269,7 +269,7 @@ function renderArtistSongs() {
         const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
         let albumHtml = '';
         if (albumName) {
-            const albumUrl = song.album?.id ? getSpotifyUri(song.album, 'album') : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+            const albumUrl = song.album?.id ? `album.html?id=${encodeURIComponent(song.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
             albumHtml = ` · <a href="${albumUrl}" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
         } else if (releaseYear) {
             albumHtml = ` · <span class="album-year">${releaseYear}</span>`;

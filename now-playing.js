@@ -219,8 +219,13 @@ function renderNowPlayingHero(track, isPlaying) {
     if (albumEl) {
         const albumName = track.album?.name || '';
         const releaseYear = track.album?.releaseYear ? ` (${track.album.releaseYear})` : (track.releaseYear ? ` (${track.releaseYear})` : '');
-        const durationText = track.durationFormatted ? ` • ⏱ ${track.durationFormatted}` : '';
-        albumEl.textContent = `${albumName}${releaseYear}${durationText}`;
+        const durationText = track.durationFormatted ? ` • ${track.durationFormatted}` : '';
+        if (albumName) {
+            const albumUrl = track.album?.id ? `album.html?id=${encodeURIComponent(track.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+            albumEl.innerHTML = `<a href="${albumUrl}" class="album-link" style="color: var(--text-secondary); text-decoration: none;">${albumName}</a>${releaseYear}${durationText}`;
+        } else {
+            albumEl.textContent = `${releaseYear}${durationText}`.replace(/^ • /, '');
+        }
     }
 
     if (eqEl) {

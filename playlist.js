@@ -248,7 +248,7 @@ function createTrackCard(t) {
     const releaseYear = t.album?.releaseYear ? ` (${t.album.releaseYear})` : '';
     let albumHtml = '';
     if (albumName) {
-        const albumUrl = t.album?.id ? getSpotifyUri(t.album, 'album') : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
+        const albumUrl = t.album?.id ? `album.html?id=${encodeURIComponent(t.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
         albumHtml = ` · <a href="${albumUrl}" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
     } else if (releaseYear) {
         albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
