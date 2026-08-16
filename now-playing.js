@@ -637,7 +637,7 @@ async function getOrCreateSmartMixPlaylistId(token, userId, desc) {
         body: JSON.stringify({
             name: 'My Smart Mix',
             description: desc || 'Curated Smart Mix',
-            public: false
+            public: true
         })
     });
 
@@ -716,6 +716,20 @@ async function syncNowPlayingQueueToSpotify() {
 
         // Lock onto single dedicated "My Smart Mix" playlist
         let playlistId = await getOrCreateSmartMixPlaylistId(token, userId, desc);
+
+        // Update playlist metadata to public and updated description
+        await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: 'My Smart Mix',
+                description: desc,
+                public: true
+            })
+        }).catch(() => {});
 
         // Overwrite tracks in the single playlist
         let replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
