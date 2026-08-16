@@ -547,15 +547,38 @@ async function generateCodeChallenge(verifier) {
         .replace(/=+$/, '');
 }
 
+function openSpotifyAuthModal() {
+    const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
+    const clientIdInput = document.getElementById('spotify-client-id-input');
+    const savedClientId = localStorage.getItem('spotify_client_id') || '';
+
+    if (redirectDisplay) redirectDisplay.textContent = getRedirectUri();
+    if (clientIdInput) clientIdInput.value = savedClientId;
+
+    const authModal = document.getElementById('spotify-auth-modal');
+    if (authModal) authModal.style.display = 'flex';
+}
+
+function disconnectSpotify() {
+    localStorage.removeItem('spotify_user_access_token');
+    localStorage.removeItem('spotify_user_refresh_token');
+    localStorage.removeItem('spotify_token_expires_at');
+    localStorage.removeItem('smart_mix_playlist_id');
+    localStorage.removeItem('spotify_client_id');
+    closeSpotifyAuthModal();
+    alert('Disconnected from Spotify. You can reconnect anytime.');
+}
+
 async function startSpotifyOAuth() {
     const input = document.getElementById('spotify-client-id-input');
     const clientId = (input?.value || localStorage.getItem('spotify_client_id') || '').trim();
 
     if (!clientId) {
-        alert('Please enter your Spotify Developer Client ID.');
+        openSpotifyAuthModal();
         return;
     }
 
+    closeSpotifyAuthModal();
     localStorage.setItem('spotify_client_id', clientId);
     localStorage.setItem('pending_mix_sync', JSON.stringify({
         tracks: currentMixTracks,
@@ -568,7 +591,8 @@ async function startSpotifyOAuth() {
 
     const redirectUri = getRedirectUri();
     const scope = 'playlist-modify-public playlist-modify-private playlist-read-private playlist-read-collaborative user-read-private';
-    const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}`;
+    // show_dialog=true forces Spotify to show the permission consent screen so new scopes are guaranteed to be granted
+    const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}&show_dialog=true`;
 
     window.location.href = authUrl;
 }
@@ -813,13 +837,16 @@ async function syncCurrentMixToSpotify() {
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
             if (replaceRes.status === 403 || replaceRes.status === 401) {
-                // Token was created with older insufficient scopes: clear and trigger re-auth with full playlist permissions
+                // Token was created with older insufficient scopes: clear cached tokens and redirect to Spotify with show_dialog=true
                 localStorage.removeItem('spotify_user_access_token');
                 localStorage.removeItem('spotify_user_refresh_token');
                 localStorage.removeItem('smart_mix_playlist_id');
-                console.warn('403/401: Cleared cached token. Prompting for re-authorization with full playlist permissions...');
-                alert('Spotify needs updated permissions to write to your playlists. Please click Connect to re-authorize.');
-                startSpotifyOAuth();
+                const clientId = localStorage.getItem('spotify_client_id');
+                if (clientId) {
+                    startSpotifyOAuth();
+                } else {
+                    openSpotifyAuthModal();
+                }
                 return;
             }
             throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);

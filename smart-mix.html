@@ -38,11 +38,14 @@
         <div id="smart-mix-content" style="display: none;">
             <!-- Theme Toggle Bar -->
             <div class="controls-card" style="padding: 12px 18px; margin-bottom: 24px;">
-                <div class="controls-row" style="justify-content: space-between; width: 100%;">
+                <div class="controls-row" style="justify-content: space-between; width: 100%; flex-wrap: wrap; gap: 10px;">
                     <div style="font-size: 0.9rem; font-weight: 700; color: var(--text-secondary);">
-                        Instant mix & queue generator powered by your offline library
+                        Instant mix & queue generator powered by your library
                     </div>
-                    <div class="control-group">
+                    <div class="control-group" style="display: flex; align-items: center; gap: 14px;">
+                        <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; padding: 5px 12px;" onclick="openSpotifyAuthModal()">
+                            ⚙️ Spotify Account
+                        </button>
                         <label class="checkbox-toggle">
                             <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
                             Dark Mode
@@ -184,9 +187,14 @@
                         Ensure <code id="spotify-redirect-uri-display" style="background: var(--bg-surface-active); padding: 2px 6px; border-radius: 4px;"></code> is listed under <strong>Redirect URIs</strong> in your Spotify Developer Dashboard.
                     </div>
                 </div>
-                <div style="display: flex; justify-content: flex-end; gap: 10px;">
-                    <button class="btn btn-secondary" onclick="closeSpotifyAuthModal()">Cancel</button>
-                    <button class="btn btn-primary" onclick="startSpotifyOAuth()">Connect Spotify</button>
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
+                    <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; color: #ff5555; border-color: rgba(255, 85, 85, 0.4);" onclick="disconnectSpotify()">
+                        🗑️ Reset / Disconnect
+                    </button>
+                    <div style="display: flex; gap: 8px;">
+                        <button type="button" class="btn btn-secondary" onclick="closeSpotifyAuthModal()">Cancel</button>
+                        <button type="button" class="btn btn-primary" onclick="startSpotifyOAuth()">Connect / Authorize</button>
+                    </div>
                 </div>
             </div>
         </div>
