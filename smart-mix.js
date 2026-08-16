@@ -694,9 +694,56 @@ function renderMixResult(autoScroll = false) {
     }
 }
 
-function playCurrentMix() {
+async function playCurrentMix() {
     if (!currentMixTracks || currentMixTracks.length === 0) return;
 
+    const playBtn = document.getElementById('play-mix-btn');
+    const origText = playBtn ? playBtn.innerHTML : '▶ Play Mix';
+
+    // 1. If Spotify token is available, create/update playlist first, await confirmation, then play!
+    const token = await getValidSpotifyToken().catch(() => null);
+
+    if (token) {
+        if (playBtn) {
+            playBtn.disabled = true;
+            playBtn.innerHTML = `Creating Playlist...`;
+        }
+
+        try {
+            const playlistId = await syncCurrentMixToSpotify(true);
+            if (playlistId && window.miniPlayer) {
+                // Play native Spotify Playlist container for continuous background playback
+                window.miniPlayer.playItem({ id: playlistId, name: currentMixTitle || 'My Smart Mix', tracks: currentMixTracks }, 'playlist');
+                return;
+            }
+        } catch (e) {
+            console.error('Error creating playlist before playback:', e);
+        } finally {
+            if (playBtn) {
+                playBtn.disabled = false;
+                playBtn.innerHTML = origText;
+            }
+        }
+    }
+
+    // 2. If no token, prompt user to connect so continuous playlist streaming is enabled
+    const tokenSaved = localStorage.getItem('spotify_user_access_token');
+    if (!tokenSaved) {
+        const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
+        const clientIdInput = document.getElementById('spotify-client-id-input');
+        const savedClientId = localStorage.getItem('spotify_client_id') || '';
+
+        if (redirectDisplay) redirectDisplay.textContent = getRedirectUri();
+        if (clientIdInput) clientIdInput.value = savedClientId;
+
+        const authModal = document.getElementById('spotify-auth-modal');
+        if (authModal) {
+            authModal.style.display = 'flex';
+            return;
+        }
+    }
+
+    // Fallback: standard queue playback
     if (window.miniPlayer) {
         window.miniPlayer.playlist = currentMixTracks;
         window.miniPlayer.currentType = 'playlist';

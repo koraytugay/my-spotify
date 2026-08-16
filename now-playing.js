@@ -67,13 +67,11 @@ async function initNowPlaying() {
                 if (foundAlbum && Array.isArray(foundAlbum.tracks) && foundAlbum.tracks.length > 0) {
                     currentQueueTracks = foundAlbum.tracks;
                     const trackIdx = trackIdParam ? foundAlbum.tracks.findIndex(t => t.id === trackIdParam) : 0;
-                    currentActiveTrack = trackIdx !== -1 ? foundAlbum.tracks[trackIdx] : foundAlbum.tracks[0];
-                    if (window.miniPlayer) {
-                        window.miniPlayer.playlist = foundAlbum.tracks;
-                        window.miniPlayer.currentTrack = currentActiveTrack;
-                        window.miniPlayer.currentType = 'album';
-                        window.miniPlayer.contextTitle = foundAlbum.name || 'Album';
-                        window.miniPlayer.playTrack(currentActiveTrack, foundAlbum.tracks);
+                    currentActiveTrack = trackIdx !== -1 ? foundAlbum.tracks[trackIdx] : (window.miniPlayer?.currentTrack || foundAlbum.tracks[0]);
+                    
+                    // Only start playback if not already actively playing this album
+                    if (window.miniPlayer && (!window.miniPlayer.isPlaying || window.miniPlayer.contextTitle !== foundAlbum.name)) {
+                        window.miniPlayer.playItem(foundAlbum, 'album');
                     }
                     handledByParam = true;
                 }
@@ -86,13 +84,11 @@ async function initNowPlaying() {
                 if (fullPlaylist && Array.isArray(fullPlaylist.tracks) && fullPlaylist.tracks.length > 0) {
                     currentQueueTracks = fullPlaylist.tracks;
                     const trackIdx = trackIdParam ? fullPlaylist.tracks.findIndex(t => t.id === trackIdParam) : 0;
-                    currentActiveTrack = trackIdx !== -1 ? fullPlaylist.tracks[trackIdx] : fullPlaylist.tracks[0];
-                    if (window.miniPlayer) {
-                        window.miniPlayer.playlist = fullPlaylist.tracks;
-                        window.miniPlayer.currentTrack = currentActiveTrack;
-                        window.miniPlayer.currentType = 'playlist';
-                        window.miniPlayer.contextTitle = fullPlaylist.name || 'Playlist';
-                        window.miniPlayer.playTrack(currentActiveTrack, fullPlaylist.tracks);
+                    currentActiveTrack = trackIdx !== -1 ? fullPlaylist.tracks[trackIdx] : (window.miniPlayer?.currentTrack || fullPlaylist.tracks[0]);
+                    
+                    // Only start playback if not already actively playing this playlist
+                    if (window.miniPlayer && (!window.miniPlayer.isPlaying || window.miniPlayer.contextTitle !== fullPlaylist.name)) {
+                        window.miniPlayer.playItem(fullPlaylist, 'playlist');
                     }
                     handledByParam = true;
                 }
