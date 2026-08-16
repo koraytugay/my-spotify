@@ -122,21 +122,38 @@
                         const pos = e.data.position || 0;
                         const dur = e.data.duration || 0;
 
-                        if (pos > maxPositionSeen) {
-                            maxPositionSeen = pos;
-                        }
-
                         // Synchronize track info if Spotify advanced internally inside album or playlist
-                        if (e.data.track && e.data.track.id) {
-                            const newTrackId = e.data.track.id;
-                            if (this.currentTrack?.id !== newTrackId) {
-                                const found = (this.playlist || []).find(t => t.id === newTrackId);
-                                if (found) {
-                                    this.currentTrack = found;
-                                    this.displayTrackInfo(found, this.currentType || 'track');
-                                    this.updateUIState();
-                                    this.notifyStateChange();
-                                }
+                        const newTrackId = e.data.track?.id || (e.data.track?.uri ? e.data.track.uri.split(':')[2] : null) || (e.data.uri ? e.data.uri.split(':')[2] : null);
+                        const trackName = e.data.track?.name || e.data.track?.title;
+
+                        if (newTrackId && this.currentTrack?.id !== newTrackId) {
+                            const found = (this.playlist || []).find(t => t.id === newTrackId);
+                            if (found) {
+                                this.currentTrack = found;
+                                maxPositionSeen = pos;
+                                this.displayTrackInfo(found, this.currentType || 'track');
+                                this.updateUIState();
+                                this.notifyStateChange();
+                            }
+                        } else if (trackName && (!this.currentTrack || this.currentTrack.name.toLowerCase() !== trackName.toLowerCase())) {
+                            const found = (this.playlist || []).find(t => t.name && t.name.toLowerCase() === trackName.toLowerCase());
+                            if (found) {
+                                this.currentTrack = found;
+                                maxPositionSeen = pos;
+                                this.displayTrackInfo(found, this.currentType || 'track');
+                                this.updateUIState();
+                                this.notifyStateChange();
+                            }
+                        } else if (this.isPlaying && maxPositionSeen > 15000 && pos < 2000) {
+                            // Spotify advanced to next track in album/playlist internally
+                            const currentIndex = (this.playlist || []).findIndex(t => t.id === this.currentTrack?.id);
+                            if (currentIndex !== -1 && currentIndex + 1 < this.playlist.length) {
+                                const nextTrack = this.playlist[currentIndex + 1];
+                                this.currentTrack = nextTrack;
+                                maxPositionSeen = pos;
+                                this.displayTrackInfo(nextTrack, this.currentType || 'track');
+                                this.updateUIState();
+                                this.notifyStateChange();
                             }
                         }
 
