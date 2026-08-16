@@ -5,21 +5,47 @@ const LIKED_SONGS_PATH = path.resolve('data/liked-songs.json');
 const ALBUMS_PATH = path.resolve('data/albums.json');
 const MOODS_PATH = path.resolve('data/song-moods.json');
 
-const USER_AGENT = 'MySpotifyApp/1.0.0 ( koraytugay@icloud.com )';
-const DELAY_MS = 1050; // MusicBrainz polite rate limit: 1 request per second
+// Load .env variables
+function loadEnv() {
+    const envPath = path.resolve(process.cwd(), '.env');
+    if (!fs.existsSync(envPath)) return {};
+    const lines = fs.readFileSync(envPath, 'utf8').split('\n');
+    const env = {};
+    for (const line of lines) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+        const eqIdx = trimmed.indexOf('=');
+        if (eqIdx !== -1) {
+            const key = trimmed.substring(0, eqIdx).trim();
+            const val = trimmed.substring(eqIdx + 1).trim().replace(/^["'](.*)["']$/, '$1');
+            env[key] = val;
+        }
+    }
+    return env;
+}
+
+const env = loadEnv();
+const LASTFM_API_KEY = env.LASTFM_API_KEY || process.env.LASTFM_API_KEY || '767b196b7aaafca99edce9846bea9a0e';
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function cleanString(str) {
-    if (!str) return '';
-    return str
+function cleanArtistName(raw) {
+    if (!raw) return '';
+    // If multiple artists separated by comma, take primary artist for tagging
+    const primary = raw.split(',')[0].split('&')[0].split(' feat.')[0].split(' ft.')[0].trim();
+    return primary;
+}
+
+function cleanTrackTitle(raw) {
+    if (!raw) return '';
+    return raw
         .replace(/\s*-\s*Remaster(ed)?(\s*\d{4})?/gi, '')
         .replace(/\s*\(Remaster(ed)?(\s*\d{4})?\)/gi, '')
         .replace(/\s*\(Live[^\)]*\)/gi, '')
         .replace(/\s*-\s*Live[^\-]*/gi, '')
-        .replace(/[^\w\s\u00C0-\u017F\u0100-\u024F]/gi, ' ')
+        .replace(/\s*-\s*Bonus Track/gi, '')
         .replace(/\s+/g, ' ')
         .trim();
 }
@@ -48,7 +74,10 @@ function loadAllTracks() {
                     if (Array.isArray(album.tracks)) {
                         for (const t of album.tracks) {
                             if (t && t.id && !tracksMap.has(t.id)) {
-                                tracksMap.set(t.id, t);
+                                tracksMap.set(t.id, {
+                                    ...t,
+                                    releaseYear: t.releaseYear || album.releaseYear
+                                });
                             }
                         }
                     }
@@ -62,187 +91,176 @@ function loadAllTracks() {
     return Array.from(tracksMap.values());
 }
 
-function loadExistingMoods() {
-    if (fs.existsSync(MOODS_PATH)) {
-        try {
-            return JSON.parse(fs.readFileSync(MOODS_PATH, 'utf8')) || {};
-        } catch (e) {
-            return {};
-        }
+const artistTagsCache = new Map();
+
+async function getArtistTags(artist) {
+    const cleanA = cleanArtistName(artist);
+    if (!cleanA) return [];
+
+    if (artistTagsCache.has(cleanA.toLowerCase())) {
+        return artistTagsCache.get(cleanA.toLowerCase());
     }
-    return {};
-}
-
-function saveMoods(moodsObj) {
-    fs.writeFileSync(MOODS_PATH, JSON.stringify(moodsObj, null, 2), 'utf8');
-}
-
-async function queryMusicBrainz(title, artist) {
-    const cleanT = cleanString(title);
-    const cleanA = cleanString(artist);
-    if (!cleanT || !cleanA) return null;
-
-    const q = `"${cleanT}" AND artist:"${cleanA}"`;
-    const url = `https://musicbrainz.org/ws/2/recording/?query=${encodeURIComponent(q)}&fmt=json&limit=3`;
 
     try {
-        const res = await fetch(url, {
-            headers: { 'User-Agent': USER_AGENT }
-        });
-        if (!res.ok) return null;
+        const url = `https://ws.audioscrobbler.com/2.0/?method=artist.gettoptags&artist=${encodeURIComponent(cleanA)}&api_key=${LASTFM_API_KEY}&format=json`;
+        const res = await fetch(url);
+        if (!res.ok) {
+            artistTagsCache.set(cleanA.toLowerCase(), []);
+            return [];
+        }
         const data = await res.json();
-        const recordings = data.recordings || [];
-        if (recordings.length === 0) return null;
-        return recordings[0].id;
+        const tags = (data.toptags?.tag || []).slice(0, 15).map(t => (t.name || '').toLowerCase().trim());
+        artistTagsCache.set(cleanA.toLowerCase(), tags);
+        await sleep(150); // Polite Last.fm pacing
+        return tags;
     } catch (e) {
-        return null;
+        artistTagsCache.set(cleanA.toLowerCase(), []);
+        return [];
     }
 }
 
-async function queryAcousticBrainz(mbid) {
-    if (!mbid) return null;
-    let highlevel = null;
-    let lowlevel = null;
+async function getTrackTags(artist, title) {
+    const cleanA = cleanArtistName(artist);
+    const cleanT = cleanTrackTitle(title);
+    if (!cleanA || !cleanT) return [];
 
     try {
-        const hlRes = await fetch(`https://acousticbrainz.org/api/v1/${mbid}/high-level`);
-        if (hlRes.ok) {
-            const hlData = await hlRes.json();
-            highlevel = hlData.highlevel || null;
-        }
-    } catch (e) {}
-
-    try {
-        const llRes = await fetch(`https://acousticbrainz.org/api/v1/${mbid}/low-level`);
-        if (llRes.ok) {
-            const llData = await llRes.json();
-            lowlevel = {
-                bpm: llData.rhythm?.bpm ? Math.round(llData.rhythm.bpm) : null,
-                danceability: llData.rhythm?.danceability ?? null,
-                key: llData.tonal?.key_key ? `${llData.tonal.key_key} ${llData.tonal.key_scale || ''}`.trim() : null
-            };
-        }
-    } catch (e) {}
-
-    if (!highlevel && !lowlevel) return null;
-
-    return { highlevel, lowlevel };
+        const url = `https://ws.audioscrobbler.com/2.0/?method=track.gettoptags&artist=${encodeURIComponent(cleanA)}&track=${encodeURIComponent(cleanT)}&api_key=${LASTFM_API_KEY}&format=json`;
+        const res = await fetch(url);
+        if (!res.ok) return [];
+        const data = await res.json();
+        const tags = (data.toptags?.tag || []).slice(0, 10).map(t => (t.name || '').toLowerCase().trim());
+        await sleep(150);
+        return tags;
+    } catch (e) {
+        return [];
+    }
 }
 
-function classifyMoodAndTempo(track, abData) {
-    let bpm = abData?.lowlevel?.bpm || null;
-    let acousticVal = abData?.highlevel?.mood_acoustic?.value;
-    let aggressiveVal = abData?.highlevel?.mood_aggressive?.value;
-    let relaxedVal = abData?.highlevel?.mood_relaxed?.value;
-    let partyVal = abData?.highlevel?.mood_party?.value;
-    let sadVal = abData?.highlevel?.mood_sad?.value;
-    let happyVal = abData?.highlevel?.mood_happy?.value;
+function analyzeTags(tags, track) {
+    const tagStr = tags.join(' ');
+    const title = (track.name || '').toLowerCase();
+    const duration = track.durationMs || 0;
+    const year = track.releaseYear || (track.album && track.album.releaseYear) || 0;
 
-    const isAcoustic = acousticVal === 'acoustic' || /\b(acoustic|unplugged|piano|strings)\b/i.test(track.name || '');
-    const isAggressive = aggressiveVal === 'aggressive' || (bpm && bpm > 145);
-    const isRelaxed = relaxedVal === 'relaxed' || (bpm && bpm < 95);
-    const isParty = partyVal === 'party' || (bpm && bpm >= 115 && bpm <= 135);
-    const isSad = sadVal === 'sad';
-    const isHappy = happyVal === 'happy';
+    // Classification Flags
+    const isMelancholic = /melanchol|dark metal|doom|depressive|sad|gothic|atmospheric black metal|funeral doom|ambient|post-rock|neofolk/i.test(tagStr) ||
+                          /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
 
-    // Tempo categorization
-    let tempoCategory = 'mid-tempo';
-    if (bpm) {
-        if (bpm < 95) tempoCategory = 'slow';
-        else if (bpm > 135) tempoCategory = 'fast';
-        else tempoCategory = 'mid-tempo';
-    }
+    const isHeavy = /metal|death metal|thrash|black metal|heavy metal|hard rock|metalcore|grunge|sludge|stoner rock|nwobhm/i.test(tagStr);
 
-    // Ballad detection: slow tempo + acoustic/relaxed/sad, or keyword in title
-    const isBallad = (tempoCategory === 'slow' && (isAcoustic || isRelaxed || isSad)) || /\b(ballad|slow|lullaby)\b/i.test(track.name || '');
-    const isHighEnergy = isAggressive || tempoCategory === 'fast' || partyVal === 'party';
-    const isChill = isRelaxed || isAcoustic || (tempoCategory === 'slow' && !isAggressive);
+    const isProgressive = /progressive rock|prog|progressive metal|art rock|krautrock|post-rock|psychedelic rock|space rock|fusion/i.test(tagStr) ||
+                          (duration >= 420000);
 
+    const isHighEnergy = /thrash|speed metal|power metal|heavy metal|hard rock|punk|metalcore|energetic|intense|fast/i.test(tagStr) ||
+                         (isHeavy && duration > 0 && duration < 240000);
+
+    const isAcoustic = /acoustic|unplugged|folk|neofolk|fingerstyle|classical guitar|singer-songwriter/i.test(tagStr) ||
+                       /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(title);
+
+    const isBallad = /ballad|power ballad|slow|love songs/i.test(tagStr) ||
+                     /\b(ballad|slow|farewell|remember|heaven|forever|rain|heart|love)\b/i.test(title) ||
+                     (isMelancholic && isAcoustic);
+
+    const isChill = /chill|chillout|relaxed|ambient|lounge|downtempo|lo-fi|trip hop|mellow|easy listening|calm/i.test(tagStr) ||
+                    (!isHeavy && !isHighEnergy && (isAcoustic || isMelancholic));
+
+    const isParty = /dance|party|disco|pop|funk|electronic|synthpop|house|eurodance|club/i.test(tagStr);
+
+    const isTurkish = /turkish|anatolian rock|turkce|turkey|arabesk|anadolu rock/i.test(tagStr);
+
+    const isEpics = duration >= 420000;
+    const isBangers = duration > 0 && duration < 210000;
+
+    // Moods array
     const moods = [];
-    if (isBallad) moods.push('ballad');
+    if (isMelancholic) moods.push('melancholic');
+    if (isHeavy) moods.push('heavy');
+    if (isProgressive) moods.push('progressive');
     if (isHighEnergy) moods.push('high_energy');
-    if (isChill) moods.push('chill');
+    if (isBallad) moods.push('ballad');
     if (isAcoustic) moods.push('acoustic');
+    if (isChill) moods.push('chill');
     if (isParty) moods.push('party');
-    if (isHappy) moods.push('happy');
-    if (isSad) moods.push('sad');
-    if (moods.length === 0) moods.push('mid-tempo');
+    if (isTurkish) moods.push('turkish');
+    if (isEpics) moods.push('epics');
+    if (isBangers) moods.push('bangers');
 
     return {
-        bpm,
-        tempoCategory,
-        isBallad,
+        tags: Array.from(new Set(tags)),
+        moods: moods.length > 0 ? moods : ['mid-tempo'],
+        isMelancholic,
+        isHeavy,
+        isProgressive,
         isHighEnergy,
+        isBallad,
         isAcoustic,
         isChill,
         isParty,
-        moods,
-        source: abData ? 'acousticbrainz' : 'heuristic'
+        isTurkish,
+        isEpics,
+        isBangers
     };
 }
 
 async function main() {
     console.log('🎵 Loading library tracks...');
     const allTracks = loadAllTracks();
-    console.log(`Found ${allTracks.length} total tracks.`);
+    console.log(`Found ${allTracks.length} total tracks across Liked Songs and Albums.`);
 
-    const moodsMap = loadExistingMoods();
-    console.log(`Loaded ${Object.keys(moodsMap).length} previously enriched tracks from data/song-moods.json.`);
+    let existingMoods = {};
+    if (fs.existsSync(MOODS_PATH)) {
+        try {
+            existingMoods = JSON.parse(fs.readFileSync(MOODS_PATH, 'utf8')) || {};
+        } catch (e) {}
+    }
 
-    let enrichedCount = 0;
-    let abHitCount = 0;
+    console.log(`Found ${Object.keys(existingMoods).length} existing entries in data/song-moods.json.`);
+
+    // Pre-cache artist tags first for massive speedup
+    const uniqueArtists = new Set();
+    allTracks.forEach(t => {
+        const raw = t.artistNames || (t.artists && t.artists[0]?.name) || '';
+        const primary = cleanArtistName(raw);
+        if (primary) uniqueArtists.add(primary);
+    });
+
+    console.log(`📡 Fetching Last.fm tags for ${uniqueArtists.size} unique artists...`);
+    let artistIdx = 0;
+    for (const artist of uniqueArtists) {
+        artistIdx++;
+        if (artistIdx % 20 === 0 || artistIdx === uniqueArtists.size) {
+            console.log(`  [${artistIdx}/${uniqueArtists.size}] Cached artist tags...`);
+        }
+        await getArtistTags(artist);
+    }
+
+    console.log(`\n🏷️ Classifying all ${allTracks.length} tracks with rich Last.fm tags...`);
+    const finalMoodsMap = {};
 
     for (let i = 0; i < allTracks.length; i++) {
         const track = allTracks[i];
         if (!track || !track.id) continue;
 
-        // Skip if already enriched
-        if (moodsMap[track.id]) continue;
+        const rawArtist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
+        const artistTags = await getArtistTags(rawArtist);
 
-        const artist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
-        const title = track.name || '';
+        const classification = analyzeTags(artistTags, track);
 
-        console.log(`[${i + 1}/${allTracks.length}] Querying MusicBrainz for: "${title}" by "${artist}"...`);
-
-        let mbid = null;
-        let abData = null;
-
-        try {
-            mbid = await queryMusicBrainz(title, artist);
-            if (mbid) {
-                abData = await queryAcousticBrainz(mbid);
-                if (abData) {
-                    abHitCount++;
-                    console.log(`  ✨ AcousticBrainz match found! (BPM: ${abData.lowlevel?.bpm || 'N/A'})`);
-                }
-            }
-        } catch (e) {
-            console.warn(`  Warning querying MB for ${title}:`, e.message);
-        }
-
-        const classification = classifyMoodAndTempo(track, abData);
-        moodsMap[track.id] = {
+        finalMoodsMap[track.id] = {
             id: track.id,
-            name: title,
-            artist: artist,
-            mbid: mbid || null,
-            ...classification
+            name: track.name,
+            artist: rawArtist,
+            releaseYear: track.releaseYear || (track.album && track.album.releaseYear) || null,
+            durationMs: track.durationMs || null,
+            ...classification,
+            source: 'lastfm'
         };
-
-        enrichedCount++;
-
-        // Periodic save every 15 tracks
-        if (enrichedCount % 15 === 0) {
-            saveMoods(moodsMap);
-            console.log(`  💾 Saved checkpoint (${Object.keys(moodsMap).length} tracks tagged).`);
-        }
-
-        await sleep(DELAY_MS);
     }
 
-    saveMoods(moodsMap);
-    console.log(`\n✅ Enrichment complete! Tagged ${enrichedCount} new tracks (${abHitCount} via AcousticBrainz).`);
-    console.log(`Saved full mood dataset to ${MOODS_PATH}`);
+    fs.writeFileSync(MOODS_PATH, JSON.stringify(finalMoodsMap, null, 2), 'utf8');
+    console.log(`\n✅ Last.fm Tag Enrichment Complete!`);
+    console.log(`Saved ${Object.keys(finalMoodsMap).length} tagged tracks to ${MOODS_PATH}`);
 }
 
 main().catch(err => {

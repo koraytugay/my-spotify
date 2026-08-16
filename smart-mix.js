@@ -116,26 +116,19 @@ var selectedMoodTags = new Set();
 
 const MOOD_TAG_DEFINITIONS = [
     // Moods & Energy
-    { id: 'high_energy', label: '⚡ High Energy & Workout', test: (s, m) => m?.isHighEnergy || m?.tempoCategory === 'fast' || (m?.bpm && m.bpm > 135) || (s.durationMs && s.durationMs > 0 && s.durationMs < 240000) },
-    { id: 'ballad', label: '🕯️ Ballads & Slow Jams', test: (s, m) => m?.isBallad || m?.tempoCategory === 'slow' || /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember)\b/i.test(s.name || '') },
-    { id: 'chill', label: '☕ Chill & Relaxed', test: (s, m) => m?.isChill || m?.tempoCategory === 'slow' || m?.mood_relaxed === 'relaxed' },
-    { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic || /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(s.name || '') },
-    { id: 'melancholic', label: '🌧️ Dark & Melancholic', test: (s, m) => m?.mood_sad === 'sad' || /\b(dark|shadow|black|death|grave|sorrow|pain|cry|lonely|sad)\b/i.test(s.name || '') },
-    { id: 'party', label: '🎉 Party & Danceable', test: (s, m) => m?.isParty || m?.mood_party === 'party' || (m?.bpm && m.bpm >= 115 && m.bpm <= 135) },
-    { id: 'happy', label: '☀️ Feel-Good & Uplifting', test: (s, m) => m?.mood_happy === 'happy' || /\b(sun|shine|happy|smile|joy|light|dance|good|summer)\b/i.test(s.name || '') },
+    { id: 'melancholic', label: '🌧️ Dark & Melancholic', test: (s, m) => m?.isMelancholic },
+    { id: 'heavy', label: '🛡️ Heavy Riffs & Metal', test: (s, m) => m?.isHeavy },
+    { id: 'high_energy', label: '⚡ High Energy & Workout', test: (s, m) => m?.isHighEnergy },
+    { id: 'ballad', label: '🕯️ Ballads & Slow Jams', test: (s, m) => m?.isBallad },
+    { id: 'chill', label: '☕ Chill & Relaxed', test: (s, m) => m?.isChill },
+    { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic },
+    { id: 'progressive', label: '🎼 Progressive & Psychedelic', test: (s, m) => m?.isProgressive },
+    { id: 'party', label: '🎉 Party & Danceable', test: (s, m) => m?.isParty },
+    { id: 'turkish', label: '🇹🇷 Turkish & Anatolian Rock', test: (s, m) => m?.isTurkish },
 
-    // Textures & Styles
-    { id: 'heavy', label: '🛡️ Heavy Riffs & Metal', test: (s, m) => m?.mood_aggressive === 'aggressive' || (m?.bpm && m.bpm > 140) },
-    { id: 'electronic', label: '🎹 Electronic & Synth', test: (s, m) => m?.mood_electronic === 'electronic' || /\b(synth|electronic|remix|club|dub|dance|techno)\b/i.test(s.name || '') },
-    { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => s.durationMs && s.durationMs >= 420000 },
-    { id: 'bangers', label: '⚡ Short Bangers (< 3.5 Min)', test: (s) => s.durationMs && s.durationMs > 0 && s.durationMs < 210000 },
-
-    // Tempos
-    { id: 'slow_tempo', label: '🐢 Slow (< 95 BPM)', test: (s, m) => m?.tempoCategory === 'slow' || (m?.bpm && m.bpm < 95) },
-    { id: 'mid_tempo', label: '🥁 Mid-Tempo (95–130 BPM)', test: (s, m) => m?.tempoCategory === 'mid-tempo' || (m?.bpm && m.bpm >= 95 && m.bpm <= 130) },
-    { id: 'fast_tempo', label: '🏎️ Fast (> 130 BPM)', test: (s, m) => m?.tempoCategory === 'fast' || (m?.bpm && m.bpm > 130) },
-
-    // Eras & Decades
+    // Forms & Eras
+    { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => (s.durationMs || 0) >= 420000 },
+    { id: 'bangers', label: '⚡ Short Bangers (< 3.5 Min)', test: (s) => (s.durationMs || 0) > 0 && (s.durationMs || 0) < 210000 },
     { id: 'era_60s_70s', label: '📻 60s & 70s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
     { id: 'era_80s', label: '📼 80s Rock Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
     { id: 'era_90s_00s', label: '💿 90s & 2000s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 2009; } },
