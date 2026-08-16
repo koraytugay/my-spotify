@@ -215,31 +215,36 @@ async function main() {
         } catch (e) {}
     }
 
-    console.log(`Found ${Object.keys(existingMoods).length} existing entries in data/song-moods.json.`);
+    const missingTracks = allTracks.filter(t => !existingMoods[t.id] || existingMoods[t.id].source !== 'lastfm');
+    console.log(`Found ${Object.keys(existingMoods).length} existing entries in data/song-moods.json (${missingTracks.length} new/missing).`);
 
-    // Pre-cache artist tags first for massive speedup
+    if (missingTracks.length === 0) {
+        console.log('✨ All tracks are already enriched! Nothing to do.');
+        return;
+    }
+
+    // Pre-cache artist tags only for the new/missing tracks
     const uniqueArtists = new Set();
-    allTracks.forEach(t => {
+    missingTracks.forEach(t => {
         const raw = t.artistNames || (t.artists && t.artists[0]?.name) || '';
         const primary = cleanArtistName(raw);
         if (primary) uniqueArtists.add(primary);
     });
 
-    console.log(`📡 Fetching Last.fm tags for ${uniqueArtists.size} unique artists...`);
+    console.log(`📡 Fetching Last.fm tags for ${uniqueArtists.size} new unique artists...`);
     let artistIdx = 0;
     for (const artist of uniqueArtists) {
         artistIdx++;
-        if (artistIdx % 20 === 0 || artistIdx === uniqueArtists.size) {
-            console.log(`  [${artistIdx}/${uniqueArtists.size}] Cached artist tags...`);
+        if (artistIdx % 10 === 0 || artistIdx === uniqueArtists.size) {
+            console.log(`  [${artistIdx}/${uniqueArtists.size}] Cached artist tags for "${artist}"...`);
         }
         await getArtistTags(artist);
     }
 
-    console.log(`\n🏷️ Classifying all ${allTracks.length} tracks with rich Last.fm tags...`);
-    const finalMoodsMap = {};
+    console.log(`\n🏷️ Classifying ${missingTracks.length} new tracks with Last.fm tags...`);
 
-    for (let i = 0; i < allTracks.length; i++) {
-        const track = allTracks[i];
+    for (let i = 0; i < missingTracks.length; i++) {
+        const track = missingTracks[i];
         if (!track || !track.id) continue;
 
         const rawArtist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
@@ -247,7 +252,7 @@ async function main() {
 
         const classification = analyzeTags(artistTags, track);
 
-        finalMoodsMap[track.id] = {
+        existingMoods[track.id] = {
             id: track.id,
             name: track.name,
             artist: rawArtist,
@@ -258,9 +263,9 @@ async function main() {
         };
     }
 
-    fs.writeFileSync(MOODS_PATH, JSON.stringify(finalMoodsMap, null, 2), 'utf8');
+    fs.writeFileSync(MOODS_PATH, JSON.stringify(existingMoods, null, 2), 'utf8');
     console.log(`\n✅ Last.fm Tag Enrichment Complete!`);
-    console.log(`Saved ${Object.keys(finalMoodsMap).length} tagged tracks to ${MOODS_PATH}`);
+    console.log(`Saved ${Object.keys(existingMoods).length} total tagged tracks to ${MOODS_PATH}`);
 }
 
 main().catch(err => {
