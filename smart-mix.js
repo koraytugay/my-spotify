@@ -619,7 +619,25 @@ async function startSpotifyOAuth() {
     localStorage.setItem('spotify_pkce_verifier', verifier);
 
     const redirectUri = getRedirectUri();
-    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private playlist-read-collaborative user-read-private';
+    const scopesList = [
+        'playlist-modify-public',
+        'playlist-modify-private',
+        'playlist-read-private',
+        'playlist-read-collaborative',
+        'user-read-private',
+        'user-read-email',
+        'user-library-read',
+        'user-library-modify',
+        'user-top-read',
+        'user-read-playback-state',
+        'user-modify-playback-state',
+        'user-read-currently-playing',
+        'user-read-recently-played',
+        'user-follow-read',
+        'user-follow-modify',
+        'ugc-image-upload'
+    ];
+    const scope = scopesList.join(' ');
     const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}&show_dialog=true`;
 
     window.location.href = authUrl;
@@ -909,6 +927,18 @@ async function syncCurrentMixToSpotify() {
             },
             body: JSON.stringify({ uris })
         });
+
+        if (!replaceRes.ok) {
+            // Try POST /v1/playlists/{id}/tracks (appending / populating)
+            replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uris })
+            });
+        }
 
         // Fallback: If modifying the old playlist was forbidden, create a fresh one
         if (!replaceRes.ok && (replaceRes.status === 403 || replaceRes.status === 404)) {
