@@ -141,20 +141,20 @@
                         }
 
                         // Auto-advance when playback finishes and pauses:
-                        // 1. Full track finished: position reached near duration (dur - 1500ms)
-                        // 2. 30s Preview finished: position reached near preview end (>= 28500ms)
+                        // 1. Full track finished: position reached near duration (dur - 2500ms) or reached duration
+                        // 2. 30s Preview finished: position reached preview cutoff (>= 20000ms)
                         if (isPaused && dur > 0) {
-                            const isFullTrackEnd = (pos >= dur) || (dur > 5000 && maxPositionSeen >= (dur - 1500));
-                            const isPreviewEnd = (maxPositionSeen >= 28500);
+                            const isFullTrackEnd = (pos >= dur) || (dur > 5000 && maxPositionSeen >= (dur - 2500));
+                            const isPreviewEnd = (maxPositionSeen >= 20000);
 
                             if (isFullTrackEnd || isPreviewEnd) {
                                 if (currentId && currentId !== this.lastEndedTrackId) {
                                     this.lastEndedTrackId = currentId;
                                     maxPositionSeen = 0;
-                                    console.log('Song finished. Advancing to next track in queue...');
+                                    console.log('Song finished naturally. Advancing to next track in queue...');
                                     setTimeout(() => {
                                         this.playNext();
-                                    }, 350);
+                                    }, 300);
                                 }
                             }
                         }
@@ -423,6 +423,7 @@
                 this.playlist = playlist;
             }
             this.currentTrack = track;
+            this.lastEndedTrackId = null;
 
             this.displayTrackInfo(track, this.currentType || 'track');
 
@@ -436,9 +437,19 @@
 
             if (this.embedController) {
                 this.embedController.loadUri(uri);
-                this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
+
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 300);
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 800);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
