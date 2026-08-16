@@ -433,7 +433,7 @@ function smartInterleave(tracksByGroup, limitOrMaxMs = 7200000) {
         groupIndex++;
     }
 
-    return result;
+    return shuffleArray(result);
 }
 
 function getAllLibraryTracks() {
