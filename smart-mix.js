@@ -549,13 +549,35 @@ async function generateCodeChallenge(verifier) {
         .replace(/=+$/, '');
 }
 
+function extractPlaylistId(input) {
+    if (!input) return '';
+    const clean = input.trim();
+    const urlMatch = clean.match(/playlist\/([a-zA-Z0-9]+)/);
+    if (urlMatch) return urlMatch[1];
+    const uriMatch = clean.match(/spotify:playlist:([a-zA-Z0-9]+)/);
+    if (uriMatch) return uriMatch[1];
+    return clean;
+}
+
+function saveCustomPlaylistId(val) {
+    const id = extractPlaylistId(val);
+    if (id) {
+        localStorage.setItem('smart_mix_playlist_id', id);
+    } else {
+        localStorage.removeItem('smart_mix_playlist_id');
+    }
+}
+
 function openSpotifyAuthModal() {
     const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
     const clientIdInput = document.getElementById('spotify-client-id-input');
+    const customPlaylistInput = document.getElementById('custom-playlist-id-input');
     const savedClientId = localStorage.getItem('spotify_client_id') || '';
+    const savedPlaylistId = localStorage.getItem('smart_mix_playlist_id') || '';
 
     if (redirectDisplay) redirectDisplay.textContent = getRedirectUri();
     if (clientIdInput) clientIdInput.value = savedClientId;
+    if (customPlaylistInput) customPlaylistInput.value = savedPlaylistId;
 
     const authModal = document.getElementById('spotify-auth-modal');
     if (authModal) authModal.style.display = 'flex';

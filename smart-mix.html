@@ -186,10 +186,19 @@
                 <div style="margin-bottom: 16px;">
                     <label for="spotify-client-id-input" style="font-size: 0.82rem; font-weight: 700;">Spotify Client ID:</label>
                     <input type="text" id="spotify-client-id-input" class="form-control" placeholder="e.g. 4a8b7c9d123456789..." style="width: 100%; margin-top: 6px; padding: 8px 12px; font-size: 0.88rem;">
-                    <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 8px; line-height: 1.4;">
-                        Ensure <code id="spotify-redirect-uri-display" style="background: var(--bg-surface-active); padding: 2px 6px; border-radius: 4px;"></code> is listed under <strong>Redirect URIs</strong> in your Spotify Developer Dashboard.
+                    <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 6px; line-height: 1.4;">
+                        Ensure <code id="spotify-redirect-uri-display" style="background: var(--bg-surface-active); padding: 2px 6px; border-radius: 4px;"></code> is in <strong>Redirect URIs</strong> in your Spotify Developer Dashboard.
                     </div>
                 </div>
+
+                <div style="margin-bottom: 16px; border-top: 1px solid var(--border); padding-top: 14px;">
+                    <label for="custom-playlist-id-input" style="font-size: 0.82rem; font-weight: 700;">Target Spotify Playlist Link or ID (Optional):</label>
+                    <input type="text" id="custom-playlist-id-input" class="form-control" placeholder="e.g. https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M" style="width: 100%; margin-top: 6px; padding: 8px 12px; font-size: 0.88rem;" oninput="saveCustomPlaylistId(this.value)">
+                    <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 6px; line-height: 1.4;">
+                        Leave blank to auto-create <strong>"My Smart Mix"</strong>, or paste any existing playlist link from your Spotify app to sync into it.
+                    </div>
+                </div>
+
                 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
                     <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; color: #ff5555; border-color: rgba(255, 85, 85, 0.4);" onclick="disconnectSpotify()">
                         🗑️ Reset / Disconnect
