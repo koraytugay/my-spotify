@@ -81,6 +81,32 @@ async function getArtistDiscography(artistId) {
     return disco || [];
 }
 
+// Converts a Spotify item, URI, or ID into a standard web URL (open.spotify.com)
+function getSpotifyUrl(itemOrUrl, type = 'track') {
+    if (!itemOrUrl) return 'https://open.spotify.com';
+    if (typeof itemOrUrl === 'string') {
+        if (itemOrUrl.startsWith('http://') || itemOrUrl.startsWith('https://')) return itemOrUrl;
+        const match = itemOrUrl.match(/spotify:(track|album|artist|playlist):([a-zA-Z0-9]+)/);
+        if (match) return `https://open.spotify.com/${match[1]}/${match[2]}`;
+        return itemOrUrl;
+    }
+    // If it's a track with an album, link to album with track highlighted (prevents auto-play)
+    if (type === 'track' && itemOrUrl.album?.id && itemOrUrl.id) {
+        return `https://open.spotify.com/album/${itemOrUrl.album.id}?highlight=spotify:track:${itemOrUrl.id}`;
+    }
+    if (itemOrUrl.spotifyUrl) {
+        return itemOrUrl.spotifyUrl;
+    }
+    if (itemOrUrl.id) {
+        return `https://open.spotify.com/${type}/${itemOrUrl.id}`;
+    }
+    if (itemOrUrl.uri) {
+        const match = itemOrUrl.uri.match(/spotify:(track|album|artist|playlist):([a-zA-Z0-9]+)/);
+        if (match) return `https://open.spotify.com/${match[1]}/${match[2]}`;
+    }
+    return 'https://open.spotify.com';
+}
+
 // Converts a Spotify item or web URL into a native Spotify app deep link URI
 function getSpotifyUri(itemOrUrl, type = 'track') {
     if (!itemOrUrl) return '#';
@@ -104,7 +130,37 @@ function getSpotifyUri(itemOrUrl, type = 'track') {
     return '#';
 }
 
+// Mobile device detection (User Agent + touch viewport)
+function isMobileDevice() {
+    if (typeof window === 'undefined') return false;
+    const ua = navigator.userAgent || navigator.vendor || window.opera || '';
+    const isMobileUa = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+    const isTouchMobile = (navigator.maxTouchPoints > 1 && window.innerWidth <= 768);
+    return isMobileUa || isTouchMobile;
+}
+
+// Returns native spotify:... URI on mobile devices (to open app) and https://open.spotify.com on desktop
+function getSpotifyLink(itemOrUrl, type = 'track') {
+    if (isMobileDevice()) {
+        const uri = getSpotifyUri(itemOrUrl, type);
+        if (uri && uri !== '#') return uri;
+    }
+    return getSpotifyUrl(itemOrUrl, type);
+}
+
+// Returns href and appropriate target attributes (target=_blank on desktop web, direct navigation on mobile app)
+function getSpotifyLinkAttrs(itemOrUrl, type = 'track') {
+    const isMobile = isMobileDevice();
+    const href = isMobile ? getSpotifyUri(itemOrUrl, type) : getSpotifyUrl(itemOrUrl, type);
+    const targetAttrs = isMobile ? '' : 'target="_blank" rel="noopener noreferrer"';
+    return { href, targetAttrs, isMobile };
+}
+
 if (typeof window !== 'undefined') {
+    window.isMobileDevice = isMobileDevice;
+    window.getSpotifyLink = getSpotifyLink;
+    window.getSpotifyLinkAttrs = getSpotifyLinkAttrs;
+    window.getSpotifyUrl = getSpotifyUrl;
     window.getSpotifyUri = getSpotifyUri;
     window.fetchJson = fetchJson;
     window.getProfile = getProfile;
