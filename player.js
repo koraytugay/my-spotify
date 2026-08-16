@@ -208,17 +208,30 @@
                         this.updateUIState();
                         this.notifyStateChange();
 
-                        const currentId = this.currentTrack?.id;
                         const now = Date.now();
+                        const pos = e.data.position || 0;
+                        const dur = e.data.duration || 0;
 
+                        // Synchronize track info if Spotify advanced internally inside album or playlist
+                        if (e.data.track && e.data.track.id) {
+                            const newTrackId = e.data.track.id;
+                            if (this.currentTrack?.id !== newTrackId) {
+                                const found = (this.playlist || []).find(t => t.id === newTrackId);
+                                if (found) {
+                                    this.currentTrack = found;
+                                    this.displayTrackInfo(found, this.currentType || 'track');
+                                    this.updateUIState();
+                                    this.notifyStateChange();
+                                }
+                            }
+                        }
+
+                        const currentId = this.currentTrack?.id;
                         if (currentId !== this.lastActiveTrackId) {
                             this.lastActiveTrackId = currentId;
                             this.maxPositionSeen = 0;
                             this.playStartTime = now;
                         }
-
-                        const pos = e.data.position || 0;
-                        const dur = e.data.duration || 0;
 
                         this.lastReportedPosition = pos;
                         this.lastPositionUpdate = now;
@@ -229,8 +242,9 @@
 
                         if (this.isPlaying) {
                             this.startHeartbeat();
+                            this.enableAudioKeepalive();
                         } else {
-                            // When track ends and pauses near completion, auto-advance
+                            // If paused near completion in single track mode, advance to next track
                             const isNearEnd = (dur > 0 && pos >= dur) || (this.maxPositionSeen >= 28000) || (dur > 0 && this.maxPositionSeen >= (dur - 2500));
                             const elapsed = this.playStartTime ? (now - this.playStartTime) : 0;
 
@@ -474,13 +488,24 @@
                 spaNavigate(targetNavUrl, true);
             }
 
-            // Always send Spotify the specific track URI so queue remains in sync
-            const uri = activeTrack.uri || `spotify:track:${activeTrack.id}`;
+            // For Albums and Playlists, pass the container URI so Spotify natively streams all tracks in background!
+            let uri;
+            if (type === 'album' && item.id) {
+                uri = `spotify:album:${item.id}`;
+            } else if (type === 'playlist' && item.id) {
+                uri = `spotify:playlist:${item.id}`;
+            } else {
+                uri = activeTrack.uri || `spotify:track:${activeTrack.id}`;
+            }
+
+            this.enableAudioKeepalive();
 
             if (this.embedController) {
                 this.embedController.loadUri(uri);
                 this.embedController.play();
                 this.isPlaying = true;
+                this.playStartTime = Date.now();
+                this.startHeartbeat();
                 this.saveState();
             } else {
                 this.pendingPlayUri = uri;
@@ -488,7 +513,7 @@
                 if (slot) {
                     slot.innerHTML = `
                         <iframe 
-                            src="https://open.spotify.com/embed/track/${activeTrack.id}?utm_source=generator&theme=0&autoplay=1" 
+                            src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
                             height="352" 
                             frameBorder="0" 
@@ -503,6 +528,29 @@
 
             this.updateUIState();
             this.notifyStateChange();
+        }
+
+        enableAudioKeepalive() {
+            try {
+                if (!this.audioKeepaliveCtx) {
+                    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+                    if (AudioCtx) {
+                        this.audioKeepaliveCtx = new AudioCtx();
+                        const buffer = this.audioKeepaliveCtx.createBuffer(1, 22050, 22050);
+                        const source = this.audioKeepaliveCtx.createBufferSource();
+                        source.buffer = buffer;
+                        source.loop = true;
+                        const gain = this.audioKeepaliveCtx.createGain();
+                        gain.gain.value = 0.0001;
+                        source.connect(gain);
+                        gain.connect(this.audioKeepaliveCtx.destination);
+                        source.start(0);
+                    }
+                }
+                if (this.audioKeepaliveCtx && this.audioKeepaliveCtx.state === 'suspended') {
+                    this.audioKeepaliveCtx.resume();
+                }
+            } catch (e) {}
         }
 
         playTrack(track, playlist = null) {
