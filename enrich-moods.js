@@ -137,38 +137,82 @@ async function getTrackTags(artist, title) {
     }
 }
 
-function analyzeTags(tags, track) {
+const AUDIO_FEATURES_PATH = path.resolve('data/audio-features.json');
+
+function loadAudioFeatures() {
+    if (fs.existsSync(AUDIO_FEATURES_PATH)) {
+        try {
+            return JSON.parse(fs.readFileSync(AUDIO_FEATURES_PATH, 'utf8')) || {};
+        } catch (e) {
+            return {};
+        }
+    }
+    return {};
+}
+
+function analyzeTags(tags, track, audioFeature) {
     const tagStr = tags.join(' ');
     const title = (track.name || '').toLowerCase();
-    const duration = track.durationMs || 0;
-    const year = track.releaseYear || (track.album && track.album.releaseYear) || 0;
+    const duration = track.durationMs || (audioFeature?.duration_ms) || 0;
 
-    // Classification Flags
-    const isMelancholic = /melanchol|dark metal|doom|depressive|sad|gothic|atmospheric black metal|funeral doom|ambient|post-rock|neofolk/i.test(tagStr) ||
-                          /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
-
-    const isHeavy = /metal|death metal|thrash|black metal|heavy metal|hard rock|metalcore|grunge|sludge|stoner rock|nwobhm/i.test(tagStr);
-
-    const isProgressive = /progressive rock|prog|progressive metal|art rock|krautrock|post-rock|psychedelic rock|space rock|fusion/i.test(tagStr) ||
-                          (duration >= 420000);
-
-    const isHighEnergy = /thrash|speed metal|power metal|heavy metal|hard rock|punk|metalcore|energetic|intense|fast/i.test(tagStr) ||
-                         (isHeavy && duration > 0 && duration < 240000);
-
-    const isAcoustic = /acoustic|unplugged|folk|neofolk|fingerstyle|classical guitar|singer-songwriter/i.test(tagStr) ||
-                       /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(title);
-
-    const isBallad = /ballad|power ballad|slow|love songs/i.test(tagStr) ||
-                     /\b(ballad|slow|farewell|remember|heaven|forever|rain|heart|love)\b/i.test(title) ||
-                     (isMelancholic && isAcoustic);
-
-    const isChill = /chill|chillout|relaxed|ambient|lounge|downtempo|lo-fi|trip hop|mellow|easy listening|calm/i.test(tagStr) ||
-                    (!isHeavy && !isHighEnergy && (isAcoustic || isMelancholic));
-
-    const isParty = /dance|party|disco|pop|funk|electronic|synthpop|house|eurodance|club/i.test(tagStr);
-
+    const isMetalArtist = /metal|death metal|thrash|black metal|heavy metal|hard rock|metalcore|grunge|sludge|stoner rock|nwobhm/i.test(tagStr);
+    const isProgArtist = /progressive rock|prog|progressive metal|art rock|krautrock|post-rock|psychedelic rock|space rock|fusion/i.test(tagStr);
     const isTurkish = /turkish|anatolian rock|turkce|turkey|arabesk|anadolu rock/i.test(tagStr);
 
+    let isAcoustic = false;
+    let isHighEnergy = false;
+    let isBallad = false;
+    let isChill = false;
+    let isMelancholic = false;
+    let isParty = false;
+    let isHeavy = false;
+
+    if (audioFeature && typeof audioFeature.energy === 'number') {
+        const { energy, acousticness, danceability, valence, tempo, loudness, mode } = audioFeature;
+
+        isAcoustic = acousticness >= 0.55 || /\b(acoustic|unplugged|piano|strings|classical guitar)\b/i.test(title);
+        
+        isBallad = (acousticness >= 0.4 && energy <= 0.45 && tempo <= 100) ||
+                   (valence <= 0.35 && acousticness >= 0.6) ||
+                   /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember)\b/i.test(title);
+
+        isHighEnergy = (energy >= 0.78) || (tempo >= 135 && energy >= 0.6) || (isMetalArtist && energy >= 0.65);
+
+        isChill = (energy <= 0.48 && loudness <= -8 && danceability <= 0.6) ||
+                  (!isMetalArtist && isAcoustic && energy <= 0.5);
+
+        isMelancholic = (valence <= 0.32 && (energy <= 0.65 || mode === 0)) ||
+                        /melanchol|dark metal|doom|depressive|sad|gothic/i.test(tagStr) ||
+                        /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
+
+        // Party must be genuinely high danceability & energy, never slow ballads
+        isParty = (danceability >= 0.65 && energy >= 0.58 && valence >= 0.45 && !isBallad) ||
+                  /disco|house|eurodance|club|techno|dance pop/i.test(tagStr);
+
+        isHeavy = ((energy >= 0.78 && loudness >= -7.5 && acousticness <= 0.18) || isMetalArtist) && !isBallad;
+    } else {
+        // Heuristic fallback when audio features are not yet generated
+        isAcoustic = /acoustic|unplugged|folk|neofolk|fingerstyle|classical guitar|singer-songwriter/i.test(tagStr) ||
+                     /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(title);
+
+        isMelancholic = /melanchol|dark metal|doom|depressive|sad|gothic|atmospheric black metal|funeral doom/i.test(tagStr) ||
+                        /\b(dark|shadow|sorrow|tears|lonely|pain|cry|grief|grave|black|death|melanchol)\b/i.test(title);
+
+        isHeavy = isMetalArtist;
+        isHighEnergy = /thrash|speed metal|power metal|heavy metal|hard rock|punk|metalcore|energetic|intense|fast/i.test(tagStr) ||
+                       (isHeavy && duration > 0 && duration < 240000);
+
+        isBallad = /ballad|power ballad|slow|love songs/i.test(tagStr) ||
+                   /\b(ballad|slow|farewell|remember|heaven|forever|rain|heart|love)\b/i.test(title) ||
+                   (isMelancholic && isAcoustic);
+
+        isChill = /chill|chillout|relaxed|ambient|lounge|downtempo|lo-fi|trip hop|mellow|easy listening|calm/i.test(tagStr) ||
+                  (!isHeavy && !isHighEnergy && (isAcoustic || isMelancholic));
+
+        isParty = /dance|club|disco|house|eurodance|edm|techno|reggaeton|funk/i.test(tagStr) && !isBallad;
+    }
+
+    const isProgressive = isProgArtist || (duration >= 420000);
     const isEpics = duration >= 420000;
     const isBangers = duration > 0 && duration < 210000;
 
@@ -241,7 +285,8 @@ async function main() {
         await getArtistTags(artist);
     }
 
-    console.log(`\n🏷️ Classifying ${missingTracks.length} new tracks with Last.fm tags...`);
+    console.log(`\n🏷️ Classifying ${missingTracks.length} new tracks with Last.fm tags & Spotify Audio Features...`);
+    const audioFeatures = loadAudioFeatures();
 
     for (let i = 0; i < missingTracks.length; i++) {
         const track = missingTracks[i];
@@ -249,17 +294,26 @@ async function main() {
 
         const rawArtist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
         const artistTags = await getArtistTags(rawArtist);
+        const audioFeature = audioFeatures[track.id] || null;
 
-        const classification = analyzeTags(artistTags, track);
+        const classification = analyzeTags(artistTags, track, audioFeature);
 
         existingMoods[track.id] = {
             id: track.id,
             name: track.name,
             artist: rawArtist,
             releaseYear: track.releaseYear || (track.album && track.album.releaseYear) || null,
-            durationMs: track.durationMs || null,
+            durationMs: track.durationMs || (audioFeature?.duration_ms) || null,
             ...classification,
-            source: 'lastfm'
+            audioFeatures: audioFeature ? {
+                energy: audioFeature.energy,
+                acousticness: audioFeature.acousticness,
+                danceability: audioFeature.danceability,
+                valence: audioFeature.valence,
+                tempo: audioFeature.tempo,
+                loudness: audioFeature.loudness
+            } : null,
+            source: audioFeature ? 'spotify_audio_features' : 'lastfm'
         };
     }
 
