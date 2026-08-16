@@ -297,6 +297,20 @@ function clearSelectedArtists() {
     renderArtistChips();
 }
 
+function selectArtistsWithFewSongs(maxSongs = 2) {
+    const counts = getArtistTrackCounts();
+    const rareArtists = Object.keys(counts).filter(name => (counts[name] || 0) <= maxSongs);
+
+    showAllArtists = true;
+    rareArtists.forEach(name => selectedArtistNames.add(name));
+
+    renderArtistChips();
+
+    if (selectedArtistNames.size >= 2) {
+        generateCustomArtistBlend(true);
+    }
+}
+
 function renderArtistChips() {
     const container = document.getElementById('artist-chips-container');
     if (!container) return;
