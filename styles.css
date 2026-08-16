@@ -1265,30 +1265,6 @@ body.dark-mode .handle-pill {
 }
 
 /* ----------------------------------------------------
-   CURRENTLY PLAYING SHOWCASE & UP-NEXT QUEUE
-   ---------------------------------------------------- */
-.np-backdrop-aura {
-    position: fixed;
-    top: -50px;
-    left: -50px;
-    right: -50px;
-    bottom: -50px;
-    z-index: -1;
-    pointer-events: none;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.5;
-    filter: blur(60px) saturate(1.4);
-    transform: scale(1.1);
-    transition: background-image 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.5s ease;
-}
-
-.np-backdrop-aura::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
    SMART MIX & PLAYLIST BLENDER
    ---------------------------------------------------- */
 .mix-section-title {
