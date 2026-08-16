@@ -218,8 +218,8 @@ function renderAlbums() {
         card.innerHTML = `
             <div class="cover-wrapper">
                 <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
-                <button class="play-btn-overlay" onclick="togglePlayAlbum('${a.id}')" title="${isPlaying ? 'Pause' : 'Play Album'}">
-                    ${isPlaying ? '⏸' : '▶'}
+                <button class="play-btn-overlay" onclick="togglePlayAlbum('${a.id}')" title="Play Album">
+                    ▶
                 </button>
             </div>
             <div class="song-details">
@@ -242,11 +242,6 @@ function renderAlbums() {
 
 function togglePlayAlbum(id) {
     if (window.miniPlayer) {
-        const isCurrentAlbum = window.miniPlayer.currentTrack?.album?.id === id || window.miniPlayer.currentTrack?.id === id;
-        if (isCurrentAlbum) {
-            window.miniPlayer.togglePlayPause();
-            return;
-        }
         const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
         window.miniPlayer.playItem(album, 'album');
     }
