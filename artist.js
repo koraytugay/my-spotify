@@ -179,8 +179,10 @@ function renderArtistAlbums() {
     grid.innerHTML = '';
 
     filteredAlbums.forEach(a => {
+        const isPlaying = window.miniPlayer && window.miniPlayer.isPlaying && 
+            (window.miniPlayer.currentTrack?.album?.id === a.id || window.miniPlayer.currentTrack?.id === a.id);
         const card = document.createElement('div');
-        card.className = 'song-card';
+        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
         const cover = a.coverUrl || 'https://via.placeholder.com/300x300?text=Album';
         const albumUrl = getSpotifyUri(a, 'album');
         const releaseYear = a.releaseYear ? ` (${a.releaseYear})` : '';
@@ -198,9 +200,10 @@ function renderArtistAlbums() {
 
         card.innerHTML = `
             <div class="cover-wrapper">
-                <a href="${albumUrl}">
-                    <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=Album';">
-                </a>
+                <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=Album';">
+                <button class="play-btn-overlay" onclick="togglePlayAlbum('${a.id}')" title="${isPlaying ? 'Pause' : 'Play Album'}">
+                    ${isPlaying ? '⏸' : '▶'}
+                </button>
             </div>
             <div class="song-details">
                 <div class="song-title">
@@ -220,6 +223,13 @@ function renderArtistAlbums() {
 
         grid.appendChild(card);
     });
+}
+
+function togglePlayAlbum(id) {
+    const album = (filteredAlbums || []).find(a => a.id === id) || (allArtistAlbums || []).find(a => a.id === id) || { id };
+    if (window.miniPlayer) {
+        window.miniPlayer.playItem(album, 'album');
+    }
 }
 
 function renderArtistSongs() {
