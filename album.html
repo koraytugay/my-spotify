@@ -60,16 +60,9 @@
             <!-- Controls -->
             <div class="controls-card">
                 <div class="controls-row">
-                    <div class="control-group search-group">
+                    <div class="control-group search-group" style="flex: 1 1 300px;">
                         <label for="search-input">Search in Album:</label>
                         <input type="text" id="search-input" placeholder="Search track name..." oninput="applyFilters()">
-                    </div>
-                    <div class="control-group">
-                        <label for="view-mode">View:</label>
-                        <select id="view-mode" onchange="changeViewMode(this.value)">
-                            <option value="list">List</option>
-                            <option value="compact">Compact</option>
-                        </select>
                     </div>
                     <div class="control-group" style="margin-left: auto;">
                         <label class="checkbox-toggle">
@@ -80,13 +73,21 @@
                 </div>
             </div>
 
-            <!-- Song List Grid -->
-            <div id="tracks-grid" class="music-grid view-list">
-                <!-- Populated by JavaScript -->
+            <!-- Album Tracklist Table Card -->
+            <div class="album-tracklist-card">
+                <div class="album-tracklist-header">
+                    <div style="width: 36px;">#</div>
+                    <div style="flex: 1 1 auto; padding-right: 16px;">Title</div>
+                    <div style="min-width: 54px; text-align: right;">Duration</div>
+                    <div style="width: 36px; text-align: right;"></div>
+                </div>
+                <div id="tracks-list-container">
+                    <!-- Populated by JavaScript with sleek album-track-row elements -->
+                </div>
             </div>
 
             <!-- Empty / No results -->
-            <div id="no-tracks" class="empty-box" style="display: none;">
+            <div id="no-tracks" class="empty-box" style="display: none; margin-top: 20px;">
                 <h3>No tracks found matching your search</h3>
             </div>
         </div>
