@@ -1,5 +1,1047 @@
 [
   {
+    "id": "4nbkSZGaFO6wbSPHkydnOZ",
+    "name": "Cemiyette Pişiyoruz",
+    "artists": [
+      {
+        "id": "0ou1EkRCAJcfRv2P1qKVPo",
+        "name": "Flört"
+      }
+    ],
+    "artistNames": "Flört",
+    "releaseDate": "2003-06-02",
+    "releaseYear": "2003",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "5SXaf2DyQ6l56NbyOIQjw6",
+        "name": "Cemiyette Pisiyoruz",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 273133,
+        "durationFormatted": "4:33",
+        "spotifyUrl": "https://open.spotify.com/track/5SXaf2DyQ6l56NbyOIQjw6",
+        "uri": "spotify:track:5SXaf2DyQ6l56NbyOIQjw6"
+      },
+      {
+        "id": "1JfzO8cQlN1ZohKCrHyXBM",
+        "name": "Bir Tek Sen Gelmedin",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 261372,
+        "durationFormatted": "4:21",
+        "spotifyUrl": "https://open.spotify.com/track/1JfzO8cQlN1ZohKCrHyXBM",
+        "uri": "spotify:track:1JfzO8cQlN1ZohKCrHyXBM"
+      },
+      {
+        "id": "5f702qaO2dak2vYBnRed1V",
+        "name": "İstanbul",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 293520,
+        "durationFormatted": "4:53",
+        "spotifyUrl": "https://open.spotify.com/track/5f702qaO2dak2vYBnRed1V",
+        "uri": "spotify:track:5f702qaO2dak2vYBnRed1V"
+      },
+      {
+        "id": "7rTQwh1n9mGUgWgVjA4OpA",
+        "name": "Manolya",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 285053,
+        "durationFormatted": "4:45",
+        "spotifyUrl": "https://open.spotify.com/track/7rTQwh1n9mGUgWgVjA4OpA",
+        "uri": "spotify:track:7rTQwh1n9mGUgWgVjA4OpA"
+      },
+      {
+        "id": "1V0LQsDUBh1t9MQDO5LHbw",
+        "name": "Tek Arzum",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 181080,
+        "durationFormatted": "3:01",
+        "spotifyUrl": "https://open.spotify.com/track/1V0LQsDUBh1t9MQDO5LHbw",
+        "uri": "spotify:track:1V0LQsDUBh1t9MQDO5LHbw"
+      },
+      {
+        "id": "45RAxKviZ9oJtEv6Ix2Naj",
+        "name": "Modern Ortam Romantikleri",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 217893,
+        "durationFormatted": "3:37",
+        "spotifyUrl": "https://open.spotify.com/track/45RAxKviZ9oJtEv6Ix2Naj",
+        "uri": "spotify:track:45RAxKviZ9oJtEv6Ix2Naj"
+      },
+      {
+        "id": "1BhkPBQBNUy5YLhdfDrWCO",
+        "name": "Şakalar",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 275240,
+        "durationFormatted": "4:35",
+        "spotifyUrl": "https://open.spotify.com/track/1BhkPBQBNUy5YLhdfDrWCO",
+        "uri": "spotify:track:1BhkPBQBNUy5YLhdfDrWCO"
+      },
+      {
+        "id": "7vyttxmRBVEakVKHurnCQd",
+        "name": "Bize Dervişler Geldi",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 224320,
+        "durationFormatted": "3:44",
+        "spotifyUrl": "https://open.spotify.com/track/7vyttxmRBVEakVKHurnCQd",
+        "uri": "spotify:track:7vyttxmRBVEakVKHurnCQd"
+      },
+      {
+        "id": "7HMSmTMDNCZ3M26UkoDNSu",
+        "name": "Aşkom",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 226173,
+        "durationFormatted": "3:46",
+        "spotifyUrl": "https://open.spotify.com/track/7HMSmTMDNCZ3M26UkoDNSu",
+        "uri": "spotify:track:7HMSmTMDNCZ3M26UkoDNSu"
+      },
+      {
+        "id": "2HOTwlVDVR8v9ALW8Tc1BI",
+        "name": "Bu Havalarda Dönme Bana",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4nbkSZGaFO6wbSPHkydnOZ",
+          "name": "Cemiyette Pişiyoruz",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ccb7796ba42b9a036af26392",
+        "durationMs": 165053,
+        "durationFormatted": "2:45",
+        "spotifyUrl": "https://open.spotify.com/track/2HOTwlVDVR8v9ALW8Tc1BI",
+        "uri": "spotify:track:2HOTwlVDVR8v9ALW8Tc1BI"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ccb7796ba42b9a036af26392",
+    "spotifyUrl": "https://open.spotify.com/album/4nbkSZGaFO6wbSPHkydnOZ",
+    "addedAt": "2026-08-16T22:53:03Z"
+  },
+  {
+    "id": "1Tv1im1NBJO5hPPTPRqEIU",
+    "name": "Demli",
+    "artists": [
+      {
+        "id": "0ou1EkRCAJcfRv2P1qKVPo",
+        "name": "Flört"
+      }
+    ],
+    "artistNames": "Flört",
+    "releaseDate": "2009-07-10",
+    "releaseYear": "2009",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "6gD2g0o62g7L0tCiQjqN3p",
+        "name": "Uyanman Lazım",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 230413,
+        "durationFormatted": "3:50",
+        "spotifyUrl": "https://open.spotify.com/track/6gD2g0o62g7L0tCiQjqN3p",
+        "uri": "spotify:track:6gD2g0o62g7L0tCiQjqN3p"
+      },
+      {
+        "id": "1Dcss88mCDwsEpmnp7guPN",
+        "name": "Kafayı Yedim",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 225880,
+        "durationFormatted": "3:45",
+        "spotifyUrl": "https://open.spotify.com/track/1Dcss88mCDwsEpmnp7guPN",
+        "uri": "spotify:track:1Dcss88mCDwsEpmnp7guPN"
+      },
+      {
+        "id": "797y54U7d7wxZGcbsy0sxG",
+        "name": "Yüzüm Gözüm Şiş",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 198600,
+        "durationFormatted": "3:18",
+        "spotifyUrl": "https://open.spotify.com/track/797y54U7d7wxZGcbsy0sxG",
+        "uri": "spotify:track:797y54U7d7wxZGcbsy0sxG"
+      },
+      {
+        "id": "5gARLli7GumkEJJxZEYhLP",
+        "name": "Sevmez Olaydım",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 257959,
+        "durationFormatted": "4:17",
+        "spotifyUrl": "https://open.spotify.com/track/5gARLli7GumkEJJxZEYhLP",
+        "uri": "spotify:track:5gARLli7GumkEJJxZEYhLP"
+      },
+      {
+        "id": "6gPNmh6tjMpsusefQJz43M",
+        "name": "Aşka Dair",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 197866,
+        "durationFormatted": "3:17",
+        "spotifyUrl": "https://open.spotify.com/track/6gPNmh6tjMpsusefQJz43M",
+        "uri": "spotify:track:6gPNmh6tjMpsusefQJz43M"
+      },
+      {
+        "id": "6EBUZ4dq2dokTbsnKwjuxI",
+        "name": "Eski Dostum",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 186360,
+        "durationFormatted": "3:06",
+        "spotifyUrl": "https://open.spotify.com/track/6EBUZ4dq2dokTbsnKwjuxI",
+        "uri": "spotify:track:6EBUZ4dq2dokTbsnKwjuxI"
+      },
+      {
+        "id": "2HKdi0gZ2X2rXPcla9Gwf4",
+        "name": "Mutluyuz",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 256186,
+        "durationFormatted": "4:16",
+        "spotifyUrl": "https://open.spotify.com/track/2HKdi0gZ2X2rXPcla9Gwf4",
+        "uri": "spotify:track:2HKdi0gZ2X2rXPcla9Gwf4"
+      },
+      {
+        "id": "1wFqlVeet4Rt5NW5G1PBrw",
+        "name": "Sen Yokken",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 197333,
+        "durationFormatted": "3:17",
+        "spotifyUrl": "https://open.spotify.com/track/1wFqlVeet4Rt5NW5G1PBrw",
+        "uri": "spotify:track:1wFqlVeet4Rt5NW5G1PBrw"
+      },
+      {
+        "id": "0ch20acQjCTgm1cAi7Tj5E",
+        "name": "Toprak Ana",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 218133,
+        "durationFormatted": "3:38",
+        "spotifyUrl": "https://open.spotify.com/track/0ch20acQjCTgm1cAi7Tj5E",
+        "uri": "spotify:track:0ch20acQjCTgm1cAi7Tj5E"
+      },
+      {
+        "id": "3r85ZE5SA6lWE48NhAgy3q",
+        "name": "Sen Çok Özledim",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "1Tv1im1NBJO5hPPTPRqEIU",
+          "name": "Demli",
+          "releaseYear": "2009"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515423ac6bbb5df0d10e50749a",
+        "durationMs": 268560,
+        "durationFormatted": "4:28",
+        "spotifyUrl": "https://open.spotify.com/track/3r85ZE5SA6lWE48NhAgy3q",
+        "uri": "spotify:track:3r85ZE5SA6lWE48NhAgy3q"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735423ac6bbb5df0d10e50749a",
+    "spotifyUrl": "https://open.spotify.com/album/1Tv1im1NBJO5hPPTPRqEIU",
+    "addedAt": "2026-08-16T22:52:57Z"
+  },
+  {
+    "id": "21uzsR1jdUmo0zBmulxTC7",
+    "name": "Hücum Kayıtlar",
+    "artists": [
+      {
+        "id": "0ou1EkRCAJcfRv2P1qKVPo",
+        "name": "Flört"
+      }
+    ],
+    "artistNames": "Flört",
+    "releaseDate": "2014-10-20",
+    "releaseYear": "2014",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "6WGulfcT9HKjWXZuOQKwlx",
+        "name": "Rasta Baba - 2011",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 169058,
+        "durationFormatted": "2:49",
+        "spotifyUrl": "https://open.spotify.com/track/6WGulfcT9HKjWXZuOQKwlx",
+        "uri": "spotify:track:6WGulfcT9HKjWXZuOQKwlx"
+      },
+      {
+        "id": "4VAlOF6EETidsGD7hjYqoG",
+        "name": "Cemiyette Pişiyoruz",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 200156,
+        "durationFormatted": "3:20",
+        "spotifyUrl": "https://open.spotify.com/track/4VAlOF6EETidsGD7hjYqoG",
+        "uri": "spotify:track:4VAlOF6EETidsGD7hjYqoG"
+      },
+      {
+        "id": "0F7D7XdIXFgCydbkfzhskO",
+        "name": "Boşver Aldırma",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 196249,
+        "durationFormatted": "3:16",
+        "spotifyUrl": "https://open.spotify.com/track/0F7D7XdIXFgCydbkfzhskO",
+        "uri": "spotify:track:0F7D7XdIXFgCydbkfzhskO"
+      },
+      {
+        "id": "14G3UqZSes1QbwUmUfCB5Z",
+        "name": "Senin Yüzünden",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 138576,
+        "durationFormatted": "2:18",
+        "spotifyUrl": "https://open.spotify.com/track/14G3UqZSes1QbwUmUfCB5Z",
+        "uri": "spotify:track:14G3UqZSes1QbwUmUfCB5Z"
+      },
+      {
+        "id": "11GIVhOtd7EaXq445tx2Sc",
+        "name": "Şakalar",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 258426,
+        "durationFormatted": "4:18",
+        "spotifyUrl": "https://open.spotify.com/track/11GIVhOtd7EaXq445tx2Sc",
+        "uri": "spotify:track:11GIVhOtd7EaXq445tx2Sc"
+      },
+      {
+        "id": "2797wJs2WAiAsEi81Uwp2v",
+        "name": "Bir Tek Sen Gelmedin",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 200684,
+        "durationFormatted": "3:20",
+        "spotifyUrl": "https://open.spotify.com/track/2797wJs2WAiAsEi81Uwp2v",
+        "uri": "spotify:track:2797wJs2WAiAsEi81Uwp2v"
+      },
+      {
+        "id": "1iPTfHJ1ACPuR89sznKaS9",
+        "name": "Bu Havalarda Dönme Bana",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 179879,
+        "durationFormatted": "2:59",
+        "spotifyUrl": "https://open.spotify.com/track/1iPTfHJ1ACPuR89sznKaS9",
+        "uri": "spotify:track:1iPTfHJ1ACPuR89sznKaS9"
+      },
+      {
+        "id": "6BHq70QO3jOsxlIJUQ5eAy",
+        "name": "Hep Beraber",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 235697,
+        "durationFormatted": "3:55",
+        "spotifyUrl": "https://open.spotify.com/track/6BHq70QO3jOsxlIJUQ5eAy",
+        "uri": "spotify:track:6BHq70QO3jOsxlIJUQ5eAy"
+      },
+      {
+        "id": "2Pz9nDcEruL63jihiedMp3",
+        "name": "Yola Devam",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 374177,
+        "durationFormatted": "6:14",
+        "spotifyUrl": "https://open.spotify.com/track/2Pz9nDcEruL63jihiedMp3",
+        "uri": "spotify:track:2Pz9nDcEruL63jihiedMp3"
+      },
+      {
+        "id": "4FXRgJLzZw71daG0Hpnh54",
+        "name": "Rasta Baba - 2014",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "21uzsR1jdUmo0zBmulxTC7",
+          "name": "Hücum Kayıtlar",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fa02299e44c636fc7ced2141",
+        "durationMs": 168626,
+        "durationFormatted": "2:48",
+        "spotifyUrl": "https://open.spotify.com/track/4FXRgJLzZw71daG0Hpnh54",
+        "uri": "spotify:track:4FXRgJLzZw71daG0Hpnh54"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fa02299e44c636fc7ced2141",
+    "spotifyUrl": "https://open.spotify.com/album/21uzsR1jdUmo0zBmulxTC7",
+    "addedAt": "2026-08-16T22:52:52Z"
+  },
+  {
+    "id": "4H9uFk5uUmc6ZG9N9kDTax",
+    "name": "Anadolu Beat",
+    "artists": [
+      {
+        "id": "0ou1EkRCAJcfRv2P1qKVPo",
+        "name": "Flört"
+      }
+    ],
+    "artistNames": "Flört",
+    "releaseDate": "2012-05-07",
+    "releaseYear": "2012",
+    "totalTracks": 12,
+    "tracks": [
+      {
+        "id": "2iFGxG1WiKD8wphV0rdG8p",
+        "name": "Dün Trt'de İzledim",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 165573,
+        "durationFormatted": "2:45",
+        "spotifyUrl": "https://open.spotify.com/track/2iFGxG1WiKD8wphV0rdG8p",
+        "uri": "spotify:track:2iFGxG1WiKD8wphV0rdG8p"
+      },
+      {
+        "id": "3gIoLN1SjR3udTiImR5SoK",
+        "name": "Yine De Seni Seviyorum",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 208253,
+        "durationFormatted": "3:28",
+        "spotifyUrl": "https://open.spotify.com/track/3gIoLN1SjR3udTiImR5SoK",
+        "uri": "spotify:track:3gIoLN1SjR3udTiImR5SoK"
+      },
+      {
+        "id": "3JJvwfbTYDnzwrOpGI19Qz",
+        "name": "Biz",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 260920,
+        "durationFormatted": "4:20",
+        "spotifyUrl": "https://open.spotify.com/track/3JJvwfbTYDnzwrOpGI19Qz",
+        "uri": "spotify:track:3JJvwfbTYDnzwrOpGI19Qz"
+      },
+      {
+        "id": "0Hw7jkXxWghjPHSk7hBMdY",
+        "name": "Sevgiye Doğru",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 194600,
+        "durationFormatted": "3:14",
+        "spotifyUrl": "https://open.spotify.com/track/0Hw7jkXxWghjPHSk7hBMdY",
+        "uri": "spotify:track:0Hw7jkXxWghjPHSk7hBMdY"
+      },
+      {
+        "id": "7e5uNAyQIYZWi19C0HieCq",
+        "name": "Hala Çok Güzelsin",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 136986,
+        "durationFormatted": "2:16",
+        "spotifyUrl": "https://open.spotify.com/track/7e5uNAyQIYZWi19C0HieCq",
+        "uri": "spotify:track:7e5uNAyQIYZWi19C0HieCq"
+      },
+      {
+        "id": "4EJNb3ahpHBToJKCEX8ypf",
+        "name": "Ne Güzel",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 162400,
+        "durationFormatted": "2:42",
+        "spotifyUrl": "https://open.spotify.com/track/4EJNb3ahpHBToJKCEX8ypf",
+        "uri": "spotify:track:4EJNb3ahpHBToJKCEX8ypf"
+      },
+      {
+        "id": "29J9lMaFtPu3VCHNX4QhpG",
+        "name": "Suskun",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 57533,
+        "durationFormatted": "0:57",
+        "spotifyUrl": "https://open.spotify.com/track/29J9lMaFtPu3VCHNX4QhpG",
+        "uri": "spotify:track:29J9lMaFtPu3VCHNX4QhpG"
+      },
+      {
+        "id": "1pR5imiUSjVT77E62kg7zg",
+        "name": "Lan Oğlum Böyle Olmaz",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 195840,
+        "durationFormatted": "3:15",
+        "spotifyUrl": "https://open.spotify.com/track/1pR5imiUSjVT77E62kg7zg",
+        "uri": "spotify:track:1pR5imiUSjVT77E62kg7zg"
+      },
+      {
+        "id": "2Oh2VFViqxW5RlJMfqX8Vk",
+        "name": "Sevgili Gönül",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 133386,
+        "durationFormatted": "2:13",
+        "spotifyUrl": "https://open.spotify.com/track/2Oh2VFViqxW5RlJMfqX8Vk",
+        "uri": "spotify:track:2Oh2VFViqxW5RlJMfqX8Vk"
+      },
+      {
+        "id": "5ERilZUNDOPW2aXqHGoYPy",
+        "name": "Suzan Yüzünden",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 96013,
+        "durationFormatted": "1:36",
+        "spotifyUrl": "https://open.spotify.com/track/5ERilZUNDOPW2aXqHGoYPy",
+        "uri": "spotify:track:5ERilZUNDOPW2aXqHGoYPy"
+      },
+      {
+        "id": "3HHAZBxzxQhCzRDHPfQXq7",
+        "name": "Minik Kuş",
+        "trackNumber": 11,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 104733,
+        "durationFormatted": "1:44",
+        "spotifyUrl": "https://open.spotify.com/track/3HHAZBxzxQhCzRDHPfQXq7",
+        "uri": "spotify:track:3HHAZBxzxQhCzRDHPfQXq7"
+      },
+      {
+        "id": "61dev1qliSgCWxN68CYBzj",
+        "name": "Sevgiye Doğru (Enstrümantal)",
+        "trackNumber": 12,
+        "artists": [
+          {
+            "id": "0ou1EkRCAJcfRv2P1qKVPo",
+            "name": "Flört"
+          }
+        ],
+        "artistNames": "Flört",
+        "album": {
+          "id": "4H9uFk5uUmc6ZG9N9kDTax",
+          "name": "Anadolu Beat",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
+        "durationMs": 195546,
+        "durationFormatted": "3:15",
+        "spotifyUrl": "https://open.spotify.com/track/61dev1qliSgCWxN68CYBzj",
+        "uri": "spotify:track:61dev1qliSgCWxN68CYBzj"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
+    "spotifyUrl": "https://open.spotify.com/album/4H9uFk5uUmc6ZG9N9kDTax",
+    "addedAt": "2026-08-16T22:52:45Z"
+  },
+  {
     "id": "5rAW5wobAcppohcs4P6bD3",
     "name": "Kara Çiçeğim",
     "artists": [
