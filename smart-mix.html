@@ -106,12 +106,9 @@
                     <div style="flex: 1 1 240px; position: relative;">
                         <input type="text" id="artist-search-input" class="form-control search-input" placeholder="🔍 Search any artist in your collection..." oninput="handleArtistSearch(this.value)" style="width: 100%; font-size: 0.88rem; padding: 7px 12px;">
                     </div>
-                    <div id="artist-filter-actions" style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+                    <div id="artist-filter-actions" style="display: flex; align-items: center; gap: 8px;">
                         <button type="button" id="toggle-all-artists-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 12px;" onclick="toggleShowAllArtists()">
                             Show All Artists
-                        </button>
-                        <button type="button" id="select-rare-artists-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 12px;" onclick="selectArtistsWithFewSongs(2)" title="Select all artists in your library with 2 or fewer songs">
-                            Select all with ≤ 2 songs
                         </button>
                         <button type="button" id="clear-selected-artists-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 12px; display: none;" onclick="clearSelectedArtists()">
                             Clear Selection
