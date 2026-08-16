@@ -628,6 +628,9 @@
             } else if (targetCleanPath === 'artists.html') {
                 await loadScriptIfNeeded('artists.js');
                 if (typeof initArtists === 'function') initArtists();
+            } else if (targetCleanPath === 'smart-mix.html') {
+                await loadScriptIfNeeded('smart-mix.js');
+                if (typeof initSmartMix === 'function') initSmartMix();
             } else if (targetCleanPath === 'stats.html') {
                 await loadScriptIfNeeded('stats.js');
                 if (typeof initStats === 'function') initStats();
