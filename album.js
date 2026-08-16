@@ -38,8 +38,32 @@ async function initAlbumDetail() {
             (albumName && a.name && a.name.toLowerCase().trim() === albumName.toLowerCase().trim())
         );
 
+        // Fallback: If not in Saved Albums, search Liked Songs for matching album tracks
+        if (!matchedAlbum && Array.isArray(likedSongs)) {
+            const matchingSongs = likedSongs.filter(s => 
+                (albumId && s.album?.id === albumId) ||
+                (albumName && s.album?.name && s.album.name.toLowerCase().trim() === albumName.toLowerCase().trim())
+            );
+
+            if (matchingSongs.length > 0) {
+                const sample = matchingSongs[0];
+                matchedAlbum = {
+                    id: sample.album?.id || albumId,
+                    name: sample.album?.name || albumName,
+                    artistNames: sample.artistNames || (sample.artists && sample.artists[0]?.name) || 'Artist',
+                    coverUrl: sample.coverUrl || sample.album?.coverUrl || '',
+                    releaseYear: sample.album?.releaseYear || sample.releaseYear || '',
+                    totalTracks: matchingSongs.length,
+                    tracks: matchingSongs.map((s, idx) => ({
+                        ...s,
+                        trackNumber: s.trackNumber || (idx + 1)
+                    }))
+                };
+            }
+        }
+
         if (!matchedAlbum) {
-            if (loadingEl) loadingEl.innerHTML = `<p style="color: #ff5555;">Album not found in your saved library.</p>`;
+            if (loadingEl) loadingEl.innerHTML = `<p style="color: #ff5555;">Album not found in your collection.</p>`;
             return;
         }
 
@@ -267,6 +291,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAlbumDetail);
+} else {
     initAlbumDetail();
-});
+}

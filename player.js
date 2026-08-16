@@ -669,6 +669,9 @@
             } else if (targetCleanPath === 'playlist.html') {
                 await loadScriptIfNeeded('playlist.js');
                 if (typeof initPlaylistDetail === 'function') initPlaylistDetail();
+            } else if (targetCleanPath === 'album.html') {
+                await loadScriptIfNeeded('album.js');
+                if (typeof initAlbumDetail === 'function') initAlbumDetail();
             } else if (targetCleanPath === 'artist.html') {
                 await loadScriptIfNeeded('artist.js');
                 if (typeof initArtistDetail === 'function') initArtistDetail();
