@@ -1598,17 +1598,105 @@ body.dark-mode .np-backdrop-aura::after {
     .now-playing-grid {
         grid-template-columns: 1fr;
         gap: 24px;
+        max-width: 560px;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .now-playing-hero-card {
         position: static;
-        max-width: 480px;
-        margin: 0 auto;
         width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 24px 20px;
     }
 
     .hero-cover-container {
         width: 260px;
         height: 260px;
+        max-width: 100%;
+    }
+
+    .now-playing-queue-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .now-playing-wrapper {
+        margin-top: 16px;
+    }
+
+    .now-playing-hero-card {
+        padding: 20px 16px;
+        border-radius: var(--radius-md);
+    }
+
+    .hero-cover-container {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 16px;
+    }
+
+    .hero-title {
+        font-size: 1.25rem;
+        margin-bottom: 4px;
+    }
+
+    .hero-artist {
+        font-size: 0.95rem;
+        margin-bottom: 4px;
+    }
+
+    .hero-actions {
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .hero-play-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .now-playing-queue-card {
+        padding: 16px 12px;
+        border-radius: var(--radius-md);
+    }
+
+    .queue-track-list {
+        max-height: 440px;
+        gap: 4px;
+    }
+
+    .queue-track-item {
+        padding: 6px 8px;
+        gap: 10px;
+    }
+
+    .queue-track-num {
+        min-width: 18px;
+        font-size: 0.78rem;
+    }
+
+    .queue-cover-wrap {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+    }
+
+    .queue-track-title {
+        font-size: 0.88rem;
+    }
+
+    .queue-track-artist {
+        font-size: 0.75rem;
+    }
+
+    .queue-track-duration {
+        font-size: 0.75rem;
     }
 }
