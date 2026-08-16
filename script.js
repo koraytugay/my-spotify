@@ -228,16 +228,10 @@ function createSongCard(song) {
         artistsHtml = `<a href="artist.html?name=${encodeURIComponent(song.artistNames || 'Artist')}" class="artist-link">${song.artistNames || 'Unknown Artist'}</a>`;
     }
 
-    // Album name and release year
+    // Album name and release year (plain text)
     const albumName = song.album?.name || '';
     const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
-    let albumHtml = '';
-    if (albumName) {
-        const albumUrl = song.album?.id ? `album.html?id=${encodeURIComponent(song.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
-        albumHtml = ` · <a href="${albumUrl}" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
-    } else if (releaseYear) {
-        albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
-    }
+    const albumText = albumName ? ` · ${albumName}${releaseYear}` : (releaseYear ? ` · ${releaseYear}` : '');
 
     // Track link for the Spotify icon button
     const { href: trackUrl, targetAttrs: trackTarget } = getSpotifyLinkAttrs(song, 'track');
@@ -251,7 +245,7 @@ function createSongCard(song) {
         </div>
         <div class="song-details">
             <div class="song-title">${song.name}</div>
-            <div class="song-artist">${artistsHtml}${albumHtml}</div>
+            <div class="song-artist">${artistsHtml}${albumText}</div>
         </div>
         <div class="song-meta" style="justify-content: flex-end;">
             <a href="${trackUrl}" ${trackTarget} class="spotify-icon-btn" title="Open in Spotify" aria-label="Open in Spotify">
