@@ -100,6 +100,9 @@
                     uri: defaultUri
                 };
 
+                let maxPositionSeen = 0;
+                let lastActiveTrackId = null;
+
                 IFrameAPI.createController(element, options, (EmbedController) => {
                     this.embedController = EmbedController;
 
@@ -110,8 +113,18 @@
                         this.updateUIState();
                         this.notifyStateChange();
 
+                        const currentId = this.currentTrack?.id;
+                        if (currentId !== lastActiveTrackId) {
+                            lastActiveTrackId = currentId;
+                            maxPositionSeen = 0;
+                        }
+
                         const pos = e.data.position || 0;
                         const dur = e.data.duration || 0;
+
+                        if (pos > maxPositionSeen) {
+                            maxPositionSeen = pos;
+                        }
 
                         // Synchronize track info if Spotify advanced internally inside album or playlist
                         if (e.data.track && e.data.track.id) {
@@ -127,16 +140,22 @@
                             }
                         }
 
-                        const currentId = this.currentTrack?.id;
+                        // Auto-advance when playback finishes and pauses:
+                        // 1. Full track finished: position reached near duration (dur - 1500ms)
+                        // 2. 30s Preview finished: position reached near preview end (>= 28500ms)
+                        if (isPaused && dur > 0) {
+                            const isFullTrackEnd = (pos >= dur) || (dur > 5000 && maxPositionSeen >= (dur - 1500));
+                            const isPreviewEnd = (maxPositionSeen >= 28500);
 
-                        // Auto-advance only when playback naturally finishes and pauses at end of track
-                        if (isPaused && dur > 0 && (pos >= dur || pos >= (dur - 1500))) {
-                            if (currentId && currentId !== this.lastEndedTrackId) {
-                                this.lastEndedTrackId = currentId;
-                                console.log('Song finished. Advancing to next track...');
-                                setTimeout(() => {
-                                    this.playNext();
-                                }, 350);
+                            if (isFullTrackEnd || isPreviewEnd) {
+                                if (currentId && currentId !== this.lastEndedTrackId) {
+                                    this.lastEndedTrackId = currentId;
+                                    maxPositionSeen = 0;
+                                    console.log('Song finished. Advancing to next track in queue...');
+                                    setTimeout(() => {
+                                        this.playNext();
+                                    }, 350);
+                                }
                             }
                         }
                     });
