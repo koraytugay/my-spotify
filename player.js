@@ -12,10 +12,109 @@
             this.pendingPlayUri = null;
             this.onStateChangeCallbacks = new Set();
 
+            // Background playback & auto-advance state
+            this.playStartTime = 0;
+            this.lastPositionUpdate = 0;
+            this.lastReportedPosition = 0;
+            this.maxPositionSeen = 0;
+            this.isAutoAdvancing = false;
+            this.lastEndedTrackId = null;
+            this.lastActiveTrackId = null;
+            this.heartbeatWorker = null;
+            this.heartbeatInterval = null;
+
             this.initDOM();
             this.restoreState();
+            this.initHeartbeatWorker();
             this.initSpotifyIFrameAPI();
             this.bindEvents();
+        }
+
+        initHeartbeatWorker() {
+            try {
+                // Background Web Worker is unaffected by browser tab throttling/sleeping
+                const workerCode = `
+                    let timer = null;
+                    self.onmessage = function(e) {
+                        if (e.data === 'start') {
+                            if (!timer) {
+                                timer = setInterval(() => self.postMessage('tick'), 400);
+                            }
+                        } else if (e.data === 'stop') {
+                            if (timer) {
+                                clearInterval(timer);
+                                timer = null;
+                            }
+                        }
+                    };
+                `;
+                const blob = new Blob([workerCode], { type: 'application/javascript' });
+                const url = URL.createObjectURL(blob);
+                this.heartbeatWorker = new Worker(url);
+                this.heartbeatWorker.onmessage = () => {
+                    this.onHeartbeatTick();
+                };
+            } catch (e) {
+                console.warn('Web Worker heartbeat unavailable, falling back to interval', e);
+            }
+        }
+
+        startHeartbeat() {
+            if (this.heartbeatWorker) {
+                this.heartbeatWorker.postMessage('start');
+            }
+            if (!this.heartbeatInterval) {
+                this.heartbeatInterval = setInterval(() => {
+                    this.onHeartbeatTick();
+                }, 400);
+            }
+        }
+
+        stopHeartbeat() {
+            if (this.heartbeatWorker) {
+                this.heartbeatWorker.postMessage('stop');
+            }
+            if (this.heartbeatInterval) {
+                clearInterval(this.heartbeatInterval);
+                this.heartbeatInterval = null;
+            }
+        }
+
+        onHeartbeatTick() {
+            if (!this.isPlaying || !this.currentTrack || this.isAutoAdvancing) return;
+
+            const now = Date.now();
+            const elapsedSinceStart = this.playStartTime ? (now - this.playStartTime) : 0;
+
+            // Spotify Embed preview limit is 30,000ms.
+            // If the tab is in the background, Spotify Embed may freeze postMessage updates.
+            // When elapsed time exceeds the preview window (31.5s) or track duration, auto-advance!
+            const trackDuration = this.currentTrack.durationMs || 0;
+            const isPreviewTimeout = (elapsedSinceStart >= 31500 && this.maxPositionSeen < 35000);
+            const isPreviewEndedAt30s = (this.maxPositionSeen >= 28000 && (now - this.lastPositionUpdate > 1800));
+            const isFullTrackEnded = (trackDuration > 35000 && elapsedSinceStart >= (trackDuration + 1500));
+
+            if (isPreviewTimeout || isPreviewEndedAt30s || isFullTrackEnded) {
+                if (elapsedSinceStart >= 26000 && this.currentTrack.id !== this.lastEndedTrackId) {
+                    console.log('Background timer detected song completion. Advancing to next track...', {
+                        track: this.currentTrack.name,
+                        elapsedSinceStart,
+                        maxPositionSeen: this.maxPositionSeen
+                    });
+                    this.triggerAutoAdvance();
+                }
+            }
+        }
+
+        triggerAutoAdvance() {
+            if (this.isAutoAdvancing) return;
+            this.isAutoAdvancing = true;
+            this.lastEndedTrackId = this.currentTrack?.id;
+
+            setTimeout(() => {
+                this.playNext();
+                this.isAutoAdvancing = false;
+            }, 300);
         }
 
         initDOM() {
@@ -99,44 +198,45 @@
                     uri: defaultUri
                 };
 
-                let lastEndedTrackId = null;
-                let maxPositionSeen = 0;
-                let lastActiveTrackId = null;
-
                 IFrameAPI.createController(element, options, (EmbedController) => {
                     this.embedController = EmbedController;
 
                     EmbedController.addListener('playback_update', e => {
-                        this.isPlaying = !e.data.isPaused;
+                        const isPaused = e.data.isPaused;
+                        this.isPlaying = !isPaused;
                         this.saveState();
                         this.updateUIState();
                         this.notifyStateChange();
 
                         const currentId = this.currentTrack?.id;
-                        if (currentId !== lastActiveTrackId) {
-                            lastActiveTrackId = currentId;
-                            maxPositionSeen = 0;
+                        const now = Date.now();
+
+                        if (currentId !== this.lastActiveTrackId) {
+                            this.lastActiveTrackId = currentId;
+                            this.maxPositionSeen = 0;
+                            this.playStartTime = now;
                         }
 
                         const pos = e.data.position || 0;
                         const dur = e.data.duration || 0;
 
-                        if (pos > maxPositionSeen) {
-                            maxPositionSeen = pos;
+                        this.lastReportedPosition = pos;
+                        this.lastPositionUpdate = now;
+
+                        if (pos > this.maxPositionSeen) {
+                            this.maxPositionSeen = pos;
                         }
 
-                        // Auto-advance to next track when playback finishes
-                        if (dur > 0 && e.data.isPaused) {
-                            const isNearEnd = (pos >= dur) || (maxPositionSeen > 5000 && maxPositionSeen >= (dur - 2500)) || (maxPositionSeen >= 28500);
-                            if (isNearEnd) {
-                                if (currentId && currentId !== lastEndedTrackId) {
-                                    lastEndedTrackId = currentId;
-                                    maxPositionSeen = 0;
-                                    console.log('Track finished. Auto-playing next track...');
-                                    setTimeout(() => {
-                                        this.playNext();
-                                    }, 350);
-                                }
+                        if (this.isPlaying) {
+                            this.startHeartbeat();
+                        } else {
+                            // When track ends and pauses near completion, auto-advance
+                            const isNearEnd = (dur > 0 && pos >= dur) || (this.maxPositionSeen >= 28000) || (dur > 0 && this.maxPositionSeen >= (dur - 2500));
+                            const elapsed = this.playStartTime ? (now - this.playStartTime) : 0;
+
+                            if (isNearEnd && elapsed >= 20000 && currentId && currentId !== this.lastEndedTrackId) {
+                                console.log('Playback paused near track end. Advancing to next track...');
+                                this.triggerAutoAdvance();
                             }
                         }
                     });
@@ -148,6 +248,8 @@
                             EmbedController.loadUri(uriToPlay);
                             EmbedController.play();
                             this.isPlaying = true;
+                            this.playStartTime = Date.now();
+                            this.startHeartbeat();
                             this.saveState();
                             this.updateUIState();
                             this.notifyStateChange();
@@ -215,6 +317,18 @@
                     if (this.playlist.length > 0) {
                         this.playRandom();
                     }
+                }
+            });
+
+            // Instant catch-up when returning to tab
+            document.addEventListener('visibilitychange', () => {
+                if (document.visibilityState === 'visible' && this.isPlaying) {
+                    this.onHeartbeatTick();
+                }
+            });
+            window.addEventListener('focus', () => {
+                if (this.isPlaying) {
+                    this.onHeartbeatTick();
                 }
             });
         }
@@ -397,6 +511,13 @@
                 this.playlist = playlist;
             }
             this.currentTrack = track;
+            this.playStartTime = Date.now();
+            this.lastPositionUpdate = Date.now();
+            this.lastReportedPosition = 0;
+            this.maxPositionSeen = 0;
+            this.isAutoAdvancing = false;
+            this.startHeartbeat();
+
             this.displayTrackInfo(track, this.currentType || 'track');
 
             // Navigate to Currently Playing view instead of popping up mini player
