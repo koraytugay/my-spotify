@@ -263,7 +263,7 @@ function updateQueueItemClasses(activeIdx, queueList) {
         el.className = `queue-track-item ${isCurrent ? 'is-current' : (isPlayed ? 'is-played' : 'is-upcoming')}`;
         const numEl = el.querySelector('.queue-track-num');
         if (numEl) {
-            numEl.innerHTML = isCurrent ? '<span class="queue-current-indicator">▶</span>' : (queueList[idx]?.trackNumber || (idx + 1));
+            numEl.innerHTML = isCurrent ? '<span class="queue-current-indicator">▶</span>' : (idx + 1);
         }
     });
 
@@ -324,7 +324,7 @@ function renderQueueList(activeTrack, queueList) {
         const durationText = track.durationFormatted || '';
         const isLiked = isTrackInLikedSongs(track);
         const likedHtml = isLiked ? `<span class="queue-liked-icon" title="In your Liked Songs collection">💚</span>` : '';
-        const trackNumDisplay = isCurrent ? `<span class="queue-current-indicator">▶</span>` : (track.trackNumber || (idx + 1));
+        const trackNumDisplay = isCurrent ? `<span class="queue-current-indicator">▶</span>` : (idx + 1);
 
         itemEl.innerHTML = `
             <div class="queue-track-num">${trackNumDisplay}</div>

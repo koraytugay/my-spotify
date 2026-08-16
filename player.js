@@ -99,6 +99,8 @@
                     uri: defaultUri
                 };
 
+                let lastEndedTrackId = null;
+
                 IFrameAPI.createController(element, options, (EmbedController) => {
                     this.embedController = EmbedController;
 
@@ -107,6 +109,22 @@
                         this.saveState();
                         this.updateUIState();
                         this.notifyStateChange();
+
+                        // Auto-advance to next track when current track finishes
+                        const pos = e.data.position || 0;
+                        const dur = e.data.duration || 0;
+                        if (dur > 0 && pos > 0) {
+                            const isNearEnd = (dur - pos) <= 1500 || pos >= dur;
+                            if (isNearEnd && e.data.isPaused) {
+                                const currentId = this.currentTrack?.id;
+                                if (currentId && currentId !== lastEndedTrackId) {
+                                    lastEndedTrackId = currentId;
+                                    setTimeout(() => {
+                                        this.playNext();
+                                    }, 400);
+                                }
+                            }
+                        }
                     });
 
                     EmbedController.addListener('ready', () => {
