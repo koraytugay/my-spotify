@@ -209,19 +209,6 @@ function renderNowPlayingHero(track, isPlaying) {
         artistEl.innerHTML = artistHtml;
     }
 
-    const badgeEl = document.getElementById('queue-context-badge');
-    if (badgeEl) {
-        const type = window.miniPlayer?.currentType || 'track';
-        const contextTitle = window.miniPlayer?.contextTitle;
-        if (type === 'playlist') {
-            badgeEl.textContent = contextTitle ? `Playing Playlist: ${contextTitle}` : `Playing from Playlist`;
-        } else if (type === 'album') {
-            badgeEl.textContent = contextTitle ? `Playing Album: ${contextTitle}` : `Playing from Album`;
-        } else {
-            badgeEl.textContent = `Playing from Liked Songs`;
-        }
-    }
-
     if (albumEl) {
         const albumName = track.album?.name || '';
         const releaseYear = track.album?.releaseYear ? ` (${track.album.releaseYear})` : (track.releaseYear ? ` (${track.releaseYear})` : '');

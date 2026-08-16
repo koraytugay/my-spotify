@@ -1224,23 +1224,7 @@ body.dark-mode .np-backdrop-aura::after {
 }
 
 .now-playing-wrapper {
-    margin-top: 16px;
-}
-
-.now-playing-toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.queue-context-badge {
-    font-size: 0.84rem;
-    font-weight: 600;
-    color: var(--accent);
-    background: var(--accent-light);
-    padding: 6px 14px;
-    border-radius: var(--radius-full);
+    margin-top: 24px;
 }
 
 .now-playing-grid {
