@@ -520,14 +520,11 @@ function playCurrentMix() {
    SPOTIFY PKCE OAUTH & SINGLE-PLAYLIST SYNC
    ---------------------------------------------------- */
 function getRedirectUri() {
-    const cleanUrl = new URL(window.location.href);
-    cleanUrl.search = '';
-    cleanUrl.hash = '';
-    return cleanUrl.href;
+    return window.location.origin + window.location.pathname;
 }
 
 function generateRandomString(length) {
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let res = '';
     const values = new Uint8Array(length);
     window.crypto.getRandomValues(values);
@@ -541,7 +538,12 @@ async function generateCodeChallenge(verifier) {
     const encoder = new TextEncoder();
     const data = encoder.encode(verifier);
     const digest = await window.crypto.subtle.digest('SHA-256', data);
-    return btoa(String.fromCharCode.apply(null, new Uint8Array(digest)))
+    const bytes = new Uint8Array(digest);
+    let binary = '';
+    for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary)
         .replace(/\+/g, '-')
         .replace(/\//g, '_')
         .replace(/=+$/, '');
@@ -557,6 +559,11 @@ function openSpotifyAuthModal() {
 
     const authModal = document.getElementById('spotify-auth-modal');
     if (authModal) authModal.style.display = 'flex';
+}
+
+function closeSpotifyAuthModal() {
+    const modal = document.getElementById('spotify-auth-modal');
+    if (modal) modal.style.display = 'none';
 }
 
 function disconnectSpotify() {
@@ -591,7 +598,6 @@ async function startSpotifyOAuth() {
 
     const redirectUri = getRedirectUri();
     const scope = 'playlist-modify-public playlist-modify-private playlist-read-private playlist-read-collaborative user-read-private';
-    // show_dialog=true forces Spotify to show the permission consent screen so new scopes are guaranteed to be granted
     const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}&show_dialog=true`;
 
     window.location.href = authUrl;
@@ -602,19 +608,25 @@ async function handleSpotifyAuthCallback() {
     const code = params.get('code');
     const error = params.get('error');
 
+    if (!code && !error) return;
+
+    // Immediately clean the address bar to prevent expired one-time code re-evaluation loops
+    window.history.replaceState({}, document.title, getRedirectUri());
+
     if (error) {
         console.warn('Spotify OAuth denied or error:', error);
-        window.history.replaceState({}, document.title, getRedirectUri());
+        alert(`Spotify Login was cancelled or returned an error: ${error}`);
         return;
     }
-
-    if (!code) return;
 
     const verifier = localStorage.getItem('spotify_pkce_verifier');
     const clientId = localStorage.getItem('spotify_client_id');
     const redirectUri = getRedirectUri();
 
-    if (!verifier || !clientId) return;
+    if (!verifier || !clientId) {
+        console.warn('Missing PKCE verifier or client ID');
+        return;
+    }
 
     try {
         const body = new URLSearchParams({
@@ -636,9 +648,7 @@ async function handleSpotifyAuthCallback() {
             localStorage.setItem('spotify_user_access_token', data.access_token);
             if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
             localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
-
-            // Clean up URL
-            window.history.replaceState({}, document.title, getRedirectUri());
+            localStorage.removeItem('spotify_pkce_verifier');
 
             // Check if a mix was waiting to sync
             const pending = localStorage.getItem('pending_mix_sync');
@@ -652,10 +662,13 @@ async function handleSpotifyAuthCallback() {
                 } catch (e) {}
             }
         } else {
-            console.error('Failed to exchange Spotify token:', await res.text());
+            const errText = await res.text();
+            console.error('Failed to exchange Spotify token:', res.status, errText);
+            alert(`Spotify token exchange failed (${res.status}): ${errText}`);
         }
     } catch (e) {
-        console.error('Spotify token exchange failed:', e);
+        console.error('Spotify token exchange network error:', e);
+        alert(`Spotify connection network error: ${e.message}`);
     }
 }
 
@@ -837,16 +850,11 @@ async function syncCurrentMixToSpotify() {
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
             if (replaceRes.status === 403 || replaceRes.status === 401) {
-                // Token was created with older insufficient scopes: clear cached tokens and redirect to Spotify with show_dialog=true
                 localStorage.removeItem('spotify_user_access_token');
                 localStorage.removeItem('spotify_user_refresh_token');
                 localStorage.removeItem('smart_mix_playlist_id');
-                const clientId = localStorage.getItem('spotify_client_id');
-                if (clientId) {
-                    startSpotifyOAuth();
-                } else {
-                    openSpotifyAuthModal();
-                }
+                openSpotifyAuthModal();
+                alert('Spotify permissions updated: Please click "Connect / Authorize" in the popup to grant playlist modification permissions.');
                 return;
             }
             throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);
@@ -876,11 +884,6 @@ async function syncCurrentMixToSpotify() {
             syncBtn.innerHTML = `📤 Sync to "My Smart Mix"`;
         }
     }
-}
-
-function closeSpotifyAuthModal() {
-    const modal = document.getElementById('spotify-auth-modal');
-    if (modal) modal.style.display = 'none';
 }
 
 function closeSyncSuccessModal() {
