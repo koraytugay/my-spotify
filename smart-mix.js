@@ -828,15 +828,23 @@ async function syncCurrentMixToSpotify() {
         const desc = `Smart Mix: ${cleanTitle} | Updated ${dateStr} | ${currentMixTracks.length} tracks`;
 
         const uris = currentMixTracks
-            .map(t => t.uri || (t.id ? `spotify:track:${t.id}` : null))
+            .map(t => {
+                if (!t) return null;
+                if (typeof t.uri === 'string' && t.uri.startsWith('spotify:track:')) return t.uri;
+                if (typeof t.id === 'string' && /^[a-zA-Z0-9]{15,30}$/.test(t.id)) return `spotify:track:${t.id}`;
+                return null;
+            })
             .filter(Boolean)
             .slice(0, 100);
 
-        // 2. Verify or locate user's "My Smart Mix" playlist
+        if (uris.length === 0) {
+            throw new Error('No valid Spotify track IDs found in current mix.');
+        }
+
+        // 2. Locate or reuse user's existing "My Smart Mix" playlist
         let playlistId = localStorage.getItem('smart_mix_playlist_id');
 
         if (playlistId) {
-            // Verify access to existing saved playlist ID
             const verifyRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
@@ -852,8 +860,8 @@ async function syncCurrentMixToSpotify() {
             });
             if (playlistsRes.ok) {
                 const pData = await playlistsRes.json();
-                // Match by name AND verify ownership by current user
-                const found = (pData.items || []).find(p => p && p.name === 'My Smart Mix' && (!userId || (p.owner && p.owner.id === userId)));
+                // Find any existing "My Smart Mix" playlist in user's library
+                const found = (pData.items || []).find(p => p && p.name === 'My Smart Mix');
                 if (found) {
                     playlistId = found.id;
                     localStorage.setItem('smart_mix_playlist_id', playlistId);
@@ -861,10 +869,9 @@ async function syncCurrentMixToSpotify() {
             }
         }
 
-        // 3. Create playlist if not found
+        // 3. Create single playlist only if absolutely none exists
         if (!playlistId) {
-            const createUrl = userId ? `https://api.spotify.com/v1/users/${userId}/playlists` : `https://api.spotify.com/v1/me/playlists`;
-            let createRes = await fetch(createUrl, {
+            let createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -877,26 +884,23 @@ async function syncCurrentMixToSpotify() {
                 })
             });
 
-            if (!createRes.ok) {
-                createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
+            if (!createRes.ok && userId) {
+                createRes = await fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
                     method: 'POST',
                     headers: {
                         'Authorization': `Bearer ${token}`,
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        name: 'My Smart Mix'
+                        name: 'My Smart Mix',
+                        description: desc,
+                        public: false
                     })
                 });
             }
 
             if (!createRes.ok) {
                 const errText = await createRes.text();
-                if (createRes.status === 403) {
-                    const granted = localStorage.getItem('spotify_granted_scopes') || 'unknown';
-                    const userHint = userEmail ? ` (logged in as ${userEmail} / ${userId})` : '';
-                    throw new Error(`Spotify 403 Forbidden${userHint}.\n\nCheck:\n1. Your Spotify Developer App is in Development Mode and your account (${userEmail || userId || 'email'}) must be added under 'User Management' in https://developer.spotify.com/dashboard\n2. Granted scopes: ${granted}`);
-                }
                 throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
             }
 
@@ -904,7 +908,7 @@ async function syncCurrentMixToSpotify() {
             playlistId = createdData.id;
             localStorage.setItem('smart_mix_playlist_id', playlistId);
         } else {
-            // Update title & description
+            // Update title & description on existing playlist
             await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
                 method: 'PUT',
                 headers: {
@@ -915,7 +919,7 @@ async function syncCurrentMixToSpotify() {
                     name: 'My Smart Mix',
                     description: desc
                 })
-            });
+            }).catch(() => {});
         }
 
         // 4. Overwrite tracks in the single playlist
@@ -929,7 +933,7 @@ async function syncCurrentMixToSpotify() {
         });
 
         if (!replaceRes.ok) {
-            // Try POST /v1/playlists/{id}/tracks (appending / populating)
+            // Fallback: POST /v1/playlists/{id}/tracks
             replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
                 method: 'POST',
                 headers: {
@@ -940,46 +944,9 @@ async function syncCurrentMixToSpotify() {
             });
         }
 
-        // Fallback: If modifying the old playlist was forbidden, create a fresh one
-        if (!replaceRes.ok && (replaceRes.status === 403 || replaceRes.status === 404)) {
-            localStorage.removeItem('smart_mix_playlist_id');
-            const freshCreateRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    name: 'My Smart Mix',
-                    description: desc,
-                    public: false
-                })
-            });
-
-            if (freshCreateRes.ok) {
-                const freshData = await freshCreateRes.json();
-                playlistId = freshData.id;
-                localStorage.setItem('smart_mix_playlist_id', playlistId);
-
-                replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ uris })
-                });
-            }
-        }
-
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
-            if (replaceRes.status === 403) {
-                const granted = localStorage.getItem('spotify_granted_scopes') || 'unknown';
-                const userHint = userEmail ? ` (logged in as ${userEmail} / ${userId})` : '';
-                throw new Error(`Spotify 403 Forbidden${userHint}.\n\nCheck:\n1. Your Spotify Developer App is in Development Mode and your account (${userEmail || userId || 'email'}) must be added under 'User Management' in https://developer.spotify.com/dashboard\n2. Granted scopes: ${granted}`);
-            }
-            throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);
+            throw new Error(`Failed to populate playlist tracks (${replaceRes.status}): ${errText}`);
         }
 
         // 5. Show success modal
