@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 593,
+  "totalLikedSongs": 594,
   "totalPlaylists": 12,
-  "totalSavedAlbums": 78,
+  "totalSavedAlbums": 82,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 154708285,
+  "totalDurationMs": 154842486,
   "totalDurationHours": 43,
   "totalDurationDays": 1.8,
-  "totalDurationFormatted": "42 hrs 58 mins",
-  "uniqueArtistsCount": 495,
+  "totalDurationFormatted": "43 hrs 0 mins",
+  "uniqueArtistsCount": 499,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -126,15 +126,15 @@
       "count": 3
     },
     {
-      "name": "Sade",
+      "name": "Sertab Erener",
       "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "2000s": 141,
     "1990s": 134,
-    "1980s": 85,
-    "2000s": 139,
+    "1980s": 84,
     "2010s": 147,
     "1970s": 45,
     "2020s": 24,
@@ -163,7 +163,7 @@
     "1981": 11,
     "1982": 3,
     "1983": 5,
-    "1984": 13,
+    "1984": 12,
     "1985": 7,
     "1986": 7,
     "1987": 15,
@@ -188,7 +188,7 @@
     "2006": 15,
     "2007": 16,
     "2008": 13,
-    "2009": 16,
+    "2009": 18,
     "2010": 11,
     "2011": 14,
     "2012": 13,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-16T16:31:58.635Z"
+  "lastUpdated": "2026-08-16T19:12:20.681Z"
 }
