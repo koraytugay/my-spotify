@@ -383,18 +383,8 @@
             const activeTrack = this.currentTrack || item;
             this.displayTrackInfo(activeTrack, type);
 
-            // Navigate to Currently Playing view with context query params
-            let targetNavUrl = 'now-playing.html';
-            if (type === 'album' && item.id) {
-                targetNavUrl = `now-playing.html?albumId=${encodeURIComponent(item.id)}`;
-            } else if (type === 'playlist' && item.id) {
-                targetNavUrl = `now-playing.html?playlistId=${encodeURIComponent(item.id)}`;
-            }
-
-            const currentPath = (typeof getCleanPageName === 'function') ? getCleanPageName(window.location.pathname) : (window.location.pathname.split('/').pop() || 'index.html');
-            if (currentPath !== 'now-playing.html' && typeof spaNavigate === 'function') {
-                spaNavigate(targetNavUrl, true);
-            }
+            // Automatically expand the Spotify Player dock in the bottom-right corner
+            this.expand();
 
             // For Albums and Playlists, pass the container URI so Spotify natively streams all tracks in background!
             let uri;
@@ -444,11 +434,8 @@
 
             this.displayTrackInfo(track, this.currentType || 'track');
 
-            // Navigate to Currently Playing view instead of popping up mini player
-            const currentPath = (typeof getCleanPageName === 'function') ? getCleanPageName(window.location.pathname) : (window.location.pathname.split('/').pop() || 'index.html');
-            if (currentPath !== 'now-playing.html' && typeof spaNavigate === 'function') {
-                spaNavigate('now-playing.html', true);
-            }
+            // Automatically expand the Spotify Player dock in the bottom-right corner
+            this.expand();
 
             const uri = track.uri || `spotify:track:${track.id}`;
 
@@ -585,12 +572,6 @@
             if (eq) {
                 eq.classList.toggle('playing', !!this.isPlaying);
             }
-
-            // Green background on Currently Playing nav pill when music is playing
-            const npLinks = document.querySelectorAll('a[href*="now-playing.html"]');
-            npLinks.forEach(link => {
-                link.classList.toggle('is-playing-now', !!this.isPlaying);
-            });
         }
 
         onStateChange(cb) {
@@ -730,15 +711,6 @@
             } else if (targetCleanPath === 'artist.html') {
                 await loadScriptIfNeeded('artist.js');
                 if (typeof initArtistDetail === 'function') initArtistDetail();
-            } else if (targetCleanPath === 'now-playing.html') {
-                await loadScriptIfNeeded('now-playing.js');
-                if (typeof initNowPlaying === 'function') initNowPlaying();
-            }
-
-            // Manage backdrop aura visibility
-            const backdropEl = document.getElementById('np-backdrop-aura');
-            if (backdropEl) {
-                backdropEl.style.display = (targetCleanPath === 'now-playing.html') ? 'block' : 'none';
             }
 
             // Sync player with new view
