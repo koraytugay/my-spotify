@@ -694,23 +694,9 @@ function renderMixResult(autoScroll = false) {
     }
 }
 
-async function playCurrentMix() {
+function playCurrentMix() {
     if (!currentMixTracks || currentMixTracks.length === 0) return;
 
-    // 1. Check if user has Spotify OAuth connected & dedicated "My Smart Mix" playlist
-    const token = await getValidSpotifyToken().catch(() => null);
-    const existingPlaylistId = localStorage.getItem('smart_mix_playlist_id');
-
-    if (token && existingPlaylistId) {
-        // Sync mix tracks to the dedicated "My Smart Mix" playlist on Spotify in background
-        syncCurrentMixToSpotify(true).catch(() => {});
-        if (window.miniPlayer) {
-            window.miniPlayer.playItem({ id: existingPlaylistId, name: currentMixTitle || 'My Smart Mix', tracks: currentMixTracks }, 'playlist');
-            return;
-        }
-    }
-
-    // 2. Standard browser queue playback with Web Audio keepalive & background timer
     if (window.miniPlayer) {
         window.miniPlayer.playlist = currentMixTracks;
         window.miniPlayer.currentType = 'playlist';
