@@ -1577,11 +1577,13 @@ body.dark-mode .np-backdrop-aura::after {
     font-size: 0.95rem;
 }
 
-/* Responsive */
+/* ----------------------------------------------------
+   MOBILE RESPONSIVENESS & POLISH
+   ---------------------------------------------------- */
 @media (max-width: 900px) {
     .now-playing-grid {
         grid-template-columns: 1fr;
-        gap: 24px;
+        gap: 20px;
     }
 
     .now-playing-hero-card {
@@ -1594,6 +1596,303 @@ body.dark-mode .np-backdrop-aura::after {
     .hero-cover-container {
         width: 260px;
         height: 260px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px 10px 100px;
+    }
+
+    .container {
+        padding: 0 4px;
+    }
+
+    header {
+        margin-bottom: 20px;
+    }
+
+    .header-title {
+        gap: 8px;
+    }
+
+    .header-title h1 {
+        font-size: 1.45rem;
+    }
+
+    .spotify-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .page-nav {
+        gap: 6px;
+        margin-top: 12px;
+    }
+
+    .nav-link {
+        padding: 6px 12px;
+        font-size: 0.78rem;
+    }
+
+    /* Controls & Filters Card */
+    .controls-card {
+        padding: 12px;
+        margin-bottom: 16px;
+        border-radius: var(--radius-md);
+    }
+
+    .controls-row {
+        gap: 10px;
+    }
+
+    .control-group {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
+    .control-group.search-group {
+        flex: 1 1 100%;
+    }
+
+    .control-group label {
+        font-size: 0.78rem;
+        min-width: 55px;
+    }
+
+    .control-group select,
+    .control-group input[type="text"] {
+        font-size: 0.82rem;
+        padding: 6px 10px;
+    }
+
+    .checkbox-toggle {
+        padding: 4px 8px;
+        font-size: 0.78rem;
+    }
+
+    /* Grid & Cards */
+    .music-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .music-grid.view-compact {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .song-card {
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .song-title {
+        font-size: 0.82rem;
+    }
+
+    .song-artist {
+        font-size: 0.72rem;
+        margin-bottom: 4px;
+    }
+
+    .album-year {
+        font-size: 0.72rem;
+    }
+
+    .song-meta {
+        font-size: 0.72rem;
+        padding-top: 6px;
+    }
+
+    /* List View Mode */
+    .music-grid.view-list {
+        gap: 8px;
+    }
+
+    .music-grid.view-list .song-card {
+        padding: 8px 10px;
+        gap: 12px;
+    }
+
+    .music-grid.view-list .cover-wrapper {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        border-radius: 6px;
+    }
+
+    .music-grid.view-list .song-title {
+        font-size: 0.88rem;
+    }
+
+    .music-grid.view-list .song-artist {
+        font-size: 0.75rem;
+    }
+
+    /* Currently Playing View */
+    .now-playing-wrapper {
+        margin-top: 12px;
+    }
+
+    .now-playing-hero-card {
+        padding: 20px 14px;
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .hero-cover-container {
+        width: min(220px, 64vw);
+        height: min(220px, 64vw);
+        margin-bottom: 14px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero-title {
+        font-size: 1.2rem;
+        margin-bottom: 4px;
+    }
+
+    .hero-artist {
+        font-size: 0.92rem;
+        margin-bottom: 4px;
+    }
+
+    .hero-album {
+        font-size: 0.78rem;
+    }
+
+    .hero-actions {
+        gap: 16px;
+        margin-bottom: 14px;
+    }
+
+    .hero-play-btn {
+        width: 48px;
+        height: 48px;
+        font-size: 18px;
+    }
+
+    .hero-ctrl-btn {
+        padding: 8px;
+    }
+
+    .now-playing-queue-card {
+        padding: 16px 10px;
+        border-radius: var(--radius-md);
+    }
+
+    .queue-header {
+        padding-bottom: 10px;
+        margin-bottom: 8px;
+    }
+
+    .queue-header h3 {
+        font-size: 1.05rem;
+    }
+
+    .queue-track-list {
+        max-height: 460px;
+        padding-right: 2px;
+        gap: 4px;
+    }
+
+    .queue-track-item {
+        padding: 6px 6px;
+        gap: 8px;
+        border-radius: 6px;
+    }
+
+    .queue-track-num {
+        min-width: 18px;
+        font-size: 0.75rem;
+    }
+
+    .queue-cover-wrap {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+    }
+
+    .queue-track-title {
+        font-size: 0.85rem;
+    }
+
+    .queue-track-artist {
+        font-size: 0.72rem;
+    }
+
+    .queue-track-liked {
+        width: 20px;
+        min-width: 20px;
+        font-size: 0.75rem;
+    }
+
+    .queue-track-duration {
+        font-size: 0.72rem;
+    }
+
+    /* Artist & Playlist Detail Hero */
+    .artist-hero,
+    .playlist-hero {
+        padding: 18px 14px;
+        gap: 14px;
+        border-radius: var(--radius-md);
+        margin-bottom: 18px;
+    }
+
+    .hero-cover {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+    }
+
+    .hero-title {
+        font-size: 1.35rem;
+    }
+
+    .hero-desc {
+        font-size: 0.82rem;
+    }
+
+    .hero-meta {
+        font-size: 0.78rem;
+        gap: 8px;
+    }
+
+    .section-heading {
+        font-size: 1.15rem;
+        margin: 24px 0 12px 0;
+    }
+
+    /* Mini Player Dock */
+    .mini-player-container {
+        width: min(340px, calc(100vw - 16px));
+        bottom: 12px;
+    }
+
+    .handle-pill {
+        padding: 5px 14px;
+        font-size: 0.75rem;
+    }
+
+    /* Stats Mobile */
+    .stats-ribbon {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 12px 14px;
+    }
+
+    .stat-number {
+        font-size: 1.3rem;
+    }
+
+    .stat-label {
+        font-size: 0.72rem;
     }
 }
 
