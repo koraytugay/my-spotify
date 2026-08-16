@@ -567,7 +567,7 @@ async function startSpotifyOAuth() {
     localStorage.setItem('spotify_pkce_verifier', verifier);
 
     const redirectUri = getRedirectUri();
-    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private';
+    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private user-read-private';
     const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}`;
 
     window.location.href = authUrl;
@@ -624,7 +624,7 @@ async function handleSpotifyAuthCallback() {
                     const parsed = JSON.parse(pending);
                     currentMixTracks = parsed.tracks || [];
                     currentMixTitle = parsed.title || 'Curated Smart Mix';
-                    syncCurrentMixToSpotify();
+                    setTimeout(() => syncCurrentMixToSpotify(), 200);
                 } catch (e) {}
             }
         } else {
@@ -700,13 +700,23 @@ async function syncCurrentMixToSpotify() {
     }
 
     try {
-        // 1. Get current user profile
+        // 1. Get current user profile (with 401 token expiry handling)
         const userRes = await fetch('https://api.spotify.com/v1/me', {
             headers: { 'Authorization': `Bearer ${token}` }
         });
-        if (!userRes.ok) throw new Error('Could not fetch Spotify user profile');
-        const userData = await userRes.json();
-        const userId = userData.id;
+
+        if (userRes.status === 401) {
+            localStorage.removeItem('spotify_user_access_token');
+            localStorage.removeItem('spotify_user_refresh_token');
+            startSpotifyOAuth();
+            return;
+        }
+
+        let userId = null;
+        if (userRes.ok) {
+            const userData = await userRes.json();
+            userId = userData.id;
+        }
 
         // 2. Check for existing "My Smart Mix" playlist
         let playlistId = localStorage.getItem('smart_mix_playlist_id');
@@ -726,11 +736,13 @@ async function syncCurrentMixToSpotify() {
         }
 
         const dateStr = new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
-        const desc = `Smart Mix: ${currentMixTitle} • Updated ${dateStr} • ${currentMixTracks.length} tracks`;
+        const cleanTitle = (currentMixTitle || 'Smart Mix').replace(/[^\w\s\(\)\+\-\&\.\,\:\/]/g, '').trim();
+        const desc = `Smart Mix: ${cleanTitle} | Updated ${dateStr} | ${currentMixTracks.length} tracks`;
 
         // 3. Create or update playlist details
         if (!playlistId) {
-            const createRes = await fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
+            const createUrl = userId ? `https://api.spotify.com/v1/users/${userId}/playlists` : `https://api.spotify.com/v1/me/playlists`;
+            let createRes = await fetch(createUrl, {
                 method: 'POST',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -742,7 +754,29 @@ async function syncCurrentMixToSpotify() {
                     public: false
                 })
             });
-            if (!createRes.ok) throw new Error('Failed to create playlist on Spotify');
+
+            if (!createRes.ok && userId) {
+                // Fallback to /v1/me/playlists
+                createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: 'My Smart Mix',
+                        description: desc,
+                        public: false
+                    })
+                });
+            }
+
+            if (!createRes.ok) {
+                const errText = await createRes.text();
+                console.error('Spotify create playlist error:', createRes.status, errText);
+                throw new Error(`Spotify error (${createRes.status}): ${errText}`);
+            }
+
             const createdData = await createRes.json();
             playlistId = createdData.id;
             localStorage.setItem('smart_mix_playlist_id', playlistId);
@@ -776,7 +810,10 @@ async function syncCurrentMixToSpotify() {
             body: JSON.stringify({ uris })
         });
 
-        if (!replaceRes.ok) throw new Error('Failed to update tracks in playlist');
+        if (!replaceRes.ok) {
+            const errText = await replaceRes.text();
+            throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);
+        }
 
         // 5. Show success modal
         const successModal = document.getElementById('sync-success-modal');
