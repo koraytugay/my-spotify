@@ -753,9 +753,20 @@
 
     window.togglePlayAlbum = function(id) {
         const player = window.miniPlayer || getPlayer();
+        if (!player) return;
+
+        const isCurrentAlbum = player.currentTrack?.album?.id === id || player.currentTrack?.id === id;
+        if (isCurrentAlbum) {
+            player.togglePlayPause();
+            return;
+        }
+
         let albumObj = null;
         if (typeof filteredAlbums !== 'undefined') {
             albumObj = filteredAlbums.find(a => a.id === id);
+        }
+        if (!albumObj && typeof allArtistAlbums !== 'undefined') {
+            albumObj = allArtistAlbums.find(a => a.id === id);
         }
         if (!albumObj && typeof allAlbums !== 'undefined') {
             albumObj = allAlbums.find(a => a.id === id);
@@ -763,11 +774,13 @@
         if (!albumObj) {
             albumObj = { id };
         }
-        player.playItem(albumObj, 'album', typeof filteredAlbums !== 'undefined' ? filteredAlbums : null);
+        player.playItem(albumObj, 'album');
     };
 
     window.togglePlayPlaylist = function(id) {
         const player = window.miniPlayer || getPlayer();
+        if (!player) return;
+
         let playlistObj = null;
         if (typeof filteredPlaylists !== 'undefined') {
             playlistObj = filteredPlaylists.find(p => p.id === id);
@@ -775,9 +788,15 @@
         if (!playlistObj && typeof allPlaylists !== 'undefined') {
             playlistObj = allPlaylists.find(p => p.id === id);
         }
+
+        if (playlistObj && player.contextTitle === playlistObj.name) {
+            player.togglePlayPause();
+            return;
+        }
+
         if (!playlistObj) {
             playlistObj = { id };
         }
-        player.playItem(playlistObj, 'playlist', typeof filteredPlaylists !== 'undefined' ? filteredPlaylists : null);
+        player.playItem(playlistObj, 'playlist');
     };
 })();

@@ -241,8 +241,13 @@ function renderAlbums() {
 }
 
 function togglePlayAlbum(id) {
-    const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
     if (window.miniPlayer) {
+        const isCurrentAlbum = window.miniPlayer.currentTrack?.album?.id === id || window.miniPlayer.currentTrack?.id === id;
+        if (isCurrentAlbum) {
+            window.miniPlayer.togglePlayPause();
+            return;
+        }
+        const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
         window.miniPlayer.playItem(album, 'album');
     }
 }
