@@ -391,8 +391,407 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
+/* ----------------------------------------------------
+   SPOTIFY PKCE OAUTH & QUEUE SYNC
+   ---------------------------------------------------- */
+function getRedirectUri() {
+    return window.location.origin + window.location.pathname;
+}
+
+function generateRandomString(length) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let res = '';
+    const values = new Uint8Array(length);
+    window.crypto.getRandomValues(values);
+    for (let i = 0; i < length; i++) {
+        res += chars[values[i] % chars.length];
+    }
+    return res;
+}
+
+async function generateCodeChallenge(verifier) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(verifier);
+    const digest = await window.crypto.subtle.digest('SHA-256', data);
+    const bytes = new Uint8Array(digest);
+    let binary = '';
+    for (let i = 0; i < bytes.byteLength; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return btoa(binary)
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/, '');
+}
+
+function openSpotifyAuthModal() {
+    const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
+    const clientIdInput = document.getElementById('spotify-client-id-input');
+    const savedClientId = localStorage.getItem('spotify_client_id') || '';
+
+    if (redirectDisplay) redirectDisplay.textContent = getRedirectUri();
+    if (clientIdInput) clientIdInput.value = savedClientId;
+
+    const authModal = document.getElementById('spotify-auth-modal');
+    if (authModal) authModal.style.display = 'flex';
+}
+
+function closeSpotifyAuthModal() {
+    const modal = document.getElementById('spotify-auth-modal');
+    if (modal) modal.style.display = 'none';
+}
+
+function closeSyncSuccessModal() {
+    const modal = document.getElementById('sync-success-modal');
+    if (modal) modal.style.display = 'none';
+}
+
+function disconnectSpotify() {
+    localStorage.removeItem('spotify_user_access_token');
+    localStorage.removeItem('spotify_user_refresh_token');
+    localStorage.removeItem('spotify_token_expires_at');
+    localStorage.removeItem('smart_mix_playlist_id');
+    localStorage.removeItem('spotify_client_id');
+    closeSpotifyAuthModal();
+    alert('Disconnected from Spotify. You can reconnect anytime.');
+}
+
+async function startSpotifyOAuth() {
+    const input = document.getElementById('spotify-client-id-input');
+    const clientId = (input?.value || localStorage.getItem('spotify_client_id') || '').trim();
+
+    if (!clientId) {
+        openSpotifyAuthModal();
+        return;
+    }
+
+    closeSpotifyAuthModal();
+    localStorage.setItem('spotify_client_id', clientId);
+
+    const queue = (window.miniPlayer && window.miniPlayer.playlist && window.miniPlayer.playlist.length > 0)
+        ? window.miniPlayer.playlist
+        : (currentQueueTracks || []);
+    const title = (window.miniPlayer && window.miniPlayer.contextTitle) ? window.miniPlayer.contextTitle : 'Player Queue';
+
+    localStorage.setItem('pending_mix_sync', JSON.stringify({
+        tracks: queue,
+        title: title
+    }));
+
+    const verifier = generateRandomString(64);
+    const challenge = await generateCodeChallenge(verifier);
+    localStorage.setItem('spotify_pkce_verifier', verifier);
+
+    const redirectUri = getRedirectUri();
+    const scopesList = [
+        'playlist-modify-public',
+        'playlist-modify-private',
+        'playlist-read-private',
+        'playlist-read-collaborative',
+        'user-read-private',
+        'user-read-email',
+        'user-library-read',
+        'user-library-modify',
+        'user-top-read',
+        'user-read-playback-state',
+        'user-modify-playback-state',
+        'user-read-currently-playing',
+        'user-read-recently-played',
+        'user-follow-read',
+        'user-follow-modify',
+        'ugc-image-upload'
+    ];
+    const scope = scopesList.join(' ');
+    const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}&show_dialog=true`;
+
+    window.location.href = authUrl;
+}
+
+async function handleSpotifyAuthCallback() {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const error = params.get('error');
+
+    if (!code && !error) return;
+
+    window.history.replaceState({}, document.title, getRedirectUri());
+
+    if (error) {
+        console.warn('Spotify OAuth denied or error:', error);
+        alert(`Spotify Login was cancelled or returned an error: ${error}`);
+        return;
+    }
+
+    const verifier = localStorage.getItem('spotify_pkce_verifier');
+    const clientId = localStorage.getItem('spotify_client_id');
+    const redirectUri = getRedirectUri();
+
+    if (!verifier || !clientId) return;
+
+    try {
+        const body = new URLSearchParams({
+            client_id: clientId,
+            grant_type: 'authorization_code',
+            code: code,
+            redirect_uri: redirectUri,
+            code_verifier: verifier
+        });
+
+        const res = await fetch('https://accounts.spotify.com/api/token', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: body.toString()
+        });
+
+        if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('spotify_user_access_token', data.access_token);
+            if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
+            if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
+            localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
+            localStorage.removeItem('spotify_pkce_verifier');
+
+            const pending = localStorage.getItem('pending_mix_sync');
+            if (pending) {
+                localStorage.removeItem('pending_mix_sync');
+                setTimeout(() => syncNowPlayingQueueToSpotify(), 300);
+            }
+        }
+    } catch (e) {
+        console.error('Spotify token exchange error:', e);
+    }
+}
+
+async function getValidSpotifyToken() {
+    const token = localStorage.getItem('spotify_user_access_token');
+    const expiresAt = parseInt(localStorage.getItem('spotify_token_expires_at') || '0', 10);
+    const refreshToken = localStorage.getItem('spotify_user_refresh_token');
+    const clientId = localStorage.getItem('spotify_client_id');
+
+    if (!token) return null;
+
+    if (Date.now() > expiresAt - 120000 && refreshToken && clientId) {
+        try {
+            const body = new URLSearchParams({
+                grant_type: 'refresh_token',
+                refresh_token: refreshToken,
+                client_id: clientId
+            });
+            const res = await fetch('https://accounts.spotify.com/api/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body.toString()
+            });
+            if (res.ok) {
+                const data = await res.json();
+                localStorage.setItem('spotify_user_access_token', data.access_token);
+                if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
+                if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
+                localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
+                return data.access_token;
+            }
+        } catch (e) {}
+    }
+
+    return token;
+}
+
+async function syncNowPlayingQueueToSpotify() {
+    const queue = (window.miniPlayer && window.miniPlayer.playlist && window.miniPlayer.playlist.length > 0)
+        ? window.miniPlayer.playlist
+        : (currentQueueTracks || []);
+
+    if (!queue || queue.length === 0) {
+        alert('No tracks currently in the player queue!');
+        return;
+    }
+
+    const contextTitle = (window.miniPlayer && window.miniPlayer.contextTitle)
+        ? window.miniPlayer.contextTitle
+        : (document.getElementById('np-hero-title')?.textContent || 'Current Queue');
+
+    const token = await getValidSpotifyToken();
+
+    if (!token) {
+        openSpotifyAuthModal();
+        return;
+    }
+
+    const btn = document.getElementById('np-sync-spotify-btn');
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = `⏳ Syncing...`;
+    }
+
+    try {
+        const userRes = await fetch('https://api.spotify.com/v1/me', {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+
+        if (userRes.status === 401) {
+            localStorage.removeItem('spotify_user_access_token');
+            localStorage.removeItem('spotify_user_refresh_token');
+            openSpotifyAuthModal();
+            return;
+        }
+
+        let userId = null;
+        if (userRes.ok) {
+            const userData = await userRes.json();
+            userId = userData.id;
+        }
+
+        const dateStr = new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+        const cleanTitle = (contextTitle || 'Queue Mix').replace(/[^\w\s\(\)\+\-\&\.\,\:\/]/g, '').trim();
+        const desc = `Smart Mix: ${cleanTitle} | Updated ${dateStr} | ${queue.length} tracks`;
+
+        const uris = queue
+            .map(t => {
+                if (!t) return null;
+                if (typeof t.uri === 'string' && t.uri.startsWith('spotify:track:')) return t.uri;
+                if (typeof t.id === 'string' && /^[a-zA-Z0-9]{15,30}$/.test(t.id)) return `spotify:track:${t.id}`;
+                return null;
+            })
+            .filter(Boolean)
+            .slice(0, 100);
+
+        if (uris.length === 0) {
+            throw new Error('No valid Spotify track IDs found in current queue.');
+        }
+
+        let playlistId = localStorage.getItem('smart_mix_playlist_id');
+
+        if (playlistId) {
+            const verifyRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (!verifyRes.ok) {
+                playlistId = null;
+                localStorage.removeItem('smart_mix_playlist_id');
+            }
+        }
+
+        if (!playlistId) {
+            const playlistsRes = await fetch('https://api.spotify.com/v1/me/playlists?limit=50', {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (playlistsRes.ok) {
+                const pData = await playlistsRes.json();
+                const found = (pData.items || []).find(p => p && p.name === 'My Smart Mix');
+                if (found) {
+                    playlistId = found.id;
+                    localStorage.setItem('smart_mix_playlist_id', playlistId);
+                }
+            }
+        }
+
+        if (!playlistId) {
+            let createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: 'My Smart Mix',
+                    description: desc,
+                    public: false
+                })
+            });
+
+            if (!createRes.ok && userId) {
+                createRes = await fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: 'My Smart Mix',
+                        description: desc,
+                        public: false
+                    })
+                });
+            }
+
+            if (!createRes.ok) {
+                const errText = await createRes.text();
+                throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
+            }
+
+            const createdData = await createRes.json();
+            playlistId = createdData.id;
+            localStorage.setItem('smart_mix_playlist_id', playlistId);
+        } else {
+            await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: 'My Smart Mix',
+                    description: desc
+                })
+            }).catch(() => {});
+        }
+
+        let replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ uris })
+        });
+
+        if (!replaceRes.ok) {
+            replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uris })
+            });
+        }
+
+        if (!replaceRes.ok) {
+            const errText = await replaceRes.text();
+            throw new Error(`Failed to populate playlist (${replaceRes.status}): ${errText}`);
+        }
+
+        const successModal = document.getElementById('sync-success-modal');
+        const descEl = document.getElementById('sync-success-desc');
+        const appBtn = document.getElementById('open-spotify-app-btn');
+
+        if (descEl) {
+            descEl.textContent = `Updated "My Smart Mix" with ${uris.length} tracks from ${contextTitle}.`;
+        }
+
+        if (appBtn) {
+            const isMobile = window.isMobileDevice ? window.isMobileDevice() : false;
+            appBtn.href = isMobile ? `spotify:playlist:${playlistId}` : `https://open.spotify.com/playlist/${playlistId}`;
+        }
+
+        if (successModal) successModal.style.display = 'flex';
+    } catch (e) {
+        console.error('Error syncing queue to Spotify:', e);
+        alert(`Could not sync to Spotify: ${e.message}`);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = `📤 Sync to Spotify`;
+        }
+    }
+}
+
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initNowPlaying);
+    document.addEventListener('DOMContentLoaded', () => {
+        handleSpotifyAuthCallback();
+        initNowPlaying();
+    });
 } else {
+    handleSpotifyAuthCallback();
     initNowPlaying();
 }
