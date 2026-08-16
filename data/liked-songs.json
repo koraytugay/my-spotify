@@ -1,5 +1,32 @@
 [
   {
+    "id": "6KVsUmrrhwOqorm4IuZlys",
+    "name": "Geceler Düşman",
+    "artists": [
+      {
+        "id": "2fYdUIUPS7aDdWCzb8Aw2k",
+        "name": "Aşkın Nur Yengi"
+      }
+    ],
+    "artistNames": "Aşkın Nur Yengi",
+    "album": {
+      "id": "5rAW5wobAcppohcs4P6bD3",
+      "name": "Kara Çiçeğim",
+      "releaseDate": "1994-12-12",
+      "releaseYear": "1994",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac6a84c15328dda047d4d301",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ac6a84c15328dda047d4d301",
+    "durationMs": 332560,
+    "durationFormatted": "5:32",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6KVsUmrrhwOqorm4IuZlys",
+    "uri": "spotify:track:6KVsUmrrhwOqorm4IuZlys",
+    "addedAt": "2026-08-15T18:37:17Z",
+    "addedDate": "2026-08-15"
+  },
+  {
     "id": "2hnPh9dWcu0RVdMitsSukF",
     "name": "Bir Zaman Hatası",
     "artists": [

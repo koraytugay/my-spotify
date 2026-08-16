@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 623,
+  "totalLikedSongs": 624,
   "totalPlaylists": 12,
-  "totalSavedAlbums": 77,
+  "totalSavedAlbums": 78,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 162339595,
-  "totalDurationHours": 45.1,
+  "totalDurationMs": 162672155,
+  "totalDurationHours": 45.2,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "45 hrs 5 mins",
+  "totalDurationFormatted": "45 hrs 11 mins",
   "uniqueArtistsCount": 495,
   "topLikedArtists": [
     {
@@ -26,6 +26,10 @@
       "count": 7
     },
     {
+      "name": "Aşkın Nur Yengi",
+      "count": 5
+    },
+    {
       "name": "Thievery Corporation",
       "count": 5
     },
@@ -40,10 +44,6 @@
     {
       "name": "Agalloch",
       "count": 5
-    },
-    {
-      "name": "Aşkın Nur Yengi",
-      "count": 4
     },
     {
       "name": "Opeth",
@@ -132,7 +132,7 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "1990s": 141,
+    "1990s": 142,
     "1980s": 88,
     "2000s": 150,
     "2010s": 155,
@@ -173,7 +173,7 @@
     "1991": 9,
     "1992": 11,
     "1993": 12,
-    "1994": 11,
+    "1994": 12,
     "1995": 7,
     "1996": 25,
     "1997": 23,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-15T18:26:26.304Z"
+  "lastUpdated": "2026-08-16T13:50:34.164Z"
 }
