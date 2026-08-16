@@ -622,6 +622,12 @@
                 if (typeof initNowPlaying === 'function') initNowPlaying();
             }
 
+            // Manage backdrop aura visibility
+            const backdropEl = document.getElementById('np-backdrop-aura');
+            if (backdropEl) {
+                backdropEl.style.display = (currentCleanPath === 'now-playing.html') ? 'block' : 'none';
+            }
+
             // Sync player with new view
             if (window.miniPlayer) {
                 window.miniPlayer.updateUIState();

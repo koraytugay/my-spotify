@@ -185,9 +185,16 @@ function renderNowPlayingHero(track, isPlaying) {
         coverEl.alt = track.name || 'Cover';
     }
 
-    const backdropEl = document.getElementById('np-backdrop-aura');
+    let backdropEl = document.getElementById('np-backdrop-aura');
+    if (!backdropEl) {
+        backdropEl = document.createElement('div');
+        backdropEl.id = 'np-backdrop-aura';
+        backdropEl.className = 'np-backdrop-aura';
+        document.body.prepend(backdropEl);
+    }
     if (backdropEl && coverUrl) {
         backdropEl.style.backgroundImage = `url("${coverUrl}")`;
+        backdropEl.style.display = 'block';
     }
 
     if (titleEl) {
