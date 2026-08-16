@@ -67,10 +67,21 @@ a {
 }
 
 /* Explicit text link classes */
-.song-title-link {
+.song-title-link,
+.song-title a {
     color: var(--text-primary);
     font-weight: 700;
-    text-decoration: none !important;
+    text-decoration: underline;
+    text-decoration-color: var(--text-muted);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.song-title-link:hover,
+.song-title a:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
 }
 
 .artist-link {
@@ -93,6 +104,12 @@ a {
     text-decoration-color: var(--text-muted);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
+    transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.album-link:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
 }
 
 .user-subtitle a {
