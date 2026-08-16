@@ -596,6 +596,61 @@ async function getValidSpotifyToken() {
     return token;
 }
 
+async function getOrCreateSmartMixPlaylistId(token, userId, desc) {
+    let playlistId = localStorage.getItem('smart_mix_playlist_id');
+    if (playlistId) {
+        return playlistId; // Trust the saved ID, don't run brittle pre-checks
+    }
+
+    // Search existing playlists across multiple pages (up to 200 playlists)
+    try {
+        let offset = 0;
+        while (offset < 200) {
+            const res = await fetch(`https://api.spotify.com/v1/me/playlists?limit=50&offset=${offset}`, {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (!res.ok) break;
+            const data = await res.json();
+            const items = data.items || [];
+            if (items.length === 0) break;
+
+            const found = items.find(p => p && p.name && p.name.trim().toLowerCase() === 'my smart mix');
+            if (found) {
+                localStorage.setItem('smart_mix_playlist_id', found.id);
+                return found.id;
+            }
+
+            if (items.length < 50) break;
+            offset += 50;
+        }
+    } catch (e) {
+        console.warn('Error searching user playlists:', e);
+    }
+
+    // Only create a new playlist if none was found anywhere in library
+    const createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
+        method: 'POST',
+        headers: {
+            'Authorization': `Bearer ${token}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: 'My Smart Mix',
+            description: desc || 'Curated Smart Mix',
+            public: false
+        })
+    });
+
+    if (createRes.ok) {
+        const createdData = await createRes.json();
+        localStorage.setItem('smart_mix_playlist_id', createdData.id);
+        return createdData.id;
+    }
+
+    const errText = await createRes.text();
+    throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
+}
+
 async function syncNowPlayingQueueToSpotify() {
     const queue = (window.miniPlayer && window.miniPlayer.playlist && window.miniPlayer.playlist.length > 0)
         ? window.miniPlayer.playlist
@@ -659,83 +714,10 @@ async function syncNowPlayingQueueToSpotify() {
             throw new Error('No valid Spotify track IDs found in current queue.');
         }
 
-        let playlistId = localStorage.getItem('smart_mix_playlist_id');
+        // Lock onto single dedicated "My Smart Mix" playlist
+        let playlistId = await getOrCreateSmartMixPlaylistId(token, userId, desc);
 
-        if (playlistId) {
-            const verifyRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
-                headers: { 'Authorization': `Bearer ${token}` }
-            });
-            if (!verifyRes.ok) {
-                playlistId = null;
-                localStorage.removeItem('smart_mix_playlist_id');
-            }
-        }
-
-        if (!playlistId) {
-            const playlistsRes = await fetch('https://api.spotify.com/v1/me/playlists?limit=50', {
-                headers: { 'Authorization': `Bearer ${token}` }
-            });
-            if (playlistsRes.ok) {
-                const pData = await playlistsRes.json();
-                const found = (pData.items || []).find(p => p && p.name === 'My Smart Mix');
-                if (found) {
-                    playlistId = found.id;
-                    localStorage.setItem('smart_mix_playlist_id', playlistId);
-                }
-            }
-        }
-
-        if (!playlistId) {
-            let createRes = await fetch(`https://api.spotify.com/v1/me/playlists`, {
-                method: 'POST',
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    name: 'My Smart Mix',
-                    description: desc,
-                    public: false
-                })
-            });
-
-            if (!createRes.ok && userId) {
-                createRes = await fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        name: 'My Smart Mix',
-                        description: desc,
-                        public: false
-                    })
-                });
-            }
-
-            if (!createRes.ok) {
-                const errText = await createRes.text();
-                throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
-            }
-
-            const createdData = await createRes.json();
-            playlistId = createdData.id;
-            localStorage.setItem('smart_mix_playlist_id', playlistId);
-        } else {
-            await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
-                method: 'PUT',
-                headers: {
-                    'Authorization': `Bearer ${token}`,
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    name: 'My Smart Mix',
-                    description: desc
-                })
-            }).catch(() => {});
-        }
-
+        // Overwrite tracks in the single playlist
         let replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
             method: 'PUT',
             headers: {
@@ -744,6 +726,20 @@ async function syncNowPlayingQueueToSpotify() {
             },
             body: JSON.stringify({ uris })
         });
+
+        // If the playlist was deleted by user on Spotify (404), create a fresh one and retry once
+        if (replaceRes.status === 404) {
+            localStorage.removeItem('smart_mix_playlist_id');
+            playlistId = await getOrCreateSmartMixPlaylistId(token, userId, desc);
+            replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ uris })
+            });
+        }
 
         if (!replaceRes.ok) {
             replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/items`, {
