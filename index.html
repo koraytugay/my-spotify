@@ -16,7 +16,6 @@
                 </svg>
                 <h1>My Spotify Collection</h1>
             </div>
-            <p class="user-subtitle" id="user-info">Liked Songs Archive</p>
             
             <nav class="page-nav">
                 <a href="index.html" class="nav-link active">💚 Liked Songs</a>
@@ -31,26 +30,6 @@
         <div id="loading" class="loading-box">
             <div class="spinner"></div>
             <p>Loading your Spotify collection archive...</p>
-        </div>
-
-        <!-- Quick Stats Ribbon -->
-        <div id="stats-ribbon" class="stats-ribbon" style="display: none;">
-            <div class="stat-card">
-                <span class="stat-number" id="total-songs">0</span>
-                <span class="stat-label">Liked Songs</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number" id="total-artists">0</span>
-                <span class="stat-label">Unique Artists</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number" id="total-albums">0</span>
-                <span class="stat-label">Saved Albums</span>
-            </div>
-            <div class="stat-card">
-                <span class="stat-number" id="top-artist-name">-</span>
-                <span class="stat-label">Top Artist</span>
-            </div>
         </div>
 
         <!-- Controls & Filters -->
@@ -82,9 +61,9 @@
                 <div class="control-group">
                     <label for="view-mode">View:</label>
                     <select id="view-mode" onchange="changeViewMode(this.value)">
-                        <option value="list" selected>List</option>
+                        <option value="compact" selected>Compact</option>
+                        <option value="list">List</option>
                         <option value="grid">Grid</option>
-                        <option value="compact">Compact</option>
                     </select>
                 </div>
 
@@ -104,7 +83,7 @@
         </div>
 
         <!-- Music Grid -->
-        <div id="music-grid" class="music-grid view-list"></div>
+        <div id="music-grid" class="music-grid view-compact"></div>
 
         <!-- Empty Results -->
         <div id="no-results" class="empty-box" style="display: none;">

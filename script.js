@@ -50,38 +50,24 @@ if (typeof getSpotifyLink === 'undefined') {
 let allSongs = [];
 let filteredSongs = [];
 let currentSort = 'artist-asc';
-let currentViewMode = 'list';
+let currentViewMode = 'compact';
 let currentAudio = null;
 let currentPlayingId = null;
 
 async function init() {
     const loadingEl = document.getElementById('loading');
-    const statsRibbonEl = document.getElementById('stats-ribbon');
     const controlsEl = document.getElementById('controls');
 
     try {
-        const [profile, songs, stats] = await Promise.all([
-            getProfile(),
-            getLikedSongs(),
-            getStats()
-        ]);
-
-        const userInfoEl = document.getElementById('user-info');
-        if (userInfoEl && profile?.displayName) {
-            userInfoEl.innerHTML = `
-                Archived for <a href="${profile.spotifyUrl || '#'}" target="_blank" rel="noopener noreferrer">@${profile.displayName}</a>
-            `;
-        }
+        const songs = await getLikedSongs();
 
         allSongs = Array.isArray(songs) ? songs : [];
         filteredSongs = [...allSongs];
 
         populateDecadeFilter();
-        updateRibbon(stats);
         sortSongs(currentSort);
 
         if (loadingEl) loadingEl.style.display = 'none';
-        if (statsRibbonEl) statsRibbonEl.style.display = 'grid';
         if (controlsEl) controlsEl.style.display = 'flex';
 
         loadThemePreference();
@@ -90,27 +76,6 @@ async function init() {
         if (loadingEl) {
             loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load local data (${e.message}). Run <code>npm run sync</code> first.</p>`;
         }
-    }
-}
-
-function updateRibbon(stats) {
-    const totalSongsEl = document.getElementById('total-songs');
-    if (totalSongsEl) totalSongsEl.textContent = (allSongs.length).toLocaleString();
-    
-    if (stats) {
-        const totalArtistsEl = document.getElementById('total-artists');
-        if (totalArtistsEl) totalArtistsEl.textContent = (stats.uniqueArtistsCount || 0).toLocaleString();
-        const totalAlbumsEl = document.getElementById('total-albums');
-        if (totalAlbumsEl) totalAlbumsEl.textContent = (stats.totalSavedAlbums || 0).toLocaleString();
-        const topArtistNameEl = document.getElementById('top-artist-name');
-        if (topArtistNameEl) topArtistNameEl.textContent = stats.topLikedArtists?.[0]?.name || '-';
-    } else {
-        const artists = new Set();
-        allSongs.forEach(s => s.artists?.forEach(a => artists.add(a.name)));
-        const totalArtistsEl = document.getElementById('total-artists');
-        if (totalArtistsEl) totalArtistsEl.textContent = artists.size.toLocaleString();
-        const totalAlbumsEl = document.getElementById('total-albums');
-        if (totalAlbumsEl) totalAlbumsEl.textContent = '0';
     }
 }
 
@@ -228,38 +193,22 @@ function createSongCard(song) {
     const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
     const isPlaying = currentPlayingId === song.id;
 
-    // Build artist link(s) linking to internal artist page
-    let artistsHtml = '';
-    if (Array.isArray(song.artists) && song.artists.length > 0) {
-        artistsHtml = song.artists.map(a => {
-            const url = a.id
-                ? `artist.html?id=${encodeURIComponent(a.id)}&name=${encodeURIComponent(a.name)}`
-                : `artist.html?name=${encodeURIComponent(a.name)}`;
-            return `<a href="${url}" class="artist-link">${a.name}</a>`;
-        }).join(', ');
-    } else {
-        artistsHtml = `<span class="artist-link">${song.artistNames || 'Unknown Artist'}</span>`;
-    }
+    // Artist text
+    const artistText = Array.isArray(song.artists) && song.artists.length > 0 
+        ? song.artists.map(a => a.name).join(', ') 
+        : (song.artistNames || 'Unknown Artist');
 
-    // Build album link and release year next to it
+    // Album name and release year text
     const albumName = song.album?.name || '';
     const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
-    let albumHtml = '';
-    if (albumName) {
-        const { href: albumUrl, targetAttrs: albumTarget } = getSpotifyLinkAttrs(song.album, 'album');
-        albumHtml = ` · <a href="${albumUrl}" ${albumTarget} class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
-    } else if (releaseYear) {
-        albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
-    }
+    const albumText = albumName ? ` · ${albumName}${releaseYear}` : (releaseYear ? ` · ${releaseYear}` : '');
 
-    // Track link (native app link on mobile, open.spotify.com in new tab on desktop)
+    // Track link for the Spotify icon button
     const { href: trackUrl, targetAttrs: trackTarget } = getSpotifyLinkAttrs(song, 'track');
 
     card.innerHTML = `
         <div class="cover-wrapper">
-            <a href="${trackUrl}" ${trackTarget}>
-                <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy">
-            </a>
+            <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy">
             ${song.previewUrl ? `
                 <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
                     ${isPlaying ? '⏸' : '▶'}
@@ -267,10 +216,8 @@ function createSongCard(song) {
             ` : ''}
         </div>
         <div class="song-details">
-            <div class="song-title">
-                <a href="${trackUrl}" ${trackTarget} class="song-title-link">${song.name}</a>
-            </div>
-            <div class="song-artist">${artistsHtml}${albumHtml}</div>
+            <div class="song-title">${song.name}</div>
+            <div class="song-artist">${artistText}${albumText}</div>
         </div>
         <div class="song-meta" style="justify-content: flex-end;">
             <a href="${trackUrl}" ${trackTarget} class="spotify-icon-btn" title="Open in Spotify" aria-label="Open in Spotify">

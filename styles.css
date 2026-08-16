@@ -77,9 +77,14 @@ a {
     color: var(--text-secondary);
     font-weight: 500;
     text-decoration: underline;
-    text-decoration-color: var(--text-muted);
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
+    text-decoration-color: currentColor;
+    text-underline-offset: 2px;
+    transition: color 0.15s ease;
+}
+
+.artist-link:hover {
+    color: var(--accent);
+    text-decoration-color: var(--accent);
 }
 
 .album-link {
@@ -453,6 +458,11 @@ header {
     font-size: 0.75rem;
 }
 
+.music-grid.view-compact .song-meta {
+    font-size: 0.75rem;
+    padding-top: 6px;
+}
+
 /* List View Mode */
 .music-grid.view-list {
     display: flex;
@@ -521,6 +531,9 @@ header {
     border: none;
     cursor: pointer;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 5;
+    pointer-events: auto;
 }
 
 .spotify-icon-btn svg {
@@ -528,6 +541,7 @@ header {
     width: 18px;
     height: 18px;
     fill: #000000;
+    pointer-events: none;
 }
 
 /* Spotify Pill Button */

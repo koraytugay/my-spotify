@@ -130,13 +130,11 @@ function getSpotifyUri(itemOrUrl, type = 'track') {
     return '#';
 }
 
-// Mobile device detection (User Agent + touch viewport)
+// Mobile device detection (iOS and Android mobile OS)
 function isMobileDevice() {
     if (typeof window === 'undefined') return false;
     const ua = navigator.userAgent || navigator.vendor || window.opera || '';
-    const isMobileUa = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
-    const isTouchMobile = (navigator.maxTouchPoints > 1 && window.innerWidth <= 768);
-    return isMobileUa || isTouchMobile;
+    return /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua);
 }
 
 // Returns native spotify:... URI on mobile devices (to open app) and https://open.spotify.com on desktop

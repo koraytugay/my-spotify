@@ -94,9 +94,6 @@ async function initArtistDetail() {
         loadThemePreference();
 
         // Populate Hero Header
-        const pageHeadingEl = document.getElementById('page-heading');
-        if (pageHeadingEl) pageHeadingEl.textContent = artistInfo.name;
-
         const spotifyUrl = getSpotifyUri(artistInfo, 'artist');
 
         const heroTitleEl = document.getElementById('hero-title');

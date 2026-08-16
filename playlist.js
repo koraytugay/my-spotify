@@ -30,9 +30,6 @@ async function initPlaylistDetail() {
         loadThemePreference();
 
         // Populate Hero Header
-        const pageHeadingEl = document.getElementById('page-heading');
-        if (pageHeadingEl) pageHeadingEl.textContent = playlistData.name || 'Playlist Details';
-
         const heroTitleEl = document.getElementById('hero-title');
         if (heroTitleEl) heroTitleEl.textContent = playlistData.name || 'Untitled Playlist';
 
