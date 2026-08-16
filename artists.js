@@ -79,6 +79,9 @@ async function initArtists() {
         filteredArtists = [...allArtists];
 
         loadThemePreference();
+
+        const sortSelect = document.getElementById('sort-select');
+        currentSort = (sortSelect && sortSelect.value) || 'name-asc';
         sortArtists(currentSort);
 
         loadingEl.style.display = 'none';
@@ -90,7 +93,17 @@ async function initArtists() {
 }
 
 function sortArtists(criteria) {
+    const validSorts = ['name-asc', 'popularity-desc', 'followers-desc'];
+    if (!criteria || !validSorts.includes(criteria)) {
+        const selectEl = document.getElementById('sort-select');
+        criteria = (selectEl && selectEl.value && validSorts.includes(selectEl.value)) ? selectEl.value : 'name-asc';
+    }
+
     currentSort = criteria;
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect && sortSelect.value !== criteria) {
+        sortSelect.value = criteria;
+    }
     allArtists.sort((a, b) => {
         switch (criteria) {
             case 'name-asc':

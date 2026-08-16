@@ -62,6 +62,8 @@ async function initPlaylistDetail() {
 
         document.getElementById('hero-track-count').textContent = `${allTracks.length} tracks`;
 
+        const sortSelect = document.getElementById('sort-select');
+        currentSort = (sortSelect && sortSelect.value) || 'artist-asc';
         sortTracks(currentSort);
 
         loadingEl.style.display = 'none';
@@ -81,7 +83,17 @@ async function initPlaylistDetail() {
 }
 
 function sortTracks(criteria) {
+    const validSorts = ['artist-asc', 'default', 'name-asc', 'year-desc', 'year-asc'];
+    if (!criteria || !validSorts.includes(criteria)) {
+        const selectEl = document.getElementById('sort-select');
+        criteria = (selectEl && selectEl.value && validSorts.includes(selectEl.value)) ? selectEl.value : 'artist-asc';
+    }
+
     currentSort = criteria;
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect && sortSelect.value !== criteria) {
+        sortSelect.value = criteria;
+    }
     allTracks.sort((a, b) => {
         switch (criteria) {
             case 'default':

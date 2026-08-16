@@ -55,6 +55,9 @@ async function initAlbums() {
 
         loadThemePreference();
         populateArtistFilter();
+
+        const sortSelect = document.getElementById('sort-select');
+        currentSort = (sortSelect && sortSelect.value) || 'artist-asc';
         sortAlbums(currentSort);
 
         loadingEl.style.display = 'none';
@@ -106,7 +109,17 @@ function populateArtistFilter() {
 }
 
 function sortAlbums(criteria) {
+    const validSorts = ['artist-asc', 'name-asc', 'year-desc', 'year-asc'];
+    if (!criteria || !validSorts.includes(criteria)) {
+        const selectEl = document.getElementById('sort-select');
+        criteria = (selectEl && selectEl.value && validSorts.includes(selectEl.value)) ? selectEl.value : 'artist-asc';
+    }
+
     currentSort = criteria;
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect && sortSelect.value !== criteria) {
+        sortSelect.value = criteria;
+    }
     allAlbums.sort((a, b) => {
         switch (criteria) {
             case 'artist-asc': {

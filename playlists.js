@@ -54,6 +54,9 @@ async function initPlaylists() {
         filteredPlaylists = [...allPlaylists];
 
         loadThemePreference();
+
+        const sortSelect = document.getElementById('sort-select');
+        currentSort = (sortSelect && sortSelect.value) || 'name-asc';
         sortPlaylists(currentSort);
 
         loadingEl.style.display = 'none';
@@ -72,7 +75,17 @@ async function initPlaylists() {
 }
 
 function sortPlaylists(criteria) {
+    const validSorts = ['name-asc', 'tracks-desc'];
+    if (!criteria || !validSorts.includes(criteria)) {
+        const selectEl = document.getElementById('sort-select');
+        criteria = (selectEl && selectEl.value && validSorts.includes(selectEl.value)) ? selectEl.value : 'name-asc';
+    }
+
     currentSort = criteria;
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect && sortSelect.value !== criteria) {
+        sortSelect.value = criteria;
+    }
     allPlaylists.sort((a, b) => {
         if (criteria === 'tracks-desc') return (b.tracksTotal || 0) - (a.tracksTotal || 0);
         if (criteria === 'name-asc') return (a.name || '').localeCompare(b.name || '');

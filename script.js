@@ -67,6 +67,9 @@ async function init() {
         filteredSongs = [...allSongs];
 
         populateDecadeFilter();
+
+        const sortSelect = document.getElementById('sort-select');
+        currentSort = (sortSelect && sortSelect.value) || 'artist-asc';
         sortSongs(currentSort);
 
         if (loadingEl) loadingEl.style.display = 'none';
@@ -98,6 +101,8 @@ function populateDecadeFilter() {
     });
 
     const select = document.getElementById('decade-filter');
+    if (!select) return;
+    select.innerHTML = '<option value="all">All Decades</option>';
     Array.from(decades).sort((a, b) => b - a).forEach(dec => {
         const opt = document.createElement('option');
         opt.value = `${dec}`;
@@ -107,7 +112,17 @@ function populateDecadeFilter() {
 }
 
 function sortSongs(criteria) {
+    const validSorts = ['artist-asc', 'name-asc', 'year-desc', 'year-asc', 'popularity-desc'];
+    if (!criteria || !validSorts.includes(criteria)) {
+        const selectEl = document.getElementById('sort-select');
+        criteria = (selectEl && selectEl.value && validSorts.includes(selectEl.value)) ? selectEl.value : 'artist-asc';
+    }
+
     currentSort = criteria;
+    const sortSelect = document.getElementById('sort-select');
+    if (sortSelect && sortSelect.value !== criteria) {
+        sortSelect.value = criteria;
+    }
 
     allSongs.sort((a, b) => {
         switch (criteria) {
