@@ -151,7 +151,10 @@
 
                     <div class="mix-action-buttons">
                         <button id="play-mix-btn" class="btn btn-primary mix-play-main-btn" onclick="playCurrentMix()">
-                            ▶ Play Mix in Player
+                            ▶ Play in Browser
+                        </button>
+                        <button id="sync-spotify-btn" class="btn btn-success" style="background: var(--accent); color: #000; font-weight: 700; border: none; padding: 10px 18px; border-radius: var(--radius-full); cursor: pointer; display: inline-flex; align-items: center; gap: 6px;" onclick="syncCurrentMixToSpotify()">
+                            📤 Sync to "My Smart Mix"
                         </button>
                         <button class="btn btn-secondary" onclick="rerollCurrentMix()" title="Re-roll with fresh songs">
                             🎲 Re-roll
@@ -162,6 +165,46 @@
                 <!-- Preview Grid of songs in the mix -->
                 <div id="mix-tracks-grid" class="music-grid view-list" style="margin-top: 20px;">
                     <!-- Populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Spotify Auth / Setup Modal -->
+        <div id="spotify-auth-modal" class="modal" style="display: none;">
+            <div class="modal-overlay" onclick="closeSpotifyAuthModal()"></div>
+            <div class="modal-card">
+                <h3 style="margin-bottom: 8px;">Connect Spotify to Update Playlist</h3>
+                <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 16px; line-height: 1.4;">
+                    To update your dedicated <strong>"My Smart Mix"</strong> playlist on Spotify, connect with your Spotify Developer <strong>Client ID</strong> once.
+                </p>
+                <div style="margin-bottom: 16px;">
+                    <label for="spotify-client-id-input" style="font-size: 0.82rem; font-weight: 700;">Spotify Client ID:</label>
+                    <input type="text" id="spotify-client-id-input" class="form-control" placeholder="e.g. 4a8b7c9d123456789..." style="width: 100%; margin-top: 6px; padding: 8px 12px; font-size: 0.88rem;">
+                    <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 8px; line-height: 1.4;">
+                        Ensure <code id="spotify-redirect-uri-display" style="background: var(--bg-surface-active); padding: 2px 6px; border-radius: 4px;"></code> is listed under <strong>Redirect URIs</strong> in your Spotify Developer Dashboard.
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                    <button class="btn btn-secondary" onclick="closeSpotifyAuthModal()">Cancel</button>
+                    <button class="btn btn-primary" onclick="startSpotifyOAuth()">Connect Spotify</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sync Success Modal -->
+        <div id="sync-success-modal" class="modal" style="display: none;">
+            <div class="modal-overlay" onclick="closeSyncSuccessModal()"></div>
+            <div class="modal-card" style="text-align: center;">
+                <div style="font-size: 2.8rem; margin-bottom: 8px;">✅</div>
+                <h3 id="sync-success-title" style="margin-bottom: 8px;">Synced to "My Smart Mix"!</h3>
+                <p id="sync-success-desc" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
+                    Your dedicated playlist in Spotify has been updated with the new tracks.
+                </p>
+                <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                    <a id="open-spotify-app-btn" href="#" class="btn btn-primary" style="font-size: 0.95rem; padding: 10px 22px; text-decoration: none;">
+                        ▶ Open in Spotify App
+                    </a>
+                    <button class="btn btn-secondary" onclick="closeSyncSuccessModal()">Done</button>
                 </div>
             </div>
         </div>

@@ -293,76 +293,76 @@ function smartInterleave(tracksByGroup, limitOrMaxMs = 7200000) {
     return result;
 }
 
+function getAllLibraryTracks() {
+    const albumTracks = [];
+    allAlbums.forEach(album => {
+        if (Array.isArray(album.tracks)) {
+            album.tracks.forEach(t => {
+                albumTracks.push({
+                    ...t,
+                    coverUrl: album.coverUrl,
+                    thumbnailUrl: album.coverUrl,
+                    releaseYear: t.releaseYear || album.releaseYear,
+                    album: {
+                        name: album.name,
+                        id: album.id,
+                        releaseYear: album.releaseYear,
+                        coverUrl: album.coverUrl
+                    }
+                });
+            });
+        }
+    });
+    return deduplicateSongs([...allLikedSongs, ...albumTracks]);
+}
+
 function triggerPresetMix(key, autoScroll = true) {
     currentMixType = 'preset';
     currentPresetKey = key;
 
+    const allTracks = getAllLibraryTracks();
     let tracks = [];
     let title = '';
 
     if (key === 'epics') {
         title = '⏳ Epics & Prog Masterpieces (7+ Min)';
-        // Tracks 7+ minutes (>= 420,000 ms)
-        const likedEpics = allLikedSongs.filter(s => s.durationMs && s.durationMs >= 420000);
-        
-        // Also check albums for long-form epic masterworks
-        const albumEpics = [];
-        allAlbums.forEach(album => {
-            if (Array.isArray(album.tracks)) {
-                album.tracks.forEach(t => {
-                    if (t.durationMs && t.durationMs >= 420000) {
-                        albumEpics.push({
-                            ...t,
-                            coverUrl: album.coverUrl,
-                            thumbnailUrl: album.coverUrl,
-                            album: {
-                                name: album.name,
-                                id: album.id,
-                                releaseYear: album.releaseYear,
-                                coverUrl: album.coverUrl
-                            }
-                        });
-                    }
-                });
-            }
-        });
-
-        const combined = deduplicateSongs([...likedEpics, ...albumEpics]);
-        tracks = shuffleArray(combined).slice(0, 20);
+        // Tracks 7+ minutes (>= 420,000 ms) from both liked songs and saved albums
+        const epics = allTracks.filter(s => s.durationMs && s.durationMs >= 420000);
+        tracks = shuffleArray(epics).slice(0, 20);
     } else if (key === 'bangers') {
         title = '⚡ Short Bangers (< 3.5 Min)';
-        // Fast, high-energy punchy tracks under 3.5 minutes (< 210,000 ms)
-        const bangers = allLikedSongs.filter(s => s.durationMs && s.durationMs > 0 && s.durationMs < 210000);
+        // Fast, high-impact punchy tracks under 3.5 minutes (< 210,000 ms) from entire library
+        const bangers = allTracks.filter(s => s.durationMs && s.durationMs > 0 && s.durationMs < 210000);
         tracks = shuffleArray(bangers).slice(0, 25);
     } else if (key === 'classic-era') {
         title = '📻 60s & 70s Classic Era';
-        // Tracks released between 1960 and 1979
-        const classicTracks = allLikedSongs.filter(s => {
+        // Tracks released between 1960 and 1979 from both Liked Songs and Saved Albums
+        const classicTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
             return year && year >= 1960 && year <= 1979;
         });
         tracks = shuffleArray(classicTracks).slice(0, 25);
     } else if (key === 'eighties') {
         title = '🎸 80s Rock & Metal Era';
-        // Tracks released between 1980 and 1989
-        const eightiesTracks = allLikedSongs.filter(s => {
+        // Tracks released between 1980 and 1989 from both Liked Songs and Saved Albums
+        const eightiesTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
             return year && year >= 1980 && year <= 1989;
         });
         tracks = shuffleArray(eightiesTracks).slice(0, 25);
     } else if (key === 'nineties-twothousands') {
         title = '⚡ 90s & 2000s Era';
-        // Tracks released between 1990 and 2009
-        const modernTracks = allLikedSongs.filter(s => {
+        // Tracks released between 1990 and 2009 from both Liked Songs and Saved Albums
+        const modernTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
             return year && year >= 1990 && year <= 2009;
         });
         tracks = shuffleArray(modernTracks).slice(0, 25);
     } else if (key === 'mega') {
         title = '🎲 Mega 50 Library Shuffle';
-        // Group by primary artist for maximum diversity
+        // Group entire library by primary artist for maximum diversity
         const byArtist = {};
-        allLikedSongs.forEach(s => {
+        allTracks.forEach(s => {
             const artist = s.artistNames || (s.artists && s.artists[0] && s.artists[0].name) || 'Other';
             if (!byArtist[artist]) byArtist[artist] = [];
             byArtist[artist].push(s);
@@ -385,8 +385,9 @@ function generateCustomArtistBlend(autoScroll = true) {
         tracksByArtist[name] = [];
     });
 
-    // 1. Gather from Liked Songs
-    allLikedSongs.forEach(song => {
+    const allTracks = getAllLibraryTracks();
+
+    allTracks.forEach(song => {
         const names = [];
         if (Array.isArray(song.artists)) {
             song.artists.forEach(a => { if (a && a.name) names.push(a.name); });
@@ -399,38 +400,6 @@ function generateCustomArtistBlend(autoScroll = true) {
                 tracksByArtist[name].push(song);
             }
         });
-    });
-
-    // 2. Gather from Albums if available
-    allAlbums.forEach(album => {
-        if (Array.isArray(album.tracks)) {
-            album.tracks.forEach(track => {
-                const trackArtists = [];
-                if (Array.isArray(track.artists)) {
-                    track.artists.forEach(a => { if (a && a.name) trackArtists.push(a.name); });
-                } else if (track.artistNames) {
-                    trackArtists.push(track.artistNames);
-                } else if (album.artistNames) {
-                    trackArtists.push(album.artistNames);
-                }
-
-                trackArtists.forEach(name => {
-                    if (selectedArtistNames.has(name)) {
-                        tracksByArtist[name].push({
-                            ...track,
-                            coverUrl: album.coverUrl,
-                            thumbnailUrl: album.coverUrl,
-                            album: {
-                                name: album.name,
-                                id: album.id,
-                                releaseYear: album.releaseYear,
-                                coverUrl: album.coverUrl
-                            }
-                        });
-                    }
-                });
-            });
-        }
     });
 
     // Generate up to 2 hours (~7,200,000 ms) of interleaved music
@@ -547,6 +516,304 @@ function playCurrentMix() {
     }
 }
 
+/* ----------------------------------------------------
+   SPOTIFY PKCE OAUTH & SINGLE-PLAYLIST SYNC
+   ---------------------------------------------------- */
+function getRedirectUri() {
+    const cleanUrl = new URL(window.location.href);
+    cleanUrl.search = '';
+    cleanUrl.hash = '';
+    return cleanUrl.href;
+}
+
+function generateRandomString(length) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~';
+    let res = '';
+    const values = new Uint8Array(length);
+    window.crypto.getRandomValues(values);
+    for (let i = 0; i < length; i++) {
+        res += chars[values[i] % chars.length];
+    }
+    return res;
+}
+
+async function generateCodeChallenge(verifier) {
+    const encoder = new TextEncoder();
+    const data = encoder.encode(verifier);
+    const digest = await window.crypto.subtle.digest('SHA-256', data);
+    return btoa(String.fromCharCode.apply(null, new Uint8Array(digest)))
+        .replace(/\+/g, '-')
+        .replace(/\//g, '_')
+        .replace(/=+$/, '');
+}
+
+async function startSpotifyOAuth() {
+    const input = document.getElementById('spotify-client-id-input');
+    const clientId = (input?.value || localStorage.getItem('spotify_client_id') || '').trim();
+
+    if (!clientId) {
+        alert('Please enter your Spotify Developer Client ID.');
+        return;
+    }
+
+    localStorage.setItem('spotify_client_id', clientId);
+    localStorage.setItem('pending_mix_sync', JSON.stringify({
+        tracks: currentMixTracks,
+        title: currentMixTitle
+    }));
+
+    const verifier = generateRandomString(64);
+    const challenge = await generateCodeChallenge(verifier);
+    localStorage.setItem('spotify_pkce_verifier', verifier);
+
+    const redirectUri = getRedirectUri();
+    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private';
+    const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}`;
+
+    window.location.href = authUrl;
+}
+
+async function handleSpotifyAuthCallback() {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const error = params.get('error');
+
+    if (error) {
+        console.warn('Spotify OAuth denied or error:', error);
+        window.history.replaceState({}, document.title, getRedirectUri());
+        return;
+    }
+
+    if (!code) return;
+
+    const verifier = localStorage.getItem('spotify_pkce_verifier');
+    const clientId = localStorage.getItem('spotify_client_id');
+    const redirectUri = getRedirectUri();
+
+    if (!verifier || !clientId) return;
+
+    try {
+        const body = new URLSearchParams({
+            client_id: clientId,
+            grant_type: 'authorization_code',
+            code: code,
+            redirect_uri: redirectUri,
+            code_verifier: verifier
+        });
+
+        const res = await fetch('https://accounts.spotify.com/api/token', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: body.toString()
+        });
+
+        if (res.ok) {
+            const data = await res.json();
+            localStorage.setItem('spotify_user_access_token', data.access_token);
+            if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
+            localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
+
+            // Clean up URL
+            window.history.replaceState({}, document.title, getRedirectUri());
+
+            // Check if a mix was waiting to sync
+            const pending = localStorage.getItem('pending_mix_sync');
+            if (pending) {
+                localStorage.removeItem('pending_mix_sync');
+                try {
+                    const parsed = JSON.parse(pending);
+                    currentMixTracks = parsed.tracks || [];
+                    currentMixTitle = parsed.title || 'Curated Smart Mix';
+                    syncCurrentMixToSpotify();
+                } catch (e) {}
+            }
+        } else {
+            console.error('Failed to exchange Spotify token:', await res.text());
+        }
+    } catch (e) {
+        console.error('Spotify token exchange failed:', e);
+    }
+}
+
+async function getValidSpotifyToken() {
+    const token = localStorage.getItem('spotify_user_access_token');
+    const expiresAt = parseInt(localStorage.getItem('spotify_token_expires_at') || '0', 10);
+    const refreshToken = localStorage.getItem('spotify_user_refresh_token');
+    const clientId = localStorage.getItem('spotify_client_id');
+
+    if (!token) return null;
+
+    // Refresh if within 2 minutes of expiry
+    if (Date.now() > expiresAt - 120000 && refreshToken && clientId) {
+        try {
+            const body = new URLSearchParams({
+                grant_type: 'refresh_token',
+                refresh_token: refreshToken,
+                client_id: clientId
+            });
+            const res = await fetch('https://accounts.spotify.com/api/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: body.toString()
+            });
+            if (res.ok) {
+                const data = await res.json();
+                localStorage.setItem('spotify_user_access_token', data.access_token);
+                if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
+                localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
+                return data.access_token;
+            }
+        } catch (e) {
+            console.warn('Could not refresh token:', e);
+        }
+    }
+
+    return token;
+}
+
+async function syncCurrentMixToSpotify() {
+    if (!currentMixTracks || currentMixTracks.length === 0) {
+        alert('Generate a mix first before syncing!');
+        return;
+    }
+
+    const token = await getValidSpotifyToken();
+
+    if (!token) {
+        // Prompt user to connect with Client ID
+        const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
+        const clientIdInput = document.getElementById('spotify-client-id-input');
+        const savedClientId = localStorage.getItem('spotify_client_id') || '';
+
+        if (redirectDisplay) redirectDisplay.textContent = getRedirectUri();
+        if (clientIdInput) clientIdInput.value = savedClientId;
+
+        const authModal = document.getElementById('spotify-auth-modal');
+        if (authModal) authModal.style.display = 'flex';
+        return;
+    }
+
+    const syncBtn = document.getElementById('sync-spotify-btn');
+    if (syncBtn) {
+        syncBtn.disabled = true;
+        syncBtn.innerHTML = `⏳ Syncing...`;
+    }
+
+    try {
+        // 1. Get current user profile
+        const userRes = await fetch('https://api.spotify.com/v1/me', {
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        if (!userRes.ok) throw new Error('Could not fetch Spotify user profile');
+        const userData = await userRes.json();
+        const userId = userData.id;
+
+        // 2. Check for existing "My Smart Mix" playlist
+        let playlistId = localStorage.getItem('smart_mix_playlist_id');
+
+        if (!playlistId) {
+            const playlistsRes = await fetch('https://api.spotify.com/v1/me/playlists?limit=50', {
+                headers: { 'Authorization': `Bearer ${token}` }
+            });
+            if (playlistsRes.ok) {
+                const pData = await playlistsRes.json();
+                const found = (pData.items || []).find(p => p && p.name === 'My Smart Mix');
+                if (found) {
+                    playlistId = found.id;
+                    localStorage.setItem('smart_mix_playlist_id', playlistId);
+                }
+            }
+        }
+
+        const dateStr = new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+        const desc = `Smart Mix: ${currentMixTitle} • Updated ${dateStr} • ${currentMixTracks.length} tracks`;
+
+        // 3. Create or update playlist details
+        if (!playlistId) {
+            const createRes = await fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
+                method: 'POST',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: 'My Smart Mix',
+                    description: desc,
+                    public: false
+                })
+            });
+            if (!createRes.ok) throw new Error('Failed to create playlist on Spotify');
+            const createdData = await createRes.json();
+            playlistId = createdData.id;
+            localStorage.setItem('smart_mix_playlist_id', playlistId);
+        } else {
+            // Update title & description
+            await fetch(`https://api.spotify.com/v1/playlists/${playlistId}`, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: 'My Smart Mix',
+                    description: desc
+                })
+            });
+        }
+
+        // 4. Overwrite tracks in the single playlist
+        const uris = currentMixTracks
+            .map(t => t.uri || (t.id ? `spotify:track:${t.id}` : null))
+            .filter(Boolean)
+            .slice(0, 100);
+
+        const replaceRes = await fetch(`https://api.spotify.com/v1/playlists/${playlistId}/tracks`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ uris })
+        });
+
+        if (!replaceRes.ok) throw new Error('Failed to update tracks in playlist');
+
+        // 5. Show success modal
+        const successModal = document.getElementById('sync-success-modal');
+        const descEl = document.getElementById('sync-success-desc');
+        const appBtn = document.getElementById('open-spotify-app-btn');
+
+        if (descEl) {
+            descEl.textContent = `Updated "My Smart Mix" with ${uris.length} tracks (${currentMixTitle}).`;
+        }
+
+        if (appBtn) {
+            const isMobile = window.isMobileDevice ? window.isMobileDevice() : false;
+            appBtn.href = isMobile ? `spotify:playlist:${playlistId}` : `https://open.spotify.com/playlist/${playlistId}`;
+        }
+
+        if (successModal) successModal.style.display = 'flex';
+    } catch (e) {
+        console.error('Error syncing to Spotify:', e);
+        alert(`Could not sync to Spotify: ${e.message}`);
+    } finally {
+        if (syncBtn) {
+            syncBtn.disabled = false;
+            syncBtn.innerHTML = `📤 Sync to "My Smart Mix"`;
+        }
+    }
+}
+
+function closeSpotifyAuthModal() {
+    const modal = document.getElementById('spotify-auth-modal');
+    if (modal) modal.style.display = 'none';
+}
+
+function closeSyncSuccessModal() {
+    const modal = document.getElementById('sync-success-modal');
+    if (modal) modal.style.display = 'none';
+}
+
 function toggleDarkMode(isDark) {
     if (isDark) {
         document.body.classList.add('dark-mode');
@@ -565,7 +832,11 @@ function loadThemePreference() {
 }
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initSmartMix);
+    document.addEventListener('DOMContentLoaded', () => {
+        handleSpotifyAuthCallback();
+        initSmartMix();
+    });
 } else {
+    handleSpotifyAuthCallback();
     initSmartMix();
 }
