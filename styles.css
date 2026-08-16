@@ -1954,7 +1954,7 @@ body.dark-mode .np-backdrop-aura::after {
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
-    padding: 6px 12px;
+    padding: 6px 14px;
     box-shadow: var(--card-shadow);
     margin-top: 20px;
 }
@@ -1962,7 +1962,7 @@ body.dark-mode .np-backdrop-aura::after {
 .album-tracklist-header {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 14px;
     border-bottom: 1px solid var(--border);
     font-size: 0.78rem;
     font-weight: 700;
@@ -1974,7 +1974,7 @@ body.dark-mode .np-backdrop-aura::after {
 .album-track-row {
     display: flex;
     align-items: center;
-    padding: 10px 12px;
+    padding: 10px 14px;
     border-radius: var(--radius-sm);
     transition: background 0.15s ease;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -2002,8 +2002,8 @@ body.dark-mode .album-track-row {
 }
 
 .album-track-col-num {
-    width: 36px;
-    min-width: 36px;
+    width: 42px;
+    min-width: 42px;
     font-size: 0.88rem;
     color: var(--text-muted);
     font-weight: 600;
@@ -2065,23 +2065,31 @@ body.dark-mode .album-track-row {
     color: var(--text-secondary);
 }
 
-.album-track-liked {
-    font-size: 0.85rem;
-    flex-shrink: 0;
+.album-track-col-liked {
+    width: 48px;
+    min-width: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.95rem;
 }
 
 .album-track-col-dur {
+    width: 70px;
+    min-width: 70px;
     font-size: 0.85rem;
     color: var(--text-secondary);
-    min-width: 54px;
     text-align: right;
+    padding-right: 24px;
     font-variant-numeric: tabular-nums;
 }
 
 .album-track-col-action {
-    width: 36px;
-    min-width: 36px;
-    text-align: right;
+    width: 44px;
+    min-width: 44px;
+    text-align: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }

@@ -202,8 +202,10 @@ function renderTracks() {
                 <div class="album-track-title-wrap">
                     <span class="album-track-title">${track.name}</span>
                     ${featuredArtistsHtml}
-                    ${isLiked ? '<span class="album-track-liked" title="Liked Song">💚</span>' : ''}
                 </div>
+            </div>
+            <div class="album-track-col-liked">
+                ${isLiked ? '<span class="album-track-liked" title="Liked Song">💚</span>' : ''}
             </div>
             <div class="album-track-col-dur">
                 ${durationFormatted}
