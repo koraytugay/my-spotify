@@ -86,6 +86,7 @@ async function initSmartMix() {
         allArtists = artists || [];
         allSongMoods = moods || {};
 
+        renderMoodChips();
         renderArtistChips();
 
         if (loadingEl) loadingEl.style.display = 'none';
@@ -106,6 +107,142 @@ async function initSmartMix() {
             loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load Smart Mix data (${e.message}).</p>`;
         }
     }
+}
+
+/* ----------------------------------------------------
+   MOOD & TAG MULTI-BLENDER
+   ---------------------------------------------------- */
+var selectedMoodTags = new Set();
+
+const MOOD_TAG_DEFINITIONS = [
+    // Moods & Energy
+    { id: 'high_energy', label: '⚡ High Energy & Workout', test: (s, m) => m?.isHighEnergy || m?.tempoCategory === 'fast' || (m?.bpm && m.bpm > 135) || (s.durationMs && s.durationMs > 0 && s.durationMs < 240000) },
+    { id: 'ballad', label: '🕯️ Ballads & Slow Jams', test: (s, m) => m?.isBallad || m?.tempoCategory === 'slow' || /\b(ballad|slow|tears|lonely|heart|love|heaven|forever|rain|farewell|sorrow|remember)\b/i.test(s.name || '') },
+    { id: 'chill', label: '☕ Chill & Relaxed', test: (s, m) => m?.isChill || m?.tempoCategory === 'slow' || m?.mood_relaxed === 'relaxed' },
+    { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic || /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(s.name || '') },
+    { id: 'melancholic', label: '🌧️ Dark & Melancholic', test: (s, m) => m?.mood_sad === 'sad' || /\b(dark|shadow|black|death|grave|sorrow|pain|cry|lonely|sad)\b/i.test(s.name || '') },
+    { id: 'party', label: '🎉 Party & Danceable', test: (s, m) => m?.isParty || m?.mood_party === 'party' || (m?.bpm && m.bpm >= 115 && m.bpm <= 135) },
+    { id: 'happy', label: '☀️ Feel-Good & Uplifting', test: (s, m) => m?.mood_happy === 'happy' || /\b(sun|shine|happy|smile|joy|light|dance|good|summer)\b/i.test(s.name || '') },
+
+    // Textures & Styles
+    { id: 'heavy', label: '🛡️ Heavy Riffs & Metal', test: (s, m) => m?.mood_aggressive === 'aggressive' || (m?.bpm && m.bpm > 140) },
+    { id: 'electronic', label: '🎹 Electronic & Synth', test: (s, m) => m?.mood_electronic === 'electronic' || /\b(synth|electronic|remix|club|dub|dance|techno)\b/i.test(s.name || '') },
+    { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => s.durationMs && s.durationMs >= 420000 },
+    { id: 'bangers', label: '⚡ Short Bangers (< 3.5 Min)', test: (s) => s.durationMs && s.durationMs > 0 && s.durationMs < 210000 },
+
+    // Tempos
+    { id: 'slow_tempo', label: '🐢 Slow (< 95 BPM)', test: (s, m) => m?.tempoCategory === 'slow' || (m?.bpm && m.bpm < 95) },
+    { id: 'mid_tempo', label: '🥁 Mid-Tempo (95–130 BPM)', test: (s, m) => m?.tempoCategory === 'mid-tempo' || (m?.bpm && m.bpm >= 95 && m.bpm <= 130) },
+    { id: 'fast_tempo', label: '🏎️ Fast (> 130 BPM)', test: (s, m) => m?.tempoCategory === 'fast' || (m?.bpm && m.bpm > 130) },
+
+    // Eras & Decades
+    { id: 'era_60s_70s', label: '📻 60s & 70s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
+    { id: 'era_80s', label: '📼 80s Rock Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
+    { id: 'era_90s_00s', label: '💿 90s & 2000s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 2009; } },
+    { id: 'era_2010s', label: '✨ 2010s+ Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
+    { id: 'mega', label: '🎲 Mega Shuffle', test: () => true }
+];
+
+function renderMoodChips() {
+    const container = document.getElementById('mood-chips-container');
+    if (!container) return;
+
+    const allTracks = getAllLibraryTracks();
+    updateMoodSelectionUI();
+
+    container.innerHTML = '';
+
+    MOOD_TAG_DEFINITIONS.forEach(def => {
+        const count = allTracks.filter(s => def.test(s, allSongMoods[s.id])).length;
+        if (count === 0) return;
+
+        const isSelected = selectedMoodTags.has(def.id);
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'artist-chip' + (isSelected ? ' selected' : '');
+        chip.innerHTML = `
+            <span class="chip-name">${def.label}</span>
+            <span class="chip-count">${count}</span>
+        `;
+        chip.onclick = function() {
+            toggleMoodChip(def.id, chip);
+        };
+        container.appendChild(chip);
+    });
+}
+
+function updateMoodSelectionUI() {
+    const clearBtn = document.getElementById('clear-moods-btn');
+    const genBtn = document.getElementById('generate-mood-mix-btn');
+    const statusEl = document.getElementById('mood-selection-status');
+
+    const count = selectedMoodTags.size;
+    if (clearBtn) clearBtn.disabled = count === 0;
+    if (genBtn) genBtn.disabled = count === 0;
+
+    if (statusEl) {
+        if (count === 0) {
+            statusEl.textContent = 'Select 1 or more pills to filter and blend your library';
+        } else if (count === 1) {
+            const def = MOOD_TAG_DEFINITIONS.find(d => selectedMoodTags.has(d.id));
+            statusEl.textContent = `1 tag selected: "${def?.label || ''}"`;
+        } else {
+            statusEl.textContent = `${count} tags selected for a blended mix`;
+        }
+    }
+}
+
+function toggleMoodChip(tagId, chipBtn) {
+    if (selectedMoodTags.has(tagId)) {
+        selectedMoodTags.delete(tagId);
+    } else {
+        selectedMoodTags.add(tagId);
+    }
+
+    if (chipBtn) {
+        chipBtn.classList.toggle('selected', selectedMoodTags.has(tagId));
+    }
+
+    updateMoodSelectionUI();
+
+    // Instant mix generation on click
+    if (selectedMoodTags.size > 0) {
+        generateMoodTagBlend(true);
+    }
+}
+
+function clearSelectedMoods() {
+    selectedMoodTags.clear();
+    renderMoodChips();
+}
+
+function generateMoodTagBlend(autoScroll = true) {
+    if (selectedMoodTags.size === 0) return;
+
+    currentMixType = 'mood_tag';
+
+    const allTracks = getAllLibraryTracks();
+    const selectedDefs = MOOD_TAG_DEFINITIONS.filter(d => selectedMoodTags.has(d.id));
+
+    if (selectedDefs.length === 1) {
+        const def = selectedDefs[0];
+        const matching = allTracks.filter(s => def.test(s, allSongMoods[s.id]));
+        currentMixTracks = shuffleArray(matching).slice(0, 35);
+        currentMixTitle = `🎭 ${def.label} Mix`;
+    } else {
+        // Multi-tag: Group by tag definition and interleave
+        const groups = {};
+        selectedDefs.forEach(def => {
+            groups[def.id] = shuffleArray(allTracks.filter(s => def.test(s, allSongMoods[s.id])));
+        });
+
+        const blended = smartInterleave(groups, 7200000); // Up to 2 hours
+        const labels = selectedDefs.map(d => d.label.split(' ')[0] + ' ' + (d.label.split(' ')[1] || '')).join(' + ');
+        currentMixTracks = blended;
+        currentMixTitle = `🎭 ${labels} Blend`;
+    }
+
+    renderMixResult(autoScroll);
 }
 
 var artistSearchQuery = '';
@@ -449,6 +586,8 @@ function generateCustomArtistBlend(autoScroll = true) {
 function rerollCurrentMix() {
     if (currentMixType === 'blend') {
         generateCustomArtistBlend(true);
+    } else if (currentMixType === 'mood_tag') {
+        generateMoodTagBlend(true);
     } else {
         triggerPresetMix(currentPresetKey, true);
     }
