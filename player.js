@@ -323,7 +323,7 @@
                 targetNavUrl = `now-playing.html?playlistId=${encodeURIComponent(item.id)}`;
             }
 
-            const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+            const currentPath = (typeof getCleanPageName === 'function') ? getCleanPageName(window.location.pathname) : (window.location.pathname.split('/').pop() || 'index.html');
             if (currentPath !== 'now-playing.html' && typeof spaNavigate === 'function') {
                 spaNavigate(targetNavUrl, true);
             }
@@ -368,7 +368,7 @@
             this.displayTrackInfo(track, this.currentType || 'track');
 
             // Navigate to Currently Playing view instead of popping up mini player
-            const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+            const currentPath = (typeof getCleanPageName === 'function') ? getCleanPageName(window.location.pathname) : (window.location.pathname.split('/').pop() || 'index.html');
             if (currentPath !== 'now-playing.html' && typeof spaNavigate === 'function') {
                 spaNavigate('now-playing.html', true);
             }
@@ -545,25 +545,46 @@
     }
 
     // Seamless SPA Client-Side Routing
+    function getCleanPageName(pathname = window.location.pathname) {
+        const seg = pathname.split('/').filter(Boolean).pop() || 'index.html';
+        if (!seg.includes('.html')) {
+            return 'index.html';
+        }
+        return seg.split('?')[0];
+    }
+    window.getCleanPageName = getCleanPageName;
+
     async function loadScriptIfNeeded(src) {
-        if (document.querySelector(`script[src="${src}"]`)) return Promise.resolve();
-        return new Promise((resolve, reject) => {
+        const filename = src.split('/').pop().split('?')[0];
+        const existing = Array.from(document.querySelectorAll('script')).find(s => {
+            const sSrc = s.getAttribute('src') || '';
+            return sSrc.endsWith(filename);
+        });
+        if (existing) return Promise.resolve();
+
+        return new Promise((resolve) => {
             const s = document.createElement('script');
-            s.src = src;
+            const url = new URL(src, window.location.href);
+            s.src = url.href;
             s.onload = resolve;
-            s.onerror = reject;
+            s.onerror = (err) => {
+                console.warn(`Could not dynamically load script ${src}:`, err);
+                resolve();
+            };
             document.body.appendChild(s);
         });
     }
 
     async function spaNavigate(targetUrl, pushState = true) {
         try {
-            const urlObj = new URL(targetUrl, window.location.origin);
-            const path = urlObj.pathname.split('/').pop() || 'index.html';
+            // Resolve target URL relative to current location (works on localhost and GitHub Pages subfolders)
+            const urlObj = new URL(targetUrl, window.location.href);
+            const targetCleanPath = getCleanPageName(urlObj.pathname);
 
             const response = await fetch(urlObj.href);
             if (!response.ok) {
-                window.location.href = targetUrl;
+                console.warn(`SPA fetch failed (${response.status}) for ${urlObj.href}, falling back to direct navigation.`);
+                window.location.href = urlObj.href;
                 return;
             }
 
@@ -575,7 +596,7 @@
             const currentContainer = document.querySelector('.container');
 
             if (!newContainer || !currentContainer) {
-                window.location.href = targetUrl;
+                window.location.href = urlObj.href;
                 return;
             }
 
@@ -588,36 +609,35 @@
             window.scrollTo(0, 0);
 
             // Update active state on nav-links
-            const currentCleanPath = window.location.pathname.split('/').pop() || 'index.html';
             document.querySelectorAll('.nav-link').forEach(link => {
                 const linkHref = link.getAttribute('href')?.split('?')[0];
-                const isMatch = linkHref === currentCleanPath || (currentCleanPath === '' && linkHref === 'index.html');
+                const isMatch = linkHref === targetCleanPath || (targetCleanPath === 'index.html' && linkHref === 'index.html');
                 link.classList.toggle('active', isMatch);
             });
 
             // Initialize target page module
-            if (currentCleanPath === 'index.html' || currentCleanPath === '') {
+            if (targetCleanPath === 'index.html') {
                 await loadScriptIfNeeded('script.js');
                 if (typeof init === 'function') init();
-            } else if (currentCleanPath === 'playlists.html') {
+            } else if (targetCleanPath === 'playlists.html') {
                 await loadScriptIfNeeded('playlists.js');
                 if (typeof initPlaylists === 'function') initPlaylists();
-            } else if (currentCleanPath === 'albums.html') {
+            } else if (targetCleanPath === 'albums.html') {
                 await loadScriptIfNeeded('albums.js');
                 if (typeof initAlbums === 'function') initAlbums();
-            } else if (currentCleanPath === 'artists.html') {
+            } else if (targetCleanPath === 'artists.html') {
                 await loadScriptIfNeeded('artists.js');
                 if (typeof initArtists === 'function') initArtists();
-            } else if (currentCleanPath === 'stats.html') {
+            } else if (targetCleanPath === 'stats.html') {
                 await loadScriptIfNeeded('stats.js');
                 if (typeof initStats === 'function') initStats();
-            } else if (currentCleanPath === 'playlist.html') {
+            } else if (targetCleanPath === 'playlist.html') {
                 await loadScriptIfNeeded('playlist.js');
                 if (typeof initPlaylistDetail === 'function') initPlaylistDetail();
-            } else if (currentCleanPath === 'artist.html') {
+            } else if (targetCleanPath === 'artist.html') {
                 await loadScriptIfNeeded('artist.js');
                 if (typeof initArtistDetail === 'function') initArtistDetail();
-            } else if (currentCleanPath === 'now-playing.html') {
+            } else if (targetCleanPath === 'now-playing.html') {
                 await loadScriptIfNeeded('now-playing.js');
                 if (typeof initNowPlaying === 'function') initNowPlaying();
             }
@@ -625,7 +645,7 @@
             // Manage backdrop aura visibility
             const backdropEl = document.getElementById('np-backdrop-aura');
             if (backdropEl) {
-                backdropEl.style.display = (currentCleanPath === 'now-playing.html') ? 'block' : 'none';
+                backdropEl.style.display = (targetCleanPath === 'now-playing.html') ? 'block' : 'none';
             }
 
             // Sync player with new view
@@ -633,7 +653,7 @@
                 window.miniPlayer.updateUIState();
             }
         } catch (e) {
-            console.error('SPA navigation failed, falling back to full page load:', e);
+            console.error('SPA navigation failed, falling back to direct navigation:', e);
             window.location.href = targetUrl;
         }
     }
