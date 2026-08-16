@@ -713,7 +713,7 @@ function playCurrentMix() {
         window.miniPlayer.playlist = currentMixTracks;
         window.miniPlayer.currentType = 'playlist';
         window.miniPlayer.contextTitle = currentMixTitle;
-        window.miniPlayer.playItem(currentMixTracks[0], currentMixTracks, 'playlist', currentMixTitle);
+        window.miniPlayer.playTrack(currentMixTracks[0], currentMixTracks);
     }
 }
 

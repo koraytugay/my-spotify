@@ -100,6 +100,8 @@
                 };
 
                 let lastEndedTrackId = null;
+                let maxPositionSeen = 0;
+                let lastActiveTrackId = null;
 
                 IFrameAPI.createController(element, options, (EmbedController) => {
                     this.embedController = EmbedController;
@@ -110,18 +112,30 @@
                         this.updateUIState();
                         this.notifyStateChange();
 
-                        // Auto-advance to next track when current track finishes
+                        const currentId = this.currentTrack?.id;
+                        if (currentId !== lastActiveTrackId) {
+                            lastActiveTrackId = currentId;
+                            maxPositionSeen = 0;
+                        }
+
                         const pos = e.data.position || 0;
                         const dur = e.data.duration || 0;
-                        if (dur > 0 && pos > 0) {
-                            const isNearEnd = (dur - pos) <= 1500 || pos >= dur;
-                            if (isNearEnd && e.data.isPaused) {
-                                const currentId = this.currentTrack?.id;
+
+                        if (pos > maxPositionSeen) {
+                            maxPositionSeen = pos;
+                        }
+
+                        // Auto-advance to next track when playback finishes
+                        if (dur > 0 && e.data.isPaused) {
+                            const isNearEnd = (pos >= dur) || (maxPositionSeen > 5000 && maxPositionSeen >= (dur - 2500)) || (maxPositionSeen >= 28500);
+                            if (isNearEnd) {
                                 if (currentId && currentId !== lastEndedTrackId) {
                                     lastEndedTrackId = currentId;
+                                    maxPositionSeen = 0;
+                                    console.log('🎵 Track finished. Auto-playing next track...');
                                     setTimeout(() => {
                                         this.playNext();
-                                    }, 400);
+                                    }, 350);
                                 }
                             }
                         }
