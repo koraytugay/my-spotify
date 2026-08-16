@@ -567,7 +567,7 @@ async function startSpotifyOAuth() {
     localStorage.setItem('spotify_pkce_verifier', verifier);
 
     const redirectUri = getRedirectUri();
-    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private user-read-private';
+    const scope = 'playlist-modify-public playlist-modify-private playlist-read-private playlist-read-collaborative user-read-private';
     const authUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${encodeURIComponent(clientId)}&scope=${encodeURIComponent(scope)}&redirect_uri=${encodeURIComponent(redirectUri)}&code_challenge_method=S256&code_challenge=${encodeURIComponent(challenge)}`;
 
     window.location.href = authUrl;
@@ -812,6 +812,16 @@ async function syncCurrentMixToSpotify() {
 
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
+            if (replaceRes.status === 403 || replaceRes.status === 401) {
+                // Token was created with older insufficient scopes: clear and trigger re-auth with full playlist permissions
+                localStorage.removeItem('spotify_user_access_token');
+                localStorage.removeItem('spotify_user_refresh_token');
+                localStorage.removeItem('smart_mix_playlist_id');
+                console.warn('403/401: Cleared cached token. Prompting for re-authorization with full playlist permissions...');
+                alert('Spotify needs updated permissions to write to your playlists. Please click Connect to re-authorize.');
+                startSpotifyOAuth();
+                return;
+            }
             throw new Error(`Failed to update tracks (${replaceRes.status}): ${errText}`);
         }
 
