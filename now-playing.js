@@ -791,7 +791,7 @@ async function syncNowPlayingQueueToSpotify() {
     } finally {
         if (btn) {
             btn.disabled = false;
-            btn.innerHTML = `📤 Sync to Spotify`;
+            btn.innerHTML = `Sync to Spotify`;
         }
     }
 }

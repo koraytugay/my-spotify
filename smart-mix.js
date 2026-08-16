@@ -117,17 +117,17 @@ async function initSmartMix() {
 var selectedMoodTags = new Set();
 
 const MOOD_TAG_DEFINITIONS = [
-    { id: 'mega', label: '🎲 Mega Shuffle', test: () => true },
-    { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => (s.durationMs || 0) >= 420000 },
-    { id: 'bangers', label: '⚡ Short Bangers (< 3.5 Min)', test: (s) => (s.durationMs || 0) > 0 && (s.durationMs || 0) < 210000 },
-    { id: 'era_60s_70s', label: '📻 60s & 70s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
-    { id: 'era_80s', label: '📼 80s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
-    { id: 'era_90s', label: '💿 90s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 1999; } },
-    { id: 'era_2000s', label: '💾 2000s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2000 && y <= 2009; } },
-    { id: 'era_2010s', label: '✨ 2010s & Beyond', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
-    { id: 'top_played', label: '🌟 Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },
-    { id: 'hits', label: '🔥 Global Hits & Popular', test: (s) => (s.popularity || 0) >= 48 },
-    { id: 'deep_cuts', label: '💎 Deep Cuts & Underrated', test: (s) => (s.popularity || 0) > 0 && (s.popularity || 0) < 32 }
+    { id: 'mega', label: 'Mega Shuffle', test: () => true },
+    { id: 'epics', label: 'Epics & Prog (7+ Min)', test: (s) => (s.durationMs || 0) >= 420000 },
+    { id: 'bangers', label: 'Short Bangers (< 3.5 Min)', test: (s) => (s.durationMs || 0) > 0 && (s.durationMs || 0) < 210000 },
+    { id: 'era_60s_70s', label: '60s & 70s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
+    { id: 'era_80s', label: '80s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
+    { id: 'era_90s', label: '90s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 1999; } },
+    { id: 'era_2000s', label: '2000s', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2000 && y <= 2009; } },
+    { id: 'era_2010s', label: '2010s & Beyond', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
+    { id: 'top_played', label: 'Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },
+    { id: 'hits', label: 'Global Hits & Popular', test: (s) => (s.popularity || 0) >= 48 },
+    { id: 'deep_cuts', label: 'Deep Cuts & Underrated', test: (s) => (s.popularity || 0) > 0 && (s.popularity || 0) < 32 }
 ];
 
 function renderMoodChips() {
@@ -215,7 +215,7 @@ function generateMoodTagBlend(autoScroll = true) {
         const def = selectedDefs[0];
         const matching = allTracks.filter(s => def.test(s));
         currentMixTracks = shuffleArray(matching).slice(0, 35);
-        currentMixTitle = `✨ ${def.label} Mix`;
+        currentMixTitle = `${def.label} Mix`;
     } else {
         // Multi-tag: Group by tag definition and interleave
         const groups = {};
@@ -226,7 +226,7 @@ function generateMoodTagBlend(autoScroll = true) {
         const blended = smartInterleave(groups, 7200000); // Up to 2 hours
         const labels = selectedDefs.map(d => d.label.split(' ')[0] + ' ' + (d.label.split(' ')[1] || '')).join(' + ');
         currentMixTracks = blended;
-        currentMixTitle = `✨ ${labels} Blend`;
+        currentMixTitle = `${labels} Blend`;
     }
 
     renderMixResult(autoScroll);
@@ -461,12 +461,12 @@ function triggerPresetMix(key, autoScroll = true) {
         const epics = allTracks.filter(s => s.durationMs && s.durationMs >= 420000);
         tracks = shuffleArray(epics).slice(0, 20);
     } else if (key === 'bangers') {
-        title = '⚡ Short Bangers (< 3.5 Min)';
+        title = 'Short Bangers (< 3.5 Min)';
         // Fast, high-impact punchy tracks under 3.5 minutes (< 210,000 ms) from entire library
         const bangers = allTracks.filter(s => s.durationMs && s.durationMs > 0 && s.durationMs < 210000);
         tracks = shuffleArray(bangers).slice(0, 25);
     } else if (key === 'classic-era') {
-        title = '📻 60s & 70s Classic Era';
+        title = '60s & 70s Classic Era';
         // Tracks released between 1960 and 1979 from both Liked Songs and Saved Albums
         const classicTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
@@ -474,7 +474,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(classicTracks).slice(0, 25);
     } else if (key === 'eighties') {
-        title = '🎸 80s Rock & Metal Era';
+        title = '80s Era';
         // Tracks released between 1980 and 1989 from both Liked Songs and Saved Albums
         const eightiesTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
@@ -482,7 +482,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(eightiesTracks).slice(0, 25);
     } else if (key === 'nineties-twothousands') {
-        title = '⚡ 90s & 2000s Era';
+        title = '90s & 2000s Era';
         // Tracks released between 1990 and 2009 from both Liked Songs and Saved Albums
         const modernTracks = allTracks.filter(s => {
             const year = s.releaseYear || (s.album && s.album.releaseYear);
@@ -490,7 +490,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(modernTracks).slice(0, 25);
     } else if (key === 'ballads') {
-        title = '🕯️ Ballads & Slow Jams';
+        title = 'Ballads & Slow Jams';
         const ballads = allTracks.filter(s => {
             const m = allSongMoods[s.id];
             if (m && (m.isBallad || m.tempoCategory === 'slow')) return true;
@@ -498,7 +498,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(ballads).slice(0, 25);
     } else if (key === 'high-energy') {
-        title = '⚡ High Energy & Workout';
+        title = 'High Energy & Workout';
         const highEnergy = allTracks.filter(s => {
             const m = allSongMoods[s.id];
             if (m && (m.isHighEnergy || m.tempoCategory === 'fast' || (m.bpm && m.bpm > 135))) return true;
@@ -506,7 +506,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(highEnergy).slice(0, 25);
     } else if (key === 'acoustic') {
-        title = '🎸 Acoustic & Unplugged';
+        title = 'Acoustic & Unplugged';
         const acousticTracks = allTracks.filter(s => {
             const m = allSongMoods[s.id];
             if (m && m.isAcoustic) return true;
@@ -514,7 +514,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(acousticTracks).slice(0, 25);
     } else if (key === 'chill') {
-        title = '☕ Chill & Relaxed';
+        title = 'Chill & Relaxed';
         const chillTracks = allTracks.filter(s => {
             const m = allSongMoods[s.id];
             if (m && (m.isChill || m.tempoCategory === 'slow' || m.tempoCategory === 'mid-tempo')) return true;
@@ -522,7 +522,7 @@ function triggerPresetMix(key, autoScroll = true) {
         });
         tracks = shuffleArray(chillTracks).slice(0, 25);
     } else if (key === 'mega') {
-        title = '🎲 Mega 50 Library Shuffle';
+        title = 'Mega 50 Library Shuffle';
         // Group entire library by primary artist for maximum diversity
         const byArtist = {};
         allTracks.forEach(s => {
@@ -571,11 +571,11 @@ function generateCustomArtistBlend(autoScroll = true) {
     // Clean, readable title formatting avoiding long unreadable chains
     const artistArray = Array.from(selectedArtistNames);
     if (artistArray.length <= 3) {
-        currentMixTitle = `🎪 ${artistArray.join(' + ')} Lineup`;
+        currentMixTitle = `${artistArray.join(' + ')} Lineup`;
     } else if (artistArray.length <= 5) {
-        currentMixTitle = `🎪 ${artistArray.slice(0, 3).join(', ')} + ${artistArray.length - 3} more`;
+        currentMixTitle = `${artistArray.slice(0, 3).join(', ')} + ${artistArray.length - 3} more`;
     } else {
-        currentMixTitle = `🎪 Multi-Artist Festival Blend (${artistArray.length} Artists)`;
+        currentMixTitle = `Multi-Artist Festival Blend (${artistArray.length} Artists)`;
     }
 
     currentMixTracks = blended;
@@ -605,11 +605,11 @@ function renderMixResult(autoScroll = false) {
 
     if (badgeEl) {
         if (currentMixType === 'blend') {
-            badgeEl.textContent = `🎪 ${selectedArtistNames.size} Artists Blend`;
+            badgeEl.textContent = `${selectedArtistNames.size} Artists Blend`;
         } else if (currentMixType === 'mood_tag') {
-            badgeEl.textContent = '✨ Curated Mix';
+            badgeEl.textContent = 'Curated Mix';
         } else {
-            badgeEl.textContent = '🎲 Preset Mix';
+            badgeEl.textContent = 'Preset Mix';
         }
     }
 
@@ -953,7 +953,7 @@ function copyMixTrackLinks() {
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(links).then(() => {
-            alert(`📋 Copied ${currentMixTracks.length} Spotify track links to your clipboard!`);
+            alert(`Copied ${currentMixTracks.length} Spotify track links to your clipboard!`);
         }).catch(() => {
             prompt('Copy track links below:', links);
         });
@@ -1162,7 +1162,7 @@ async function syncCurrentMixToSpotify() {
     } finally {
         if (syncBtn) {
             syncBtn.disabled = false;
-            syncBtn.innerHTML = `📤 Sync to "My Smart Mix"`;
+            syncBtn.innerHTML = `Sync to "My Smart Mix"`;
         }
     }
 }

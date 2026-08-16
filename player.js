@@ -29,7 +29,7 @@
                 <!-- Floating Top Handle when collapsed -->
                 <div class="mini-player-handle" id="mini-player-handle" title="Click to Expand / Collapse Spotify Player">
                     <span class="handle-pill">
-                        <span class="handle-icon">🎵</span>
+                        <span class="handle-icon"></span>
                         <span id="handle-title" class="handle-text">Spotify Player</span>
                         <span class="handle-arrow" id="handle-arrow">${this.isCollapsed ? '▲' : '▼'}</span>
                     </span>
@@ -132,7 +132,7 @@
                                 if (currentId && currentId !== lastEndedTrackId) {
                                     lastEndedTrackId = currentId;
                                     maxPositionSeen = 0;
-                                    console.log('🎵 Track finished. Auto-playing next track...');
+                                    console.log('Track finished. Auto-playing next track...');
                                     setTimeout(() => {
                                         this.playNext();
                                     }, 350);

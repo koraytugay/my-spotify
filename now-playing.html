@@ -20,11 +20,11 @@
             
             <nav class="page-nav">
                 <a href="index.html" class="nav-link">💚 Liked Songs</a>
-                <a href="playlists.html" class="nav-link">📑 Playlists</a>
-                <a href="albums.html" class="nav-link">💿 Albums</a>
-                <a href="artists.html" class="nav-link">👥 Artists</a>
-                <a href="smart-mix.html" class="nav-link">🎛️ Smart Mix</a>
-                <a href="stats.html" class="nav-link">📊 Statistics</a>
+                <a href="playlists.html" class="nav-link">Playlists</a>
+                <a href="albums.html" class="nav-link">Albums</a>
+                <a href="artists.html" class="nav-link">Artists</a>
+                <a href="smart-mix.html" class="nav-link">Smart Mix</a>
+                <a href="stats.html" class="nav-link">Statistics</a>
                 <a href="now-playing.html" class="nav-link active">▶ Currently Playing</a>
             </nav>
         </header>
@@ -87,7 +87,7 @@
                             <span id="queue-count-badge" class="badge">0 tracks</span>
                         </div>
                         <button id="np-sync-spotify-btn" class="btn btn-success" style="background: var(--accent); color: #000; font-weight: 700; border: none; padding: 6px 12px; border-radius: var(--radius-full); cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem;" onclick="syncNowPlayingQueueToSpotify()">
-                            📤 Sync to Spotify
+                            Sync to Spotify
                         </button>
                     </div>
 
@@ -115,7 +115,7 @@
                 </div>
                 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
                     <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; color: #ff5555; border-color: rgba(255, 85, 85, 0.4);" onclick="disconnectSpotify()">
-                        🗑️ Reset / Disconnect
+                        Reset / Disconnect
                     </button>
                     <div style="display: flex; gap: 8px;">
                         <button type="button" class="btn btn-secondary" onclick="closeSpotifyAuthModal()">Cancel</button>
@@ -129,7 +129,7 @@
         <div id="sync-success-modal" class="modal" style="display: none;">
             <div class="modal-overlay" onclick="closeSyncSuccessModal()"></div>
             <div class="modal-card" style="text-align: center;">
-                <div style="font-size: 2.8rem; margin-bottom: 8px;">✅</div>
+                <div style="font-size: 2.8rem; margin-bottom: 8px;"></div>
                 <h3 id="sync-success-title" style="margin-bottom: 8px;">Synced to "My Smart Mix"!</h3>
                 <p id="sync-success-desc" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
                     Your dedicated playlist in Spotify has been updated with the new tracks.

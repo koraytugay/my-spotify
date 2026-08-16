@@ -19,11 +19,11 @@
             
             <nav class="page-nav">
                 <a href="index.html" class="nav-link">💚 Liked Songs</a>
-                <a href="playlists.html" class="nav-link">📑 Playlists</a>
-                <a href="albums.html" class="nav-link">💿 Albums</a>
-                <a href="artists.html" class="nav-link">👥 Artists</a>
-                <a href="smart-mix.html" class="nav-link active">🎛️ Smart Mix</a>
-                <a href="stats.html" class="nav-link">📊 Statistics</a>
+                <a href="playlists.html" class="nav-link">Playlists</a>
+                <a href="albums.html" class="nav-link">Albums</a>
+                <a href="artists.html" class="nav-link">Artists</a>
+                <a href="smart-mix.html" class="nav-link active">Smart Mix</a>
+                <a href="stats.html" class="nav-link">Statistics</a>
                 <a href="now-playing.html" class="nav-link">▶ Currently Playing</a>
             </nav>
         </header>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="control-group" style="display: flex; align-items: center; gap: 14px;">
                         <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; padding: 5px 12px;" onclick="openSpotifyAuthModal()">
-                            ⚙️ Spotify Account
+                            Spotify Account
                         </button>
                         <label class="checkbox-toggle">
                             <input type="checkbox" id="dark-mode-toggle" onchange="toggleDarkMode(this.checked)">
@@ -56,7 +56,7 @@
 
             <!-- Section 1: Curated Library & Era Blender (Pills) -->
             <div class="mix-section-title">
-                <h2>✨ Curated Library & Era Blender</h2>
+                <h2>Curated Library & Era Blender</h2>
                 <p>Pick any combination of eras, track lengths, popularity, and shuffle to generate an instant custom mix</p>
             </div>
 
@@ -71,7 +71,7 @@
                             Clear
                         </button>
                         <button id="generate-mood-mix-btn" type="button" class="btn btn-primary" style="font-size: 0.85rem; padding: 7px 16px; font-weight: 700;" onclick="generateMoodTagBlend()" disabled>
-                            ⚡ Generate Mix
+                            Generate Mix
                         </button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
 
             <!-- Section 2: Custom Artist Multi-Blender ("Festival Lineup") -->
             <div class="mix-section-title" style="margin-top: 36px;">
-                <h2>🎪 Artist Multi-Blender ("Festival Lineup")</h2>
+                <h2>Artist Multi-Blender ("Festival Lineup")</h2>
                 <p>Select 2 or more artists to weave their tracks together in an evenly interleaved mix</p>
             </div>
 
@@ -104,7 +104,7 @@
                 <!-- Artist Filter & Search Row -->
                 <div class="artist-filter-row" style="display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap;">
                     <div style="flex: 1 1 240px; position: relative;">
-                        <input type="text" id="artist-search-input" class="form-control search-input" placeholder="🔍 Search any artist in your collection..." oninput="handleArtistSearch(this.value)" style="width: 100%; font-size: 0.88rem; padding: 7px 12px;">
+                        <input type="text" id="artist-search-input" class="form-control search-input" placeholder="Search any artist in your collection..." oninput="handleArtistSearch(this.value)" style="width: 100%; font-size: 0.88rem; padding: 7px 12px;">
                     </div>
                     <div id="artist-filter-actions" style="display: flex; align-items: center; gap: 8px;">
                         <button type="button" id="toggle-all-artists-btn" class="btn btn-secondary" style="font-size: 0.8rem; padding: 6px 12px;" onclick="toggleShowAllArtists()">
@@ -135,13 +135,13 @@
                             ▶ Play in Browser
                         </button>
                         <button id="sync-spotify-btn" class="btn btn-success" style="background: var(--accent); color: #000; font-weight: 700; border: none; padding: 10px 18px; border-radius: var(--radius-full); cursor: pointer; display: inline-flex; align-items: center; gap: 6px;" onclick="syncCurrentMixToSpotify()">
-                            📤 Sync to "My Smart Mix"
+                            Sync to "My Smart Mix"
                         </button>
                         <button class="btn btn-secondary" onclick="copyMixTrackLinks()" title="Copy Spotify links for all tracks in this mix">
-                            📋 Copy Links
+                            Copy Links
                         </button>
                         <button class="btn btn-secondary" onclick="rerollCurrentMix()" title="Re-roll with fresh songs">
-                            🎲 Re-roll
+                            Re-roll
                         </button>
                     </div>
                 </div>
@@ -179,7 +179,7 @@
 
                 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 20px; flex-wrap: wrap;">
                     <button type="button" class="btn btn-secondary" style="font-size: 0.8rem; color: #ff5555; border-color: rgba(255, 85, 85, 0.4);" onclick="disconnectSpotify()">
-                        🗑️ Reset / Disconnect
+                        Reset / Disconnect
                     </button>
                     <div style="display: flex; gap: 8px;">
                         <button type="button" class="btn btn-secondary" onclick="closeSpotifyAuthModal()">Cancel</button>
@@ -193,7 +193,7 @@
         <div id="sync-success-modal" class="modal" style="display: none;">
             <div class="modal-overlay" onclick="closeSyncSuccessModal()"></div>
             <div class="modal-card" style="text-align: center;">
-                <div style="font-size: 2.8rem; margin-bottom: 8px;">✅</div>
+                <div style="font-size: 2.8rem; margin-bottom: 8px;"></div>
                 <h3 id="sync-success-title" style="margin-bottom: 8px;">Synced to "My Smart Mix"!</h3>
                 <p id="sync-success-desc" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
                     Your dedicated playlist in Spotify has been updated with the new tracks.
