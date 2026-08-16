@@ -1,22 +1,5 @@
 [
   {
-    "id": "5rAW5wobAcppohcs4P6bD3",
-    "name": "Kara Çiçeğim",
-    "artists": [
-      {
-        "id": "2fYdUIUPS7aDdWCzb8Aw2k",
-        "name": "Aşkın Nur Yengi"
-      }
-    ],
-    "artistNames": "Aşkın Nur Yengi",
-    "releaseDate": "1994-12-12",
-    "releaseYear": "1994",
-    "totalTracks": 10,
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac6a84c15328dda047d4d301",
-    "spotifyUrl": "https://open.spotify.com/album/5rAW5wobAcppohcs4P6bD3",
-    "addedAt": "2026-08-15T18:29:10Z"
-  },
-  {
     "id": "54xM746igJkdPJenRhW1za",
     "name": "Days of Thunder",
     "artists": [
@@ -32,6 +15,23 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
     "spotifyUrl": "https://open.spotify.com/album/54xM746igJkdPJenRhW1za",
     "addedAt": "2023-04-07T23:15:42Z"
+  },
+  {
+    "id": "5rAW5wobAcppohcs4P6bD3",
+    "name": "Kara Çiçeğim",
+    "artists": [
+      {
+        "id": "2fYdUIUPS7aDdWCzb8Aw2k",
+        "name": "Aşkın Nur Yengi"
+      }
+    ],
+    "artistNames": "Aşkın Nur Yengi",
+    "releaseDate": "1994-12-12",
+    "releaseYear": "1994",
+    "totalTracks": 10,
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac6a84c15328dda047d4d301",
+    "spotifyUrl": "https://open.spotify.com/album/5rAW5wobAcppohcs4P6bD3",
+    "addedAt": "2026-08-15T18:29:10Z"
   },
   {
     "id": "1oupMKdNzd7u1isqbtM4so",

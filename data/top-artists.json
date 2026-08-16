@@ -406,6 +406,15 @@
   },
   {
     "rank": 46,
+    "id": "2fYdUIUPS7aDdWCzb8Aw2k",
+    "name": "Aşkın Nur Yengi",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
+  },
+  {
+    "rank": 47,
     "id": "5KORW1YGiERJqfuYjXMCyz",
     "name": "Mattafix",
     "genres": [],
@@ -414,7 +423,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5KORW1YGiERJqfuYjXMCyz"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "id": "3WrFJ7ztbogyGnTHbHJFl2",
     "name": "The Beatles",
     "genres": [],
@@ -423,7 +432,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "id": "4h7NLIlg1oYdEtfQJfyto0",
     "name": "Nouvelle Vague",
     "genres": [],
@@ -432,21 +441,12 @@
     "spotifyUrl": "https://open.spotify.com/artist/4h7NLIlg1oYdEtfQJfyto0"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "id": "568ZhdwyaiCyOGJRtNYhWf",
     "name": "Deep Purple",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb0097f1c2830a6ecdda16d4de",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf"
-  },
-  {
-    "rank": 50,
-    "id": "5Y1mtkFXBCx0dyL93Wt54T",
-    "name": "Otis Taylor",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6772690000c46c742b53bd01463200acbc4319",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5Y1mtkFXBCx0dyL93Wt54T"
   }
 ]
