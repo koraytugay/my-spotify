@@ -223,7 +223,7 @@ function renderAlbums() {
                 <div class="song-title"><a href="album.html?id=${encodeURIComponent(a.id)}" class="song-title-link">${a.name}</a></div>
                 <div class="song-artist">${artistsHtml}<span class="album-year">${releaseYear}</span></div>
             </div>
-            <div class="song-meta" style="justify-content: flex-end; gap: 8px;">
+            <div class="song-meta" style="justify-content: space-between; align-items: center;">
                 <button class="album-card-btn album-card-play-btn" onclick="togglePlayAlbum('${a.id}')" title="Play Album" aria-label="Play Album">
                     ▶
                 </button>
