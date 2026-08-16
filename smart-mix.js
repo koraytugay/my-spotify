@@ -60,6 +60,8 @@ var allLikedSongs = [];
 var allAlbums = [];
 var allArtists = [];
 var allSongMoods = {};
+var allTopTracks = [];
+var topTrackIdSet = new Set();
 var selectedArtistNames = new Set();
 var currentMixTracks = [];
 var currentMixTitle = 'Curated Smart Mix';
@@ -74,17 +76,20 @@ async function initSmartMix() {
     if (contentEl) contentEl.style.display = 'none';
 
     try {
-        const [songs, albums, artists, moods] = await Promise.all([
+        const [songs, albums, artists, moods, topTracks] = await Promise.all([
             getLikedSongs(),
             getSavedAlbums(),
             getFollowedArtists(),
-            typeof getSongMoods === 'function' ? getSongMoods() : Promise.resolve({})
+            typeof getSongMoods === 'function' ? getSongMoods() : Promise.resolve({}),
+            typeof getTopTracks === 'function' ? getTopTracks() : Promise.resolve([])
         ]);
 
         allLikedSongs = songs || [];
         allAlbums = albums || [];
         allArtists = artists || [];
         allSongMoods = moods || {};
+        allTopTracks = topTracks || [];
+        topTrackIdSet = new Set((allTopTracks || []).map(t => t.id).filter(Boolean));
 
         renderMoodChips();
         renderArtistChips();
@@ -123,8 +128,14 @@ const MOOD_TAG_DEFINITIONS = [
     { id: 'chill', label: '☕ Chill & Relaxed', test: (s, m) => m?.isChill },
     { id: 'acoustic', label: '🎸 Acoustic & Unplugged', test: (s, m) => m?.isAcoustic },
     { id: 'progressive', label: '🎼 Progressive & Psychedelic', test: (s, m) => m?.isProgressive },
-    { id: 'party', label: '🎉 Party & Danceable', test: (s, m) => m?.isParty },
+    { id: 'party', label: '🎉 Party & Upbeat', test: (s, m) => m?.isParty },
     { id: 'turkish', label: '🇹🇷 Turkish & Anatolian Rock', test: (s, m) => m?.isTurkish },
+
+    // Spotify Popularity, Live & Heavy Rotation
+    { id: 'top_played', label: '🌟 Heavy Rotation (Top Listened)', test: (s) => topTrackIdSet.has(s.id) },
+    { id: 'hits', label: '🔥 Global Hits & Popular', test: (s) => (s.popularity || 0) >= 48 },
+    { id: 'deep_cuts', label: '💎 Deep Cuts & Underrated', test: (s) => (s.popularity || 0) > 0 && (s.popularity || 0) < 32 },
+    { id: 'live', label: '🎙️ Live & Concerts', test: (s) => /\b(live|concert|tour|unplugged|live at|session)\b/i.test(s.name || '') },
 
     // Forms & Eras
     { id: 'epics', label: '⏳ Epics & Prog (7+ Min)', test: (s) => (s.durationMs || 0) >= 420000 },
@@ -132,7 +143,7 @@ const MOOD_TAG_DEFINITIONS = [
     { id: 'era_60s_70s', label: '📻 60s & 70s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1960 && y <= 1979; } },
     { id: 'era_80s', label: '📼 80s Rock Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1980 && y <= 1989; } },
     { id: 'era_90s_00s', label: '💿 90s & 2000s Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 1990 && y <= 2009; } },
-    { id: 'era_2010s', label: '✨ 2010s+ Era', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
+    { id: 'era_2010s', label: '✨ 2010s & Beyond', test: (s) => { const y = s.releaseYear || s.album?.releaseYear; return y && y >= 2010; } },
     { id: 'mega', label: '🎲 Mega Shuffle', test: () => true }
 ];
 
@@ -433,6 +444,7 @@ function getAllLibraryTracks() {
             album.tracks.forEach(t => {
                 albumTracks.push({
                     ...t,
+                    popularity: t.popularity || 0,
                     coverUrl: album.coverUrl,
                     thumbnailUrl: album.coverUrl,
                     releaseYear: t.releaseYear || album.releaseYear,
