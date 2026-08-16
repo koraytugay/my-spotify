@@ -496,8 +496,14 @@
                 playIcon.textContent = this.isPlaying ? '⏸' : '▶';
             }
             if (eq) {
-                eq.classList.toggle('playing', this.isPlaying);
+                eq.classList.toggle('playing', !!this.isPlaying);
             }
+
+            // Green background on Currently Playing nav pill when music is playing
+            const npLinks = document.querySelectorAll('a[href*="now-playing.html"]');
+            npLinks.forEach(link => {
+                link.classList.toggle('is-playing-now', !!this.isPlaying);
+            });
         }
 
         onStateChange(cb) {
