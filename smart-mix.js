@@ -694,13 +694,27 @@ function renderMixResult(autoScroll = false) {
     }
 }
 
-function playCurrentMix() {
+async function playCurrentMix() {
     if (!currentMixTracks || currentMixTracks.length === 0) return;
 
+    // 1. Check if user has Spotify OAuth connected & dedicated "My Smart Mix" playlist
+    const token = await getValidSpotifyToken().catch(() => null);
+    const existingPlaylistId = localStorage.getItem('smart_mix_playlist_id');
+
+    if (token && existingPlaylistId) {
+        // Sync mix tracks to the dedicated "My Smart Mix" playlist on Spotify in background
+        syncCurrentMixToSpotify(true).catch(() => {});
+        if (window.miniPlayer) {
+            window.miniPlayer.playItem({ id: existingPlaylistId, name: currentMixTitle || 'My Smart Mix', tracks: currentMixTracks }, 'playlist');
+            return;
+        }
+    }
+
+    // 2. Standard browser queue playback with Web Audio keepalive & background timer
     if (window.miniPlayer) {
         window.miniPlayer.playlist = currentMixTracks;
         window.miniPlayer.currentType = 'playlist';
-        window.miniPlayer.contextTitle = currentMixTitle;
+        window.miniPlayer.contextTitle = currentMixTitle || 'Smart Mix';
         window.miniPlayer.playTrack(currentMixTracks[0], currentMixTracks);
     }
 }
@@ -964,12 +978,10 @@ function copyMixTrackLinks() {
 }
 
 async function getOrCreateSmartMixPlaylistId(token, userId, desc) {
-    let playlistId = localStorage.getItem('smart_mix_playlist_id');
-    if (playlistId) {
-        return playlistId; // Trust the saved ID, don't run brittle pre-checks
-    }
+    const cachedId = localStorage.getItem('smart_mix_playlist_id');
+    if (cachedId) return cachedId;
 
-    // Search existing playlists across multiple pages (up to 200 playlists)
+    // Check existing playlists to avoid duplicate "My Smart Mix"
     try {
         let offset = 0;
         while (offset < 200) {
@@ -1018,15 +1030,16 @@ async function getOrCreateSmartMixPlaylistId(token, userId, desc) {
     throw new Error(`Failed to create playlist (${createRes.status}): ${errText}`);
 }
 
-async function syncCurrentMixToSpotify() {
+async function syncCurrentMixToSpotify(silent = false) {
     if (!currentMixTracks || currentMixTracks.length === 0) {
-        alert('Generate a mix first before syncing!');
-        return;
+        if (!silent) alert('Generate a mix first before syncing!');
+        return null;
     }
 
     const token = await getValidSpotifyToken();
 
     if (!token) {
+        if (silent) return null;
         // Prompt user to connect with Client ID
         const redirectDisplay = document.getElementById('spotify-redirect-uri-display');
         const clientIdInput = document.getElementById('spotify-client-id-input');
@@ -1037,13 +1050,13 @@ async function syncCurrentMixToSpotify() {
 
         const authModal = document.getElementById('spotify-auth-modal');
         if (authModal) authModal.style.display = 'flex';
-        return;
+        return null;
     }
 
     const syncBtn = document.getElementById('sync-spotify-btn');
-    if (syncBtn) {
+    if (syncBtn && !silent) {
         syncBtn.disabled = true;
-        syncBtn.innerHTML = `⏳ Syncing...`;
+        syncBtn.innerHTML = `Syncing...`;
     }
 
     try {
@@ -1055,16 +1068,14 @@ async function syncCurrentMixToSpotify() {
         if (userRes.status === 401) {
             localStorage.removeItem('spotify_user_access_token');
             localStorage.removeItem('spotify_user_refresh_token');
-            openSpotifyAuthModal();
-            return;
+            if (!silent) openSpotifyAuthModal();
+            return null;
         }
 
         let userId = null;
-        let userEmail = null;
         if (userRes.ok) {
             const userData = await userRes.json();
             userId = userData.id;
-            userEmail = userData.email;
         }
 
         const dateStr = new Date().toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
@@ -1082,7 +1093,8 @@ async function syncCurrentMixToSpotify() {
             .slice(0, 100);
 
         if (uris.length === 0) {
-            throw new Error('No valid Spotify track IDs found in current mix.');
+            if (!silent) throw new Error('No valid Spotify track IDs found in current mix.');
+            return null;
         }
 
         // 2. Lock onto or find single dedicated "My Smart Mix" playlist
@@ -1139,29 +1151,35 @@ async function syncCurrentMixToSpotify() {
 
         if (!replaceRes.ok) {
             const errText = await replaceRes.text();
-            throw new Error(`Failed to populate playlist tracks (${replaceRes.status}): ${errText}`);
+            if (!silent) throw new Error(`Failed to populate playlist tracks (${replaceRes.status}): ${errText}`);
+            return null;
         }
 
-        // 5. Show success modal
-        const successModal = document.getElementById('sync-success-modal');
-        const descEl = document.getElementById('sync-success-desc');
-        const appBtn = document.getElementById('open-spotify-app-btn');
+        if (!silent) {
+            // 5. Show success modal
+            const successModal = document.getElementById('sync-success-modal');
+            const descEl = document.getElementById('sync-success-desc');
+            const appBtn = document.getElementById('open-spotify-app-btn');
 
-        if (descEl) {
-            descEl.textContent = `Updated "My Smart Mix" with ${uris.length} tracks (${currentMixTitle}).`;
+            if (descEl) {
+                descEl.textContent = `Updated "My Smart Mix" with ${uris.length} tracks (${currentMixTitle}).`;
+            }
+
+            if (appBtn) {
+                const isMobile = window.isMobileDevice ? window.isMobileDevice() : false;
+                appBtn.href = isMobile ? `spotify:playlist:${playlistId}` : `https://open.spotify.com/playlist/${playlistId}`;
+            }
+
+            if (successModal) successModal.style.display = 'flex';
         }
 
-        if (appBtn) {
-            const isMobile = window.isMobileDevice ? window.isMobileDevice() : false;
-            appBtn.href = isMobile ? `spotify:playlist:${playlistId}` : `https://open.spotify.com/playlist/${playlistId}`;
-        }
-
-        if (successModal) successModal.style.display = 'flex';
+        return playlistId;
     } catch (e) {
         console.error('Error syncing to Spotify:', e);
-        alert(`Could not sync to Spotify: ${e.message}`);
+        if (!silent) alert(`Could not sync to Spotify: ${e.message}`);
+        return null;
     } finally {
-        if (syncBtn) {
+        if (syncBtn && !silent) {
             syncBtn.disabled = false;
             syncBtn.innerHTML = `Sync to "My Smart Mix"`;
         }
