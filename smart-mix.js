@@ -399,15 +399,18 @@ function shuffleArray(arr) {
 
 // Smart Interleaving: Distributes tracks evenly avoiding back-to-back tracks from same artist
 function smartInterleave(tracksByGroup, limitOrMaxMs = 7200000) {
-    const groups = Object.values(tracksByGroup)
+    let groups = Object.values(tracksByGroup)
         .map(list => shuffleArray(list))
         .filter(list => list.length > 0);
 
     if (groups.length === 0) return [];
 
+    // Shuffle the artist group order so a different artist leads on every reroll
+    groups = shuffleArray(groups);
+
     const result = [];
     let totalDurationMs = 0;
-    let groupIndex = 0;
+    let groupIndex = Math.floor(Math.random() * groups.length);
 
     // If limitOrMaxMs > 1000, treat as duration in ms (default 2 hours = 7,200,000 ms), otherwise as track count
     const isDurationLimit = limitOrMaxMs > 1000;
