@@ -1,11 +1,11 @@
 // Artist Detail View - Pure Authentic Personal Spotify Archive
-let artistInfo = null;
-let allArtistAlbums = [];
-let filteredAlbums = [];
-let allArtistSongs = [];
-let filteredSongs = [];
-let currentAudio = null;
-let currentPlayingId = null;
+var artistInfo = null;
+var allArtistAlbums = [];
+var filteredAlbums = [];
+var allArtistSongs = [];
+var filteredSongs = [];
+var currentAudio = null;
+var currentPlayingId = null;
 
 async function initArtistDetail() {
     const loadingEl = document.getElementById('loading');
@@ -110,6 +110,13 @@ async function initArtistDetail() {
 
         document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} saved ${allArtistAlbums.length === 1 ? 'album' : 'albums'}`;
         document.getElementById('hero-track-count').textContent = `${allArtistSongs.length} liked ${allArtistSongs.length === 1 ? 'song' : 'songs'}`;
+
+        if (window.miniPlayer) {
+            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
+                currentPlayingId = isPlaying ? currentTrackId : null;
+                renderArtistSongs();
+            });
+        }
 
         const heroLinkEl = document.getElementById('hero-spotify-link');
         if (heroLinkEl) {
@@ -233,10 +240,10 @@ function renderArtistSongs() {
 
     filteredSongs.forEach(song => {
         const card = document.createElement('div');
-        card.className = 'song-card';
+        const isPlaying = currentPlayingId === song.id;
+        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
 
         const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
-        const isPlaying = currentPlayingId === song.id;
 
         // Build artist link(s)
         let artistsHtml = '';
@@ -268,11 +275,9 @@ function renderArtistSongs() {
                 <a href="${trackUrl}">
                     <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=No+Cover';">
                 </a>
-                ${song.previewUrl ? `
-                    <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
-                        ${isPlaying ? '⏸' : '▶'}
-                    </button>
-                ` : ''}
+                <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl || ''}')" title="${isPlaying ? 'Pause' : 'Play'}">
+                    ${isPlaying ? '⏸' : '▶'}
+                </button>
             </div>
             <div class="song-details">
                 <div class="song-title">
@@ -294,6 +299,12 @@ function renderArtistSongs() {
 }
 
 function togglePlayPreview(id, previewUrl) {
+    if (window.miniPlayer) {
+        const song = (allArtistSongs || []).find(s => s.id === id) || { id, previewUrl };
+        window.miniPlayer.toggleTrack(song, allArtistSongs);
+        return;
+    }
+
     if (currentPlayingId === id && currentAudio) {
         if (currentAudio.paused) {
             currentAudio.play();

@@ -1,11 +1,11 @@
-let playlistData = null;
-let allTracks = [];
-let filteredTracks = [];
-let currentSort = 'artist-asc';
-let currentViewMode = 'list';
-let currentAudio = null;
-let currentPlayingId = null;
-let isGroupedByAlbum = false;
+var playlistData = null;
+var allTracks = [];
+var filteredTracks = [];
+var currentSort = 'artist-asc';
+var currentViewMode = 'list';
+var currentAudio = null;
+var currentPlayingId = null;
+var isGroupedByAlbum = false;
 
 async function initPlaylistDetail() {
     const loadingEl = document.getElementById('loading');
@@ -66,6 +66,13 @@ async function initPlaylistDetail() {
 
         loadingEl.style.display = 'none';
         viewEl.style.display = 'block';
+
+        if (window.miniPlayer) {
+            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
+                currentPlayingId = isPlaying ? currentTrackId : null;
+                renderTracks();
+            });
+        }
 
     } catch (e) {
         console.error('Error loading playlist:', e);
@@ -207,9 +214,9 @@ function renderTracks() {
 
 function createTrackCard(t) {
     const card = document.createElement('div');
-    card.className = 'song-card';
-    const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
     const isPlaying = currentPlayingId === t.id;
+    card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+    const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
 
     // Build artist link(s) linking to internal artist page
     let artistsHtml = '';
@@ -243,11 +250,9 @@ function createTrackCard(t) {
             <a href="${trackUrl}">
                 <img src="${cover}" alt="${t.name}" class="cover-img" loading="lazy">
             </a>
-            ${t.previewUrl ? `
-                <button class="play-btn-overlay" onclick="togglePlayPreview('${t.id}', '${t.previewUrl}')" title="${isPlaying ? 'Pause' : 'Play'}">
-                    ${isPlaying ? '⏸' : '▶'}
-                </button>
-            ` : ''}
+            <button class="play-btn-overlay" onclick="togglePlayPreview('${t.id}', '${t.previewUrl || ''}')" title="${isPlaying ? 'Pause' : 'Play'}">
+                ${isPlaying ? '⏸' : '▶'}
+            </button>
         </div>
         <div class="song-details">
             <div class="song-title">
@@ -268,6 +273,12 @@ function createTrackCard(t) {
 }
 
 function togglePlayPreview(id, url) {
+    if (window.miniPlayer) {
+        const track = filteredTracks.find(t => t.id === id) || allTracks.find(t => t.id === id) || { id, previewUrl: url };
+        window.miniPlayer.toggleTrack(track, filteredTracks);
+        return;
+    }
+
     if (currentAudio && currentPlayingId === id) {
         if (currentAudio.paused) {
             currentAudio.play();

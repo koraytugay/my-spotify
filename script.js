@@ -47,12 +47,12 @@ if (typeof getSpotifyLink === 'undefined') {
     };
 }
 
-let allSongs = [];
-let filteredSongs = [];
-let currentSort = 'artist-asc';
-let currentViewMode = 'compact';
-let currentAudio = null;
-let currentPlayingId = null;
+var allSongs = [];
+var filteredSongs = [];
+var currentSort = 'artist-asc';
+var currentViewMode = 'compact';
+var currentAudio = null;
+var currentPlayingId = null;
 
 async function init() {
     const loadingEl = document.getElementById('loading');
@@ -73,6 +73,13 @@ async function init() {
         if (controlsEl) controlsEl.style.display = 'flex';
 
         loadThemePreference();
+
+        if (window.miniPlayer) {
+            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
+                currentPlayingId = isPlaying ? currentTrackId : null;
+                renderSongs();
+            });
+        }
     } catch (e) {
         console.error('Error initializing:', e);
         if (loadingEl) {
@@ -190,10 +197,10 @@ function renderSongs() {
 
 function createSongCard(song) {
     const card = document.createElement('div');
-    card.className = 'song-card';
+    const isPlaying = currentPlayingId === song.id;
+    card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
 
     const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
-    const isPlaying = currentPlayingId === song.id;
 
     // Artist text
     const artistText = Array.isArray(song.artists) && song.artists.length > 0 
@@ -211,11 +218,9 @@ function createSongCard(song) {
     card.innerHTML = `
         <div class="cover-wrapper">
             <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy">
-            ${song.previewUrl ? `
-                <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl}')" title="${isPlaying ? 'Pause Preview' : 'Play Preview'}">
-                    ${isPlaying ? '⏸' : '▶'}
-                </button>
-            ` : ''}
+            <button class="play-btn-overlay" onclick="togglePlayPreview('${song.id}', '${song.previewUrl || ''}')" title="${isPlaying ? 'Pause' : 'Play'}">
+                ${isPlaying ? '⏸' : '▶'}
+            </button>
         </div>
         <div class="song-details">
             <div class="song-title">${song.name}</div>
@@ -234,6 +239,12 @@ function createSongCard(song) {
 }
 
 function togglePlayPreview(id, url) {
+    if (window.miniPlayer) {
+        const song = filteredSongs.find(s => s.id === id) || allSongs.find(s => s.id === id) || { id, previewUrl: url };
+        window.miniPlayer.toggleTrack(song, filteredSongs);
+        return;
+    }
+
     if (currentAudio && currentPlayingId === id) {
         if (currentAudio.paused) {
             currentAudio.play();

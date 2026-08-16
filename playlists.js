@@ -39,9 +39,10 @@ if (typeof getSpotifyLinkAttrs === 'undefined') {
     };
 }
 
-let allPlaylists = [];
-let filteredPlaylists = [];
-let currentSort = 'name-asc';
+var allPlaylists = [];
+var filteredPlaylists = [];
+var currentSort = 'name-asc';
+var currentPlayingPlaylistId = null;
 
 async function initPlaylists() {
     const loadingEl = document.getElementById('loading');
@@ -57,6 +58,13 @@ async function initPlaylists() {
 
         loadingEl.style.display = 'none';
         controlsEl.style.display = 'flex';
+
+        if (window.miniPlayer) {
+            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
+                currentPlayingPlaylistId = isPlaying ? currentTrackId : null;
+                renderPlaylists();
+            });
+        }
     } catch (e) {
         console.error('Error loading playlists:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load playlists. Run <code>npm run sync</code> first.</p>`;
@@ -100,7 +108,8 @@ function renderPlaylists() {
 
     filteredPlaylists.forEach(p => {
         const card = document.createElement('div');
-        card.className = 'song-card';
+        const isPlaying = currentPlayingPlaylistId === p.id;
+        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
         const cover = p.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
         const trackCount = p.tracks?.length || p.tracksTotal || 0;
         const playlistUrl = `playlist.html?id=${encodeURIComponent(p.id)}`;
@@ -111,6 +120,9 @@ function renderPlaylists() {
                 <a href="${playlistUrl}">
                     <img src="${cover}" alt="${p.name}" class="cover-img" loading="lazy">
                 </a>
+                <button class="play-btn-overlay" onclick="togglePlayPlaylist('${p.id}')" title="${isPlaying ? 'Pause' : 'Play Playlist'}">
+                    ${isPlaying ? '⏸' : '▶'}
+                </button>
             </div>
             <div class="song-details">
                 <div class="song-title">
@@ -130,6 +142,13 @@ function renderPlaylists() {
 
         grid.appendChild(card);
     });
+}
+
+function togglePlayPlaylist(id) {
+    const playlist = (filteredPlaylists || []).find(p => p.id === id) || (allPlaylists || []).find(p => p.id === id) || { id };
+    if (window.miniPlayer) {
+        window.miniPlayer.playItem(playlist, 'playlist');
+    }
 }
 
 function toggleDarkMode(isDark) {

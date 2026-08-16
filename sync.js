@@ -311,10 +311,42 @@ async function main() {
 
     // 4. Saved Albums
     const rawAlbums = await fetchAllPages('https://api.spotify.com/v1/me/albums?limit=50', token, 'Saved Albums');
-    const albums = rawAlbums.map(item => {
+    const albums = [];
+    for (const item of rawAlbums) {
         const a = item.album;
-        if (!a) return null;
-        return {
+        if (!a) continue;
+
+        let rawTracks = a.tracks?.items || [];
+        // If album has more tracks than returned in first page, fetch remaining
+        if (a.total_tracks > rawTracks.length) {
+            try {
+                const fullTracks = await fetchAllPages(`https://api.spotify.com/v1/albums/${a.id}/tracks?limit=50`, token, `Album ${a.name}`);
+                if (Array.isArray(fullTracks) && fullTracks.length > 0) {
+                    rawTracks = fullTracks;
+                }
+            } catch (e) {}
+        }
+
+        const tracks = rawTracks.map((t, idx) => ({
+            id: t.id,
+            name: t.name,
+            trackNumber: t.track_number || idx + 1,
+            artists: (t.artists || []).map(art => ({ id: art.id, name: art.name })),
+            artistNames: (t.artists || []).map(art => art.name).join(', ') || (a.artists || []).map(art => art.name).join(', '),
+            album: {
+                id: a.id,
+                name: a.name,
+                releaseYear: a.release_date ? a.release_date.substring(0, 4) : 'Unknown'
+            },
+            coverUrl: a.images?.[0]?.url || '',
+            thumbnailUrl: a.images?.[a.images.length - 1]?.url || a.images?.[0]?.url || '',
+            durationMs: t.duration_ms,
+            durationFormatted: formatDuration(t.duration_ms),
+            spotifyUrl: t.external_urls?.spotify,
+            uri: t.uri || `spotify:track:${t.id}`
+        }));
+
+        albums.push({
             id: a.id,
             name: a.name,
             artists: (a.artists || []).map(art => ({ id: art.id, name: art.name })),
@@ -322,13 +354,14 @@ async function main() {
             releaseDate: a.release_date,
             releaseYear: a.release_date ? a.release_date.substring(0, 4) : 'Unknown',
             totalTracks: a.total_tracks,
+            tracks: tracks,
             coverUrl: a.images?.[0]?.url || '',
             spotifyUrl: a.external_urls?.spotify,
             addedAt: item.added_at
-        };
-    }).filter(Boolean);
+        });
+    }
     writeJson(path.join(dataDir, 'albums.json'), albums);
-    console.log(`💾 Saved ${albums.length} Saved Albums to data/albums.json\n`);
+    console.log(`💾 Saved ${albums.length} Saved Albums with all tracklists to data/albums.json\n`);
 
     // 4.5 Followed Artists
     console.log('👥 Fetching Followed Artists...');

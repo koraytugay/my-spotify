@@ -39,9 +39,9 @@ if (typeof getSpotifyLinkAttrs === 'undefined') {
     };
 }
 
-let allArtists = [];
-let filteredArtists = [];
-let currentSort = 'name-asc';
+var allArtists = [];
+var filteredArtists = [];
+var currentSort = 'name-asc';
 
 async function initArtists() {
     const loadingEl = document.getElementById('loading');

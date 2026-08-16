@@ -39,9 +39,10 @@ if (typeof getSpotifyLinkAttrs === 'undefined') {
     };
 }
 
-let allAlbums = [];
-let filteredAlbums = [];
-let currentSort = 'artist-asc';
+var allAlbums = [];
+var filteredAlbums = [];
+var currentSort = 'artist-asc';
+var currentPlayingAlbumId = null;
 
 async function initAlbums() {
     const loadingEl = document.getElementById('loading');
@@ -58,6 +59,13 @@ async function initAlbums() {
 
         loadingEl.style.display = 'none';
         controlsEl.style.display = 'flex';
+
+        if (window.miniPlayer) {
+            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
+                currentPlayingAlbumId = isPlaying ? currentTrackId : null;
+                renderAlbums();
+            });
+        }
     } catch (e) {
         console.error('Error loading albums:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load albums. Run <code>npm run sync</code> first.</p>`;
@@ -173,7 +181,8 @@ function renderAlbums() {
 
     filteredAlbums.forEach(a => {
         const card = document.createElement('div');
-        card.className = 'song-card';
+        const isPlaying = currentPlayingAlbumId === a.id;
+        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
         const cover = a.coverUrl || 'https://via.placeholder.com/300x300?text=Album';
 
         let artistsHtml = '';
@@ -196,6 +205,9 @@ function renderAlbums() {
         card.innerHTML = `
             <div class="cover-wrapper">
                 <img src="${cover}" alt="${a.name}" class="cover-img" loading="lazy">
+                <button class="play-btn-overlay" onclick="togglePlayAlbum('${a.id}')" title="${isPlaying ? 'Pause' : 'Play Album'}">
+                    ${isPlaying ? '⏸' : '▶'}
+                </button>
             </div>
             <div class="song-details">
                 <div class="song-title">${a.name}</div>
@@ -213,6 +225,13 @@ function renderAlbums() {
 
         grid.appendChild(card);
     });
+}
+
+function togglePlayAlbum(id) {
+    const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
+    if (window.miniPlayer) {
+        window.miniPlayer.playItem(album, 'album');
+    }
 }
 
 function toggleDarkMode(isDark) {
