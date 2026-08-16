@@ -1057,7 +1057,7 @@ body.has-mini-player {
     border-radius: 18px;
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.06);
     transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
-    width: 352px;
+    width: 380px;
     max-width: calc(100vw - 32px);
     overflow: visible;
 }
@@ -1126,6 +1126,7 @@ body.dark-mode .handle-pill {
 
 .mini-player-embed-wrap {
     width: 100%;
+    min-height: 500px;
     border-radius: 12px;
     overflow: hidden;
     background: #121212;

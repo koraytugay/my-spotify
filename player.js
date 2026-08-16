@@ -96,7 +96,7 @@
 
                 const options = {
                     width: '100%',
-                    height: '352',
+                    height: '500',
                     uri: defaultUri
                 };
 
@@ -409,7 +409,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="352" 
+                            height="500" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
@@ -462,7 +462,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="352" 
+                            height="500" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
