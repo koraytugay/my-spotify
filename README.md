@@ -50,3 +50,22 @@ npm run sync
    * `SPOTIFY_CLIENT_SECRET`
    * `SPOTIFY_REFRESH_TOKEN`
 3. The workflow in `.github/workflows/update-spotify-backup.yml` will automatically run daily at 18:00 UTC (and can also be triggered manually under the **Actions** tab).
+
+---
+
+## 🎭 Mood & Tempo Enrichment (MusicBrainz & AcousticBrainz)
+
+To classify and tag your library songs with **BPM**, **tempo** (slow, mid-tempo, fast), and **moods** (Ballads, High Energy, Acoustic, Chill, Party):
+
+```bash
+npm run enrich-moods
+```
+
+### How It Works:
+1. **MusicBrainz API**: Searches each track by title and artist to retrieve its MusicBrainz Recording ID (MBID).
+2. **AcousticBrainz API**: Fetches high-level (mood, acousticness, aggressiveness, happiness, sadness) and low-level audio analysis (exact BPM, key, rhythm).
+3. **Local Dataset**: Saves all enriched classifications into `data/song-moods.json`.
+4. **Smart Mix Integration**: Unlocks instant mood preset filters in the **Smart Mix** generator (e.g., *🕯️ Ballads & Slow Jams*, *⚡ High Energy*, *🎸 Acoustic & Unplugged*, *☕ Chill & Relaxed*).
+
+> **Note on Fallback APIs:**
+> If a track is not present in AcousticBrainz or if broader folksonomy tags are desired in the future, the **Last.fm API** (`track.getTopTags` / `artist.getTopTags`) is available as an alternative crowd-sourced tagging source.

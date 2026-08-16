@@ -59,6 +59,7 @@ if (typeof getSpotifyLinkAttrs === 'undefined') {
 var allLikedSongs = [];
 var allAlbums = [];
 var allArtists = [];
+var allSongMoods = {};
 var selectedArtistNames = new Set();
 var currentMixTracks = [];
 var currentMixTitle = 'Curated Smart Mix';
@@ -73,15 +74,17 @@ async function initSmartMix() {
     if (contentEl) contentEl.style.display = 'none';
 
     try {
-        const [songs, albums, artists] = await Promise.all([
+        const [songs, albums, artists, moods] = await Promise.all([
             getLikedSongs(),
             getSavedAlbums(),
-            getFollowedArtists()
+            getFollowedArtists(),
+            typeof getSongMoods === 'function' ? getSongMoods() : Promise.resolve({})
         ]);
 
         allLikedSongs = songs || [];
         allAlbums = albums || [];
         allArtists = artists || [];
+        allSongMoods = moods || {};
 
         renderArtistChips();
 
@@ -358,6 +361,38 @@ function triggerPresetMix(key, autoScroll = true) {
             return year && year >= 1990 && year <= 2009;
         });
         tracks = shuffleArray(modernTracks).slice(0, 25);
+    } else if (key === 'ballads') {
+        title = '🕯️ Ballads & Slow Jams';
+        const ballads = allTracks.filter(s => {
+            const m = allSongMoods[s.id];
+            if (m && (m.isBallad || m.tempoCategory === 'slow')) return true;
+            return /\b(ballad|slow|tears|lonely|heart|love|acoustic|unplugged|heaven|forever|rain|farewell|sorrow|remember)\b/i.test(s.name || '');
+        });
+        tracks = shuffleArray(ballads).slice(0, 25);
+    } else if (key === 'high-energy') {
+        title = '⚡ High Energy & Workout';
+        const highEnergy = allTracks.filter(s => {
+            const m = allSongMoods[s.id];
+            if (m && (m.isHighEnergy || m.tempoCategory === 'fast' || (m.bpm && m.bpm > 135))) return true;
+            return s.durationMs && s.durationMs > 0 && s.durationMs < 240000;
+        });
+        tracks = shuffleArray(highEnergy).slice(0, 25);
+    } else if (key === 'acoustic') {
+        title = '🎸 Acoustic & Unplugged';
+        const acousticTracks = allTracks.filter(s => {
+            const m = allSongMoods[s.id];
+            if (m && m.isAcoustic) return true;
+            return /\b(acoustic|unplugged|piano|strings|instrumental|session)\b/i.test(s.name || '');
+        });
+        tracks = shuffleArray(acousticTracks).slice(0, 25);
+    } else if (key === 'chill') {
+        title = '☕ Chill & Relaxed';
+        const chillTracks = allTracks.filter(s => {
+            const m = allSongMoods[s.id];
+            if (m && (m.isChill || m.tempoCategory === 'slow' || m.tempoCategory === 'mid-tempo')) return true;
+            return true;
+        });
+        tracks = shuffleArray(chillTracks).slice(0, 25);
     } else if (key === 'mega') {
         title = '🎲 Mega 50 Library Shuffle';
         // Group entire library by primary artist for maximum diversity
