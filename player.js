@@ -159,8 +159,23 @@
                                 this.updateUIState();
                                 this.notifyStateChange();
                             }
-                        } else if (this.isPlaying && maxPositionSeen > 15000 && pos < 2000) {
-                            // Spotify advanced to next track in album/playlist internally
+                        } else if (dur > 0 && Array.isArray(this.playlist) && this.playlist.length > 1) {
+                            // Check if current stream duration matches a different track in this album/playlist
+                            const currentDur = this.currentTrack?.durationMs || 0;
+                            if (Math.abs(dur - currentDur) > 2500) {
+                                const matchingTrack = this.playlist.find(t => t.durationMs && Math.abs(t.durationMs - dur) < 2000);
+                                if (matchingTrack && matchingTrack.id !== this.currentTrack?.id) {
+                                    this.currentTrack = matchingTrack;
+                                    maxPositionSeen = pos;
+                                    this.displayTrackInfo(matchingTrack, this.currentType || 'track');
+                                    this.updateUIState();
+                                    this.notifyStateChange();
+                                }
+                            }
+                        }
+
+                        // Advance when position drops back to start after playing
+                        if (this.isPlaying && maxPositionSeen > 10000 && pos < 2500) {
                             const currentIndex = (this.playlist || []).findIndex(t => t.id === this.currentTrack?.id);
                             if (currentIndex !== -1 && currentIndex + 1 < this.playlist.length) {
                                 const nextTrack = this.playlist[currentIndex + 1];
