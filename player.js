@@ -29,29 +29,50 @@
             playerEl.id = 'spotify-mini-player';
             playerEl.className = `mini-player-container ${this.isCollapsed ? 'collapsed' : ''}`;
             playerEl.innerHTML = `
-                <!-- Minimalist Left Drawer Pull Tab -->
-                <div class="mini-player-handle" id="mini-player-handle" title="Toggle Spotify Player Drawer">
-                    <div class="handle-drawer-tab">
-                        <span id="handle-tab-icon" class="handle-tab-icon">
-                            <svg class="handle-spotify-svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
-                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
-                            </svg>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="mini-player-dock">
-                    <!-- Top Status Bar for Liked Songs and Track Meta -->
+                <!-- Tall Sidebar Dock on Right -->
+                <div class="mini-player-dock" id="mini-player-dock">
+                    <!-- Top Status Bar -->
                     <div class="mini-player-topbar" id="mini-player-topbar">
                         <button type="button" class="mini-player-liked-badge" id="mini-player-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
                             <span class="liked-heart-icon" id="mini-player-liked-icon">💚</span>
                         </button>
-                        <button type="button" class="mini-player-close-btn" id="mini-player-close-btn" title="Collapse Player">✕</button>
+                        <button type="button" class="mini-player-close-btn" id="mini-player-close-btn" title="Minimize to Bottom Bar">✕</button>
                     </div>
 
                     <!-- Spotify Interactive Embed Container Slot -->
                     <div class="mini-player-embed-wrap" id="mini-embed-wrap">
                         <div id="mini-spotify-embed-slot"></div>
+                    </div>
+                </div>
+
+                <!-- Floating Island Bottom Audio Dock (Visible when Minimized) -->
+                <div class="mini-player-bottom-bar" id="mini-player-bottom-bar">
+                    <div class="bottom-bar-inner">
+                        <!-- Left: Track info & Like -->
+                        <div class="bottom-bar-track-info" id="bottom-bar-track-info">
+                            <img id="bottom-bar-thumb" class="bottom-bar-thumb" src="" alt="" style="display: none;">
+                            <div class="bottom-bar-text">
+                                <div class="bottom-bar-title" id="bottom-bar-title">Spotify Player</div>
+                                <div class="bottom-bar-artist" id="bottom-bar-artist">Click Expand to view full player</div>
+                            </div>
+                            <button type="button" class="mini-player-liked-badge bottom-bar-liked-badge" id="bottom-bar-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
+                                <span class="liked-heart-icon" id="bottom-bar-liked-icon">💚</span>
+                            </button>
+                        </div>
+
+                        <!-- Center: Playback Controls -->
+                        <div class="bottom-bar-controls" id="bottom-bar-controls">
+                            <button type="button" class="bottom-ctrl-btn prev-btn" id="bottom-bar-prev-btn" title="Previous Song (P)">⏮</button>
+                            <button type="button" class="bottom-ctrl-btn play-pause-btn" id="bottom-bar-play-btn" title="Play / Pause (Space)">
+                                <span id="bottom-bar-play-icon">▶</span>
+                            </button>
+                            <button type="button" class="bottom-ctrl-btn next-btn" id="bottom-bar-next-btn" title="Next Song (N)">⏭</button>
+                        </div>
+
+                        <!-- Right: Expand -->
+                        <div class="bottom-bar-actions">
+                            <button type="button" class="bottom-bar-expand-btn" id="bottom-bar-expand-btn" title="Expand to Sidebar">⤢ Expand</button>
+                        </div>
                     </div>
                 </div>
             `;
@@ -248,6 +269,9 @@
         }
 
         expand() {
+            const playerEl = document.getElementById('spotify-mini-player');
+            if (playerEl) playerEl.style.display = '';
+            document.body.classList.add('has-mini-player');
             if (this.isCollapsed) {
                 this.toggleCollapse();
             }
@@ -257,6 +281,24 @@
             if (!this.isCollapsed) {
                 this.toggleCollapse();
             }
+        }
+
+        hidePlayerCompletely() {
+            this.isCollapsed = true;
+            localStorage.setItem('mini_player_collapsed', 'true');
+            this.saveState();
+            const playerEl = document.getElementById('spotify-mini-player');
+            if (playerEl) {
+                playerEl.classList.add('collapsed');
+                playerEl.style.display = 'none';
+            }
+            document.body.classList.remove('has-mini-player');
+            document.body.classList.remove('player-collapsed');
+            if (this.embedController) {
+                try { this.embedController.pause(); } catch(e) {}
+            }
+            this.isPlaying = false;
+            this.notifyStateChange();
         }
 
         async loadLikedSongsCache() {
@@ -284,6 +326,8 @@
             const track = this.currentTrack;
             const badgeEl = document.getElementById('mini-player-liked-badge');
             const iconEl = document.getElementById('mini-player-liked-icon');
+            const bottomBadgeEl = document.getElementById('bottom-bar-liked-badge');
+            const bottomIconEl = document.getElementById('bottom-bar-liked-icon');
 
             const isLiked = this.checkIsLiked(track);
 
@@ -297,16 +341,32 @@
                 iconEl.textContent = isLiked ? '💚' : '🤍';
             }
 
-            const tabIconEl = document.getElementById('handle-tab-icon');
-            if (tabIconEl) {
-                if (track && isLiked) {
-                    tabIconEl.innerHTML = `<span class="handle-heart-icon">💚</span>`;
-                } else {
-                    tabIconEl.innerHTML = `
-                        <svg class="handle-spotify-svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
-                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
-                        </svg>
-                    `;
+            if (bottomBadgeEl) {
+                bottomBadgeEl.style.display = track ? 'inline-flex' : 'none';
+                bottomBadgeEl.classList.toggle('is-liked', isLiked);
+                bottomBadgeEl.classList.toggle('not-liked', !isLiked);
+                bottomBadgeEl.title = isLiked ? 'Liked on Spotify (Click to Unlike)' : 'Not in Liked (Click to Like)';
+            }
+            if (bottomIconEl) {
+                bottomIconEl.textContent = isLiked ? '💚' : '🤍';
+            }
+
+            const bottomTitle = document.getElementById('bottom-bar-title');
+            const bottomArtist = document.getElementById('bottom-bar-artist');
+            const bottomThumb = document.getElementById('bottom-bar-thumb');
+
+            if (track) {
+                if (bottomTitle) bottomTitle.textContent = track.name || 'Playing Song';
+                const artistStr = track.artistNames || (track.artists && track.artists[0]?.name) || '';
+                if (bottomArtist) bottomArtist.textContent = artistStr || this.contextTitle || '';
+                if (bottomThumb) {
+                    const imgUrl = track.thumbnailUrl || track.coverUrl || track.album?.coverUrl || '';
+                    if (imgUrl) {
+                        bottomThumb.src = imgUrl;
+                        bottomThumb.style.display = 'block';
+                    } else {
+                        bottomThumb.style.display = 'none';
+                    }
                 }
             }
         }
@@ -440,19 +500,39 @@
         }
 
         bindEvents() {
-            const handleEl = document.getElementById('mini-player-handle');
-            if (handleEl) {
-                handleEl.addEventListener('click', () => this.toggleCollapse());
-            }
-
             const likedBadge = document.getElementById('mini-player-liked-badge');
             if (likedBadge) {
                 likedBadge.addEventListener('click', () => this.toggleLikeCurrentTrack());
             }
 
+            const bottomLikedBadge = document.getElementById('bottom-bar-liked-badge');
+            if (bottomLikedBadge) {
+                bottomLikedBadge.addEventListener('click', () => this.toggleLikeCurrentTrack());
+            }
+
+            const bottomPrevBtn = document.getElementById('bottom-bar-prev-btn');
+            if (bottomPrevBtn) {
+                bottomPrevBtn.addEventListener('click', () => this.playPrevious());
+            }
+
+            const bottomPlayBtn = document.getElementById('bottom-bar-play-btn');
+            if (bottomPlayBtn) {
+                bottomPlayBtn.addEventListener('click', () => this.togglePlayPause());
+            }
+
+            const bottomNextBtn = document.getElementById('bottom-bar-next-btn');
+            if (bottomNextBtn) {
+                bottomNextBtn.addEventListener('click', () => this.playNext());
+            }
+
             const closeBtn = document.getElementById('mini-player-close-btn');
             if (closeBtn) {
                 closeBtn.addEventListener('click', () => this.collapse());
+            }
+
+            const expandBtn = document.getElementById('bottom-bar-expand-btn');
+            if (expandBtn) {
+                expandBtn.addEventListener('click', () => this.expand());
             }
 
             // Global Keyboard Shortcuts (Space: Play/Pause, N/Shift+Right: Next, P/Shift+Left: Prev, R: Random)
@@ -582,8 +662,9 @@
             this.displayTrackInfo(activeTrack, type);
             this.updateEmbedMode(type);
 
-            // Automatically expand the Spotify Player dock in the bottom-right corner
-            this.expand();
+            const playerEl = document.getElementById('spotify-mini-player');
+            if (playerEl) playerEl.style.display = '';
+            document.body.classList.add('has-mini-player');
 
             // For Albums and Playlists, pass the container URI so Spotify natively streams all tracks in background!
             let uri;
@@ -634,8 +715,9 @@
 
             this.displayTrackInfo(track, this.currentType || 'track');
 
-            // Automatically expand the Spotify Player dock in the bottom-right corner
-            this.expand();
+            const playerEl = document.getElementById('spotify-mini-player');
+            if (playerEl) playerEl.style.display = '';
+            document.body.classList.add('has-mini-player');
 
             const uri = track.uri || `spotify:track:${track.id}`;
 
@@ -765,9 +847,14 @@
 
         updateUIState() {
             const playIcon = document.getElementById('mini-player-play-icon');
+            const bottomPlayIcon = document.getElementById('bottom-bar-play-icon');
             const eq = document.getElementById('mini-player-eq');
+            const iconText = this.isPlaying ? '⏸' : '▶';
             if (playIcon) {
-                playIcon.textContent = this.isPlaying ? '⏸' : '▶';
+                playIcon.textContent = iconText;
+            }
+            if (bottomPlayIcon) {
+                bottomPlayIcon.textContent = iconText;
             }
             if (eq) {
                 eq.classList.toggle('playing', !!this.isPlaying);
