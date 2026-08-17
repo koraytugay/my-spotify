@@ -700,7 +700,7 @@ async function playCurrentMix() {
     const playBtn = document.getElementById('play-mix-btn');
     const origText = playBtn ? playBtn.innerHTML : '▶ Play Mix';
 
-    // 1. If Spotify token is available, create/update playlist first, await confirmation, then play!
+    // 1. If Spotify token is available, create/update playlist first, await confirmation & CDN propagation, then play!
     const token = await getValidSpotifyToken().catch(() => null);
 
     if (token) {
@@ -712,6 +712,13 @@ async function playCurrentMix() {
         try {
             const playlistId = await syncCurrentMixToSpotify(true);
             if (playlistId && window.miniPlayer) {
+                if (playBtn) {
+                    playBtn.innerHTML = `Loading Music...`;
+                }
+
+                // Wait 1.6s for Spotify edge CDN to propagate the newly replaced items
+                await new Promise(resolve => setTimeout(resolve, 1600));
+
                 // Play native Spotify Playlist container for continuous background playback
                 window.miniPlayer.playItem({ id: playlistId, name: currentMixTitle || 'My Smart Mix', tracks: currentMixTracks }, 'playlist');
                 return;
