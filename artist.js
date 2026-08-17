@@ -153,20 +153,29 @@ async function initArtistDetail() {
     }
 }
 
+function shuffleArray(array) {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
 function renderArtistAlbums() {
     const grid = document.getElementById('albums-grid');
     const noAlbums = document.getElementById('no-albums');
-    const countBadge = document.getElementById('albums-count-badge');
-
-    if (countBadge) countBadge.textContent = filteredAlbums.length;
+    const mixBtn = document.getElementById('mix-all-albums-btn');
 
     if (filteredAlbums.length === 0) {
         grid.innerHTML = '';
-        noAlbums.style.display = 'block';
+        if (noAlbums) noAlbums.style.display = 'block';
+        if (mixBtn) mixBtn.style.display = 'none';
         return;
     }
 
-    noAlbums.style.display = 'none';
+    if (noAlbums) noAlbums.style.display = 'none';
+    if (mixBtn) mixBtn.style.display = 'inline-flex';
     grid.innerHTML = '';
 
     filteredAlbums.forEach(a => {
@@ -211,11 +220,99 @@ function togglePlayAlbum(id) {
     }
 }
 
+async function mixAllArtistAlbums() {
+    const albums = allArtistAlbums || filteredAlbums || [];
+    if (!albums || albums.length === 0) {
+        alert('No saved albums found for this artist.');
+        return;
+    }
+
+    const playBtn = document.getElementById('mix-all-albums-btn');
+    const origText = playBtn ? playBtn.innerHTML : 'Mix All Album Tracks';
+    const artistName = (artistInfo && artistInfo.name) ? artistInfo.name : 'Artist';
+    const mixTitle = `${artistName} - Albums Mix`;
+
+    // 1. Collect all tracks across all saved albums
+    let combinedTracks = [];
+    const seenTrackKeys = new Set();
+
+    albums.forEach(album => {
+        if (Array.isArray(album.tracks)) {
+            album.tracks.forEach(t => {
+                if (!t) return;
+                const key = t.id || `${(t.name || '').toLowerCase()}:::${(album.name || '').toLowerCase()}`;
+                if (!seenTrackKeys.has(key)) {
+                    seenTrackKeys.add(key);
+                    combinedTracks.push({
+                        ...t,
+                        artistNames: t.artistNames || (t.artists && t.artists.map(art => art.name).join(', ')) || artistName,
+                        album: {
+                            id: album.id,
+                            name: album.name,
+                            coverUrl: album.coverUrl,
+                            releaseYear: album.releaseYear
+                        },
+                        coverUrl: t.coverUrl || album.coverUrl
+                    });
+                }
+            });
+        }
+    });
+
+    if (combinedTracks.length === 0) {
+        alert('No tracks found in the saved albums.');
+        return;
+    }
+
+    // 2. Shuffle tracks
+    const shuffledTracks = shuffleArray(combinedTracks);
+
+    const token = typeof getValidSpotifyToken === 'function' ? await getValidSpotifyToken().catch(() => null) : null;
+
+    if (token && typeof syncTracksToSmartMix === 'function') {
+        if (playBtn) {
+            playBtn.disabled = true;
+            playBtn.innerHTML = `Creating Playlist...`;
+        }
+
+        try {
+            const playlistId = await syncTracksToSmartMix(
+                shuffledTracks, 
+                mixTitle, 
+                true
+            );
+
+            if (playlistId && window.miniPlayer) {
+                if (playBtn) playBtn.innerHTML = `Loading Music...`;
+                await new Promise(resolve => setTimeout(resolve, 1600));
+                window.miniPlayer.playItem({ id: playlistId, name: mixTitle, tracks: shuffledTracks }, 'playlist');
+                return;
+            }
+        } catch (e) {
+            console.error('Error creating album mix playlist:', e);
+        } finally {
+            if (playBtn) {
+                playBtn.disabled = false;
+                playBtn.innerHTML = origText;
+            }
+        }
+    }
+
+    // Fallback: If not logged in via Spotify OAuth, play the tracks queue directly in collection mode
+    if (window.miniPlayer) {
+        window.miniPlayer.playlist = shuffledTracks;
+        window.miniPlayer.currentType = 'playlist';
+        window.miniPlayer.contextTitle = mixTitle;
+        window.miniPlayer.playTrack(shuffledTracks[0], shuffledTracks);
+    }
+}
+window.mixAllArtistAlbums = mixAllArtistAlbums;
+
 async function playAllArtistLikedSongs() {
     if (!allArtistSongs || allArtistSongs.length === 0) return;
 
     const playBtn = document.getElementById('play-all-liked-btn');
-    const origText = playBtn ? playBtn.innerHTML : '▶ Play All Liked Songs';
+    const origText = playBtn ? playBtn.innerHTML : 'Play All Liked Songs';
     const artistName = (artistInfo && artistInfo.name) ? artistInfo.name : 'Artist';
     const playlistTitle = `${artistName} Liked Songs`;
 
@@ -317,19 +414,17 @@ function renderArtistSongs() {
         }
 
         card.innerHTML = `
-            <div class="cover-wrapper" onclick="togglePlayPreview('${song.id}')" style="cursor: pointer;">
+            <div class="cover-wrapper">
                 <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=No+Cover';">
-                <button class="play-btn-overlay" title="Play Track">
-                    ▶
-                </button>
             </div>
             <div class="song-details">
-                <div class="song-title">
-                    <span onclick="togglePlayPreview('${song.id}')" class="song-title-link" style="cursor: pointer;">${song.name}</span>
-                </div>
+                <div class="song-title">${song.name}</div>
                 ${metaSubtext ? `<div class="song-artist">${metaSubtext}</div>` : ''}
             </div>
-            <div class="song-meta" style="justify-content: flex-end; align-items: center;">
+            <div class="song-meta" style="display: flex; align-items: center; gap: 16px; margin-left: auto;">
+                <button class="album-card-btn album-card-play-btn" onclick="togglePlayPreview('${song.id}')" title="Play Track" aria-label="Play Track">
+                    ▶
+                </button>
                 <a href="${trackSpotifyUrl}" ${trackTarget} class="album-card-btn album-card-spotify-btn" title="Open in Spotify" aria-label="Open in Spotify">
                     <svg viewBox="0 0 24 24">
                         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>

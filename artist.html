@@ -53,7 +53,12 @@
 
             <!-- Albums Section -->
             <div id="albums-section">
-                <h3 class="section-heading">Albums</h3>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin: 32px 0 16px 0; flex-wrap: wrap; gap: 12px;">
+                    <h3 class="section-heading" style="margin: 0; line-height: 1;">Albums</h3>
+                    <button id="mix-all-albums-btn" class="btn btn-primary" onclick="mixAllArtistAlbums()" style="display: inline-flex; align-items: center; gap: 8px;">
+                        Mix All Album Tracks
+                    </button>
+                </div>
                 <div id="albums-grid" class="music-grid view-compact"></div>
 
                 <div id="no-albums" class="empty-box" style="display: none;">
@@ -63,10 +68,10 @@
 
             <!-- Liked Songs Section -->
             <div id="liked-songs-section" style="margin-top: 40px;">
-                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
-                    <h3 class="section-heading" style="margin-bottom: 0;">💚 Liked Songs</h3>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin: 32px 0 16px 0; flex-wrap: wrap; gap: 12px;">
+                    <h3 class="section-heading" style="margin: 0; line-height: 1;">Liked Songs</h3>
                     <button id="play-all-liked-btn" class="btn btn-primary" onclick="playAllArtistLikedSongs()" style="display: inline-flex; align-items: center; gap: 8px;">
-                        ▶ Play All Liked Songs
+                        Play All Liked Songs
                     </button>
                 </div>
                 <div id="songs-grid" class="music-grid view-list"></div>
