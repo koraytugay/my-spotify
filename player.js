@@ -28,6 +28,7 @@
             const playerEl = document.createElement('div');
             playerEl.id = 'spotify-mini-player';
             playerEl.className = `mini-player-container ${this.isCollapsed ? 'collapsed' : ''}`;
+            playerEl.style.display = 'none'; // Hidden by default until playback starts
             playerEl.innerHTML = `
                 <!-- Tall Sidebar Dock on Right -->
                 <div class="mini-player-dock" id="mini-player-dock">
@@ -78,8 +79,6 @@
             `;
 
             document.body.appendChild(playerEl);
-            document.body.classList.add('has-mini-player');
-            document.body.classList.toggle('player-collapsed', this.isCollapsed);
         }
 
         saveState() {
@@ -108,7 +107,12 @@
                         this.playlist = Array.isArray(state.playlist) ? state.playlist : [];
                         this.contextTitle = state.contextTitle || '';
                         this.isCollapsed = !!state.isCollapsed;
+
+                        const playerEl = document.getElementById('spotify-mini-player');
+                        if (playerEl) playerEl.style.display = '';
+                        document.body.classList.add('has-mini-player');
                         document.body.classList.toggle('player-collapsed', this.isCollapsed);
+
                         this.updateEmbedMode(state.type || 'track');
                         this.displayTrackInfo(state.item, state.type);
                         if (state.isCollapsed) {
