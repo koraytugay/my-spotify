@@ -1094,14 +1094,13 @@ body.dark-mode .mini-player-container {
     border-left: none;
     color: var(--accent);
     box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.4);
-    transition: background-color 0.15s ease, transform 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
     user-select: none;
 }
 
 .handle-drawer-tab:hover {
     background: #242424;
     border-color: rgba(255, 255, 255, 0.3);
-    transform: translateX(3px);
 }
 
 body.dark-mode .handle-drawer-tab {
@@ -1115,8 +1114,8 @@ body.dark-mode .handle-drawer-tab:hover {
 }
 
 .handle-spotify-svg {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     color: var(--accent);
     display: block;
 }
@@ -1124,18 +1123,6 @@ body.dark-mode .handle-drawer-tab:hover {
 .handle-liked-dot {
     font-size: 11px;
     line-height: 1;
-}
-
-.handle-arrow {
-    font-size: 10px;
-    color: var(--text-muted);
-    font-weight: 700;
-    display: inline-block;
-    transition: transform 0.15s ease;
-}
-
-.handle-drawer-tab:hover .handle-arrow {
-    color: #ffffff;
 }
 
 .mini-player-dock {
