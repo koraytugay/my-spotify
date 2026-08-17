@@ -375,13 +375,27 @@
 
             try {
                 const method = nextLiked ? 'PUT' : 'DELETE';
-                const res = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${encodeURIComponent(track.id)}`, {
+                // Spotify's standard library endpoint: /v1/me/library?uris=spotify:track:...
+                const trackUri = `spotify:track:${track.id}`;
+                let res = await fetch(`https://api.spotify.com/v1/me/library?uris=${encodeURIComponent(trackUri)}`, {
                     method: method,
                     headers: {
                         'Authorization': `Bearer ${token}`,
                         'Content-Type': 'application/json'
                     }
                 });
+
+                // Fallback to legacy endpoint if /v1/me/library returns 404
+                if (!res.ok && res.status === 404) {
+                    res = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${encodeURIComponent(track.id)}`, {
+                        method: method,
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: method === 'PUT' ? JSON.stringify({ ids: [track.id] }) : undefined
+                    });
+                }
 
                 if (!res.ok) {
                     // Revert on failure
@@ -392,7 +406,21 @@
                         this.likedSongIds.delete(track.id);
                     }
                     this.updateLikedStatusUI();
-                    console.error(`Failed to update like status (${res.status})`);
+
+                    if (res.status === 403) {
+                        const confirmAuth = confirm(
+                            'Spotify returned 403 Forbidden: Your Spotify login token was issued before the library modify permission was added.\n\nClick OK to re-connect Spotify and grant permission.'
+                        );
+                        if (confirmAuth) {
+                            if (typeof openSpotifyAuthModal === 'function') {
+                                openSpotifyAuthModal();
+                            } else {
+                                window.location.href = 'smart-mix.html';
+                            }
+                        }
+                    } else {
+                        console.error(`Failed to update like status (${res.status})`);
+                    }
                 }
             } catch (e) {
                 // Revert on network error
