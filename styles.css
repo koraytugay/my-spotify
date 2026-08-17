@@ -1153,26 +1153,42 @@ body.dark-mode .handle-drawer-tab:hover {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    padding: 3px 8px;
+    padding: 3px 9px;
     border-radius: 6px;
     font-size: 0.74rem;
     font-weight: 700;
     letter-spacing: 0.02em;
     user-select: none;
-    transition: background 0.15s ease, color 0.15s ease;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
     flex-shrink: 0;
+}
+
+.mini-player-liked-badge:active {
+    transform: scale(0.95);
 }
 
 .mini-player-liked-badge.is-liked {
     background: rgba(29, 185, 84, 0.15);
     color: var(--accent);
-    border: 1px solid rgba(29, 185, 84, 0.35);
+    border: 1px solid rgba(29, 185, 84, 0.4);
+}
+
+.mini-player-liked-badge.is-liked:hover {
+    background: rgba(29, 185, 84, 0.25);
+    border-color: rgba(29, 185, 84, 0.6);
 }
 
 .mini-player-liked-badge.not-liked {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text-muted);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.mini-player-liked-badge.not-liked:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 .liked-heart-icon {

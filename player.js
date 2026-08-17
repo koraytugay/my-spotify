@@ -376,10 +376,125 @@
             }
         }
 
+        async getValidSpotifyToken() {
+            const token = localStorage.getItem('spotify_user_access_token');
+            const expiresAt = parseInt(localStorage.getItem('spotify_token_expires_at') || '0', 10);
+            const refreshToken = localStorage.getItem('spotify_user_refresh_token');
+            const clientId = localStorage.getItem('spotify_client_id');
+
+            if (!token) return null;
+
+            // Refresh if within 2 minutes of expiry
+            if (Date.now() > expiresAt - 120000 && refreshToken && clientId) {
+                try {
+                    const body = new URLSearchParams({
+                        grant_type: 'refresh_token',
+                        refresh_token: refreshToken,
+                        client_id: clientId
+                    });
+                    const res = await fetch('https://accounts.spotify.com/api/token', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                        body: body.toString()
+                    });
+                    if (res.ok) {
+                        const data = await res.json();
+                        localStorage.setItem('spotify_user_access_token', data.access_token);
+                        if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
+                        if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);
+                        localStorage.setItem('spotify_token_expires_at', Date.now() + (data.expires_in * 1000));
+                        return data.access_token;
+                    }
+                } catch (e) {
+                    console.warn('Could not refresh token in player:', e);
+                }
+            }
+
+            return token;
+        }
+
+        async toggleLikeCurrentTrack() {
+            const track = this.currentTrack;
+            if (!track || !track.id) return;
+
+            const token = await this.getValidSpotifyToken();
+            if (!token) {
+                if (typeof openSpotifyAuthModal === 'function') {
+                    openSpotifyAuthModal();
+                } else {
+                    const confirmed = confirm('To save songs to your Spotify Liked Songs, please connect your Spotify account in Smart Mix. Go to Smart Mix now?');
+                    if (confirmed) {
+                        window.location.href = 'smart-mix.html';
+                    }
+                }
+                return;
+            }
+
+            const wasLiked = this.checkIsLiked(track);
+            const nextLiked = !wasLiked;
+
+            // Optimistic instant UI update
+            track.isLiked = nextLiked;
+            if (nextLiked) {
+                this.likedSongIds.add(track.id);
+                const normTitle = this.normalizeTrackName(track.name);
+                const normArtist = this.normalizeArtistName(track.artistNames || (track.artists && track.artists[0]?.name) || '');
+                if (normTitle && normArtist) {
+                    this.likedSongKeySet.add(`${normTitle}:::${normArtist}`);
+                }
+            } else {
+                this.likedSongIds.delete(track.id);
+                const normTitle = this.normalizeTrackName(track.name);
+                const normArtist = this.normalizeArtistName(track.artistNames || (track.artists && track.artists[0]?.name) || '');
+                if (normTitle && normArtist) {
+                    this.likedSongKeySet.delete(`${normTitle}:::${normArtist}`);
+                }
+            }
+            this.updateLikedStatusUI();
+
+            try {
+                const method = nextLiked ? 'PUT' : 'DELETE';
+                const res = await fetch(`https://api.spotify.com/v1/me/tracks?ids=${encodeURIComponent(track.id)}`, {
+                    method: method,
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!res.ok) {
+                    // Revert on failure
+                    track.isLiked = wasLiked;
+                    if (wasLiked) {
+                        this.likedSongIds.add(track.id);
+                    } else {
+                        this.likedSongIds.delete(track.id);
+                    }
+                    this.updateLikedStatusUI();
+                    console.error(`Failed to update like status (${res.status})`);
+                }
+            } catch (e) {
+                // Revert on network error
+                track.isLiked = wasLiked;
+                if (wasLiked) {
+                    this.likedSongIds.add(track.id);
+                } else {
+                    this.likedSongIds.delete(track.id);
+                }
+                this.updateLikedStatusUI();
+                console.error('Network error updating liked track:', e);
+            }
+        }
+
         bindEvents() {
             const handleEl = document.getElementById('mini-player-handle');
             if (handleEl) {
                 handleEl.addEventListener('click', () => this.toggleCollapse());
+            }
+
+            const likedBadge = document.getElementById('mini-player-liked-badge');
+            if (likedBadge) {
+                likedBadge.addEventListener('click', () => this.toggleLikeCurrentTrack());
             }
 
             const closeBtn = document.getElementById('mini-player-close-btn');

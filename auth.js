@@ -48,6 +48,7 @@ if (!CLIENT_ID || !CLIENT_SECRET) {
 
 const SCOPES = [
     'user-library-read',
+    'user-library-modify',
     'playlist-read-private',
     'playlist-read-collaborative',
     'user-follow-read',
