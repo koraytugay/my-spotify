@@ -1084,7 +1084,6 @@ body.dark-mode .mini-player-container {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
     padding: 8px 10px;
     border-radius: 0 10px 10px 0;
     background: rgba(18, 18, 18, 0.96);
@@ -1113,6 +1112,13 @@ body.dark-mode .handle-drawer-tab:hover {
     background: #222222;
 }
 
+.handle-tab-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
 .handle-spotify-svg {
     width: 18px;
     height: 18px;
@@ -1120,9 +1126,10 @@ body.dark-mode .handle-drawer-tab:hover {
     display: block;
 }
 
-.handle-liked-dot {
-    font-size: 11px;
+.handle-heart-icon {
+    font-size: 15px;
     line-height: 1;
+    display: inline-block;
 }
 
 .mini-player-dock {
