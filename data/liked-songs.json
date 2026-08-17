@@ -1,5 +1,32 @@
 [
   {
+    "id": "6ytK9OG2Nlhm0O6YGHo43X",
+    "name": "Gangster Blues",
+    "artists": [
+      {
+        "id": "5KORW1YGiERJqfuYjXMCyz",
+        "name": "Mattafix"
+      }
+    ],
+    "artistNames": "Mattafix",
+    "album": {
+      "id": "57m6FbCoUXfTxw6REFc3RZ",
+      "name": "Signs Of A Struggle",
+      "releaseDate": "2005-10-31",
+      "releaseYear": "2005",
+      "totalTracks": 14
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe2bed47246644df1bec0127",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fe2bed47246644df1bec0127",
+    "durationMs": 259226,
+    "durationFormatted": "4:19",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6ytK9OG2Nlhm0O6YGHo43X",
+    "uri": "spotify:track:6ytK9OG2Nlhm0O6YGHo43X",
+    "addedAt": "2026-08-17T12:54:17Z",
+    "addedDate": "2026-08-17"
+  },
+  {
     "id": "3PG3GhvoWXYHD1xTeKRAfg",
     "name": "Anadolu Ejderi",
     "artists": [
