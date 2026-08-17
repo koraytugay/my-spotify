@@ -140,7 +140,7 @@
 
                 const options = {
                     width: '100%',
-                    height: isSingleTrack ? '152' : '360',
+                    height: '100%',
                     uri: defaultUri
                 };
 
@@ -580,14 +580,12 @@
                 playerEl.classList.toggle('collection-mode', !isSingleTrack);
             }
             if (wrapEl) {
-                const targetH = isSingleTrack ? '152px' : '360px';
-                wrapEl.style.height = targetH;
-                wrapEl.style.flex = `0 0 ${targetH}`;
+                wrapEl.style.height = 'calc(100% - 36px)';
+                wrapEl.style.flex = '1 1 auto';
                 const iframe = wrapEl.querySelector('iframe');
                 if (iframe) {
-                    const hVal = isSingleTrack ? '152' : '360';
-                    iframe.setAttribute('height', hVal);
-                    iframe.style.height = `${hVal}px`;
+                    iframe.setAttribute('height', '100%');
+                    iframe.style.height = '100%';
                 }
             }
         }
@@ -692,12 +690,11 @@
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
                 if (slot) {
-                    const embedHeight = (type === 'track' ? '152' : '360');
                     slot.innerHTML = `
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0" 
                             width="100%" 
-                            height="${embedHeight}" 
+                            height="100%" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
@@ -759,7 +756,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="152" 
+                            height="100%" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
