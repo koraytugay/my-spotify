@@ -91,8 +91,6 @@ async function initArtistDetail() {
             artistInfo.imageUrl = allArtistAlbums[0].coverUrl;
         }
 
-        loadThemePreference();
-
         // Populate Hero Header
         const spotifyUrl = getSpotifyUri(artistInfo, 'artist');
 
@@ -305,23 +303,6 @@ function togglePlayPreview(id) {
         window.miniPlayer.contextTitle = (typeof artistInfo !== 'undefined' && artistInfo?.name) ? artistInfo.name : 'Artist';
         window.miniPlayer.playTrack(song, allArtistSongs);
     }
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {

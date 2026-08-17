@@ -78,8 +78,6 @@ async function initArtists() {
         allArtists = artists || [];
         filteredArtists = [...allArtists];
 
-        loadThemePreference();
-
         const sortSelect = document.getElementById('sort-select');
         currentSort = (sortSelect && sortSelect.value) || 'name-asc';
         sortArtists(currentSort);
@@ -177,23 +175,6 @@ function renderArtists() {
 
         grid.appendChild(card);
     });
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {

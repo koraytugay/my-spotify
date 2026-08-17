@@ -27,8 +27,6 @@ async function initPlaylistDetail() {
             return;
         }
 
-        loadThemePreference();
-
         // Populate Hero Header
         const heroTitleEl = document.getElementById('hero-title');
         if (heroTitleEl) heroTitleEl.textContent = playlistData.name || 'Untitled Playlist';
@@ -288,23 +286,6 @@ function togglePlayPreview(id) {
 function changeViewMode(mode) {
     currentViewMode = mode;
     renderTracks();
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {

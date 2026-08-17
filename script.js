@@ -74,8 +74,6 @@ async function init() {
 
         if (loadingEl) loadingEl.style.display = 'none';
         if (controlsEl) controlsEl.style.display = 'flex';
-
-        loadThemePreference();
     } catch (e) {
         console.error('Error initializing:', e);
         if (loadingEl) {
@@ -264,23 +262,6 @@ function togglePlayPreview(id) {
 function changeViewMode(mode) {
     currentViewMode = mode;
     renderSongs();
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 // Random Song Modal

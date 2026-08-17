@@ -94,8 +94,6 @@ async function initSmartMix() {
         if (loadingEl) loadingEl.style.display = 'none';
         if (contentEl) contentEl.style.display = 'block';
 
-        loadThemePreference();
-
         // If a mix was already generated in this session, restore it seamlessly
         if (currentMixTracks && currentMixTracks.length > 0) {
             renderMixResult(false);
@@ -1262,23 +1260,6 @@ async function syncCurrentMixToSpotify(silent = false) {
 function closeSyncSuccessModal() {
     const modal = document.getElementById('sync-success-modal');
     if (modal) modal.style.display = 'none';
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {

@@ -53,8 +53,6 @@ async function initPlaylists() {
         allPlaylists = playlists || [];
         filteredPlaylists = [...allPlaylists];
 
-        loadThemePreference();
-
         const sortSelect = document.getElementById('sort-select');
         currentSort = (sortSelect && sortSelect.value) || 'name-asc';
         sortPlaylists(currentSort);
@@ -154,23 +152,6 @@ function togglePlayPlaylist(id) {
     if (window.miniPlayer) {
         window.miniPlayer.playItem(playlist, 'playlist');
     }
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {

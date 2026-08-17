@@ -53,7 +53,6 @@ async function initAlbums() {
         allAlbums = albums || [];
         filteredAlbums = [...allAlbums];
 
-        loadThemePreference();
         populateArtistFilter();
 
         const sortSelect = document.getElementById('sort-select');
@@ -237,23 +236,6 @@ function togglePlayAlbum(id) {
         const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
         window.miniPlayer.playItem(album, 'album');
     }
-}
-
-function toggleDarkMode(isDark) {
-    if (isDark) {
-        document.body.classList.add('dark-mode');
-    } else {
-        document.body.classList.remove('dark-mode');
-    }
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-}
-
-function loadThemePreference() {
-    const saved = localStorage.getItem('theme') || 'light';
-    const isDark = saved === 'dark';
-    const toggle = document.getElementById('dark-mode-toggle');
-    if (toggle) toggle.checked = isDark;
-    if (isDark) document.body.classList.add('dark-mode');
 }
 
 if (document.readyState === 'loading') {
