@@ -682,9 +682,24 @@
 
             if (this.embedController) {
                 this.embedController.loadUri(uri);
-                this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
+
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 300);
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 800);
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 1500);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
