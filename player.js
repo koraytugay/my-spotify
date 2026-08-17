@@ -43,10 +43,9 @@
                 <div class="mini-player-dock">
                     <!-- Top Status Bar for Liked Songs and Track Meta -->
                     <div class="mini-player-topbar" id="mini-player-topbar">
-                        <div class="mini-player-liked-badge" id="mini-player-liked-badge" style="display: none;">
+                        <button type="button" class="mini-player-liked-badge" id="mini-player-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
                             <span class="liked-heart-icon" id="mini-player-liked-icon">💚</span>
-                            <span class="liked-status-text" id="mini-player-liked-text">Liked Song</span>
-                        </div>
+                        </button>
                         <div class="mini-player-top-track" id="mini-player-top-track"></div>
                         <button type="button" class="mini-player-close-btn" id="mini-player-close-btn" title="Collapse Player">✕</button>
                     </div>
@@ -292,12 +291,10 @@
                 badgeEl.style.display = track ? 'inline-flex' : 'none';
                 badgeEl.classList.toggle('is-liked', isLiked);
                 badgeEl.classList.toggle('not-liked', !isLiked);
+                badgeEl.title = isLiked ? 'Liked on Spotify (Click to Unlike)' : 'Not in Liked (Click to Like)';
             }
             if (iconEl) {
                 iconEl.textContent = isLiked ? '💚' : '🤍';
-            }
-            if (textEl) {
-                textEl.textContent = isLiked ? 'Liked Song' : 'Not in Liked';
             }
 
             const tabIconEl = document.getElementById('handle-tab-icon');
