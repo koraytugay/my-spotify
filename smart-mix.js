@@ -965,7 +965,6 @@ async function handleSpotifyAuthCallback() {
 
         if (res.ok) {
             const data = await res.json();
-            console.log('Spotify Auth successful! Granted scopes:', data.scope);
             localStorage.setItem('spotify_user_access_token', data.access_token);
             if (data.scope) localStorage.setItem('spotify_granted_scopes', data.scope);
             if (data.refresh_token) localStorage.setItem('spotify_user_refresh_token', data.refresh_token);

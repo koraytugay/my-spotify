@@ -158,7 +158,6 @@ function renderPlaylists() {
 }
 
 function togglePlayPlaylist(id) {
-    console.log('[Playlists Page] 🔘 togglePlayPlaylist clicked for ID:', id);
     const playlist = (filteredPlaylists || []).find(p => p.id === id) || (allPlaylists || []).find(p => p.id === id) || { id };
     if (window.miniPlayer) {
         window.miniPlayer.playItem(playlist, 'playlist');

@@ -241,12 +241,9 @@ function renderAlbums() {
 }
 
 function togglePlayAlbum(id) {
-    console.log('[Albums Page] 🔘 togglePlayAlbum clicked for ID:', id, 'window.miniPlayer:', !!window.miniPlayer);
     if (window.miniPlayer) {
         const album = (filteredAlbums || []).find(a => a.id === id) || (allAlbums || []).find(a => a.id === id) || { id };
         window.miniPlayer.playItem(album, 'album');
-    } else {
-        console.warn('[Albums Page] ⚠️ window.miniPlayer is NOT defined!');
     }
 }
 

@@ -261,7 +261,6 @@ function createSongCard(song) {
 }
 
 function togglePlayPreview(id) {
-    console.log('[Liked Songs] 🔘 togglePlayPreview clicked for ID:', id);
     if (window.miniPlayer) {
         const song = (filteredSongs || []).find(s => s.id === id) || (allSongs || []).find(s => s.id === id) || { id };
         window.miniPlayer.currentType = 'track';

@@ -128,24 +128,19 @@
         initSpotifyIFrameAPI() {
             window.onSpotifyIframeApiReady = (IFrameAPI) => {
                 const element = document.getElementById('mini-spotify-embed-slot');
-                if (!element) {
-                    console.warn('[Spotify Player] ⚠️ #mini-spotify-embed-slot element not found in DOM.');
-                    return;
-                }
+                if (!element) return;
 
                 let defaultUri = 'spotify:track:2hnPh9dWcu0RVdMitsSukF';
                 if (this.currentTrack) {
                     defaultUri = this.currentTrack.uri || `spotify:${this.currentType || 'track'}:${this.currentTrack.id}`;
                 }
 
-                console.log('[Spotify Player] 🔌 Spotify IFrame API ready. Creating EmbedController with URI:', defaultUri);
-
                 const isSingleTrack = (!this.currentType || this.currentType === 'track');
                 this.updateEmbedMode(this.currentType || 'track');
 
                 const options = {
                     width: '100%',
-                    height: isSingleTrack ? '352' : '100%',
+                    height: isSingleTrack ? '152' : '360',
                     uri: defaultUri
                 };
 
@@ -154,7 +149,6 @@
 
                 IFrameAPI.createController(element, options, (EmbedController) => {
                     this.embedController = EmbedController;
-                    console.log('[Spotify Player] ✅ EmbedController created successfully!');
 
                     EmbedController.addListener('playback_update', e => {
                         const isPaused = e.data.isPaused;
@@ -167,14 +161,6 @@
                         const dur = e.data.duration || 0;
                         const newTrackId = e.data.track?.id || (e.data.track?.uri ? e.data.track.uri.split(':')[2] : null) || (e.data.uri ? e.data.uri.split(':')[2] : null);
                         const trackName = e.data.track?.name || e.data.track?.title;
-
-                        console.log('[Spotify Player] 🔄 playback_update:', {
-                            isPaused,
-                            positionMs: Math.round(pos),
-                            durationMs: Math.round(dur),
-                            trackName: trackName || '(none)',
-                            trackId: newTrackId || '(none)'
-                        });
 
                         const currentId = this.currentTrack?.id;
                         if (currentId !== lastActiveTrackId) {
@@ -202,7 +188,6 @@
                             }
 
                             if (found && (this.currentTrack?.id !== found.id || this.currentTrack?.name !== found.name)) {
-                                console.log('[Spotify Player] 🔀 Track synchronized from embed:', found.name);
                                 this.currentTrack = found;
                                 maxPositionSeen = pos;
                                 this.displayTrackInfo(found, this.currentType || 'track');
@@ -246,7 +231,6 @@
                                 if (currentId && currentId !== this.lastEndedTrackId) {
                                     this.lastEndedTrackId = currentId;
                                     maxPositionSeen = 0;
-                                    console.log('[Spotify Player] ⏭ Song finished naturally. Advancing to next track in queue...');
                                     setTimeout(() => {
                                         this.playNext();
                                     }, 300);
@@ -256,11 +240,9 @@
                     });
 
                     EmbedController.addListener('ready', () => {
-                        console.log('[Spotify Player] 🟢 EmbedController "ready" event fired.');
                         if (this.pendingPlayUri) {
                             const uriToPlay = this.pendingPlayUri;
                             this.pendingPlayUri = null;
-                            console.log('[Spotify Player] 🚀 Playing pending URI:', uriToPlay);
                             EmbedController.loadUri(uriToPlay);
                             EmbedController.play();
                             this.isPlaying = true;
@@ -597,12 +579,14 @@
                 playerEl.classList.toggle('collection-mode', !isSingleTrack);
             }
             if (wrapEl) {
-                wrapEl.style.height = isSingleTrack ? '352px' : '100%';
-                wrapEl.style.flex = isSingleTrack ? '0 0 auto' : '1 1 auto';
+                const targetH = isSingleTrack ? '152px' : '360px';
+                wrapEl.style.height = targetH;
+                wrapEl.style.flex = `0 0 ${targetH}`;
                 const iframe = wrapEl.querySelector('iframe');
                 if (iframe) {
-                    iframe.setAttribute('height', isSingleTrack ? '352' : '100%');
-                    iframe.style.height = isSingleTrack ? '352px' : '100%';
+                    const hVal = isSingleTrack ? '152' : '360';
+                    iframe.setAttribute('height', hVal);
+                    iframe.style.height = `${hVal}px`;
                 }
             }
         }
@@ -696,24 +680,18 @@
             }
 
             this.isPlaying = false;
-            console.log('[Spotify Player] 📂 loadItem:', { name: item.name || item.id, type, uri, hasController: !!this.embedController });
 
             if (this.embedController) {
                 try {
-                    console.log('[Spotify Player] ⏸ Calling pause() before loading new URI');
                     this.embedController.pause();
-                } catch(e) {
-                    console.warn('[Spotify Player] ⚠️ pause() threw error:', e);
-                }
-                console.log('[Spotify Player] 💿 Calling loadUri(' + uri + ')');
+                } catch(e) {}
                 this.embedController.loadUri(uri);
                 this.saveState();
             } else {
-                console.log('[Spotify Player] ⏳ EmbedController not ready yet, queuing pending URI:', uri);
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
                 if (slot) {
-                    const embedHeight = (type === 'track' ? '352' : '100%');
+                    const embedHeight = (type === 'track' ? '152' : '360');
                     slot.innerHTML = `
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0" 
@@ -733,10 +711,8 @@
         }
 
         playItem(item, type = 'track', playlist = null) {
-            console.log('[Spotify Player] ▶ playItem called synchronously for:', { name: item?.name || item?.id, type });
             this.loadItem(item, type, playlist);
             if (this.embedController) {
-                console.log('[Spotify Player] ▶ Calling play() for item:', item?.name);
                 this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
@@ -765,23 +741,16 @@
             document.body.classList.toggle('player-collapsed', this.isCollapsed);
 
             const uri = track.uri || `spotify:track:${track.id}`;
-            console.log('[Spotify Player] ▶ playTrack called:', { name: track.name, uri, hasController: !!this.embedController });
 
             if (this.embedController) {
                 try {
-                    console.log('[Spotify Player] ⏸ Calling pause() before loading new track');
                     this.embedController.pause();
-                } catch(e) {
-                    console.warn('[Spotify Player] ⚠️ pause() threw error:', e);
-                }
-                console.log('[Spotify Player] 💿 Calling loadUri(' + uri + ')');
+                } catch(e) {}
                 this.embedController.loadUri(uri);
-                console.log('[Spotify Player] ▶ Calling play() for track:', track.name);
                 this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
             } else {
-                console.log('[Spotify Player] ⏳ EmbedController not ready yet, queuing pending track URI:', uri);
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
                 if (slot) {
@@ -789,7 +758,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="500" 
+                            height="152" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
@@ -814,7 +783,6 @@
         }
 
         togglePlayPause() {
-            console.log('[Spotify Player] ⏯ togglePlayPause called. Current isPlaying:', this.isPlaying, 'hasController:', !!this.embedController);
             if (this.embedController) {
                 if (this.isPlaying) {
                     this.desiredPlayUri = null;
@@ -947,18 +915,6 @@
     } else {
         window.miniPlayer = getPlayer();
     }
-
-    document.addEventListener('visibilitychange', () => {
-        console.log('[Spotify Player] 👁 Tab visibility changed to:', document.visibilityState, '| isPlaying:', window.miniPlayer?.isPlaying);
-    });
-
-    window.addEventListener('focus', () => {
-        console.log('[Spotify Player] 🎯 Window gained focus | isPlaying:', window.miniPlayer?.isPlaying);
-    });
-
-    window.addEventListener('blur', () => {
-        console.log('[Spotify Player] 💨 Window lost focus | isPlaying:', window.miniPlayer?.isPlaying);
-    });
 
     // Seamless SPA Client-Side Routing
     function getCleanPageName(pathname = window.location.pathname) {
