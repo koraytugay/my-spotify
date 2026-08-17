@@ -68,14 +68,6 @@ async function initPlaylistDetail() {
 
         loadingEl.style.display = 'none';
         viewEl.style.display = 'block';
-
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingId = isPlaying ? currentTrackId : null;
-                renderTracks();
-            });
-        }
-
     } catch (e) {
         console.error('Error loading playlist:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Error loading playlist details: ${e.message}</p>`;
@@ -227,8 +219,7 @@ function renderTracks() {
 
 function createTrackCard(t) {
     const card = document.createElement('div');
-    const isPlaying = currentPlayingId === t.id;
-    card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+    card.className = 'song-card';
     const cover = t.coverUrl || t.thumbnailUrl || 'https://via.placeholder.com/300x300?text=Track';
 
     // Build artist link(s) linking to internal artist page
@@ -316,4 +307,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initPlaylistDetail);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPlaylistDetail);
+} else {
+    initPlaylistDetail();
+}

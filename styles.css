@@ -1426,17 +1426,6 @@ body.dark-mode .mini-player-bottom-bar {
     }
 }
 
-/* Card Playing Indicator */
-.song-card.is-playing {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 1.5px var(--accent), 0 4px 16px var(--accent-light);
-}
-
-.song-card.is-playing .play-btn-overlay {
-    background: var(--text-primary);
-    color: var(--bg-surface);
-}
-
 /* Mobile Responsive Player */
 @media (max-width: 768px) {
     .mini-player-dock {

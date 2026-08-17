@@ -62,13 +62,6 @@ async function initAlbums() {
 
         loadingEl.style.display = 'none';
         controlsEl.style.display = 'flex';
-
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingAlbumId = isPlaying ? currentTrackId : null;
-                renderAlbums();
-            });
-        }
     } catch (e) {
         console.error('Error loading albums:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load albums. Run <code>npm run sync</code> first.</p>`;
@@ -195,8 +188,7 @@ function renderAlbums() {
 
     filteredAlbums.forEach(a => {
         const card = document.createElement('div');
-        const isPlaying = currentPlayingAlbumId === a.id;
-        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+        card.className = 'song-card';
         const cover = a.coverUrl || 'https://via.placeholder.com/300x300?text=Album';
 
         let artistsHtml = '';
@@ -264,4 +256,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initAlbums);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initAlbums);
+} else {
+    initAlbums();
+}

@@ -196,4 +196,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initArtists);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initArtists);
+} else {
+    initArtists();
+}

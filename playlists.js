@@ -61,13 +61,6 @@ async function initPlaylists() {
 
         loadingEl.style.display = 'none';
         controlsEl.style.display = 'flex';
-
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingPlaylistId = isPlaying ? currentTrackId : null;
-                renderPlaylists();
-            });
-        }
     } catch (e) {
         console.error('Error loading playlists:', e);
         loadingEl.innerHTML = `<p style="color: #ff5555;">Could not load playlists. Run <code>npm run sync</code> first.</p>`;
@@ -122,8 +115,7 @@ function renderPlaylists() {
 
     filteredPlaylists.forEach(p => {
         const card = document.createElement('div');
-        const isPlaying = currentPlayingPlaylistId === p.id;
-        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+        card.className = 'song-card';
         const cover = p.coverUrl || 'https://via.placeholder.com/300x300?text=Playlist';
         const trackCount = p.tracks?.length || p.tracksTotal || 0;
         const playlistUrl = `playlist.html?id=${encodeURIComponent(p.id)}`;
@@ -142,8 +134,8 @@ function renderPlaylists() {
                 <div class="song-artist">by ${p.owner || 'Spotify'}</div>
             </div>
             <div class="song-meta" style="justify-content: space-between; align-items: center;">
-                <button class="album-card-btn album-card-play-btn" onclick="togglePlayPlaylist('${p.id}')" title="${isPlaying ? 'Pause' : 'Play Playlist'}" aria-label="Play Playlist">
-                    ${isPlaying ? '⏸' : '▶'}
+                <button class="album-card-btn album-card-play-btn" onclick="togglePlayPlaylist('${p.id}')" title="Play Playlist" aria-label="Play Playlist">
+                    ▶
                 </button>
                 <a href="${spotifyUrl}" ${spotifyTarget} class="album-card-btn album-card-spotify-btn" title="Open in Spotify" aria-label="Open in Spotify">
                     <svg viewBox="0 0 24 24">
@@ -181,4 +173,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initPlaylists);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPlaylists);
+} else {
+    initPlaylists();
+}

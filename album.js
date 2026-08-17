@@ -141,13 +141,6 @@ async function initAlbumDetail() {
         if (loadingEl) loadingEl.style.display = 'none';
         if (viewEl) viewEl.style.display = 'block';
 
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingId = isPlaying ? currentTrackId : null;
-                renderTracks();
-            });
-        }
-
     } catch (e) {
         console.error('Error loading album details:', e);
         if (loadingEl) loadingEl.innerHTML = `<p style="color: #ff5555;">Error loading album: ${e.message}</p>`;
@@ -170,12 +163,11 @@ function renderTracks() {
     listContainer.innerHTML = '';
 
     filteredTracks.forEach((track, index) => {
-        const isPlaying = currentPlayingId === track.id;
         const isLiked = likedSongIdSet.has(track.id);
         const trackNumber = track.trackNumber || (index + 1);
 
         const row = document.createElement('div');
-        row.className = `album-track-row ${isPlaying ? 'is-playing' : ''}`;
+        row.className = 'album-track-row';
         row.onclick = (e) => {
             if (e.target.closest('a')) return;
             togglePlayPreview(track.id);

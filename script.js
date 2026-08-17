@@ -76,13 +76,6 @@ async function init() {
         if (controlsEl) controlsEl.style.display = 'flex';
 
         loadThemePreference();
-
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingId = isPlaying ? currentTrackId : null;
-                renderSongs();
-            });
-        }
     } catch (e) {
         console.error('Error initializing:', e);
         if (loadingEl) {
@@ -213,8 +206,7 @@ function renderSongs() {
 
 function createSongCard(song) {
     const card = document.createElement('div');
-    const isPlaying = currentPlayingId === song.id;
-    card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+    card.className = 'song-card';
 
     const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
 

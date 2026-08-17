@@ -119,4 +119,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initStats);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStats);
+} else {
+    initStats();
+}

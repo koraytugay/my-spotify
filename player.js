@@ -361,13 +361,14 @@
             const bottomThumb = document.getElementById('bottom-bar-thumb');
 
             if (track) {
-                if (bottomTitle) bottomTitle.textContent = track.name || 'Playing Song';
-                const artistStr = track.artistNames || (track.artists && track.artists[0]?.name) || '';
-                if (bottomArtist) bottomArtist.textContent = artistStr || this.contextTitle || '';
+                if (bottomTitle) bottomTitle.textContent = track.name || 'Spotify Player';
+                const artistStr = track.artistNames || (track.artists && track.artists[0]?.name) || this.contextTitle || '';
+                if (bottomArtist) bottomArtist.textContent = artistStr;
                 if (bottomThumb) {
-                    const imgUrl = track.thumbnailUrl || track.coverUrl || track.album?.coverUrl || '';
+                    const imgUrl = track.thumbnailUrl || track.coverUrl || track.album?.coverUrl || (Array.isArray(this.playlist) && this.playlist[0]?.coverUrl) || '';
                     if (imgUrl) {
                         bottomThumb.src = imgUrl;
+                        bottomThumb.alt = track.name || 'Cover';
                         bottomThumb.style.display = 'block';
                     } else {
                         bottomThumb.style.display = 'none';
@@ -876,6 +877,7 @@
             if (eq) {
                 eq.classList.toggle('playing', !!this.isPlaying);
             }
+            this.updateLikedStatusUI();
         }
 
         onStateChange(cb) {

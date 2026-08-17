@@ -665,9 +665,6 @@ function renderMixResult(autoScroll = false) {
         card.className = 'song-card';
         card.id = `mix-card-${song.id || index}`;
 
-        const isPlaying = window.miniPlayer && window.miniPlayer.currentTrack?.id === song.id && window.miniPlayer.isPlaying;
-        if (isPlaying) card.classList.add('is-playing');
-
         const cover = song.coverUrl || song.thumbnailUrl || (song.album && song.album.coverUrl) || 'https://via.placeholder.com/300x300?text=Spotify';
 
         // Artists HTML

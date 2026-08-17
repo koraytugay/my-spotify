@@ -111,13 +111,6 @@ async function initArtistDetail() {
         document.getElementById('hero-album-count').textContent = `${allArtistAlbums.length} saved ${allArtistAlbums.length === 1 ? 'album' : 'albums'}`;
         document.getElementById('hero-track-count').textContent = `${allArtistSongs.length} liked ${allArtistSongs.length === 1 ? 'song' : 'songs'}`;
 
-        if (window.miniPlayer) {
-            window.miniPlayer.onStateChange(({ isPlaying, currentTrackId }) => {
-                currentPlayingId = isPlaying ? currentTrackId : null;
-                renderArtistSongs();
-            });
-        }
-
         const heroLinkEl = document.getElementById('hero-spotify-link');
         if (heroLinkEl) {
             heroLinkEl.href = spotifyUrl;
@@ -248,8 +241,7 @@ function renderArtistSongs() {
 
     filteredSongs.forEach(song => {
         const card = document.createElement('div');
-        const isPlaying = currentPlayingId === song.id;
-        card.className = `song-card ${isPlaying ? 'is-playing' : ''}`;
+        card.className = 'song-card';
 
         const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
 
@@ -332,4 +324,8 @@ function loadThemePreference() {
     if (isDark) document.body.classList.add('dark-mode');
 }
 
-document.addEventListener('DOMContentLoaded', initArtistDetail);
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initArtistDetail);
+} else {
+    initArtistDetail();
+}
