@@ -56,18 +56,16 @@
                 </div>
             </div>
 
-            <!-- Controls -->
-            <div class="controls-card">
-                <div class="controls-row">
-                    <div class="control-group search-group" style="flex: 1 1 300px;">
-                        <label for="search-input">Search in Album:</label>
-                        <input type="text" id="search-input" placeholder="Search track name..." oninput="applyFilters()">
-                    </div>
-                </div>
-            </div>
+
 
             <!-- Album Tracklist Table Card -->
             <div class="album-tracklist-card">
+                <div class="album-tracklist-header">
+                    <div class="album-track-col-num">#</div>
+                    <div class="album-track-col-main">TITLE</div>
+                    <div class="album-track-col-liked">LIKE</div>
+                    <div class="album-track-col-dur">TIME</div>
+                </div>
                 <div id="tracks-list-container">
                     <!-- Populated by JavaScript with sleek album-track-row elements -->
                 </div>

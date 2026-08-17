@@ -220,7 +220,7 @@ async function toggleLikeTrackInAlbum(id) {
         } else {
             likedSongIdSet.delete(track.id);
         }
-        renderAlbumTracks();
+        renderTracks();
     }
 }
 
