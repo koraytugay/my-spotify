@@ -140,18 +140,20 @@
                         const newTrackId = e.data.track?.id || (e.data.track?.uri ? e.data.track.uri.split(':')[2] : null) || (e.data.uri ? e.data.uri.split(':')[2] : null);
                         const trackName = e.data.track?.name || e.data.track?.title;
 
-                        if (newTrackId && this.currentTrack?.id !== newTrackId) {
-                            const found = (this.playlist || []).find(t => t.id === newTrackId);
-                            if (found) {
-                                this.currentTrack = found;
-                                maxPositionSeen = pos;
-                                this.displayTrackInfo(found, this.currentType || 'track');
-                                this.updateUIState();
-                                this.notifyStateChange();
+                        if (newTrackId || trackName) {
+                            let found = (this.playlist || []).find(t => (newTrackId && t.id === newTrackId) || (trackName && t.name && t.name.toLowerCase() === trackName.toLowerCase()));
+                            
+                            if (!found && (newTrackId || trackName)) {
+                                found = {
+                                    id: newTrackId,
+                                    name: trackName || 'Playing Song',
+                                    artistNames: (e.data.track?.artists && Array.isArray(e.data.track.artists)) ? e.data.track.artists.map(a => a.name).join(', ') : '',
+                                    artists: e.data.track?.artists || [],
+                                    album: { name: this.contextTitle || '' }
+                                };
                             }
-                        } else if (trackName && (!this.currentTrack || this.currentTrack.name.toLowerCase() !== trackName.toLowerCase())) {
-                            const found = (this.playlist || []).find(t => t.name && t.name.toLowerCase() === trackName.toLowerCase());
-                            if (found) {
+
+                            if (found && (this.currentTrack?.id !== found.id || this.currentTrack?.name !== found.name)) {
                                 this.currentTrack = found;
                                 maxPositionSeen = pos;
                                 this.displayTrackInfo(found, this.currentType || 'track');
@@ -245,25 +247,78 @@
                 if (typeof getLikedSongs === 'function') {
                     const liked = await getLikedSongs();
                     if (Array.isArray(liked)) {
-                        this.likedSongIds = new Set(liked.map(s => s.id).filter(Boolean));
-                        this.likedSongKeys = new Set(liked.map(s => {
-                            const art = s.artistNames || (s.artists && s.artists[0]?.name) || '';
-                            return s.name ? `${s.name.toLowerCase().trim()}:::${art.toLowerCase().trim()}` : '';
-                        }).filter(Boolean));
+                        this.likedSongIds = new Set();
+                        this.likedSongKeySet = new Set();
+
+                        liked.forEach(s => {
+                            if (!s) return;
+                            if (s.id) this.likedSongIds.add(s.id);
+
+                            const sName = this.normalizeTrackName(s.name);
+                            if (sName) {
+                                if (s.artistNames) {
+                                    this.likedSongKeySet.add(`${sName}:::${this.normalizeArtistName(s.artistNames)}`);
+                                }
+                                if (Array.isArray(s.artists)) {
+                                    s.artists.forEach(a => {
+                                        if (a && a.name) {
+                                            this.likedSongKeySet.add(`${sName}:::${this.normalizeArtistName(a.name)}`);
+                                        }
+                                    });
+                                }
+                            }
+                        });
                         this.updateLikedStatusUI();
                     }
                 }
-            } catch (e) {}
+            } catch (e) {
+                console.error('Error loading liked songs cache in player:', e);
+            }
+        }
+
+        normalizeTrackName(str) {
+            return (str || '')
+                .toLowerCase()
+                .replace(/\s*\(.*?\)\s*/g, ' ')
+                .replace(/\s*-\s*.*$/g, '')
+                .replace(/[\u2018\u2019]/g, "'")
+                .replace(/[\u201C\u201D]/g, '"')
+                .replace(/[^\w\s]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        normalizeArtistName(str) {
+            return (str || '')
+                .toLowerCase()
+                .replace(/[\u2018\u2019]/g, "'")
+                .replace(/[\u201C\u201D]/g, '"')
+                .replace(/[^\w\s]/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
         }
 
         checkIsLiked(track) {
             if (!track) return false;
             if (track.isLiked !== undefined) return !!track.isLiked;
             if (track.id && this.likedSongIds && this.likedSongIds.has(track.id)) return true;
-            if (this.likedSongKeys && track.name) {
-                const artist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
-                const key = `${track.name.toLowerCase().trim()}:::${artist.toLowerCase().trim()}`;
-                if (this.likedSongKeys.has(key)) return true;
+
+            if (this.likedSongKeySet && track.name) {
+                const normTitle = this.normalizeTrackName(track.name);
+                if (normTitle) {
+                    if (track.artistNames) {
+                        const normArtist = this.normalizeArtistName(track.artistNames);
+                        if (this.likedSongKeySet.has(`${normTitle}:::${normArtist}`)) return true;
+                    }
+                    if (Array.isArray(track.artists)) {
+                        for (const a of track.artists) {
+                            if (a && a.name) {
+                                const normA = this.normalizeArtistName(a.name);
+                                if (this.likedSongKeySet.has(`${normTitle}:::${normA}`)) return true;
+                            }
+                        }
+                    }
+                }
             }
             return false;
         }
