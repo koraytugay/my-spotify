@@ -58,6 +58,7 @@
 
             document.body.appendChild(playerEl);
             document.body.classList.add('has-mini-player');
+            document.body.classList.toggle('player-collapsed', this.isCollapsed);
         }
 
         saveState() {
@@ -85,6 +86,8 @@
                         this.currentType = state.type || 'track';
                         this.playlist = Array.isArray(state.playlist) ? state.playlist : [];
                         this.contextTitle = state.contextTitle || '';
+                        this.isCollapsed = !!state.isCollapsed;
+                        document.body.classList.toggle('player-collapsed', this.isCollapsed);
                         this.updateEmbedMode(state.type || 'track');
                         this.displayTrackInfo(state.item, state.type);
                         if (state.isCollapsed) {
@@ -112,7 +115,7 @@
 
                 const options = {
                     width: '100%',
-                    height: isSingleTrack ? '152' : '500',
+                    height: isSingleTrack ? '352' : '100%',
                     uri: defaultUri
                 };
 
@@ -241,6 +244,7 @@
             this.saveState();
             const playerEl = document.getElementById('spotify-mini-player');
             if (playerEl) playerEl.classList.toggle('collapsed', this.isCollapsed);
+            document.body.classList.toggle('player-collapsed', this.isCollapsed);
         }
 
         expand() {
@@ -476,7 +480,6 @@
 
         updateEmbedMode(type = 'track') {
             const isSingleTrack = (type === 'track');
-            const targetHeight = isSingleTrack ? 152 : 500;
             const playerEl = document.getElementById('spotify-mini-player');
             const wrapEl = document.getElementById('mini-embed-wrap');
 
@@ -485,11 +488,12 @@
                 playerEl.classList.toggle('collection-mode', !isSingleTrack);
             }
             if (wrapEl) {
-                wrapEl.style.height = `${targetHeight}px`;
+                wrapEl.style.height = isSingleTrack ? '352px' : '100%';
+                wrapEl.style.flex = isSingleTrack ? '0 0 auto' : '1 1 auto';
                 const iframe = wrapEl.querySelector('iframe');
                 if (iframe) {
-                    iframe.setAttribute('height', targetHeight.toString());
-                    iframe.style.height = `${targetHeight}px`;
+                    iframe.setAttribute('height', isSingleTrack ? '352' : '100%');
+                    iframe.style.height = isSingleTrack ? '352px' : '100%';
                 }
             }
         }
@@ -600,7 +604,7 @@
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
                 if (slot) {
-                    const embedHeight = (type === 'track' ? '152' : '500');
+                    const embedHeight = (type === 'track' ? '352' : '100%');
                     slot.innerHTML = `
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0&autoplay=1" 

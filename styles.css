@@ -1037,30 +1037,29 @@ body.dark-mode .nav-link.is-playing-now {
 }
 
 /* ----------------------------------------------------
-   STICKY MINI-PLAYER (SLIDE / POP FROM LEFT)
+   SIDEBAR SPOTIFY PLAYER (SPLIT-SCREEN BOUNDED LAYOUT)
    ---------------------------------------------------- */
-body.has-mini-player {
-    padding-bottom: 95px !important;
-}
-
 .mini-player-container {
     position: fixed;
-    bottom: 24px;
-    left: max(16px, calc((100vw - 1360px) / 2));
-    right: auto;
+    top: 164px;
+    bottom: 12px;
+    left: max(24px, calc((100vw - 1360px) / 2));
+    width: 360px;
     z-index: 1000;
-    width: 380px;
-    max-width: calc(100vw - 32px);
     overflow: visible;
     pointer-events: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .mini-player-dock {
-    padding: 8px 8px 6px;
+    padding: 10px 10px 8px;
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 6px;
+    height: 100%;
+    max-height: calc(100vh - 176px);
+    gap: 8px;
     background: rgba(24, 24, 24, 0.96);
     backdrop-filter: blur(24px);
     -webkit-backdrop-filter: blur(24px);
@@ -1070,8 +1069,8 @@ body.has-mini-player {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-    transform: translateY(0);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    transform: translateX(0);
 }
 
 body.dark-mode .mini-player-dock {
@@ -1084,7 +1083,7 @@ body.dark-mode .mini-player-dock {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transform: translateY(12px);
+    transform: translateX(-24px);
 }
 
 .mini-player-handle {
@@ -1161,6 +1160,7 @@ body.dark-mode .handle-drawer-tab:hover {
     padding: 0 4px;
     gap: 8px;
     min-height: 24px;
+    flex-shrink: 0;
 }
 
 .mini-player-liked-badge {
@@ -1226,15 +1226,63 @@ body.dark-mode .handle-drawer-tab:hover {
 
 .mini-player-embed-wrap {
     width: 100%;
-    height: 500px;
+    flex: 1 1 auto;
+    height: 100%;
+    min-height: 352px;
     border-radius: 12px;
     overflow: hidden;
     background: #121212;
     transition: height 0.25s ease;
 }
 
+.mini-player-embed-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
 .mini-player-container.track-mode .mini-player-embed-wrap {
-    height: 152px;
+    height: 352px;
+    flex: 0 0 auto;
+}
+
+/* Site Content Container Adjustment on Desktop (Bounded Split View below Header) */
+@media (min-width: 1024px) {
+    body.has-mini-player .container {
+        max-width: 1360px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    body.has-mini-player .container > *:not(header) {
+        margin-left: 384px;
+        transition: margin-left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    body.has-mini-player.player-collapsed .container > *:not(header) {
+        margin-left: 0;
+    }
+}
+
+/* On smaller screens / tablets (< 1024px) */
+@media (max-width: 1023px) {
+    .mini-player-container {
+        top: auto;
+        bottom: 24px;
+        left: 16px;
+        width: min(380px, calc(100vw - 32px));
+    }
+    .mini-player-dock {
+        height: auto;
+        max-height: 520px;
+    }
+    .mini-player-embed-wrap {
+        height: 480px;
+    }
+    .mini-player-container.track-mode .mini-player-embed-wrap {
+        height: 152px;
+    }
 }
 
 /* Card Playing Indicator */
