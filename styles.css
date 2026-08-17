@@ -1108,26 +1108,26 @@ body.dark-mode .mini-player-dock {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 8px 11px;
-    border-radius: 10px;
+    padding: 12px 14px;
+    border-radius: 14px;
     background: rgba(18, 18, 18, 0.96);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.16);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
     color: var(--accent);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
     transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
     user-select: none;
 }
 
 .handle-drawer-tab:hover {
     background: #242424;
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.35);
 }
 
 body.dark-mode .handle-drawer-tab {
     background: rgba(14, 14, 14, 0.98);
-    border-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.18);
 }
 
 body.dark-mode .handle-drawer-tab:hover {
@@ -1142,14 +1142,14 @@ body.dark-mode .handle-drawer-tab:hover {
 }
 
 .handle-spotify-svg {
-    width: 18px;
-    height: 18px;
+    width: 36px;
+    height: 36px;
     color: var(--accent);
     display: block;
 }
 
 .handle-heart-icon {
-    font-size: 15px;
+    font-size: 30px;
     line-height: 1;
     display: inline-block;
 }
