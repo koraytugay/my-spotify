@@ -12,9 +12,12 @@
             this.pendingPlayUri = null;
             this.onStateChangeCallbacks = new Set();
             this.lastEndedTrackId = null;
+            this.likedSongIds = new Set();
+            this.likedSongKeys = new Set();
 
             this.initDOM();
             this.restoreState();
+            this.loadLikedSongsCache();
             this.initSpotifyIFrameAPI();
             this.bindEvents();
         }
@@ -37,6 +40,16 @@
                 </div>
 
                 <div class="mini-player-dock">
+                    <!-- Top Status Bar for Liked Songs and Track Meta -->
+                    <div class="mini-player-topbar" id="mini-player-topbar">
+                        <div class="mini-player-liked-badge" id="mini-player-liked-badge" style="display: none;">
+                            <span class="liked-heart-icon" id="mini-player-liked-icon">💚</span>
+                            <span class="liked-status-text" id="mini-player-liked-text">Liked Song</span>
+                        </div>
+                        <div class="mini-player-top-track" id="mini-player-top-track"></div>
+                        <button type="button" class="mini-player-close-btn" id="mini-player-close-btn" title="Collapse Player">✕</button>
+                    </div>
+
                     <!-- Spotify Interactive Embed Container Slot -->
                     <div class="mini-player-embed-wrap" id="mini-embed-wrap">
                         <div id="mini-spotify-embed-slot"></div>
@@ -226,10 +239,78 @@
             }
         }
 
+        async loadLikedSongsCache() {
+            try {
+                if (typeof getLikedSongs === 'function') {
+                    const liked = await getLikedSongs();
+                    if (Array.isArray(liked)) {
+                        this.likedSongIds = new Set(liked.map(s => s.id).filter(Boolean));
+                        this.likedSongKeys = new Set(liked.map(s => {
+                            const art = s.artistNames || (s.artists && s.artists[0]?.name) || '';
+                            return s.name ? `${s.name.toLowerCase().trim()}:::${art.toLowerCase().trim()}` : '';
+                        }).filter(Boolean));
+                        this.updateLikedStatusUI();
+                    }
+                }
+            } catch (e) {}
+        }
+
+        checkIsLiked(track) {
+            if (!track) return false;
+            if (track.isLiked !== undefined) return !!track.isLiked;
+            if (track.id && this.likedSongIds && this.likedSongIds.has(track.id)) return true;
+            if (this.likedSongKeys && track.name) {
+                const artist = track.artistNames || (track.artists && track.artists[0]?.name) || '';
+                const key = `${track.name.toLowerCase().trim()}:::${artist.toLowerCase().trim()}`;
+                if (this.likedSongKeys.has(key)) return true;
+            }
+            return false;
+        }
+
+        updateLikedStatusUI() {
+            const track = this.currentTrack;
+            const badgeEl = document.getElementById('mini-player-liked-badge');
+            const iconEl = document.getElementById('mini-player-liked-icon');
+            const textEl = document.getElementById('mini-player-liked-text');
+            const handleTitle = document.getElementById('handle-title');
+            const topTrack = document.getElementById('mini-player-top-track');
+
+            const isLiked = this.checkIsLiked(track);
+
+            if (badgeEl) {
+                badgeEl.style.display = track ? 'inline-flex' : 'none';
+                badgeEl.classList.toggle('is-liked', isLiked);
+                badgeEl.classList.toggle('not-liked', !isLiked);
+            }
+            if (iconEl) {
+                iconEl.textContent = isLiked ? '💚' : '🤍';
+            }
+            if (textEl) {
+                textEl.textContent = isLiked ? 'Liked Song' : 'Not in Liked';
+            }
+            if (topTrack && track) {
+                const artistName = track.artistNames || (track.artists && track.artists[0]?.name) || '';
+                topTrack.textContent = track.name ? `${track.name}${artistName ? ' • ' + artistName : ''}` : '';
+                topTrack.title = topTrack.textContent;
+            }
+            if (handleTitle) {
+                if (track && track.name) {
+                    handleTitle.textContent = `${isLiked ? '💚 ' : ''}${track.name}`;
+                } else {
+                    handleTitle.textContent = 'Spotify Player';
+                }
+            }
+        }
+
         bindEvents() {
             const handleEl = document.getElementById('mini-player-handle');
             if (handleEl) {
                 handleEl.addEventListener('click', () => this.toggleCollapse());
+            }
+
+            const closeBtn = document.getElementById('mini-player-close-btn');
+            if (closeBtn) {
+                closeBtn.addEventListener('click', () => this.collapse());
             }
 
             // Global Keyboard Shortcuts (Space: Play/Pause, N/Shift+Right: Next, P/Shift+Left: Prev, R: Random)
@@ -269,53 +350,7 @@
             this.currentTrack = item;
             this.currentType = type;
 
-            const coverEl = document.getElementById('mini-player-cover');
-            const titleEl = document.getElementById('mini-player-title');
-            const artistEl = document.getElementById('mini-player-artist');
-            const spotifyBtn = document.getElementById('mini-player-spotify');
-            const handleTitle = document.getElementById('handle-title');
-
-            const coverUrl = item.coverUrl || item.thumbnailUrl || (item.images && item.images[0]?.url) || 'https://via.placeholder.com/60x60?text=Spotify';
-            if (coverEl) coverEl.src = coverUrl;
-
-            let titleText = item.name || 'Untitled';
-            let artistText = '';
-
-            if (type === 'playlist') {
-                artistText = `Playlist by ${item.owner || 'You'} (${item.tracks?.length || item.tracksTotal || 0} tracks)`;
-            } else if (type === 'album') {
-                artistText = item.artistNames || (item.artists ? item.artists.map(a => a.name).join(', ') : 'Album');
-                if (item.releaseYear) artistText += ` (${item.releaseYear})`;
-            } else {
-                artistText = item.artistNames || (item.artists ? item.artists.map(a => a.name).join(', ') : 'Unknown Artist');
-                if (item.album?.name) artistText += ` • ${item.album.name}`;
-            }
-
-            if (titleEl) {
-                titleEl.textContent = titleText;
-                titleEl.title = titleText;
-            }
-            if (artistEl) {
-                artistEl.textContent = artistText;
-                artistEl.title = artistText;
-            }
-
-            if (spotifyBtn) {
-                if (typeof getSpotifyLinkAttrs === 'function') {
-                    const { href, targetAttrs } = getSpotifyLinkAttrs(item, type);
-                    spotifyBtn.href = href;
-                    if (targetAttrs && targetAttrs.includes('_blank')) {
-                        spotifyBtn.target = '_blank';
-                        spotifyBtn.rel = 'noopener noreferrer';
-                    } else {
-                        spotifyBtn.removeAttribute('target');
-                        spotifyBtn.removeAttribute('rel');
-                    }
-                } else {
-                    spotifyBtn.href = item.spotifyUrl || `https://open.spotify.com/${type}/${item.id}`;
-                    spotifyBtn.target = '_blank';
-                }
-            }
+            this.updateLikedStatusUI();
         }
 
         async playItem(item, type = 'track', playlist = null) {

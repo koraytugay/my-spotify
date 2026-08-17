@@ -1128,11 +1128,84 @@ body.dark-mode .handle-pill:hover {
 }
 
 .mini-player-dock {
-    padding: 6px;
+    padding: 8px 8px 6px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+}
+
+.mini-player-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+    gap: 8px;
+    min-height: 24px;
+}
+
+.mini-player-liked-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    user-select: none;
+    transition: background 0.15s ease, color 0.15s ease;
+    flex-shrink: 0;
+}
+
+.mini-player-liked-badge.is-liked {
+    background: rgba(29, 185, 84, 0.15);
+    color: var(--accent);
+    border: 1px solid rgba(29, 185, 84, 0.35);
+}
+
+.mini-player-liked-badge.not-liked {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-muted);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.liked-heart-icon {
+    font-size: 0.85rem;
+    line-height: 1;
+}
+
+.mini-player-top-track {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+
+.mini-player-close-btn {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 13px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: color 0.15s ease, background-color 0.15s ease;
+    line-height: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    flex-shrink: 0;
+}
+
+.mini-player-close-btn:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .mini-player-embed-wrap {
