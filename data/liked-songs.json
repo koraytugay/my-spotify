@@ -1,5 +1,63 @@
 [
   {
+    "id": "5oXN6zYZk1bAIR4RPZICw0",
+    "name": "Alain Delon",
+    "artists": [
+      {
+        "id": "6xLv41SHPrVVfvyGd1M7ut",
+        "name": "Ozan Doğulu"
+      },
+      {
+        "id": "5gFPi3KWXEwA9bLEO47Ow0",
+        "name": "Sıla"
+      }
+    ],
+    "artistNames": "Ozan Doğulu, Sıla",
+    "album": {
+      "id": "7rsL05Cin8vJdo4xsbpTGx",
+      "name": "130 Bpm Quartet",
+      "releaseDate": "2014-01-01",
+      "releaseYear": "2014",
+      "totalTracks": 37
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df24165afe01eaf9ee1125f8",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851df24165afe01eaf9ee1125f8",
+    "durationMs": 231957,
+    "durationFormatted": "3:51",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/5oXN6zYZk1bAIR4RPZICw0",
+    "uri": "spotify:track:5oXN6zYZk1bAIR4RPZICw0",
+    "addedAt": "2026-08-17T20:09:08Z",
+    "addedDate": "2026-08-17"
+  },
+  {
+    "id": "3ywc913X84eM289aIhsNIT",
+    "name": "Senden Çok Var",
+    "artists": [
+      {
+        "id": "3aYxHPDvu8SETLVJBEUqld",
+        "name": "Rober Hatemo"
+      }
+    ],
+    "artistNames": "Rober Hatemo",
+    "album": {
+      "id": "0TffkTmIWfiSzvpb1p1YRZ",
+      "name": "Sihirli Değnek",
+      "releaseDate": "2006-12-18",
+      "releaseYear": "2006",
+      "totalTracks": 14
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27307cfe155524c44618307b724",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485107cfe155524c44618307b724",
+    "durationMs": 185840,
+    "durationFormatted": "3:05",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/3ywc913X84eM289aIhsNIT",
+    "uri": "spotify:track:3ywc913X84eM289aIhsNIT",
+    "addedAt": "2026-08-17T19:56:22Z",
+    "addedDate": "2026-08-17"
+  },
+  {
     "id": "6ytK9OG2Nlhm0O6YGHo43X",
     "name": "Gangster Blues",
     "artists": [

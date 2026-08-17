@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 596,
+  "totalLikedSongs": 598,
   "totalPlaylists": 14,
   "totalSavedAlbums": 98,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 155344416,
-  "totalDurationHours": 43.2,
+  "totalDurationMs": 155762213,
+  "totalDurationHours": 43.3,
   "totalDurationDays": 1.8,
-  "totalDurationFormatted": "43 hrs 9 mins",
-  "uniqueArtistsCount": 499,
+  "totalDurationFormatted": "43 hrs 16 mins",
+  "uniqueArtistsCount": 501,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -36,6 +36,10 @@
     {
       "name": "Agalloch",
       "count": 5
+    },
+    {
+      "name": "Sıla",
+      "count": 4
     },
     {
       "name": "Aşkın Nur Yengi",
@@ -124,19 +128,15 @@
     {
       "name": "Stevie Wonder",
       "count": 3
-    },
-    {
-      "name": "Pearl Jam",
-      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "2000s": 142,
+    "2010s": 148,
+    "2000s": 143,
     "2020s": 25,
     "1990s": 134,
     "1980s": 84,
-    "2010s": 147,
     "1970s": 45,
     "1960s": 18,
     "1950s": 1
@@ -185,7 +185,7 @@
     "2003": 12,
     "2004": 15,
     "2005": 13,
-    "2006": 15,
+    "2006": 16,
     "2007": 16,
     "2008": 13,
     "2009": 18,
@@ -193,7 +193,7 @@
     "2011": 14,
     "2012": 13,
     "2013": 14,
-    "2014": 21,
+    "2014": 22,
     "2015": 23,
     "2016": 22,
     "2017": 11,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-17T19:19:27.399Z"
+  "lastUpdated": "2026-08-17T22:11:36.283Z"
 }
