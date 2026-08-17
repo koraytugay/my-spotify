@@ -28,15 +28,16 @@
             const playerEl = document.createElement('div');
             playerEl.id = 'spotify-mini-player';
             playerEl.className = `mini-player-container ${this.isCollapsed ? 'collapsed' : ''}`;
-            
             playerEl.innerHTML = `
-                <!-- Floating Side Handle (Pop from Left) -->
-                <div class="mini-player-handle" id="mini-player-handle" title="Click to Expand / Collapse Spotify Player">
-                    <span class="handle-pill">
-                        <span class="handle-icon" id="mini-player-eq"></span>
-                        <span id="handle-title" class="handle-text">Spotify Player</span>
+                <!-- Minimalist Left Drawer Pull Tab -->
+                <div class="mini-player-handle" id="mini-player-handle" title="Toggle Spotify Player Drawer">
+                    <div class="handle-drawer-tab">
+                        <svg class="handle-spotify-svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                        </svg>
+                        <span class="handle-liked-dot" id="handle-liked-dot" style="display: none;">💚</span>
                         <span class="handle-arrow" id="handle-arrow">${this.isCollapsed ? '▶' : '◀'}</span>
-                    </span>
+                    </div>
                 </div>
 
                 <div class="mini-player-dock">
@@ -288,17 +289,14 @@
             if (textEl) {
                 textEl.textContent = isLiked ? 'Liked Song' : 'Not in Liked';
             }
+            const handleLikedDot = document.getElementById('handle-liked-dot');
+            if (handleLikedDot) {
+                handleLikedDot.style.display = (track && isLiked) ? 'inline-block' : 'none';
+            }
             if (topTrack && track) {
                 const artistName = track.artistNames || (track.artists && track.artists[0]?.name) || '';
                 topTrack.textContent = track.name ? `${track.name}${artistName ? ' • ' + artistName : ''}` : '';
                 topTrack.title = topTrack.textContent;
-            }
-            if (handleTitle) {
-                if (track && track.name) {
-                    handleTitle.textContent = `${isLiked ? '💚 ' : ''}${track.name}`;
-                } else {
-                    handleTitle.textContent = 'Spotify Player';
-                }
             }
         }
 
