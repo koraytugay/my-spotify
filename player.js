@@ -695,14 +695,11 @@
                 this.isPlaying = true;
                 this.saveState();
 
-                // Spotify embeds require an explicit play command for album & playlist containers
-                if (type === 'album' || type === 'playlist') {
-                    setTimeout(() => {
-                        if (this.embedController && this.isPlaying) {
-                            this.embedController.play();
-                        }
-                    }, 400);
-                }
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 350);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
@@ -751,6 +748,12 @@
                 this.embedController.loadUri(uri);
                 this.isPlaying = true;
                 this.saveState();
+
+                setTimeout(() => {
+                    if (this.embedController && this.isPlaying) {
+                        this.embedController.play();
+                    }
+                }, 350);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
