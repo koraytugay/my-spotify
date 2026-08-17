@@ -54,11 +54,14 @@ var currentViewMode = 'compact';
 var currentAudio = null;
 var currentPlayingId = null;
 
-async function init() {
+async function initLikedSongs() {
     const loadingEl = document.getElementById('loading');
     const controlsEl = document.getElementById('controls');
 
     try {
+        const viewModeSelect = document.getElementById('view-mode');
+        currentViewMode = (viewModeSelect && viewModeSelect.value) || 'compact';
+
         const songs = await getLikedSongs();
 
         allSongs = Array.isArray(songs) 
@@ -81,6 +84,8 @@ async function init() {
         }
     }
 }
+window.initLikedSongs = initLikedSongs;
+window.init = initLikedSongs;
 
 function populateDecadeFilter() {
     const decades = new Set();
@@ -295,7 +300,7 @@ function closeRandomModal() {
     document.getElementById('random-modal').style.display = 'none';
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function setupLikedSongs() {
     document.getElementById('random-song-btn')?.addEventListener('click', pickRandomSong);
     
     document.addEventListener('keydown', (e) => {
@@ -307,5 +312,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    init();
-});
+    initLikedSongs();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupLikedSongs);
+} else {
+    setupLikedSongs();
+}

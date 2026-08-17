@@ -994,7 +994,11 @@
             // Initialize target page module
             if (targetCleanPath === 'index.html') {
                 await loadScriptIfNeeded('script.js');
-                if (typeof init === 'function') init();
+                if (typeof initLikedSongs === 'function') {
+                    initLikedSongs();
+                } else if (typeof init === 'function') {
+                    init();
+                }
             } else if (targetCleanPath === 'playlists.html') {
                 await loadScriptIfNeeded('playlists.js');
                 if (typeof initPlaylists === 'function') initPlaylists();
