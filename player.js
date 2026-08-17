@@ -46,7 +46,6 @@
                         <button type="button" class="mini-player-liked-badge" id="mini-player-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
                             <span class="liked-heart-icon" id="mini-player-liked-icon">💚</span>
                         </button>
-                        <div class="mini-player-top-track" id="mini-player-top-track"></div>
                         <button type="button" class="mini-player-close-btn" id="mini-player-close-btn" title="Collapse Player">✕</button>
                     </div>
 
@@ -281,9 +280,6 @@
             const track = this.currentTrack;
             const badgeEl = document.getElementById('mini-player-liked-badge');
             const iconEl = document.getElementById('mini-player-liked-icon');
-            const textEl = document.getElementById('mini-player-liked-text');
-            const handleTitle = document.getElementById('handle-title');
-            const topTrack = document.getElementById('mini-player-top-track');
 
             const isLiked = this.checkIsLiked(track);
 
@@ -308,12 +304,6 @@
                         </svg>
                     `;
                 }
-            }
-
-            if (topTrack && track) {
-                const artistName = track.artistNames || (track.artists && track.artists[0]?.name) || '';
-                topTrack.textContent = track.name ? `${track.name}${artistName ? ' • ' + artistName : ''}` : '';
-                topTrack.title = topTrack.textContent;
             }
         }
 

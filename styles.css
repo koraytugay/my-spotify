@@ -1203,18 +1203,6 @@ body.dark-mode .handle-drawer-tab:hover {
     display: inline-block;
 }
 
-.mini-player-top-track {
-    flex: 1 1 auto;
-    min-width: 0;
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: right;
-}
-
 .mini-player-close-btn {
     background: none;
     border: none;
