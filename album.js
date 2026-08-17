@@ -5,6 +5,36 @@ var filteredTracks = [];
 var currentViewMode = 'list';
 var currentPlayingId = null;
 var likedSongIdSet = new Set();
+var likedSongKeySet = new Set();
+
+function getTrackKey(track) {
+    if (!track) return '';
+    if (typeof getTrackDeduplicationKey === 'function') {
+        const k = getTrackDeduplicationKey(track);
+        if (k) return k;
+    }
+    const name = (track.name || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    const artist = (track.artistNames || (track.artists && track.artists[0]?.name) || (albumData ? albumData.artistNames || (albumData.artists && albumData.artists[0]?.name) : '') || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    return `${name}:::${artist}`;
+}
+
+function isSongLiked(track) {
+    if (!track) return false;
+    if (track.id && likedSongIdSet.has(track.id)) return true;
+    const key = getTrackKey(track);
+    if (key && likedSongKeySet.has(key)) return true;
+    return false;
+}
 
 async function initAlbumDetail() {
     const loadingEl = document.getElementById('loading');
@@ -25,10 +55,14 @@ async function initAlbumDetail() {
             getLikedSongs()
         ]);
 
-        // Build set of liked song IDs
+        // Build set of liked song IDs and normalized track keys
         if (Array.isArray(likedSongs)) {
             likedSongs.forEach(s => {
-                if (s && s.id) likedSongIdSet.add(s.id);
+                if (s) {
+                    if (s.id) likedSongIdSet.add(s.id);
+                    const k = getTrackKey(s);
+                    if (k) likedSongKeySet.add(k);
+                }
             });
         }
 
@@ -162,7 +196,7 @@ function renderTracks() {
     listContainer.innerHTML = '';
 
     filteredTracks.forEach((track, index) => {
-        const isLiked = likedSongIdSet.has(track.id);
+        const isLiked = isSongLiked(track);
         const trackNumber = track.trackNumber || (index + 1);
 
         const row = document.createElement('div');
@@ -215,10 +249,13 @@ async function toggleLikeTrackInAlbum(id) {
 
     if (window.miniPlayer) {
         const nextLiked = await window.miniPlayer.toggleLikeTrack(track);
+        const k = getTrackKey(track);
         if (nextLiked) {
-            likedSongIdSet.add(track.id);
+            if (track.id) likedSongIdSet.add(track.id);
+            if (k) likedSongKeySet.add(k);
         } else {
-            likedSongIdSet.delete(track.id);
+            if (track.id) likedSongIdSet.delete(track.id);
+            if (k) likedSongKeySet.delete(k);
         }
         renderTracks();
     }
