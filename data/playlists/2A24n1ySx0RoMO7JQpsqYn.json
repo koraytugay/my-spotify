@@ -8,179 +8,25 @@
   "images": [
     {
       "height": 640,
-      "url": "https://mosaic.scdn.co/640/ab67616d00001e0279d527d14aea026582db9af0ab67616d00001e02af9276f7c7faec1beee16dc8ab67616d00001e02be3d60f650c3b9dbad061f7fab67616d00001e02d3d5d5dcf25a85205584c1ff",
+      "url": "https://mosaic.scdn.co/640/ab67616d00001e02123a1612ed69c39cbce6cc2fab67616d00001e021bde2148f79f4af4c8348a59ab67616d00001e02a641b32019d779543f24f39dab67616d00001e02ed801e58a9ababdea6ac7ce4",
       "width": 640
     },
     {
       "height": 300,
-      "url": "https://mosaic.scdn.co/300/ab67616d00001e0279d527d14aea026582db9af0ab67616d00001e02af9276f7c7faec1beee16dc8ab67616d00001e02be3d60f650c3b9dbad061f7fab67616d00001e02d3d5d5dcf25a85205584c1ff",
+      "url": "https://mosaic.scdn.co/300/ab67616d00001e02123a1612ed69c39cbce6cc2fab67616d00001e021bde2148f79f4af4c8348a59ab67616d00001e02a641b32019d779543f24f39dab67616d00001e02ed801e58a9ababdea6ac7ce4",
       "width": 300
     },
     {
       "height": 60,
-      "url": "https://mosaic.scdn.co/60/ab67616d00001e0279d527d14aea026582db9af0ab67616d00001e02af9276f7c7faec1beee16dc8ab67616d00001e02be3d60f650c3b9dbad061f7fab67616d00001e02d3d5d5dcf25a85205584c1ff",
+      "url": "https://mosaic.scdn.co/60/ab67616d00001e02123a1612ed69c39cbce6cc2fab67616d00001e021bde2148f79f4af4c8348a59ab67616d00001e02a641b32019d779543f24f39dab67616d00001e02ed801e58a9ababdea6ac7ce4",
       "width": 60
     }
   ],
-  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0279d527d14aea026582db9af0ab67616d00001e02af9276f7c7faec1beee16dc8ab67616d00001e02be3d60f650c3b9dbad061f7fab67616d00001e02d3d5d5dcf25a85205584c1ff",
+  "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e02123a1612ed69c39cbce6cc2fab67616d00001e021bde2148f79f4af4c8348a59ab67616d00001e02a641b32019d779543f24f39dab67616d00001e02ed801e58a9ababdea6ac7ce4",
   "owner": "koraytugay",
   "spotifyUrl": "https://open.spotify.com/playlist/2A24n1ySx0RoMO7JQpsqYn",
   "uri": "spotify:playlist:2A24n1ySx0RoMO7JQpsqYn",
   "tracks": [
-    {
-      "id": "0j4RViMe3bybhRBcYEOWce",
-      "name": "Her Nerdeysen",
-      "artists": [
-        {
-          "id": "2yMN0IP20GOaN6q0p0zL5k",
-          "name": "Tarkan"
-        }
-      ],
-      "artistNames": "Tarkan",
-      "album": {
-        "id": "11KfFiHZxXiBoEq52HAsJi",
-        "name": "Karma",
-        "releaseDate": "2001",
-        "releaseYear": "2001"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3d5d5dcf25a85205584c1ff",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d3d5d5dcf25a85205584c1ff",
-      "durationMs": 210140,
-      "durationFormatted": "3:30",
-      "spotifyUrl": "https://open.spotify.com/track/0j4RViMe3bybhRBcYEOWce",
-      "uri": "spotify:track:0j4RViMe3bybhRBcYEOWce",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "40x5K8xyIWVmSeUrYjj0os",
-      "name": "Lost on You",
-      "artists": [
-        {
-          "id": "0J7U24vlOOIeMpuaO6Q85A",
-          "name": "LP"
-        }
-      ],
-      "artistNames": "LP",
-      "album": {
-        "id": "2IdswGlDALRu7hjWi3Nu7f",
-        "name": "Lost On You",
-        "releaseDate": "2016-12-09",
-        "releaseYear": "2016"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af9276f7c7faec1beee16dc8",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af9276f7c7faec1beee16dc8",
-      "durationMs": 268465,
-      "durationFormatted": "4:28",
-      "spotifyUrl": "https://open.spotify.com/track/40x5K8xyIWVmSeUrYjj0os",
-      "uri": "spotify:track:40x5K8xyIWVmSeUrYjj0os",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "2QbSGkb3TgghEHpjKCsznm",
-      "name": "The Lion Sleeps Tonight (Wimoweh)",
-      "artists": [
-        {
-          "id": "1GAJzApRTMmYZ9EjQ91VOy",
-          "name": "The Tokens"
-        }
-      ],
-      "artistNames": "The Tokens",
-      "album": {
-        "id": "0O284g2liKB3MTL4MsY1fJ",
-        "name": "The Lion Sleeps Tonight",
-        "releaseDate": "1994-08-11",
-        "releaseYear": "1994"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27379d527d14aea026582db9af0",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485179d527d14aea026582db9af0",
-      "durationMs": 161200,
-      "durationFormatted": "2:41",
-      "spotifyUrl": "https://open.spotify.com/track/2QbSGkb3TgghEHpjKCsznm",
-      "uri": "spotify:track:2QbSGkb3TgghEHpjKCsznm",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4BggEwLhGfrbrl7JBhC8EC",
-      "name": "Butterfly",
-      "artists": [
-        {
-          "id": "4iSKnRZAxkmqNok6tv10Se",
-          "name": "Crazy Town"
-        }
-      ],
-      "artistNames": "Crazy Town",
-      "album": {
-        "id": "0hdOk76DmEMYI6QV92mIin",
-        "name": "The Gift Of Game",
-        "releaseDate": "2000-12-15",
-        "releaseYear": "2000"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be3d60f650c3b9dbad061f7f",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851be3d60f650c3b9dbad061f7f",
-      "durationMs": 216733,
-      "durationFormatted": "3:36",
-      "spotifyUrl": "https://open.spotify.com/track/4BggEwLhGfrbrl7JBhC8EC",
-      "uri": "spotify:track:4BggEwLhGfrbrl7JBhC8EC",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4Q2t1wFBSwgaPlgV5GpqZp",
-      "name": "Bu Kalp Seni Unutur mu",
-      "artists": [
-        {
-          "id": "6RXvZtTyld421VPmJtLqkL",
-          "name": "Fikret Kızılok"
-        },
-        {
-          "id": "59bYzaay1pdqFIJ42j0vf9",
-          "name": "Sibel Sezal"
-        }
-      ],
-      "artistNames": "Fikret Kızılok, Sibel Sezal",
-      "album": {
-        "id": "2h67Qv5F4iE666brhwVgoC",
-        "name": "Yana Yana",
-        "releaseDate": "1993-05-10",
-        "releaseYear": "1993"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e99e4ff14cb6f70e1c242e95",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e99e4ff14cb6f70e1c242e95",
-      "durationMs": 274713,
-      "durationFormatted": "4:34",
-      "spotifyUrl": "https://open.spotify.com/track/4Q2t1wFBSwgaPlgV5GpqZp",
-      "uri": "spotify:track:4Q2t1wFBSwgaPlgV5GpqZp",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "018NTq8lO7v777jt2PyYpy",
-      "name": "Hayırdır İnşallah",
-      "artists": [
-        {
-          "id": "4xFnVUCpGqLVfCNyzsC6wC",
-          "name": "Uğur Akdora"
-        }
-      ],
-      "artistNames": "Uğur Akdora",
-      "album": {
-        "id": "0yzJAJ2hURsjmBMPbC0Bdi",
-        "name": "Kadınlar (45'lik)",
-        "releaseDate": "2009-09-30",
-        "releaseYear": "2009"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27369bb4ec7dbca322df77034cd",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485169bb4ec7dbca322df77034cd",
-      "durationMs": 153946,
-      "durationFormatted": "2:33",
-      "spotifyUrl": "https://open.spotify.com/track/018NTq8lO7v777jt2PyYpy",
-      "uri": "spotify:track:018NTq8lO7v777jt2PyYpy",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
     {
       "id": "1Ug2nw9SNJT13SLi9G0YGT",
       "name": "Gülpembe",
@@ -211,206 +57,6 @@
       "addedDate": "2026-08-17"
     },
     {
-      "id": "0xCA70t1ZA4fa9UOE0lIJm",
-      "name": "I'm a Mess",
-      "artists": [
-        {
-          "id": "6eUKZXaKkcviH0Ku9w2n3V",
-          "name": "Ed Sheeran"
-        }
-      ],
-      "artistNames": "Ed Sheeran",
-      "album": {
-        "id": "1xn54DMo2qIqBuMqHtUsFd",
-        "name": "x (Deluxe Edition)",
-        "releaseDate": "2014-06-21",
-        "releaseYear": "2014"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485113b3e37318a0c247b550bccd",
-      "durationMs": 244573,
-      "durationFormatted": "4:04",
-      "spotifyUrl": "https://open.spotify.com/track/0xCA70t1ZA4fa9UOE0lIJm",
-      "uri": "spotify:track:0xCA70t1ZA4fa9UOE0lIJm",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "04XdCMi1WhAjVyRJbAtaq0",
-      "name": "Kung Fu Fighting",
-      "artists": [
-        {
-          "id": "5Pqx4mXYDGIDcg8E5FYjZ8",
-          "name": "Carl Douglas"
-        }
-      ],
-      "artistNames": "Carl Douglas",
-      "album": {
-        "id": "6YxZJJWvWQvFhXgdSSFe6Y",
-        "name": "100 70s",
-        "releaseDate": "2012-01-01",
-        "releaseYear": "2012"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27339989a93bf26a4b1c2aab012",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485139989a93bf26a4b1c2aab012",
-      "durationMs": 196349,
-      "durationFormatted": "3:16",
-      "spotifyUrl": "https://open.spotify.com/track/04XdCMi1WhAjVyRJbAtaq0",
-      "uri": "spotify:track:04XdCMi1WhAjVyRJbAtaq0",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "3OyeekIqkuPX9ulGxwVcgl",
-      "name": "Strawberry Letter 23",
-      "artists": [
-        {
-          "id": "6h3rSZ8VLK7a5vXjEmhfuD",
-          "name": "The Brothers Johnson"
-        }
-      ],
-      "artistNames": "The Brothers Johnson",
-      "album": {
-        "id": "4udoGg5dn0Vfm2Cijtk35k",
-        "name": "Strawberry Letter 23/The Very Best Of The Brothers Johnson",
-        "releaseDate": "2003-01-01",
-        "releaseYear": "2003"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa48f489851de2886a475950",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851aa48f489851de2886a475950",
-      "durationMs": 298794,
-      "durationFormatted": "4:58",
-      "spotifyUrl": "https://open.spotify.com/track/3OyeekIqkuPX9ulGxwVcgl",
-      "uri": "spotify:track:3OyeekIqkuPX9ulGxwVcgl",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "2RaA6kIcvomt77qlIgGhCT",
-      "name": "Breaking the Law",
-      "artists": [
-        {
-          "id": "2tRsMl4eGxwoNabM08Dm4I",
-          "name": "Judas Priest"
-        }
-      ],
-      "artistNames": "Judas Priest",
-      "album": {
-        "id": "5bqtZRbUZUxUps8mrO9tGY",
-        "name": "British Steel",
-        "releaseDate": "1980",
-        "releaseYear": "1980"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273be0e5ebab8c61469b1ff9f62",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851be0e5ebab8c61469b1ff9f62",
-      "durationMs": 153840,
-      "durationFormatted": "2:33",
-      "spotifyUrl": "https://open.spotify.com/track/2RaA6kIcvomt77qlIgGhCT",
-      "uri": "spotify:track:2RaA6kIcvomt77qlIgGhCT",
-      "addedAt": "2026-08-17T00:01:50Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4NtUY5IGzHCaqfZemmAu56",
-      "name": "Dancing Queen",
-      "artists": [
-        {
-          "id": "0LcJLqbBmaGUft1e9Mm8HV",
-          "name": "ABBA"
-        }
-      ],
-      "artistNames": "ABBA",
-      "album": {
-        "id": "1M4anG49aEs4YimBdj96Oy",
-        "name": "Arrival",
-        "releaseDate": "1976",
-        "releaseYear": "1976"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c60391b048d33edff6f3d62",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513c60391b048d33edff6f3d62",
-      "durationMs": 230693,
-      "durationFormatted": "3:50",
-      "spotifyUrl": "https://open.spotify.com/track/4NtUY5IGzHCaqfZemmAu56",
-      "uri": "spotify:track:4NtUY5IGzHCaqfZemmAu56",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "7723JnKU2R15Iv4T7OJrly",
-      "name": "Funky Town",
-      "artists": [
-        {
-          "id": "0lwRI7lvmlRY5DiA5Xa6wQ",
-          "name": "Lipps Inc."
-        }
-      ],
-      "artistNames": "Lipps Inc.",
-      "album": {
-        "id": "3r4KvV3xbEN0VAHthWYnAE",
-        "name": "Paradas Continuas",
-        "releaseDate": "2009-10-20",
-        "releaseYear": "2009"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273432b122f90d8f23424448abe",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851432b122f90d8f23424448abe",
-      "durationMs": 239253,
-      "durationFormatted": "3:59",
-      "spotifyUrl": "https://open.spotify.com/track/7723JnKU2R15Iv4T7OJrly",
-      "uri": "spotify:track:7723JnKU2R15Iv4T7OJrly",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "3LmpQiFNgFCnvAnhhvKUyI",
-      "name": "Stayin' Alive - Remastered Version",
-      "artists": [
-        {
-          "id": "1LZEQNv7sE11VDY3SdxQeN",
-          "name": "Bee Gees"
-        }
-      ],
-      "artistNames": "Bee Gees",
-      "album": {
-        "id": "79F4jBcsI4qg66Xax1u4U8",
-        "name": "Number Ones",
-        "releaseDate": "2004-11-09",
-        "releaseYear": "2004"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739821d5e58a3fba7559dc2722",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519821d5e58a3fba7559dc2722",
-      "durationMs": 285200,
-      "durationFormatted": "4:45",
-      "spotifyUrl": "https://open.spotify.com/track/3LmpQiFNgFCnvAnhhvKUyI",
-      "uri": "spotify:track:3LmpQiFNgFCnvAnhhvKUyI",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "04kMfgHaBSgpWP99YmRoEk",
-      "name": "El Bimbo",
-      "artists": [
-        {
-          "id": "4hGjngc0tPOBwTgTPci3IK",
-          "name": "Santo & Johnny"
-        }
-      ],
-      "artistNames": "Santo & Johnny",
-      "album": {
-        "id": "0EgtsDw1Yc9umsqXTXGbq8",
-        "name": "Volume Secondo",
-        "releaseDate": "2000",
-        "releaseYear": "2000"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e8b595c73e1eef654eeeb4b",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516e8b595c73e1eef654eeeb4b",
-      "durationMs": 174637,
-      "durationFormatted": "2:54",
-      "spotifyUrl": "https://open.spotify.com/track/04kMfgHaBSgpWP99YmRoEk",
-      "uri": "spotify:track:04kMfgHaBSgpWP99YmRoEk",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
       "id": "3TnJ7M6in8Pb5EyGBUK02Y",
       "name": "Crockett's Theme",
       "artists": [
@@ -436,448 +82,278 @@
       "addedDate": "2026-08-17"
     },
     {
-      "id": "64Ny7djQ6rNJspquof2KoX",
-      "name": "Hound Dog",
+      "id": "1LCtryF5eE8v9bPLStorVg",
+      "name": "Uyut Beni",
       "artists": [
         {
-          "id": "43ZHCT0cAZBISjO8DG9PnE",
-          "name": "Elvis Presley"
+          "id": "5QpQ8Zu2s3aMjYf88au1Le",
+          "name": "Kurban"
         }
       ],
-      "artistNames": "Elvis Presley",
+      "artistNames": "Kurban",
       "album": {
-        "id": "0C3t1htEDTFKcg7F2rNbek",
-        "name": "Elvis' Golden Records",
-        "releaseDate": "1958-03-21",
-        "releaseYear": "1958"
+        "id": "0betvnNsgmgKVl0nvKLaGD",
+        "name": "İnsanlar",
+        "releaseDate": "2005-05-06",
+        "releaseYear": "2005"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27365e7f92b6667ac6cbb239845",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485165e7f92b6667ac6cbb239845",
-      "durationMs": 138948,
-      "durationFormatted": "2:18",
-      "spotifyUrl": "https://open.spotify.com/track/64Ny7djQ6rNJspquof2KoX",
-      "uri": "spotify:track:64Ny7djQ6rNJspquof2KoX",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27383ea77a5d83c2fbdaa552f6b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485183ea77a5d83c2fbdaa552f6b",
+      "durationMs": 299490,
+      "durationFormatted": "4:59",
+      "spotifyUrl": "https://open.spotify.com/track/1LCtryF5eE8v9bPLStorVg",
+      "uri": "spotify:track:1LCtryF5eE8v9bPLStorVg",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "6PjQHIHnVYlPYcFbrm7bEI",
-      "name": "Until The Morning",
+      "id": "4DE42oDol0KHxympBsaiYu",
+      "name": "Norwegian Wood (This Bird Has Flown) - Remastered",
       "artists": [
         {
-          "id": "25KNo5GDS6ZpLkjasaecA3",
-          "name": "Thievery Corporation"
-        },
+          "id": "3WrFJ7ztbogyGnTHbHJFl2",
+          "name": "The Beatles"
+        }
+      ],
+      "artistNames": "The Beatles",
+      "album": {
+        "id": "3OdI6e43crvyAHhaqpxSyz",
+        "name": "Rubber Soul (Remastered)",
+        "releaseDate": "1965-12-03",
+        "releaseYear": "1965"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731900d66ea85fc60fab98e570",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511900d66ea85fc60fab98e570",
+      "durationMs": 124693,
+      "durationFormatted": "2:04",
+      "spotifyUrl": "https://open.spotify.com/track/4DE42oDol0KHxympBsaiYu",
+      "uri": "spotify:track:4DE42oDol0KHxympBsaiYu",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "1BPwXM2WKXbKWIl81pAgrl",
+      "name": "2 bigos",
+      "artists": [
+        {
+          "id": "1ntQKIMIgESKpKoNXVBvQg",
+          "name": "Kaaris"
+        }
+      ],
+      "artistNames": "Kaaris",
+      "album": {
+        "id": "2ZVrMEzkhTZOauEFPnfyUi",
+        "name": "Okou Gnakouri",
+        "releaseDate": "2016-11-11",
+        "releaseYear": "2016"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b9eb91872a47786885e6654e",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b9eb91872a47786885e6654e",
+      "durationMs": 237960,
+      "durationFormatted": "3:57",
+      "spotifyUrl": "https://open.spotify.com/track/1BPwXM2WKXbKWIl81pAgrl",
+      "uri": "spotify:track:1BPwXM2WKXbKWIl81pAgrl",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "1OzHkIzGMj4S3rWwF8TBjc",
+      "name": "Aqua De Coco",
+      "artists": [
+        {
+          "id": "5I0EPnV9gwrZYTbScjnaOk",
+          "name": "Marcos Valle"
+        }
+      ],
+      "artistNames": "Marcos Valle",
+      "album": {
+        "id": "2JNZXF9x8carCcdiBBfX1U",
+        "name": "Far Out Chill Brazil",
+        "releaseDate": "2007-07-16",
+        "releaseYear": "2007"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a4e5975370d44a2b1197a402",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a4e5975370d44a2b1197a402",
+      "durationMs": 287560,
+      "durationFormatted": "4:47",
+      "spotifyUrl": "https://open.spotify.com/track/1OzHkIzGMj4S3rWwF8TBjc",
+      "uri": "spotify:track:1OzHkIzGMj4S3rWwF8TBjc",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "0QewO59ixTHz3bsa4mRHup",
+      "name": "Shame - 12\" Disco Mix",
+      "artists": [
+        {
+          "id": "4JCt4xrbbBB9blkKwNlcJ7",
+          "name": "Evelyn \"Champagne\" King"
+        }
+      ],
+      "artistNames": "Evelyn \"Champagne\" King",
+      "album": {
+        "id": "4BlJ6291OlTOAKnnXJMIQI",
+        "name": "The Essential Evelyn \"Champagne\" King",
+        "releaseDate": "2015-03-23",
+        "releaseYear": "2015"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738078937fde70a1cbd52f1194",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518078937fde70a1cbd52f1194",
+      "durationMs": 391693,
+      "durationFormatted": "6:31",
+      "spotifyUrl": "https://open.spotify.com/track/0QewO59ixTHz3bsa4mRHup",
+      "uri": "spotify:track:0QewO59ixTHz3bsa4mRHup",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "5dcfP0DYH5SDeizgbHZop6",
+      "name": "Sunny Road",
+      "artists": [
         {
           "id": "08j69Ndyx1P7RLO3Janb5P",
           "name": "Emilíana Torrini"
         }
       ],
-      "artistNames": "Thievery Corporation, Emilíana Torrini",
+      "artistNames": "Emilíana Torrini",
       "album": {
-        "id": "2gKBPcQcRfqbnjjnv3Qi8a",
-        "name": "The Richest Man In Babylon",
-        "releaseDate": "2003-01-14",
-        "releaseYear": "2003"
+        "id": "7kqYf6dpsDgxm61go96hwp",
+        "name": "Fisherman's Woman",
+        "releaseDate": "2005",
+        "releaseYear": "2005"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273943b30cf86f0edd3fc5a3221",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851943b30cf86f0edd3fc5a3221",
-      "durationMs": 236960,
-      "durationFormatted": "3:56",
-      "spotifyUrl": "https://open.spotify.com/track/6PjQHIHnVYlPYcFbrm7bEI",
-      "uri": "spotify:track:6PjQHIHnVYlPYcFbrm7bEI",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738b481816042dfffe17fd8064",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518b481816042dfffe17fd8064",
+      "durationMs": 184533,
+      "durationFormatted": "3:04",
+      "spotifyUrl": "https://open.spotify.com/track/5dcfP0DYH5SDeizgbHZop6",
+      "uri": "spotify:track:5dcfP0DYH5SDeizgbHZop6",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "6hgoYQDUcPyCz7LcTUHKxa",
-      "name": "Calm Down",
+      "id": "1Wyy0qQ2fPEnx7aY5Wj4CK",
+      "name": "Total Eclipse of the Heart - Single Version",
       "artists": [
         {
-          "id": "46pWGuE3dSwY3bMMXGBvVS",
-          "name": "Rema"
+          "id": "0SD4eZCN4Kr0wQk56hCdh2",
+          "name": "Bonnie Tyler"
         }
       ],
-      "artistNames": "Rema",
+      "artistNames": "Bonnie Tyler",
       "album": {
-        "id": "37iaWiKMa9YBbEDlw5c3Qh",
-        "name": "Calm Down",
-        "releaseDate": "2022-02-10",
-        "releaseYear": "2022"
+        "id": "5b7BtEjBK8mRozBk6RKsOD",
+        "name": "Holding Out For A Hero: The Very Best Of",
+        "releaseDate": "2010",
+        "releaseYear": "2010"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734104f6b4175d04d69ab73c85",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514104f6b4175d04d69ab73c85",
-      "durationMs": 219813,
-      "durationFormatted": "3:39",
-      "spotifyUrl": "https://open.spotify.com/track/6hgoYQDUcPyCz7LcTUHKxa",
-      "uri": "spotify:track:6hgoYQDUcPyCz7LcTUHKxa",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4cksmZKyHizALR2Om98NRQ",
-      "name": "Jeep's Blues",
-      "artists": [
-        {
-          "id": "1ouwdRCWsw9IBhPoDMrhFv",
-          "name": "Arne Domnérus"
-        },
-        {
-          "id": "3Z1yaFUknAq52KBVmrYpqy",
-          "name": "Georg Riedel"
-        },
-        {
-          "id": "5q3Zh4BS8gJVpcrcGOhk8J",
-          "name": "Bengt Hallberg"
-        },
-        {
-          "id": "5aUwhctK3ivNtJp3DY8bdL",
-          "name": "Lars Erstrand"
-        },
-        {
-          "id": "5o4LY9qwazUWeGPKh52JLw",
-          "name": "Egil Johansen"
-        }
-      ],
-      "artistNames": "Arne Domnérus, Georg Riedel, Bengt Hallberg, Lars Erstrand, Egil Johansen",
-      "album": {
-        "id": "65NqpWjm4nMMeb8feGIheP",
-        "name": "Jazz at the Pawnshop",
-        "releaseDate": "1977",
-        "releaseYear": "1977"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273197657324aee7962cdee0b1e",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851197657324aee7962cdee0b1e",
-      "durationMs": 424466,
-      "durationFormatted": "7:04",
-      "spotifyUrl": "https://open.spotify.com/track/4cksmZKyHizALR2Om98NRQ",
-      "uri": "spotify:track:4cksmZKyHizALR2Om98NRQ",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "5wf2668YEFHpFNiEb3rLKb",
-      "name": "Wave",
-      "artists": [
-        {
-          "id": "2NFrAuh8RQdQoS7iYFbckw",
-          "name": "The Midnight"
-        }
-      ],
-      "artistNames": "The Midnight",
-      "album": {
-        "id": "5kQUIjlpXoMMAHRAhbXmpp",
-        "name": "Kids",
-        "releaseDate": "2018-09-21",
-        "releaseYear": "2018"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273631319a763a0878386d283fa",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851631319a763a0878386d283fa",
-      "durationMs": 271530,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a2adad9a4208610157fb767e",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a2adad9a4208610157fb767e",
+      "durationMs": 271120,
       "durationFormatted": "4:31",
-      "spotifyUrl": "https://open.spotify.com/track/5wf2668YEFHpFNiEb3rLKb",
-      "uri": "spotify:track:5wf2668YEFHpFNiEb3rLKb",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "spotifyUrl": "https://open.spotify.com/track/1Wyy0qQ2fPEnx7aY5Wj4CK",
+      "uri": "spotify:track:1Wyy0qQ2fPEnx7aY5Wj4CK",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "2O3CJdn2fUh90n7his0v4D",
-      "name": "Bilionera",
+      "id": "4xTMKnLtz1PVfZRElleujx",
+      "name": "Ghostbusters",
       "artists": [
         {
-          "id": "6RQDTlies3nrNDJwXvbBZT",
-          "name": "Otilia"
+          "id": "6DIS6PRrLS3wbnZsf7vYic",
+          "name": "WALK THE MOON"
         }
       ],
-      "artistNames": "Otilia",
+      "artistNames": "WALK THE MOON",
       "album": {
-        "id": "6GSKr0QHjCZgryfa2NsnRs",
-        "name": "Bilionera (DJ Tarun Remix)",
-        "releaseDate": "2016",
+        "id": "0epcJ1L57tp3SF30aKyeWa",
+        "name": "Ghostbusters (Original Motion Picture Soundtrack) [2016]",
+        "releaseDate": "2016-07-15",
         "releaseYear": "2016"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273bcf128841d645342c6d998cd",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851bcf128841d645342c6d998cd",
-      "durationMs": 185202,
-      "durationFormatted": "3:05",
-      "spotifyUrl": "https://open.spotify.com/track/2O3CJdn2fUh90n7his0v4D",
-      "uri": "spotify:track:2O3CJdn2fUh90n7his0v4D",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e13e5a8659a5518c320cd6cb",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e13e5a8659a5518c320cd6cb",
+      "durationMs": 224686,
+      "durationFormatted": "3:44",
+      "spotifyUrl": "https://open.spotify.com/track/4xTMKnLtz1PVfZRElleujx",
+      "uri": "spotify:track:4xTMKnLtz1PVfZRElleujx",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "4DaqytaN7yMEaSJo8HjtN9",
-      "name": "Rüya",
+      "id": "4XX1pFUkQOZTYp6Hb6a6Ae",
+      "name": "Venus",
       "artists": [
         {
-          "id": "4pYF80SmJuMKyGF5MBEQlv",
-          "name": "Ünlü"
+          "id": "3sc7iUG1Wwpwx7bHeZolgx",
+          "name": "Bananarama"
         }
       ],
-      "artistNames": "Ünlü",
+      "artistNames": "Bananarama",
       "album": {
-        "id": "6PJIbpN5Jhko8APpMdeoWB",
-        "name": "Ünlü (1996-2016 Remastered)",
-        "releaseDate": "2016-02-19",
-        "releaseYear": "2016"
+        "id": "6CVuruIUWoYViZM97wgq9h",
+        "name": "True Confessions (Collector's Edition)",
+        "releaseDate": "1986-01-01",
+        "releaseYear": "1986"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fba8ff98758073186e859d11",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fba8ff98758073186e859d11",
-      "durationMs": 207440,
-      "durationFormatted": "3:27",
-      "spotifyUrl": "https://open.spotify.com/track/4DaqytaN7yMEaSJo8HjtN9",
-      "uri": "spotify:track:4DaqytaN7yMEaSJo8HjtN9",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a0d900e093b0d3240ef777ff",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a0d900e093b0d3240ef777ff",
+      "durationMs": 229164,
+      "durationFormatted": "3:49",
+      "spotifyUrl": "https://open.spotify.com/track/4XX1pFUkQOZTYp6Hb6a6Ae",
+      "uri": "spotify:track:4XX1pFUkQOZTYp6Hb6a6Ae",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "7Cuk8jsPPoNYQWXK9XRFvG",
-      "name": "September",
+      "id": "4YEF0rgt6rIhjQefIkJWTX",
+      "name": "Polaris",
       "artists": [
         {
-          "id": "4QQgXkCYTt3BlENzhyNETg",
-          "name": "Earth, Wind & Fire"
+          "id": "14H7ag1wpQOsPPQJOD6Dqr",
+          "name": "Zero 7"
         }
       ],
-      "artistNames": "Earth, Wind & Fire",
+      "artistNames": "Zero 7",
       "album": {
-        "id": "4MgtwNYjD89Oj2km6eFRYd",
-        "name": "September",
-        "releaseDate": "2018-04-17",
-        "releaseYear": "2018"
+        "id": "1VRBB9iu84o3g16CczH9iH",
+        "name": "Simple Things",
+        "releaseDate": "2001",
+        "releaseYear": "2001"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e5689a9d09ac1fc2cba2ab0",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516e5689a9d09ac1fc2cba2ab0",
-      "durationMs": 215080,
-      "durationFormatted": "3:35",
-      "spotifyUrl": "https://open.spotify.com/track/7Cuk8jsPPoNYQWXK9XRFvG",
-      "uri": "spotify:track:7Cuk8jsPPoNYQWXK9XRFvG",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730f387fd18dfdc5f0c18b80d3",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510f387fd18dfdc5f0c18b80d3",
+      "durationMs": 288266,
+      "durationFormatted": "4:48",
+      "spotifyUrl": "https://open.spotify.com/track/4YEF0rgt6rIhjQefIkJWTX",
+      "uri": "spotify:track:4YEF0rgt6rIhjQefIkJWTX",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "29RNDz0GAkVT4YV4Y2sthL",
-      "name": "All I want",
+      "id": "0RdUX4WE0fO30VnlUbDVL6",
+      "name": "Still Loving You",
       "artists": [
         {
-          "id": "05tPwlpXpLFDlHIErC7bW9",
-          "name": "Jehro"
+          "id": "27T030eWyCQRmDyuvr1kxY",
+          "name": "Scorpions"
         }
       ],
-      "artistNames": "Jehro",
+      "artistNames": "Scorpions",
       "album": {
-        "id": "3l1nGJTNNjFwQ1cADEGHaw",
-        "name": "Hôtel Costes 9",
-        "releaseDate": "2006-09-25",
-        "releaseYear": "2006"
+        "id": "4vQ96yyyYbaeTQujH3iTtd",
+        "name": "Comeblack",
+        "releaseDate": "2011-11-07",
+        "releaseYear": "2011"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27382a53e806a8d2ebb27ee65ce",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485182a53e806a8d2ebb27ee65ce",
-      "durationMs": 189052,
-      "durationFormatted": "3:09",
-      "spotifyUrl": "https://open.spotify.com/track/29RNDz0GAkVT4YV4Y2sthL",
-      "uri": "spotify:track:29RNDz0GAkVT4YV4Y2sthL",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4nmne9J3YCEdhvjTzwiAgu",
-      "name": "Black Magic Woman",
-      "artists": [
-        {
-          "id": "6GI52t8N5F02MxU0g5U69P",
-          "name": "Santana"
-        }
-      ],
-      "artistNames": "Santana",
-      "album": {
-        "id": "6FbFvnlSfEoNhwz5MdK0Dx",
-        "name": "Ultimate Santana",
-        "releaseDate": "2007-09-25",
-        "releaseYear": "2007"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735ffffefb4343759b63f72598",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515ffffefb4343759b63f72598",
-      "durationMs": 195866,
-      "durationFormatted": "3:15",
-      "spotifyUrl": "https://open.spotify.com/track/4nmne9J3YCEdhvjTzwiAgu",
-      "uri": "spotify:track:4nmne9J3YCEdhvjTzwiAgu",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "0RxrsIXyGkeV8JwEFUZMhg",
-      "name": "Born In The 50's",
-      "artists": [
-        {
-          "id": "5NGO30tJxFlKixkPSgXcFE",
-          "name": "The Police"
-        }
-      ],
-      "artistNames": "The Police",
-      "album": {
-        "id": "1H9g6j4Wwj6wh6p8YHVtkf",
-        "name": "Outlandos D'Amour (Remastered 2003)",
-        "releaseDate": "1978-11-02",
-        "releaseYear": "1978"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732043dd3544a339547d04b436",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512043dd3544a339547d04b436",
-      "durationMs": 222466,
-      "durationFormatted": "3:42",
-      "spotifyUrl": "https://open.spotify.com/track/0RxrsIXyGkeV8JwEFUZMhg",
-      "uri": "spotify:track:0RxrsIXyGkeV8JwEFUZMhg",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "2CeqxyOZEyiL6pTDYZ9gPH",
-      "name": "Fever",
-      "artists": [
-        {
-          "id": "602DnpaSXJB4b9DZrvxbDc",
-          "name": "Peggy Lee"
-        }
-      ],
-      "artistNames": "Peggy Lee",
-      "album": {
-        "id": "16BF4fvjjxlzrdKrUl4k5F",
-        "name": "The Best Of Peggy Lee",
-        "releaseDate": "1988-01-01",
-        "releaseYear": "1988"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c7087466d74c3470d191cf37",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c7087466d74c3470d191cf37",
-      "durationMs": 201333,
-      "durationFormatted": "3:21",
-      "spotifyUrl": "https://open.spotify.com/track/2CeqxyOZEyiL6pTDYZ9gPH",
-      "uri": "spotify:track:2CeqxyOZEyiL6pTDYZ9gPH",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "2LawezPeJhN4AWuSB0GtAU",
-      "name": "Have You Ever Seen The Rain",
-      "artists": [
-        {
-          "id": "3IYUhFvPQItj6xySrBmZkd",
-          "name": "Creedence Clearwater Revival"
-        }
-      ],
-      "artistNames": "Creedence Clearwater Revival",
-      "album": {
-        "id": "372cMadhAGlNuDnc8TssqF",
-        "name": "Pendulum (Expanded Edition)",
-        "releaseDate": "1970-12-07",
-        "releaseYear": "1970"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27351f311c2fb06ad2789e3ff91",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485151f311c2fb06ad2789e3ff91",
-      "durationMs": 160133,
-      "durationFormatted": "2:40",
-      "spotifyUrl": "https://open.spotify.com/track/2LawezPeJhN4AWuSB0GtAU",
-      "uri": "spotify:track:2LawezPeJhN4AWuSB0GtAU",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "2E6mmCrog5OKgpPeEkHOLX",
-      "name": "Eye for an Eye",
-      "artists": [
-        {
-          "id": "2nszamLjZFgu3Yx77mKxuC",
-          "name": "UNKLE"
-        }
-      ],
-      "artistNames": "UNKLE",
-      "album": {
-        "id": "1nTFTWkkrSClmWjcPn1iG6",
-        "name": "Never, Never, Land",
-        "releaseDate": "2003-09-22",
-        "releaseYear": "2003"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731e80e963a60fbdcf44de616c",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511e80e963a60fbdcf44de616c",
-      "durationMs": 345733,
-      "durationFormatted": "5:45",
-      "spotifyUrl": "https://open.spotify.com/track/2E6mmCrog5OKgpPeEkHOLX",
-      "uri": "spotify:track:2E6mmCrog5OKgpPeEkHOLX",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "6sqp5CFRRd4XTuipKskBsC",
-      "name": "Amor",
-      "artists": [
-        {
-          "id": "5eTYZk0BrCzlQ1JiLRSwW1",
-          "name": "Kamelia"
-        }
-      ],
-      "artistNames": "Kamelia",
-      "album": {
-        "id": "0RJLvTdGuVecvuXnGQgEfU",
-        "name": "Amor",
-        "releaseDate": "2015-12-10",
-        "releaseYear": "2015"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739a54c2d541196d5b4d510094",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519a54c2d541196d5b4d510094",
-      "durationMs": 204205,
-      "durationFormatted": "3:24",
-      "spotifyUrl": "https://open.spotify.com/track/6sqp5CFRRd4XTuipKskBsC",
-      "uri": "spotify:track:6sqp5CFRRd4XTuipKskBsC",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4V3cwUkt6Oi70SiXWAEQTh",
-      "name": "Gaip Yol",
-      "artists": [
-        {
-          "id": "7EJB9F3fv0x2ezht730D7F",
-          "name": "Burcu Güneş"
-        }
-      ],
-      "artistNames": "Burcu Güneş",
-      "album": {
-        "id": "1OOepvcMhvq7ohTs9EofXe",
-        "name": "Neredesin Firuze ( Orijinal Fim Müzikleri )",
-        "releaseDate": "2004-02-17",
-        "releaseYear": "2004"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a9d26999d4a1ede2886068b",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515a9d26999d4a1ede2886068b",
-      "durationMs": 182462,
-      "durationFormatted": "3:02",
-      "spotifyUrl": "https://open.spotify.com/track/4V3cwUkt6Oi70SiXWAEQTh",
-      "uri": "spotify:track:4V3cwUkt6Oi70SiXWAEQTh",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "5Uene4exc7GwWYDN6X3Ihd",
-      "name": "Bourée",
-      "artists": [
-        {
-          "id": "6w6z8m4WXX7Tub4Rb6Lu7R",
-          "name": "Jethro Tull"
-        }
-      ],
-      "artistNames": "Jethro Tull",
-      "album": {
-        "id": "5c0NFeQON726s0zzipHA1d",
-        "name": "Stand Up",
-        "releaseDate": "1969-08-01",
-        "releaseYear": "1969"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27369a7ec0045a385bdf057c871",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485169a7ec0045a385bdf057c871",
-      "durationMs": 225400,
-      "durationFormatted": "3:45",
-      "spotifyUrl": "https://open.spotify.com/track/5Uene4exc7GwWYDN6X3Ihd",
-      "uri": "spotify:track:5Uene4exc7GwWYDN6X3Ihd",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f2023d391c3bd4acf4d51c6",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519f2023d391c3bd4acf4d51c6",
+      "durationMs": 403453,
+      "durationFormatted": "6:43",
+      "spotifyUrl": "https://open.spotify.com/track/0RdUX4WE0fO30VnlUbDVL6",
+      "uri": "spotify:track:0RdUX4WE0fO30VnlUbDVL6",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
@@ -906,132 +382,365 @@
       "addedDate": "2026-08-17"
     },
     {
-      "id": "7AdMzesYknao6loNAJAq9f",
-      "name": "I'll Be Waiting",
+      "id": "6UhbHxZSOIprhQtae9sp4F",
+      "name": "Ödünç Aldığım Tüm Erkeklere",
       "artists": [
         {
-          "id": "4RqlUMU9O5BNUhsRaukbRZ",
-          "name": "Talisman"
+          "id": "4wWaqd4kaS4sjE1113r2H3",
+          "name": "Aslı Gökyokuş"
         }
       ],
-      "artistNames": "Talisman",
+      "artistNames": "Aslı Gökyokuş",
       "album": {
-        "id": "4H7aZwmaof1INs96nlzmuI",
-        "name": "Talisman",
-        "releaseDate": "1990-02-22",
-        "releaseYear": "1990"
+        "id": "5BHseWo51e0hosUjxXLLZg",
+        "name": "Su Gibi",
+        "releaseDate": "2004-01-17",
+        "releaseYear": "2004"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2768699f1c99bec1c252d70",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e2768699f1c99bec1c252d70",
-      "durationMs": 177426,
-      "durationFormatted": "2:57",
-      "spotifyUrl": "https://open.spotify.com/track/7AdMzesYknao6loNAJAq9f",
-      "uri": "spotify:track:7AdMzesYknao6loNAJAq9f",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273342db083ce1960ebb1b03aae",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851342db083ce1960ebb1b03aae",
+      "durationMs": 281800,
+      "durationFormatted": "4:41",
+      "spotifyUrl": "https://open.spotify.com/track/6UhbHxZSOIprhQtae9sp4F",
+      "uri": "spotify:track:6UhbHxZSOIprhQtae9sp4F",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "7CvOnbFdnIoXMQ4eFCo5lB",
-      "name": "Around the World (La La La La La)",
+      "id": "2DIYI7xR0DsCdSHkyY1vUt",
+      "name": "I See You Baby - Fatboy Slim Remix",
       "artists": [
         {
-          "id": "5wTdspmxzb8V4ZjvDodpBo",
-          "name": "A Touch Of Class"
+          "id": "67tgMwUfnmqzYsNAtnP6YJ",
+          "name": "Groove Armada"
         },
         {
-          "id": "0PEfbjTw85CAN5G0lz9n3p",
-          "name": "Pete Konemann"
+          "id": "4Y7tXHSEejGu1vQ9bwDdXW",
+          "name": "Fatboy Slim"
+        },
+        {
+          "id": "4OQG8ttceevCWluX1i2BdO",
+          "name": "Norman Cook"
         }
       ],
-      "artistNames": "A Touch Of Class, Pete Konemann",
+      "artistNames": "Groove Armada, Fatboy Slim, Norman Cook",
       "album": {
-        "id": "2kBFECL9a71fNRXbRW5xO3",
-        "name": "Planet Pop",
-        "releaseDate": "2000-11-06",
-        "releaseYear": "2000"
+        "id": "5vpSQUagobcDEf6IVcmM1m",
+        "name": "Why Try Harder - The Greatest Hits",
+        "releaseDate": "2006-06-18",
+        "releaseYear": "2006"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732b674491e363e44f14d10f43",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512b674491e363e44f14d10f43",
-      "durationMs": 214533,
-      "durationFormatted": "3:34",
-      "spotifyUrl": "https://open.spotify.com/track/7CvOnbFdnIoXMQ4eFCo5lB",
-      "uri": "spotify:track:7CvOnbFdnIoXMQ4eFCo5lB",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735881f12ca6d02eb7987dd09b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515881f12ca6d02eb7987dd09b",
+      "durationMs": 210120,
+      "durationFormatted": "3:30",
+      "spotifyUrl": "https://open.spotify.com/track/2DIYI7xR0DsCdSHkyY1vUt",
+      "uri": "spotify:track:2DIYI7xR0DsCdSHkyY1vUt",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "4WOruM7TiQSETsWYy8bDSX",
-      "name": "One More Cup of Coffee",
+      "id": "2tUBqZG2AbRi7Q0BIrVrEj",
+      "name": "I Wanna Dance with Somebody (Who Loves Me)",
       "artists": [
         {
-          "id": "74ASZWbe4lXaubB36ztrGX",
-          "name": "Bob Dylan"
+          "id": "6XpaIBNiVzIetEPCWDvAFP",
+          "name": "Whitney Houston"
         }
       ],
-      "artistNames": "Bob Dylan",
+      "artistNames": "Whitney Houston",
       "album": {
-        "id": "1T8usYsiGEMPMQOLFgJEbE",
-        "name": "Desire",
-        "releaseDate": "1976-01-16",
-        "releaseYear": "1976"
+        "id": "5Vdzprr5cOqXQo44eHeV7t",
+        "name": "Whitney",
+        "releaseDate": "1987-06-02",
+        "releaseYear": "1987"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273943fe2781dd19bf510f71340",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851943fe2781dd19bf510f71340",
-      "durationMs": 226338,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a520a167a62d5548cdb53101",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a520a167a62d5548cdb53101",
+      "durationMs": 292875,
+      "durationFormatted": "4:52",
+      "spotifyUrl": "https://open.spotify.com/track/2tUBqZG2AbRi7Q0BIrVrEj",
+      "uri": "spotify:track:2tUBqZG2AbRi7Q0BIrVrEj",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "18tTiZSYeB6GchLhITr4l6",
+      "name": "Nihayet Karşımdasın",
+      "artists": [
+        {
+          "id": "5zcfMCanOQAx92n9sICtNJ",
+          "name": "Dilek Türkan"
+        }
+      ],
+      "artistNames": "Dilek Türkan",
+      "album": {
+        "id": "2JPi563PQa2U98d0rRcssP",
+        "name": "An",
+        "releaseDate": "2018-02-09",
+        "releaseYear": "2018"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733cf0f50aa91764a444d0fb39",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513cf0f50aa91764a444d0fb39",
+      "durationMs": 212429,
+      "durationFormatted": "3:32",
+      "spotifyUrl": "https://open.spotify.com/track/18tTiZSYeB6GchLhITr4l6",
+      "uri": "spotify:track:18tTiZSYeB6GchLhITr4l6",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "7BVwi9cIzSc6tpyxsp47vJ",
+      "name": "Mess Is Mine",
+      "artists": [
+        {
+          "id": "10exVja0key0uqUkk6LJRT",
+          "name": "Vance Joy"
+        }
+      ],
+      "artistNames": "Vance Joy",
+      "album": {
+        "id": "6rIbiUMmZJfqJRnXhVxFvg",
+        "name": "Dream Your Life Away",
+        "releaseDate": "2014-09-08",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3ce97395ff522b0d70c1094",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d3ce97395ff522b0d70c1094",
+      "durationMs": 223640,
+      "durationFormatted": "3:43",
+      "spotifyUrl": "https://open.spotify.com/track/7BVwi9cIzSc6tpyxsp47vJ",
+      "uri": "spotify:track:7BVwi9cIzSc6tpyxsp47vJ",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "2T3jgoAMbBXiMMD8pSc6QL",
+      "name": "This Is The Life",
+      "artists": [
+        {
+          "id": "1hJuGCUpefX24GFmss9bjH",
+          "name": "Amy Macdonald"
+        }
+      ],
+      "artistNames": "Amy Macdonald",
+      "album": {
+        "id": "5DaToG3KvHnUgTPqY4cEbq",
+        "name": "This Is The Life (eDeluxe)",
+        "releaseDate": "2007-01-01",
+        "releaseYear": "2007"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa2d1f1ecc9aa8f82fd56f7c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851aa2d1f1ecc9aa8f82fd56f7c",
+      "durationMs": 184413,
+      "durationFormatted": "3:04",
+      "spotifyUrl": "https://open.spotify.com/track/2T3jgoAMbBXiMMD8pSc6QL",
+      "uri": "spotify:track:2T3jgoAMbBXiMMD8pSc6QL",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "5xtIX0YfH9wqdmcWR6Ni4z",
+      "name": "Ever Fallen in Love",
+      "artists": [
+        {
+          "id": "4h7NLIlg1oYdEtfQJfyto0",
+          "name": "Nouvelle Vague"
+        },
+        {
+          "id": "2Sk0H4rS0QuQESESHELFy0",
+          "name": "Mélanie Pain"
+        }
+      ],
+      "artistNames": "Nouvelle Vague, Mélanie Pain",
+      "album": {
+        "id": "5JPyv6bcVGtzoZciVHMKyp",
+        "name": "Bande à Part",
+        "releaseDate": "2006-06-26",
+        "releaseYear": "2006"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273729a580c2b881e19f9786ac5",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851729a580c2b881e19f9786ac5",
+      "durationMs": 199746,
+      "durationFormatted": "3:19",
+      "spotifyUrl": "https://open.spotify.com/track/5xtIX0YfH9wqdmcWR6Ni4z",
+      "uri": "spotify:track:5xtIX0YfH9wqdmcWR6Ni4z",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "1zgBhUPETUNZUGf5NPtQw9",
+      "name": "Çilli",
+      "artists": [
+        {
+          "id": "6WkIJVBk1eCUTKR0YG0sdK",
+          "name": "Lale Belkıs"
+        }
+      ],
+      "artistNames": "Lale Belkıs",
+      "album": {
+        "id": "6PWFXI7hlXgTlp1xnBAnxM",
+        "name": "En İyileriyle Lale Belkıs",
+        "releaseDate": "2009-02-04",
+        "releaseYear": "2009"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27302a001c9c4d34a05c9bb1f90",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485102a001c9c4d34a05c9bb1f90",
+      "durationMs": 226400,
       "durationFormatted": "3:46",
-      "spotifyUrl": "https://open.spotify.com/track/4WOruM7TiQSETsWYy8bDSX",
-      "uri": "spotify:track:4WOruM7TiQSETsWYy8bDSX",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "spotifyUrl": "https://open.spotify.com/track/1zgBhUPETUNZUGf5NPtQw9",
+      "uri": "spotify:track:1zgBhUPETUNZUGf5NPtQw9",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "5Z4aRfjfBHgpaVC3Mae32T",
-      "name": "Hala",
+      "id": "4ByEFOBuLXpCqvO1kw8Wdm",
+      "name": "(I Just) Died In Your Arms",
       "artists": [
         {
-          "id": "5gFPi3KWXEwA9bLEO47Ow0",
-          "name": "Sıla"
+          "id": "3cniTumSiUysiPWXapGx1i",
+          "name": "Cutting Crew"
         }
       ],
-      "artistNames": "Sıla",
+      "artistNames": "Cutting Crew",
       "album": {
-        "id": "4Fv6YanGL9oUQEZv3eiCK8",
-        "name": "Vaveyla",
-        "releaseDate": "2012-12-01",
-        "releaseYear": "2012"
+        "id": "3wCe8HjHk6QNGcf5D3jgW1",
+        "name": "Broadcast",
+        "releaseDate": "1986-01-01",
+        "releaseYear": "1986"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273723e5c620d987e45eeec54ca",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851723e5c620d987e45eeec54ca",
-      "durationMs": 259133,
-      "durationFormatted": "4:19",
-      "spotifyUrl": "https://open.spotify.com/track/5Z4aRfjfBHgpaVC3Mae32T",
-      "uri": "spotify:track:5Z4aRfjfBHgpaVC3Mae32T",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fb2faa3ed46d1d0124ca325e",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fb2faa3ed46d1d0124ca325e",
+      "durationMs": 280400,
+      "durationFormatted": "4:40",
+      "spotifyUrl": "https://open.spotify.com/track/4ByEFOBuLXpCqvO1kw8Wdm",
+      "uri": "spotify:track:4ByEFOBuLXpCqvO1kw8Wdm",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "70C4NyhjD5OZUMzvWZ3njJ",
-      "name": "Piano Man",
+      "id": "6oNyIUX2q1S9Mg39oAfvMd",
+      "name": "El Sonidito",
       "artists": [
         {
-          "id": "6zFYqv1mOsgBRQbae3JJ9e",
-          "name": "Billy Joel"
+          "id": "4xqrGV8Uw2Jv3RLGnWFFqx",
+          "name": "Hechizeros Band"
         }
       ],
-      "artistNames": "Billy Joel",
+      "artistNames": "Hechizeros Band",
       "album": {
-        "id": "69wjSAZXZiD2EBia3b3gxL",
-        "name": "Piano Man (Legacy Edition)",
-        "releaseDate": "1973-11-07",
-        "releaseYear": "1973"
+        "id": "2SQLtr9hnCbnYqQGPkGlfo",
+        "name": "El Sonidito",
+        "releaseDate": "2008-01-01",
+        "releaseYear": "2008"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aff4aef671b2510be7c115b3",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851aff4aef671b2510be7c115b3",
-      "durationMs": 339000,
-      "durationFormatted": "5:39",
-      "spotifyUrl": "https://open.spotify.com/track/70C4NyhjD5OZUMzvWZ3njJ",
-      "uri": "spotify:track:70C4NyhjD5OZUMzvWZ3njJ",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a40f7e9cda5a153ca63081c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516a40f7e9cda5a153ca63081c",
+      "durationMs": 199893,
+      "durationFormatted": "3:19",
+      "spotifyUrl": "https://open.spotify.com/track/6oNyIUX2q1S9Mg39oAfvMd",
+      "uri": "spotify:track:6oNyIUX2q1S9Mg39oAfvMd",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "6cr6UDpkjEaMQ80OjWqEBQ",
+      "name": "Sultans of Swing",
+      "artists": [
+        {
+          "id": "0WwSkZ7LtFUFjGjMZBMt6T",
+          "name": "Dire Straits"
+        }
+      ],
+      "artistNames": "Dire Straits",
+      "album": {
+        "id": "4dKdxly4ji1vfl7sEYuqBe",
+        "name": "Dire Straits",
+        "releaseDate": "1978-10-07",
+        "releaseYear": "1978"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27305b07080bdc2dd0e2cf6f008",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485105b07080bdc2dd0e2cf6f008",
+      "durationMs": 348760,
+      "durationFormatted": "5:48",
+      "spotifyUrl": "https://open.spotify.com/track/6cr6UDpkjEaMQ80OjWqEBQ",
+      "uri": "spotify:track:6cr6UDpkjEaMQ80OjWqEBQ",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "3pHpV3pa96s4vuBP7sQq0V",
+      "name": "Is This Love - 2018 Remaster",
+      "artists": [
+        {
+          "id": "3UbyYnvNIT5DFXU4WgiGpP",
+          "name": "Whitesnake"
+        }
+      ],
+      "artistNames": "Whitesnake",
+      "album": {
+        "id": "70uPhkIhXTXM6MNNsMjAHx",
+        "name": "Whitesnake (2018 Remaster)",
+        "releaseDate": "1987",
+        "releaseYear": "1987"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273facf92d793609aa3bc5cc4e7",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851facf92d793609aa3bc5cc4e7",
+      "durationMs": 284496,
+      "durationFormatted": "4:44",
+      "spotifyUrl": "https://open.spotify.com/track/3pHpV3pa96s4vuBP7sQq0V",
+      "uri": "spotify:track:3pHpV3pa96s4vuBP7sQq0V",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "04T0z8DsBGUv1ze5ltZdDn",
+      "name": "Aşk Oyunu",
+      "artists": [
+        {
+          "id": "2RQ8NtUmg5y6tfbvCwX8jI",
+          "name": "Kenan Doğulu"
+        }
+      ],
+      "artistNames": "Kenan Doğulu",
+      "album": {
+        "id": "3IAZduEOmyoJXXIBGNY38i",
+        "name": "Yaparım Bilirsin",
+        "releaseDate": "1993-09-08",
+        "releaseYear": "1993"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a604a0bed3063db3e4e61133",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a604a0bed3063db3e4e61133",
+      "durationMs": 295264,
+      "durationFormatted": "4:55",
+      "spotifyUrl": "https://open.spotify.com/track/04T0z8DsBGUv1ze5ltZdDn",
+      "uri": "spotify:track:04T0z8DsBGUv1ze5ltZdDn",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "6FRtjadDsEhZIQIlh1loEM",
+      "name": "To the Moon & Back",
+      "artists": [
+        {
+          "id": "3NRFinRTEqUCfaTTZmk8ek",
+          "name": "Savage Garden"
+        }
+      ],
+      "artistNames": "Savage Garden",
+      "album": {
+        "id": "64peTvbTLBDeSBu0GsCRE4",
+        "name": "Savage Garden",
+        "releaseDate": "1997-03-04",
+        "releaseYear": "1997"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27384fef39a9a8293c86796599f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485184fef39a9a8293c86796599f",
+      "durationMs": 341066,
+      "durationFormatted": "5:41",
+      "spotifyUrl": "https://open.spotify.com/track/6FRtjadDsEhZIQIlh1loEM",
+      "uri": "spotify:track:6FRtjadDsEhZIQIlh1loEM",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
@@ -1060,107 +769,427 @@
       "addedDate": "2026-08-17"
     },
     {
-      "id": "22HYEJveCvykVDHDiEEmjZ",
-      "name": "Tubthumping",
+      "id": "1QsRPTds9VFlqPf4etJRjk",
+      "name": "Beat Of The Heart - Feat. Tasty & Lampoe",
       "artists": [
         {
-          "id": "0TcYeHEK9sBtv7xPbKhzHz",
-          "name": "Chumbawamba"
-        }
-      ],
-      "artistNames": "Chumbawamba",
-      "album": {
-        "id": "5yaumQgV6xGqCy014aOREt",
-        "name": "Tubthumper",
-        "releaseDate": "1997-09-01",
-        "releaseYear": "1997"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736cfc470251e23a7bb6a38d66",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516cfc470251e23a7bb6a38d66",
-      "durationMs": 278778,
-      "durationFormatted": "4:38",
-      "spotifyUrl": "https://open.spotify.com/track/22HYEJveCvykVDHDiEEmjZ",
-      "uri": "spotify:track:22HYEJveCvykVDHDiEEmjZ",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4l0XGK3I5NyZH7h9xltqpG",
-      "name": "Ben Ölmeden Önce (feat. Ceylan Ertem)",
-      "artists": [
-        {
-          "id": "0ylYRIvKTpv9uvTfKbYjM0",
-          "name": "Mehmet Erdem"
+          "id": "3hO4VZ2PMOLzrzr7hqyXeb",
+          "name": "Belinse & Lavejazz"
         },
         {
-          "id": "2crPPfVdmrxn5yUHLQVqOI",
-          "name": "Ceylan Ertem"
+          "id": "46u1ECMdKrmEGaAbHVDV2D",
+          "name": "Tasty"
+        },
+        {
+          "id": "4bEz5XTtTjaBM0rmphdlTn",
+          "name": "lampoe"
         }
       ],
-      "artistNames": "Mehmet Erdem, Ceylan Ertem",
+      "artistNames": "Belinse & Lavejazz, Tasty, lampoe",
       "album": {
-        "id": "5VjCoYKRPLENd6yLHfdkac",
-        "name": "Hiç Konuşmadan",
-        "releaseDate": "2013-11-26",
-        "releaseYear": "2013"
+        "id": "6E4wzHgEc1wu0AJbtW4fN8",
+        "name": "Groove Operator EP",
+        "releaseDate": "2009-11-11",
+        "releaseYear": "2009"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273492cb4bda071771bd9c86983",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851492cb4bda071771bd9c86983",
-      "durationMs": 395946,
-      "durationFormatted": "6:35",
-      "spotifyUrl": "https://open.spotify.com/track/4l0XGK3I5NyZH7h9xltqpG",
-      "uri": "spotify:track:4l0XGK3I5NyZH7h9xltqpG",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731befeb6c478b05929860335f",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511befeb6c478b05929860335f",
+      "durationMs": 409991,
+      "durationFormatted": "6:49",
+      "spotifyUrl": "https://open.spotify.com/track/1QsRPTds9VFlqPf4etJRjk",
+      "uri": "spotify:track:1QsRPTds9VFlqPf4etJRjk",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "018NTq8lO7v777jt2PyYpy",
+      "name": "Hayırdır İnşallah",
+      "artists": [
+        {
+          "id": "4xFnVUCpGqLVfCNyzsC6wC",
+          "name": "Uğur Akdora"
+        }
+      ],
+      "artistNames": "Uğur Akdora",
+      "album": {
+        "id": "0yzJAJ2hURsjmBMPbC0Bdi",
+        "name": "Kadınlar (45'lik)",
+        "releaseDate": "2009-09-30",
+        "releaseYear": "2009"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27369bb4ec7dbca322df77034cd",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485169bb4ec7dbca322df77034cd",
+      "durationMs": 153946,
+      "durationFormatted": "2:33",
+      "spotifyUrl": "https://open.spotify.com/track/018NTq8lO7v777jt2PyYpy",
+      "uri": "spotify:track:018NTq8lO7v777jt2PyYpy",
       "addedAt": "2026-08-17T00:15:08Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "6nIavb7fT0Ef1py1lmTUNQ",
-      "name": "The Heat Is On - From \"Beverly Hills Cop\" Soundtrack",
+      "id": "6kPQAoIrq7wcUvbRHS3IxV",
+      "name": "Mustang Sally",
       "artists": [
         {
-          "id": "3vMWY1bUrmYoSoEWLiQWOZ",
-          "name": "Glenn Frey"
+          "id": "5kiBy7FO5L4ywMz1xF70PX",
+          "name": "The Commitments"
+        },
+        {
+          "id": "7MdthKITrvbzo6v1PG80Te",
+          "name": "Andrew Strong"
         }
       ],
-      "artistNames": "Glenn Frey",
+      "artistNames": "The Commitments, Andrew Strong",
       "album": {
-        "id": "3xtgwh0um9a948FZY15FxU",
-        "name": "Beverly Hills Cop (Music From The Motion Picture Soundtrack)",
-        "releaseDate": "1984-01-01",
-        "releaseYear": "1984"
+        "id": "3Lt5cj7XGPwrlJhESdvuCA",
+        "name": "The Commitments (Soundtrack)",
+        "releaseDate": "1991-01-01",
+        "releaseYear": "1991"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d1dca414892fa429535e17b3",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d1dca414892fa429535e17b3",
-      "durationMs": 225600,
-      "durationFormatted": "3:45",
-      "spotifyUrl": "https://open.spotify.com/track/6nIavb7fT0Ef1py1lmTUNQ",
-      "uri": "spotify:track:6nIavb7fT0Ef1py1lmTUNQ",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ea9aff93d20cbbec63e4451",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514ea9aff93d20cbbec63e4451",
+      "durationMs": 241426,
+      "durationFormatted": "4:01",
+      "spotifyUrl": "https://open.spotify.com/track/6kPQAoIrq7wcUvbRHS3IxV",
+      "uri": "spotify:track:6kPQAoIrq7wcUvbRHS3IxV",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "4ebKdoPOlf0UPv9E9ecKba",
+      "name": "The Means",
+      "artists": [
+        {
+          "id": "5KORW1YGiERJqfuYjXMCyz",
+          "name": "Mattafix"
+        }
+      ],
+      "artistNames": "Mattafix",
+      "album": {
+        "id": "57m6FbCoUXfTxw6REFc3RZ",
+        "name": "Signs Of A Struggle",
+        "releaseDate": "2005-10-31",
+        "releaseYear": "2005"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fe2bed47246644df1bec0127",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fe2bed47246644df1bec0127",
+      "durationMs": 249360,
+      "durationFormatted": "4:09",
+      "spotifyUrl": "https://open.spotify.com/track/4ebKdoPOlf0UPv9E9ecKba",
+      "uri": "spotify:track:4ebKdoPOlf0UPv9E9ecKba",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "1lMilHGUABFaKbh9u6I1QS",
+      "name": "The Creeps - Radio Edit",
+      "artists": [
+        {
+          "id": "2ikT9iKpjKsyVX9esa3AZC",
+          "name": "Camille Jones"
+        },
+        {
+          "id": "7dc6hUwyuIhrZdh80eaCEE",
+          "name": "Fedde Le Grand"
+        }
+      ],
+      "artistNames": "Camille Jones, Fedde Le Grand",
+      "album": {
+        "id": "5HMkTLbbYDTCzEOdBiAmXO",
+        "name": "The Creeps",
+        "releaseDate": "2007",
+        "releaseYear": "2007"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731c7a48c433f51e82f1f90c0c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511c7a48c433f51e82f1f90c0c",
+      "durationMs": 150253,
+      "durationFormatted": "2:30",
+      "spotifyUrl": "https://open.spotify.com/track/1lMilHGUABFaKbh9u6I1QS",
+      "uri": "spotify:track:1lMilHGUABFaKbh9u6I1QS",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "79FyY4nL5rJs9Yy9qxUh4v",
+      "name": "Finality",
+      "artists": [
+        {
+          "id": "24dCDrr94SNSAREMJhBHCs",
+          "name": "Woods Of Ypres"
+        }
+      ],
+      "artistNames": "Woods Of Ypres",
+      "album": {
+        "id": "0Rap0bS5EZeaKFoma3tjGs",
+        "name": "Woods 5: Grey Skies & Electric Light",
+        "releaseDate": "2012",
+        "releaseYear": "2012"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a7e4d2b8e3514866dd34720b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a7e4d2b8e3514866dd34720b",
+      "durationMs": 237613,
+      "durationFormatted": "3:57",
+      "spotifyUrl": "https://open.spotify.com/track/79FyY4nL5rJs9Yy9qxUh4v",
+      "uri": "spotify:track:79FyY4nL5rJs9Yy9qxUh4v",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "4KFM3A5QF2IMcc6nHsu3Wp",
+      "name": "Englishman In New York",
+      "artists": [
+        {
+          "id": "0Ty63ceoRnnJKVEYP0VQpk",
+          "name": "Sting"
+        }
+      ],
+      "artistNames": "Sting",
+      "album": {
+        "id": "3mVCQqgwEvwD7lHy9KHi7R",
+        "name": "...Nothing Like The Sun",
+        "releaseDate": "1987-10-16",
+        "releaseYear": "1987"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0c7c131a979c9e5436f89ce",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0c7c131a979c9e5436f89ce",
+      "durationMs": 267266,
+      "durationFormatted": "4:27",
+      "spotifyUrl": "https://open.spotify.com/track/4KFM3A5QF2IMcc6nHsu3Wp",
+      "uri": "spotify:track:4KFM3A5QF2IMcc6nHsu3Wp",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "4E3sRBOjCjxsotCLduEJcN",
+      "name": "Yıllar Yılan",
+      "artists": [
+        {
+          "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+          "name": "Gaye Su Akyol"
+        }
+      ],
+      "artistNames": "Gaye Su Akyol",
+      "album": {
+        "id": "3CqJuRBWtZBR2e8iYZoxpp",
+        "name": "Develerle Yaşıyorum",
+        "releaseDate": "2014-06-03",
+        "releaseYear": "2014"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e68282ab1091fee8f26a3228",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e68282ab1091fee8f26a3228",
+      "durationMs": 255720,
+      "durationFormatted": "4:15",
+      "spotifyUrl": "https://open.spotify.com/track/4E3sRBOjCjxsotCLduEJcN",
+      "uri": "spotify:track:4E3sRBOjCjxsotCLduEJcN",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "04kMfgHaBSgpWP99YmRoEk",
+      "name": "El Bimbo",
+      "artists": [
+        {
+          "id": "4hGjngc0tPOBwTgTPci3IK",
+          "name": "Santo & Johnny"
+        }
+      ],
+      "artistNames": "Santo & Johnny",
+      "album": {
+        "id": "0EgtsDw1Yc9umsqXTXGbq8",
+        "name": "Volume Secondo",
+        "releaseDate": "2000",
+        "releaseYear": "2000"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736e8b595c73e1eef654eeeb4b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516e8b595c73e1eef654eeeb4b",
+      "durationMs": 174637,
+      "durationFormatted": "2:54",
+      "spotifyUrl": "https://open.spotify.com/track/04kMfgHaBSgpWP99YmRoEk",
+      "uri": "spotify:track:04kMfgHaBSgpWP99YmRoEk",
       "addedAt": "2026-08-17T00:15:08Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "5Phy3qS90Q5I8DGcTxmSIL",
-      "name": "What's a Woman",
+      "id": "3ZZq9396zv8pcn5GYVhxUi",
+      "name": "Down Under",
       "artists": [
         {
-          "id": "0ODWsmNXtn928qhhEn87C8",
-          "name": "Vaya Con Dios"
+          "id": "0f3EsoviYnRKTkmayI3cux",
+          "name": "Men At Work"
         }
       ],
-      "artistNames": "Vaya Con Dios",
+      "artistNames": "Men At Work",
       "album": {
-        "id": "3FteFh6UKUrLciSCBjMsmO",
-        "name": "Night Owls",
-        "releaseDate": "1990-04-10",
-        "releaseYear": "1990"
+        "id": "4HDJMKkwAMVFewqfZcmf84",
+        "name": "Business As Usual",
+        "releaseDate": "1981-11-09",
+        "releaseYear": "1981"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730e900fbc8cb94d536589e11a",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510e900fbc8cb94d536589e11a",
-      "durationMs": 233493,
-      "durationFormatted": "3:53",
-      "spotifyUrl": "https://open.spotify.com/track/5Phy3qS90Q5I8DGcTxmSIL",
-      "uri": "spotify:track:5Phy3qS90Q5I8DGcTxmSIL",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa5e4c9da271951ac0b31fa2",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851aa5e4c9da271951ac0b31fa2",
+      "durationMs": 222320,
+      "durationFormatted": "3:42",
+      "spotifyUrl": "https://open.spotify.com/track/3ZZq9396zv8pcn5GYVhxUi",
+      "uri": "spotify:track:3ZZq9396zv8pcn5GYVhxUi",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "5VVwwfK6Cp9IydkhKfJUEq",
+      "name": "You Give Love A Bad Name",
+      "artists": [
+        {
+          "id": "58lV9VcRSjABbAbfWS6skp",
+          "name": "Bon Jovi"
+        }
+      ],
+      "artistNames": "Bon Jovi",
+      "album": {
+        "id": "7pMFJnQzOnQXviU4FPpQAn",
+        "name": "Slippery When Wet (Remastered)",
+        "releaseDate": "1986-01-01",
+        "releaseYear": "1986"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b3d627f79e1c3a6782a71b73",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b3d627f79e1c3a6782a71b73",
+      "durationMs": 222706,
+      "durationFormatted": "3:42",
+      "spotifyUrl": "https://open.spotify.com/track/5VVwwfK6Cp9IydkhKfJUEq",
+      "uri": "spotify:track:5VVwwfK6Cp9IydkhKfJUEq",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "24Z9UoCT5XCUHWeByMRuca",
+      "name": "Sabır",
+      "artists": [
+        {
+          "id": "1cDH1Y5jbhdKAFDpsPWwHY",
+          "name": "Ciguli"
+        }
+      ],
+      "artistNames": "Ciguli",
+      "album": {
+        "id": "1OOepvcMhvq7ohTs9EofXe",
+        "name": "Neredesin Firuze ( Orijinal Fim Müzikleri )",
+        "releaseDate": "2004-02-17",
+        "releaseYear": "2004"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a9d26999d4a1ede2886068b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515a9d26999d4a1ede2886068b",
+      "durationMs": 222075,
+      "durationFormatted": "3:42",
+      "spotifyUrl": "https://open.spotify.com/track/24Z9UoCT5XCUHWeByMRuca",
+      "uri": "spotify:track:24Z9UoCT5XCUHWeByMRuca",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "26Szq5H4MRhv2weEZK3hzD",
+      "name": "Nos hizo falta tiempo - con Buika",
+      "artists": [
+        {
+          "id": "5lODCkFdEtpPn3YxfmyLfT",
+          "name": "Armando Manzanero"
+        }
+      ],
+      "artistNames": "Armando Manzanero",
+      "album": {
+        "id": "7r5wYvvJPOyF3PV3aTPnKd",
+        "name": "En mi piel",
+        "releaseDate": "2011-09-02",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731b8fb43f75519b19dff5041a",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511b8fb43f75519b19dff5041a",
+      "durationMs": 229720,
+      "durationFormatted": "3:49",
+      "spotifyUrl": "https://open.spotify.com/track/26Szq5H4MRhv2weEZK3hzD",
+      "uri": "spotify:track:26Szq5H4MRhv2weEZK3hzD",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "07Z4KDXIFMM4GGdwjiNIja",
+      "name": "Dağlar Dağlar",
+      "artists": [
+        {
+          "id": "2O7WjRnnODRpJAzKDtTb0C",
+          "name": "Kurtalan Ekspres"
+        },
+        {
+          "id": "66vIaZFb8okZH0npc4eQ5q",
+          "name": "emre aydın"
+        },
+        {
+          "id": "2loVttjT6HvutInj2J7F1x",
+          "name": "Özlem Yüksek"
+        }
+      ],
+      "artistNames": "Kurtalan Ekspres, emre aydın, Özlem Yüksek",
+      "album": {
+        "id": "0sG3PrW455DbFbZXEu1Wig",
+        "name": "Göğe Selam",
+        "releaseDate": "2011-01-01",
+        "releaseYear": "2011"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d188d8acaa742fd1da80c2d",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516d188d8acaa742fd1da80c2d",
+      "durationMs": 285826,
+      "durationFormatted": "4:45",
+      "spotifyUrl": "https://open.spotify.com/track/07Z4KDXIFMM4GGdwjiNIja",
+      "uri": "spotify:track:07Z4KDXIFMM4GGdwjiNIja",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "0qxYx4F3vm1AOnfux6dDxP",
+      "name": "You Can Call Me Al",
+      "artists": [
+        {
+          "id": "2CvCyf1gEVhI0mX6aFXmVI",
+          "name": "Paul Simon"
+        }
+      ],
+      "artistNames": "Paul Simon",
+      "album": {
+        "id": "6WgGWYw6XXQyLTsWt7tXky",
+        "name": "Graceland (25th Anniversary Deluxe Edition)",
+        "releaseDate": "1986-08-12",
+        "releaseYear": "1986"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e5855edffddef46b7feff49b",
+      "durationMs": 280586,
+      "durationFormatted": "4:40",
+      "spotifyUrl": "https://open.spotify.com/track/0qxYx4F3vm1AOnfux6dDxP",
+      "uri": "spotify:track:0qxYx4F3vm1AOnfux6dDxP",
+      "addedAt": "2026-08-17T00:29:29Z",
+      "addedDate": "2026-08-17"
+    },
+    {
+      "id": "7FvS9PhfQkRRSYnw8IqWYC",
+      "name": "The Unforgiven II",
+      "artists": [
+        {
+          "id": "2ye2Wgw4gimLv2eAKyk1NB",
+          "name": "Metallica"
+        }
+      ],
+      "artistNames": "Metallica",
+      "album": {
+        "id": "6mEOyKfRASrT8SpT3C6bUT",
+        "name": "Reload",
+        "releaseDate": "1997-01-01",
+        "releaseYear": "1997"
+      },
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d48acd856275dbe05a45dd95",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d48acd856275dbe05a45dd95",
+      "durationMs": 396440,
+      "durationFormatted": "6:36",
+      "spotifyUrl": "https://open.spotify.com/track/7FvS9PhfQkRRSYnw8IqWYC",
+      "uri": "spotify:track:7FvS9PhfQkRRSYnw8IqWYC",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
@@ -1193,132 +1222,103 @@
       "addedDate": "2026-08-17"
     },
     {
-      "id": "4Jf98lhLHZKPsDp1FduENh",
-      "name": "Hiçbir Şey Değişmez",
+      "id": "0tAw48efZ1VzUrHQCUCSjU",
+      "name": "Cassandra",
       "artists": [
         {
-          "id": "1OhpnvMZLbqa46ZCNdMmwr",
-          "name": "Fatih Erdemci"
+          "id": "31eXqCx5cAlItdGdoHMEOu",
+          "name": "Theatre Of Tragedy"
         }
       ],
-      "artistNames": "Fatih Erdemci",
+      "artistNames": "Theatre Of Tragedy",
       "album": {
-        "id": "0jEVLWLsKCIu0S5PzJhz8t",
-        "name": "Yaşamak Zor",
-        "releaseDate": "2017-11-20",
-        "releaseYear": "2017"
+        "id": "6CNyzdSueDsP4EECakqiTB",
+        "name": "Aégis",
+        "releaseDate": "1998-01-01",
+        "releaseYear": "1998"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27357edb2714779649bcc282c8a",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485157edb2714779649bcc282c8a",
-      "durationMs": 246160,
-      "durationFormatted": "4:06",
-      "spotifyUrl": "https://open.spotify.com/track/4Jf98lhLHZKPsDp1FduENh",
-      "uri": "spotify:track:4Jf98lhLHZKPsDp1FduENh",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27377aea0022428cf9d56dd4c21",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485177aea0022428cf9d56dd4c21",
+      "durationMs": 408626,
+      "durationFormatted": "6:48",
+      "spotifyUrl": "https://open.spotify.com/track/0tAw48efZ1VzUrHQCUCSjU",
+      "uri": "spotify:track:0tAw48efZ1VzUrHQCUCSjU",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "4wJq75UFYtFYbMO2KBBnlw",
-      "name": "Someone Somewhere (In Summertime)",
+      "id": "0oUBuOO4g9P4lREqfqR5nq",
+      "name": "A Man Without Love",
       "artists": [
         {
-          "id": "6hN9F0iuULZYWXppob22Aj",
-          "name": "Simple Minds"
+          "id": "17XXKfRBMCWvLrqGoNkJXm",
+          "name": "Engelbert Humperdinck"
         }
       ],
-      "artistNames": "Simple Minds",
+      "artistNames": "Engelbert Humperdinck",
       "album": {
-        "id": "6dn2O3un8SV0QZ421jDdEj",
-        "name": "New Gold Dream (81/82/83/84)",
-        "releaseDate": "1982-07-15",
-        "releaseYear": "1982"
+        "id": "2zQM1HOK5OnDGF1SSWExnE",
+        "name": "A Man Without Love",
+        "releaseDate": "1968-08-03",
+        "releaseYear": "1968"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f587148621b34bd660ac39de",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f587148621b34bd660ac39de",
-      "durationMs": 277688,
-      "durationFormatted": "4:37",
-      "spotifyUrl": "https://open.spotify.com/track/4wJq75UFYtFYbMO2KBBnlw",
-      "uri": "spotify:track:4wJq75UFYtFYbMO2KBBnlw",
-      "addedAt": "2026-08-17T00:15:08Z",
-      "addedDate": "2026-08-17"
-    },
-    {
-      "id": "4EAUFMwt6y4crsJ82BIkn3",
-      "name": "Yanlızım Dostlarım",
-      "artists": [
-        {
-          "id": "5uuqZTwfUoSwJk22z4XhGV",
-          "name": "Ragıp Savaş"
-        },
-        {
-          "id": "4BQwAf1cKRdVbCNyX0gdlP",
-          "name": "Janset"
-        }
-      ],
-      "artistNames": "Ragıp Savaş, Janset",
-      "album": {
-        "id": "1OOepvcMhvq7ohTs9EofXe",
-        "name": "Neredesin Firuze ( Orijinal Fim Müzikleri )",
-        "releaseDate": "2004-02-17",
-        "releaseYear": "2004"
-      },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a9d26999d4a1ede2886068b",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515a9d26999d4a1ede2886068b",
-      "durationMs": 203267,
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313f61b73b155d49c9ad671b9",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485113f61b73b155d49c9ad671b9",
+      "durationMs": 203133,
       "durationFormatted": "3:23",
-      "spotifyUrl": "https://open.spotify.com/track/4EAUFMwt6y4crsJ82BIkn3",
-      "uri": "spotify:track:4EAUFMwt6y4crsJ82BIkn3",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "spotifyUrl": "https://open.spotify.com/track/0oUBuOO4g9P4lREqfqR5nq",
+      "uri": "spotify:track:0oUBuOO4g9P4lREqfqR5nq",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "76xZc9Ku11ZHIaGrLrqrGr",
-      "name": "Dönmek",
+      "id": "5Cvaxst1aLw4Q4Misw7AaA",
+      "name": "Hey Yıllar",
       "artists": [
         {
-          "id": "5Oo6D3FLRpWjgBn0mqfiA3",
-          "name": "Yeni Türkü"
+          "id": "7HLLY3hnsKLpq6bq3OwNNe",
+          "name": "Nükhet Duru"
         }
       ],
-      "artistNames": "Yeni Türkü",
+      "artistNames": "Nükhet Duru",
       "album": {
-        "id": "0mBKLWKjJ9rs7eB1lGI7l9",
-        "name": "Yeni Türkü Koleksiyon",
-        "releaseDate": "2016-12-19",
-        "releaseYear": "2016"
+        "id": "5Eix47D1XynIBxN93mYc3r",
+        "name": "Gece Saat Oniki",
+        "releaseDate": "2006-06-08",
+        "releaseYear": "2006"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738f66c2a0abdd27fd20b3aa9b",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518f66c2a0abdd27fd20b3aa9b",
-      "durationMs": 200906,
-      "durationFormatted": "3:20",
-      "spotifyUrl": "https://open.spotify.com/track/76xZc9Ku11ZHIaGrLrqrGr",
-      "uri": "spotify:track:76xZc9Ku11ZHIaGrLrqrGr",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273033322b10b7c4fa728d15c74",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851033322b10b7c4fa728d15c74",
+      "durationMs": 202579,
+      "durationFormatted": "3:22",
+      "spotifyUrl": "https://open.spotify.com/track/5Cvaxst1aLw4Q4Misw7AaA",
+      "uri": "spotify:track:5Cvaxst1aLw4Q4Misw7AaA",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     },
     {
-      "id": "4gV7p4DvsWA6tymMcMPKa2",
-      "name": "Şaşkın",
+      "id": "7JG7tn9tgEy2NwuPVAIkzE",
+      "name": "Fırtınam",
       "artists": [
         {
-          "id": "4o3Nv2BAyoZkyGaRXv4rT3",
-          "name": "Erkin Koray"
+          "id": "3hzijSzD6IwOV4SY2SiWQp",
+          "name": "Hayko Cepkin"
         }
       ],
-      "artistNames": "Erkin Koray",
+      "artistNames": "Hayko Cepkin",
       "album": {
-        "id": "2e2sk01WXW88ywLy3Rasz2",
-        "name": "Şaşkın",
-        "releaseDate": "1974-05-22",
-        "releaseYear": "1974"
+        "id": "2IuZm1elKdLG903ZjnD15Z",
+        "name": "Sakin Olmam Lazım",
+        "releaseDate": "2005-06-28",
+        "releaseYear": "2005"
       },
-      "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733910daf3974ae0074432eefb",
-      "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513910daf3974ae0074432eefb",
-      "durationMs": 260880,
-      "durationFormatted": "4:20",
-      "spotifyUrl": "https://open.spotify.com/track/4gV7p4DvsWA6tymMcMPKa2",
-      "uri": "spotify:track:4gV7p4DvsWA6tymMcMPKa2",
-      "addedAt": "2026-08-17T00:15:08Z",
+      "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6b0198dcd0e1d125a10164c",
+      "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e6b0198dcd0e1d125a10164c",
+      "durationMs": 301720,
+      "durationFormatted": "5:01",
+      "spotifyUrl": "https://open.spotify.com/track/7JG7tn9tgEy2NwuPVAIkzE",
+      "uri": "spotify:track:7JG7tn9tgEy2NwuPVAIkzE",
+      "addedAt": "2026-08-17T00:29:29Z",
       "addedDate": "2026-08-17"
     }
   ]
