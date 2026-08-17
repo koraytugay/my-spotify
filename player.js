@@ -412,9 +412,8 @@
             return token;
         }
 
-        async toggleLikeCurrentTrack() {
-            const track = this.currentTrack;
-            if (!track || !track.id) return;
+        async toggleLikeTrack(track) {
+            if (!track || !track.id) return false;
 
             const token = await this.getValidSpotifyToken();
             if (!token) {
@@ -426,7 +425,7 @@
                         window.location.href = 'smart-mix.html';
                     }
                 }
-                return;
+                return false;
             }
 
             const wasLiked = this.checkIsLiked(track);
@@ -489,7 +488,9 @@
                     } else {
                         console.error(`Failed to update like status (${res.status})`);
                     }
+                    return wasLiked;
                 }
+                return nextLiked;
             } catch (e) {
                 // Revert on network error
                 track.isLiked = wasLiked;
@@ -500,7 +501,12 @@
                 }
                 this.updateLikedStatusUI();
                 console.error('Network error updating liked track:', e);
+                return wasLiked;
             }
+        }
+
+        async toggleLikeCurrentTrack() {
+            return this.toggleLikeTrack(this.currentTrack);
         }
 
         bindEvents() {

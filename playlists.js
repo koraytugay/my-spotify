@@ -109,6 +109,7 @@ function filterPlaylists() {
 function renderPlaylists() {
     const grid = document.getElementById('playlists-grid');
     const noResults = document.getElementById('no-results');
+    if (!grid || !noResults) return;
 
     if (filteredPlaylists.length === 0) {
         grid.innerHTML = '';

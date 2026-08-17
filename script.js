@@ -187,6 +187,7 @@ function applyFilters() {
 function renderSongs() {
     const grid = document.getElementById('music-grid');
     const noResults = document.getElementById('no-results');
+    if (!grid || !noResults) return;
 
     if (currentViewMode === 'grid') {
         grid.className = 'music-grid';

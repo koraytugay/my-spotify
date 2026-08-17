@@ -133,6 +133,7 @@ function filterArtists() {
 function renderArtists() {
     const grid = document.getElementById('artists-grid');
     const noResults = document.getElementById('no-results');
+    if (!grid || !noResults) return;
 
     if (filteredArtists.length === 0) {
         grid.innerHTML = '';

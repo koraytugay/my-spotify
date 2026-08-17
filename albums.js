@@ -182,6 +182,7 @@ function filterAlbums() {
 function renderAlbums() {
     const grid = document.getElementById('albums-grid');
     const noResults = document.getElementById('no-results');
+    if (!grid || !noResults) return;
 
     if (filteredAlbums.length === 0) {
         grid.innerHTML = '';

@@ -149,6 +149,7 @@ function toggleGroupByAlbum(isGrouped) {
 function renderTracks() {
     const grid = document.getElementById('tracks-grid');
     const noResults = document.getElementById('no-results');
+    if (!grid || !noResults) return;
 
     if (filteredTracks.length === 0) {
         grid.innerHTML = '';
