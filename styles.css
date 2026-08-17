@@ -1069,7 +1069,7 @@ body.dark-mode .mini-player-container {
 }
 
 .mini-player-container.collapsed {
-    transform: translateX(calc(-100% - max(16px, calc((100vw - 1360px) / 2))));
+    transform: translateX(-100%);
 }
 
 .mini-player-handle {
