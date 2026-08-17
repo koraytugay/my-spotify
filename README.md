@@ -10,6 +10,7 @@ Inspired by [`my-board-game-collection`](https://github.com/koraytugay/my-board-
 
 ## 🌟 Features
 * **💚 Complete Liked Songs Archive**: All your saved/liked tracks backed up with metadata (artist, album, release year, cover art, Spotify link).
+* **🎵 Floating Spotify Audio Player**: Continuous in-app music streaming dock with expand/collapse modes, Spotify embed integration, and queue management.
 * **📑 Playlists Explorer**: Browse all your custom and followed playlists with complete song lists and "Group by Album" mode.
 * **💿 Albums**: Visual grid of all saved full albums.
 * **👥 Followed Artists**: Visual gallery of all your followed and favorite artists with photos and direct Spotify links.
