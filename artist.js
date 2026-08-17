@@ -4,6 +4,8 @@ var allArtistAlbums = [];
 var filteredAlbums = [];
 var allArtistSongs = [];
 var filteredSongs = [];
+var allSavedAlbumsData = [];
+var allLikedSongsData = [];
 var currentAudio = null;
 var currentPlayingId = null;
 
@@ -59,6 +61,9 @@ async function initArtistDetail() {
             return false;
         };
 
+        allSavedAlbumsData = savedAlbums || [];
+        allLikedSongsData = likedSongs || [];
+
         const albumMap = new Map();
 
         (savedAlbums || []).forEach(a => {
@@ -69,11 +74,13 @@ async function initArtistDetail() {
                     albumMap.set(key, {
                         id: a.id,
                         name: a.name,
+                        artists: a.artists || [],
                         artistNames: a.artistNames || artistInfo.name,
                         coverUrl: a.coverUrl,
                         releaseYear: a.releaseYear,
                         releaseDate: a.releaseDate || (a.releaseYear ? `${a.releaseYear}-01-01` : ''),
-                        totalTracks: a.totalTracks || 0,
+                        totalTracks: a.totalTracks || (a.tracks ? a.tracks.length : 0),
+                        tracks: a.tracks || [],
                         spotifyUrl: a.spotifyUrl || `https://open.spotify.com/album/${a.id}`,
                         isSaved: true
                     });
@@ -237,26 +244,39 @@ async function mixAllArtistAlbums() {
     const seenTrackKeys = new Set();
 
     albums.forEach(album => {
-        if (Array.isArray(album.tracks)) {
-            album.tracks.forEach(t => {
-                if (!t) return;
-                const key = t.id || `${(t.name || '').toLowerCase()}:::${(album.name || '').toLowerCase()}`;
-                if (!seenTrackKeys.has(key)) {
-                    seenTrackKeys.add(key);
-                    combinedTracks.push({
-                        ...t,
-                        artistNames: t.artistNames || (t.artists && t.artists.map(art => art.name).join(', ')) || artistName,
-                        album: {
-                            id: album.id,
-                            name: album.name,
-                            coverUrl: album.coverUrl,
-                            releaseYear: album.releaseYear
-                        },
-                        coverUrl: t.coverUrl || album.coverUrl
-                    });
-                }
-            });
+        let albumTracks = (Array.isArray(album.tracks) && album.tracks.length > 0) ? album.tracks : [];
+
+        // Fallback: look up in raw allSavedAlbumsData
+        if (albumTracks.length === 0 && Array.isArray(allSavedAlbumsData)) {
+            const raw = allSavedAlbumsData.find(sa => sa && (sa.id === album.id || (sa.name && album.name && sa.name.toLowerCase().trim() === album.name.toLowerCase().trim())));
+            if (raw && Array.isArray(raw.tracks) && raw.tracks.length > 0) {
+                albumTracks = raw.tracks;
+            }
         }
+
+        // Fallback: look up in allLikedSongsData for matching album tracks
+        if (albumTracks.length === 0 && Array.isArray(allLikedSongsData)) {
+            albumTracks = allLikedSongsData.filter(s => s && ((s.album && s.album.id === album.id) || (s.album && s.album.name && album.name && s.album.name.toLowerCase().trim() === album.name.toLowerCase().trim())));
+        }
+
+        albumTracks.forEach(t => {
+            if (!t) return;
+            const key = t.id || `${(t.name || '').toLowerCase()}:::${(album.name || '').toLowerCase()}`;
+            if (!seenTrackKeys.has(key)) {
+                seenTrackKeys.add(key);
+                combinedTracks.push({
+                    ...t,
+                    artistNames: t.artistNames || (t.artists && t.artists.map(art => art.name).join(', ')) || album.artistNames || artistName,
+                    album: {
+                        id: album.id,
+                        name: album.name,
+                        coverUrl: album.coverUrl,
+                        releaseYear: album.releaseYear
+                    },
+                    coverUrl: t.coverUrl || album.coverUrl
+                });
+            }
+        });
     });
 
     if (combinedTracks.length === 0) {
