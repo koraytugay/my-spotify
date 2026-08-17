@@ -140,7 +140,7 @@
 
                 const options = {
                     width: '100%',
-                    height: '100%',
+                    height: isSingleTrack ? '152' : '100%',
                     uri: defaultUri
                 };
 
@@ -579,13 +579,18 @@
                 playerEl.classList.toggle('track-mode', isSingleTrack);
                 playerEl.classList.toggle('collection-mode', !isSingleTrack);
             }
+            document.body.classList.toggle('has-track-mode', isSingleTrack);
+            document.body.classList.toggle('has-collection-mode', !isSingleTrack);
+
             if (wrapEl) {
-                wrapEl.style.height = 'calc(100% - 36px)';
-                wrapEl.style.flex = '1 1 auto';
+                const targetH = isSingleTrack ? '152px' : 'calc(100% - 32px)';
+                wrapEl.style.height = targetH;
+                wrapEl.style.flex = isSingleTrack ? '0 0 152px' : '1 1 auto';
                 const iframe = wrapEl.querySelector('iframe');
                 if (iframe) {
-                    iframe.setAttribute('height', '100%');
-                    iframe.style.height = '100%';
+                    const hVal = isSingleTrack ? '152' : '100%';
+                    iframe.setAttribute('height', hVal);
+                    iframe.style.height = isSingleTrack ? '152px' : '100%';
                 }
             }
         }
@@ -694,7 +699,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0" 
                             width="100%" 
-                            height="100%" 
+                            height="${type === 'track' ? '152' : '100%'}" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">
@@ -756,7 +761,7 @@
                         <iframe 
                             src="https://open.spotify.com/embed/track/${track.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="100%" 
+                            height="152" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">

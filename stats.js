@@ -1,7 +1,6 @@
 async function initStats() {
     const loadingEl = document.getElementById('loading');
     const contentEl = document.getElementById('stats-content');
-    const controlsEl = document.getElementById('controls');
 
     try {
         const stats = await getStats();
@@ -60,9 +59,8 @@ async function initStats() {
             }));
         renderBarChart('longest-tracks-chart', longestTracks);
 
-        loadingEl.style.display = 'none';
-        controlsEl.style.display = 'flex';
-        contentEl.style.display = 'block';
+        if (loadingEl) loadingEl.style.display = 'none';
+        if (contentEl) contentEl.style.display = 'block';
 
     } catch (e) {
         console.error('Error rendering stats:', e);
