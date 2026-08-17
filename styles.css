@@ -1352,9 +1352,19 @@ body.dark-mode .mini-player-bottom-bar {
     display: block;
 }
 
+.mini-player-container.track-mode {
+    bottom: auto;
+}
+
+.mini-player-container.track-mode .mini-player-dock {
+    height: auto;
+    max-height: none;
+}
+
 .mini-player-container.track-mode .mini-player-embed-wrap {
     height: 352px;
-    flex: 0 0 auto;
+    min-height: 352px;
+    flex: 0 0 352px;
 }
 
 /* Site Content Container Adjustment on Desktop (Bounded Split View below Header - Player on Right) */
