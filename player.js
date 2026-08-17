@@ -667,8 +667,12 @@
             this.updateEmbedMode(type);
 
             const playerEl = document.getElementById('spotify-mini-player');
-            if (playerEl) playerEl.style.display = '';
+            if (playerEl) {
+                playerEl.style.display = '';
+                playerEl.classList.toggle('collapsed', this.isCollapsed);
+            }
             document.body.classList.add('has-mini-player');
+            document.body.classList.toggle('player-collapsed', this.isCollapsed);
 
             // For Albums and Playlists, pass the container URI so Spotify natively streams all tracks in background!
             let uri;
@@ -684,22 +688,6 @@
                 this.embedController.loadUri(uri);
                 this.isPlaying = true;
                 this.saveState();
-
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 300);
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 800);
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 1500);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
@@ -735,8 +723,12 @@
             this.displayTrackInfo(track, this.currentType || 'track');
 
             const playerEl = document.getElementById('spotify-mini-player');
-            if (playerEl) playerEl.style.display = '';
+            if (playerEl) {
+                playerEl.style.display = '';
+                playerEl.classList.toggle('collapsed', this.isCollapsed);
+            }
             document.body.classList.add('has-mini-player');
+            document.body.classList.toggle('player-collapsed', this.isCollapsed);
 
             const uri = track.uri || `spotify:track:${track.id}`;
 
@@ -744,17 +736,6 @@
                 this.embedController.loadUri(uri);
                 this.isPlaying = true;
                 this.saveState();
-
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 300);
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 800);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
