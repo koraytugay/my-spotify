@@ -456,7 +456,7 @@ header {
 
 /* Compact View Mode */
 .music-grid.view-compact {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fill, 158px);
     gap: 12px;
 }
 
@@ -1040,7 +1040,7 @@ header {
     bottom: 16px;
     right: max(24px, calc((100vw - 1200px) / 2));
     left: auto;
-    width: 360px;
+    width: 340px;
     height: calc(100vh - 32px);
     z-index: 1000;
     overflow: hidden;
@@ -1375,7 +1375,7 @@ header {
 
     /* Collection mode (Album / Playlist): Full-height right sidebar with column shift */
     body.has-mini-player.has-collection-mode:not(.player-collapsed) .container > * {
-        margin-right: 384px;
+        margin-right: 356px;
         margin-left: 0;
         transition: margin-right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     }
