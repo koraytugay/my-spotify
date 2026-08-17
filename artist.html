@@ -53,7 +53,7 @@
 
             <!-- Albums Section -->
             <div id="albums-section">
-                <h3 class="section-heading">Albums <span id="albums-count-badge" class="section-count">0</span></h3>
+                <h3 class="section-heading">Albums</h3>
                 <div id="albums-grid" class="music-grid view-compact"></div>
 
                 <div id="no-albums" class="empty-box" style="display: none;">
@@ -63,7 +63,12 @@
 
             <!-- Liked Songs Section -->
             <div id="liked-songs-section" style="margin-top: 40px;">
-                <h3 class="section-heading">💚 Liked Songs <span id="songs-count-badge" class="section-count">0</span></h3>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; flex-wrap: wrap; gap: 12px;">
+                    <h3 class="section-heading" style="margin-bottom: 0;">💚 Liked Songs</h3>
+                    <button id="play-all-liked-btn" class="btn btn-primary" onclick="playAllArtistLikedSongs()" style="display: inline-flex; align-items: center; gap: 8px;">
+                        ▶ Play All Liked Songs
+                    </button>
+                </div>
                 <div id="songs-grid" class="music-grid view-list"></div>
 
                 <div id="no-songs" class="empty-box" style="display: none;">

@@ -211,21 +211,69 @@ function togglePlayAlbum(id) {
     }
 }
 
+async function playAllArtistLikedSongs() {
+    if (!allArtistSongs || allArtistSongs.length === 0) return;
+
+    const playBtn = document.getElementById('play-all-liked-btn');
+    const origText = playBtn ? playBtn.innerHTML : '▶ Play All Liked Songs';
+    const artistName = (artistInfo && artistInfo.name) ? artistInfo.name : 'Artist';
+    const playlistTitle = `${artistName} Liked Songs`;
+
+    const token = typeof getValidSpotifyToken === 'function' ? await getValidSpotifyToken().catch(() => null) : null;
+
+    if (token && typeof syncTracksToSmartMix === 'function') {
+        if (playBtn) {
+            playBtn.disabled = true;
+            playBtn.innerHTML = `Creating Playlist...`;
+        }
+
+        try {
+            const playlistId = await syncTracksToSmartMix(
+                allArtistSongs, 
+                playlistTitle, 
+                true
+            );
+
+            if (playlistId && window.miniPlayer) {
+                if (playBtn) playBtn.innerHTML = `Loading Music...`;
+                await new Promise(resolve => setTimeout(resolve, 1600));
+                window.miniPlayer.playItem({ id: playlistId, name: playlistTitle, tracks: allArtistSongs }, 'playlist');
+                return;
+            }
+        } catch (e) {
+            console.error('Error generating artist liked playlist:', e);
+        } finally {
+            if (playBtn) {
+                playBtn.disabled = false;
+                playBtn.innerHTML = origText;
+            }
+        }
+    }
+
+    // Fallback: If not logged in via Spotify OAuth, play the tracks queue directly in collection mode
+    if (window.miniPlayer) {
+        window.miniPlayer.playlist = allArtistSongs;
+        window.miniPlayer.currentType = 'playlist';
+        window.miniPlayer.contextTitle = playlistTitle;
+        window.miniPlayer.playTrack(allArtistSongs[0], allArtistSongs);
+    }
+}
+window.playAllArtistLikedSongs = playAllArtistLikedSongs;
+
 function renderArtistSongs() {
     const grid = document.getElementById('songs-grid');
     const noSongs = document.getElementById('no-songs');
-    const countBadge = document.getElementById('songs-count-badge');
-
-    if (countBadge) countBadge.textContent = filteredSongs.length;
 
     if (filteredSongs.length === 0) {
         grid.innerHTML = '';
-        noSongs.style.display = 'block';
+        if (noSongs) noSongs.style.display = 'block';
         return;
     }
 
-    noSongs.style.display = 'none';
+    if (noSongs) noSongs.style.display = 'none';
     grid.innerHTML = '';
+
+    const currentArtName = (artistInfo ? artistInfo.name : '').toLowerCase().trim();
 
     filteredSongs.forEach(song => {
         const card = document.createElement('div');
@@ -233,48 +281,56 @@ function renderArtistSongs() {
 
         const cover = song.coverUrl || song.thumbnailUrl || 'https://via.placeholder.com/300x300?text=No+Cover';
 
-        // Build artist link(s)
-        let artistsHtml = '';
-        if (Array.isArray(song.artists) && song.artists.length > 0) {
-            artistsHtml = song.artists.map(a => {
-                const url = a.id ? `artist.html?id=${encodeURIComponent(a.id)}&name=${encodeURIComponent(a.name)}` : `artist.html?name=${encodeURIComponent(a.name)}`;
-                return `<a href="${url}" class="artist-link">${a.name}</a>`;
-            }).join(', ');
-        } else {
-            artistsHtml = `<span class="artist-link">${song.artistNames || 'Unknown Artist'}</span>`;
+        // Featured artists (excluding current artist)
+        let featuredArtistsHtml = '';
+        if (Array.isArray(song.artists) && song.artists.length > 1) {
+            const featArtists = song.artists.filter(a => (a.name || '').toLowerCase().trim() !== currentArtName);
+            if (featArtists.length > 0) {
+                featuredArtistsHtml = `feat. ` + featArtists.map(a => {
+                    const url = a.id ? `artist.html?id=${encodeURIComponent(a.id)}&name=${encodeURIComponent(a.name)}` : `artist.html?name=${encodeURIComponent(a.name)}`;
+                    return `<a href="${url}" class="artist-link">${a.name}</a>`;
+                }).join(', ');
+            }
         }
 
-        // Build album link and release year next to it
+        // Album link opening directly in Spotify
         const albumName = song.album?.name || '';
         const releaseYear = song.album?.releaseYear ? ` (${song.album.releaseYear})` : '';
         let albumHtml = '';
         if (albumName) {
-            const albumUrl = song.album?.id ? `album.html?id=${encodeURIComponent(song.album.id)}` : `https://open.spotify.com/search/${encodeURIComponent(albumName)}`;
-            albumHtml = ` · <a href="${albumUrl}" class="album-link">${albumName}</a><span class="album-year">${releaseYear}</span>`;
+            const { href: albumSpotifyUrl, targetAttrs } = getSpotifyLinkAttrs(song.album || { id: song.album?.id }, 'album');
+            albumHtml = `<a href="${albumSpotifyUrl}" ${targetAttrs} class="album-link" title="Open Album in Spotify">${albumName}</a><span class="album-year">${releaseYear}</span>`;
         } else if (releaseYear) {
-            albumHtml = ` · <span class="album-year">${releaseYear}</span>`;
+            albumHtml = `<span class="album-year">${releaseYear}</span>`;
         }
 
         // Track link
-        const trackUrl = getSpotifyUri(song, 'track');
+        const { href: trackSpotifyUrl, targetAttrs: trackTarget } = getSpotifyLinkAttrs(song, 'track');
+
+        let metaSubtext = '';
+        if (featuredArtistsHtml && albumHtml) {
+            metaSubtext = `${featuredArtistsHtml} · ${albumHtml}`;
+        } else if (featuredArtistsHtml) {
+            metaSubtext = featuredArtistsHtml;
+        } else if (albumHtml) {
+            metaSubtext = albumHtml;
+        }
 
         card.innerHTML = `
-            <div class="cover-wrapper">
-                <a href="${trackUrl}">
-                    <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=No+Cover';">
-                </a>
+            <div class="cover-wrapper" onclick="togglePlayPreview('${song.id}')" style="cursor: pointer;">
+                <img src="${cover}" alt="${song.name}" class="cover-img" loading="lazy" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x300?text=No+Cover';">
+                <button class="play-btn-overlay" title="Play Track">
+                    ▶
+                </button>
             </div>
             <div class="song-details">
                 <div class="song-title">
-                    <a href="${trackUrl}" class="song-title-link">${song.name}</a>
+                    <span onclick="togglePlayPreview('${song.id}')" class="song-title-link" style="cursor: pointer;">${song.name}</span>
                 </div>
-                <div class="song-artist">${artistsHtml}${albumHtml}</div>
+                ${metaSubtext ? `<div class="song-artist">${metaSubtext}</div>` : ''}
             </div>
-            <div class="song-meta" style="justify-content: space-between; align-items: center;">
-                <button class="album-card-btn album-card-play-btn" onclick="togglePlayPreview('${song.id}')" title="Play Track" aria-label="Play Track">
-                    ▶
-                </button>
-                <a href="${trackUrl}" class="album-card-btn album-card-spotify-btn" title="Open in Spotify" aria-label="Open in Spotify">
+            <div class="song-meta" style="justify-content: flex-end; align-items: center;">
+                <a href="${trackSpotifyUrl}" ${trackTarget} class="album-card-btn album-card-spotify-btn" title="Open in Spotify" aria-label="Open in Spotify">
                     <svg viewBox="0 0 24 24">
                         <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
                     </svg>
