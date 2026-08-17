@@ -87,6 +87,7 @@
                         this.currentType = state.type || 'track';
                         this.playlist = Array.isArray(state.playlist) ? state.playlist : [];
                         this.contextTitle = state.contextTitle || '';
+                        this.updateEmbedMode(state.type || 'track');
                         this.displayTrackInfo(state.item, state.type);
                         if (state.isCollapsed) {
                             this.collapse();
@@ -108,9 +109,12 @@
                     defaultUri = this.currentTrack.uri || `spotify:${this.currentType || 'track'}:${this.currentTrack.id}`;
                 }
 
+                const isSingleTrack = (!this.currentType || this.currentType === 'track');
+                this.updateEmbedMode(this.currentType || 'track');
+
                 const options = {
                     width: '100%',
-                    height: '500',
+                    height: isSingleTrack ? '152' : '500',
                     uri: defaultUri
                 };
 
@@ -455,6 +459,26 @@
             });
         }
 
+        updateEmbedMode(type = 'track') {
+            const isSingleTrack = (type === 'track');
+            const targetHeight = isSingleTrack ? 152 : 500;
+            const playerEl = document.getElementById('spotify-mini-player');
+            const wrapEl = document.getElementById('mini-embed-wrap');
+
+            if (playerEl) {
+                playerEl.classList.toggle('track-mode', isSingleTrack);
+                playerEl.classList.toggle('collection-mode', !isSingleTrack);
+            }
+            if (wrapEl) {
+                wrapEl.style.height = `${targetHeight}px`;
+                const iframe = wrapEl.querySelector('iframe');
+                if (iframe) {
+                    iframe.setAttribute('height', targetHeight.toString());
+                    iframe.style.height = `${targetHeight}px`;
+                }
+            }
+        }
+
         setPlaylist(tracks, type = 'track') {
             if (Array.isArray(tracks) && tracks.length > 0) {
                 this.playlist = tracks;
@@ -469,6 +493,7 @@
             this.currentTrack = item;
             this.currentType = type;
 
+            this.updateEmbedMode(type);
             this.updateLikedStatusUI();
         }
 
@@ -536,6 +561,7 @@
 
             const activeTrack = this.currentTrack || item;
             this.displayTrackInfo(activeTrack, type);
+            this.updateEmbedMode(type);
 
             // Automatically expand the Spotify Player dock in the bottom-right corner
             this.expand();
@@ -559,11 +585,12 @@
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
                 if (slot) {
+                    const embedHeight = (type === 'track' ? '152' : '500');
                     slot.innerHTML = `
                         <iframe 
                             src="https://open.spotify.com/embed/${type}/${item.id || activeTrack.id}?utm_source=generator&theme=0&autoplay=1" 
                             width="100%" 
-                            height="500" 
+                            height="${embedHeight}" 
                             frameBorder="0" 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy">

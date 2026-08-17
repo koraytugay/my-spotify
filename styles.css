@@ -1046,9 +1046,9 @@ body.has-mini-player {
 .mini-player-container {
     position: fixed;
     bottom: 24px;
-    left: 0;
+    left: max(16px, calc((100vw - 1360px) / 2));
     right: auto;
-    transform: translateX(24px);
+    transform: translateX(0);
     z-index: 1000;
     background: rgba(24, 24, 24, 0.96);
     backdrop-filter: blur(24px);
@@ -1056,7 +1056,7 @@ body.has-mini-player {
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 18px;
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.08);
-    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
     width: 380px;
     max-width: calc(100vw - 32px);
     overflow: visible;
@@ -1069,7 +1069,7 @@ body.dark-mode .mini-player-container {
 }
 
 .mini-player-container.collapsed {
-    transform: translateX(-100%);
+    transform: translateX(calc(-100% - max(16px, calc((100vw - 1360px) / 2))));
 }
 
 .mini-player-handle {
@@ -1227,10 +1227,15 @@ body.dark-mode .handle-drawer-tab:hover {
 
 .mini-player-embed-wrap {
     width: 100%;
-    min-height: 500px;
+    height: 500px;
     border-radius: 12px;
     overflow: hidden;
     background: #121212;
+    transition: height 0.25s ease;
+}
+
+.mini-player-container.track-mode .mini-player-embed-wrap {
+    height: 152px;
 }
 
 /* Card Playing Indicator */
