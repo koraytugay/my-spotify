@@ -258,27 +258,7 @@
                 if (typeof getLikedSongs === 'function') {
                     const liked = await getLikedSongs();
                     if (Array.isArray(liked)) {
-                        this.likedSongIds = new Set();
-                        this.likedSongKeySet = new Set();
-
-                        liked.forEach(s => {
-                            if (!s) return;
-                            if (s.id) this.likedSongIds.add(s.id);
-
-                            const sName = this.normalizeTrackName(s.name);
-                            if (sName) {
-                                if (s.artistNames) {
-                                    this.likedSongKeySet.add(`${sName}:::${this.normalizeArtistName(s.artistNames)}`);
-                                }
-                                if (Array.isArray(s.artists)) {
-                                    s.artists.forEach(a => {
-                                        if (a && a.name) {
-                                            this.likedSongKeySet.add(`${sName}:::${this.normalizeArtistName(a.name)}`);
-                                        }
-                                    });
-                                }
-                            }
-                        });
+                        this.likedSongIds = new Set(liked.map(s => s && s.id).filter(Boolean));
                         this.updateLikedStatusUI();
                     }
                 }
@@ -287,50 +267,10 @@
             }
         }
 
-        normalizeTrackName(str) {
-            return (str || '')
-                .toLowerCase()
-                .replace(/\s*\(.*?\)\s*/g, ' ')
-                .replace(/\s*-\s*.*$/g, '')
-                .replace(/[\u2018\u2019]/g, "'")
-                .replace(/[\u201C\u201D]/g, '"')
-                .replace(/[^\w\s]/g, '')
-                .replace(/\s+/g, ' ')
-                .trim();
-        }
-
-        normalizeArtistName(str) {
-            return (str || '')
-                .toLowerCase()
-                .replace(/[\u2018\u2019]/g, "'")
-                .replace(/[\u201C\u201D]/g, '"')
-                .replace(/[^\w\s]/g, '')
-                .replace(/\s+/g, ' ')
-                .trim();
-        }
-
         checkIsLiked(track) {
             if (!track) return false;
             if (track.isLiked !== undefined) return !!track.isLiked;
             if (track.id && this.likedSongIds && this.likedSongIds.has(track.id)) return true;
-
-            if (this.likedSongKeySet && track.name) {
-                const normTitle = this.normalizeTrackName(track.name);
-                if (normTitle) {
-                    if (track.artistNames) {
-                        const normArtist = this.normalizeArtistName(track.artistNames);
-                        if (this.likedSongKeySet.has(`${normTitle}:::${normArtist}`)) return true;
-                    }
-                    if (Array.isArray(track.artists)) {
-                        for (const a of track.artists) {
-                            if (a && a.name) {
-                                const normA = this.normalizeArtistName(a.name);
-                                if (this.likedSongKeySet.has(`${normTitle}:::${normA}`)) return true;
-                            }
-                        }
-                    }
-                }
-            }
             return false;
         }
 
@@ -437,18 +377,8 @@
             track.isLiked = nextLiked;
             if (nextLiked) {
                 this.likedSongIds.add(track.id);
-                const normTitle = this.normalizeTrackName(track.name);
-                const normArtist = this.normalizeArtistName(track.artistNames || (track.artists && track.artists[0]?.name) || '');
-                if (normTitle && normArtist) {
-                    this.likedSongKeySet.add(`${normTitle}:::${normArtist}`);
-                }
             } else {
                 this.likedSongIds.delete(track.id);
-                const normTitle = this.normalizeTrackName(track.name);
-                const normArtist = this.normalizeArtistName(track.artistNames || (track.artists && track.artists[0]?.name) || '');
-                if (normTitle && normArtist) {
-                    this.likedSongKeySet.delete(`${normTitle}:::${normArtist}`);
-                }
             }
             this.updateLikedStatusUI();
 
