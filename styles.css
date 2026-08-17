@@ -1239,26 +1239,28 @@ body.dark-mode .mini-player-bottom-bar {
     align-items: center;
     justify-content: flex-end;
     justify-self: end;
+    gap: 8px;
 }
 
 .bottom-bar-expand-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
     border-radius: var(--radius-full);
     background: var(--bg-surface);
     border: 1px solid var(--border);
     color: var(--text-primary);
-    font-size: 0.82rem;
-    font-weight: 600;
+    font-size: 16px;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .bottom-bar-expand-btn:hover {
     background: var(--bg-elevated);
     border-color: rgba(255, 255, 255, 0.3);
+    color: var(--accent);
 }
 
 .mini-player-topbar {

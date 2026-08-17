@@ -48,16 +48,13 @@
                 <!-- Floating Island Bottom Audio Dock (Visible when Minimized) -->
                 <div class="mini-player-bottom-bar" id="mini-player-bottom-bar">
                     <div class="bottom-bar-inner">
-                        <!-- Left: Track info & Like -->
+                        <!-- Left: Track info -->
                         <div class="bottom-bar-track-info" id="bottom-bar-track-info">
                             <img id="bottom-bar-thumb" class="bottom-bar-thumb" src="" alt="" style="display: none;">
                             <div class="bottom-bar-text">
                                 <div class="bottom-bar-title" id="bottom-bar-title">Spotify Player</div>
                                 <div class="bottom-bar-artist" id="bottom-bar-artist">Click Expand to view full player</div>
                             </div>
-                            <button type="button" class="mini-player-liked-badge bottom-bar-liked-badge" id="bottom-bar-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
-                                <span class="liked-heart-icon" id="bottom-bar-liked-icon">💚</span>
-                            </button>
                         </div>
 
                         <!-- Center: Playback Controls -->
@@ -69,9 +66,12 @@
                             <button type="button" class="bottom-ctrl-btn next-btn" id="bottom-bar-next-btn" title="Next Song (N)">⏭</button>
                         </div>
 
-                        <!-- Right: Expand -->
+                        <!-- Right: Like first, Expand next -->
                         <div class="bottom-bar-actions">
-                            <button type="button" class="bottom-bar-expand-btn" id="bottom-bar-expand-btn" title="Expand to Sidebar">⤢ Expand</button>
+                            <button type="button" class="mini-player-liked-badge bottom-bar-liked-badge" id="bottom-bar-liked-badge" title="Click to Like / Unlike on Spotify" style="display: none;">
+                                <span class="liked-heart-icon" id="bottom-bar-liked-icon">💚</span>
+                            </button>
+                            <button type="button" class="bottom-bar-expand-btn" id="bottom-bar-expand-btn" title="Expand to Sidebar">⤢</button>
                         </div>
                     </div>
                 </div>
