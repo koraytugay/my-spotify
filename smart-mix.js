@@ -293,6 +293,22 @@ function toggleShowAllArtists() {
     renderArtistChips();
 }
 
+function selectAllRareArtists(maxTracks = 2) {
+    const counts = getArtistTrackCounts();
+    const rareArtists = Object.keys(counts).filter(name => counts[name] <= maxTracks);
+    
+    const allSelected = rareArtists.length > 0 && rareArtists.every(name => selectedArtistNames.has(name));
+    
+    if (allSelected) {
+        rareArtists.forEach(name => selectedArtistNames.delete(name));
+    } else {
+        rareArtists.forEach(name => selectedArtistNames.add(name));
+        showAllArtists = true; // Ensure they are all visible
+    }
+    
+    renderArtistChips();
+}
+
 function clearSelectedArtists() {
     selectedArtistNames.clear();
     renderArtistChips();
@@ -312,6 +328,7 @@ function renderArtistChips() {
     }
 
     updateClearBtnState();
+    updateRareBtnState();
     updateGenerateBlendBtnState();
 
     let filteredNames = allNames;
@@ -353,7 +370,18 @@ function toggleArtistChip(artistName, chipBtn) {
         if (chipBtn) chipBtn.classList.add('selected');
     }
     updateClearBtnState();
+    updateRareBtnState();
     updateGenerateBlendBtnState();
+}
+
+function updateRareBtnState() {
+    const rareBtn = document.getElementById('select-rare-artists-btn');
+    if (rareBtn) {
+        const counts = getArtistTrackCounts();
+        const rareArtists = Object.keys(counts).filter(name => counts[name] <= 2);
+        const allSelected = rareArtists.length > 0 && rareArtists.every(name => selectedArtistNames.has(name));
+        rareBtn.textContent = allSelected ? `Deselect ≤ 2 Tracks (${rareArtists.length})` : `Select all with 2 or less (${rareArtists.length})`;
+    }
 }
 
 function updateClearBtnState() {
