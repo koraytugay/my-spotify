@@ -27,17 +27,17 @@
             playerEl.className = `mini-player-container ${this.isCollapsed ? 'collapsed' : ''}`;
             
             playerEl.innerHTML = `
-                <!-- Floating Top Handle when collapsed -->
+                <!-- Floating Side Handle (Pop from Left) -->
                 <div class="mini-player-handle" id="mini-player-handle" title="Click to Expand / Collapse Spotify Player">
                     <span class="handle-pill">
-                        <span class="handle-icon"></span>
+                        <span class="handle-icon" id="mini-player-eq"></span>
                         <span id="handle-title" class="handle-text">Spotify Player</span>
-                        <span class="handle-arrow" id="handle-arrow">${this.isCollapsed ? '▲' : '▼'}</span>
+                        <span class="handle-arrow" id="handle-arrow">${this.isCollapsed ? '▶' : '◀'}</span>
                     </span>
                 </div>
 
                 <div class="mini-player-dock">
-                    <!-- Spotify Interactive Square Embed Container Slot -->
+                    <!-- Spotify Interactive Embed Container Slot -->
                     <div class="mini-player-embed-wrap" id="mini-embed-wrap">
                         <div id="mini-spotify-embed-slot"></div>
                     </div>
@@ -210,8 +210,8 @@
             const iconEl = document.getElementById('mini-collapse-icon');
             const handleArrow = document.getElementById('handle-arrow');
             if (playerEl) playerEl.classList.toggle('collapsed', this.isCollapsed);
-            if (iconEl) iconEl.textContent = this.isCollapsed ? '▲' : '▼';
-            if (handleArrow) handleArrow.textContent = this.isCollapsed ? '▲' : '▼';
+            if (iconEl) iconEl.textContent = this.isCollapsed ? '▶' : '◀';
+            if (handleArrow) handleArrow.textContent = this.isCollapsed ? '▶' : '◀';
         }
 
         expand() {
