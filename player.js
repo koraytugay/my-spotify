@@ -692,14 +692,9 @@
 
             if (this.embedController) {
                 this.embedController.loadUri(uri);
+                this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
-
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 350);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
@@ -746,14 +741,9 @@
 
             if (this.embedController) {
                 this.embedController.loadUri(uri);
+                this.embedController.play();
                 this.isPlaying = true;
                 this.saveState();
-
-                setTimeout(() => {
-                    if (this.embedController && this.isPlaying) {
-                        this.embedController.play();
-                    }
-                }, 350);
             } else {
                 this.pendingPlayUri = uri;
                 const slot = document.getElementById('mini-spotify-embed-slot');
@@ -788,6 +778,9 @@
 
         togglePlayPause() {
             if (this.embedController) {
+                if (this.isPlaying) {
+                    this.desiredPlayUri = null;
+                }
                 this.embedController.togglePlay();
             } else if (this.currentTrack) {
                 this.playTrack(this.currentTrack);
