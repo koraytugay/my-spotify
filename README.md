@@ -18,8 +18,9 @@ Inspired by [`my-board-game-collection`](https://github.com/koraytugay/my-board-
 * **🎲 Random Song Picker**: Pick random tracks from your collection with the `r` keyboard shortcut.
 * **🔍 Search & Filter**: Real-time search, decade filters, and sorting.
 * **🌓 Dark & Light Mode**: Built-in theme toggle with `localStorage` persistence.
+* **🤖 Smart Mix & Playlist Generator**: Create mood-tailored mixes with acoustic analysis and sync them directly to your Spotify account.
 * **⚡ 100% Static & Fast**: Zero backend required for hosting on **GitHub Pages**.
-* **🤖 Automated Daily Backups**: GitHub Actions workflow syncs new additions daily and commits changes to Git.
+* **🔄 Automated Daily Backups**: GitHub Actions workflow syncs new additions daily and commits changes to Git.
 
 ---
 
