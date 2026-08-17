@@ -75,7 +75,6 @@ a {
     text-decoration-color: var(--text-muted);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .song-title-link:hover,
@@ -91,7 +90,6 @@ a {
     text-decoration-color: var(--text-muted);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .artist-link:hover {
@@ -105,7 +103,6 @@ a {
     text-decoration-color: var(--text-muted);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .album-link:hover {
@@ -623,7 +620,6 @@ body.dark-mode .nav-link.is-playing-now {
     border: none;
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.18);
-    transition: background 0.15s ease;
     flex-shrink: 0;
     line-height: 1;
 }
@@ -649,7 +645,6 @@ body.dark-mode .nav-link.is-playing-now {
 .album-card-load-btn:hover {
     background: var(--bg-elevated);
     border-color: var(--accent);
-    transform: scale(1.12);
 }
 
 .album-card-spotify-btn svg {
@@ -1226,7 +1221,6 @@ body.dark-mode .mini-player-bottom-bar {
     align-items: center;
     justify-content: center;
     border-radius: var(--radius-full);
-    transition: color 0.15s ease, background-color 0.15s ease;
 }
 
 .bottom-ctrl-btn:hover {
@@ -1268,7 +1262,6 @@ body.dark-mode .mini-player-bottom-bar {
     color: var(--text-primary);
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 
 .bottom-bar-expand-btn:hover {
@@ -1295,7 +1288,6 @@ body.dark-mode .mini-player-bottom-bar {
     border-radius: 6px;
     user-select: none;
     cursor: pointer;
-    transition: background 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
     flex-shrink: 0;
 }
 
@@ -1335,7 +1327,6 @@ body.dark-mode .mini-player-bottom-bar {
     font-size: 13px;
     padding: 2px 6px;
     border-radius: 4px;
-    transition: color 0.15s ease, background-color 0.15s ease;
     line-height: 1;
     display: flex;
     align-items: center;
@@ -1595,7 +1586,6 @@ body.dark-mode .mini-player-bottom-bar {
     text-align: center;
     cursor: pointer;
     box-shadow: var(--card-shadow);
-    transition: box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
 .mix-preset-card:hover {
@@ -1679,7 +1669,6 @@ body.dark-mode .mini-player-bottom-bar {
     font-size: 0.84rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.15s ease;
 }
 
 .artist-chip:hover {
@@ -1789,7 +1778,6 @@ body.dark-mode .mini-player-bottom-bar {
     align-items: center;
     padding: 10px 14px;
     border-radius: var(--radius-sm);
-    transition: background 0.15s ease;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -1898,12 +1886,10 @@ body.dark-mode .album-track-row {
     justify-content: center;
     line-height: 1;
     border-radius: 4px;
-    transition: transform 0.15s ease, opacity 0.15s ease, filter 0.15s ease;
     opacity: 0.9;
 }
 
 .album-track-like-btn:hover {
-    transform: scale(1.15);
     opacity: 1;
 }
 
