@@ -61,11 +61,42 @@ var allAlbums = [];
 var allArtists = [];
 var allTopTracks = [];
 var topTrackIdSet = new Set();
+var likedSongIdSet = new Set();
+var likedSongKeySet = new Set();
 var selectedArtistNames = new Set();
 var currentMixTracks = [];
 var currentMixTitle = 'Curated Smart Mix';
 var currentMixType = 'preset';
 var currentPresetKey = 'mega';
+
+function getTrackKey(track) {
+    if (!track) return '';
+    if (typeof getTrackDeduplicationKey === 'function') {
+        const k = getTrackDeduplicationKey(track);
+        if (k) return k;
+    }
+    const name = (track.name || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    const artist = (track.artistNames || (track.artists && track.artists[0]?.name) || (track.album ? track.album.artistNames || (track.album.artists && track.album.artists[0]?.name) : '') || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/[\u201C\u201D]/g, '"')
+        .replace(/\s+/g, ' ')
+        .trim();
+    return `${name}:::${artist}`;
+}
+
+function isSongLiked(track) {
+    if (!track) return false;
+    if (track.id && likedSongIdSet.has(track.id)) return true;
+    const key = getTrackKey(track);
+    if (key && likedSongKeySet.has(key)) return true;
+    return false;
+}
 
 async function initSmartMix() {
     const loadingEl = document.getElementById('loading');
@@ -87,6 +118,16 @@ async function initSmartMix() {
         allArtists = artists || [];
         allTopTracks = topTracks || [];
         topTrackIdSet = new Set((allTopTracks || []).map(t => t.id).filter(Boolean));
+
+        likedSongIdSet = new Set();
+        likedSongKeySet = new Set();
+        allLikedSongs.forEach(s => {
+            if (s) {
+                if (s.id) likedSongIdSet.add(s.id);
+                const k = getTrackKey(s);
+                if (k) likedSongKeySet.add(k);
+            }
+        });
 
         renderMoodChips();
         renderArtistChips();
@@ -683,6 +724,7 @@ function renderMixResult(autoScroll = false) {
         }
 
         const trackUrl = getSpotifyUrl(song, 'track');
+        const isLiked = isSongLiked(song);
 
         card.innerHTML = `
             <div class="cover-wrapper">
@@ -697,7 +739,10 @@ function renderMixResult(autoScroll = false) {
                 </div>
                 <div class="song-artist">${artistsHtml}${albumHtml}</div>
             </div>
-            <div class="song-meta" style="justify-content: space-between; align-items: center;">
+            <div class="song-meta" style="display: flex; align-items: center; gap: 16px; margin-left: auto;">
+                <button type="button" class="album-track-like-btn ${isLiked ? '' : 'not-liked'}" title="${isLiked ? 'In your Liked Songs (Click to unlike)' : 'Not in Liked Songs (Click to like)'}" onclick="toggleLikeTrackInMix('${song.id}')">
+                    ${isLiked ? '💚' : '🩶'}
+                </button>
                 <button class="album-card-btn album-card-play-btn" onclick="togglePlayPreview('${song.id}')" title="Play Track" aria-label="Play Track">
                     ▶
                 </button>
@@ -716,6 +761,25 @@ function renderMixResult(autoScroll = false) {
         resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 }
+
+async function toggleLikeTrackInMix(id) {
+    const track = (currentMixTracks || []).find(t => t.id === id);
+    if (!track) return;
+
+    if (window.miniPlayer) {
+        const nextLiked = await window.miniPlayer.toggleLikeTrack(track);
+        const k = getTrackKey(track);
+        if (nextLiked) {
+            if (track.id) likedSongIdSet.add(track.id);
+            if (k) likedSongKeySet.add(k);
+        } else {
+            if (track.id) likedSongIdSet.delete(track.id);
+            if (k) likedSongKeySet.delete(k);
+        }
+        renderMixResult(false);
+    }
+}
+window.toggleLikeTrackInMix = toggleLikeTrackInMix;
 
 function togglePlayPreview(id) {
     if (window.miniPlayer) {
