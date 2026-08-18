@@ -784,7 +784,7 @@ window.toggleLikeTrackInMix = toggleLikeTrackInMix;
 function togglePlayPreview(id) {
     if (window.miniPlayer) {
         const song = (currentMixTracks || []).find(s => s.id === id) || { id };
-        window.miniPlayer.currentType = 'playlist';
+        window.miniPlayer.currentType = 'track';
         window.miniPlayer.contextTitle = currentMixTitle || 'Smart Mix';
         window.miniPlayer.playTrack(song, currentMixTracks);
     }
