@@ -1,5 +1,59 @@
 [
   {
+    "id": "20K0BwwzSchxPyuvrwQ94O",
+    "name": "Anadolu Ejderi",
+    "artists": [
+      {
+        "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+        "name": "Gaye Su Akyol"
+      }
+    ],
+    "artistNames": "Gaye Su Akyol",
+    "album": {
+      "id": "17mZxprFkV5Fuki7z3V7RW",
+      "name": "Anadolu Ejderi",
+      "releaseDate": "2022-11-25",
+      "releaseYear": "2022",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+    "durationMs": 242703,
+    "durationFormatted": "4:02",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/20K0BwwzSchxPyuvrwQ94O",
+    "uri": "spotify:track:20K0BwwzSchxPyuvrwQ94O",
+    "addedAt": "2026-08-18T18:55:17Z",
+    "addedDate": "2026-08-18"
+  },
+  {
+    "id": "69FlymMRq4X6OOgseYp3zg",
+    "name": "Vurgunum Ama Acelesi Yok",
+    "artists": [
+      {
+        "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+        "name": "Gaye Su Akyol"
+      }
+    ],
+    "artistNames": "Gaye Su Akyol",
+    "album": {
+      "id": "17mZxprFkV5Fuki7z3V7RW",
+      "name": "Anadolu Ejderi",
+      "releaseDate": "2022-11-25",
+      "releaseYear": "2022",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+    "durationMs": 285810,
+    "durationFormatted": "4:45",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/69FlymMRq4X6OOgseYp3zg",
+    "uri": "spotify:track:69FlymMRq4X6OOgseYp3zg",
+    "addedAt": "2026-08-18T18:55:15Z",
+    "addedDate": "2026-08-18"
+  },
+  {
     "id": "1wL2dk42Cxu4zCJs4SvFsZ",
     "name": "Brigas Nunca Mais",
     "artists": [
@@ -109,33 +163,6 @@
     "spotifyUrl": "https://open.spotify.com/track/6ytK9OG2Nlhm0O6YGHo43X",
     "uri": "spotify:track:6ytK9OG2Nlhm0O6YGHo43X",
     "addedAt": "2026-08-17T12:54:17Z",
-    "addedDate": "2026-08-17"
-  },
-  {
-    "id": "3PG3GhvoWXYHD1xTeKRAfg",
-    "name": "Anadolu Ejderi",
-    "artists": [
-      {
-        "id": "0VsS7WKuNEsKGNIWuiwSyZ",
-        "name": "Gaye Su Akyol"
-      }
-    ],
-    "artistNames": "Gaye Su Akyol",
-    "album": {
-      "id": "4aLZc3UKcNs7uwHorE99wc",
-      "name": "Anadolu Ejderi",
-      "releaseDate": "2022-11-25",
-      "releaseYear": "2022",
-      "totalTracks": 11
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273476e15bcff8fba09f7b0adfb",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851476e15bcff8fba09f7b0adfb",
-    "durationMs": 242704,
-    "durationFormatted": "4:02",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/3PG3GhvoWXYHD1xTeKRAfg",
-    "uri": "spotify:track:3PG3GhvoWXYHD1xTeKRAfg",
-    "addedAt": "2026-08-17T00:38:57Z",
     "addedDate": "2026-08-17"
   },
   {

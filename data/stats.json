@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 599,
+  "totalLikedSongs": 600,
   "totalPlaylists": 14,
   "totalSavedAlbums": 98,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 155966239,
-  "totalDurationHours": 43.3,
+  "totalDurationMs": 156252048,
+  "totalDurationHours": 43.4,
   "totalDurationDays": 1.8,
-  "totalDurationFormatted": "43 hrs 19 mins",
+  "totalDurationFormatted": "43 hrs 24 mins",
   "uniqueArtistsCount": 502,
   "topLikedArtists": [
     {
@@ -86,6 +86,10 @@
       "count": 4
     },
     {
+      "name": "Gaye Su Akyol",
+      "count": 3
+    },
+    {
       "name": "Mattafix",
       "count": 3
     },
@@ -124,17 +128,13 @@
     {
       "name": "Bill Withers",
       "count": 3
-    },
-    {
-      "name": "Stevie Wonder",
-      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "2020s": 26,
     "2000s": 144,
     "2010s": 148,
-    "2020s": 25,
     "1990s": 134,
     "1980s": 84,
     "1970s": 45,
@@ -201,9 +201,9 @@
     "2019": 11,
     "2020": 6,
     "2021": 9,
-    "2022": 4,
+    "2022": 5,
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-18T16:17:02.022Z"
+  "lastUpdated": "2026-08-18T19:19:56.039Z"
 }
