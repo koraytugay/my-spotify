@@ -1,5 +1,909 @@
 [
   {
+    "id": "2OCqRoV6adWSAJXivSnFWs",
+    "name": "Red",
+    "artists": [
+      {
+        "id": "5keeQyPKYRxUCKDMECTXG3",
+        "name": "Black Uhuru"
+      }
+    ],
+    "artistNames": "Black Uhuru",
+    "releaseDate": "1981-01-01",
+    "releaseYear": "1981",
+    "totalTracks": 8,
+    "tracks": [
+      {
+        "id": "7h2QxTZdAyRIXCrkLmSsrC",
+        "name": "Youth Of Eglington",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 301893,
+        "durationFormatted": "5:01",
+        "spotifyUrl": "https://open.spotify.com/track/7h2QxTZdAyRIXCrkLmSsrC",
+        "uri": "spotify:track:7h2QxTZdAyRIXCrkLmSsrC"
+      },
+      {
+        "id": "47xiNPXTejYCbgdyjfm08m",
+        "name": "Sponji Reggae",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 293440,
+        "durationFormatted": "4:53",
+        "spotifyUrl": "https://open.spotify.com/track/47xiNPXTejYCbgdyjfm08m",
+        "uri": "spotify:track:47xiNPXTejYCbgdyjfm08m"
+      },
+      {
+        "id": "4eH8Nm4CMYoKE0XnCjUd6B",
+        "name": "Sistren",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 275333,
+        "durationFormatted": "4:35",
+        "spotifyUrl": "https://open.spotify.com/track/4eH8Nm4CMYoKE0XnCjUd6B",
+        "uri": "spotify:track:4eH8Nm4CMYoKE0XnCjUd6B"
+      },
+      {
+        "id": "3KpzWwsvsZLDbLhIZQA9xE",
+        "name": "Journey",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 322293,
+        "durationFormatted": "5:22",
+        "spotifyUrl": "https://open.spotify.com/track/3KpzWwsvsZLDbLhIZQA9xE",
+        "uri": "spotify:track:3KpzWwsvsZLDbLhIZQA9xE"
+      },
+      {
+        "id": "40KVOmG0mOFIuLwNSMGsAP",
+        "name": "Utterance",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 215840,
+        "durationFormatted": "3:35",
+        "spotifyUrl": "https://open.spotify.com/track/40KVOmG0mOFIuLwNSMGsAP",
+        "uri": "spotify:track:40KVOmG0mOFIuLwNSMGsAP"
+      },
+      {
+        "id": "2d79gSAIJ8wxqJAJ2bUE5t",
+        "name": "Puff She Puff",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 309066,
+        "durationFormatted": "5:09",
+        "spotifyUrl": "https://open.spotify.com/track/2d79gSAIJ8wxqJAJ2bUE5t",
+        "uri": "spotify:track:2d79gSAIJ8wxqJAJ2bUE5t"
+      },
+      {
+        "id": "4PUhjXH6fHKBiJA8S0UZZ8",
+        "name": "Rockstone",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 275426,
+        "durationFormatted": "4:35",
+        "spotifyUrl": "https://open.spotify.com/track/4PUhjXH6fHKBiJA8S0UZZ8",
+        "uri": "spotify:track:4PUhjXH6fHKBiJA8S0UZZ8"
+      },
+      {
+        "id": "23afwv90plsIrhXERsRoGg",
+        "name": "Carbine",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "5keeQyPKYRxUCKDMECTXG3",
+            "name": "Black Uhuru"
+          }
+        ],
+        "artistNames": "Black Uhuru",
+        "album": {
+          "id": "2OCqRoV6adWSAJXivSnFWs",
+          "name": "Red",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
+        "durationMs": 366040,
+        "durationFormatted": "6:06",
+        "spotifyUrl": "https://open.spotify.com/track/23afwv90plsIrhXERsRoGg",
+        "uri": "spotify:track:23afwv90plsIrhXERsRoGg"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
+    "spotifyUrl": "https://open.spotify.com/album/2OCqRoV6adWSAJXivSnFWs",
+    "addedAt": "2019-08-16T12:03:56Z"
+  },
+  {
+    "id": "7nXfNwezaU1ROiZbuCV8GE",
+    "name": "Dance Of Fire",
+    "artists": [
+      {
+        "id": "2TvWRRw5EFTbGryv1IbFM0",
+        "name": "Aziza Mustafa Zadeh"
+      }
+    ],
+    "artistNames": "Aziza Mustafa Zadeh",
+    "releaseDate": "1995-03-24",
+    "releaseYear": "1995",
+    "totalTracks": 11,
+    "tracks": [
+      {
+        "id": "6RpVxU3fXKPWzjXYiSOjcz",
+        "name": "Boomerang",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 264826,
+        "durationFormatted": "4:24",
+        "spotifyUrl": "https://open.spotify.com/track/6RpVxU3fXKPWzjXYiSOjcz",
+        "uri": "spotify:track:6RpVxU3fXKPWzjXYiSOjcz"
+      },
+      {
+        "id": "67VGm9sWcM6vynhIWHsVg8",
+        "name": "Dance Of Fire",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 362040,
+        "durationFormatted": "6:02",
+        "spotifyUrl": "https://open.spotify.com/track/67VGm9sWcM6vynhIWHsVg8",
+        "uri": "spotify:track:67VGm9sWcM6vynhIWHsVg8"
+      },
+      {
+        "id": "6e6DEgqXPthYVQQZMOP25U",
+        "name": "Sheherezadeh",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 172266,
+        "durationFormatted": "2:52",
+        "spotifyUrl": "https://open.spotify.com/track/6e6DEgqXPthYVQQZMOP25U",
+        "uri": "spotify:track:6e6DEgqXPthYVQQZMOP25U"
+      },
+      {
+        "id": "0szM1KvDyPMHEtBJOOAnlz",
+        "name": "Aspiration",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 142093,
+        "durationFormatted": "2:22",
+        "spotifyUrl": "https://open.spotify.com/track/0szM1KvDyPMHEtBJOOAnlz",
+        "uri": "spotify:track:0szM1KvDyPMHEtBJOOAnlz"
+      },
+      {
+        "id": "3iXHYoaZShkoiBR25T8eAm",
+        "name": "Bana Bana Gel (Bad Gal)",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 751906,
+        "durationFormatted": "12:31",
+        "spotifyUrl": "https://open.spotify.com/track/3iXHYoaZShkoiBR25T8eAm",
+        "uri": "spotify:track:3iXHYoaZShkoiBR25T8eAm"
+      },
+      {
+        "id": "35DZGmdrohjXxMlyYK1siR",
+        "name": "Shadow",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 354200,
+        "durationFormatted": "5:54",
+        "spotifyUrl": "https://open.spotify.com/track/35DZGmdrohjXxMlyYK1siR",
+        "uri": "spotify:track:35DZGmdrohjXxMlyYK1siR"
+      },
+      {
+        "id": "63xDBoldKlGehomD6L7tr2",
+        "name": "Carnival",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 448560,
+        "durationFormatted": "7:28",
+        "spotifyUrl": "https://open.spotify.com/track/63xDBoldKlGehomD6L7tr2",
+        "uri": "spotify:track:63xDBoldKlGehomD6L7tr2"
+      },
+      {
+        "id": "2ntRTE4hPzWHgi0cyTySEc",
+        "name": "Passion",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 430066,
+        "durationFormatted": "7:10",
+        "spotifyUrl": "https://open.spotify.com/track/2ntRTE4hPzWHgi0cyTySEc",
+        "uri": "spotify:track:2ntRTE4hPzWHgi0cyTySEc"
+      },
+      {
+        "id": "6s1lwmb3B40ecNfMc13BI2",
+        "name": "Spanish Picture",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 541000,
+        "durationFormatted": "9:01",
+        "spotifyUrl": "https://open.spotify.com/track/6s1lwmb3B40ecNfMc13BI2",
+        "uri": "spotify:track:6s1lwmb3B40ecNfMc13BI2"
+      },
+      {
+        "id": "69LwVwpEPpoi87NUY4cnN7",
+        "name": "To Be Continued",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 357706,
+        "durationFormatted": "5:57",
+        "spotifyUrl": "https://open.spotify.com/track/69LwVwpEPpoi87NUY4cnN7",
+        "uri": "spotify:track:69LwVwpEPpoi87NUY4cnN7"
+      },
+      {
+        "id": "78Eb0W52JdZye4HuOFK3h1",
+        "name": "Father",
+        "trackNumber": 11,
+        "artists": [
+          {
+            "id": "2TvWRRw5EFTbGryv1IbFM0",
+            "name": "Aziza Mustafa Zadeh"
+          }
+        ],
+        "artistNames": "Aziza Mustafa Zadeh",
+        "album": {
+          "id": "7nXfNwezaU1ROiZbuCV8GE",
+          "name": "Dance Of Fire",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
+        "durationMs": 357866,
+        "durationFormatted": "5:57",
+        "spotifyUrl": "https://open.spotify.com/track/78Eb0W52JdZye4HuOFK3h1",
+        "uri": "spotify:track:78Eb0W52JdZye4HuOFK3h1"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
+    "spotifyUrl": "https://open.spotify.com/album/7nXfNwezaU1ROiZbuCV8GE",
+    "addedAt": "2026-08-17T00:33:36Z"
+  },
+  {
+    "id": "54xM746igJkdPJenRhW1za",
+    "name": "Days of Thunder",
+    "artists": [
+      {
+        "id": "2NFrAuh8RQdQoS7iYFbckw",
+        "name": "The Midnight"
+      }
+    ],
+    "artistNames": "The Midnight",
+    "releaseDate": "2014-03-19",
+    "releaseYear": "2014",
+    "totalTracks": 6,
+    "tracks": [
+      {
+        "id": "65bUBhjjibVJOuvPtbFF24",
+        "name": "The Years (Prologue)",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 368684,
+        "durationFormatted": "6:08",
+        "spotifyUrl": "https://open.spotify.com/track/65bUBhjjibVJOuvPtbFF24",
+        "uri": "spotify:track:65bUBhjjibVJOuvPtbFF24"
+      },
+      {
+        "id": "2R3v2gnBITuIi5yfuEHMnQ",
+        "name": "Gloria",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 289897,
+        "durationFormatted": "4:49",
+        "spotifyUrl": "https://open.spotify.com/track/2R3v2gnBITuIi5yfuEHMnQ",
+        "uri": "spotify:track:2R3v2gnBITuIi5yfuEHMnQ"
+      },
+      {
+        "id": "1TSMtCZksKCU9hXRy2V4K0",
+        "name": "WeMoveForward",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 487738,
+        "durationFormatted": "8:07",
+        "spotifyUrl": "https://open.spotify.com/track/1TSMtCZksKCU9hXRy2V4K0",
+        "uri": "spotify:track:1TSMtCZksKCU9hXRy2V4K0"
+      },
+      {
+        "id": "6tJPdGKrbAeyhkkhn44RHR",
+        "name": "Days of Thunder",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 324018,
+        "durationFormatted": "5:24",
+        "spotifyUrl": "https://open.spotify.com/track/6tJPdGKrbAeyhkkhn44RHR",
+        "uri": "spotify:track:6tJPdGKrbAeyhkkhn44RHR"
+      },
+      {
+        "id": "12OlfCFopRJpn0mKuIeIcz",
+        "name": "Kick Drums & Red Wine",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 381666,
+        "durationFormatted": "6:21",
+        "spotifyUrl": "https://open.spotify.com/track/12OlfCFopRJpn0mKuIeIcz",
+        "uri": "spotify:track:12OlfCFopRJpn0mKuIeIcz"
+      },
+      {
+        "id": "4loXMor75kKVBB03ygwDlh",
+        "name": "Los Angeles",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "2NFrAuh8RQdQoS7iYFbckw",
+            "name": "The Midnight"
+          }
+        ],
+        "artistNames": "The Midnight",
+        "album": {
+          "id": "54xM746igJkdPJenRhW1za",
+          "name": "Days of Thunder",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
+        "durationMs": 389094,
+        "durationFormatted": "6:29",
+        "spotifyUrl": "https://open.spotify.com/track/4loXMor75kKVBB03ygwDlh",
+        "uri": "spotify:track:4loXMor75kKVBB03ygwDlh"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
+    "spotifyUrl": "https://open.spotify.com/album/54xM746igJkdPJenRhW1za",
+    "addedAt": "2023-04-07T23:15:42Z"
+  },
+  {
+    "id": "2Y8x0EEu7il0K2gCQIqVRh",
+    "name": "Dance of Death (2015 Remaster)",
+    "artists": [
+      {
+        "id": "6mdiAmATAx73kdxrNrnlao",
+        "name": "Iron Maiden"
+      }
+    ],
+    "artistNames": "Iron Maiden",
+    "releaseDate": "2003",
+    "releaseYear": "2003",
+    "totalTracks": 11,
+    "tracks": [
+      {
+        "id": "28Ux2WcnWqQ4K9Nohpc9NA",
+        "name": "Wildest Dreams - 2015 Remaster",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 232106,
+        "durationFormatted": "3:52",
+        "spotifyUrl": "https://open.spotify.com/track/28Ux2WcnWqQ4K9Nohpc9NA",
+        "uri": "spotify:track:28Ux2WcnWqQ4K9Nohpc9NA"
+      },
+      {
+        "id": "5jNmbcbuNhM8d5oUld1WsS",
+        "name": "Rainmaker - 2015 Remaster",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 228493,
+        "durationFormatted": "3:48",
+        "spotifyUrl": "https://open.spotify.com/track/5jNmbcbuNhM8d5oUld1WsS",
+        "uri": "spotify:track:5jNmbcbuNhM8d5oUld1WsS"
+      },
+      {
+        "id": "6HEUfzCyqifQFu2ni9aTLV",
+        "name": "No More Lies - 2015 Remaster",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 441786,
+        "durationFormatted": "7:21",
+        "spotifyUrl": "https://open.spotify.com/track/6HEUfzCyqifQFu2ni9aTLV",
+        "uri": "spotify:track:6HEUfzCyqifQFu2ni9aTLV"
+      },
+      {
+        "id": "17slJ2AOP8TGSzF2aQeXHk",
+        "name": "Montségur - 2015 Remaster",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 350373,
+        "durationFormatted": "5:50",
+        "spotifyUrl": "https://open.spotify.com/track/17slJ2AOP8TGSzF2aQeXHk",
+        "uri": "spotify:track:17slJ2AOP8TGSzF2aQeXHk"
+      },
+      {
+        "id": "4YsgFGkP1KeSFDWfZqVioX",
+        "name": "Dance of Death - 2015 Remaster",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 516426,
+        "durationFormatted": "8:36",
+        "spotifyUrl": "https://open.spotify.com/track/4YsgFGkP1KeSFDWfZqVioX",
+        "uri": "spotify:track:4YsgFGkP1KeSFDWfZqVioX"
+      },
+      {
+        "id": "3x1jUlXBxIeW0v3Fpy3rI7",
+        "name": "Gates of Tomorrow - 2015 Remaster",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 312120,
+        "durationFormatted": "5:12",
+        "spotifyUrl": "https://open.spotify.com/track/3x1jUlXBxIeW0v3Fpy3rI7",
+        "uri": "spotify:track:3x1jUlXBxIeW0v3Fpy3rI7"
+      },
+      {
+        "id": "6swqXF76xgyoqcVItZpCku",
+        "name": "New Frontier - 2015 Remaster",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 304280,
+        "durationFormatted": "5:04",
+        "spotifyUrl": "https://open.spotify.com/track/6swqXF76xgyoqcVItZpCku",
+        "uri": "spotify:track:6swqXF76xgyoqcVItZpCku"
+      },
+      {
+        "id": "5csZmb5ZdDO3EQIPpriNGX",
+        "name": "Paschendale - 2015 Remaster",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 508200,
+        "durationFormatted": "8:28",
+        "spotifyUrl": "https://open.spotify.com/track/5csZmb5ZdDO3EQIPpriNGX",
+        "uri": "spotify:track:5csZmb5ZdDO3EQIPpriNGX"
+      },
+      {
+        "id": "1hAv5lEukfAKW61JbrXUpl",
+        "name": "Face in the Sand - 2015 Remaster",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 390960,
+        "durationFormatted": "6:30",
+        "spotifyUrl": "https://open.spotify.com/track/1hAv5lEukfAKW61JbrXUpl",
+        "uri": "spotify:track:1hAv5lEukfAKW61JbrXUpl"
+      },
+      {
+        "id": "7lMsLZMr6fgpZp00prVyWP",
+        "name": "Age of Innocence - 2015 Remaster",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 370506,
+        "durationFormatted": "6:10",
+        "spotifyUrl": "https://open.spotify.com/track/7lMsLZMr6fgpZp00prVyWP",
+        "uri": "spotify:track:7lMsLZMr6fgpZp00prVyWP"
+      },
+      {
+        "id": "3u9bs8Q4fMYuHFyNLCzidg",
+        "name": "Journeyman - 2015 Remaster",
+        "trackNumber": 11,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "2Y8x0EEu7il0K2gCQIqVRh",
+          "name": "Dance of Death (2015 Remaster)",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
+        "durationMs": 426306,
+        "durationFormatted": "7:06",
+        "spotifyUrl": "https://open.spotify.com/track/3u9bs8Q4fMYuHFyNLCzidg",
+        "uri": "spotify:track:3u9bs8Q4fMYuHFyNLCzidg"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
+    "spotifyUrl": "https://open.spotify.com/album/2Y8x0EEu7il0K2gCQIqVRh",
+    "addedAt": "2019-12-28T03:32:42Z"
+  },
+  {
     "id": "0PSKQG07y29y4u0XKOecEK",
     "name": "London Calling",
     "artists": [
@@ -4266,163 +5170,6 @@
     "addedAt": "2020-01-09T21:49:42Z"
   },
   {
-    "id": "54xM746igJkdPJenRhW1za",
-    "name": "Days of Thunder",
-    "artists": [
-      {
-        "id": "2NFrAuh8RQdQoS7iYFbckw",
-        "name": "The Midnight"
-      }
-    ],
-    "artistNames": "The Midnight",
-    "releaseDate": "2014-03-19",
-    "releaseYear": "2014",
-    "totalTracks": 6,
-    "tracks": [
-      {
-        "id": "65bUBhjjibVJOuvPtbFF24",
-        "name": "The Years (Prologue)",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 368684,
-        "durationFormatted": "6:08",
-        "spotifyUrl": "https://open.spotify.com/track/65bUBhjjibVJOuvPtbFF24",
-        "uri": "spotify:track:65bUBhjjibVJOuvPtbFF24"
-      },
-      {
-        "id": "2R3v2gnBITuIi5yfuEHMnQ",
-        "name": "Gloria",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 289897,
-        "durationFormatted": "4:49",
-        "spotifyUrl": "https://open.spotify.com/track/2R3v2gnBITuIi5yfuEHMnQ",
-        "uri": "spotify:track:2R3v2gnBITuIi5yfuEHMnQ"
-      },
-      {
-        "id": "1TSMtCZksKCU9hXRy2V4K0",
-        "name": "WeMoveForward",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 487738,
-        "durationFormatted": "8:07",
-        "spotifyUrl": "https://open.spotify.com/track/1TSMtCZksKCU9hXRy2V4K0",
-        "uri": "spotify:track:1TSMtCZksKCU9hXRy2V4K0"
-      },
-      {
-        "id": "6tJPdGKrbAeyhkkhn44RHR",
-        "name": "Days of Thunder",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 324018,
-        "durationFormatted": "5:24",
-        "spotifyUrl": "https://open.spotify.com/track/6tJPdGKrbAeyhkkhn44RHR",
-        "uri": "spotify:track:6tJPdGKrbAeyhkkhn44RHR"
-      },
-      {
-        "id": "12OlfCFopRJpn0mKuIeIcz",
-        "name": "Kick Drums & Red Wine",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 381666,
-        "durationFormatted": "6:21",
-        "spotifyUrl": "https://open.spotify.com/track/12OlfCFopRJpn0mKuIeIcz",
-        "uri": "spotify:track:12OlfCFopRJpn0mKuIeIcz"
-      },
-      {
-        "id": "4loXMor75kKVBB03ygwDlh",
-        "name": "Los Angeles",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "The Midnight",
-        "album": {
-          "id": "54xM746igJkdPJenRhW1za",
-          "name": "Days of Thunder",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485133d63fa24cabd82d6c7c676f",
-        "durationMs": 389094,
-        "durationFormatted": "6:29",
-        "spotifyUrl": "https://open.spotify.com/track/4loXMor75kKVBB03ygwDlh",
-        "uri": "spotify:track:4loXMor75kKVBB03ygwDlh"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27333d63fa24cabd82d6c7c676f",
-    "spotifyUrl": "https://open.spotify.com/album/54xM746igJkdPJenRhW1za",
-    "addedAt": "2023-04-07T23:15:42Z"
-  },
-  {
     "id": "5BHseWo51e0hosUjxXLLZg",
     "name": "Su Gibi",
     "artists": [
@@ -4670,278 +5417,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273342db083ce1960ebb1b03aae",
     "spotifyUrl": "https://open.spotify.com/album/5BHseWo51e0hosUjxXLLZg",
     "addedAt": "2019-07-27T11:48:59Z"
-  },
-  {
-    "id": "7nXfNwezaU1ROiZbuCV8GE",
-    "name": "Dance Of Fire",
-    "artists": [
-      {
-        "id": "2TvWRRw5EFTbGryv1IbFM0",
-        "name": "Aziza Mustafa Zadeh"
-      }
-    ],
-    "artistNames": "Aziza Mustafa Zadeh",
-    "releaseDate": "1995-03-24",
-    "releaseYear": "1995",
-    "totalTracks": 11,
-    "tracks": [
-      {
-        "id": "6RpVxU3fXKPWzjXYiSOjcz",
-        "name": "Boomerang",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 264826,
-        "durationFormatted": "4:24",
-        "spotifyUrl": "https://open.spotify.com/track/6RpVxU3fXKPWzjXYiSOjcz",
-        "uri": "spotify:track:6RpVxU3fXKPWzjXYiSOjcz"
-      },
-      {
-        "id": "67VGm9sWcM6vynhIWHsVg8",
-        "name": "Dance Of Fire",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 362040,
-        "durationFormatted": "6:02",
-        "spotifyUrl": "https://open.spotify.com/track/67VGm9sWcM6vynhIWHsVg8",
-        "uri": "spotify:track:67VGm9sWcM6vynhIWHsVg8"
-      },
-      {
-        "id": "6e6DEgqXPthYVQQZMOP25U",
-        "name": "Sheherezadeh",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 172266,
-        "durationFormatted": "2:52",
-        "spotifyUrl": "https://open.spotify.com/track/6e6DEgqXPthYVQQZMOP25U",
-        "uri": "spotify:track:6e6DEgqXPthYVQQZMOP25U"
-      },
-      {
-        "id": "0szM1KvDyPMHEtBJOOAnlz",
-        "name": "Aspiration",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 142093,
-        "durationFormatted": "2:22",
-        "spotifyUrl": "https://open.spotify.com/track/0szM1KvDyPMHEtBJOOAnlz",
-        "uri": "spotify:track:0szM1KvDyPMHEtBJOOAnlz"
-      },
-      {
-        "id": "3iXHYoaZShkoiBR25T8eAm",
-        "name": "Bana Bana Gel (Bad Gal)",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 751906,
-        "durationFormatted": "12:31",
-        "spotifyUrl": "https://open.spotify.com/track/3iXHYoaZShkoiBR25T8eAm",
-        "uri": "spotify:track:3iXHYoaZShkoiBR25T8eAm"
-      },
-      {
-        "id": "35DZGmdrohjXxMlyYK1siR",
-        "name": "Shadow",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 354200,
-        "durationFormatted": "5:54",
-        "spotifyUrl": "https://open.spotify.com/track/35DZGmdrohjXxMlyYK1siR",
-        "uri": "spotify:track:35DZGmdrohjXxMlyYK1siR"
-      },
-      {
-        "id": "63xDBoldKlGehomD6L7tr2",
-        "name": "Carnival",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 448560,
-        "durationFormatted": "7:28",
-        "spotifyUrl": "https://open.spotify.com/track/63xDBoldKlGehomD6L7tr2",
-        "uri": "spotify:track:63xDBoldKlGehomD6L7tr2"
-      },
-      {
-        "id": "2ntRTE4hPzWHgi0cyTySEc",
-        "name": "Passion",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 430066,
-        "durationFormatted": "7:10",
-        "spotifyUrl": "https://open.spotify.com/track/2ntRTE4hPzWHgi0cyTySEc",
-        "uri": "spotify:track:2ntRTE4hPzWHgi0cyTySEc"
-      },
-      {
-        "id": "6s1lwmb3B40ecNfMc13BI2",
-        "name": "Spanish Picture",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 541000,
-        "durationFormatted": "9:01",
-        "spotifyUrl": "https://open.spotify.com/track/6s1lwmb3B40ecNfMc13BI2",
-        "uri": "spotify:track:6s1lwmb3B40ecNfMc13BI2"
-      },
-      {
-        "id": "69LwVwpEPpoi87NUY4cnN7",
-        "name": "To Be Continued",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 357706,
-        "durationFormatted": "5:57",
-        "spotifyUrl": "https://open.spotify.com/track/69LwVwpEPpoi87NUY4cnN7",
-        "uri": "spotify:track:69LwVwpEPpoi87NUY4cnN7"
-      },
-      {
-        "id": "78Eb0W52JdZye4HuOFK3h1",
-        "name": "Father",
-        "trackNumber": 11,
-        "artists": [
-          {
-            "id": "2TvWRRw5EFTbGryv1IbFM0",
-            "name": "Aziza Mustafa Zadeh"
-          }
-        ],
-        "artistNames": "Aziza Mustafa Zadeh",
-        "album": {
-          "id": "7nXfNwezaU1ROiZbuCV8GE",
-          "name": "Dance Of Fire",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513dac6d1d8c6362643a89f7c5",
-        "durationMs": 357866,
-        "durationFormatted": "5:57",
-        "spotifyUrl": "https://open.spotify.com/track/78Eb0W52JdZye4HuOFK3h1",
-        "uri": "spotify:track:78Eb0W52JdZye4HuOFK3h1"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733dac6d1d8c6362643a89f7c5",
-    "spotifyUrl": "https://open.spotify.com/album/7nXfNwezaU1ROiZbuCV8GE",
-    "addedAt": "2026-08-17T00:33:36Z"
   },
   {
     "id": "3bL3CYznHcGlsfrB8u5knK",
@@ -8945,278 +9420,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ca62a0c638b06dad79ed3ae3",
     "spotifyUrl": "https://open.spotify.com/album/0a4KL551wKL7l8O6xU0nlB",
     "addedAt": "2020-01-29T15:31:03Z"
-  },
-  {
-    "id": "2Y8x0EEu7il0K2gCQIqVRh",
-    "name": "Dance of Death (2015 Remaster)",
-    "artists": [
-      {
-        "id": "6mdiAmATAx73kdxrNrnlao",
-        "name": "Iron Maiden"
-      }
-    ],
-    "artistNames": "Iron Maiden",
-    "releaseDate": "2003",
-    "releaseYear": "2003",
-    "totalTracks": 11,
-    "tracks": [
-      {
-        "id": "28Ux2WcnWqQ4K9Nohpc9NA",
-        "name": "Wildest Dreams - 2015 Remaster",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 232106,
-        "durationFormatted": "3:52",
-        "spotifyUrl": "https://open.spotify.com/track/28Ux2WcnWqQ4K9Nohpc9NA",
-        "uri": "spotify:track:28Ux2WcnWqQ4K9Nohpc9NA"
-      },
-      {
-        "id": "5jNmbcbuNhM8d5oUld1WsS",
-        "name": "Rainmaker - 2015 Remaster",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 228493,
-        "durationFormatted": "3:48",
-        "spotifyUrl": "https://open.spotify.com/track/5jNmbcbuNhM8d5oUld1WsS",
-        "uri": "spotify:track:5jNmbcbuNhM8d5oUld1WsS"
-      },
-      {
-        "id": "6HEUfzCyqifQFu2ni9aTLV",
-        "name": "No More Lies - 2015 Remaster",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 441786,
-        "durationFormatted": "7:21",
-        "spotifyUrl": "https://open.spotify.com/track/6HEUfzCyqifQFu2ni9aTLV",
-        "uri": "spotify:track:6HEUfzCyqifQFu2ni9aTLV"
-      },
-      {
-        "id": "17slJ2AOP8TGSzF2aQeXHk",
-        "name": "Montségur - 2015 Remaster",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 350373,
-        "durationFormatted": "5:50",
-        "spotifyUrl": "https://open.spotify.com/track/17slJ2AOP8TGSzF2aQeXHk",
-        "uri": "spotify:track:17slJ2AOP8TGSzF2aQeXHk"
-      },
-      {
-        "id": "4YsgFGkP1KeSFDWfZqVioX",
-        "name": "Dance of Death - 2015 Remaster",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 516426,
-        "durationFormatted": "8:36",
-        "spotifyUrl": "https://open.spotify.com/track/4YsgFGkP1KeSFDWfZqVioX",
-        "uri": "spotify:track:4YsgFGkP1KeSFDWfZqVioX"
-      },
-      {
-        "id": "3x1jUlXBxIeW0v3Fpy3rI7",
-        "name": "Gates of Tomorrow - 2015 Remaster",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 312120,
-        "durationFormatted": "5:12",
-        "spotifyUrl": "https://open.spotify.com/track/3x1jUlXBxIeW0v3Fpy3rI7",
-        "uri": "spotify:track:3x1jUlXBxIeW0v3Fpy3rI7"
-      },
-      {
-        "id": "6swqXF76xgyoqcVItZpCku",
-        "name": "New Frontier - 2015 Remaster",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 304280,
-        "durationFormatted": "5:04",
-        "spotifyUrl": "https://open.spotify.com/track/6swqXF76xgyoqcVItZpCku",
-        "uri": "spotify:track:6swqXF76xgyoqcVItZpCku"
-      },
-      {
-        "id": "5csZmb5ZdDO3EQIPpriNGX",
-        "name": "Paschendale - 2015 Remaster",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 508200,
-        "durationFormatted": "8:28",
-        "spotifyUrl": "https://open.spotify.com/track/5csZmb5ZdDO3EQIPpriNGX",
-        "uri": "spotify:track:5csZmb5ZdDO3EQIPpriNGX"
-      },
-      {
-        "id": "1hAv5lEukfAKW61JbrXUpl",
-        "name": "Face in the Sand - 2015 Remaster",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 390960,
-        "durationFormatted": "6:30",
-        "spotifyUrl": "https://open.spotify.com/track/1hAv5lEukfAKW61JbrXUpl",
-        "uri": "spotify:track:1hAv5lEukfAKW61JbrXUpl"
-      },
-      {
-        "id": "7lMsLZMr6fgpZp00prVyWP",
-        "name": "Age of Innocence - 2015 Remaster",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 370506,
-        "durationFormatted": "6:10",
-        "spotifyUrl": "https://open.spotify.com/track/7lMsLZMr6fgpZp00prVyWP",
-        "uri": "spotify:track:7lMsLZMr6fgpZp00prVyWP"
-      },
-      {
-        "id": "3u9bs8Q4fMYuHFyNLCzidg",
-        "name": "Journeyman - 2015 Remaster",
-        "trackNumber": 11,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "2Y8x0EEu7il0K2gCQIqVRh",
-          "name": "Dance of Death (2015 Remaster)",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d0d7dbbbb9ee8980315ea58b",
-        "durationMs": 426306,
-        "durationFormatted": "7:06",
-        "spotifyUrl": "https://open.spotify.com/track/3u9bs8Q4fMYuHFyNLCzidg",
-        "uri": "spotify:track:3u9bs8Q4fMYuHFyNLCzidg"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d0d7dbbbb9ee8980315ea58b",
-    "spotifyUrl": "https://open.spotify.com/album/2Y8x0EEu7il0K2gCQIqVRh",
-    "addedAt": "2019-12-28T03:32:42Z"
   },
   {
     "id": "7sJ4v9gqDMHIP0ooLT45oX",
@@ -18899,209 +19102,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b27357edb2714779649bcc282c8a",
     "spotifyUrl": "https://open.spotify.com/album/0jEVLWLsKCIu0S5PzJhz8t",
     "addedAt": "2019-12-26T15:42:46Z"
-  },
-  {
-    "id": "2OCqRoV6adWSAJXivSnFWs",
-    "name": "Red",
-    "artists": [
-      {
-        "id": "5keeQyPKYRxUCKDMECTXG3",
-        "name": "Black Uhuru"
-      }
-    ],
-    "artistNames": "Black Uhuru",
-    "releaseDate": "1981-01-01",
-    "releaseYear": "1981",
-    "totalTracks": 8,
-    "tracks": [
-      {
-        "id": "7h2QxTZdAyRIXCrkLmSsrC",
-        "name": "Youth Of Eglington",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 301893,
-        "durationFormatted": "5:01",
-        "spotifyUrl": "https://open.spotify.com/track/7h2QxTZdAyRIXCrkLmSsrC",
-        "uri": "spotify:track:7h2QxTZdAyRIXCrkLmSsrC"
-      },
-      {
-        "id": "47xiNPXTejYCbgdyjfm08m",
-        "name": "Sponji Reggae",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 293440,
-        "durationFormatted": "4:53",
-        "spotifyUrl": "https://open.spotify.com/track/47xiNPXTejYCbgdyjfm08m",
-        "uri": "spotify:track:47xiNPXTejYCbgdyjfm08m"
-      },
-      {
-        "id": "4eH8Nm4CMYoKE0XnCjUd6B",
-        "name": "Sistren",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 275333,
-        "durationFormatted": "4:35",
-        "spotifyUrl": "https://open.spotify.com/track/4eH8Nm4CMYoKE0XnCjUd6B",
-        "uri": "spotify:track:4eH8Nm4CMYoKE0XnCjUd6B"
-      },
-      {
-        "id": "3KpzWwsvsZLDbLhIZQA9xE",
-        "name": "Journey",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 322293,
-        "durationFormatted": "5:22",
-        "spotifyUrl": "https://open.spotify.com/track/3KpzWwsvsZLDbLhIZQA9xE",
-        "uri": "spotify:track:3KpzWwsvsZLDbLhIZQA9xE"
-      },
-      {
-        "id": "40KVOmG0mOFIuLwNSMGsAP",
-        "name": "Utterance",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 215840,
-        "durationFormatted": "3:35",
-        "spotifyUrl": "https://open.spotify.com/track/40KVOmG0mOFIuLwNSMGsAP",
-        "uri": "spotify:track:40KVOmG0mOFIuLwNSMGsAP"
-      },
-      {
-        "id": "2d79gSAIJ8wxqJAJ2bUE5t",
-        "name": "Puff She Puff",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 309066,
-        "durationFormatted": "5:09",
-        "spotifyUrl": "https://open.spotify.com/track/2d79gSAIJ8wxqJAJ2bUE5t",
-        "uri": "spotify:track:2d79gSAIJ8wxqJAJ2bUE5t"
-      },
-      {
-        "id": "4PUhjXH6fHKBiJA8S0UZZ8",
-        "name": "Rockstone",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 275426,
-        "durationFormatted": "4:35",
-        "spotifyUrl": "https://open.spotify.com/track/4PUhjXH6fHKBiJA8S0UZZ8",
-        "uri": "spotify:track:4PUhjXH6fHKBiJA8S0UZZ8"
-      },
-      {
-        "id": "23afwv90plsIrhXERsRoGg",
-        "name": "Carbine",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "5keeQyPKYRxUCKDMECTXG3",
-            "name": "Black Uhuru"
-          }
-        ],
-        "artistNames": "Black Uhuru",
-        "album": {
-          "id": "2OCqRoV6adWSAJXivSnFWs",
-          "name": "Red",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135d6012d61248c8beed31058",
-        "durationMs": 366040,
-        "durationFormatted": "6:06",
-        "spotifyUrl": "https://open.spotify.com/track/23afwv90plsIrhXERsRoGg",
-        "uri": "spotify:track:23afwv90plsIrhXERsRoGg"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335d6012d61248c8beed31058",
-    "spotifyUrl": "https://open.spotify.com/album/2OCqRoV6adWSAJXivSnFWs",
-    "addedAt": "2019-08-16T12:03:56Z"
   },
   {
     "id": "6FQHo0a2tWVDIP2IS6uhkc",

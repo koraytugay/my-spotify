@@ -1,5 +1,32 @@
 [
   {
+    "id": "1wL2dk42Cxu4zCJs4SvFsZ",
+    "name": "Brigas Nunca Mais",
+    "artists": [
+      {
+        "id": "7EFkAxz0BUzUJ7ZmAdBmSN",
+        "name": "Paula Morelenbaum"
+      }
+    ],
+    "artistNames": "Paula Morelenbaum",
+    "album": {
+      "id": "4qdWpV588NXtYQnU9uSDCF",
+      "name": "Berimbaum",
+      "releaseDate": "2004-01-01",
+      "releaseYear": "2004",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b4c1d3a9d9a9f1421dcf71c6",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b4c1d3a9d9a9f1421dcf71c6",
+    "durationMs": 204026,
+    "durationFormatted": "3:24",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/1wL2dk42Cxu4zCJs4SvFsZ",
+    "uri": "spotify:track:1wL2dk42Cxu4zCJs4SvFsZ",
+    "addedAt": "2026-08-17T23:10:21Z",
+    "addedDate": "2026-08-17"
+  },
+  {
     "id": "5oXN6zYZk1bAIR4RPZICw0",
     "name": "Alain Delon",
     "artists": [

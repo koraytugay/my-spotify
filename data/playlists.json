@@ -5,7 +5,7 @@
     "description": "",
     "public": true,
     "collaborative": false,
-    "tracksTotal": 51,
+    "tracksTotal": 0,
     "images": [
       {
         "height": null,
@@ -17,2171 +17,60 @@
     "owner": "ToggleNation",
     "spotifyUrl": "https://open.spotify.com/playlist/6bXGXE71qgLUWgdBDJ4qxF",
     "uri": "spotify:playlist:6bXGXE71qgLUWgdBDJ4qxF",
-    "tracks": [
-      {
-        "id": "3UqHlIBI771FNCiLY5MKrp",
-        "name": "Tears in Heaven - Acoustic Live",
-        "artists": [
-          {
-            "name": "Eric Clapton"
-          }
-        ],
-        "artistNames": "Eric Clapton",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 280000,
-        "durationFormatted": "4:40",
-        "previewUrl": "https://p.scdn.co/mp3-preview/f23b297ed50e1f3e0437bc3350dddf226b70b9ff",
-        "spotifyUrl": "https://open.spotify.com/track/3UqHlIBI771FNCiLY5MKrp",
-        "uri": "spotify:track:3UqHlIBI771FNCiLY5MKrp"
-      },
-      {
-        "id": "5WltiUcx5HdM6PPkOkZptu",
-        "name": "Ironic - Live / Unplugged",
-        "artists": [
-          {
-            "name": "Alanis Morissette"
-          }
-        ],
-        "artistNames": "Alanis Morissette",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 233946,
-        "durationFormatted": "3:53",
-        "previewUrl": "https://p.scdn.co/mp3-preview/47e73658bb2d0c652fee20d29a4dff045610b2c0",
-        "spotifyUrl": "https://open.spotify.com/track/5WltiUcx5HdM6PPkOkZptu",
-        "uri": "spotify:track:5WltiUcx5HdM6PPkOkZptu"
-      },
-      {
-        "id": "7gWE3j4HZmrXQiGkQxrRt0",
-        "name": "Losing My Religion - Live / Acoustic",
-        "artists": [
-          {
-            "name": "R.E.M."
-          }
-        ],
-        "artistNames": "R.E.M.",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 284160,
-        "durationFormatted": "4:44",
-        "previewUrl": "https://p.scdn.co/mp3-preview/0546fe71fdb7bb59a45e18f33208656b8b2075af",
-        "spotifyUrl": "https://open.spotify.com/track/7gWE3j4HZmrXQiGkQxrRt0",
-        "uri": "spotify:track:7gWE3j4HZmrXQiGkQxrRt0"
-      },
-      {
-        "id": "1WdgXWGVHjBIznCc9i8uDK",
-        "name": "Strong Enough - Live",
-        "artists": [
-          {
-            "name": "Sheryl Crow"
-          }
-        ],
-        "artistNames": "Sheryl Crow",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 204360,
-        "durationFormatted": "3:24",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/1WdgXWGVHjBIznCc9i8uDK",
-        "uri": "spotify:track:1WdgXWGVHjBIznCc9i8uDK"
-      },
-      {
-        "id": "0oyWGzpoClb6364MrQI12W",
-        "name": "Are You Gonna Go My Way (Live 1994 FM Broadcast)",
-        "artists": [
-          {
-            "name": "Lenny Kravitz"
-          }
-        ],
-        "artistNames": "Lenny Kravitz",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 379886,
-        "durationFormatted": "6:19",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/0oyWGzpoClb6364MrQI12W",
-        "uri": "spotify:track:0oyWGzpoClb6364MrQI12W"
-      },
-      {
-        "id": "3aPFEoQcI9STvZDVbKzK1c",
-        "name": "Gallows Pole",
-        "artists": [
-          {
-            "name": "Jimmy Page, Robert Plant"
-          }
-        ],
-        "artistNames": "Jimmy Page, Robert Plant",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 249066,
-        "durationFormatted": "4:09",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/3aPFEoQcI9STvZDVbKzK1c",
-        "uri": "spotify:track:3aPFEoQcI9STvZDVbKzK1c"
-      },
-      {
-        "id": "1OQpTtcuAauAqp5Okxtbs2",
-        "name": "Summer Of '69 - MTV Unplugged Version",
-        "artists": [
-          {
-            "name": "Bryan Adams"
-          }
-        ],
-        "artistNames": "Bryan Adams",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 241760,
-        "durationFormatted": "4:01",
-        "previewUrl": "https://p.scdn.co/mp3-preview/d4320e64138e92cbf20d1d33c272b15fb6f12ad1",
-        "spotifyUrl": "https://open.spotify.com/track/1OQpTtcuAauAqp5Okxtbs2",
-        "uri": "spotify:track:1OQpTtcuAauAqp5Okxtbs2"
-      },
-      {
-        "id": "4qNDHOcvL0zi3RH5N3SL5b",
-        "name": "Mrs. Robinson - Live at Madison Square Garden, New York, NY - December 2003",
-        "artists": [
-          {
-            "name": "Simon & Garfunkel"
-          }
-        ],
-        "artistNames": "Simon & Garfunkel",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 272480,
-        "durationFormatted": "4:32",
-        "previewUrl": "https://p.scdn.co/mp3-preview/d408ba842ed50e59d1cd8a6497c75352ed3bfd9f",
-        "spotifyUrl": "https://open.spotify.com/track/4qNDHOcvL0zi3RH5N3SL5b",
-        "uri": "spotify:track:4qNDHOcvL0zi3RH5N3SL5b"
-      },
-      {
-        "id": "3thXKY05I9jG3N4GJRgLNb",
-        "name": "Here Comes the Rain Again (Live) [Remastered Version]",
-        "artists": [
-          {
-            "name": "Eurythmics, Annie Lennox, Dave Stewart"
-          }
-        ],
-        "artistNames": "Eurythmics, Annie Lennox, Dave Stewart",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 187973,
-        "durationFormatted": "3:07",
-        "previewUrl": "https://p.scdn.co/mp3-preview/72314462df449a00c467f96a6da1fe2d2a8fe360",
-        "spotifyUrl": "https://open.spotify.com/track/3thXKY05I9jG3N4GJRgLNb",
-        "uri": "spotify:track:3thXKY05I9jG3N4GJRgLNb"
-      },
-      {
-        "id": "0yZvZMljLXrqv4m1bGrnB8",
-        "name": "Every Night - Live On MTV Unplugged",
-        "artists": [
-          {
-            "name": "Paul McCartney"
-          }
-        ],
-        "artistNames": "Paul McCartney",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 204560,
-        "durationFormatted": "3:24",
-        "previewUrl": "https://p.scdn.co/mp3-preview/603eeeba6c2a5dff9c2dca137be5fdbab490525b",
-        "spotifyUrl": "https://open.spotify.com/track/0yZvZMljLXrqv4m1bGrnB8",
-        "uri": "spotify:track:0yZvZMljLXrqv4m1bGrnB8"
-      },
-      {
-        "id": "2NW4IHUt6m2KOyHuyJ1jpO",
-        "name": "Tonight's the Night - Live Unplugged; 2008 Remaster",
-        "artists": [
-          {
-            "name": "Rod Stewart"
-          }
-        ],
-        "artistNames": "Rod Stewart",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 245026,
-        "durationFormatted": "4:05",
-        "previewUrl": "https://p.scdn.co/mp3-preview/bc20f69b375658b0dde1de8623b65fbe9f3cc52c",
-        "spotifyUrl": "https://open.spotify.com/track/2NW4IHUt6m2KOyHuyJ1jpO",
-        "uri": "spotify:track:2NW4IHUt6m2KOyHuyJ1jpO"
-      },
-      {
-        "id": "53Qyln3rDMZmS8ZQ06Zlq1",
-        "name": "Linger - Live",
-        "artists": [
-          {
-            "name": "The Cranberries"
-          }
-        ],
-        "artistNames": "The Cranberries",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 289577,
-        "durationFormatted": "4:49",
-        "previewUrl": "https://p.scdn.co/mp3-preview/946ac7872b5e51bdf3dc3689954f83824b1693b7",
-        "spotifyUrl": "https://open.spotify.com/track/53Qyln3rDMZmS8ZQ06Zlq1",
-        "uri": "spotify:track:53Qyln3rDMZmS8ZQ06Zlq1"
-      },
-      {
-        "id": "1Hh0zS3b9pszJA7wnNeWG0",
-        "name": "Constant Craving - Live",
-        "artists": [
-          {
-            "name": "k.d. lang"
-          }
-        ],
-        "artistNames": "k.d. lang",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 272093,
-        "durationFormatted": "4:32",
-        "previewUrl": "https://p.scdn.co/mp3-preview/4cebb0bb111ca6b9fe48cf07a1918619c2210a49",
-        "spotifyUrl": "https://open.spotify.com/track/1Hh0zS3b9pszJA7wnNeWG0",
-        "uri": "spotify:track:1Hh0zS3b9pszJA7wnNeWG0"
-      },
-      {
-        "id": "1o3dl3f70jEWQqeWvHZUdC",
-        "name": "What Can I Do - Live, MTV Unplugged",
-        "artists": [
-          {
-            "name": "The Corrs"
-          }
-        ],
-        "artistNames": "The Corrs",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 275280,
-        "durationFormatted": "4:35",
-        "previewUrl": "https://p.scdn.co/mp3-preview/cc80cd7c39d1abcadea89793604e9381a337b851",
-        "spotifyUrl": "https://open.spotify.com/track/1o3dl3f70jEWQqeWvHZUdC",
-        "uri": "spotify:track:1o3dl3f70jEWQqeWvHZUdC"
-      },
-      {
-        "id": "2y5bsPnc8XL2eFmK6OyTMY",
-        "name": "Kiss from a Rose - Live",
-        "artists": [
-          {
-            "name": "Seal"
-          }
-        ],
-        "artistNames": "Seal",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 336506,
-        "durationFormatted": "5:36",
-        "previewUrl": "https://p.scdn.co/mp3-preview/e810910d8955f1426104876a09b06b14215a32c3",
-        "spotifyUrl": "https://open.spotify.com/track/2y5bsPnc8XL2eFmK6OyTMY",
-        "uri": "spotify:track:2y5bsPnc8XL2eFmK6OyTMY"
-      },
-      {
-        "id": "48iWbsOaBUAGzMdoSmqyg1",
-        "name": "Lightning Crashes",
-        "artists": [
-          {
-            "name": "Live"
-          }
-        ],
-        "artistNames": "Live",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 325600,
-        "durationFormatted": "5:25",
-        "previewUrl": "https://p.scdn.co/mp3-preview/da1add3330e8393e15f4e21c780428754f1e5591",
-        "spotifyUrl": "https://open.spotify.com/track/48iWbsOaBUAGzMdoSmqyg1",
-        "uri": "spotify:track:48iWbsOaBUAGzMdoSmqyg1"
-      },
-      {
-        "id": "0UvCh63URrLFcPkKt99hHd",
-        "name": "Don't Look Back in Anger - Remastered",
-        "artists": [
-          {
-            "name": "Oasis"
-          }
-        ],
-        "artistNames": "Oasis",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 289560,
-        "durationFormatted": "4:49",
-        "previewUrl": "https://p.scdn.co/mp3-preview/0ec76dac522643d740f7ae47e395a0499d7ef756",
-        "spotifyUrl": "https://open.spotify.com/track/0UvCh63URrLFcPkKt99hHd",
-        "uri": "spotify:track:0UvCh63URrLFcPkKt99hHd"
-      },
-      {
-        "id": "7HkCpzi3HtLJs5RzR8gGgr",
-        "name": "Walking On The Moon",
-        "artists": [
-          {
-            "name": "The Police"
-          }
-        ],
-        "artistNames": "The Police",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 301760,
-        "durationFormatted": "5:01",
-        "previewUrl": "https://p.scdn.co/mp3-preview/8dba67ff1dcbe31f73193c7d65885a27ec6b5832",
-        "spotifyUrl": "https://open.spotify.com/track/7HkCpzi3HtLJs5RzR8gGgr",
-        "uri": "spotify:track:7HkCpzi3HtLJs5RzR8gGgr"
-      },
-      {
-        "id": "4FU1Q2GUNEEGibsWvgK8tB",
-        "name": "Every Breath You Take - Live",
-        "artists": [
-          {
-            "name": "Sting"
-          }
-        ],
-        "artistNames": "Sting",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 311240,
-        "durationFormatted": "5:11",
-        "previewUrl": "https://p.scdn.co/mp3-preview/3c57599deb51c20a007e917853cf9d5b3e21cfda",
-        "spotifyUrl": "https://open.spotify.com/track/4FU1Q2GUNEEGibsWvgK8tB",
-        "uri": "spotify:track:4FU1Q2GUNEEGibsWvgK8tB"
-      },
-      {
-        "id": "0vhbqLUFbQPWqntNxwYgHf",
-        "name": "Wicked Game - Live",
-        "artists": [
-          {
-            "name": "Chris Isaak"
-          }
-        ],
-        "artistNames": "Chris Isaak",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 284626,
-        "durationFormatted": "4:44",
-        "previewUrl": "https://p.scdn.co/mp3-preview/4bb7f4155bde0e04bd4a49b042efcf3c01e3d5ae",
-        "spotifyUrl": "https://open.spotify.com/track/0vhbqLUFbQPWqntNxwYgHf",
-        "uri": "spotify:track:0vhbqLUFbQPWqntNxwYgHf"
-      },
-      {
-        "id": "14dxUeDb7FRAkR3DC2v7Ft",
-        "name": "Zombie - Live From The Feile Festival/1994",
-        "artists": [
-          {
-            "name": "The Cranberries"
-          }
-        ],
-        "artistNames": "The Cranberries",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 307573,
-        "durationFormatted": "5:07",
-        "previewUrl": "https://p.scdn.co/mp3-preview/acfb77a6b5f009bb79b5fba65d5cc4bea31db0a7",
-        "spotifyUrl": "https://open.spotify.com/track/14dxUeDb7FRAkR3DC2v7Ft",
-        "uri": "spotify:track:14dxUeDb7FRAkR3DC2v7Ft"
-      },
-      {
-        "id": "6Zq5JqGOUlzPCl8u6dbpbj",
-        "name": "Imitation Of Life - Live At The Point Depot, Dublin, Ireland / February, 2005",
-        "artists": [
-          {
-            "name": "R.E.M."
-          }
-        ],
-        "artistNames": "R.E.M.",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 233440,
-        "durationFormatted": "3:53",
-        "previewUrl": "https://p.scdn.co/mp3-preview/41fa7b607f10e4b1eb3f7011f74270441185474a",
-        "spotifyUrl": "https://open.spotify.com/track/6Zq5JqGOUlzPCl8u6dbpbj",
-        "uri": "spotify:track:6Zq5JqGOUlzPCl8u6dbpbj"
-      },
-      {
-        "id": "0ulTkL1C3xWMGS5VAaSQV9",
-        "name": "Layla - Live",
-        "artists": [
-          {
-            "name": "Eric Clapton"
-          }
-        ],
-        "artistNames": "Eric Clapton",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 329826,
-        "durationFormatted": "5:29",
-        "previewUrl": "https://p.scdn.co/mp3-preview/1fc8e4cad0c29379f731b8fccb65dd0a8140ae6d",
-        "spotifyUrl": "https://open.spotify.com/track/0ulTkL1C3xWMGS5VAaSQV9",
-        "uri": "spotify:track:0ulTkL1C3xWMGS5VAaSQV9"
-      },
-      {
-        "id": "7awv4KMkBT0iTJLqkCV74T",
-        "name": "Four Seasons In One Day - Live 92-94, Pt. 2",
-        "artists": [
-          {
-            "name": "Crowded House"
-          }
-        ],
-        "artistNames": "Crowded House",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 167032,
-        "durationFormatted": "2:47",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/7awv4KMkBT0iTJLqkCV74T",
-        "uri": "spotify:track:7awv4KMkBT0iTJLqkCV74T"
-      },
-      {
-        "id": "3UsflbUWQKJ9KKc8ztnB5a",
-        "name": "Cornflake Girl - Live",
-        "artists": [
-          {
-            "name": "Tori Amos"
-          }
-        ],
-        "artistNames": "Tori Amos",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 391960,
-        "durationFormatted": "6:31",
-        "previewUrl": "https://p.scdn.co/mp3-preview/af7b31c4e0bb9e203cc1d52be4d77981b2c59a0d",
-        "spotifyUrl": "https://open.spotify.com/track/3UsflbUWQKJ9KKc8ztnB5a",
-        "uri": "spotify:track:3UsflbUWQKJ9KKc8ztnB5a"
-      },
-      {
-        "id": "4RmlnSQ0AzH7SMFDJU2wIv",
-        "name": "Have I Told You Lately - Unplugged Version",
-        "artists": [
-          {
-            "name": "Rod Stewart"
-          }
-        ],
-        "artistNames": "Rod Stewart",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 242866,
-        "durationFormatted": "4:02",
-        "previewUrl": "https://p.scdn.co/mp3-preview/d9e86b78087824389e49a6bb46a8724e9cb0d323",
-        "spotifyUrl": "https://open.spotify.com/track/4RmlnSQ0AzH7SMFDJU2wIv",
-        "uri": "spotify:track:4RmlnSQ0AzH7SMFDJU2wIv"
-      },
-      {
-        "id": "2zsEvCDvYJF2Jl0CoaXw2L",
-        "name": "Like a Rolling Stone - Live at Sony Music Studios, New York, NY - November 1994",
-        "artists": [
-          {
-            "name": "Bob Dylan"
-          }
-        ],
-        "artistNames": "Bob Dylan",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 549760,
-        "durationFormatted": "9:09",
-        "previewUrl": "https://p.scdn.co/mp3-preview/692e9f9d0307273af72a9c7c3b094dbe4693b2e4",
-        "spotifyUrl": "https://open.spotify.com/track/2zsEvCDvYJF2Jl0CoaXw2L",
-        "uri": "spotify:track:2zsEvCDvYJF2Jl0CoaXw2L"
-      },
-      {
-        "id": "1Sav8A5IoJu6DJ1O3bEKIa",
-        "name": "Human Behaviour - Live",
-        "artists": [
-          {
-            "name": "Björk"
-          }
-        ],
-        "artistNames": "Björk",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 248626,
-        "durationFormatted": "4:08",
-        "previewUrl": "https://p.scdn.co/mp3-preview/45845c7ca8b6027fbf396fbaaa4cbc0c374f6d6d",
-        "spotifyUrl": "https://open.spotify.com/track/1Sav8A5IoJu6DJ1O3bEKIa",
-        "uri": "spotify:track:1Sav8A5IoJu6DJ1O3bEKIa"
-      },
-      {
-        "id": "3ubgzwyM2lex91EvjeORrp",
-        "name": "Crazy - Live in Paris",
-        "artists": [
-          {
-            "name": "Seal"
-          }
-        ],
-        "artistNames": "Seal",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 338560,
-        "durationFormatted": "5:38",
-        "previewUrl": "https://p.scdn.co/mp3-preview/74756581009ccc0649b5c1c74017ec4e988ee474",
-        "spotifyUrl": "https://open.spotify.com/track/3ubgzwyM2lex91EvjeORrp",
-        "uri": "spotify:track:3ubgzwyM2lex91EvjeORrp"
-      },
-      {
-        "id": "7xkZWIa7It2xPETXDrr6OS",
-        "name": "Beds Are Burning - Live",
-        "artists": [
-          {
-            "name": "Midnight Oil"
-          }
-        ],
-        "artistNames": "Midnight Oil",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 260466,
-        "durationFormatted": "4:20",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/7xkZWIa7It2xPETXDrr6OS",
-        "uri": "spotify:track:7xkZWIa7It2xPETXDrr6OS"
-      },
-      {
-        "id": "68EQunQKb9Zw7K5NGDIe76",
-        "name": "Run Baby Run - Live",
-        "artists": [
-          {
-            "name": "Sheryl Crow"
-          }
-        ],
-        "artistNames": "Sheryl Crow",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 346600,
-        "durationFormatted": "5:46",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/68EQunQKb9Zw7K5NGDIe76",
-        "uri": "spotify:track:68EQunQKb9Zw7K5NGDIe76"
-      },
-      {
-        "id": "3dy6IEnBzDOYj5zYJaVpQW",
-        "name": "I'm Ready - MTV Unplugged",
-        "artists": [
-          {
-            "name": "Bryan Adams"
-          }
-        ],
-        "artistNames": "Bryan Adams",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 268893,
-        "durationFormatted": "4:28",
-        "previewUrl": "https://p.scdn.co/mp3-preview/a95a34eff71b818d5012bac85c6ac7a89c932514",
-        "spotifyUrl": "https://open.spotify.com/track/3dy6IEnBzDOYj5zYJaVpQW",
-        "uri": "spotify:track:3dy6IEnBzDOYj5zYJaVpQW"
-      },
-      {
-        "id": "52Ei7VWJ3D5d1AYZMXOCMl",
-        "name": "In the Air Tonight - Live",
-        "artists": [
-          {
-            "name": "Phil Collins"
-          }
-        ],
-        "artistNames": "Phil Collins",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 471893,
-        "durationFormatted": "7:51",
-        "previewUrl": "https://p.scdn.co/mp3-preview/53ec43bf8b8e525117f6c6223cc2f091491dbfd8",
-        "spotifyUrl": "https://open.spotify.com/track/52Ei7VWJ3D5d1AYZMXOCMl",
-        "uri": "spotify:track:52Ei7VWJ3D5d1AYZMXOCMl"
-      },
-      {
-        "id": "0Vz5Rwh9Yr3LM9tViZxHVd",
-        "name": "Don't Let The Sun Go Down On Me - Live",
-        "artists": [
-          {
-            "name": "Elton John"
-          }
-        ],
-        "artistNames": "Elton John",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 359373,
-        "durationFormatted": "5:59",
-        "previewUrl": "https://p.scdn.co/mp3-preview/034b66795e49f3692a3a6eaf14d2dac69a64382d",
-        "spotifyUrl": "https://open.spotify.com/track/0Vz5Rwh9Yr3LM9tViZxHVd",
-        "uri": "spotify:track:0Vz5Rwh9Yr3LM9tViZxHVd"
-      },
-      {
-        "id": "7kmWIcQ69qNF1wLCrmfx05",
-        "name": "Introduction/Message In A Bottle - Live",
-        "artists": [
-          {
-            "name": "Sting"
-          }
-        ],
-        "artistNames": "Sting",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 320800,
-        "durationFormatted": "5:20",
-        "previewUrl": "https://p.scdn.co/mp3-preview/69afee37fec6682076b712bf579bc43f60f039d2",
-        "spotifyUrl": "https://open.spotify.com/track/7kmWIcQ69qNF1wLCrmfx05",
-        "uri": "spotify:track:7kmWIcQ69qNF1wLCrmfx05"
-      },
-      {
-        "id": "7sVxm1I8G8tTznXeirDEXm",
-        "name": "Nobody Knows You When You're Down and Out - Acoustic Live",
-        "artists": [
-          {
-            "name": "Eric Clapton"
-          }
-        ],
-        "artistNames": "Eric Clapton",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 235426,
-        "durationFormatted": "3:55",
-        "previewUrl": "https://p.scdn.co/mp3-preview/dc2aedd37022a98d3dc1a6e40885e1984068a07b",
-        "spotifyUrl": "https://open.spotify.com/track/7sVxm1I8G8tTznXeirDEXm",
-        "uri": "spotify:track:7sVxm1I8G8tTznXeirDEXm"
-      },
-      {
-        "id": "64C2bEOOXzIlL9pcaff0uu",
-        "name": "It's The End Of The World As We Know It (And I Feel Fine) - Live From Pyramid Stage, Glastonbury Festival / 1999",
-        "artists": [
-          {
-            "name": "R.E.M."
-          }
-        ],
-        "artistNames": "R.E.M.",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 418386,
-        "durationFormatted": "6:58",
-        "previewUrl": "https://p.scdn.co/mp3-preview/318e42cf377e90f3cb927ce3b422811fc07b51d0",
-        "spotifyUrl": "https://open.spotify.com/track/64C2bEOOXzIlL9pcaff0uu",
-        "uri": "spotify:track:64C2bEOOXzIlL9pcaff0uu"
-      },
-      {
-        "id": "0HxDXAUayBZXU8ZaWdBKyc",
-        "name": "Head over Feet - Live / Unplugged",
-        "artists": [
-          {
-            "name": "Alanis Morissette"
-          }
-        ],
-        "artistNames": "Alanis Morissette",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 262560,
-        "durationFormatted": "4:22",
-        "previewUrl": "https://p.scdn.co/mp3-preview/74163fc5496ff30942d67688798b431011529f94",
-        "spotifyUrl": "https://open.spotify.com/track/0HxDXAUayBZXU8ZaWdBKyc",
-        "uri": "spotify:track:0HxDXAUayBZXU8ZaWdBKyc"
-      },
-      {
-        "id": "1N7PZBD9AbEnRJXIqxBanj",
-        "name": "Battle Of Evermore",
-        "artists": [
-          {
-            "name": "Jimmy Page, Robert Plant"
-          }
-        ],
-        "artistNames": "Jimmy Page, Robert Plant",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 401026,
-        "durationFormatted": "6:41",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/1N7PZBD9AbEnRJXIqxBanj",
-        "uri": "spotify:track:1N7PZBD9AbEnRJXIqxBanj"
-      },
-      {
-        "id": "00NETFopF0BY2bZTstKr5C",
-        "name": "Bridge over Troubled Water - Live at Central Park, New York, NY - August 15, 1991",
-        "artists": [
-          {
-            "name": "Paul Simon"
-          }
-        ],
-        "artistNames": "Paul Simon",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 316920,
-        "durationFormatted": "5:16",
-        "previewUrl": "https://p.scdn.co/mp3-preview/ba6b90ed0a46e464475298ad95953314b62f0784",
-        "spotifyUrl": "https://open.spotify.com/track/00NETFopF0BY2bZTstKr5C",
-        "uri": "spotify:track:00NETFopF0BY2bZTstKr5C"
-      },
-      {
-        "id": "2WMUwzgjYF4c50fhQRhuhB",
-        "name": "Leaving Las Vegas - Live",
-        "artists": [
-          {
-            "name": "Sheryl Crow"
-          }
-        ],
-        "artistNames": "Sheryl Crow",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 397146,
-        "durationFormatted": "6:37",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/2WMUwzgjYF4c50fhQRhuhB",
-        "uri": "spotify:track:2WMUwzgjYF4c50fhQRhuhB"
-      },
-      {
-        "id": "5IVre1ZT6UJKKl07EMIBRy",
-        "name": "Crying - live",
-        "artists": [
-          {
-            "name": "k.d. lang"
-          }
-        ],
-        "artistNames": "k.d. lang",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 285092,
-        "durationFormatted": "4:45",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/5IVre1ZT6UJKKl07EMIBRy",
-        "uri": "spotify:track:5IVre1ZT6UJKKl07EMIBRy"
-      },
-      {
-        "id": "7MTDVpgM1uSS6N8Q2sBTsP",
-        "name": "Blue Hotel - Live 1995",
-        "artists": [
-          {
-            "name": "Chris Isaak"
-          }
-        ],
-        "artistNames": "Chris Isaak",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 202509,
-        "durationFormatted": "3:22",
-        "previewUrl": null,
-        "spotifyUrl": "https://open.spotify.com/track/7MTDVpgM1uSS6N8Q2sBTsP",
-        "uri": "spotify:track:7MTDVpgM1uSS6N8Q2sBTsP"
-      },
-      {
-        "id": "0uednxKMssdIf1M3JjbOfi",
-        "name": "Runaway - MTV Live Unplugged Version",
-        "artists": [
-          {
-            "name": "The Corrs"
-          }
-        ],
-        "artistNames": "The Corrs",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 268893,
-        "durationFormatted": "4:28",
-        "previewUrl": "https://p.scdn.co/mp3-preview/1af1f85c795548f69fe2cf72eb5f6cbc73cb1c0d",
-        "spotifyUrl": "https://open.spotify.com/track/0uednxKMssdIf1M3JjbOfi",
-        "uri": "spotify:track:0uednxKMssdIf1M3JjbOfi"
-      },
-      {
-        "id": "0ASxr5szuIwUID1P9Pnjzb",
-        "name": "Sure Know Something - Live From MTV Unplugged/1995",
-        "artists": [
-          {
-            "name": "KISS"
-          }
-        ],
-        "artistNames": "KISS",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 256000,
-        "durationFormatted": "4:16",
-        "previewUrl": "https://p.scdn.co/mp3-preview/efe373a4489b6bf41b62fdc1e62228def4861a11",
-        "spotifyUrl": "https://open.spotify.com/track/0ASxr5szuIwUID1P9Pnjzb",
-        "uri": "spotify:track:0ASxr5szuIwUID1P9Pnjzb"
-      },
-      {
-        "id": "3NGMMRXc5O7XVKVXFCcQ5f",
-        "name": "The Only Thing That Looks Good On Me Is You - MTV Unplugged Version",
-        "artists": [
-          {
-            "name": "Bryan Adams"
-          }
-        ],
-        "artistNames": "Bryan Adams",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 274226,
-        "durationFormatted": "4:34",
-        "previewUrl": "https://p.scdn.co/mp3-preview/1b5de65359ef3892efe40bca81d184aa6ccff82f",
-        "spotifyUrl": "https://open.spotify.com/track/3NGMMRXc5O7XVKVXFCcQ5f",
-        "uri": "spotify:track:3NGMMRXc5O7XVKVXFCcQ5f"
-      },
-      {
-        "id": "6Ulcs1ZFV3yMQmQrSfixiM",
-        "name": "Bennie And The Jets",
-        "artists": [
-          {
-            "name": "Elton John"
-          }
-        ],
-        "artistNames": "Elton John",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 320466,
-        "durationFormatted": "5:20",
-        "previewUrl": "https://p.scdn.co/mp3-preview/a11ce5a9a3ea5e575ed6f8b60de0c913e3f99011",
-        "spotifyUrl": "https://open.spotify.com/track/6Ulcs1ZFV3yMQmQrSfixiM",
-        "uri": "spotify:track:6Ulcs1ZFV3yMQmQrSfixiM"
-      },
-      {
-        "id": "4WnYuVFXe6Si4fZqkxbnvS",
-        "name": "Hold My Hand",
-        "artists": [
-          {
-            "name": "Hootie & The Blowfish"
-          }
-        ],
-        "artistNames": "Hootie & The Blowfish",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 258333,
-        "durationFormatted": "4:18",
-        "previewUrl": "https://p.scdn.co/mp3-preview/7471b731f94ea7d72163a96d050fe55a310474a4",
-        "spotifyUrl": "https://open.spotify.com/track/4WnYuVFXe6Si4fZqkxbnvS",
-        "uri": "spotify:track:4WnYuVFXe6Si4fZqkxbnvS"
-      },
-      {
-        "id": "5FSn0rOfNV90JOvA6G8rVc",
-        "name": "Boys Don't Cry - Live",
-        "artists": [
-          {
-            "name": "The Cure"
-          }
-        ],
-        "artistNames": "The Cure",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 222733,
-        "durationFormatted": "3:42",
-        "previewUrl": "https://p.scdn.co/mp3-preview/2e531168672839d04adcf7dcc4d851e9c52dbba2",
-        "spotifyUrl": "https://open.spotify.com/track/5FSn0rOfNV90JOvA6G8rVc",
-        "uri": "spotify:track:5FSn0rOfNV90JOvA6G8rVc"
-      },
-      {
-        "id": "7etojJg0JsetC3fSVpU3tX",
-        "name": "Would? - Live at the Majestic Theatre, Brooklyn, NY - April 1996",
-        "artists": [
-          {
-            "name": "Alice In Chains"
-          }
-        ],
-        "artistNames": "Alice In Chains",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 223266,
-        "durationFormatted": "3:43",
-        "previewUrl": "https://p.scdn.co/mp3-preview/1de2d3842926b886ad871926983074acc57953a9",
-        "spotifyUrl": "https://open.spotify.com/track/7etojJg0JsetC3fSVpU3tX",
-        "uri": "spotify:track:7etojJg0JsetC3fSVpU3tX"
-      },
-      {
-        "id": "7ndelVxF4Y8K6xg8WXUVMV",
-        "name": "I Alone",
-        "artists": [
-          {
-            "name": "Live"
-          }
-        ],
-        "artistNames": "Live",
-        "album": {
-          "name": "The very Best Of MTV Unplugged VOL1,2,3.",
-          "releaseYear": ""
-        },
-        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72ca50bcb0e9a07312c9a38b296",
-        "durationMs": 231688,
-        "durationFormatted": "3:51",
-        "previewUrl": "https://p.scdn.co/mp3-preview/8bc9c461c2c7eecec182883daacaf0ce7e0112bb",
-        "spotifyUrl": "https://open.spotify.com/track/7ndelVxF4Y8K6xg8WXUVMV",
-        "uri": "spotify:track:7ndelVxF4Y8K6xg8WXUVMV"
-      }
-    ]
+    "tracks": []
   },
   {
     "id": "2A24n1ySx0RoMO7JQpsqYn",
     "name": "My Smart Mix",
-    "description": "Smart Mix: Mega 50 Library Shuffle | Updated Aug 17, 2026 | 50 tracks",
+    "description": "Smart Mix: Multi-Artist Festival Blend (496 Artists) | Updated Aug 17, 2026 | 26 tracks",
     "public": true,
     "collaborative": false,
-    "tracksTotal": 50,
+    "tracksTotal": 26,
     "images": [
       {
         "height": 640,
-        "url": "https://mosaic.scdn.co/640/ab67616d00001e0247a51205061053303846cb79ab67616d00001e026dee21d6cd1823e4d6231d37ab67616d00001e0291ee800d6fc65bdad7c41d6eab67616d00001e0299d53d8504478066f858f544",
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02472393d6438f9f9aba3e61e4ab67616d00001e02d212e6a978121774d4f08367",
         "width": 640
       },
       {
         "height": 300,
-        "url": "https://mosaic.scdn.co/300/ab67616d00001e0247a51205061053303846cb79ab67616d00001e026dee21d6cd1823e4d6231d37ab67616d00001e0291ee800d6fc65bdad7c41d6eab67616d00001e0299d53d8504478066f858f544",
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02472393d6438f9f9aba3e61e4ab67616d00001e02d212e6a978121774d4f08367",
         "width": 300
       },
       {
         "height": 60,
-        "url": "https://mosaic.scdn.co/60/ab67616d00001e0247a51205061053303846cb79ab67616d00001e026dee21d6cd1823e4d6231d37ab67616d00001e0291ee800d6fc65bdad7c41d6eab67616d00001e0299d53d8504478066f858f544",
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02472393d6438f9f9aba3e61e4ab67616d00001e02d212e6a978121774d4f08367",
         "width": 60
       }
     ],
-    "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0247a51205061053303846cb79ab67616d00001e026dee21d6cd1823e4d6231d37ab67616d00001e0291ee800d6fc65bdad7c41d6eab67616d00001e0299d53d8504478066f858f544",
+    "coverUrl": "https://mosaic.scdn.co/640/ab67616d00001e0214c8d2b12838b342d1a69e57ab67616d00001e0240226b8b0adbdec515e33918ab67616d00001e02472393d6438f9f9aba3e61e4ab67616d00001e02d212e6a978121774d4f08367",
     "owner": "koraytugay",
     "spotifyUrl": "https://open.spotify.com/playlist/2A24n1ySx0RoMO7JQpsqYn",
     "uri": "spotify:playlist:2A24n1ySx0RoMO7JQpsqYn",
     "tracks": [
       {
-        "id": "6O20JhBJPePEkBdrB5sqRx",
-        "name": "Diamonds",
+        "id": "4lRdpZYTwaPpuKpquO6bo3",
+        "name": "Walk This Way",
         "artists": [
           {
-            "id": "5pKCCKE2ajJHZ9KAiaK11H",
-            "name": "Rihanna"
+            "id": "3CQIn7N5CuRDP8wEI7FiDA",
+            "name": "Run–D.M.C."
           }
         ],
-        "artistNames": "Rihanna",
+        "artistNames": "Run–D.M.C.",
         "album": {
-          "id": "5pLlGJrxuQO3jMoQe1XxZY",
-          "name": "Unapologetic (Deluxe)",
-          "releaseDate": "2012-12-11",
-          "releaseYear": "2012"
+          "id": "6pJciZv8HMs7imWW9s9J6P",
+          "name": "Greatest Hits",
+          "releaseDate": "2002-09-10",
+          "releaseYear": "2002"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736dee21d6cd1823e4d6231d37",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516dee21d6cd1823e4d6231d37",
-        "durationMs": 225146,
-        "durationFormatted": "3:45",
-        "spotifyUrl": "https://open.spotify.com/track/6O20JhBJPePEkBdrB5sqRx",
-        "uri": "spotify:track:6O20JhBJPePEkBdrB5sqRx",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3GLhmBjqctLj3rP6g8KAvo",
-        "name": "Fatal Obsession (feat. Jupiter Winter)",
-        "artists": [
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          },
-          {
-            "id": "3b3uDVnwdfot4Dr41EMZc8",
-            "name": "Jupiter Winter"
-          }
-        ],
-        "artistNames": "The Midnight, Jupiter Winter",
-        "album": {
-          "id": "58ZdIUja7imZmFqOSoI6b7",
-          "name": "Syndicate",
-          "releaseDate": "2025-10-03",
-          "releaseYear": "2025"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27391ee800d6fc65bdad7c41d6e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485191ee800d6fc65bdad7c41d6e",
-        "durationMs": 339400,
-        "durationFormatted": "5:39",
-        "spotifyUrl": "https://open.spotify.com/track/3GLhmBjqctLj3rP6g8KAvo",
-        "uri": "spotify:track:3GLhmBjqctLj3rP6g8KAvo",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "5NsOnvpjvH9sCz8TyVOmOz",
-        "name": "Désolé",
-        "artists": [
-          {
-            "id": "4vnmifnGOeRXfNTRtgd4Tj",
-            "name": "Sexion d'Assaut"
-          }
-        ],
-        "artistNames": "Sexion d'Assaut",
-        "album": {
-          "id": "30ETe6QlIWVL2XProxM1GY",
-          "name": "L'école des points vitaux",
-          "releaseDate": "2010-03-29",
-          "releaseYear": "2010"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399d53d8504478066f858f544",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485199d53d8504478066f858f544",
-        "durationMs": 204453,
-        "durationFormatted": "3:24",
-        "spotifyUrl": "https://open.spotify.com/track/5NsOnvpjvH9sCz8TyVOmOz",
-        "uri": "spotify:track:5NsOnvpjvH9sCz8TyVOmOz",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "2DTHWr5NK1igQZxctpYTA9",
-        "name": "Troupeau bleu",
-        "artists": [
-          {
-            "id": "7EhUXju6pssa8o3CvFJTew",
-            "name": "Cortex"
-          }
-        ],
-        "artistNames": "Cortex",
-        "album": {
-          "id": "74DOWHisu2jlFvPid9YTGB",
-          "name": "Troupeau bleu",
-          "releaseDate": "1975-07-15",
-          "releaseYear": "1975"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27347a51205061053303846cb79",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485147a51205061053303846cb79",
-        "durationMs": 303773,
-        "durationFormatted": "5:03",
-        "spotifyUrl": "https://open.spotify.com/track/2DTHWr5NK1igQZxctpYTA9",
-        "uri": "spotify:track:2DTHWr5NK1igQZxctpYTA9",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "0yd0NF2DaG04KLqJT5LLV2",
-        "name": "Detroit Rock City",
-        "artists": [
-          {
-            "id": "07XSN3sPlIlB2L2XNcTwJw",
-            "name": "KISS"
-          }
-        ],
-        "artistNames": "KISS",
-        "album": {
-          "id": "69VIN1YAlKMb5JaOesGUKJ",
-          "name": "Greatest Kiss",
-          "releaseDate": "1997-04-08",
-          "releaseYear": "1997"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b56532a8a59ecef8908bd37e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b56532a8a59ecef8908bd37e",
-        "durationMs": 218693,
-        "durationFormatted": "3:38",
-        "spotifyUrl": "https://open.spotify.com/track/0yd0NF2DaG04KLqJT5LLV2",
-        "uri": "spotify:track:0yd0NF2DaG04KLqJT5LLV2",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "0qxYx4F3vm1AOnfux6dDxP",
-        "name": "You Can Call Me Al",
-        "artists": [
-          {
-            "id": "2CvCyf1gEVhI0mX6aFXmVI",
-            "name": "Paul Simon"
-          }
-        ],
-        "artistNames": "Paul Simon",
-        "album": {
-          "id": "6WgGWYw6XXQyLTsWt7tXky",
-          "name": "Graceland (25th Anniversary Deluxe Edition)",
-          "releaseDate": "1986-08-12",
-          "releaseYear": "1986"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e5855edffddef46b7feff49b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e5855edffddef46b7feff49b",
-        "durationMs": 280586,
-        "durationFormatted": "4:40",
-        "spotifyUrl": "https://open.spotify.com/track/0qxYx4F3vm1AOnfux6dDxP",
-        "uri": "spotify:track:0qxYx4F3vm1AOnfux6dDxP",
-        "addedAt": "2026-08-17T00:29:29Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4Ys2mHhC2Le4cDy9xxNFcc",
-        "name": "Tiryakinim",
-        "artists": [
-          {
-            "id": "1pN6fkbVTYbHEhN8jl49dE",
-            "name": "Tual"
-          }
-        ],
-        "artistNames": "Tual",
-        "album": {
-          "id": "1PhNvGfupWTK1MkPbHMwL0",
-          "name": "Tual 2005",
-          "releaseDate": "2005",
-          "releaseYear": "2005"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733e01cbaaf2085eb19ee65a15",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513e01cbaaf2085eb19ee65a15",
-        "durationMs": 246586,
-        "durationFormatted": "4:06",
-        "spotifyUrl": "https://open.spotify.com/track/4Ys2mHhC2Le4cDy9xxNFcc",
-        "uri": "spotify:track:4Ys2mHhC2Le4cDy9xxNFcc",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3ZZq9396zv8pcn5GYVhxUi",
-        "name": "Down Under",
-        "artists": [
-          {
-            "id": "0f3EsoviYnRKTkmayI3cux",
-            "name": "Men At Work"
-          }
-        ],
-        "artistNames": "Men At Work",
-        "album": {
-          "id": "4HDJMKkwAMVFewqfZcmf84",
-          "name": "Business As Usual",
-          "releaseDate": "1981-11-09",
-          "releaseYear": "1981"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273aa5e4c9da271951ac0b31fa2",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851aa5e4c9da271951ac0b31fa2",
-        "durationMs": 222320,
-        "durationFormatted": "3:42",
-        "spotifyUrl": "https://open.spotify.com/track/3ZZq9396zv8pcn5GYVhxUi",
-        "uri": "spotify:track:3ZZq9396zv8pcn5GYVhxUi",
-        "addedAt": "2026-08-17T00:29:29Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "27ViQppP3LZPCJl2A0w9kp",
-        "name": "Destiny",
-        "artists": [
-          {
-            "id": "14H7ag1wpQOsPPQJOD6Dqr",
-            "name": "Zero 7"
-          },
-          {
-            "id": "5WUlDfRSoLAfcVSX1WnrxN",
-            "name": "Sia"
-          },
-          {
-            "id": "5338nAeek8WVCOPNnT7Qv2",
-            "name": "Sophie Barker"
-          }
-        ],
-        "artistNames": "Zero 7, Sia, Sophie Barker",
-        "album": {
-          "id": "1VRBB9iu84o3g16CczH9iH",
-          "name": "Simple Things",
-          "releaseDate": "2001",
-          "releaseYear": "2001"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730f387fd18dfdc5f0c18b80d3",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510f387fd18dfdc5f0c18b80d3",
-        "durationMs": 338279,
-        "durationFormatted": "5:38",
-        "spotifyUrl": "https://open.spotify.com/track/27ViQppP3LZPCJl2A0w9kp",
-        "uri": "spotify:track:27ViQppP3LZPCJl2A0w9kp",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4gUmirieKcyorVNYz7KE1G",
-        "name": "Yeter Artık Deli Gönül",
-        "artists": [
-          {
-            "id": "1UV3ii5FWWXF3jkZVeA2bb",
-            "name": "Haluk Levent"
-          }
-        ],
-        "artistNames": "Haluk Levent",
-        "album": {
-          "id": "45WJgKU327bmt8wXsWsdAv",
-          "name": "Türkiye Turnesi 2003",
-          "releaseDate": "2003-09-24",
-          "releaseYear": "2003"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df50eca2a9d8e491e994ac5a",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851df50eca2a9d8e491e994ac5a",
-        "durationMs": 272875,
-        "durationFormatted": "4:32",
-        "spotifyUrl": "https://open.spotify.com/track/4gUmirieKcyorVNYz7KE1G",
-        "uri": "spotify:track:4gUmirieKcyorVNYz7KE1G",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "0oks4FnzhNp5QPTZtoet7c",
-        "name": "Giorgio by Moroder",
-        "artists": [
-          {
-            "id": "4tZwfgrHOc3mvqYlEYSvVi",
-            "name": "Daft Punk"
-          }
-        ],
-        "artistNames": "Daft Punk",
-        "album": {
-          "id": "4m2880jivSbbyEGAKfITCa",
-          "name": "Random Access Memories",
-          "releaseDate": "2013-05-20",
-          "releaseYear": "2013"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739b9b36b0e22870b9f542d937",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519b9b36b0e22870b9f542d937",
-        "durationMs": 544626,
-        "durationFormatted": "9:04",
-        "spotifyUrl": "https://open.spotify.com/track/0oks4FnzhNp5QPTZtoet7c",
-        "uri": "spotify:track:0oks4FnzhNp5QPTZtoet7c",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3lQS0pjaKZVGvuYcXxOUcx",
-        "name": "Galaxy Joyride",
-        "artists": [
-          {
-            "id": "5riVBDwdreeCPiyqUaR9hB",
-            "name": "Wolf and Raven"
-          }
-        ],
-        "artistNames": "Wolf and Raven",
-        "album": {
-          "id": "4ZlGKtJclYC5SrPKeOIzGM",
-          "name": "Ace of Space",
-          "releaseDate": "2017-07-14",
-          "releaseYear": "2017"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d9ef26fb60d2753d471610eb",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d9ef26fb60d2753d471610eb",
-        "durationMs": 317343,
-        "durationFormatted": "5:17",
-        "spotifyUrl": "https://open.spotify.com/track/3lQS0pjaKZVGvuYcXxOUcx",
-        "uri": "spotify:track:3lQS0pjaKZVGvuYcXxOUcx",
-        "addedAt": "2026-08-17T00:15:08Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4oS31voWBKl6L9eJV6I4wA",
-        "name": "Bira Ve Kahve",
-        "artists": [
-          {
-            "id": "2ZdsrdDvi0wtkrCswBDINB",
-            "name": "Grizu"
-          }
-        ],
-        "artistNames": "Grizu",
-        "album": {
-          "id": "7jAVMCNOduDHYz6La5oRYq",
-          "name": "Tuzla Buz",
-          "releaseDate": "1996-09-13",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b31452af8e55fa14b5b03c79",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b31452af8e55fa14b5b03c79",
-        "durationMs": 264106,
-        "durationFormatted": "4:24",
-        "spotifyUrl": "https://open.spotify.com/track/4oS31voWBKl6L9eJV6I4wA",
-        "uri": "spotify:track:4oS31voWBKl6L9eJV6I4wA",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "71IoaiwqSwl7tesAaLwYuG",
-        "name": "Clean Eyes - The Midnight Remix (Instrumental)",
-        "artists": [
-          {
-            "id": "6AyATGg7mDgBlZ4N5uNog0",
-            "name": "SYML"
-          },
-          {
-            "id": "2NFrAuh8RQdQoS7iYFbckw",
-            "name": "The Midnight"
-          }
-        ],
-        "artistNames": "SYML, The Midnight",
-        "album": {
-          "id": "7HgnHqmc7vwZD5SmX102ld",
-          "name": "Clean Eyes (The Midnight Remix)",
-          "releaseDate": "2019-02-08",
-          "releaseYear": "2019"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732b030ebb3bd7532961262962",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512b030ebb3bd7532961262962",
-        "durationMs": 234444,
-        "durationFormatted": "3:54",
-        "spotifyUrl": "https://open.spotify.com/track/71IoaiwqSwl7tesAaLwYuG",
-        "uri": "spotify:track:71IoaiwqSwl7tesAaLwYuG",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3DTqHfTGj1c6y2gDXsTez4",
-        "name": "Regardless",
-        "artists": [
-          {
-            "id": "5KKpBU5eC2tJDzf0wmlRp2",
-            "name": "RAYE"
-          },
-          {
-            "id": "4WN5naL3ofxrVBgFpguzKo",
-            "name": "Rudimental"
-          }
-        ],
-        "artistNames": "RAYE, Rudimental",
-        "album": {
-          "id": "7u2byARDMi8YgqSVhKArYB",
-          "name": "Euphoric Sad Songs",
-          "releaseDate": "2020-11-20",
-          "releaseYear": "2020"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c9971e21d5137f503388f5f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514c9971e21d5137f503388f5f",
-        "durationMs": 197573,
-        "durationFormatted": "3:17",
-        "spotifyUrl": "https://open.spotify.com/track/3DTqHfTGj1c6y2gDXsTez4",
-        "uri": "spotify:track:3DTqHfTGj1c6y2gDXsTez4",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "7DqaKjWEflJhNEHXuw2tJt",
-        "name": "Hypnotize - Feat. Tasty & Lampoe",
-        "artists": [
-          {
-            "id": "3hO4VZ2PMOLzrzr7hqyXeb",
-            "name": "Belinse & Lavejazz"
-          },
-          {
-            "id": "4bEz5XTtTjaBM0rmphdlTn",
-            "name": "lampoe"
-          },
-          {
-            "id": "46u1ECMdKrmEGaAbHVDV2D",
-            "name": "Tasty"
-          }
-        ],
-        "artistNames": "Belinse & Lavejazz, lampoe, Tasty",
-        "album": {
-          "id": "6E4wzHgEc1wu0AJbtW4fN8",
-          "name": "Groove Operator EP",
-          "releaseDate": "2009-11-11",
-          "releaseYear": "2009"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731befeb6c478b05929860335f",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511befeb6c478b05929860335f",
-        "durationMs": 444976,
-        "durationFormatted": "7:24",
-        "spotifyUrl": "https://open.spotify.com/track/7DqaKjWEflJhNEHXuw2tJt",
-        "uri": "spotify:track:7DqaKjWEflJhNEHXuw2tJt",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4xHWH1jwV5j4mBYRhxPbwZ",
-        "name": "Time - 2011 Remastered Version",
-        "artists": [
-          {
-            "id": "0k17h0D3J5VfsdmQ1iZtE9",
-            "name": "Pink Floyd"
-          }
-        ],
-        "artistNames": "Pink Floyd",
-        "album": {
-          "id": "2WT1pbYjLJciAR26yMebkH",
-          "name": "The Dark Side Of The Moon (2011 Remastered Version)",
-          "releaseDate": "1973-03-01",
-          "releaseYear": "1973"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d3709135d1005baa36939d80",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d3709135d1005baa36939d80",
-        "durationMs": 422853,
-        "durationFormatted": "7:02",
-        "spotifyUrl": "https://open.spotify.com/track/4xHWH1jwV5j4mBYRhxPbwZ",
-        "uri": "spotify:track:4xHWH1jwV5j4mBYRhxPbwZ",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "2yO5l7wy1k16fnFWMGBlcL",
-        "name": "Sunday 29th",
-        "artists": [
-          {
-            "id": "59xljcfdN2Z9VX2U5RFKEa",
-            "name": "Bent"
-          }
-        ],
-        "artistNames": "Bent",
-        "album": {
-          "id": "3SjR62Wm34qPjKYO0V7jLG",
-          "name": "Ariels",
-          "releaseDate": "2011-10-23",
-          "releaseYear": "2011"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ff178251e63a109af285876",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ff178251e63a109af285876",
-        "durationMs": 249360,
-        "durationFormatted": "4:09",
-        "spotifyUrl": "https://open.spotify.com/track/2yO5l7wy1k16fnFWMGBlcL",
-        "uri": "spotify:track:2yO5l7wy1k16fnFWMGBlcL",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "2LjiPAQOVazT8sRyXL3XRs",
-        "name": "Informer",
-        "artists": [
-          {
-            "id": "3uZFBSsMiooimnprFL9jD1",
-            "name": "Snow"
-          }
-        ],
-        "artistNames": "Snow",
-        "album": {
-          "id": "6bNWz7bHK8M0xPfAPmFSRW",
-          "name": "12 Inches Of Snow",
-          "releaseDate": "1993",
-          "releaseYear": "1993"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739036fd3354a722609bd5f98c",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519036fd3354a722609bd5f98c",
-        "durationMs": 268910,
-        "durationFormatted": "4:28",
-        "spotifyUrl": "https://open.spotify.com/track/2LjiPAQOVazT8sRyXL3XRs",
-        "uri": "spotify:track:2LjiPAQOVazT8sRyXL3XRs",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4gV7p4DvsWA6tymMcMPKa2",
-        "name": "Şaşkın",
-        "artists": [
-          {
-            "id": "4o3Nv2BAyoZkyGaRXv4rT3",
-            "name": "Erkin Koray"
-          }
-        ],
-        "artistNames": "Erkin Koray",
-        "album": {
-          "id": "2e2sk01WXW88ywLy3Rasz2",
-          "name": "Şaşkın",
-          "releaseDate": "1974-05-22",
-          "releaseYear": "1974"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733910daf3974ae0074432eefb",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513910daf3974ae0074432eefb",
-        "durationMs": 260880,
-        "durationFormatted": "4:20",
-        "spotifyUrl": "https://open.spotify.com/track/4gV7p4DvsWA6tymMcMPKa2",
-        "uri": "spotify:track:4gV7p4DvsWA6tymMcMPKa2",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "429EttO8gs0bDo2SQfUNSm",
-        "name": "Georgia",
-        "artists": [
-          {
-            "id": "10exVja0key0uqUkk6LJRT",
-            "name": "Vance Joy"
-          }
-        ],
-        "artistNames": "Vance Joy",
-        "album": {
-          "id": "5S9b8euumqMhQbMk0zzQdH",
-          "name": "Dream Your Life Away (Special Edition)",
-          "releaseDate": "2014-09-08",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a9929deb093a6617d2493b03",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a9929deb093a6617d2493b03",
-        "durationMs": 230506,
-        "durationFormatted": "3:50",
-        "spotifyUrl": "https://open.spotify.com/track/429EttO8gs0bDo2SQfUNSm",
-        "uri": "spotify:track:429EttO8gs0bDo2SQfUNSm",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3sN51vasLQ7L348WuGdl7y",
-        "name": "Yanayım Yanayım - Remix",
-        "artists": [
-          {
-            "id": "03vX1djHak8X52SuNfr3U7",
-            "name": "Babutsa"
-          },
-          {
-            "id": "4ON1ruy5ijE7ZPQthbrkgI",
-            "name": "Burak Yeter"
-          },
-          {
-            "id": "17C5QGPOeRZmBLcKEwnRgw",
-            "name": "Soner Türsoy"
-          },
-          {
-            "id": "7fEVZ9ACcgmMDsHQ9I1Lez",
-            "name": "Pervin Peri Tevfik"
-          },
-          {
-            "id": "4GgXHSahXxAfTC2HRAqNyF",
-            "name": "Ali Rebke"
-          }
-        ],
-        "artistNames": "Babutsa, Burak Yeter, Soner Türsoy, Pervin Peri Tevfik, Ali Rebke",
-        "album": {
-          "id": "0PSKQG07y29y4u0XKOecEK",
-          "name": "London Calling",
-          "releaseDate": "2009-07-17",
-          "releaseYear": "2009"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273894c2bdfdabc521743e55d3b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851894c2bdfdabc521743e55d3b",
-        "durationMs": 238142,
-        "durationFormatted": "3:58",
-        "spotifyUrl": "https://open.spotify.com/track/3sN51vasLQ7L348WuGdl7y",
-        "uri": "spotify:track:3sN51vasLQ7L348WuGdl7y",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "79FyY4nL5rJs9Yy9qxUh4v",
-        "name": "Finality",
-        "artists": [
-          {
-            "id": "24dCDrr94SNSAREMJhBHCs",
-            "name": "Woods Of Ypres"
-          }
-        ],
-        "artistNames": "Woods Of Ypres",
-        "album": {
-          "id": "0Rap0bS5EZeaKFoma3tjGs",
-          "name": "Woods 5: Grey Skies & Electric Light",
-          "releaseDate": "2012",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a7e4d2b8e3514866dd34720b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a7e4d2b8e3514866dd34720b",
-        "durationMs": 237613,
-        "durationFormatted": "3:57",
-        "spotifyUrl": "https://open.spotify.com/track/79FyY4nL5rJs9Yy9qxUh4v",
-        "uri": "spotify:track:79FyY4nL5rJs9Yy9qxUh4v",
-        "addedAt": "2026-08-17T00:29:29Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "0SnXM2KxJOVrxB7y6f2T3u",
-        "name": "Yeni Bir Gün",
-        "artists": [
-          {
-            "id": "2O7WjRnnODRpJAzKDtTb0C",
-            "name": "Kurtalan Ekspres"
-          },
-          {
-            "id": "3hzijSzD6IwOV4SY2SiWQp",
-            "name": "Hayko Cepkin"
-          }
-        ],
-        "artistNames": "Kurtalan Ekspres, Hayko Cepkin",
-        "album": {
-          "id": "0sG3PrW455DbFbZXEu1Wig",
-          "name": "Göğe Selam",
-          "releaseDate": "2011-01-01",
-          "releaseYear": "2011"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d188d8acaa742fd1da80c2d",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516d188d8acaa742fd1da80c2d",
-        "durationMs": 536653,
-        "durationFormatted": "8:56",
-        "spotifyUrl": "https://open.spotify.com/track/0SnXM2KxJOVrxB7y6f2T3u",
-        "uri": "spotify:track:0SnXM2KxJOVrxB7y6f2T3u",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "54rn4mAECVoFxqUtrh3W9Z",
-        "name": "Hang On to Your Love - Remastered",
-        "artists": [
-          {
-            "id": "47zz7sob9NUcODy0BTDvKx",
-            "name": "Sade"
-          }
-        ],
-        "artistNames": "Sade",
-        "album": {
-          "id": "3JYT9f8X9LOfpTzbKDWN4a",
-          "name": "The Ultimate Collection",
-          "releaseDate": "2011-05-09",
-          "releaseYear": "2011"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fc221d8a9119a2d1ab41c8b1",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fc221d8a9119a2d1ab41c8b1",
-        "durationMs": 269240,
-        "durationFormatted": "4:29",
-        "spotifyUrl": "https://open.spotify.com/track/54rn4mAECVoFxqUtrh3W9Z",
-        "uri": "spotify:track:54rn4mAECVoFxqUtrh3W9Z",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "5xxCaz0cjb2WOCaL2wRPKo",
-        "name": "Gone Again",
-        "artists": [
-          {
-            "id": "3BoSEarTgKiw8sHE0ixJNK",
-            "name": "Nymano"
-          },
-          {
-            "id": "65ZGdYSRT3Rmv6P7DN4XCC",
-            "name": "Pandrezz"
-          }
-        ],
-        "artistNames": "Nymano, Pandrezz",
-        "album": {
-          "id": "6pTjz9HVHp1YDyqSK9ZOQX",
-          "name": "Hometown",
-          "releaseDate": "2018-10-17",
-          "releaseYear": "2018"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f0d9f712f05ded6a10b6753e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f0d9f712f05ded6a10b6753e",
-        "durationMs": 97172,
-        "durationFormatted": "1:37",
-        "spotifyUrl": "https://open.spotify.com/track/5xxCaz0cjb2WOCaL2wRPKo",
-        "uri": "spotify:track:5xxCaz0cjb2WOCaL2wRPKo",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "6WK9dVrRABMkUXFLNlgWFh",
-        "name": "Enjoy the Silence",
-        "artists": [
-          {
-            "id": "762310PdDnwsDxAQxzQkfX",
-            "name": "Depeche Mode"
-          }
-        ],
-        "artistNames": "Depeche Mode",
-        "album": {
-          "id": "61h3VS8XDROIpvQznjTPTT",
-          "name": "The Singles 86-98",
-          "releaseDate": "1998-09-28",
-          "releaseYear": "1998"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730a7d45a345534966a4ad2c39",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048510a7d45a345534966a4ad2c39",
-        "durationMs": 255133,
-        "durationFormatted": "4:15",
-        "spotifyUrl": "https://open.spotify.com/track/6WK9dVrRABMkUXFLNlgWFh",
-        "uri": "spotify:track:6WK9dVrRABMkUXFLNlgWFh",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "1VYJi7SDb18xtJ6Hou5mm1",
-        "name": "This Love",
-        "artists": [
-          {
-            "id": "526q7RxT5KA1VGeQ5GMSHO",
-            "name": "Craig Armstrong"
-          },
-          {
-            "id": "791Z3924aa619hZ3xsOJEx",
-            "name": "Elizabeth Fraser"
-          }
-        ],
-        "artistNames": "Craig Armstrong, Elizabeth Fraser",
-        "album": {
-          "id": "5H4t4yeimHOxZrPwcsdw2V",
-          "name": "Cruel Intentions",
-          "releaseDate": "1999-01-01",
-          "releaseYear": "1999"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ff223e247f9a83529912d059",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ff223e247f9a83529912d059",
-        "durationMs": 387266,
-        "durationFormatted": "6:27",
-        "spotifyUrl": "https://open.spotify.com/track/1VYJi7SDb18xtJ6Hou5mm1",
-        "uri": "spotify:track:1VYJi7SDb18xtJ6Hou5mm1",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "1L0PmgB3FpQ3aOApoLPMHm",
-        "name": "Efkarlanırım",
-        "artists": [
-          {
-            "id": "15NSFL63oPhmpXLcZHny2N",
-            "name": "Fazıl Say"
-          },
-          {
-            "id": "6zebrRNZzpUnIQH4irGy82",
-            "name": "Serenad Bağcan"
-          }
-        ],
-        "artistNames": "Fazıl Say, Serenad Bağcan",
-        "album": {
-          "id": "1cBltJhF1ylxCVX3t0Tu7m",
-          "name": "İlk Şarkılar",
-          "releaseDate": "2013-06-11",
-          "releaseYear": "2013"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e6a89e40ad23ad19df54af33",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e6a89e40ad23ad19df54af33",
-        "durationMs": 237333,
-        "durationFormatted": "3:57",
-        "spotifyUrl": "https://open.spotify.com/track/1L0PmgB3FpQ3aOApoLPMHm",
-        "uri": "spotify:track:1L0PmgB3FpQ3aOApoLPMHm",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "7Beeb1AZSs6YQuAeifdX0n",
-        "name": "Bana Yalan Söylediler",
-        "artists": [
-          {
-            "id": "5vuQpKX1QG7WlQ40C27HfD",
-            "name": "Semiramis Pekkan"
-          }
-        ],
-        "artistNames": "Semiramis Pekkan",
-        "album": {
-          "id": "7wCmX4wNIEDmKRlav5HhTd",
-          "name": "Bana Yalan Söylediler / Unuttu Unuttu",
-          "releaseDate": "1974-07-04",
-          "releaseYear": "1974"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a512becab68f86b29b51744e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a512becab68f86b29b51744e",
-        "durationMs": 238653,
-        "durationFormatted": "3:58",
-        "spotifyUrl": "https://open.spotify.com/track/7Beeb1AZSs6YQuAeifdX0n",
-        "uri": "spotify:track:7Beeb1AZSs6YQuAeifdX0n",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "61dev1qliSgCWxN68CYBzj",
-        "name": "Sevgiye Doğru (Enstrümantal)",
-        "artists": [
-          {
-            "id": "0ou1EkRCAJcfRv2P1qKVPo",
-            "name": "Flört"
-          }
-        ],
-        "artistNames": "Flört",
-        "album": {
-          "id": "4H9uFk5uUmc6ZG9N9kDTax",
-          "name": "Anadolu Beat",
-          "releaseDate": "2012-05-07",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27311d716d7c72b1ae29636c9d3",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485111d716d7c72b1ae29636c9d3",
-        "durationMs": 195546,
-        "durationFormatted": "3:15",
-        "spotifyUrl": "https://open.spotify.com/track/61dev1qliSgCWxN68CYBzj",
-        "uri": "spotify:track:61dev1qliSgCWxN68CYBzj",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4wJq75UFYtFYbMO2KBBnlw",
-        "name": "Someone Somewhere (In Summertime)",
-        "artists": [
-          {
-            "id": "6hN9F0iuULZYWXppob22Aj",
-            "name": "Simple Minds"
-          }
-        ],
-        "artistNames": "Simple Minds",
-        "album": {
-          "id": "6dn2O3un8SV0QZ421jDdEj",
-          "name": "New Gold Dream (81/82/83/84)",
-          "releaseDate": "1982-07-15",
-          "releaseYear": "1982"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f587148621b34bd660ac39de",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f587148621b34bd660ac39de",
-        "durationMs": 277688,
-        "durationFormatted": "4:37",
-        "spotifyUrl": "https://open.spotify.com/track/4wJq75UFYtFYbMO2KBBnlw",
-        "uri": "spotify:track:4wJq75UFYtFYbMO2KBBnlw",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "1LRFd7Dv1azs6UwXZnmkgt",
-        "name": "Schweppes agrum'",
-        "artists": [
-          {
-            "id": "0SVNXV6d5r6CpBCpe8Fbhf",
-            "name": "Canardo"
-          }
-        ],
-        "artistNames": "Canardo",
-        "album": {
-          "id": "0M22uYtZn6mBGCXNfUtmBJ",
-          "name": "Chrysalide",
-          "releaseDate": "2015-05-22",
-          "releaseYear": "2015"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f4d0cbdd88425b7025ffd1f8",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f4d0cbdd88425b7025ffd1f8",
-        "durationMs": 196000,
-        "durationFormatted": "3:16",
-        "spotifyUrl": "https://open.spotify.com/track/1LRFd7Dv1azs6UwXZnmkgt",
-        "uri": "spotify:track:1LRFd7Dv1azs6UwXZnmkgt",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "6JNJERZGJwDVgkmbohBw7u",
-        "name": "Self Control",
-        "artists": [
-          {
-            "id": "4463nfFMmK1cwAWBQDwT5e",
-            "name": "Laura Branigan"
-          }
-        ],
-        "artistNames": "Laura Branigan",
-        "album": {
-          "id": "5cwUCXPFFfNsnk4qipc40D",
-          "name": "Self Control",
-          "releaseDate": "1984",
-          "releaseYear": "1984"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731310670cbb82f06474372cfd",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511310670cbb82f06474372cfd",
-        "durationMs": 246440,
-        "durationFormatted": "4:06",
-        "spotifyUrl": "https://open.spotify.com/track/6JNJERZGJwDVgkmbohBw7u",
-        "uri": "spotify:track:6JNJERZGJwDVgkmbohBw7u",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "2gUSIsapdX6jEJ0DvjqTt2",
-        "name": "Naked As We Came",
-        "artists": [
-          {
-            "id": "4M5nCE77Qaxayuhp3fVn4V",
-            "name": "Iron & Wine"
-          }
-        ],
-        "artistNames": "Iron & Wine",
-        "album": {
-          "id": "20OPxsW0aYB6InxDImJRdt",
-          "name": "Our Endless Numbered Days",
-          "releaseDate": "2004-03-23",
-          "releaseYear": "2004"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734169327dcda169b6c0daed3b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514169327dcda169b6c0daed3b",
-        "durationMs": 152626,
-        "durationFormatted": "2:32",
-        "spotifyUrl": "https://open.spotify.com/track/2gUSIsapdX6jEJ0DvjqTt2",
-        "uri": "spotify:track:2gUSIsapdX6jEJ0DvjqTt2",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "1t2DpS6WxY0JGX3IJCLQfQ",
-        "name": "Little Lover",
-        "artists": [
-          {
-            "id": "42wlDfDuv6KZWWd0t7Qgj3",
-            "name": "Nick Broadhurst"
-          }
-        ],
-        "artistNames": "Nick Broadhurst",
-        "album": {
-          "id": "29iTOzaCsL7LizdOak5MrQ",
-          "name": "Little Lover",
-          "releaseDate": "2015-11-12",
-          "releaseYear": "2015"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273910d85981b6e47641573781d",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851910d85981b6e47641573781d",
-        "durationMs": 239794,
-        "durationFormatted": "3:59",
-        "spotifyUrl": "https://open.spotify.com/track/1t2DpS6WxY0JGX3IJCLQfQ",
-        "uri": "spotify:track:1t2DpS6WxY0JGX3IJCLQfQ",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "4LjfIjS8iweFCPdKxLnEoV",
-        "name": "Let Me Think About It",
-        "artists": [
-          {
-            "id": "30ut8L4gmEz4vNr1zNhpbh",
-            "name": "Ida Corr"
-          },
-          {
-            "id": "7dc6hUwyuIhrZdh80eaCEE",
-            "name": "Fedde Le Grand"
-          }
-        ],
-        "artistNames": "Ida Corr, Fedde Le Grand",
-        "album": {
-          "id": "4nLyl2aEgi2qQrcPiFlmD7",
-          "name": "Singled Out",
-          "releaseDate": "2013-05-03",
-          "releaseYear": "2013"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273568636ad464813b16a94292a",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851568636ad464813b16a94292a",
-        "durationMs": 151983,
-        "durationFormatted": "2:31",
-        "spotifyUrl": "https://open.spotify.com/track/4LjfIjS8iweFCPdKxLnEoV",
-        "uri": "spotify:track:4LjfIjS8iweFCPdKxLnEoV",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "1OzHkIzGMj4S3rWwF8TBjc",
-        "name": "Aqua De Coco",
-        "artists": [
-          {
-            "id": "5I0EPnV9gwrZYTbScjnaOk",
-            "name": "Marcos Valle"
-          }
-        ],
-        "artistNames": "Marcos Valle",
-        "album": {
-          "id": "2JNZXF9x8carCcdiBBfX1U",
-          "name": "Far Out Chill Brazil",
-          "releaseDate": "2007-07-16",
-          "releaseYear": "2007"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a4e5975370d44a2b1197a402",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a4e5975370d44a2b1197a402",
-        "durationMs": 287560,
-        "durationFormatted": "4:47",
-        "spotifyUrl": "https://open.spotify.com/track/1OzHkIzGMj4S3rWwF8TBjc",
-        "uri": "spotify:track:1OzHkIzGMj4S3rWwF8TBjc",
-        "addedAt": "2026-08-17T00:29:29Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "6M0KLbfIinP9ZVmZbQuOGA",
-        "name": "Strangers In The Night",
-        "artists": [
-          {
-            "id": "1Mxqyy3pSjf8kZZL4QVxS0",
-            "name": "Frank Sinatra"
-          }
-        ],
-        "artistNames": "Frank Sinatra",
-        "album": {
-          "id": "0Cx7IYEdG2T70z9xFknhDT",
-          "name": "Ultimate Sinatra",
-          "releaseDate": "2015-04-17",
-          "releaseYear": "2015"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731acf2e616580ecdf011add9a",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511acf2e616580ecdf011add9a",
-        "durationMs": 156240,
-        "durationFormatted": "2:36",
-        "spotifyUrl": "https://open.spotify.com/track/6M0KLbfIinP9ZVmZbQuOGA",
-        "uri": "spotify:track:6M0KLbfIinP9ZVmZbQuOGA",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3tu4FxkLDkqsMQNsIYe0u6",
-        "name": "Beloved",
-        "artists": [
-          {
-            "id": "2Xn8Gef5Hv2QOWYlXs2gTb",
-            "name": "Deep Dive Corp."
-          }
-        ],
-        "artistNames": "Deep Dive Corp.",
-        "album": {
-          "id": "5WdMyHH7kBfA52d2x6njal",
-          "name": "…Some Funky Fish",
-          "releaseDate": "2006-09-11",
-          "releaseYear": "2006"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ea353f845d5238a1873ec40b",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ea353f845d5238a1873ec40b",
-        "durationMs": 418804,
-        "durationFormatted": "6:58",
-        "spotifyUrl": "https://open.spotify.com/track/3tu4FxkLDkqsMQNsIYe0u6",
-        "uri": "spotify:track:3tu4FxkLDkqsMQNsIYe0u6",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f2f5c6b6c58055bd4f2992e9",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f2f5c6b6c58055bd4f2992e9",
+        "durationMs": 310960,
+        "durationFormatted": "5:10",
+        "spotifyUrl": "https://open.spotify.com/track/4lRdpZYTwaPpuKpquO6bo3",
+        "uri": "spotify:track:4lRdpZYTwaPpuKpquO6bo3",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
@@ -2210,244 +99,675 @@
         "durationFormatted": "9:23",
         "spotifyUrl": "https://open.spotify.com/track/5zHFoLDuJDgHv8rgsvWXfl",
         "uri": "spotify:track:5zHFoLDuJDgHv8rgsvWXfl",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "0zaWQBwkfh9OmK77CiDmRI",
-        "name": "Always On Time",
+        "id": "22vUgUXKzscM2yAYhz5mfw",
+        "name": "Free",
         "artists": [
           {
-            "id": "1J2VVASYAamtQ3Bt8wGgA6",
-            "name": "Ja Rule"
+            "id": "6G7OerKc3eBO9sVkRNopFC",
+            "name": "Cat Power"
+          }
+        ],
+        "artistNames": "Cat Power",
+        "album": {
+          "id": "1ILPBTSa7KJCPIs39Bp11d",
+          "name": "You Are Free",
+          "releaseDate": "2003-02-17",
+          "releaseYear": "2003"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27340226b8b0adbdec515e33918",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485140226b8b0adbdec515e33918",
+        "durationMs": 213106,
+        "durationFormatted": "3:33",
+        "spotifyUrl": "https://open.spotify.com/track/22vUgUXKzscM2yAYhz5mfw",
+        "uri": "spotify:track:22vUgUXKzscM2yAYhz5mfw",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "0Wkt0U5TF3BHezfoTvQgcm",
+        "name": "Canto del Pilón - Original Radio Mix",
+        "artists": [
+          {
+            "id": "159cwGtgCzNpyHWY6tzihH",
+            "name": "Milk & Sugar"
           },
           {
-            "id": "5rkVyNGXEgeUqKkB5ccK83",
-            "name": "Ashanti"
+            "id": "3zOkRbObx7ELfEpCzc8geE",
+            "name": "Maria Marquez"
           }
         ],
-        "artistNames": "Ja Rule, Ashanti",
+        "artistNames": "Milk & Sugar, Maria Marquez",
         "album": {
-          "id": "4Xc3wBfUZ9yiszOrttoCXV",
-          "name": "Pain Is Love (International Version)",
-          "releaseDate": "2001-10-29",
-          "releaseYear": "2001"
+          "id": "7crOl4Y4hOeBE0BVv0rlv0",
+          "name": "Canto del Pilón",
+          "releaseDate": "2013-10-25",
+          "releaseYear": "2013"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e32189a249c2e0550eb97236",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e32189a249c2e0550eb97236",
-        "durationMs": 245093,
-        "durationFormatted": "4:05",
-        "spotifyUrl": "https://open.spotify.com/track/0zaWQBwkfh9OmK77CiDmRI",
-        "uri": "spotify:track:0zaWQBwkfh9OmK77CiDmRI",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273472393d6438f9f9aba3e61e4",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851472393d6438f9f9aba3e61e4",
+        "durationMs": 213934,
+        "durationFormatted": "3:33",
+        "spotifyUrl": "https://open.spotify.com/track/0Wkt0U5TF3BHezfoTvQgcm",
+        "uri": "spotify:track:0Wkt0U5TF3BHezfoTvQgcm",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "0zmtERQdhPFGFqK0vUp7VV",
-        "name": "Crystallize",
+        "id": "4Lx7fiZRVb7j4U1xFZ9fyo",
+        "name": "Mariana",
         "artists": [
           {
-            "id": "378dH6EszOLFShpRzAQkVM",
-            "name": "Lindsey Stirling"
+            "id": "5wd2VuNxYv2rZ3z6qY0Wvx",
+            "name": "Bïa"
           }
         ],
-        "artistNames": "Lindsey Stirling",
+        "artistNames": "Bïa",
         "album": {
-          "id": "6KYYbd0nSJZMF48Rj13cIr",
-          "name": "Lindsey Stirling",
-          "releaseDate": "2012-01-01",
-          "releaseYear": "2012"
+          "id": "4mkVMOBhbpg9GTbUbstczg",
+          "name": "Carmin",
+          "releaseDate": "2003",
+          "releaseYear": "2003"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735973d4a1c3ea609ea49600e3",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515973d4a1c3ea609ea49600e3",
-        "durationMs": 258800,
-        "durationFormatted": "4:18",
-        "spotifyUrl": "https://open.spotify.com/track/0zmtERQdhPFGFqK0vUp7VV",
-        "uri": "spotify:track:0zmtERQdhPFGFqK0vUp7VV",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737dacf9690ed4c6ef2ae50226",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517dacf9690ed4c6ef2ae50226",
+        "durationMs": 192240,
+        "durationFormatted": "3:12",
+        "spotifyUrl": "https://open.spotify.com/track/4Lx7fiZRVb7j4U1xFZ9fyo",
+        "uri": "spotify:track:4Lx7fiZRVb7j4U1xFZ9fyo",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "4ZvIVC8dOjM3fSMLNSh09G",
-        "name": "Unutamadim",
+        "id": "6tdShCDYftLXK73muhJl4L",
+        "name": "Time",
         "artists": [
           {
-            "id": "2O7WjRnnODRpJAzKDtTb0C",
-            "name": "Kurtalan Ekspres"
+            "id": "3J6Qep06aGWklhXOvwyXQ8",
+            "name": "Kroke"
+          }
+        ],
+        "artistNames": "Kroke",
+        "album": {
+          "id": "746ynnXk6UhIj93Bp6Xvfd",
+          "name": "The Sounds Of The Vanishing World",
+          "releaseDate": "1999",
+          "releaseYear": "1999"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27323d02934123a27db6d879228",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485123d02934123a27db6d879228",
+        "durationMs": 375307,
+        "durationFormatted": "6:15",
+        "spotifyUrl": "https://open.spotify.com/track/6tdShCDYftLXK73muhJl4L",
+        "uri": "spotify:track:6tdShCDYftLXK73muhJl4L",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "3gY5KTD7UdL1HO3Izrjbmy",
+        "name": "Lights Down Low - Not Your Dope Remix",
+        "artists": [
+          {
+            "id": "1bqxdqvUtPWZri43cKHac8",
+            "name": "MAX"
           },
           {
-            "id": "1eY7YyYjc9jGnsHdJka906",
-            "name": "Bülent Ortaçgil"
+            "id": "3iri9nBFs9e4wN7PLIetAw",
+            "name": "gnash"
           },
           {
-            "id": "7HIccJjwPhWkLVKu0gGJgB",
-            "name": "Erkan Oğur"
+            "id": "4JznCAfxUluG6YAdAiM0YE",
+            "name": "Not Your Dope"
           }
         ],
-        "artistNames": "Kurtalan Ekspres, Bülent Ortaçgil, Erkan Oğur",
+        "artistNames": "MAX, gnash, Not Your Dope",
         "album": {
-          "id": "0sG3PrW455DbFbZXEu1Wig",
-          "name": "Göğe Selam",
-          "releaseDate": "2011-01-01",
-          "releaseYear": "2011"
+          "id": "6GIArZJaqTMv2x3xjJTsVl",
+          "name": "Lights Down Low - EP",
+          "releaseDate": "2016-10-14",
+          "releaseYear": "2016"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d188d8acaa742fd1da80c2d",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516d188d8acaa742fd1da80c2d",
-        "durationMs": 322851,
-        "durationFormatted": "5:22",
-        "spotifyUrl": "https://open.spotify.com/track/4ZvIVC8dOjM3fSMLNSh09G",
-        "uri": "spotify:track:4ZvIVC8dOjM3fSMLNSh09G",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27370249fae70c4d93a55f8d8a8",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485170249fae70c4d93a55f8d8a8",
+        "durationMs": 206040,
+        "durationFormatted": "3:26",
+        "spotifyUrl": "https://open.spotify.com/track/3gY5KTD7UdL1HO3Izrjbmy",
+        "uri": "spotify:track:3gY5KTD7UdL1HO3Izrjbmy",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "4vpeKl0vMGdAXpZiQB2Dtd",
-        "name": "White Rabbit",
+        "id": "28Zg3EXyibO3UEda2WirSV",
+        "name": "Koop Island Blues",
         "artists": [
           {
-            "id": "2qFr8w5sWUITRlzZ9kZotF",
-            "name": "Jefferson Airplane"
-          }
-        ],
-        "artistNames": "Jefferson Airplane",
-        "album": {
-          "id": "6lPb7Eoon6QPbscWbMsk6a",
-          "name": "Surrealistic Pillow",
-          "releaseDate": "1967",
-          "releaseYear": "1967"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736a74089537c2dbd548c4a95e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048516a74089537c2dbd548c4a95e",
-        "durationMs": 150640,
-        "durationFormatted": "2:30",
-        "spotifyUrl": "https://open.spotify.com/track/4vpeKl0vMGdAXpZiQB2Dtd",
-        "uri": "spotify:track:4vpeKl0vMGdAXpZiQB2Dtd",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "3BGIGeERz6xIbxCuDEvFfw",
-        "name": "Bad News",
-        "artists": [
+            "id": "7wyBxBXLVLaiF2jxHCpvTe",
+            "name": "Koop"
+          },
           {
-            "id": "6FdBHq8it0smMGkitcgP3e",
-            "name": "Moon Martin"
+            "id": "2L3kwZFd16zjHz9a5kEPAm",
+            "name": "Ane Brun"
           }
         ],
-        "artistNames": "Moon Martin",
+        "artistNames": "Koop, Ane Brun",
         "album": {
-          "id": "1v5rv2ImJu2op5ERYOxNTH",
-          "name": "Street Fever",
-          "releaseDate": "1980-01-01",
-          "releaseYear": "1980"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b1a37e9faff38b91472c63f8",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b1a37e9faff38b91472c63f8",
-        "durationMs": 231733,
-        "durationFormatted": "3:51",
-        "spotifyUrl": "https://open.spotify.com/track/3BGIGeERz6xIbxCuDEvFfw",
-        "uri": "spotify:track:3BGIGeERz6xIbxCuDEvFfw",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "6NeUmwrvmkIuTO9dh3qOwT",
-        "name": "Misery's Crown",
-        "artists": [
-          {
-            "id": "5EHvXKnNz78jkAVgTQLQ5O",
-            "name": "Dark Tranquillity"
-          }
-        ],
-        "artistNames": "Dark Tranquillity",
-        "album": {
-          "id": "7cLSmdYZAdbDYsuPlHWVIG",
-          "name": "Fiction",
-          "releaseDate": "2007-09-26",
-          "releaseYear": "2007"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738c4ba9a351ba5e5b6271e941",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518c4ba9a351ba5e5b6271e941",
-        "durationMs": 254106,
-        "durationFormatted": "4:14",
-        "spotifyUrl": "https://open.spotify.com/track/6NeUmwrvmkIuTO9dh3qOwT",
-        "uri": "spotify:track:6NeUmwrvmkIuTO9dh3qOwT",
-        "addedAt": "2026-08-17T12:38:01Z",
-        "addedDate": "2026-08-17"
-      },
-      {
-        "id": "5jq3PJN4VtgtVL70G6xzK7",
-        "name": "Gözlerin",
-        "artists": [
-          {
-            "id": "3ZV2kReDeCXgw0RJaPV5wX",
-            "name": "Zülfü Livaneli"
-          }
-        ],
-        "artistNames": "Zülfü Livaneli",
-        "album": {
-          "id": "3Vb48n4S1wr3Ogaph9mEjI",
-          "name": "Bütüneserleri, Vol. 7 (Ada)",
-          "releaseDate": "2006-06-22",
+          "id": "3vbvhBzSe3KnqkROlMMQTq",
+          "name": "Koop Islands",
+          "releaseDate": "2006-10-03",
           "releaseYear": "2006"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f00b739b8a3650dda7b3814e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f00b739b8a3650dda7b3814e",
-        "durationMs": 228999,
-        "durationFormatted": "3:48",
-        "spotifyUrl": "https://open.spotify.com/track/5jq3PJN4VtgtVL70G6xzK7",
-        "uri": "spotify:track:5jq3PJN4VtgtVL70G6xzK7",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366fc428c55f772d63f2d469b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485166fc428c55f772d63f2d469b",
+        "durationMs": 276360,
+        "durationFormatted": "4:36",
+        "spotifyUrl": "https://open.spotify.com/track/28Zg3EXyibO3UEda2WirSV",
+        "uri": "spotify:track:28Zg3EXyibO3UEda2WirSV",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "4S1VYqwfkLit9mKVY3MXoo",
-        "name": "Forever Young",
+        "id": "3PnOOmkxruDDAiMYZZTgO7",
+        "name": "Goodbye (feat. Lyse) - Radio Edit",
         "artists": [
           {
-            "id": "0xliTEbFfy5HQHvsTknTkX",
-            "name": "Alphaville"
+            "id": "5KnoVkIUGmK0PiDKMjz2LM",
+            "name": "Feder"
+          },
+          {
+            "id": "7K9peN1sknRNqPr9YEYedM",
+            "name": "Lyse"
           }
         ],
-        "artistNames": "Alphaville",
+        "artistNames": "Feder, Lyse",
         "album": {
-          "id": "2256qKBSQdt53T5dz4Kdcs",
-          "name": "Forever Young",
-          "releaseDate": "1984",
-          "releaseYear": "1984"
+          "id": "2UGPPuVJHDKLYd9Z2G7zS4",
+          "name": "Goodbye (feat. Lyse) [Radio Edit]",
+          "releaseDate": "2015-01-02",
+          "releaseYear": "2015"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b9c4979446c4d39bc08e9503",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b9c4979446c4d39bc08e9503",
-        "durationMs": 226706,
-        "durationFormatted": "3:46",
-        "spotifyUrl": "https://open.spotify.com/track/4S1VYqwfkLit9mKVY3MXoo",
-        "uri": "spotify:track:4S1VYqwfkLit9mKVY3MXoo",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273944f09035ef3ddf623261ad1",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851944f09035ef3ddf623261ad1",
+        "durationMs": 201938,
+        "durationFormatted": "3:21",
+        "spotifyUrl": "https://open.spotify.com/track/3PnOOmkxruDDAiMYZZTgO7",
+        "uri": "spotify:track:3PnOOmkxruDDAiMYZZTgO7",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       },
       {
-        "id": "5zpqAIU4LMWv8qDaymJiAF",
-        "name": "Octavo Día - En Vivo",
+        "id": "1lsvp57NI8vTXOdowNQJRz",
+        "name": "Don't Let the World Pass You By",
         "artists": [
           {
-            "id": "0EmeFodog0BfCgMzAIvKQp",
-            "name": "Shakira"
+            "id": "3SInttLnvf5G4Aa95aAYPr",
+            "name": "Jean-Luc Ponty"
           }
         ],
-        "artistNames": "Shakira",
+        "artistNames": "Jean-Luc Ponty",
         "album": {
-          "id": "3yQQUyIA3vRIRnB4rqtThe",
-          "name": "Shakira MTV Unplugged",
-          "releaseDate": "2000-02-29",
+          "id": "6EfLu75i2jqhN4s4xlqh6m",
+          "name": "Cosmic Messenger",
+          "releaseDate": "1978",
+          "releaseYear": "1978"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b5d4374a23ae05bbc834f78d",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b5d4374a23ae05bbc834f78d",
+        "durationMs": 384040,
+        "durationFormatted": "6:24",
+        "spotifyUrl": "https://open.spotify.com/track/1lsvp57NI8vTXOdowNQJRz",
+        "uri": "spotify:track:1lsvp57NI8vTXOdowNQJRz",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "1adsIqHxkDNYvsQYsX9x8I",
+        "name": "Vallee Des Larmes - Radio Edit",
+        "artists": [
+          {
+            "id": "0tW744hCcblrcREtDPwE3Y",
+            "name": "Luc Margeaux"
+          }
+        ],
+        "artistNames": "Luc Margeaux",
+        "album": {
+          "id": "10O5ZtNB3Ef6jawBLzPG2T",
+          "name": "ToCo Dance Party, Vol. 7",
+          "releaseDate": "2006-03-14",
+          "releaseYear": "2006"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c02f805257a949e15ba80723",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c02f805257a949e15ba80723",
+        "durationMs": 188746,
+        "durationFormatted": "3:08",
+        "spotifyUrl": "https://open.spotify.com/track/1adsIqHxkDNYvsQYsX9x8I",
+        "uri": "spotify:track:1adsIqHxkDNYvsQYsX9x8I",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "3d4I2tQUz16S8gesU2pLSM",
+        "name": "She's Like the Wind",
+        "artists": [
+          {
+            "id": "6dH5I8Q7HhXu74cBXkP0LD",
+            "name": "Patrick Swayze"
+          },
+          {
+            "id": "2oSO8nxMHKOJKj7v8l0zWh",
+            "name": "Wendy Fraser"
+          }
+        ],
+        "artistNames": "Patrick Swayze, Wendy Fraser",
+        "album": {
+          "id": "03HVo5MVOWQ4kilTtF1Czg",
+          "name": "Dirty Dancing",
+          "releaseDate": "1987-07-10",
+          "releaseYear": "1987"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273741a375f2292fbe848ef27e8",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851741a375f2292fbe848ef27e8",
+        "durationMs": 232240,
+        "durationFormatted": "3:52",
+        "spotifyUrl": "https://open.spotify.com/track/3d4I2tQUz16S8gesU2pLSM",
+        "uri": "spotify:track:3d4I2tQUz16S8gesU2pLSM",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "6PddHtKYRAesIJZK1lO5of",
+        "name": "Testarossa",
+        "artists": [
+          {
+            "id": "3TQ9JTBI2n2hfo7aRONEYV",
+            "name": "Sir Mix-A-Lot"
+          }
+        ],
+        "artistNames": "Sir Mix-A-Lot",
+        "album": {
+          "id": "6OAqsERlWXHMqPj9in2NIa",
+          "name": "The Boss Is Back",
+          "releaseDate": "2018",
+          "releaseYear": "2018"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27391ee6185d45d2434732f7f0a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485191ee6185d45d2434732f7f0a",
+        "durationMs": 308733,
+        "durationFormatted": "5:08",
+        "spotifyUrl": "https://open.spotify.com/track/6PddHtKYRAesIJZK1lO5of",
+        "uri": "spotify:track:6PddHtKYRAesIJZK1lO5of",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "47GoneztCss0TMaTQfl4Sv",
+        "name": "I’ve Seen It All",
+        "artists": [
+          {
+            "id": "7w29UYBi0qsHi5RTcv3lmA",
+            "name": "Björk"
+          }
+        ],
+        "artistNames": "Björk",
+        "album": {
+          "id": "28zkgsBzWmhEAQfuZF5M2S",
+          "name": "Selma Songs",
+          "releaseDate": "2000-09-18",
           "releaseYear": "2000"
         },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27394f8d9d565486fee02ccff4e",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485194f8d9d565486fee02ccff4e",
-        "durationMs": 363400,
-        "durationFormatted": "6:03",
-        "spotifyUrl": "https://open.spotify.com/track/5zpqAIU4LMWv8qDaymJiAF",
-        "uri": "spotify:track:5zpqAIU4LMWv8qDaymJiAF",
-        "addedAt": "2026-08-17T12:38:01Z",
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e2be782ec8d3d0d3c782d35d",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e2be782ec8d3d0d3c782d35d",
+        "durationMs": 329360,
+        "durationFormatted": "5:29",
+        "spotifyUrl": "https://open.spotify.com/track/47GoneztCss0TMaTQfl4Sv",
+        "uri": "spotify:track:47GoneztCss0TMaTQfl4Sv",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "1auEcKGJGWqcsjMFTMCjez",
+        "name": "Mystery of Arabia",
+        "artists": [
+          {
+            "id": "2ucNjOKWBIEBnzvFgmJAn3",
+            "name": "Magnus Deus"
+          },
+          {
+            "id": "0c2te8OzhhVjiqXaAku4Hx",
+            "name": "Mark Holiday"
+          }
+        ],
+        "artistNames": "Magnus Deus, Mark Holiday",
+        "album": {
+          "id": "1oT24wKtD89gMMnYswZmFL",
+          "name": "Mystery of Arabia",
+          "releaseDate": "2019-12-23",
+          "releaseYear": "2019"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739f4d407b83caacd957ea2b00",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519f4d407b83caacd957ea2b00",
+        "durationMs": 328427,
+        "durationFormatted": "5:28",
+        "spotifyUrl": "https://open.spotify.com/track/1auEcKGJGWqcsjMFTMCjez",
+        "uri": "spotify:track:1auEcKGJGWqcsjMFTMCjez",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "2WyhdqP5GeXeeusqt65BFQ",
+        "name": "Dance Of The Bad Angels",
+        "artists": [
+          {
+            "id": "0fqVNkN8mQNJd9sFQBkaQS",
+            "name": "Tim Booth"
+          },
+          {
+            "id": "3Eeb1U0VJTDaFpBHV4DmHl",
+            "name": "Angelo Badalamenti"
+          }
+        ],
+        "artistNames": "Tim Booth, Angelo Badalamenti",
+        "album": {
+          "id": "4EsvOzAPPpwvHaS9tVIu28",
+          "name": "Booth And The Bad Angel",
+          "releaseDate": "1996-01-01",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2739d1fd2dc001081299b254b8a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048519d1fd2dc001081299b254b8a",
+        "durationMs": 273533,
+        "durationFormatted": "4:33",
+        "spotifyUrl": "https://open.spotify.com/track/2WyhdqP5GeXeeusqt65BFQ",
+        "uri": "spotify:track:2WyhdqP5GeXeeusqt65BFQ",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "0og2U8tsBAR7NJysRR6uBU",
+        "name": "Mediterranean Sundance / Rio Ancho - Live at Warfield Theatre, San Francisco, CA - December 5, 1980",
+        "artists": [
+          {
+            "id": "3bBWKHfpepPOychRNFzg4q",
+            "name": "Al Di Meola"
+          },
+          {
+            "id": "4v0R1feRiuCDch7aAheVhY",
+            "name": "John McLaughlin"
+          },
+          {
+            "id": "3h8OjAdgYXVRoMZ8jFd6Uw",
+            "name": "Paco de Lucía"
+          }
+        ],
+        "artistNames": "Al Di Meola, John McLaughlin, Paco de Lucía",
+        "album": {
+          "id": "2zJMxui25tclR2FYj8jDYT",
+          "name": "Friday Night in San Francisco",
+          "releaseDate": "1981",
+          "releaseYear": "1981"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27387f12558ec3b8a6e4d6c67ad",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485187f12558ec3b8a6e4d6c67ad",
+        "durationMs": 693060,
+        "durationFormatted": "11:33",
+        "spotifyUrl": "https://open.spotify.com/track/0og2U8tsBAR7NJysRR6uBU",
+        "uri": "spotify:track:0og2U8tsBAR7NJysRR6uBU",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "7GmHOAdriOnI9s5S79GAUr",
+        "name": "Come Along",
+        "artists": [
+          {
+            "id": "2s5enJCtVBAAdWD94jOIbM",
+            "name": "Titiyo"
+          }
+        ],
+        "artistNames": "Titiyo",
+        "album": {
+          "id": "3o9WyvK7ivIuR00cCnPOof",
+          "name": "Come Along",
+          "releaseDate": "2001-08-20",
+          "releaseYear": "2001"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733162b2ee259762955c7285dd",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513162b2ee259762955c7285dd",
+        "durationMs": 225373,
+        "durationFormatted": "3:45",
+        "spotifyUrl": "https://open.spotify.com/track/7GmHOAdriOnI9s5S79GAUr",
+        "uri": "spotify:track:7GmHOAdriOnI9s5S79GAUr",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "4OgwXdylh75fHfwUzJTUqg",
+        "name": "Rockstar",
+        "artists": [
+          {
+            "id": "5deLgmgAEgy8UHOfJ9Dj8w",
+            "name": "Ilkay Sencan"
+          },
+          {
+            "id": "3v6Ji4uoWtKRkhuDUaxi9n",
+            "name": "Dynoro"
+          }
+        ],
+        "artistNames": "Ilkay Sencan, Dynoro",
+        "album": {
+          "id": "1US66auJ538TiXGeUf24yL",
+          "name": "Rockstar",
+          "releaseDate": "2019-06-21",
+          "releaseYear": "2019"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397c8043dfc435740a467d0d7",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485197c8043dfc435740a467d0d7",
+        "durationMs": 212280,
+        "durationFormatted": "3:32",
+        "spotifyUrl": "https://open.spotify.com/track/4OgwXdylh75fHfwUzJTUqg",
+        "uri": "spotify:track:4OgwXdylh75fHfwUzJTUqg",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "1hysEI46WrY5Y9G51iznGH",
+        "name": "Ya Evde Yoksan",
+        "artists": [
+          {
+            "id": "4VU1nemTk5QFsrclcN8VFl",
+            "name": "Özcan Deniz"
+          },
+          {
+            "id": "0RMzqCspHHpTrYRxdGWb2C",
+            "name": "Haluk Bilginer"
+          },
+          {
+            "id": "0vpfYBLE3vhReXaO6CxaAV",
+            "name": "Cem Özer"
+          },
+          {
+            "id": "4cXuxehc0yuaErRTVvRZW9",
+            "name": "Ruhi Sarı"
+          },
+          {
+            "id": "5uuqZTwfUoSwJk22z4XhGV",
+            "name": "Ragıp Savaş"
+          }
+        ],
+        "artistNames": "Özcan Deniz, Haluk Bilginer, Cem Özer, Ruhi Sarı, Ragıp Savaş",
+        "album": {
+          "id": "1OOepvcMhvq7ohTs9EofXe",
+          "name": "Neredesin Firuze ( Orijinal Fim Müzikleri )",
+          "releaseDate": "2004-02-17",
+          "releaseYear": "2004"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735a9d26999d4a1ede2886068b",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515a9d26999d4a1ede2886068b",
+        "durationMs": 233778,
+        "durationFormatted": "3:53",
+        "spotifyUrl": "https://open.spotify.com/track/1hysEI46WrY5Y9G51iznGH",
+        "uri": "spotify:track:1hysEI46WrY5Y9G51iznGH",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "6M0KLbfIinP9ZVmZbQuOGA",
+        "name": "Strangers In The Night",
+        "artists": [
+          {
+            "id": "1Mxqyy3pSjf8kZZL4QVxS0",
+            "name": "Frank Sinatra"
+          }
+        ],
+        "artistNames": "Frank Sinatra",
+        "album": {
+          "id": "0Cx7IYEdG2T70z9xFknhDT",
+          "name": "Ultimate Sinatra",
+          "releaseDate": "2015-04-17",
+          "releaseYear": "2015"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731acf2e616580ecdf011add9a",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048511acf2e616580ecdf011add9a",
+        "durationMs": 156240,
+        "durationFormatted": "2:36",
+        "spotifyUrl": "https://open.spotify.com/track/6M0KLbfIinP9ZVmZbQuOGA",
+        "uri": "spotify:track:6M0KLbfIinP9ZVmZbQuOGA",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "3wPPWcVuinAU7dXcJXtCID",
+        "name": "La La La",
+        "artists": [
+          {
+            "id": "1bT7m67vi78r2oqvxrP3X5",
+            "name": "Naughty Boy"
+          },
+          {
+            "id": "2wY79sveU1sp5g7SokKOiI",
+            "name": "Sam Smith"
+          }
+        ],
+        "artistNames": "Naughty Boy, Sam Smith",
+        "album": {
+          "id": "6ubgnzYckmWTNuCpc5Di5i",
+          "name": "Hotel Cabana (Deluxe Version)",
+          "releaseDate": "2013-01-01",
+          "releaseYear": "2013"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273fafb4022c8ca1c4498e10b19",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851fafb4022c8ca1c4498e10b19",
+        "durationMs": 222200,
+        "durationFormatted": "3:42",
+        "spotifyUrl": "https://open.spotify.com/track/3wPPWcVuinAU7dXcJXtCID",
+        "uri": "spotify:track:3wPPWcVuinAU7dXcJXtCID",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "6kPQAoIrq7wcUvbRHS3IxV",
+        "name": "Mustang Sally",
+        "artists": [
+          {
+            "id": "5kiBy7FO5L4ywMz1xF70PX",
+            "name": "The Commitments"
+          },
+          {
+            "id": "7MdthKITrvbzo6v1PG80Te",
+            "name": "Andrew Strong"
+          }
+        ],
+        "artistNames": "The Commitments, Andrew Strong",
+        "album": {
+          "id": "3Lt5cj7XGPwrlJhESdvuCA",
+          "name": "The Commitments (Soundtrack)",
+          "releaseDate": "1991-01-01",
+          "releaseYear": "1991"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734ea9aff93d20cbbec63e4451",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514ea9aff93d20cbbec63e4451",
+        "durationMs": 241426,
+        "durationFormatted": "4:01",
+        "spotifyUrl": "https://open.spotify.com/track/6kPQAoIrq7wcUvbRHS3IxV",
+        "uri": "spotify:track:6kPQAoIrq7wcUvbRHS3IxV",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "0xciXpZztOvubY4bmyLjZG",
+        "name": "Harvest of Sorrow - Remastered 2007",
+        "artists": [
+          {
+            "id": "7jxJ25p0pPjk0MStloN6o6",
+            "name": "Blind Guardian"
+          }
+        ],
+        "artistNames": "Blind Guardian",
+        "album": {
+          "id": "7EPGJTyG9MQ6gJWANmL4n3",
+          "name": "Nightfall in Middle Earth (Remastered 2007)",
+          "releaseDate": "1998-04-28",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2735e77d3ce3a4f7f382daaf46f",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048515e77d3ce3a4f7f382daaf46f",
+        "durationMs": 219480,
+        "durationFormatted": "3:39",
+        "spotifyUrl": "https://open.spotify.com/track/0xciXpZztOvubY4bmyLjZG",
+        "uri": "spotify:track:0xciXpZztOvubY4bmyLjZG",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "6zeE5tKyr8Nu882DQhhSQI",
+        "name": "Dust in the Wind",
+        "artists": [
+          {
+            "id": "2hl0xAkS2AIRAu23TVMBG1",
+            "name": "Kansas"
+          }
+        ],
+        "artistNames": "Kansas",
+        "album": {
+          "id": "6oU298pdPTCQnMx1PYwyUA",
+          "name": "Point Of Know Return (Expanded Edition)",
+          "releaseDate": "1977",
+          "releaseYear": "1977"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b27359f0f56a7cd13526b5b4204c",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485159f0f56a7cd13526b5b4204c",
+        "durationMs": 206266,
+        "durationFormatted": "3:26",
+        "spotifyUrl": "https://open.spotify.com/track/6zeE5tKyr8Nu882DQhhSQI",
+        "uri": "spotify:track:6zeE5tKyr8Nu882DQhhSQI",
+        "addedAt": "2026-08-17T23:59:30Z",
+        "addedDate": "2026-08-17"
+      },
+      {
+        "id": "0ikz6tENMONtK6qGkOrU3c",
+        "name": "Wake Me Up Before You Go-Go",
+        "artists": [
+          {
+            "id": "5lpH0xAS4fVfLkACg9DAuM",
+            "name": "Wham!"
+          }
+        ],
+        "artistNames": "Wham!",
+        "album": {
+          "id": "02f3y3NTsddjdUMoNiBppI",
+          "name": "Make It Big",
+          "releaseDate": "1984-10-23",
+          "releaseYear": "1984"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a2fc41b0dd6ce4f0d16a4c46",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a2fc41b0dd6ce4f0d16a4c46",
+        "durationMs": 231333,
+        "durationFormatted": "3:51",
+        "spotifyUrl": "https://open.spotify.com/track/0ikz6tENMONtK6qGkOrU3c",
+        "uri": "spotify:track:0ikz6tENMONtK6qGkOrU3c",
+        "addedAt": "2026-08-17T23:59:30Z",
         "addedDate": "2026-08-17"
       }
     ]
@@ -2462,11 +782,11 @@
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
     "owner": "Acconcia",
     "spotifyUrl": "https://open.spotify.com/playlist/4CuqBD01YP6xntST1gcCrG",
     "uri": "spotify:playlist:4CuqBD01YP6xntST1gcCrG",
@@ -2484,8 +804,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 204026,
         "durationFormatted": "3:24",
         "previewUrl": "https://p.scdn.co/mp3-preview/36ab02ac76347ab99180747677a7b836c1a90a4d",
@@ -2505,8 +825,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 259480,
         "durationFormatted": "4:19",
         "previewUrl": "https://p.scdn.co/mp3-preview/095dc809b2f0273b9e55cb2ce5f6dd74c41d8cd4",
@@ -2526,8 +846,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 231413,
         "durationFormatted": "3:51",
         "previewUrl": "https://p.scdn.co/mp3-preview/af2862f7310a8b023b64410f7df0271b1491914a",
@@ -2547,8 +867,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 183133,
         "durationFormatted": "3:03",
         "previewUrl": "https://p.scdn.co/mp3-preview/f1520c17047ca8c34cb21ab2347d1ce145f20767",
@@ -2568,8 +888,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 287560,
         "durationFormatted": "4:47",
         "previewUrl": "https://p.scdn.co/mp3-preview/f45b18965b047a4bb62036f87d14bdd397e275ae",
@@ -2589,8 +909,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 192240,
         "durationFormatted": "3:12",
         "previewUrl": "https://p.scdn.co/mp3-preview/ec064d57d1c2c5ab0f9b0830a0c296150a23f318",
@@ -2610,8 +930,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 217266,
         "durationFormatted": "3:37",
         "previewUrl": "https://p.scdn.co/mp3-preview/329436058ec7449af76a01ea068dc29aa888c723",
@@ -2631,8 +951,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 227226,
         "durationFormatted": "3:47",
         "previewUrl": "https://p.scdn.co/mp3-preview/a9a782d7ab1b1ecdc2d70e4e1f0fa3d4a3d564cc",
@@ -2652,8 +972,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 247333,
         "durationFormatted": "4:07",
         "previewUrl": "https://p.scdn.co/mp3-preview/5fec39073e0d29f947324632a8ffc49ce142c7b4",
@@ -2673,8 +993,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 282466,
         "durationFormatted": "4:42",
         "previewUrl": "https://p.scdn.co/mp3-preview/a48e8a8401bdf8967bef54781b42564fc1adbcbe",
@@ -2694,8 +1014,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 186280,
         "durationFormatted": "3:06",
         "previewUrl": "https://p.scdn.co/mp3-preview/2bfe25044048929c81d293dbb81646110b4a585e",
@@ -2715,8 +1035,8 @@
           "name": "Putumayo Brazilian lounge",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cbcdf88d9a5c29673c853cb2b",
         "durationMs": 173853,
         "durationFormatted": "2:53",
         "previewUrl": "https://p.scdn.co/mp3-preview/5f28daa164ba0d22b847ad79a190d5e39d9e4f69",
