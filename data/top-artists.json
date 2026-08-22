@@ -109,6 +109,15 @@
   },
   {
     "rank": 13,
+    "id": "5keeQyPKYRxUCKDMECTXG3",
+    "name": "Black Uhuru",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5444325144ecc7fc7649fd91",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
+  },
+  {
+    "rank": 14,
     "id": "14H7ag1wpQOsPPQJOD6Dqr",
     "name": "Zero 7",
     "genres": [],
@@ -117,22 +126,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/14H7ag1wpQOsPPQJOD6Dqr"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "7oPgCQqMMXEXrNau5vxYZP",
     "name": "Tracy Chapman",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/965060777aeacb43659097cddc16b741785a508f",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/7oPgCQqMMXEXrNau5vxYZP"
-  },
-  {
-    "rank": 15,
-    "id": "5keeQyPKYRxUCKDMECTXG3",
-    "name": "Black Uhuru",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5444325144ecc7fc7649fd91",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
   },
   {
     "rank": 16,
@@ -199,78 +199,6 @@
   },
   {
     "rank": 23,
-    "id": "2PfiteGKkLREGubVMoSUE3",
-    "name": "Douglas Holmquist",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb737e8be6dc14ff293a8596ed",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/2PfiteGKkLREGubVMoSUE3"
-  },
-  {
-    "rank": 24,
-    "id": "0ou1EkRCAJcfRv2P1qKVPo",
-    "name": "Flört",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc673f392f7f1de80088217ca",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
-  },
-  {
-    "rank": 25,
-    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
-    "name": "Erkin Koray",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
-  },
-  {
-    "rank": 26,
-    "id": "7G1GBhoKtEPnP86X2PvEYO",
-    "name": "Nina Simone",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
-  },
-  {
-    "rank": 27,
-    "id": "0VsS7WKuNEsKGNIWuiwSyZ",
-    "name": "Gaye Su Akyol",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb936dc1a7f81b5977de499dea",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
-  },
-  {
-    "rank": 28,
-    "id": "4uGB0nZ5d1iCXS3sHR3pzm",
-    "name": "Gökhan Türkmen",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebecc4a1c2a6a66ac658f71e2c",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
-  },
-  {
-    "rank": 29,
-    "id": "5M52tdBnJaKSvOpJGz8mfZ",
-    "name": "Black Sabbath",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
-  },
-  {
-    "rank": 30,
-    "id": "2fYdUIUPS7aDdWCzb8Aw2k",
-    "name": "Aşkın Nur Yengi",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
-  },
-  {
-    "rank": 31,
     "id": "5QpQ8Zu2s3aMjYf88au1Le",
     "name": "Kurban",
     "genres": [],
@@ -279,7 +207,88 @@
     "spotifyUrl": "https://open.spotify.com/artist/5QpQ8Zu2s3aMjYf88au1Le"
   },
   {
+    "rank": 24,
+    "id": "2PfiteGKkLREGubVMoSUE3",
+    "name": "Douglas Holmquist",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb737e8be6dc14ff293a8596ed",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2PfiteGKkLREGubVMoSUE3"
+  },
+  {
+    "rank": 25,
+    "id": "0ou1EkRCAJcfRv2P1qKVPo",
+    "name": "Flört",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc673f392f7f1de80088217ca",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
+  },
+  {
+    "rank": 26,
+    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
+    "name": "Erkin Koray",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
+  },
+  {
+    "rank": 27,
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+  },
+  {
+    "rank": 28,
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+  },
+  {
+    "rank": 29,
+    "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+    "name": "Gaye Su Akyol",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb936dc1a7f81b5977de499dea",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
+  },
+  {
+    "rank": 30,
+    "id": "4uGB0nZ5d1iCXS3sHR3pzm",
+    "name": "Gökhan Türkmen",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebecc4a1c2a6a66ac658f71e2c",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
+  },
+  {
+    "rank": 31,
+    "id": "4tZwfgrHOc3mvqYlEYSvVi",
+    "name": "Daft Punk",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+  },
+  {
     "rank": 32,
+    "id": "2fYdUIUPS7aDdWCzb8Aw2k",
+    "name": "Aşkın Nur Yengi",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
+  },
+  {
+    "rank": 33,
     "id": "0ylYRIvKTpv9uvTfKbYjM0",
     "name": "Mehmet Erdem",
     "genres": [],
@@ -288,7 +297,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0ylYRIvKTpv9uvTfKbYjM0"
   },
   {
-    "rank": 33,
+    "rank": 34,
     "id": "5KORW1YGiERJqfuYjXMCyz",
     "name": "Mattafix",
     "genres": [],
@@ -297,7 +306,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5KORW1YGiERJqfuYjXMCyz"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "id": "4M6Z1wubeKtwPqbjJygTOc",
     "name": "Shontelle",
     "genres": [],
@@ -306,7 +315,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4M6Z1wubeKtwPqbjJygTOc"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "id": "5EHvXKnNz78jkAVgTQLQ5O",
     "name": "Dark Tranquillity",
     "genres": [],
@@ -315,7 +324,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5EHvXKnNz78jkAVgTQLQ5O"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "id": "2jbrqAuwSdvwcMTbtvncND",
     "name": "MFÖ",
     "genres": [],
@@ -324,7 +333,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2jbrqAuwSdvwcMTbtvncND"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "id": "2nszamLjZFgu3Yx77mKxuC",
     "name": "UNKLE",
     "genres": [],
@@ -333,7 +342,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2nszamLjZFgu3Yx77mKxuC"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "id": "36QJpDe2go2KgaRleHCDTp",
     "name": "Led Zeppelin",
     "genres": [],
@@ -342,7 +351,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "id": "7jxJ25p0pPjk0MStloN6o6",
     "name": "Blind Guardian",
     "genres": [],
@@ -351,22 +360,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "id": "1O8CSXsPwEqxcoBE360PPO",
     "name": "Stratovarius",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4733f393ad04f47b31edaadb",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
-  },
-  {
-    "rank": 41,
-    "id": "4tZwfgrHOc3mvqYlEYSvVi",
-    "name": "Daft Punk",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd3aa7cc0e419b6c459b08e8e",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
   },
   {
     "rank": 42,
