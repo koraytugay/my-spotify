@@ -1,5 +1,553 @@
 [
   {
+    "id": "0sg5QHD8foYQh3Ez4tLAfv",
+    "name": "Ebruli",
+    "artists": [
+      {
+        "id": "6WDnC2nx6hEPdtcU2LLGtE",
+        "name": "Ezginin Günlügü"
+      }
+    ],
+    "artistNames": "Ezginin Günlügü",
+    "releaseDate": "1996-01-01",
+    "releaseYear": "1996",
+    "totalTracks": 12,
+    "tracks": [
+      {
+        "id": "7araPz4GtnJZLmK0X4coln",
+        "name": "Ebruli",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 206666,
+        "durationFormatted": "3:26",
+        "spotifyUrl": "https://open.spotify.com/track/7araPz4GtnJZLmK0X4coln",
+        "uri": "spotify:track:7araPz4GtnJZLmK0X4coln"
+      },
+      {
+        "id": "47Opsk18pnFaAp2WnBVcK0",
+        "name": "Aldatan Şarkı",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 205360,
+        "durationFormatted": "3:25",
+        "spotifyUrl": "https://open.spotify.com/track/47Opsk18pnFaAp2WnBVcK0",
+        "uri": "spotify:track:47Opsk18pnFaAp2WnBVcK0"
+      },
+      {
+        "id": "2RM67ZoRqtoexBKD5SkxVh",
+        "name": "İyi Uykular Türkiye",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 313333,
+        "durationFormatted": "5:13",
+        "spotifyUrl": "https://open.spotify.com/track/2RM67ZoRqtoexBKD5SkxVh",
+        "uri": "spotify:track:2RM67ZoRqtoexBKD5SkxVh"
+      },
+      {
+        "id": "6siIewoynMTaNT8nHY7vxa",
+        "name": "Memleket Türküsü",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 216266,
+        "durationFormatted": "3:36",
+        "spotifyUrl": "https://open.spotify.com/track/6siIewoynMTaNT8nHY7vxa",
+        "uri": "spotify:track:6siIewoynMTaNT8nHY7vxa"
+      },
+      {
+        "id": "3nWxrnwnjIo7huo52ALTc6",
+        "name": "Kuşlar Da Gitti",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 206973,
+        "durationFormatted": "3:26",
+        "spotifyUrl": "https://open.spotify.com/track/3nWxrnwnjIo7huo52ALTc6",
+        "uri": "spotify:track:3nWxrnwnjIo7huo52ALTc6"
+      },
+      {
+        "id": "5vYyhuJzU2e06cIReq88YW",
+        "name": "Sesler Ve Küller",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 188093,
+        "durationFormatted": "3:08",
+        "spotifyUrl": "https://open.spotify.com/track/5vYyhuJzU2e06cIReq88YW",
+        "uri": "spotify:track:5vYyhuJzU2e06cIReq88YW"
+      },
+      {
+        "id": "781rmsEsZm8MtvuQxrD5Zq",
+        "name": "Fayton",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 215173,
+        "durationFormatted": "3:35",
+        "spotifyUrl": "https://open.spotify.com/track/781rmsEsZm8MtvuQxrD5Zq",
+        "uri": "spotify:track:781rmsEsZm8MtvuQxrD5Zq"
+      },
+      {
+        "id": "4xUze7ZSg3WHMonFwYysT3",
+        "name": "Aşk Bitti",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 221826,
+        "durationFormatted": "3:41",
+        "spotifyUrl": "https://open.spotify.com/track/4xUze7ZSg3WHMonFwYysT3",
+        "uri": "spotify:track:4xUze7ZSg3WHMonFwYysT3"
+      },
+      {
+        "id": "59nOCCmOuldxyos7wRkkAl",
+        "name": "Sevgi Duvarı",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 253573,
+        "durationFormatted": "4:13",
+        "spotifyUrl": "https://open.spotify.com/track/59nOCCmOuldxyos7wRkkAl",
+        "uri": "spotify:track:59nOCCmOuldxyos7wRkkAl"
+      },
+      {
+        "id": "1M67QZrvaCDpsL0UyFkCdU",
+        "name": "Yastıklı Şarkı",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 185866,
+        "durationFormatted": "3:05",
+        "spotifyUrl": "https://open.spotify.com/track/1M67QZrvaCDpsL0UyFkCdU",
+        "uri": "spotify:track:1M67QZrvaCDpsL0UyFkCdU"
+      },
+      {
+        "id": "4CM6oyJpjNKzBfCikUpoYW",
+        "name": "Kara Sevda",
+        "trackNumber": 11,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 212600,
+        "durationFormatted": "3:32",
+        "spotifyUrl": "https://open.spotify.com/track/4CM6oyJpjNKzBfCikUpoYW",
+        "uri": "spotify:track:4CM6oyJpjNKzBfCikUpoYW"
+      },
+      {
+        "id": "1i6LnhReMAYs0xGaudVruF",
+        "name": "Yabancı",
+        "trackNumber": 12,
+        "artists": [
+          {
+            "id": "6WDnC2nx6hEPdtcU2LLGtE",
+            "name": "Ezginin Günlügü"
+          }
+        ],
+        "artistNames": "Ezginin Günlügü",
+        "album": {
+          "id": "0sg5QHD8foYQh3Ez4tLAfv",
+          "name": "Ebruli",
+          "releaseYear": "1996"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
+        "durationMs": 228986,
+        "durationFormatted": "3:48",
+        "spotifyUrl": "https://open.spotify.com/track/1i6LnhReMAYs0xGaudVruF",
+        "uri": "spotify:track:1i6LnhReMAYs0xGaudVruF"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
+    "spotifyUrl": "https://open.spotify.com/album/0sg5QHD8foYQh3Ez4tLAfv",
+    "addedAt": "2026-08-16T17:44:33Z"
+  },
+  {
+    "id": "7cowm1nChIszYiHSR4Y2wm",
+    "name": "Bazı Şeyler",
+    "artists": [
+      {
+        "id": "4li4dx5mFgZlMVeHlARBHP",
+        "name": "Nazan Öncel"
+      }
+    ],
+    "artistNames": "Nazan Öncel",
+    "releaseDate": "2014",
+    "releaseYear": "2014",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "4to7iupreztg8YXESKms5g",
+        "name": "Hadi O Zaman",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          },
+          {
+            "id": "2yMN0IP20GOaN6q0p0zL5k",
+            "name": "Tarkan"
+          }
+        ],
+        "artistNames": "Nazan Öncel, Tarkan",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 245240,
+        "durationFormatted": "4:05",
+        "spotifyUrl": "https://open.spotify.com/track/4to7iupreztg8YXESKms5g",
+        "uri": "spotify:track:4to7iupreztg8YXESKms5g"
+      },
+      {
+        "id": "6Y4aVzLUoVXzqsI0WM5KsS",
+        "name": "Harita",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 216800,
+        "durationFormatted": "3:36",
+        "spotifyUrl": "https://open.spotify.com/track/6Y4aVzLUoVXzqsI0WM5KsS",
+        "uri": "spotify:track:6Y4aVzLUoVXzqsI0WM5KsS"
+      },
+      {
+        "id": "4eFAKDqJ9KQaPtio0E80tt",
+        "name": "Bazı Şeyler",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 223760,
+        "durationFormatted": "3:43",
+        "spotifyUrl": "https://open.spotify.com/track/4eFAKDqJ9KQaPtio0E80tt",
+        "uri": "spotify:track:4eFAKDqJ9KQaPtio0E80tt"
+      },
+      {
+        "id": "1vDzpjjpJmYyUqaeifsJpH",
+        "name": "Bir Kapıdan Girdim",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 235960,
+        "durationFormatted": "3:55",
+        "spotifyUrl": "https://open.spotify.com/track/1vDzpjjpJmYyUqaeifsJpH",
+        "uri": "spotify:track:1vDzpjjpJmYyUqaeifsJpH"
+      },
+      {
+        "id": "3P1vj97D6iFqBR0VLvJ0wt",
+        "name": "Affola",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 247040,
+        "durationFormatted": "4:07",
+        "spotifyUrl": "https://open.spotify.com/track/3P1vj97D6iFqBR0VLvJ0wt",
+        "uri": "spotify:track:3P1vj97D6iFqBR0VLvJ0wt"
+      },
+      {
+        "id": "6zKrcVCI8YcAreO7Vf4gv1",
+        "name": "Aşk İşini Biliyor",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 247040,
+        "durationFormatted": "4:07",
+        "spotifyUrl": "https://open.spotify.com/track/6zKrcVCI8YcAreO7Vf4gv1",
+        "uri": "spotify:track:6zKrcVCI8YcAreO7Vf4gv1"
+      },
+      {
+        "id": "2mNBYZip5RWMVdV9ui11Js",
+        "name": "Bir Umut İşte",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 205840,
+        "durationFormatted": "3:25",
+        "spotifyUrl": "https://open.spotify.com/track/2mNBYZip5RWMVdV9ui11Js",
+        "uri": "spotify:track:2mNBYZip5RWMVdV9ui11Js"
+      },
+      {
+        "id": "0V7VzQuQU1UNXMzP5njCcg",
+        "name": "Ceylan",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 246240,
+        "durationFormatted": "4:06",
+        "spotifyUrl": "https://open.spotify.com/track/0V7VzQuQU1UNXMzP5njCcg",
+        "uri": "spotify:track:0V7VzQuQU1UNXMzP5njCcg"
+      },
+      {
+        "id": "3v87J7qLas7a986Cc6ztO4",
+        "name": "Dostlar Kahvesi",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 194840,
+        "durationFormatted": "3:14",
+        "spotifyUrl": "https://open.spotify.com/track/3v87J7qLas7a986Cc6ztO4",
+        "uri": "spotify:track:3v87J7qLas7a986Cc6ztO4"
+      },
+      {
+        "id": "0yCCQJKqMUdN8Pcf6U9o00",
+        "name": "Ne Güzel Olur",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "4li4dx5mFgZlMVeHlARBHP",
+            "name": "Nazan Öncel"
+          }
+        ],
+        "artistNames": "Nazan Öncel",
+        "album": {
+          "id": "7cowm1nChIszYiHSR4Y2wm",
+          "name": "Bazı Şeyler",
+          "releaseYear": "2014"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
+        "durationMs": 214720,
+        "durationFormatted": "3:34",
+        "spotifyUrl": "https://open.spotify.com/track/0yCCQJKqMUdN8Pcf6U9o00",
+        "uri": "spotify:track:0yCCQJKqMUdN8Pcf6U9o00"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
+    "spotifyUrl": "https://open.spotify.com/album/7cowm1nChIszYiHSR4Y2wm",
+    "addedAt": "2020-01-01T03:38:44Z"
+  },
+  {
     "id": "4aLZc3UKcNs7uwHorE99wc",
     "name": "Anadolu Ejderi",
     "artists": [
@@ -6212,301 +6760,6 @@
     "addedAt": "2026-08-16T22:52:45Z"
   },
   {
-    "id": "0sg5QHD8foYQh3Ez4tLAfv",
-    "name": "Ebruli",
-    "artists": [
-      {
-        "id": "6WDnC2nx6hEPdtcU2LLGtE",
-        "name": "Ezginin Günlügü"
-      }
-    ],
-    "artistNames": "Ezginin Günlügü",
-    "releaseDate": "1996-01-01",
-    "releaseYear": "1996",
-    "totalTracks": 12,
-    "tracks": [
-      {
-        "id": "7araPz4GtnJZLmK0X4coln",
-        "name": "Ebruli",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 206666,
-        "durationFormatted": "3:26",
-        "spotifyUrl": "https://open.spotify.com/track/7araPz4GtnJZLmK0X4coln",
-        "uri": "spotify:track:7araPz4GtnJZLmK0X4coln"
-      },
-      {
-        "id": "47Opsk18pnFaAp2WnBVcK0",
-        "name": "Aldatan Şarkı",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 205360,
-        "durationFormatted": "3:25",
-        "spotifyUrl": "https://open.spotify.com/track/47Opsk18pnFaAp2WnBVcK0",
-        "uri": "spotify:track:47Opsk18pnFaAp2WnBVcK0"
-      },
-      {
-        "id": "2RM67ZoRqtoexBKD5SkxVh",
-        "name": "İyi Uykular Türkiye",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 313333,
-        "durationFormatted": "5:13",
-        "spotifyUrl": "https://open.spotify.com/track/2RM67ZoRqtoexBKD5SkxVh",
-        "uri": "spotify:track:2RM67ZoRqtoexBKD5SkxVh"
-      },
-      {
-        "id": "6siIewoynMTaNT8nHY7vxa",
-        "name": "Memleket Türküsü",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 216266,
-        "durationFormatted": "3:36",
-        "spotifyUrl": "https://open.spotify.com/track/6siIewoynMTaNT8nHY7vxa",
-        "uri": "spotify:track:6siIewoynMTaNT8nHY7vxa"
-      },
-      {
-        "id": "3nWxrnwnjIo7huo52ALTc6",
-        "name": "Kuşlar Da Gitti",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 206973,
-        "durationFormatted": "3:26",
-        "spotifyUrl": "https://open.spotify.com/track/3nWxrnwnjIo7huo52ALTc6",
-        "uri": "spotify:track:3nWxrnwnjIo7huo52ALTc6"
-      },
-      {
-        "id": "5vYyhuJzU2e06cIReq88YW",
-        "name": "Sesler Ve Küller",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 188093,
-        "durationFormatted": "3:08",
-        "spotifyUrl": "https://open.spotify.com/track/5vYyhuJzU2e06cIReq88YW",
-        "uri": "spotify:track:5vYyhuJzU2e06cIReq88YW"
-      },
-      {
-        "id": "781rmsEsZm8MtvuQxrD5Zq",
-        "name": "Fayton",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 215173,
-        "durationFormatted": "3:35",
-        "spotifyUrl": "https://open.spotify.com/track/781rmsEsZm8MtvuQxrD5Zq",
-        "uri": "spotify:track:781rmsEsZm8MtvuQxrD5Zq"
-      },
-      {
-        "id": "4xUze7ZSg3WHMonFwYysT3",
-        "name": "Aşk Bitti",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 221826,
-        "durationFormatted": "3:41",
-        "spotifyUrl": "https://open.spotify.com/track/4xUze7ZSg3WHMonFwYysT3",
-        "uri": "spotify:track:4xUze7ZSg3WHMonFwYysT3"
-      },
-      {
-        "id": "59nOCCmOuldxyos7wRkkAl",
-        "name": "Sevgi Duvarı",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 253573,
-        "durationFormatted": "4:13",
-        "spotifyUrl": "https://open.spotify.com/track/59nOCCmOuldxyos7wRkkAl",
-        "uri": "spotify:track:59nOCCmOuldxyos7wRkkAl"
-      },
-      {
-        "id": "1M67QZrvaCDpsL0UyFkCdU",
-        "name": "Yastıklı Şarkı",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 185866,
-        "durationFormatted": "3:05",
-        "spotifyUrl": "https://open.spotify.com/track/1M67QZrvaCDpsL0UyFkCdU",
-        "uri": "spotify:track:1M67QZrvaCDpsL0UyFkCdU"
-      },
-      {
-        "id": "4CM6oyJpjNKzBfCikUpoYW",
-        "name": "Kara Sevda",
-        "trackNumber": 11,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 212600,
-        "durationFormatted": "3:32",
-        "spotifyUrl": "https://open.spotify.com/track/4CM6oyJpjNKzBfCikUpoYW",
-        "uri": "spotify:track:4CM6oyJpjNKzBfCikUpoYW"
-      },
-      {
-        "id": "1i6LnhReMAYs0xGaudVruF",
-        "name": "Yabancı",
-        "trackNumber": 12,
-        "artists": [
-          {
-            "id": "6WDnC2nx6hEPdtcU2LLGtE",
-            "name": "Ezginin Günlügü"
-          }
-        ],
-        "artistNames": "Ezginin Günlügü",
-        "album": {
-          "id": "0sg5QHD8foYQh3Ez4tLAfv",
-          "name": "Ebruli",
-          "releaseYear": "1996"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512998851872482977828609f6",
-        "durationMs": 228986,
-        "durationFormatted": "3:48",
-        "spotifyUrl": "https://open.spotify.com/track/1i6LnhReMAYs0xGaudVruF",
-        "uri": "spotify:track:1i6LnhReMAYs0xGaudVruF"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732998851872482977828609f6",
-    "spotifyUrl": "https://open.spotify.com/album/0sg5QHD8foYQh3Ez4tLAfv",
-    "addedAt": "2026-08-16T17:44:33Z"
-  },
-  {
     "id": "1cBltJhF1ylxCVX3t0Tu7m",
     "name": "İlk Şarkılar",
     "artists": [
@@ -10506,259 +10759,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f0d9f712f05ded6a10b6753e",
     "spotifyUrl": "https://open.spotify.com/album/6pTjz9HVHp1YDyqSK9ZOQX",
     "addedAt": "2021-08-02T13:21:25Z"
-  },
-  {
-    "id": "7cowm1nChIszYiHSR4Y2wm",
-    "name": "Bazı Şeyler",
-    "artists": [
-      {
-        "id": "4li4dx5mFgZlMVeHlARBHP",
-        "name": "Nazan Öncel"
-      }
-    ],
-    "artistNames": "Nazan Öncel",
-    "releaseDate": "2014",
-    "releaseYear": "2014",
-    "totalTracks": 10,
-    "tracks": [
-      {
-        "id": "4to7iupreztg8YXESKms5g",
-        "name": "Hadi O Zaman",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          },
-          {
-            "id": "2yMN0IP20GOaN6q0p0zL5k",
-            "name": "Tarkan"
-          }
-        ],
-        "artistNames": "Nazan Öncel, Tarkan",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 245240,
-        "durationFormatted": "4:05",
-        "spotifyUrl": "https://open.spotify.com/track/4to7iupreztg8YXESKms5g",
-        "uri": "spotify:track:4to7iupreztg8YXESKms5g"
-      },
-      {
-        "id": "6Y4aVzLUoVXzqsI0WM5KsS",
-        "name": "Harita",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 216800,
-        "durationFormatted": "3:36",
-        "spotifyUrl": "https://open.spotify.com/track/6Y4aVzLUoVXzqsI0WM5KsS",
-        "uri": "spotify:track:6Y4aVzLUoVXzqsI0WM5KsS"
-      },
-      {
-        "id": "4eFAKDqJ9KQaPtio0E80tt",
-        "name": "Bazı Şeyler",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 223760,
-        "durationFormatted": "3:43",
-        "spotifyUrl": "https://open.spotify.com/track/4eFAKDqJ9KQaPtio0E80tt",
-        "uri": "spotify:track:4eFAKDqJ9KQaPtio0E80tt"
-      },
-      {
-        "id": "1vDzpjjpJmYyUqaeifsJpH",
-        "name": "Bir Kapıdan Girdim",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 235960,
-        "durationFormatted": "3:55",
-        "spotifyUrl": "https://open.spotify.com/track/1vDzpjjpJmYyUqaeifsJpH",
-        "uri": "spotify:track:1vDzpjjpJmYyUqaeifsJpH"
-      },
-      {
-        "id": "3P1vj97D6iFqBR0VLvJ0wt",
-        "name": "Affola",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 247040,
-        "durationFormatted": "4:07",
-        "spotifyUrl": "https://open.spotify.com/track/3P1vj97D6iFqBR0VLvJ0wt",
-        "uri": "spotify:track:3P1vj97D6iFqBR0VLvJ0wt"
-      },
-      {
-        "id": "6zKrcVCI8YcAreO7Vf4gv1",
-        "name": "Aşk İşini Biliyor",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 247040,
-        "durationFormatted": "4:07",
-        "spotifyUrl": "https://open.spotify.com/track/6zKrcVCI8YcAreO7Vf4gv1",
-        "uri": "spotify:track:6zKrcVCI8YcAreO7Vf4gv1"
-      },
-      {
-        "id": "2mNBYZip5RWMVdV9ui11Js",
-        "name": "Bir Umut İşte",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 205840,
-        "durationFormatted": "3:25",
-        "spotifyUrl": "https://open.spotify.com/track/2mNBYZip5RWMVdV9ui11Js",
-        "uri": "spotify:track:2mNBYZip5RWMVdV9ui11Js"
-      },
-      {
-        "id": "0V7VzQuQU1UNXMzP5njCcg",
-        "name": "Ceylan",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 246240,
-        "durationFormatted": "4:06",
-        "spotifyUrl": "https://open.spotify.com/track/0V7VzQuQU1UNXMzP5njCcg",
-        "uri": "spotify:track:0V7VzQuQU1UNXMzP5njCcg"
-      },
-      {
-        "id": "3v87J7qLas7a986Cc6ztO4",
-        "name": "Dostlar Kahvesi",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 194840,
-        "durationFormatted": "3:14",
-        "spotifyUrl": "https://open.spotify.com/track/3v87J7qLas7a986Cc6ztO4",
-        "uri": "spotify:track:3v87J7qLas7a986Cc6ztO4"
-      },
-      {
-        "id": "0yCCQJKqMUdN8Pcf6U9o00",
-        "name": "Ne Güzel Olur",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "4li4dx5mFgZlMVeHlARBHP",
-            "name": "Nazan Öncel"
-          }
-        ],
-        "artistNames": "Nazan Öncel",
-        "album": {
-          "id": "7cowm1nChIszYiHSR4Y2wm",
-          "name": "Bazı Şeyler",
-          "releaseYear": "2014"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851daa40290fefd14ff496d37df",
-        "durationMs": 214720,
-        "durationFormatted": "3:34",
-        "spotifyUrl": "https://open.spotify.com/track/0yCCQJKqMUdN8Pcf6U9o00",
-        "uri": "spotify:track:0yCCQJKqMUdN8Pcf6U9o00"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273daa40290fefd14ff496d37df",
-    "spotifyUrl": "https://open.spotify.com/album/7cowm1nChIszYiHSR4Y2wm",
-    "addedAt": "2020-01-01T03:38:44Z"
   },
   {
     "id": "5WkygXPI4QtIGmY3QbyTuW",

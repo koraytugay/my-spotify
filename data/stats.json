@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 600,
+  "totalLikedSongs": 605,
   "totalPlaylists": 14,
   "totalSavedAlbums": 98,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 156252048,
-  "totalDurationHours": 43.4,
+  "totalDurationMs": 157566178,
+  "totalDurationHours": 43.8,
   "totalDurationDays": 1.8,
-  "totalDurationFormatted": "43 hrs 24 mins",
-  "uniqueArtistsCount": 502,
+  "totalDurationFormatted": "43 hrs 46 mins",
+  "uniqueArtistsCount": 503,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -23,7 +23,7 @@
     },
     {
       "name": "Erkin Koray",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Yavuz Çetin",
@@ -86,6 +86,10 @@
       "count": 4
     },
     {
+      "name": "Barış Manço",
+      "count": 3
+    },
+    {
       "name": "Gaye Su Akyol",
       "count": 3
     },
@@ -124,19 +128,15 @@
     {
       "name": "Dire Straits",
       "count": 3
-    },
-    {
-      "name": "Bill Withers",
-      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "1980s": 87,
+    "1990s": 135,
+    "2000s": 145,
     "2020s": 26,
-    "2000s": 144,
     "2010s": 148,
-    "1990s": 134,
-    "1980s": 84,
     "1970s": 45,
     "1960s": 18,
     "1950s": 1
@@ -162,17 +162,17 @@
     "1980": 10,
     "1981": 11,
     "1982": 3,
-    "1983": 5,
+    "1983": 6,
     "1984": 12,
     "1985": 7,
     "1986": 7,
     "1987": 15,
     "1988": 6,
-    "1989": 8,
+    "1989": 10,
     "1990": 8,
     "1991": 9,
     "1992": 10,
-    "1993": 12,
+    "1993": 13,
     "1994": 11,
     "1995": 7,
     "1996": 22,
@@ -185,7 +185,7 @@
     "2003": 12,
     "2004": 16,
     "2005": 13,
-    "2006": 16,
+    "2006": 17,
     "2007": 16,
     "2008": 13,
     "2009": 18,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-08-24T02:14:56.795Z"
+  "lastUpdated": "2026-08-24T16:21:47.533Z"
 }

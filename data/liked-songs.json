@@ -1,5 +1,167 @@
 [
   {
+    "id": "0pGQ7ie0yvg79MrIlR0wDt",
+    "name": "Alla Beni Pulla Beni",
+    "artists": [
+      {
+        "id": "3eVuump9qyK0YCQQo4mKbc",
+        "name": "Barış Manço"
+      }
+    ],
+    "artistNames": "Barış Manço",
+    "album": {
+      "id": "1hvLeIVO5s6PvhsoE7Fxqf",
+      "name": "Hal Hal",
+      "releaseDate": "1989-12-22",
+      "releaseYear": "1989",
+      "totalTracks": 16
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27362358e5e64f054945271b6ad",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485162358e5e64f054945271b6ad",
+    "durationMs": 243000,
+    "durationFormatted": "4:03",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/0pGQ7ie0yvg79MrIlR0wDt",
+    "uri": "spotify:track:0pGQ7ie0yvg79MrIlR0wDt",
+    "addedAt": "2026-08-24T14:02:43Z",
+    "addedDate": "2026-08-24"
+  },
+  {
+    "id": "1VcwOeJa1rvaXbmNyoK70W",
+    "name": "Mor Menekşe",
+    "artists": [
+      {
+        "id": "3iVIrcJmrV7GawrxVWsBUF",
+        "name": "Nilüfer"
+      }
+    ],
+    "artistNames": "Nilüfer",
+    "album": {
+      "id": "3flpWP3fNsTYeheAxlbsG1",
+      "name": "Esmer Günler",
+      "releaseDate": "1989",
+      "releaseYear": "1989",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27335a126a3f398badac5938c4a",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485135a126a3f398badac5938c4a",
+    "durationMs": 183200,
+    "durationFormatted": "3:03",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/1VcwOeJa1rvaXbmNyoK70W",
+    "uri": "spotify:track:1VcwOeJa1rvaXbmNyoK70W",
+    "addedAt": "2026-08-24T13:50:37Z",
+    "addedDate": "2026-08-24"
+  },
+  {
+    "id": "0YED4pCW0UsmwAmdSebTUQ",
+    "name": "Öyle Bir Geçer",
+    "artists": [
+      {
+        "id": "4o3Nv2BAyoZkyGaRXv4rT3",
+        "name": "Erkin Koray"
+      }
+    ],
+    "artistNames": "Erkin Koray",
+    "album": {
+      "id": "0oB0aQHMxU3iG5isMArJVN",
+      "name": "Dünden Esintiler / Benden Sana, Vol.4",
+      "releaseDate": "1993-08-27",
+      "releaseYear": "1993",
+      "totalTracks": 8
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27368c6e0ed7c56433ec1874bc8",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485168c6e0ed7c56433ec1874bc8",
+    "durationMs": 340776,
+    "durationFormatted": "5:40",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/0YED4pCW0UsmwAmdSebTUQ",
+    "uri": "spotify:track:0YED4pCW0UsmwAmdSebTUQ",
+    "addedAt": "2026-08-24T13:39:37Z",
+    "addedDate": "2026-08-24"
+  },
+  {
+    "id": "11Op7qrdZ2Ojt27eRx7uCJ",
+    "name": "Deli Divane",
+    "artists": [
+      {
+        "id": "6zzBsqAEDo53s2dSeZzWvo",
+        "name": "Erol Evgin"
+      }
+    ],
+    "artistNames": "Erol Evgin",
+    "album": {
+      "id": "3g3Bv6ECVp2AA5kFlluLe3",
+      "name": "Tüm Bir Yaşam",
+      "releaseDate": "2006-01-01",
+      "releaseYear": "2006",
+      "totalTracks": 15
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27361e34ae391974ebf9e2f4328",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485161e34ae391974ebf9e2f4328",
+    "durationMs": 191200,
+    "durationFormatted": "3:11",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/11Op7qrdZ2Ojt27eRx7uCJ",
+    "uri": "spotify:track:11Op7qrdZ2Ojt27eRx7uCJ",
+    "addedAt": "2026-08-24T13:36:45Z",
+    "addedDate": "2026-08-24"
+  },
+  {
+    "id": "6tHwJ9YDzDsWfZAqfcBKWC",
+    "name": "Dönence",
+    "artists": [
+      {
+        "id": "3eVuump9qyK0YCQQo4mKbc",
+        "name": "Barış Manço"
+      }
+    ],
+    "artistNames": "Barış Manço",
+    "album": {
+      "id": "1hvLeIVO5s6PvhsoE7Fxqf",
+      "name": "Hal Hal",
+      "releaseDate": "1989-12-22",
+      "releaseYear": "1989",
+      "totalTracks": 16
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27362358e5e64f054945271b6ad",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485162358e5e64f054945271b6ad",
+    "durationMs": 404768,
+    "durationFormatted": "6:44",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6tHwJ9YDzDsWfZAqfcBKWC",
+    "uri": "spotify:track:6tHwJ9YDzDsWfZAqfcBKWC",
+    "addedAt": "2026-08-24T13:14:16Z",
+    "addedDate": "2026-08-24"
+  },
+  {
+    "id": "6aA4cRSnUb5B1sSfLP0eXi",
+    "name": "Uykusuz Her Gece",
+    "artists": [
+      {
+        "id": "27XMnTLvCO7t3qGlQyTMkF",
+        "name": "Ajda Pekkan"
+      }
+    ],
+    "artistNames": "Ajda Pekkan",
+    "album": {
+      "id": "7DIlfmw6CAE1J8tp2QqgAJ",
+      "name": "Süperstar 83",
+      "releaseDate": "1983-04-01",
+      "releaseYear": "1983",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c08beb27a550b2a3490a6c0a",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c08beb27a550b2a3490a6c0a",
+    "durationMs": 197026,
+    "durationFormatted": "3:17",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6aA4cRSnUb5B1sSfLP0eXi",
+    "uri": "spotify:track:6aA4cRSnUb5B1sSfLP0eXi",
+    "addedAt": "2026-08-24T13:08:12Z",
+    "addedDate": "2026-08-24"
+  },
+  {
     "id": "20K0BwwzSchxPyuvrwQ94O",
     "name": "Anadolu Ejderi",
     "artists": [
@@ -15123,33 +15285,6 @@
     "uri": "spotify:track:2yWuMt4oYwf4zAYz8Z3Tno",
     "addedAt": "2017-02-05T07:23:56Z",
     "addedDate": "2017-02-05"
-  },
-  {
-    "id": "6mxk16qj6voBakMjXQr1o4",
-    "name": "Alla Beni Pulla Beni",
-    "artists": [
-      {
-        "id": "3eVuump9qyK0YCQQo4mKbc",
-        "name": "Barış Manço"
-      }
-    ],
-    "artistNames": "Barış Manço",
-    "album": {
-      "id": "2Q99eFm7S7q7ji5Kiqz6ik",
-      "name": "Hal Hal",
-      "releaseDate": "1989-12-22",
-      "releaseYear": "1989",
-      "totalTracks": 16
-    },
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2734c7b3d7060578016a82a8a8d",
-    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048514c7b3d7060578016a82a8a8d",
-    "durationMs": 245840,
-    "durationFormatted": "4:05",
-    "explicit": false,
-    "spotifyUrl": "https://open.spotify.com/track/6mxk16qj6voBakMjXQr1o4",
-    "uri": "spotify:track:6mxk16qj6voBakMjXQr1o4",
-    "addedAt": "2016-11-06T15:14:23Z",
-    "addedDate": "2016-11-06"
   },
   {
     "id": "6hs3SDnbO3f6VQuPO4KBEb",
