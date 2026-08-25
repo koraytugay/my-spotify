@@ -1,5 +1,254 @@
 [
   {
+    "id": "7sJ4v9gqDMHIP0ooLT45oX",
+    "name": "Herkes Aynı Hayatta",
+    "artists": [
+      {
+        "id": "0ylYRIvKTpv9uvTfKbYjM0",
+        "name": "Mehmet Erdem"
+      }
+    ],
+    "artistNames": "Mehmet Erdem",
+    "releaseDate": "2012-08-06",
+    "releaseYear": "2012",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "57vXAlZzgRl3xNyee3klrk",
+        "name": "Bir Harmanım Bu Akşam",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 288840,
+        "durationFormatted": "4:48",
+        "spotifyUrl": "https://open.spotify.com/track/57vXAlZzgRl3xNyee3klrk",
+        "uri": "spotify:track:57vXAlZzgRl3xNyee3klrk"
+      },
+      {
+        "id": "6kR6JFF4BHocK65hbII5Ew",
+        "name": "Herkes Aynı Hayatta",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 261092,
+        "durationFormatted": "4:21",
+        "spotifyUrl": "https://open.spotify.com/track/6kR6JFF4BHocK65hbII5Ew",
+        "uri": "spotify:track:6kR6JFF4BHocK65hbII5Ew"
+      },
+      {
+        "id": "2cREhTa6hDwqqzQrGy4oPP",
+        "name": "Olur Ya",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 254106,
+        "durationFormatted": "4:14",
+        "spotifyUrl": "https://open.spotify.com/track/2cREhTa6hDwqqzQrGy4oPP",
+        "uri": "spotify:track:2cREhTa6hDwqqzQrGy4oPP"
+      },
+      {
+        "id": "3JVw7lRX199TkPcDMtkol6",
+        "name": "Haydi Gel Gidelim",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 210466,
+        "durationFormatted": "3:30",
+        "spotifyUrl": "https://open.spotify.com/track/3JVw7lRX199TkPcDMtkol6",
+        "uri": "spotify:track:3JVw7lRX199TkPcDMtkol6"
+      },
+      {
+        "id": "2y9YwDQ9ehBkV0wLB6vm5o",
+        "name": "Yalan",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 294040,
+        "durationFormatted": "4:54",
+        "spotifyUrl": "https://open.spotify.com/track/2y9YwDQ9ehBkV0wLB6vm5o",
+        "uri": "spotify:track:2y9YwDQ9ehBkV0wLB6vm5o"
+      },
+      {
+        "id": "7zoBAESQSuNw8froX20kL3",
+        "name": "Hakim Bey",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 255346,
+        "durationFormatted": "4:15",
+        "spotifyUrl": "https://open.spotify.com/track/7zoBAESQSuNw8froX20kL3",
+        "uri": "spotify:track:7zoBAESQSuNw8froX20kL3"
+      },
+      {
+        "id": "5sk42jaTOEEr2g37Bipc4p",
+        "name": "Hayat Bu",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 256866,
+        "durationFormatted": "4:16",
+        "spotifyUrl": "https://open.spotify.com/track/5sk42jaTOEEr2g37Bipc4p",
+        "uri": "spotify:track:5sk42jaTOEEr2g37Bipc4p"
+      },
+      {
+        "id": "5fioEAzmD4j99qqLZtnxQm",
+        "name": "Beni Aldatma",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 223080,
+        "durationFormatted": "3:43",
+        "spotifyUrl": "https://open.spotify.com/track/5fioEAzmD4j99qqLZtnxQm",
+        "uri": "spotify:track:5fioEAzmD4j99qqLZtnxQm"
+      },
+      {
+        "id": "53P5CXHjRuJwllJws49kW2",
+        "name": "Sen Mutlu Ol Ne Olur",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 248306,
+        "durationFormatted": "4:08",
+        "spotifyUrl": "https://open.spotify.com/track/53P5CXHjRuJwllJws49kW2",
+        "uri": "spotify:track:53P5CXHjRuJwllJws49kW2"
+      },
+      {
+        "id": "0wFewQ1MeDfA1bxIk0Y9IJ",
+        "name": "Dünya Dönüyor",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0ylYRIvKTpv9uvTfKbYjM0",
+            "name": "Mehmet Erdem"
+          }
+        ],
+        "artistNames": "Mehmet Erdem",
+        "album": {
+          "id": "7sJ4v9gqDMHIP0ooLT45oX",
+          "name": "Herkes Aynı Hayatta",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
+        "durationMs": 222560,
+        "durationFormatted": "3:42",
+        "spotifyUrl": "https://open.spotify.com/track/0wFewQ1MeDfA1bxIk0Y9IJ",
+        "uri": "spotify:track:0wFewQ1MeDfA1bxIk0Y9IJ"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
+    "spotifyUrl": "https://open.spotify.com/album/7sJ4v9gqDMHIP0ooLT45oX",
+    "addedAt": "2022-04-19T00:06:26Z"
+  },
+  {
     "id": "0sg5QHD8foYQh3Ez4tLAfv",
     "name": "Ebruli",
     "artists": [
@@ -9945,255 +10194,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ca62a0c638b06dad79ed3ae3",
     "spotifyUrl": "https://open.spotify.com/album/0a4KL551wKL7l8O6xU0nlB",
     "addedAt": "2020-01-29T15:31:03Z"
-  },
-  {
-    "id": "7sJ4v9gqDMHIP0ooLT45oX",
-    "name": "Herkes Aynı Hayatta",
-    "artists": [
-      {
-        "id": "0ylYRIvKTpv9uvTfKbYjM0",
-        "name": "Mehmet Erdem"
-      }
-    ],
-    "artistNames": "Mehmet Erdem",
-    "releaseDate": "2012-08-06",
-    "releaseYear": "2012",
-    "totalTracks": 10,
-    "tracks": [
-      {
-        "id": "57vXAlZzgRl3xNyee3klrk",
-        "name": "Bir Harmanım Bu Akşam",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 288840,
-        "durationFormatted": "4:48",
-        "spotifyUrl": "https://open.spotify.com/track/57vXAlZzgRl3xNyee3klrk",
-        "uri": "spotify:track:57vXAlZzgRl3xNyee3klrk"
-      },
-      {
-        "id": "6kR6JFF4BHocK65hbII5Ew",
-        "name": "Herkes Aynı Hayatta",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 261092,
-        "durationFormatted": "4:21",
-        "spotifyUrl": "https://open.spotify.com/track/6kR6JFF4BHocK65hbII5Ew",
-        "uri": "spotify:track:6kR6JFF4BHocK65hbII5Ew"
-      },
-      {
-        "id": "2cREhTa6hDwqqzQrGy4oPP",
-        "name": "Olur Ya",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 254106,
-        "durationFormatted": "4:14",
-        "spotifyUrl": "https://open.spotify.com/track/2cREhTa6hDwqqzQrGy4oPP",
-        "uri": "spotify:track:2cREhTa6hDwqqzQrGy4oPP"
-      },
-      {
-        "id": "3JVw7lRX199TkPcDMtkol6",
-        "name": "Haydi Gel Gidelim",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 210466,
-        "durationFormatted": "3:30",
-        "spotifyUrl": "https://open.spotify.com/track/3JVw7lRX199TkPcDMtkol6",
-        "uri": "spotify:track:3JVw7lRX199TkPcDMtkol6"
-      },
-      {
-        "id": "2y9YwDQ9ehBkV0wLB6vm5o",
-        "name": "Yalan",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 294040,
-        "durationFormatted": "4:54",
-        "spotifyUrl": "https://open.spotify.com/track/2y9YwDQ9ehBkV0wLB6vm5o",
-        "uri": "spotify:track:2y9YwDQ9ehBkV0wLB6vm5o"
-      },
-      {
-        "id": "7zoBAESQSuNw8froX20kL3",
-        "name": "Hakim Bey",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 255346,
-        "durationFormatted": "4:15",
-        "spotifyUrl": "https://open.spotify.com/track/7zoBAESQSuNw8froX20kL3",
-        "uri": "spotify:track:7zoBAESQSuNw8froX20kL3"
-      },
-      {
-        "id": "5sk42jaTOEEr2g37Bipc4p",
-        "name": "Hayat Bu",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 256866,
-        "durationFormatted": "4:16",
-        "spotifyUrl": "https://open.spotify.com/track/5sk42jaTOEEr2g37Bipc4p",
-        "uri": "spotify:track:5sk42jaTOEEr2g37Bipc4p"
-      },
-      {
-        "id": "5fioEAzmD4j99qqLZtnxQm",
-        "name": "Beni Aldatma",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 223080,
-        "durationFormatted": "3:43",
-        "spotifyUrl": "https://open.spotify.com/track/5fioEAzmD4j99qqLZtnxQm",
-        "uri": "spotify:track:5fioEAzmD4j99qqLZtnxQm"
-      },
-      {
-        "id": "53P5CXHjRuJwllJws49kW2",
-        "name": "Sen Mutlu Ol Ne Olur",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 248306,
-        "durationFormatted": "4:08",
-        "spotifyUrl": "https://open.spotify.com/track/53P5CXHjRuJwllJws49kW2",
-        "uri": "spotify:track:53P5CXHjRuJwllJws49kW2"
-      },
-      {
-        "id": "0wFewQ1MeDfA1bxIk0Y9IJ",
-        "name": "Dünya Dönüyor",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "0ylYRIvKTpv9uvTfKbYjM0",
-            "name": "Mehmet Erdem"
-          }
-        ],
-        "artistNames": "Mehmet Erdem",
-        "album": {
-          "id": "7sJ4v9gqDMHIP0ooLT45oX",
-          "name": "Herkes Aynı Hayatta",
-          "releaseYear": "2012"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ee541148641014c9ccc6358",
-        "durationMs": 222560,
-        "durationFormatted": "3:42",
-        "spotifyUrl": "https://open.spotify.com/track/0wFewQ1MeDfA1bxIk0Y9IJ",
-        "uri": "spotify:track:0wFewQ1MeDfA1bxIk0Y9IJ"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ee541148641014c9ccc6358",
-    "spotifyUrl": "https://open.spotify.com/album/7sJ4v9gqDMHIP0ooLT45oX",
-    "addedAt": "2022-04-19T00:06:26Z"
   },
   {
     "id": "1kqpjWc4B5MLRltt5Bd3Tv",

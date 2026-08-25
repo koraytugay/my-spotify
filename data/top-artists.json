@@ -217,21 +217,21 @@
   },
   {
     "rank": 25,
-    "id": "0ou1EkRCAJcfRv2P1qKVPo",
-    "name": "Flört",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc673f392f7f1de80088217ca",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
-  },
-  {
-    "rank": 26,
     "id": "4o3Nv2BAyoZkyGaRXv4rT3",
     "name": "Erkin Koray",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
+  },
+  {
+    "rank": 26,
+    "id": "0ou1EkRCAJcfRv2P1qKVPo",
+    "name": "Flört",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc673f392f7f1de80088217ca",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
   },
   {
     "rank": 27,
@@ -298,6 +298,15 @@
   },
   {
     "rank": 34,
+    "id": "2jbrqAuwSdvwcMTbtvncND",
+    "name": "MFÖ",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb22160d23ce04035188bb3948",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2jbrqAuwSdvwcMTbtvncND"
+  },
+  {
+    "rank": 35,
     "id": "5KORW1YGiERJqfuYjXMCyz",
     "name": "Mattafix",
     "genres": [],
@@ -306,7 +315,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5KORW1YGiERJqfuYjXMCyz"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "id": "4M6Z1wubeKtwPqbjJygTOc",
     "name": "Shontelle",
     "genres": [],
@@ -315,22 +324,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/4M6Z1wubeKtwPqbjJygTOc"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "id": "5EHvXKnNz78jkAVgTQLQ5O",
     "name": "Dark Tranquillity",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb473898d318f6958efb692c2f",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/5EHvXKnNz78jkAVgTQLQ5O"
-  },
-  {
-    "rank": 37,
-    "id": "2jbrqAuwSdvwcMTbtvncND",
-    "name": "MFÖ",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb22160d23ce04035188bb3948",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/2jbrqAuwSdvwcMTbtvncND"
   },
   {
     "rank": 38,
@@ -361,6 +361,15 @@
   },
   {
     "rank": 41,
+    "id": "6WDnC2nx6hEPdtcU2LLGtE",
+    "name": "Ezginin Günlügü",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
+  },
+  {
+    "rank": 42,
     "id": "1O8CSXsPwEqxcoBE360PPO",
     "name": "Stratovarius",
     "genres": [],
@@ -369,7 +378,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "id": "2QsEbhCFyEzogaOtMYeXO4",
     "name": "Düş Sokağı Sakinleri",
     "genres": [],
@@ -378,7 +387,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2QsEbhCFyEzogaOtMYeXO4"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "id": "6SLAMfhOi7UJI0fMztaK0m",
     "name": "Rainbow",
     "genres": [],
@@ -387,7 +396,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "id": "4vnmifnGOeRXfNTRtgd4Tj",
     "name": "Sexion d'Assaut",
     "genres": [],
@@ -396,7 +405,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4vnmifnGOeRXfNTRtgd4Tj"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "id": "64d1rUxfizSAOE9UbMnUZd",
     "name": "Sezen Aksu",
     "genres": [],
@@ -405,7 +414,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/64d1rUxfizSAOE9UbMnUZd"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "genres": [],
@@ -414,22 +423,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "id": "0WwSkZ7LtFUFjGjMZBMt6T",
     "name": "Dire Straits",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T"
-  },
-  {
-    "rank": 48,
-    "id": "6WDnC2nx6hEPdtcU2LLGtE",
-    "name": "Ezginin Günlügü",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
   },
   {
     "rank": 49,
