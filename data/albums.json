@@ -1,5 +1,208 @@
 [
   {
+    "id": "2nPrqxgMHaDfqW7VjuQYGE",
+    "name": "Aégis",
+    "artists": [
+      {
+        "id": "31eXqCx5cAlItdGdoHMEOu",
+        "name": "Theatre Of Tragedy"
+      }
+    ],
+    "artistNames": "Theatre Of Tragedy",
+    "releaseDate": "1998-01-01",
+    "releaseYear": "1998",
+    "totalTracks": 8,
+    "tracks": [
+      {
+        "id": "4vkoYIgUmOrhiXbT8DMDEV",
+        "name": "Cassandra",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 408626,
+        "durationFormatted": "6:48",
+        "spotifyUrl": "https://open.spotify.com/track/4vkoYIgUmOrhiXbT8DMDEV",
+        "uri": "spotify:track:4vkoYIgUmOrhiXbT8DMDEV"
+      },
+      {
+        "id": "1td8KGmA2et6RsVCtOw6NG",
+        "name": "Lorelei",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 337600,
+        "durationFormatted": "5:37",
+        "spotifyUrl": "https://open.spotify.com/track/1td8KGmA2et6RsVCtOw6NG",
+        "uri": "spotify:track:1td8KGmA2et6RsVCtOw6NG"
+      },
+      {
+        "id": "6gEEMp4ZLpmhEs2zmjZLJ5",
+        "name": "Angélique",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 346106,
+        "durationFormatted": "5:46",
+        "spotifyUrl": "https://open.spotify.com/track/6gEEMp4ZLpmhEs2zmjZLJ5",
+        "uri": "spotify:track:6gEEMp4ZLpmhEs2zmjZLJ5"
+      },
+      {
+        "id": "13znae6fCaV9B3JDciXCMW",
+        "name": "Aoede",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 370866,
+        "durationFormatted": "6:10",
+        "spotifyUrl": "https://open.spotify.com/track/13znae6fCaV9B3JDciXCMW",
+        "uri": "spotify:track:13znae6fCaV9B3JDciXCMW"
+      },
+      {
+        "id": "5XnHRKpIuL902a4n0JqoZ0",
+        "name": "Siren",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 450960,
+        "durationFormatted": "7:30",
+        "spotifyUrl": "https://open.spotify.com/track/5XnHRKpIuL902a4n0JqoZ0",
+        "uri": "spotify:track:5XnHRKpIuL902a4n0JqoZ0"
+      },
+      {
+        "id": "2qURNRJHKUjc9aT398g0pf",
+        "name": "Venus",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 333000,
+        "durationFormatted": "5:33",
+        "spotifyUrl": "https://open.spotify.com/track/2qURNRJHKUjc9aT398g0pf",
+        "uri": "spotify:track:2qURNRJHKUjc9aT398g0pf"
+      },
+      {
+        "id": "5D6kMbIvTH3KH3UDdiiGh1",
+        "name": "Poppaea",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 347666,
+        "durationFormatted": "5:47",
+        "spotifyUrl": "https://open.spotify.com/track/5D6kMbIvTH3KH3UDdiiGh1",
+        "uri": "spotify:track:5D6kMbIvTH3KH3UDdiiGh1"
+      },
+      {
+        "id": "0A7rbcxlYLfdeNuDbO9qi6",
+        "name": "Bacchante",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "31eXqCx5cAlItdGdoHMEOu",
+            "name": "Theatre Of Tragedy"
+          }
+        ],
+        "artistNames": "Theatre Of Tragedy",
+        "album": {
+          "id": "2nPrqxgMHaDfqW7VjuQYGE",
+          "name": "Aégis",
+          "releaseYear": "1998"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851af6b567023c685829c273982",
+        "durationMs": 402666,
+        "durationFormatted": "6:42",
+        "spotifyUrl": "https://open.spotify.com/track/0A7rbcxlYLfdeNuDbO9qi6",
+        "uri": "spotify:track:0A7rbcxlYLfdeNuDbO9qi6"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273af6b567023c685829c273982",
+    "spotifyUrl": "https://open.spotify.com/album/2nPrqxgMHaDfqW7VjuQYGE",
+    "addedAt": "2026-08-26T12:33:22Z"
+  },
+  {
     "id": "7sJ4v9gqDMHIP0ooLT45oX",
     "name": "Herkes Aynı Hayatta",
     "artists": [

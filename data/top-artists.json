@@ -235,6 +235,15 @@
   },
   {
     "rank": 27,
+    "id": "0ylYRIvKTpv9uvTfKbYjM0",
+    "name": "Mehmet Erdem",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebec7d2c6098bd5602395c0eb1",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ylYRIvKTpv9uvTfKbYjM0"
+  },
+  {
+    "rank": 28,
     "id": "7G1GBhoKtEPnP86X2PvEYO",
     "name": "Nina Simone",
     "genres": [],
@@ -243,7 +252,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
   },
   {
-    "rank": 28,
+    "rank": 29,
     "id": "5M52tdBnJaKSvOpJGz8mfZ",
     "name": "Black Sabbath",
     "genres": [],
@@ -252,7 +261,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "id": "0VsS7WKuNEsKGNIWuiwSyZ",
     "name": "Gaye Su Akyol",
     "genres": [],
@@ -261,7 +270,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "id": "4uGB0nZ5d1iCXS3sHR3pzm",
     "name": "Gökhan Türkmen",
     "genres": [],
@@ -270,7 +279,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "id": "4tZwfgrHOc3mvqYlEYSvVi",
     "name": "Daft Punk",
     "genres": [],
@@ -279,22 +288,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
   },
   {
-    "rank": 32,
+    "rank": 33,
     "id": "2fYdUIUPS7aDdWCzb8Aw2k",
     "name": "Aşkın Nur Yengi",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
-  },
-  {
-    "rank": 33,
-    "id": "0ylYRIvKTpv9uvTfKbYjM0",
-    "name": "Mehmet Erdem",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebec7d2c6098bd5602395c0eb1",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0ylYRIvKTpv9uvTfKbYjM0"
   },
   {
     "rank": 34,
