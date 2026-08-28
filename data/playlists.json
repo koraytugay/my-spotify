@@ -1,5 +1,1706 @@
 [
   {
+    "id": "0CuGMaOjKOoGRYeJrCzPw5",
+    "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+    "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
+    "public": true,
+    "collaborative": false,
+    "tracksTotal": 80,
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "width": null
+      }
+    ],
+    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+    "owner": "MAFE 06",
+    "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
+    "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
+    "tracks": [
+      {
+        "id": "1qDrWA6lyx8cLECdZE7TV7",
+        "name": "Somebody That I Used To Know",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 244884,
+        "durationFormatted": "4:04",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d125c2d009d8388e01078361811e910f71966746",
+        "spotifyUrl": "https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7",
+        "uri": "spotify:track:1qDrWA6lyx8cLECdZE7TV7"
+      },
+      {
+        "id": "1jitlWJElKJ10yt3dKN9Xv",
+        "name": "Báilame",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 200869,
+        "durationFormatted": "3:20",
+        "previewUrl": "https://p.scdn.co/mp3-preview/56d082c11a657d5825e56f9c2718a94e7541765e",
+        "spotifyUrl": "https://open.spotify.com/track/1jitlWJElKJ10yt3dKN9Xv",
+        "uri": "spotify:track:1jitlWJElKJ10yt3dKN9Xv"
+      },
+      {
+        "id": "3xsLS561f8MKfcmcgPgFxK",
+        "name": "Glasswater Glow",
+        "artists": [
+          {
+            "name": "John Carnahan"
+          }
+        ],
+        "artistNames": "John Carnahan",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 211920,
+        "durationFormatted": "3:31",
+        "previewUrl": "https://p.scdn.co/mp3-preview/e72ff8c1322c184a5469498a2232c6c9c55d2aa7",
+        "spotifyUrl": "https://open.spotify.com/track/3xsLS561f8MKfcmcgPgFxK",
+        "uri": "spotify:track:3xsLS561f8MKfcmcgPgFxK"
+      },
+      {
+        "id": "30Ibd8DfBVvHriUOdJPpHA",
+        "name": "Otra Noche - Remix",
+        "artists": [
+          {
+            "name": "Norci Morales, Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 181395,
+        "durationFormatted": "3:01",
+        "previewUrl": "https://p.scdn.co/mp3-preview/cbf3768a8f3adeb9bd40cffb70905f2489f193ce",
+        "spotifyUrl": "https://open.spotify.com/track/30Ibd8DfBVvHriUOdJPpHA",
+        "uri": "spotify:track:30Ibd8DfBVvHriUOdJPpHA"
+      },
+      {
+        "id": "2EDJkuEd5tvxSAPiXCHACe",
+        "name": "Somebody That I Used To Know - 4FRNT Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, 4FRNT"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, 4FRNT",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 318052,
+        "durationFormatted": "5:18",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d47de45dad8e11cd70968da07b8d4b1781d952f6",
+        "spotifyUrl": "https://open.spotify.com/track/2EDJkuEd5tvxSAPiXCHACe",
+        "uri": "spotify:track:2EDJkuEd5tvxSAPiXCHACe"
+      },
+      {
+        "id": "48YVMdiOvcc5tyXq2Xq8iP",
+        "name": "Still Beats You",
+        "artists": [
+          {
+            "name": "RSAI"
+          }
+        ],
+        "artistNames": "RSAI",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 210000,
+        "durationFormatted": "3:30",
+        "previewUrl": "https://p.scdn.co/mp3-preview/8628cf934712fb03f84a4f21206655fdb96aa86c",
+        "spotifyUrl": "https://open.spotify.com/track/48YVMdiOvcc5tyXq2Xq8iP",
+        "uri": "spotify:track:48YVMdiOvcc5tyXq2Xq8iP"
+      },
+      {
+        "id": "5qQRCOGEDEggAE54ZJCFfq",
+        "name": "Me Supere",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 189130,
+        "durationFormatted": "3:09",
+        "previewUrl": "https://p.scdn.co/mp3-preview/eee71c5817650743748ac7df3a8a6025cb963e47",
+        "spotifyUrl": "https://open.spotify.com/track/5qQRCOGEDEggAE54ZJCFfq",
+        "uri": "spotify:track:5qQRCOGEDEggAE54ZJCFfq"
+      },
+      {
+        "id": "2UP6LiNL3Z70AJL7dZRe1W",
+        "name": "Eyes Wide Open - Cornelius Remix",
+        "artists": [
+          {
+            "name": "Gotye, Keigo Oyamada"
+          }
+        ],
+        "artistNames": "Gotye, Keigo Oyamada",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 223461,
+        "durationFormatted": "3:43",
+        "previewUrl": "https://p.scdn.co/mp3-preview/cecdcf4f652e3477f11b750c6b6f84fffb0443f8",
+        "spotifyUrl": "https://open.spotify.com/track/2UP6LiNL3Z70AJL7dZRe1W",
+        "uri": "spotify:track:2UP6LiNL3Z70AJL7dZRe1W"
+      },
+      {
+        "id": "0agQ9vIV7NP4dntGKLcCXO",
+        "name": "Somebody (2024)",
+        "artists": [
+          {
+            "name": "Gotye, FISHER, Chris Lake, Kimbra, Sante Sansone"
+          }
+        ],
+        "artistNames": "Gotye, FISHER, Chris Lake, Kimbra, Sante Sansone",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 153518,
+        "durationFormatted": "2:33",
+        "previewUrl": "https://p.scdn.co/mp3-preview/84e41be344cbbda874dcfcc803a6f39f156e9fc2",
+        "spotifyUrl": "https://open.spotify.com/track/0agQ9vIV7NP4dntGKLcCXO",
+        "uri": "spotify:track:0agQ9vIV7NP4dntGKLcCXO"
+      },
+      {
+        "id": "7IJWm0ljiR1rMGKrTl7s2w",
+        "name": "Hearts A Mess (Live at The Songroom)",
+        "artists": [
+          {
+            "name": "Monty Cotton, The Basics, Gotye"
+          }
+        ],
+        "artistNames": "Monty Cotton, The Basics, Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 279164,
+        "durationFormatted": "4:39",
+        "previewUrl": "https://p.scdn.co/mp3-preview/42b0950badaf5fb7320dd0c212a785bcbe5e2f68",
+        "spotifyUrl": "https://open.spotify.com/track/7IJWm0ljiR1rMGKrTl7s2w",
+        "uri": "spotify:track:7IJWm0ljiR1rMGKrTl7s2w"
+      },
+      {
+        "id": "5M4oMstH9c86pOMQYLZ3jX",
+        "name": "Somebody That I Used To Know - Dan Aux Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Dan Aux"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Dan Aux",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 294883,
+        "durationFormatted": "4:54",
+        "previewUrl": "https://p.scdn.co/mp3-preview/bf77856edfb51337cdaefa37dbe8c69f5f2c5a78",
+        "spotifyUrl": "https://open.spotify.com/track/5M4oMstH9c86pOMQYLZ3jX",
+        "uri": "spotify:track:5M4oMstH9c86pOMQYLZ3jX"
+      },
+      {
+        "id": "5oUEJghF544pRYBtZ5RjgO",
+        "name": "Fickle Wind",
+        "artists": [
+          {
+            "name": "Holy Hannah!"
+          }
+        ],
+        "artistNames": "Holy Hannah!",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 247547,
+        "durationFormatted": "4:07",
+        "previewUrl": "https://p.scdn.co/mp3-preview/68d5f53f438e999081f90aca798d0a525fbafc32",
+        "spotifyUrl": "https://open.spotify.com/track/5oUEJghF544pRYBtZ5RjgO",
+        "uri": "spotify:track:5oUEJghF544pRYBtZ5RjgO"
+      },
+      {
+        "id": "0UtSCr8KqKDGhwHmsnrIwH",
+        "name": "De Revista",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 177446,
+        "durationFormatted": "2:57",
+        "previewUrl": "https://p.scdn.co/mp3-preview/aad54fded476946e3977e01ad0ea36d2908b599e",
+        "spotifyUrl": "https://open.spotify.com/track/0UtSCr8KqKDGhwHmsnrIwH",
+        "uri": "spotify:track:0UtSCr8KqKDGhwHmsnrIwH"
+      },
+      {
+        "id": "66Ln5gw710WLRCnKstrE2e",
+        "name": "Somebody That I Used To Know - Faux Pas Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Faux Pas"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Faux Pas",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 239000,
+        "durationFormatted": "3:59",
+        "previewUrl": "https://p.scdn.co/mp3-preview/b68b9bd31c11cd1771a3732d164584b2d83ec7d2",
+        "spotifyUrl": "https://open.spotify.com/track/66Ln5gw710WLRCnKstrE2e",
+        "uri": "spotify:track:66Ln5gw710WLRCnKstrE2e"
+      },
+      {
+        "id": "33I0daJjUGJQNsV3ZbnncM",
+        "name": "Eyes Wide Open - Tanlines Remix",
+        "artists": [
+          {
+            "name": "Gotye, Tanlines"
+          }
+        ],
+        "artistNames": "Gotye, Tanlines",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 202406,
+        "durationFormatted": "3:22",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d798d37eaa9e01a5c73d39107be694720b9c4f36",
+        "spotifyUrl": "https://open.spotify.com/track/33I0daJjUGJQNsV3ZbnncM",
+        "uri": "spotify:track:33I0daJjUGJQNsV3ZbnncM"
+      },
+      {
+        "id": "171kkp7nDioO4cg65hA9Ic",
+        "name": "One More Time",
+        "artists": [
+          {
+            "name": "True AfterDARK"
+          }
+        ],
+        "artistNames": "True AfterDARK",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 177740,
+        "durationFormatted": "2:57",
+        "previewUrl": "https://p.scdn.co/mp3-preview/683bbc8a944a72d8867f01a08686777e9a8af948",
+        "spotifyUrl": "https://open.spotify.com/track/171kkp7nDioO4cg65hA9Ic",
+        "uri": "spotify:track:171kkp7nDioO4cg65hA9Ic"
+      },
+      {
+        "id": "5yxiUxWYuIoZjLdZgAPygR",
+        "name": "Sol, Playa Y Arena",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 285211,
+        "durationFormatted": "4:45",
+        "previewUrl": "https://p.scdn.co/mp3-preview/f3d7991c677d752a33f949230746b89a36e86e1c",
+        "spotifyUrl": "https://open.spotify.com/track/5yxiUxWYuIoZjLdZgAPygR",
+        "uri": "spotify:track:5yxiUxWYuIoZjLdZgAPygR"
+      },
+      {
+        "id": "3neTp2db8L6qXnWtIROIjj",
+        "name": "Eyes Wide Open - Alien Delon Remix",
+        "artists": [
+          {
+            "name": "Gotye, Alien Delon"
+          }
+        ],
+        "artistNames": "Gotye, Alien Delon",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 351447,
+        "durationFormatted": "5:51",
+        "previewUrl": "https://p.scdn.co/mp3-preview/aa3e3917a0f0672e355768b534943947a1279228",
+        "spotifyUrl": "https://open.spotify.com/track/3neTp2db8L6qXnWtIROIjj",
+        "uri": "spotify:track:3neTp2db8L6qXnWtIROIjj"
+      },
+      {
+        "id": "1QDuDdqPOCXqKljSJhBrGX",
+        "name": "WBTTIU",
+        "artists": [
+          {
+            "name": "Atra Vim, The Joe Audio Project"
+          }
+        ],
+        "artistNames": "Atra Vim, The Joe Audio Project",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 273750,
+        "durationFormatted": "4:33",
+        "previewUrl": "https://p.scdn.co/mp3-preview/71e050367f0324c6d92e09929b1ff14bfd38d61d",
+        "spotifyUrl": "https://open.spotify.com/track/1QDuDdqPOCXqKljSJhBrGX",
+        "uri": "spotify:track:1QDuDdqPOCXqKljSJhBrGX"
+      },
+      {
+        "id": "0LbA2OXF3g21WO3vDPwHmC",
+        "name": "Enero En Nueva York",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 170930,
+        "durationFormatted": "2:50",
+        "previewUrl": "https://p.scdn.co/mp3-preview/1cbd006746d6a47d4ffc5474c006cab420c53a5b",
+        "spotifyUrl": "https://open.spotify.com/track/0LbA2OXF3g21WO3vDPwHmC",
+        "uri": "spotify:track:0LbA2OXF3g21WO3vDPwHmC"
+      },
+      {
+        "id": "714JpLoy4m9mZdOlP15eD0",
+        "name": "STILL DONT SLEEP",
+        "artists": [
+          {
+            "name": "DJ Mackey Presents"
+          }
+        ],
+        "artistNames": "DJ Mackey Presents",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 198360,
+        "durationFormatted": "3:18",
+        "previewUrl": "https://p.scdn.co/mp3-preview/8b867f70ee67379e81c4981cbd38fac377a7938a",
+        "spotifyUrl": "https://open.spotify.com/track/714JpLoy4m9mZdOlP15eD0",
+        "uri": "spotify:track:714JpLoy4m9mZdOlP15eD0"
+      },
+      {
+        "id": "04t0G1yf4nVc5qxTb8ASQu",
+        "name": "Mi Peor Error",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 163571,
+        "durationFormatted": "2:43",
+        "previewUrl": "https://p.scdn.co/mp3-preview/e8fb041b8dae9d78e7c06ce2eafae9e3021d37a5",
+        "spotifyUrl": "https://open.spotify.com/track/04t0G1yf4nVc5qxTb8ASQu",
+        "uri": "spotify:track:04t0G1yf4nVc5qxTb8ASQu"
+      },
+      {
+        "id": "7tF0g57CG25Ew3GX7wa67l",
+        "name": "Smoke And Mirrors",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 313185,
+        "durationFormatted": "5:13",
+        "previewUrl": "https://p.scdn.co/mp3-preview/777ab33db3089e0f843ead440ac1ad96e32f43f1",
+        "spotifyUrl": "https://open.spotify.com/track/7tF0g57CG25Ew3GX7wa67l",
+        "uri": "spotify:track:7tF0g57CG25Ew3GX7wa67l"
+      },
+      {
+        "id": "061tKS4Qr352fKRJhdB5FE",
+        "name": "Blast Off",
+        "artists": [
+          {
+            "name": "Silence Decibel and Colors"
+          }
+        ],
+        "artistNames": "Silence Decibel and Colors",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 193175,
+        "durationFormatted": "3:13",
+        "previewUrl": "https://p.scdn.co/mp3-preview/9005eccfe9cf6fdaf9a866d248c5d84e32a64ae1",
+        "spotifyUrl": "https://open.spotify.com/track/061tKS4Qr352fKRJhdB5FE",
+        "uri": "spotify:track:061tKS4Qr352fKRJhdB5FE"
+      },
+      {
+        "id": "5aDdG6MrOtxPiuPejIgj6F",
+        "name": "El Ganador",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 202666,
+        "durationFormatted": "3:22",
+        "previewUrl": "https://p.scdn.co/mp3-preview/cbfa3e2e8f2b88a4ea3bde86d3641c772ee3d47b",
+        "spotifyUrl": "https://open.spotify.com/track/5aDdG6MrOtxPiuPejIgj6F",
+        "uri": "spotify:track:5aDdG6MrOtxPiuPejIgj6F"
+      },
+      {
+        "id": "1ayisSgv2nI3EvADHizihe",
+        "name": "Starry Night",
+        "artists": [
+          {
+            "name": "Timi Afilaka"
+          }
+        ],
+        "artistNames": "Timi Afilaka",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 75333,
+        "durationFormatted": "1:15",
+        "previewUrl": "https://p.scdn.co/mp3-preview/ad888b4afe259a7191f3428f49b41831682d84aa",
+        "spotifyUrl": "https://open.spotify.com/track/1ayisSgv2nI3EvADHizihe",
+        "uri": "spotify:track:1ayisSgv2nI3EvADHizihe"
+      },
+      {
+        "id": "0nwi5cJKDYDGzXPrK1lzTO",
+        "name": "Otra Noche",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 180009,
+        "durationFormatted": "3:00",
+        "previewUrl": "https://p.scdn.co/mp3-preview/3de892cc2c43eec1fbc73234c31a4ef93e8ffb0e",
+        "spotifyUrl": "https://open.spotify.com/track/0nwi5cJKDYDGzXPrK1lzTO",
+        "uri": "spotify:track:0nwi5cJKDYDGzXPrK1lzTO"
+      },
+      {
+        "id": "0KBJnzUxJc1tN5rB3OZoPt",
+        "name": "State Of The Art",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 321931,
+        "durationFormatted": "5:21",
+        "previewUrl": "https://p.scdn.co/mp3-preview/b97eda194d79a39b4e7d11e3fb992e66e746fe0b",
+        "spotifyUrl": "https://open.spotify.com/track/0KBJnzUxJc1tN5rB3OZoPt",
+        "uri": "spotify:track:0KBJnzUxJc1tN5rB3OZoPt"
+      },
+      {
+        "id": "66GBxX2O0GJ8NyXauxshTT",
+        "name": "Electric Skeleton (Space Ghost)",
+        "artists": [
+          {
+            "name": "SmokeRelicA, Blvkzo Rose"
+          }
+        ],
+        "artistNames": "SmokeRelicA, Blvkzo Rose",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 152500,
+        "durationFormatted": "2:32",
+        "previewUrl": "https://p.scdn.co/mp3-preview/b82560277b6863a332df2b00895dd4c573c995c9",
+        "spotifyUrl": "https://open.spotify.com/track/66GBxX2O0GJ8NyXauxshTT",
+        "uri": "spotify:track:66GBxX2O0GJ8NyXauxshTT"
+      },
+      {
+        "id": "07uZjrjFWEUGNEL0mGLicl",
+        "name": "Nota Loca",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 177303,
+        "durationFormatted": "2:57",
+        "previewUrl": "https://p.scdn.co/mp3-preview/ebffbac895c05e1324f51fdf5c2d2d8c17faa7ab",
+        "spotifyUrl": "https://open.spotify.com/track/07uZjrjFWEUGNEL0mGLicl",
+        "uri": "spotify:track:07uZjrjFWEUGNEL0mGLicl"
+      },
+      {
+        "id": "312sd7Pt2sxoNY8vRSf6ZD",
+        "name": "Nothing Left",
+        "artists": [
+          {
+            "name": "Bunk Off Early"
+          }
+        ],
+        "artistNames": "Bunk Off Early",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 229599,
+        "durationFormatted": "3:49",
+        "previewUrl": "https://p.scdn.co/mp3-preview/ad74f61a9ef85c669f36191bc0624c031561aa77",
+        "spotifyUrl": "https://open.spotify.com/track/312sd7Pt2sxoNY8vRSf6ZD",
+        "uri": "spotify:track:312sd7Pt2sxoNY8vRSf6ZD"
+      },
+      {
+        "id": "2uJzzd1nnuTGgTF7nSBv1G",
+        "name": "Midnight Shadows",
+        "artists": [
+          {
+            "name": "Stidlmusic"
+          }
+        ],
+        "artistNames": "Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 128307,
+        "durationFormatted": "2:08",
+        "previewUrl": "https://p.scdn.co/mp3-preview/7e0fc0d740bed2eb01819f65eb1546a3f570d783",
+        "spotifyUrl": "https://open.spotify.com/track/2uJzzd1nnuTGgTF7nSBv1G",
+        "uri": "spotify:track:2uJzzd1nnuTGgTF7nSBv1G"
+      },
+      {
+        "id": "2maacdQEMtQzHXUlLaRvt1",
+        "name": "Back In My Old Room",
+        "artists": [
+          {
+            "name": "Casey Rennolds"
+          }
+        ],
+        "artistNames": "Casey Rennolds",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 179424,
+        "durationFormatted": "2:59",
+        "previewUrl": "https://p.scdn.co/mp3-preview/08e656ae9e56289ff696021c086ccfb3cdb5c4be",
+        "spotifyUrl": "https://open.spotify.com/track/2maacdQEMtQzHXUlLaRvt1",
+        "uri": "spotify:track:2maacdQEMtQzHXUlLaRvt1"
+      },
+      {
+        "id": "0dJsqEiakiGSz9xT3UdJsI",
+        "name": "Invention 1 Remixed",
+        "artists": [
+          {
+            "name": "Spyros Syrmos"
+          }
+        ],
+        "artistNames": "Spyros Syrmos",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 297500,
+        "durationFormatted": "4:57",
+        "previewUrl": "https://p.scdn.co/mp3-preview/90c619385b612e69dd71e32c78986256e1de7b8d",
+        "spotifyUrl": "https://open.spotify.com/track/0dJsqEiakiGSz9xT3UdJsI",
+        "uri": "spotify:track:0dJsqEiakiGSz9xT3UdJsI"
+      },
+      {
+        "id": "2155Oaz5YBYwpYNDldh7bi",
+        "name": "Midnight Shadows Slowed",
+        "artists": [
+          {
+            "name": "Stidlmusic"
+          }
+        ],
+        "artistNames": "Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 152586,
+        "durationFormatted": "2:32",
+        "previewUrl": "https://p.scdn.co/mp3-preview/cce961e3a150fef4ff63fe8384c8a3b90929ef71",
+        "spotifyUrl": "https://open.spotify.com/track/2155Oaz5YBYwpYNDldh7bi",
+        "uri": "spotify:track:2155Oaz5YBYwpYNDldh7bi"
+      },
+      {
+        "id": "1zebrlnS8iBSOSDVCcwTK7",
+        "name": "Somebody That I Used To Know - Sneaker Fox Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Sneaker Fox"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Sneaker Fox",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 435473,
+        "durationFormatted": "7:15",
+        "previewUrl": "https://p.scdn.co/mp3-preview/b99fb96746d3ed292da463c6dd7539d59ff2c3c0",
+        "spotifyUrl": "https://open.spotify.com/track/1zebrlnS8iBSOSDVCcwTK7",
+        "uri": "spotify:track:1zebrlnS8iBSOSDVCcwTK7"
+      },
+      {
+        "id": "4o35g6xblMQTdd0aejLk7Z",
+        "name": "Only Fantasy",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 194666,
+        "durationFormatted": "3:14",
+        "previewUrl": "https://p.scdn.co/mp3-preview/163947427dbeba58555e19b178846ac2c274d844",
+        "spotifyUrl": "https://open.spotify.com/track/4o35g6xblMQTdd0aejLk7Z",
+        "uri": "spotify:track:4o35g6xblMQTdd0aejLk7Z"
+      },
+      {
+        "id": "0pKTw4qlPTgZn0anwytcG6",
+        "name": "Somebody That I Used To Know - Tiësto Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Tiësto"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Tiësto",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 273095,
+        "durationFormatted": "4:33",
+        "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
+        "spotifyUrl": "https://open.spotify.com/track/0pKTw4qlPTgZn0anwytcG6",
+        "uri": "spotify:track:0pKTw4qlPTgZn0anwytcG6"
+      },
+      {
+        "id": "5TR6YDpnaMvvv071cjMGvs",
+        "name": "From the Pit",
+        "artists": [
+          {
+            "name": "Mystic Sky Daddy"
+          }
+        ],
+        "artistNames": "Mystic Sky Daddy",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 271872,
+        "durationFormatted": "4:31",
+        "previewUrl": "https://p.scdn.co/mp3-preview/87fb37a53a2ba6a48571ff0e70e1a1cb7bb1bd0e",
+        "spotifyUrl": "https://open.spotify.com/track/5TR6YDpnaMvvv071cjMGvs",
+        "uri": "spotify:track:5TR6YDpnaMvvv071cjMGvs"
+      },
+      {
+        "id": "6Fyvc3HgEwW6l8m8ikuDAt",
+        "name": "Gellustælar",
+        "artists": [
+          {
+            "name": "Ahelia"
+          }
+        ],
+        "artistNames": "Ahelia",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 130007,
+        "durationFormatted": "2:10",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d0e8ae1d6c2310d4469a608678698cd3e8b8a5d8",
+        "spotifyUrl": "https://open.spotify.com/track/6Fyvc3HgEwW6l8m8ikuDAt",
+        "uri": "spotify:track:6Fyvc3HgEwW6l8m8ikuDAt"
+      },
+      {
+        "id": "5aJuNfWZtM2jJVPot80xi9",
+        "name": "Obsexivo",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 220408,
+        "durationFormatted": "3:40",
+        "previewUrl": "https://p.scdn.co/mp3-preview/a430e9f3b7a32fa7b7e584cb2c23a694799fd488",
+        "spotifyUrl": "https://open.spotify.com/track/5aJuNfWZtM2jJVPot80xi9",
+        "uri": "spotify:track:5aJuNfWZtM2jJVPot80xi9"
+      },
+      {
+        "id": "74zLuMblZGPBZm3CHgjrC5",
+        "name": "Making Mirrors",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 61086,
+        "durationFormatted": "1:01",
+        "previewUrl": "https://p.scdn.co/mp3-preview/6465ca63760348de9807e305db3215076f76683a",
+        "spotifyUrl": "https://open.spotify.com/track/74zLuMblZGPBZm3CHgjrC5",
+        "uri": "spotify:track:74zLuMblZGPBZm3CHgjrC5"
+      },
+      {
+        "id": "0LC5BXNTE9SW2Tt9GtwrV8",
+        "name": "Good Feeling",
+        "artists": [
+          {
+            "name": "Darco Polo"
+          }
+        ],
+        "artistNames": "Darco Polo",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 150040,
+        "durationFormatted": "2:30",
+        "previewUrl": "https://p.scdn.co/mp3-preview/f1e23e94043460cae69346a096f87967eaacf125",
+        "spotifyUrl": "https://open.spotify.com/track/0LC5BXNTE9SW2Tt9GtwrV8",
+        "uri": "spotify:track:0LC5BXNTE9SW2Tt9GtwrV8"
+      },
+      {
+        "id": "5tvjL2T8ivK0CcLfm7RKld",
+        "name": "Calientita",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 188297,
+        "durationFormatted": "3:08",
+        "previewUrl": "https://p.scdn.co/mp3-preview/f31f243da1a5da62209f46ab61399a2456bc64b3",
+        "spotifyUrl": "https://open.spotify.com/track/5tvjL2T8ivK0CcLfm7RKld",
+        "uri": "spotify:track:5tvjL2T8ivK0CcLfm7RKld"
+      },
+      {
+        "id": "52JMuYbqES4401sbcCUiuC",
+        "name": "Easy Way Out",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 117708,
+        "durationFormatted": "1:57",
+        "previewUrl": "https://p.scdn.co/mp3-preview/ed11cf1188cd68689ea30f8e1fc59fa31c5baad6",
+        "spotifyUrl": "https://open.spotify.com/track/52JMuYbqES4401sbcCUiuC",
+        "uri": "spotify:track:52JMuYbqES4401sbcCUiuC"
+      },
+      {
+        "id": "5odOxAMzsv1FmJLrRlLe9j",
+        "name": "MARÉ",
+        "artists": [
+          {
+            "name": "VOS"
+          }
+        ],
+        "artistNames": "VOS",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 216100,
+        "durationFormatted": "3:36",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d2f98238f538e02b068b01c944c61b77fac6c313",
+        "spotifyUrl": "https://open.spotify.com/track/5odOxAMzsv1FmJLrRlLe9j",
+        "uri": "spotify:track:5odOxAMzsv1FmJLrRlLe9j"
+      },
+      {
+        "id": "0Jg9JvS0jzSDFMnUrEWqTF",
+        "name": "Prohibido Está Llorar",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 184916,
+        "durationFormatted": "3:04",
+        "previewUrl": "https://p.scdn.co/mp3-preview/1fa671b3352a1cc2271c5c0e579fca7d92c65017",
+        "spotifyUrl": "https://open.spotify.com/track/0Jg9JvS0jzSDFMnUrEWqTF",
+        "uri": "spotify:track:0Jg9JvS0jzSDFMnUrEWqTF"
+      },
+      {
+        "id": "5rJTnStFFuIaRdgMGiymFo",
+        "name": "Postrecito de Cali",
+        "artists": [
+          {
+            "name": "KEVIN ROLDAN, YOHEL MADI"
+          }
+        ],
+        "artistNames": "KEVIN ROLDAN, YOHEL MADI",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 180000,
+        "durationFormatted": "3:00",
+        "previewUrl": "https://p.scdn.co/mp3-preview/3b4ce8cb771042de92b9cdb8854799a8575abeae",
+        "spotifyUrl": "https://open.spotify.com/track/5rJTnStFFuIaRdgMGiymFo",
+        "uri": "spotify:track:5rJTnStFFuIaRdgMGiymFo"
+      },
+      {
+        "id": "7xFHpC8J4EwEb1B6ySVw87",
+        "name": "La Tuerca",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 123130,
+        "durationFormatted": "2:03",
+        "previewUrl": "https://p.scdn.co/mp3-preview/c0a6692b7d85582ff58f2842241fdc059d287f12",
+        "spotifyUrl": "https://open.spotify.com/track/7xFHpC8J4EwEb1B6ySVw87",
+        "uri": "spotify:track:7xFHpC8J4EwEb1B6ySVw87"
+      },
+      {
+        "id": "301yKdldPw1zYmjz9AWkLb",
+        "name": "The Big Times",
+        "artists": [
+          {
+            "name": "Tigermouse"
+          }
+        ],
+        "artistNames": "Tigermouse",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 267443,
+        "durationFormatted": "4:27",
+        "previewUrl": "https://p.scdn.co/mp3-preview/a072f45e846c05b23985f34b298ec6e7f6b99667",
+        "spotifyUrl": "https://open.spotify.com/track/301yKdldPw1zYmjz9AWkLb",
+        "uri": "spotify:track:301yKdldPw1zYmjz9AWkLb"
+      },
+      {
+        "id": "7BLdwcYz4cCgm5KsySAznb",
+        "name": "El Strike",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 162666,
+        "durationFormatted": "2:42",
+        "previewUrl": "https://p.scdn.co/mp3-preview/6e822d76d5fb97c8e7c8a4ea1f2e0969e4217d17",
+        "spotifyUrl": "https://open.spotify.com/track/7BLdwcYz4cCgm5KsySAznb",
+        "uri": "spotify:track:7BLdwcYz4cCgm5KsySAznb"
+      },
+      {
+        "id": "6J7GQyzMoblc0KThvh7yGq",
+        "name": "Talking to ghosts",
+        "artists": [
+          {
+            "name": "GHOST ILLUSION"
+          }
+        ],
+        "artistNames": "GHOST ILLUSION",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 199640,
+        "durationFormatted": "3:19",
+        "previewUrl": "https://p.scdn.co/mp3-preview/5599962d80fa0eff5344a02b0f9e92046d0aad24",
+        "spotifyUrl": "https://open.spotify.com/track/6J7GQyzMoblc0KThvh7yGq",
+        "uri": "spotify:track:6J7GQyzMoblc0KThvh7yGq"
+      },
+      {
+        "id": "3OfNXAA1M3hmyjCAScsKwQ",
+        "name": "Mi Melodía Favorita",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 224842,
+        "durationFormatted": "3:44",
+        "previewUrl": "https://p.scdn.co/mp3-preview/651c074899b9e893fa7ee2008b303232944d34d6",
+        "spotifyUrl": "https://open.spotify.com/track/3OfNXAA1M3hmyjCAScsKwQ",
+        "uri": "spotify:track:3OfNXAA1M3hmyjCAScsKwQ"
+      },
+      {
+        "id": "5fYBOVdmGKEsqK3u5pk2j5",
+        "name": "Bronte",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 193943,
+        "durationFormatted": "3:13",
+        "previewUrl": "https://p.scdn.co/mp3-preview/9eb0c783d17e897b762b4d1029c5d3cb5a9ba91e",
+        "spotifyUrl": "https://open.spotify.com/track/5fYBOVdmGKEsqK3u5pk2j5",
+        "uri": "spotify:track:5fYBOVdmGKEsqK3u5pk2j5"
+      },
+      {
+        "id": "28d7qdguPg7o2brVVCOU8Y",
+        "name": "Taillight's And Static",
+        "artists": [
+          {
+            "name": "Casey Rennolds"
+          }
+        ],
+        "artistNames": "Casey Rennolds",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 378759,
+        "durationFormatted": "6:18",
+        "previewUrl": "https://p.scdn.co/mp3-preview/4ee697f954a972883ed69e8e8da7aaea67ae463b",
+        "spotifyUrl": "https://open.spotify.com/track/28d7qdguPg7o2brVVCOU8Y",
+        "uri": "spotify:track:28d7qdguPg7o2brVVCOU8Y"
+      },
+      {
+        "id": "0tCLEnxwsUH9z82uDF9ZGA",
+        "name": "Mil Botellas Destapar",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 209658,
+        "durationFormatted": "3:29",
+        "previewUrl": "https://p.scdn.co/mp3-preview/56552efbca5162f9b8d1847fb3f0cb274fadf928",
+        "spotifyUrl": "https://open.spotify.com/track/0tCLEnxwsUH9z82uDF9ZGA",
+        "uri": "spotify:track:0tCLEnxwsUH9z82uDF9ZGA"
+      },
+      {
+        "id": "3VzywF2Vd3ejMsREBNp0tj",
+        "name": "Somebody That I Used To Know - Bibio Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Bibio"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Bibio",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 294961,
+        "durationFormatted": "4:54",
+        "previewUrl": "https://p.scdn.co/mp3-preview/06ea5968a8c1cca11674e57ff9399a9d0f80110f",
+        "spotifyUrl": "https://open.spotify.com/track/3VzywF2Vd3ejMsREBNp0tj",
+        "uri": "spotify:track:3VzywF2Vd3ejMsREBNp0tj"
+      },
+      {
+        "id": "7rgN002SIVZdsHsHXXoLwA",
+        "name": "Orbits of Absurd",
+        "artists": [
+          {
+            "name": "Secondhand Daylight, Magdalena Johansson"
+          }
+        ],
+        "artistNames": "Secondhand Daylight, Magdalena Johansson",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 270000,
+        "durationFormatted": "4:30",
+        "previewUrl": "https://p.scdn.co/mp3-preview/a06403d9eba3051f4cfedc494ee678a51ec19899",
+        "spotifyUrl": "https://open.spotify.com/track/7rgN002SIVZdsHsHXXoLwA",
+        "uri": "spotify:track:7rgN002SIVZdsHsHXXoLwA"
+      },
+      {
+        "id": "3vkYspVLTTaeJhAsBXh491",
+        "name": "Twerking Black",
+        "artists": [
+          {
+            "name": "Stidlmusic, Reywil Alexander, Norci Morales"
+          }
+        ],
+        "artistNames": "Stidlmusic, Reywil Alexander, Norci Morales",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 135002,
+        "durationFormatted": "2:15",
+        "previewUrl": "https://p.scdn.co/mp3-preview/fe45f4b515181a525e89d13e3c8bf5df8d232cef",
+        "spotifyUrl": "https://open.spotify.com/track/3vkYspVLTTaeJhAsBXh491",
+        "uri": "spotify:track:3vkYspVLTTaeJhAsBXh491"
+      },
+      {
+        "id": "0jus7D2uf5GvDowAtSGpCK",
+        "name": "Rollercoaster of my life",
+        "artists": [
+          {
+            "name": "Chris Fletcher"
+          }
+        ],
+        "artistNames": "Chris Fletcher",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 187280,
+        "durationFormatted": "3:07",
+        "previewUrl": "https://p.scdn.co/mp3-preview/d04980eab521a1de308cb2c55ef7463e53a1cde8",
+        "spotifyUrl": "https://open.spotify.com/track/0jus7D2uf5GvDowAtSGpCK",
+        "uri": "spotify:track:0jus7D2uf5GvDowAtSGpCK"
+      },
+      {
+        "id": "78n0OeThTl9hDHcq3EVjrh",
+        "name": "Around The World",
+        "artists": [
+          {
+            "name": "CosmicJelly, Dinoella, KipxyLove"
+          }
+        ],
+        "artistNames": "CosmicJelly, Dinoella, KipxyLove",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 167749,
+        "durationFormatted": "2:47",
+        "previewUrl": "https://p.scdn.co/mp3-preview/4f61ebba9a1ebd65982ea96d2f1592fcb44cc51c",
+        "spotifyUrl": "https://open.spotify.com/track/78n0OeThTl9hDHcq3EVjrh",
+        "uri": "spotify:track:78n0OeThTl9hDHcq3EVjrh"
+      },
+      {
+        "id": "013CED9qUgt808UQr9jSPm",
+        "name": "Somebody I Used to Know - Tiësto Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 273095,
+        "durationFormatted": "4:33",
+        "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
+        "spotifyUrl": "https://open.spotify.com/track/013CED9qUgt808UQr9jSPm",
+        "uri": "spotify:track:013CED9qUgt808UQr9jSPm"
+      },
+      {
+        "id": "7u1PK6VeDCNHzztGJtqqPF",
+        "name": "Somebody That I Used To Know - Gang Colours Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, Gang Colours"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, Gang Colours",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 199460,
+        "durationFormatted": "3:19",
+        "previewUrl": "https://p.scdn.co/mp3-preview/be44b24449471f6b18d4d027e461db0a5c9f7c16",
+        "spotifyUrl": "https://open.spotify.com/track/7u1PK6VeDCNHzztGJtqqPF",
+        "uri": "spotify:track:7u1PK6VeDCNHzztGJtqqPF"
+      },
+      {
+        "id": "6oKpppEWjpjuZXq7JhNwzE",
+        "name": "FeelingsOfLOVE",
+        "artists": [
+          {
+            "name": "MessiahSparxx, Melton, Mari Mocha"
+          }
+        ],
+        "artistNames": "MessiahSparxx, Melton, Mari Mocha",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 182400,
+        "durationFormatted": "3:02",
+        "previewUrl": "https://p.scdn.co/mp3-preview/4fce589b63f90b6e148213f531599053cf52e444",
+        "spotifyUrl": "https://open.spotify.com/track/6oKpppEWjpjuZXq7JhNwzE",
+        "uri": "spotify:track:6oKpppEWjpjuZXq7JhNwzE"
+      },
+      {
+        "id": "0Bq7UQv3bdHZX7NhNKlJCJ",
+        "name": "Otro Día",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 149347,
+        "durationFormatted": "2:29",
+        "previewUrl": "https://p.scdn.co/mp3-preview/7845a280a3b94e106c781e73689bc2b6c5ceb362",
+        "spotifyUrl": "https://open.spotify.com/track/0Bq7UQv3bdHZX7NhNKlJCJ",
+        "uri": "spotify:track:0Bq7UQv3bdHZX7NhNKlJCJ"
+      },
+      {
+        "id": "4f88pWvf9LmXIWB1B7UvRI",
+        "name": "Ghosts",
+        "artists": [
+          {
+            "name": "Yum Cha Sessions, Gotye"
+          }
+        ],
+        "artistNames": "Yum Cha Sessions, Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 221973,
+        "durationFormatted": "3:41",
+        "previewUrl": "https://p.scdn.co/mp3-preview/6d95ef6a0e02c9feeaf18ff2b4accf49c88ab89e",
+        "spotifyUrl": "https://open.spotify.com/track/4f88pWvf9LmXIWB1B7UvRI",
+        "uri": "spotify:track:4f88pWvf9LmXIWB1B7UvRI"
+      },
+      {
+        "id": "10o340DHWBvb6XBHEAWYnu",
+        "name": "Questioning Existence",
+        "artists": [
+          {
+            "name": "Destroy The Day"
+          }
+        ],
+        "artistNames": "Destroy The Day",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 327360,
+        "durationFormatted": "5:27",
+        "previewUrl": "https://p.scdn.co/mp3-preview/79e6727af2e484c88b7bcdeece8ac799041da945",
+        "spotifyUrl": "https://open.spotify.com/track/10o340DHWBvb6XBHEAWYnu",
+        "uri": "spotify:track:10o340DHWBvb6XBHEAWYnu"
+      },
+      {
+        "id": "5PvQ94rMWihogUjW95JXjq",
+        "name": "Mi Loba",
+        "artists": [
+          {
+            "name": "Reywil Alexander, Stidlmusic"
+          }
+        ],
+        "artistNames": "Reywil Alexander, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 174000,
+        "durationFormatted": "2:54",
+        "previewUrl": "https://p.scdn.co/mp3-preview/36f3e550a0fab6d5de023f89efb4bf6d2a56cad2",
+        "spotifyUrl": "https://open.spotify.com/track/5PvQ94rMWihogUjW95JXjq",
+        "uri": "spotify:track:5PvQ94rMWihogUjW95JXjq"
+      },
+      {
+        "id": "1FvBKvVkPSlQCTWwDRe5fd",
+        "name": "Father Teresa",
+        "artists": [
+          {
+            "name": "Blue Sky Union"
+          }
+        ],
+        "artistNames": "Blue Sky Union",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 231942,
+        "durationFormatted": "3:51",
+        "previewUrl": "https://p.scdn.co/mp3-preview/1c7448c262930cbd6c28eed9cad7d366606cefe5",
+        "spotifyUrl": "https://open.spotify.com/track/1FvBKvVkPSlQCTWwDRe5fd",
+        "uri": "spotify:track:1FvBKvVkPSlQCTWwDRe5fd"
+      },
+      {
+        "id": "3q1dv1JPbzRMwFi6DErh3u",
+        "name": "Modo Sad",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic, Reywil Alexander"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic, Reywil Alexander",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 197647,
+        "durationFormatted": "3:17",
+        "previewUrl": "https://p.scdn.co/mp3-preview/acdfe73cf77e225c43f53e53ac314356589dc830",
+        "spotifyUrl": "https://open.spotify.com/track/3q1dv1JPbzRMwFi6DErh3u",
+        "uri": "spotify:track:3q1dv1JPbzRMwFi6DErh3u"
+      },
+      {
+        "id": "6B00TXnLMu7DyRN6qW28g9",
+        "name": "Forever Bionic",
+        "artists": [
+          {
+            "name": "BobbyAI"
+          }
+        ],
+        "artistNames": "BobbyAI",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 165919,
+        "durationFormatted": "2:45",
+        "previewUrl": "https://p.scdn.co/mp3-preview/43417465ad50f97a8c3beb2ef3a31d4e158ac440",
+        "spotifyUrl": "https://open.spotify.com/track/6B00TXnLMu7DyRN6qW28g9",
+        "uri": "spotify:track:6B00TXnLMu7DyRN6qW28g9"
+      },
+      {
+        "id": "5hPaDzRIdbZD7Fy3tledhM",
+        "name": "In The Name Of Luck",
+        "artists": [
+          {
+            "name": "CosmicJelly, Dinoella"
+          }
+        ],
+        "artistNames": "CosmicJelly, Dinoella",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 179682,
+        "durationFormatted": "2:59",
+        "previewUrl": "https://p.scdn.co/mp3-preview/8c171186d1c499524d4b77866ab34ffb6f2dc4c2",
+        "spotifyUrl": "https://open.spotify.com/track/5hPaDzRIdbZD7Fy3tledhM",
+        "uri": "spotify:track:5hPaDzRIdbZD7Fy3tledhM"
+      },
+      {
+        "id": "32OlwWuMpZ6b0aN2RZOeMS",
+        "name": "Uptown Funk (feat. Bruno Mars)",
+        "artists": [
+          {
+            "name": "Mark Ronson, Bruno Mars"
+          }
+        ],
+        "artistNames": "Mark Ronson, Bruno Mars",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 269658,
+        "durationFormatted": "4:29",
+        "previewUrl": "https://p.scdn.co/mp3-preview/67ea20051d23a47d74becbe982285c5320dbe577",
+        "spotifyUrl": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS",
+        "uri": "spotify:track:32OlwWuMpZ6b0aN2RZOeMS"
+      },
+      {
+        "id": "7ClkqELftRKPPECDHpkpYh",
+        "name": "Counting On You",
+        "artists": [
+          {
+            "name": "Crash Out Music Co"
+          }
+        ],
+        "artistNames": "Crash Out Music Co",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 184199,
+        "durationFormatted": "3:04",
+        "previewUrl": "https://p.scdn.co/mp3-preview/3a303476b62cdbe9d9f0ff7defd06b2a324e5230",
+        "spotifyUrl": "https://open.spotify.com/track/7ClkqELftRKPPECDHpkpYh",
+        "uri": "spotify:track:7ClkqELftRKPPECDHpkpYh"
+      },
+      {
+        "id": "4tkBcDeidexyxGik6H1lhK",
+        "name": "One In A Million",
+        "artists": [
+          {
+            "name": "CosmicJelly, KipxyLove"
+          }
+        ],
+        "artistNames": "CosmicJelly, KipxyLove",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 145865,
+        "durationFormatted": "2:25",
+        "previewUrl": "https://p.scdn.co/mp3-preview/7861ccacee74803e10060475443f6076f75c889f",
+        "spotifyUrl": "https://open.spotify.com/track/4tkBcDeidexyxGik6H1lhK",
+        "uri": "spotify:track:4tkBcDeidexyxGik6H1lhK"
+      },
+      {
+        "id": "6NGRPL3AYwMAYkJh4EsZEU",
+        "name": "Hearts A Mess",
+        "artists": [
+          {
+            "name": "Gotye"
+          }
+        ],
+        "artistNames": "Gotye",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 363093,
+        "durationFormatted": "6:03",
+        "previewUrl": "https://p.scdn.co/mp3-preview/2e7a72d8ca924a4c81d0e29b5a0e194d60f0dc41",
+        "spotifyUrl": "https://open.spotify.com/track/6NGRPL3AYwMAYkJh4EsZEU",
+        "uri": "spotify:track:6NGRPL3AYwMAYkJh4EsZEU"
+      },
+      {
+        "id": "4HYSBUR88sZqBYuFEbHByM",
+        "name": "Somebody That I Used To Know - M-Phazes Remix",
+        "artists": [
+          {
+            "name": "Gotye, Kimbra, M-Phazes"
+          }
+        ],
+        "artistNames": "Gotye, Kimbra, M-Phazes",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 302414,
+        "durationFormatted": "5:02",
+        "previewUrl": "https://p.scdn.co/mp3-preview/4028be09b558e3d9251d271a4faead01866ccbf0",
+        "spotifyUrl": "https://open.spotify.com/track/4HYSBUR88sZqBYuFEbHByM",
+        "uri": "spotify:track:4HYSBUR88sZqBYuFEbHByM"
+      },
+      {
+        "id": "2BSppkrw4J3t8lmFa1ODOq",
+        "name": "Bigger Fish",
+        "artists": [
+          {
+            "name": "Heaps of Faith"
+          }
+        ],
+        "artistNames": "Heaps of Faith",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 212500,
+        "durationFormatted": "3:32",
+        "previewUrl": "https://p.scdn.co/mp3-preview/c4ac726c22f785bb82f5c4375c03fd63e91b989c",
+        "spotifyUrl": "https://open.spotify.com/track/2BSppkrw4J3t8lmFa1ODOq",
+        "uri": "spotify:track:2BSppkrw4J3t8lmFa1ODOq"
+      },
+      {
+        "id": "4sP5CGdDRGTyMqsl2J5cW4",
+        "name": "Boomerang",
+        "artists": [
+          {
+            "name": "Norci Morales, Stidlmusic"
+          }
+        ],
+        "artistNames": "Norci Morales, Stidlmusic",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 120988,
+        "durationFormatted": "2:00",
+        "previewUrl": "https://p.scdn.co/mp3-preview/715f495ecb377a9ea7f9f3bd1cac35f2e879f9cb",
+        "spotifyUrl": "https://open.spotify.com/track/4sP5CGdDRGTyMqsl2J5cW4",
+        "uri": "spotify:track:4sP5CGdDRGTyMqsl2J5cW4"
+      },
+      {
+        "id": "5cs0Afd9DczjM5uKNAot2D",
+        "name": "Eyes Wide Open - PVT Remix",
+        "artists": [
+          {
+            "name": "Gotye, PVT"
+          }
+        ],
+        "artistNames": "Gotye, PVT",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 249902,
+        "durationFormatted": "4:09",
+        "previewUrl": "https://p.scdn.co/mp3-preview/56698af58cd71062354689d2bdd7dcf77ec359d4",
+        "spotifyUrl": "https://open.spotify.com/track/5cs0Afd9DczjM5uKNAot2D",
+        "uri": "spotify:track:5cs0Afd9DczjM5uKNAot2D"
+      }
+    ]
+  },
+  {
     "id": "2A24n1ySx0RoMO7JQpsqYn",
     "name": "My Smart Mix",
     "description": "Smart Mix: 80s Mix | Updated Aug 26, 2026 | 35 tracks",
@@ -949,8 +2650,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 280000,
         "durationFormatted": "4:40",
         "previewUrl": "https://p.scdn.co/mp3-preview/f23b297ed50e1f3e0437bc3350dddf226b70b9ff",
@@ -970,8 +2671,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 233946,
         "durationFormatted": "3:53",
         "previewUrl": "https://p.scdn.co/mp3-preview/47e73658bb2d0c652fee20d29a4dff045610b2c0",
@@ -991,8 +2692,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 284160,
         "durationFormatted": "4:44",
         "previewUrl": "https://p.scdn.co/mp3-preview/0546fe71fdb7bb59a45e18f33208656b8b2075af",
@@ -1012,8 +2713,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 204360,
         "durationFormatted": "3:24",
         "previewUrl": null,
@@ -1033,8 +2734,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 379886,
         "durationFormatted": "6:19",
         "previewUrl": null,
@@ -1054,8 +2755,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 249066,
         "durationFormatted": "4:09",
         "previewUrl": null,
@@ -1075,8 +2776,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 241760,
         "durationFormatted": "4:01",
         "previewUrl": "https://p.scdn.co/mp3-preview/d4320e64138e92cbf20d1d33c272b15fb6f12ad1",
@@ -1096,8 +2797,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 272480,
         "durationFormatted": "4:32",
         "previewUrl": "https://p.scdn.co/mp3-preview/d408ba842ed50e59d1cd8a6497c75352ed3bfd9f",
@@ -1117,8 +2818,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 187973,
         "durationFormatted": "3:07",
         "previewUrl": "https://p.scdn.co/mp3-preview/72314462df449a00c467f96a6da1fe2d2a8fe360",
@@ -1138,8 +2839,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 204560,
         "durationFormatted": "3:24",
         "previewUrl": "https://p.scdn.co/mp3-preview/603eeeba6c2a5dff9c2dca137be5fdbab490525b",
@@ -1159,8 +2860,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 245026,
         "durationFormatted": "4:05",
         "previewUrl": "https://p.scdn.co/mp3-preview/bc20f69b375658b0dde1de8623b65fbe9f3cc52c",
@@ -1180,8 +2881,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 289577,
         "durationFormatted": "4:49",
         "previewUrl": "https://p.scdn.co/mp3-preview/946ac7872b5e51bdf3dc3689954f83824b1693b7",
@@ -1201,8 +2902,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 272093,
         "durationFormatted": "4:32",
         "previewUrl": "https://p.scdn.co/mp3-preview/4cebb0bb111ca6b9fe48cf07a1918619c2210a49",
@@ -1222,8 +2923,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 275280,
         "durationFormatted": "4:35",
         "previewUrl": "https://p.scdn.co/mp3-preview/cc80cd7c39d1abcadea89793604e9381a337b851",
@@ -1243,8 +2944,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 336506,
         "durationFormatted": "5:36",
         "previewUrl": "https://p.scdn.co/mp3-preview/e810910d8955f1426104876a09b06b14215a32c3",
@@ -1264,8 +2965,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 325600,
         "durationFormatted": "5:25",
         "previewUrl": "https://p.scdn.co/mp3-preview/da1add3330e8393e15f4e21c780428754f1e5591",
@@ -1285,8 +2986,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 289560,
         "durationFormatted": "4:49",
         "previewUrl": "https://p.scdn.co/mp3-preview/0ec76dac522643d740f7ae47e395a0499d7ef756",
@@ -1306,8 +3007,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 301760,
         "durationFormatted": "5:01",
         "previewUrl": "https://p.scdn.co/mp3-preview/8dba67ff1dcbe31f73193c7d65885a27ec6b5832",
@@ -1327,8 +3028,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 311240,
         "durationFormatted": "5:11",
         "previewUrl": "https://p.scdn.co/mp3-preview/3c57599deb51c20a007e917853cf9d5b3e21cfda",
@@ -1348,8 +3049,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 284626,
         "durationFormatted": "4:44",
         "previewUrl": "https://p.scdn.co/mp3-preview/4bb7f4155bde0e04bd4a49b042efcf3c01e3d5ae",
@@ -1369,8 +3070,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 307573,
         "durationFormatted": "5:07",
         "previewUrl": "https://p.scdn.co/mp3-preview/acfb77a6b5f009bb79b5fba65d5cc4bea31db0a7",
@@ -1390,8 +3091,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 233440,
         "durationFormatted": "3:53",
         "previewUrl": "https://p.scdn.co/mp3-preview/41fa7b607f10e4b1eb3f7011f74270441185474a",
@@ -1411,8 +3112,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 329826,
         "durationFormatted": "5:29",
         "previewUrl": "https://p.scdn.co/mp3-preview/1fc8e4cad0c29379f731b8fccb65dd0a8140ae6d",
@@ -1432,8 +3133,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 167032,
         "durationFormatted": "2:47",
         "previewUrl": null,
@@ -1453,8 +3154,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 391960,
         "durationFormatted": "6:31",
         "previewUrl": "https://p.scdn.co/mp3-preview/af7b31c4e0bb9e203cc1d52be4d77981b2c59a0d",
@@ -1474,8 +3175,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 242866,
         "durationFormatted": "4:02",
         "previewUrl": "https://p.scdn.co/mp3-preview/d9e86b78087824389e49a6bb46a8724e9cb0d323",
@@ -1495,8 +3196,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 549760,
         "durationFormatted": "9:09",
         "previewUrl": "https://p.scdn.co/mp3-preview/692e9f9d0307273af72a9c7c3b094dbe4693b2e4",
@@ -1516,8 +3217,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 248626,
         "durationFormatted": "4:08",
         "previewUrl": "https://p.scdn.co/mp3-preview/45845c7ca8b6027fbf396fbaaa4cbc0c374f6d6d",
@@ -1537,8 +3238,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 338560,
         "durationFormatted": "5:38",
         "previewUrl": "https://p.scdn.co/mp3-preview/74756581009ccc0649b5c1c74017ec4e988ee474",
@@ -1558,8 +3259,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 260466,
         "durationFormatted": "4:20",
         "previewUrl": null,
@@ -1579,8 +3280,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 346600,
         "durationFormatted": "5:46",
         "previewUrl": null,
@@ -1600,8 +3301,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 268893,
         "durationFormatted": "4:28",
         "previewUrl": "https://p.scdn.co/mp3-preview/a95a34eff71b818d5012bac85c6ac7a89c932514",
@@ -1621,8 +3322,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 471893,
         "durationFormatted": "7:51",
         "previewUrl": "https://p.scdn.co/mp3-preview/53ec43bf8b8e525117f6c6223cc2f091491dbfd8",
@@ -1642,8 +3343,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 359373,
         "durationFormatted": "5:59",
         "previewUrl": "https://p.scdn.co/mp3-preview/034b66795e49f3692a3a6eaf14d2dac69a64382d",
@@ -1663,8 +3364,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 320800,
         "durationFormatted": "5:20",
         "previewUrl": "https://p.scdn.co/mp3-preview/69afee37fec6682076b712bf579bc43f60f039d2",
@@ -1684,8 +3385,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 235426,
         "durationFormatted": "3:55",
         "previewUrl": "https://p.scdn.co/mp3-preview/dc2aedd37022a98d3dc1a6e40885e1984068a07b",
@@ -1705,8 +3406,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 418386,
         "durationFormatted": "6:58",
         "previewUrl": "https://p.scdn.co/mp3-preview/318e42cf377e90f3cb927ce3b422811fc07b51d0",
@@ -1726,8 +3427,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 262560,
         "durationFormatted": "4:22",
         "previewUrl": "https://p.scdn.co/mp3-preview/74163fc5496ff30942d67688798b431011529f94",
@@ -1747,8 +3448,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 401026,
         "durationFormatted": "6:41",
         "previewUrl": null,
@@ -1768,8 +3469,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 316920,
         "durationFormatted": "5:16",
         "previewUrl": "https://p.scdn.co/mp3-preview/ba6b90ed0a46e464475298ad95953314b62f0784",
@@ -1789,8 +3490,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 397146,
         "durationFormatted": "6:37",
         "previewUrl": null,
@@ -1810,8 +3511,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 285092,
         "durationFormatted": "4:45",
         "previewUrl": null,
@@ -1831,8 +3532,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 202509,
         "durationFormatted": "3:22",
         "previewUrl": null,
@@ -1852,8 +3553,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 268893,
         "durationFormatted": "4:28",
         "previewUrl": "https://p.scdn.co/mp3-preview/1af1f85c795548f69fe2cf72eb5f6cbc73cb1c0d",
@@ -1873,8 +3574,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 256000,
         "durationFormatted": "4:16",
         "previewUrl": "https://p.scdn.co/mp3-preview/efe373a4489b6bf41b62fdc1e62228def4861a11",
@@ -1894,8 +3595,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 274226,
         "durationFormatted": "4:34",
         "previewUrl": "https://p.scdn.co/mp3-preview/1b5de65359ef3892efe40bca81d184aa6ccff82f",
@@ -1915,8 +3616,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 320466,
         "durationFormatted": "5:20",
         "previewUrl": "https://p.scdn.co/mp3-preview/a11ce5a9a3ea5e575ed6f8b60de0c913e3f99011",
@@ -1936,8 +3637,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 258333,
         "durationFormatted": "4:18",
         "previewUrl": "https://p.scdn.co/mp3-preview/7471b731f94ea7d72163a96d050fe55a310474a4",
@@ -1957,8 +3658,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 222733,
         "durationFormatted": "3:42",
         "previewUrl": "https://p.scdn.co/mp3-preview/2e531168672839d04adcf7dcc4d851e9c52dbba2",
@@ -1978,8 +3679,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 223266,
         "durationFormatted": "3:43",
         "previewUrl": "https://p.scdn.co/mp3-preview/1de2d3842926b886ad871926983074acc57953a9",
@@ -1999,8 +3700,8 @@
           "name": "The very Best Of MTV Unplugged VOL1,2,3.",
           "releaseYear": ""
         },
-        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
-        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "durationMs": 231688,
         "durationFormatted": "3:51",
         "previewUrl": "https://p.scdn.co/mp3-preview/8bc9c461c2c7eecec182883daacaf0ce7e0112bb",
@@ -2019,11 +3720,11 @@
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
     "owner": "Acconcia",
     "spotifyUrl": "https://open.spotify.com/playlist/4CuqBD01YP6xntST1gcCrG",
     "uri": "spotify:playlist:4CuqBD01YP6xntST1gcCrG",

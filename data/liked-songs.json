@@ -1,5 +1,36 @@
 [
   {
+    "id": "1qDrWA6lyx8cLECdZE7TV7",
+    "name": "Somebody That I Used To Know",
+    "artists": [
+      {
+        "id": "2AsusXITU8P25dlRNhcAbG",
+        "name": "Gotye"
+      },
+      {
+        "id": "6hk7Yq1DU9QcCCrz9uc0Ti",
+        "name": "Kimbra"
+      }
+    ],
+    "artistNames": "Gotye, Kimbra",
+    "album": {
+      "id": "4G2rJNhsKOE6iHgtUqZ0Ye",
+      "name": "Making Mirrors",
+      "releaseDate": "2011-01-01",
+      "releaseYear": "2011",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2738ac5768205ad97df3f4f4c0e",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048518ac5768205ad97df3f4f4c0e",
+    "durationMs": 244884,
+    "durationFormatted": "4:04",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7",
+    "uri": "spotify:track:1qDrWA6lyx8cLECdZE7TV7",
+    "addedAt": "2026-08-28T00:52:21Z",
+    "addedDate": "2026-08-28"
+  },
+  {
     "id": "7zoBAESQSuNw8froX20kL3",
     "name": "Hakim Bey",
     "artists": [
