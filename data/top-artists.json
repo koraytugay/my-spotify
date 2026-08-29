@@ -109,21 +109,21 @@
   },
   {
     "rank": 13,
-    "id": "5keeQyPKYRxUCKDMECTXG3",
-    "name": "Black Uhuru",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5444325144ecc7fc7649fd91",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
-  },
-  {
-    "rank": 14,
     "id": "14H7ag1wpQOsPPQJOD6Dqr",
     "name": "Zero 7",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb85c10aefe83110535eea474c",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/14H7ag1wpQOsPPQJOD6Dqr"
+  },
+  {
+    "rank": 14,
+    "id": "5keeQyPKYRxUCKDMECTXG3",
+    "name": "Black Uhuru",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5444325144ecc7fc7649fd91",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
   },
   {
     "rank": 15,
