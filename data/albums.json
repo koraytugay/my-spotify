@@ -1,5 +1,231 @@
 [
   {
+    "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+    "name": "Piece of Mind (2015 Remaster)",
+    "artists": [
+      {
+        "id": "6mdiAmATAx73kdxrNrnlao",
+        "name": "Iron Maiden"
+      }
+    ],
+    "artistNames": "Iron Maiden",
+    "releaseDate": "1983",
+    "releaseYear": "1983",
+    "totalTracks": 9,
+    "tracks": [
+      {
+        "id": "5QtlbCKhAL70eQM9dbzoR8",
+        "name": "Where Eagles Dare - 2015 Remaster",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 372760,
+        "durationFormatted": "6:12",
+        "spotifyUrl": "https://open.spotify.com/track/5QtlbCKhAL70eQM9dbzoR8",
+        "uri": "spotify:track:5QtlbCKhAL70eQM9dbzoR8"
+      },
+      {
+        "id": "1J9ylqJ29VS6yFhIkkNBzL",
+        "name": "Revelations - 2015 Remaster",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 409626,
+        "durationFormatted": "6:49",
+        "spotifyUrl": "https://open.spotify.com/track/1J9ylqJ29VS6yFhIkkNBzL",
+        "uri": "spotify:track:1J9ylqJ29VS6yFhIkkNBzL"
+      },
+      {
+        "id": "3vhKrSxe3fRuS5Ogis76VO",
+        "name": "Flight of Icarus - 2015 Remaster",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 230760,
+        "durationFormatted": "3:50",
+        "spotifyUrl": "https://open.spotify.com/track/3vhKrSxe3fRuS5Ogis76VO",
+        "uri": "spotify:track:3vhKrSxe3fRuS5Ogis76VO"
+      },
+      {
+        "id": "1yRlGWBmbJYte7zyoXcXv2",
+        "name": "Die with Your Boots On - 2015 Remaster",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 327253,
+        "durationFormatted": "5:27",
+        "spotifyUrl": "https://open.spotify.com/track/1yRlGWBmbJYte7zyoXcXv2",
+        "uri": "spotify:track:1yRlGWBmbJYte7zyoXcXv2"
+      },
+      {
+        "id": "4OROzZUy6gOWN4UGQVaZMF",
+        "name": "The Trooper - 2015 Remaster",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 252733,
+        "durationFormatted": "4:12",
+        "spotifyUrl": "https://open.spotify.com/track/4OROzZUy6gOWN4UGQVaZMF",
+        "uri": "spotify:track:4OROzZUy6gOWN4UGQVaZMF"
+      },
+      {
+        "id": "48ShNhzz3tueJ5g55usma7",
+        "name": "Still Life - 2015 Remaster",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 297013,
+        "durationFormatted": "4:57",
+        "spotifyUrl": "https://open.spotify.com/track/48ShNhzz3tueJ5g55usma7",
+        "uri": "spotify:track:48ShNhzz3tueJ5g55usma7"
+      },
+      {
+        "id": "52IlMhHgYmiPqmqhubXaxn",
+        "name": "Quest for Fire - 2015 Remaster",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 222653,
+        "durationFormatted": "3:42",
+        "spotifyUrl": "https://open.spotify.com/track/52IlMhHgYmiPqmqhubXaxn",
+        "uri": "spotify:track:52IlMhHgYmiPqmqhubXaxn"
+      },
+      {
+        "id": "6dDB7aKNqBpWEUFjSBvxmv",
+        "name": "Sun and Steel - 2015 Remaster",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 207506,
+        "durationFormatted": "3:27",
+        "spotifyUrl": "https://open.spotify.com/track/6dDB7aKNqBpWEUFjSBvxmv",
+        "uri": "spotify:track:6dDB7aKNqBpWEUFjSBvxmv"
+      },
+      {
+        "id": "05QrRP2vcoad6HHRQ5AXjL",
+        "name": "To Tame a Land - 2015 Remaster",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "6mdiAmATAx73kdxrNrnlao",
+            "name": "Iron Maiden"
+          }
+        ],
+        "artistNames": "Iron Maiden",
+        "album": {
+          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
+          "name": "Piece of Mind (2015 Remaster)",
+          "releaseYear": "1983"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
+        "durationMs": 448746,
+        "durationFormatted": "7:28",
+        "spotifyUrl": "https://open.spotify.com/track/05QrRP2vcoad6HHRQ5AXjL",
+        "uri": "spotify:track:05QrRP2vcoad6HHRQ5AXjL"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
+    "spotifyUrl": "https://open.spotify.com/album/7I9Wh2IgvI3Nnr8Z1ZSWby",
+    "addedAt": "2021-03-18T15:00:24Z"
+  },
+  {
     "id": "1VRBB9iu84o3g16CczH9iH",
     "name": "Simple Things",
     "artists": [
@@ -17167,232 +17393,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273df28447f41e3fc452018ad7e",
     "spotifyUrl": "https://open.spotify.com/album/1MrNMYVa0iUd2rEsZ5dUrz",
     "addedAt": "2020-01-02T03:29:40Z"
-  },
-  {
-    "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-    "name": "Piece of Mind (2015 Remaster)",
-    "artists": [
-      {
-        "id": "6mdiAmATAx73kdxrNrnlao",
-        "name": "Iron Maiden"
-      }
-    ],
-    "artistNames": "Iron Maiden",
-    "releaseDate": "1983",
-    "releaseYear": "1983",
-    "totalTracks": 9,
-    "tracks": [
-      {
-        "id": "5QtlbCKhAL70eQM9dbzoR8",
-        "name": "Where Eagles Dare - 2015 Remaster",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 372760,
-        "durationFormatted": "6:12",
-        "spotifyUrl": "https://open.spotify.com/track/5QtlbCKhAL70eQM9dbzoR8",
-        "uri": "spotify:track:5QtlbCKhAL70eQM9dbzoR8"
-      },
-      {
-        "id": "1J9ylqJ29VS6yFhIkkNBzL",
-        "name": "Revelations - 2015 Remaster",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 409626,
-        "durationFormatted": "6:49",
-        "spotifyUrl": "https://open.spotify.com/track/1J9ylqJ29VS6yFhIkkNBzL",
-        "uri": "spotify:track:1J9ylqJ29VS6yFhIkkNBzL"
-      },
-      {
-        "id": "3vhKrSxe3fRuS5Ogis76VO",
-        "name": "Flight of Icarus - 2015 Remaster",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 230760,
-        "durationFormatted": "3:50",
-        "spotifyUrl": "https://open.spotify.com/track/3vhKrSxe3fRuS5Ogis76VO",
-        "uri": "spotify:track:3vhKrSxe3fRuS5Ogis76VO"
-      },
-      {
-        "id": "1yRlGWBmbJYte7zyoXcXv2",
-        "name": "Die with Your Boots On - 2015 Remaster",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 327253,
-        "durationFormatted": "5:27",
-        "spotifyUrl": "https://open.spotify.com/track/1yRlGWBmbJYte7zyoXcXv2",
-        "uri": "spotify:track:1yRlGWBmbJYte7zyoXcXv2"
-      },
-      {
-        "id": "4OROzZUy6gOWN4UGQVaZMF",
-        "name": "The Trooper - 2015 Remaster",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 252733,
-        "durationFormatted": "4:12",
-        "spotifyUrl": "https://open.spotify.com/track/4OROzZUy6gOWN4UGQVaZMF",
-        "uri": "spotify:track:4OROzZUy6gOWN4UGQVaZMF"
-      },
-      {
-        "id": "48ShNhzz3tueJ5g55usma7",
-        "name": "Still Life - 2015 Remaster",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 297013,
-        "durationFormatted": "4:57",
-        "spotifyUrl": "https://open.spotify.com/track/48ShNhzz3tueJ5g55usma7",
-        "uri": "spotify:track:48ShNhzz3tueJ5g55usma7"
-      },
-      {
-        "id": "52IlMhHgYmiPqmqhubXaxn",
-        "name": "Quest for Fire - 2015 Remaster",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 222653,
-        "durationFormatted": "3:42",
-        "spotifyUrl": "https://open.spotify.com/track/52IlMhHgYmiPqmqhubXaxn",
-        "uri": "spotify:track:52IlMhHgYmiPqmqhubXaxn"
-      },
-      {
-        "id": "6dDB7aKNqBpWEUFjSBvxmv",
-        "name": "Sun and Steel - 2015 Remaster",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 207506,
-        "durationFormatted": "3:27",
-        "spotifyUrl": "https://open.spotify.com/track/6dDB7aKNqBpWEUFjSBvxmv",
-        "uri": "spotify:track:6dDB7aKNqBpWEUFjSBvxmv"
-      },
-      {
-        "id": "05QrRP2vcoad6HHRQ5AXjL",
-        "name": "To Tame a Land - 2015 Remaster",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "6mdiAmATAx73kdxrNrnlao",
-            "name": "Iron Maiden"
-          }
-        ],
-        "artistNames": "Iron Maiden",
-        "album": {
-          "id": "7I9Wh2IgvI3Nnr8Z1ZSWby",
-          "name": "Piece of Mind (2015 Remaster)",
-          "releaseYear": "1983"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512277d1a849a63c7075ec38ff",
-        "durationMs": 448746,
-        "durationFormatted": "7:28",
-        "spotifyUrl": "https://open.spotify.com/track/05QrRP2vcoad6HHRQ5AXjL",
-        "uri": "spotify:track:05QrRP2vcoad6HHRQ5AXjL"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732277d1a849a63c7075ec38ff",
-    "spotifyUrl": "https://open.spotify.com/album/7I9Wh2IgvI3Nnr8Z1ZSWby",
-    "addedAt": "2021-03-18T15:00:24Z"
   },
   {
     "id": "2Jk5R1RQhRiz2PQ7tD15dx",
