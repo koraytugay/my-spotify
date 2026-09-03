@@ -271,6 +271,16 @@
   },
   {
     "rank": 28,
+    "id": "6QKhecJ2JuajCTPTtYkKUQ",
+    "name": "Afraid to Shoot Strangers - 2015 Remaster",
+    "artistNames": "Iron Maiden",
+    "albumName": "Fear of the Dark (2015 Remaster)",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
+    "durationFormatted": "6:56",
+    "spotifyUrl": "https://open.spotify.com/track/6QKhecJ2JuajCTPTtYkKUQ"
+  },
+  {
+    "rank": 29,
     "id": "20K0BwwzSchxPyuvrwQ94O",
     "name": "Anadolu Ejderi",
     "artistNames": "Gaye Su Akyol",
@@ -280,7 +290,7 @@
     "spotifyUrl": "https://open.spotify.com/track/20K0BwwzSchxPyuvrwQ94O"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "id": "72z5fkfbXTPYGFBrt6iMod",
     "name": "Bleeding Out",
     "artistNames": "In Flames",
@@ -290,7 +300,7 @@
     "spotifyUrl": "https://open.spotify.com/track/72z5fkfbXTPYGFBrt6iMod"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "id": "6mB9A9YLbY4jxpKX5EYAnT",
     "name": "Sunset",
     "artistNames": "The Midnight",
@@ -298,16 +308,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
     "durationFormatted": "5:26",
     "spotifyUrl": "https://open.spotify.com/track/6mB9A9YLbY4jxpKX5EYAnT"
-  },
-  {
-    "rank": 31,
-    "id": "6QKhecJ2JuajCTPTtYkKUQ",
-    "name": "Afraid to Shoot Strangers - 2015 Remaster",
-    "artistNames": "Iron Maiden",
-    "albumName": "Fear of the Dark (2015 Remaster)",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730dda9c11454b9053d07f585a",
-    "durationFormatted": "6:56",
-    "spotifyUrl": "https://open.spotify.com/track/6QKhecJ2JuajCTPTtYkKUQ"
   },
   {
     "rank": 32,
