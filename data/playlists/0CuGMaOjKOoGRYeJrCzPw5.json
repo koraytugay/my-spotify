@@ -4,7 +4,7 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 81,
+  "tracksTotal": 80,
   "images": [
     {
       "height": null,
@@ -832,7 +832,7 @@
       "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "durationMs": 273095,
       "durationFormatted": "4:33",
-      "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
+      "previewUrl": "https://p.scdn.co/mp3-preview/240e7dc01240d6f2ec2ccefe12fba3e0644d282d",
       "spotifyUrl": "https://open.spotify.com/track/0pKTw4qlPTgZn0anwytcG6",
       "uri": "spotify:track:0pKTw4qlPTgZn0anwytcG6"
     },
@@ -1336,7 +1336,7 @@
       "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "durationMs": 273095,
       "durationFormatted": "4:33",
-      "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
+      "previewUrl": "https://p.scdn.co/mp3-preview/240e7dc01240d6f2ec2ccefe12fba3e0644d282d",
       "spotifyUrl": "https://open.spotify.com/track/013CED9qUgt808UQr9jSPm",
       "uri": "spotify:track:013CED9qUgt808UQr9jSPm"
     },
@@ -1570,27 +1570,6 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/67ea20051d23a47d74becbe982285c5320dbe577",
       "spotifyUrl": "https://open.spotify.com/track/32OlwWuMpZ6b0aN2RZOeMS",
       "uri": "spotify:track:32OlwWuMpZ6b0aN2RZOeMS"
-    },
-    {
-      "id": "0HebLiHwl8y2nzwMFneYb6",
-      "name": "3AM",
-      "artists": [
-        {
-          "name": "Dauwner"
-        }
-      ],
-      "artistNames": "Dauwner",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 136153,
-      "durationFormatted": "2:16",
-      "previewUrl": "https://p.scdn.co/mp3-preview/8b5c13c982e1b865694c113eada35b08ef1dee08",
-      "spotifyUrl": "https://open.spotify.com/track/0HebLiHwl8y2nzwMFneYb6",
-      "uri": "spotify:track:0HebLiHwl8y2nzwMFneYb6"
     },
     {
       "id": "4tkBcDeidexyxGik6H1lhK",
