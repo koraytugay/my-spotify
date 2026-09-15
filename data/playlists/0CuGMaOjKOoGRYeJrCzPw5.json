@@ -4,15 +4,15 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 72,
+  "tracksTotal": 75,
   "images": [
     {
       "height": null,
-      "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "width": null
     }
   ],
-  "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+  "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
   "owner": "MAFE 06",
   "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
   "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -37,6 +37,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/d125c2d009d8388e01078361811e910f71966746",
       "spotifyUrl": "https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7",
       "uri": "spotify:track:1qDrWA6lyx8cLECdZE7TV7"
+    },
+    {
+      "id": "1hZ5ymlsg7l45lsN9ZuQtz",
+      "name": "Moonshine",
+      "artists": [
+        {
+          "name": "Colin Keenan"
+        }
+      ],
+      "artistNames": "Colin Keenan",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "durationMs": 249466,
+      "durationFormatted": "4:09",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1da11ed7cff34ba54db87b70e00aa24d502bf9fb",
+      "spotifyUrl": "https://open.spotify.com/track/1hZ5ymlsg7l45lsN9ZuQtz",
+      "uri": "spotify:track:1hZ5ymlsg7l45lsN9ZuQtz"
     },
     {
       "id": "1jitlWJElKJ10yt3dKN9Xv",
@@ -396,6 +417,27 @@
       "uri": "spotify:track:3neTp2db8L6qXnWtIROIjj"
     },
     {
+      "id": "7oOW1Cb23YpGwvH9aFWGIA",
+      "name": "Too Late",
+      "artists": [
+        {
+          "name": "Earthquake Lights, Nicole Zuraitis"
+        }
+      ],
+      "artistNames": "Earthquake Lights, Nicole Zuraitis",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "durationMs": 288052,
+      "durationFormatted": "4:48",
+      "previewUrl": "https://p.scdn.co/mp3-preview/7b2c43504342643dfedd7525b2133d4730db3aee",
+      "spotifyUrl": "https://open.spotify.com/track/7oOW1Cb23YpGwvH9aFWGIA",
+      "uri": "spotify:track:7oOW1Cb23YpGwvH9aFWGIA"
+    },
+    {
       "id": "0LbA2OXF3g21WO3vDPwHmC",
       "name": "Enero En Nueva York",
       "artists": [
@@ -499,6 +541,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/cbfa3e2e8f2b88a4ea3bde86d3641c772ee3d47b",
       "spotifyUrl": "https://open.spotify.com/track/5aDdG6MrOtxPiuPejIgj6F",
       "uri": "spotify:track:5aDdG6MrOtxPiuPejIgj6F"
+    },
+    {
+      "id": "0pcvgRYZOEujTeQIe4LUVj",
+      "name": "ITTY BITTY",
+      "artists": [
+        {
+          "name": "Mishaal Tamer"
+        }
+      ],
+      "artistNames": "Mishaal Tamer",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "durationMs": 143133,
+      "durationFormatted": "2:23",
+      "previewUrl": "https://p.scdn.co/mp3-preview/bb2bf4b58c3395e3682dd3ce36b2c168e97d9b8a",
+      "spotifyUrl": "https://open.spotify.com/track/0pcvgRYZOEujTeQIe4LUVj",
+      "uri": "spotify:track:0pcvgRYZOEujTeQIe4LUVj"
     },
     {
       "id": "0nwi5cJKDYDGzXPrK1lzTO",
