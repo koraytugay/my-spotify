@@ -4,15 +4,15 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 79,
+  "tracksTotal": 81,
   "images": [
     {
       "height": null,
-      "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
       "width": null
     }
   ],
-  "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+  "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
   "owner": "MAFE 06",
   "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
   "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -1194,6 +1194,27 @@
       "uri": "spotify:track:5fYBOVdmGKEsqK3u5pk2j5"
     },
     {
+      "id": "4cKnqDmbXZwq4MW7A2U53w",
+      "name": "Still Alive",
+      "artists": [
+        {
+          "name": "Mr. Beretini"
+        }
+      ],
+      "artistNames": "Mr. Beretini",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "durationMs": 182800,
+      "durationFormatted": "3:02",
+      "previewUrl": "https://p.scdn.co/mp3-preview/13fb304de71a9206ebb720c5cc879e66a26a753e",
+      "spotifyUrl": "https://open.spotify.com/track/4cKnqDmbXZwq4MW7A2U53w",
+      "uri": "spotify:track:4cKnqDmbXZwq4MW7A2U53w"
+    },
+    {
       "id": "0tCLEnxwsUH9z82uDF9ZGA",
       "name": "Mil Botellas Destapar",
       "artists": [
@@ -1339,6 +1360,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/be44b24449471f6b18d4d027e461db0a5c9f7c16",
       "spotifyUrl": "https://open.spotify.com/track/7u1PK6VeDCNHzztGJtqqPF",
       "uri": "spotify:track:7u1PK6VeDCNHzztGJtqqPF"
+    },
+    {
+      "id": "7xcwfOxgwQy2dnJ0XFr2wc",
+      "name": "Unbound - Radio Edit",
+      "artists": [
+        {
+          "name": "Jordan John"
+        }
+      ],
+      "artistNames": "Jordan John",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "durationMs": 243995,
+      "durationFormatted": "4:03",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1835de6364d1f5ae1b6bab9a4099f4e36d0c276f",
+      "spotifyUrl": "https://open.spotify.com/track/7xcwfOxgwQy2dnJ0XFr2wc",
+      "uri": "spotify:track:7xcwfOxgwQy2dnJ0XFr2wc"
     },
     {
       "id": "0Bq7UQv3bdHZX7NhNKlJCJ",
