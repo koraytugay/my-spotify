@@ -4,7 +4,7 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 77,
+  "tracksTotal": 79,
   "images": [
     {
       "height": null,
@@ -795,6 +795,27 @@
       "uri": "spotify:track:1zebrlnS8iBSOSDVCcwTK7"
     },
     {
+      "id": "0YuyWX0zIFDmlt7TLbcb87",
+      "name": "Black Pearl Summer",
+      "artists": [
+        {
+          "name": "Fanny Alexandra"
+        }
+      ],
+      "artistNames": "Fanny Alexandra",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "durationMs": 329906,
+      "durationFormatted": "5:29",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c40388f46ac8630702418870cc3d30c354c0e898",
+      "spotifyUrl": "https://open.spotify.com/track/0YuyWX0zIFDmlt7TLbcb87",
+      "uri": "spotify:track:0YuyWX0zIFDmlt7TLbcb87"
+    },
+    {
       "id": "4o35g6xblMQTdd0aejLk7Z",
       "name": "Only Fantasy",
       "artists": [
@@ -1444,6 +1465,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/acdfe73cf77e225c43f53e53ac314356589dc830",
       "spotifyUrl": "https://open.spotify.com/track/3q1dv1JPbzRMwFi6DErh3u",
       "uri": "spotify:track:3q1dv1JPbzRMwFi6DErh3u"
+    },
+    {
+      "id": "0fAzrnmtIcuQEWOCUYNH1z",
+      "name": "Last One Standing",
+      "artists": [
+        {
+          "name": "Robert Rene"
+        }
+      ],
+      "artistNames": "Robert Rene",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "durationMs": 235361,
+      "durationFormatted": "3:55",
+      "previewUrl": "https://p.scdn.co/mp3-preview/776b3d5d275a769367f3e6c21823349dfca9dbb4",
+      "spotifyUrl": "https://open.spotify.com/track/0fAzrnmtIcuQEWOCUYNH1z",
+      "uri": "spotify:track:0fAzrnmtIcuQEWOCUYNH1z"
     },
     {
       "id": "5hPaDzRIdbZD7Fy3tledhM",
