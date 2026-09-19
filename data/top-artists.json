@@ -406,6 +406,15 @@
   },
   {
     "rank": 46,
+    "id": "31eXqCx5cAlItdGdoHMEOu",
+    "name": "Theatre Of Tragedy",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2d47a4f355c8dc21d651fcca",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/31eXqCx5cAlItdGdoHMEOu"
+  },
+  {
+    "rank": 47,
     "id": "64d1rUxfizSAOE9UbMnUZd",
     "name": "Sezen Aksu",
     "genres": [],
@@ -414,7 +423,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/64d1rUxfizSAOE9UbMnUZd"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "genres": [],
@@ -423,7 +432,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "id": "0WwSkZ7LtFUFjGjMZBMt6T",
     "name": "Dire Straits",
     "genres": [],
@@ -432,21 +441,12 @@
     "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "id": "4CYeVo5iZbtYGBN4Isc3n6",
     "name": "Dio",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb555c8199ba80168cfeafdfbc",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/4CYeVo5iZbtYGBN4Isc3n6"
-  },
-  {
-    "rank": 50,
-    "id": "1CTvStsvYcGi6FfDHzNg0t",
-    "name": "Mazhar Alanson",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5871450c612fa87eff011f4b",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/1CTvStsvYcGi6FfDHzNg0t"
   }
 ]
