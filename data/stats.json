@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 608,
+  "totalLikedSongs": 614,
   "totalPlaylists": 15,
   "totalSavedAlbums": 99,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 158327439,
-  "totalDurationHours": 44,
-  "totalDurationDays": 1.8,
-  "totalDurationFormatted": "43 hrs 58 mins",
-  "uniqueArtistsCount": 506,
+  "totalDurationMs": 159964983,
+  "totalDurationHours": 44.4,
+  "totalDurationDays": 1.9,
+  "totalDurationFormatted": "44 hrs 26 mins",
+  "uniqueArtistsCount": 510,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -86,6 +86,10 @@
       "count": 4
     },
     {
+      "name": "Suzanne Vega",
+      "count": 3
+    },
+    {
       "name": "Barış Manço",
       "count": 3
     },
@@ -124,20 +128,16 @@
     {
       "name": "Ezginin Günlügü",
       "count": 3
-    },
-    {
-      "name": "Dire Straits",
-      "count": 3
     }
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "1970s": 46,
+    "1990s": 138,
+    "1980s": 89,
     "2010s": 151,
-    "1980s": 87,
-    "1990s": 135,
     "2000s": 145,
     "2020s": 26,
-    "1970s": 45,
     "1960s": 18,
     "1950s": 1
   },
@@ -157,16 +157,16 @@
     "1975": 4,
     "1976": 8,
     "1977": 3,
-    "1978": 8,
+    "1978": 9,
     "1979": 5,
     "1980": 10,
     "1981": 11,
     "1982": 3,
     "1983": 6,
     "1984": 12,
-    "1985": 7,
+    "1985": 8,
     "1986": 7,
-    "1987": 15,
+    "1987": 16,
     "1988": 6,
     "1989": 10,
     "1990": 8,
@@ -177,8 +177,8 @@
     "1995": 7,
     "1996": 22,
     "1997": 22,
-    "1998": 12,
-    "1999": 21,
+    "1998": 14,
+    "1999": 22,
     "2000": 13,
     "2001": 12,
     "2002": 15,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-09-19T23:43:23.454Z"
+  "lastUpdated": "2026-09-20T05:30:44.156Z"
 }

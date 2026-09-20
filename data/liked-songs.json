@@ -1,5 +1,171 @@
 [
   {
+    "id": "5YSI1311X8t31PBjkBG4CZ",
+    "name": "Wuthering Heights",
+    "artists": [
+      {
+        "id": "1aSxMhuvixZ8h9dK9jIDwL",
+        "name": "Kate Bush"
+      }
+    ],
+    "artistNames": "Kate Bush",
+    "album": {
+      "id": "5NKTuBLCYhN0OwqFiGdXd1",
+      "name": "The Kick Inside",
+      "releaseDate": "1978-02-17",
+      "releaseYear": "1978",
+      "totalTracks": 13
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733c9aa0b150e1a982fd76b1c5",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513c9aa0b150e1a982fd76b1c5",
+    "durationMs": 269066,
+    "durationFormatted": "4:29",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/5YSI1311X8t31PBjkBG4CZ",
+    "uri": "spotify:track:5YSI1311X8t31PBjkBG4CZ",
+    "addedAt": "2026-09-20T01:37:58Z",
+    "addedDate": "2026-09-20"
+  },
+  {
+    "id": "3XpJO7x4y6MLdwo5QU2sA8",
+    "name": "Goodnight Moon",
+    "artists": [
+      {
+        "id": "34xAiSyQG6nlH0eZNLjbLW",
+        "name": "Shivaree"
+      }
+    ],
+    "artistNames": "Shivaree",
+    "album": {
+      "id": "02r9ie0hNGQdEw5iHxSLO4",
+      "name": "I Oughtta Give You A Shot In The Head For Making Me Live In This Dump",
+      "releaseDate": "1999-01-01",
+      "releaseYear": "1999",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273e95181dfb26d2858d7e8d398",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851e95181dfb26d2858d7e8d398",
+    "durationMs": 244293,
+    "durationFormatted": "4:04",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/3XpJO7x4y6MLdwo5QU2sA8",
+    "uri": "spotify:track:3XpJO7x4y6MLdwo5QU2sA8",
+    "addedAt": "2026-09-20T01:27:14Z",
+    "addedDate": "2026-09-20"
+  },
+  {
+    "id": "2WMay5ANq2NNjrxRcKAvkN",
+    "name": "Marlene On The Wall",
+    "artists": [
+      {
+        "id": "3X0tJzVYoWlfjLYI0Ridsw",
+        "name": "Suzanne Vega"
+      }
+    ],
+    "artistNames": "Suzanne Vega",
+    "album": {
+      "id": "5cboZA5AxA9fc6F1gp818q",
+      "name": "Suzanne Vega",
+      "releaseDate": "1985-05-01",
+      "releaseYear": "1985",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27327f61821bfc093f9f59acb48",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485127f61821bfc093f9f59acb48",
+    "durationMs": 219173,
+    "durationFormatted": "3:39",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/2WMay5ANq2NNjrxRcKAvkN",
+    "uri": "spotify:track:2WMay5ANq2NNjrxRcKAvkN",
+    "addedAt": "2026-09-20T01:17:11Z",
+    "addedDate": "2026-09-20"
+  },
+  {
+    "id": "6T10XPeC9X5xEaD6tMcK6M",
+    "name": "All I Need (feat. Beth Hirsch)",
+    "artists": [
+      {
+        "id": "1P6U1dCeHxPui5pIrGmndZ",
+        "name": "Air"
+      },
+      {
+        "id": "7a1nGgiWVcRP4PV6xkXQ96",
+        "name": "Beth Hirsch"
+      }
+    ],
+    "artistNames": "Air, Beth Hirsch",
+    "album": {
+      "id": "5dmYtZVJ1bG9RyrZBRrkOA",
+      "name": "Moon Safari",
+      "releaseDate": "1998-01-16",
+      "releaseYear": "1998",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273f175f7e9aa80290164db00a3",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851f175f7e9aa80290164db00a3",
+    "durationMs": 268306,
+    "durationFormatted": "4:28",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6T10XPeC9X5xEaD6tMcK6M",
+    "uri": "spotify:track:6T10XPeC9X5xEaD6tMcK6M",
+    "addedAt": "2026-09-20T01:05:14Z",
+    "addedDate": "2026-09-20"
+  },
+  {
+    "id": "0xjkgYSzHjBZNvyUaC9cXX",
+    "name": "The Sea",
+    "artists": [
+      {
+        "id": "6bWxFw65IEJzBYjx3SxUXd",
+        "name": "Morcheeba"
+      }
+    ],
+    "artistNames": "Morcheeba",
+    "album": {
+      "id": "1ILnMWNKUXzcXug4Tq2JRP",
+      "name": "Big Calm",
+      "releaseDate": "1998",
+      "releaseYear": "1998",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf63694faffdc4421f0282cc",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851cf63694faffdc4421f0282cc",
+    "durationMs": 347280,
+    "durationFormatted": "5:47",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/0xjkgYSzHjBZNvyUaC9cXX",
+    "uri": "spotify:track:0xjkgYSzHjBZNvyUaC9cXX",
+    "addedAt": "2026-09-20T00:59:48Z",
+    "addedDate": "2026-09-20"
+  },
+  {
+    "id": "3XfjgqBGTmgzl8XencUM2e",
+    "name": "Solitude Standing",
+    "artists": [
+      {
+        "id": "3X0tJzVYoWlfjLYI0Ridsw",
+        "name": "Suzanne Vega"
+      }
+    ],
+    "artistNames": "Suzanne Vega",
+    "album": {
+      "id": "5w4IN5bPXAQD5iAVPNqvMg",
+      "name": "Solitude Standing",
+      "releaseDate": "1987-01-01",
+      "releaseYear": "1987",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273680490be41cefe6655496c68",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851680490be41cefe6655496c68",
+    "durationMs": 289426,
+    "durationFormatted": "4:49",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/3XfjgqBGTmgzl8XencUM2e",
+    "uri": "spotify:track:3XfjgqBGTmgzl8XencUM2e",
+    "addedAt": "2026-09-20T00:52:51Z",
+    "addedDate": "2026-09-20"
+  },
+  {
     "id": "1qDrWA6lyx8cLECdZE7TV7",
     "name": "Somebody That I Used To Know",
     "artists": [
