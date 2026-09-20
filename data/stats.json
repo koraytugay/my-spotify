@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 614,
+  "totalLikedSongs": 615,
   "totalPlaylists": 15,
   "totalSavedAlbums": 99,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 159964983,
-  "totalDurationHours": 44.4,
+  "totalDurationMs": 160180183,
+  "totalDurationHours": 44.5,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "44 hrs 26 mins",
+  "totalDurationFormatted": "44 hrs 29 mins",
   "uniqueArtistsCount": 510,
   "topLikedArtists": [
     {
@@ -36,6 +36,10 @@
     {
       "name": "Agalloch",
       "count": 5
+    },
+    {
+      "name": "Suzanne Vega",
+      "count": 4
     },
     {
       "name": "Sıla",
@@ -86,10 +90,6 @@
       "count": 4
     },
     {
-      "name": "Suzanne Vega",
-      "count": 3
-    },
-    {
       "name": "Barış Manço",
       "count": 3
     },
@@ -132,9 +132,9 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "1980s": 90,
     "1970s": 46,
     "1990s": 138,
-    "1980s": 89,
     "2010s": 151,
     "2000s": 145,
     "2020s": 26,
@@ -166,7 +166,7 @@
     "1984": 12,
     "1985": 8,
     "1986": 7,
-    "1987": 16,
+    "1987": 17,
     "1988": 6,
     "1989": 10,
     "1990": 8,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-09-20T21:07:00.549Z"
+  "lastUpdated": "2026-09-20T23:38:53.759Z"
 }

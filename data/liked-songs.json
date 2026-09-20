@@ -1,5 +1,32 @@
 [
   {
+    "id": "24vxZMHrjy9hGxzdTGCJBU",
+    "name": "Left Of Center",
+    "artists": [
+      {
+        "id": "3X0tJzVYoWlfjLYI0Ridsw",
+        "name": "Suzanne Vega"
+      }
+    ],
+    "artistNames": "Suzanne Vega",
+    "album": {
+      "id": "3iaUAs1zHrPBaYIpLmskEV",
+      "name": "Tom's Diner",
+      "releaseDate": "1987-01-01",
+      "releaseYear": "1987",
+      "totalTracks": 4
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2733069ced96d8f44abed93fb59",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048513069ced96d8f44abed93fb59",
+    "durationMs": 215200,
+    "durationFormatted": "3:35",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/24vxZMHrjy9hGxzdTGCJBU",
+    "uri": "spotify:track:24vxZMHrjy9hGxzdTGCJBU",
+    "addedAt": "2026-09-20T21:25:17Z",
+    "addedDate": "2026-09-20"
+  },
+  {
     "id": "5YSI1311X8t31PBjkBG4CZ",
     "name": "Wuthering Heights",
     "artists": [
