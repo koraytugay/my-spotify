@@ -5,15 +5,15 @@
     "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
     "public": true,
     "collaborative": false,
-    "tracksTotal": 79,
+    "tracksTotal": 81,
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
     "owner": "MAFE 06",
     "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
     "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -128,10 +128,10 @@
         "name": "Somebody That I Used To Know - 4FRNT Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, 4FRNT"
+            "name": "4FRNT, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, 4FRNT",
+        "artistNames": "4FRNT, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -254,10 +254,10 @@
         "name": "Somebody That I Used To Know - Dan Aux Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Dan Aux"
+            "name": "Dan Aux, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Dan Aux",
+        "artistNames": "Dan Aux, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -317,10 +317,10 @@
         "name": "Somebody That I Used To Know - Faux Pas Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Faux Pas"
+            "name": "Faux Pas, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Faux Pas",
+        "artistNames": "Faux Pas, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -779,10 +779,10 @@
         "name": "Somebody That I Used To Know - Sneaker Fox Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Sneaker Fox"
+            "name": "Sneaker Fox, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Sneaker Fox",
+        "artistNames": "Sneaker Fox, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -842,10 +842,10 @@
         "name": "Somebody That I Used To Know - Tiësto Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Tiësto"
+            "name": "Tiësto, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Tiësto",
+        "artistNames": "Tiësto, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -1241,10 +1241,10 @@
         "name": "Somebody That I Used To Know - Bibio Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Bibio"
+            "name": "Bibio, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Bibio",
+        "artistNames": "Bibio, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -1256,6 +1256,27 @@
         "previewUrl": "https://p.scdn.co/mp3-preview/06ea5968a8c1cca11674e57ff9399a9d0f80110f",
         "spotifyUrl": "https://open.spotify.com/track/3VzywF2Vd3ejMsREBNp0tj",
         "uri": "spotify:track:3VzywF2Vd3ejMsREBNp0tj"
+      },
+      {
+        "id": "0zwMpDkSfBY0mA1rMrQlps",
+        "name": "Just Believe",
+        "artists": [
+          {
+            "name": "Jeppediinho"
+          }
+        ],
+        "artistNames": "Jeppediinho",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 222087,
+        "durationFormatted": "3:42",
+        "previewUrl": "https://p.scdn.co/mp3-preview/841e218eb54a79b08a708740d16ca4a6c7438af9",
+        "spotifyUrl": "https://open.spotify.com/track/0zwMpDkSfBY0mA1rMrQlps",
+        "uri": "spotify:track:0zwMpDkSfBY0mA1rMrQlps"
       },
       {
         "id": "3vkYspVLTTaeJhAsBXh491",
@@ -1325,10 +1346,10 @@
         "name": "Somebody That I Used To Know - Gang Colours Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, Gang Colours"
+            "name": "Gang Colours, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, Gang Colours",
+        "artistNames": "Gang Colours, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -1619,10 +1640,10 @@
         "name": "Somebody That I Used To Know - M-Phazes Remix",
         "artists": [
           {
-            "name": "Gotye, Kimbra, M-Phazes"
+            "name": "M-Phazes, Gotye, Kimbra"
           }
         ],
-        "artistNames": "Gotye, Kimbra, M-Phazes",
+        "artistNames": "M-Phazes, Gotye, Kimbra",
         "album": {
           "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
           "releaseYear": ""
@@ -1634,6 +1655,27 @@
         "previewUrl": "https://p.scdn.co/mp3-preview/4028be09b558e3d9251d271a4faead01866ccbf0",
         "spotifyUrl": "https://open.spotify.com/track/4HYSBUR88sZqBYuFEbHByM",
         "uri": "spotify:track:4HYSBUR88sZqBYuFEbHByM"
+      },
+      {
+        "id": "4Tb6cix86vj6asFeIlBUPX",
+        "name": "THE MOMENT",
+        "artists": [
+          {
+            "name": "NorLeigh Llc"
+          }
+        ],
+        "artistNames": "NorLeigh Llc",
+        "album": {
+          "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+          "releaseYear": ""
+        },
+        "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "durationMs": 301640,
+        "durationFormatted": "5:01",
+        "previewUrl": "https://p.scdn.co/mp3-preview/6026fbf584e560b4ffd4da49054896ae5b19ca75",
+        "spotifyUrl": "https://open.spotify.com/track/4Tb6cix86vj6asFeIlBUPX",
+        "uri": "spotify:track:4Tb6cix86vj6asFeIlBUPX"
       },
       {
         "id": "4sP5CGdDRGTyMqsl2J5cW4",
@@ -4094,11 +4136,11 @@
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
+    "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bcdf88d9a5c29673c853cb2b",
     "owner": "Acconcia",
     "spotifyUrl": "https://open.spotify.com/playlist/4CuqBD01YP6xntST1gcCrG",
     "uri": "spotify:playlist:4CuqBD01YP6xntST1gcCrG",
