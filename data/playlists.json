@@ -9,11 +9,11 @@
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
     "owner": "MAFE 06",
     "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
     "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -791,7 +791,7 @@
         "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
         "durationMs": 435473,
         "durationFormatted": "7:15",
-        "previewUrl": "https://p.scdn.co/mp3-preview/b99fb96746d3ed292da463c6dd7539d59ff2c3c0",
+        "previewUrl": null,
         "spotifyUrl": "https://open.spotify.com/track/1zebrlnS8iBSOSDVCcwTK7",
         "uri": "spotify:track:1zebrlnS8iBSOSDVCcwTK7"
       },
@@ -854,7 +854,7 @@
         "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
         "durationMs": 273095,
         "durationFormatted": "4:33",
-        "previewUrl": "https://p.scdn.co/mp3-preview/240e7dc01240d6f2ec2ccefe12fba3e0644d282d",
+        "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
         "spotifyUrl": "https://open.spotify.com/track/0pKTw4qlPTgZn0anwytcG6",
         "uri": "spotify:track:0pKTw4qlPTgZn0anwytcG6"
       },
@@ -1337,7 +1337,7 @@
         "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
         "durationMs": 273095,
         "durationFormatted": "4:33",
-        "previewUrl": "https://p.scdn.co/mp3-preview/240e7dc01240d6f2ec2ccefe12fba3e0644d282d",
+        "previewUrl": "https://p.scdn.co/mp3-preview/5d06a3d234bfa500b0c5a427b6b5c50cba9f1e5d",
         "spotifyUrl": "https://open.spotify.com/track/013CED9qUgt808UQr9jSPm",
         "uri": "spotify:track:013CED9qUgt808UQr9jSPm"
       },
@@ -3044,11 +3044,11 @@
     "images": [
       {
         "height": null,
-        "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
         "width": null
       }
     ],
-    "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
+    "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a50bcb0e9a07312c9a38b296",
     "owner": "ToggleNation",
     "spotifyUrl": "https://open.spotify.com/playlist/6bXGXE71qgLUWgdBDJ4qxF",
     "uri": "spotify:playlist:6bXGXE71qgLUWgdBDJ4qxF",

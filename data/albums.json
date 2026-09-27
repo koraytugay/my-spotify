@@ -1,5 +1,503 @@
 [
   {
+    "id": "17mZxprFkV5Fuki7z3V7RW",
+    "name": "Anadolu Ejderi",
+    "artists": [
+      {
+        "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+        "name": "Gaye Su Akyol"
+      }
+    ],
+    "artistNames": "Gaye Su Akyol",
+    "releaseDate": "2022-11-25",
+    "releaseYear": "2022",
+    "totalTracks": 11,
+    "tracks": [
+      {
+        "id": "20K0BwwzSchxPyuvrwQ94O",
+        "name": "Anadolu Ejderi",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 242703,
+        "durationFormatted": "4:02",
+        "spotifyUrl": "https://open.spotify.com/track/20K0BwwzSchxPyuvrwQ94O",
+        "uri": "spotify:track:20K0BwwzSchxPyuvrwQ94O"
+      },
+      {
+        "id": "69FlymMRq4X6OOgseYp3zg",
+        "name": "Vurgunum Ama Acelesi Yok",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 285810,
+        "durationFormatted": "4:45",
+        "spotifyUrl": "https://open.spotify.com/track/69FlymMRq4X6OOgseYp3zg",
+        "uri": "spotify:track:69FlymMRq4X6OOgseYp3zg"
+      },
+      {
+        "id": "7udYXQcyK553CNwc9LgEIp",
+        "name": "Biz Ne Zaman Düşman Olduk",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 241315,
+        "durationFormatted": "4:01",
+        "spotifyUrl": "https://open.spotify.com/track/7udYXQcyK553CNwc9LgEIp",
+        "uri": "spotify:track:7udYXQcyK553CNwc9LgEIp"
+      },
+      {
+        "id": "6dyBDhm3kJZqlYf7MURjrj",
+        "name": "Bu Izdırabın Panzehiri",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 264748,
+        "durationFormatted": "4:24",
+        "spotifyUrl": "https://open.spotify.com/track/6dyBDhm3kJZqlYf7MURjrj",
+        "uri": "spotify:track:6dyBDhm3kJZqlYf7MURjrj"
+      },
+      {
+        "id": "6bjRiEnF1v08VPgnkQ380Y",
+        "name": "Yaram Derin Derin Kanar",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 249882,
+        "durationFormatted": "4:09",
+        "spotifyUrl": "https://open.spotify.com/track/6bjRiEnF1v08VPgnkQ380Y",
+        "uri": "spotify:track:6bjRiEnF1v08VPgnkQ380Y"
+      },
+      {
+        "id": "7irM6uYSG4SZmmJZp5r69a",
+        "name": "Sen Benim Mağaramsın",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 226483,
+        "durationFormatted": "3:46",
+        "spotifyUrl": "https://open.spotify.com/track/7irM6uYSG4SZmmJZp5r69a",
+        "uri": "spotify:track:7irM6uYSG4SZmmJZp5r69a"
+      },
+      {
+        "id": "5CeaIXocEr45MuJE2KADiV",
+        "name": "Martılar Öpüşür, Kediler Sevişir",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 253687,
+        "durationFormatted": "4:13",
+        "spotifyUrl": "https://open.spotify.com/track/5CeaIXocEr45MuJE2KADiV",
+        "uri": "spotify:track:5CeaIXocEr45MuJE2KADiV"
+      },
+      {
+        "id": "5Qb7rFIvrjw9odcqhU1hDY",
+        "name": "Kör Bıçakların Ucunda",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 256607,
+        "durationFormatted": "4:16",
+        "spotifyUrl": "https://open.spotify.com/track/5Qb7rFIvrjw9odcqhU1hDY",
+        "uri": "spotify:track:5Qb7rFIvrjw9odcqhU1hDY"
+      },
+      {
+        "id": "11yufSzoDRjizQ7GpZ6hsx",
+        "name": "Artık Başka Bir Lisansın",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 136111,
+        "durationFormatted": "2:16",
+        "spotifyUrl": "https://open.spotify.com/track/11yufSzoDRjizQ7GpZ6hsx",
+        "uri": "spotify:track:11yufSzoDRjizQ7GpZ6hsx"
+      },
+      {
+        "id": "08z0kDYy1xAYI74AmcLRhp",
+        "name": "Gel Yanıma Gel",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 151173,
+        "durationFormatted": "2:31",
+        "spotifyUrl": "https://open.spotify.com/track/08z0kDYy1xAYI74AmcLRhp",
+        "uri": "spotify:track:08z0kDYy1xAYI74AmcLRhp"
+      },
+      {
+        "id": "4hRY1BvcMvCCOPGU1DW8o8",
+        "name": "İçinde Uyanıyoruz Hakikatin",
+        "trackNumber": 11,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "17mZxprFkV5Fuki7z3V7RW",
+          "name": "Anadolu Ejderi",
+          "releaseYear": "2022"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851368acedb5c264f7704b1e492",
+        "durationMs": 260907,
+        "durationFormatted": "4:20",
+        "spotifyUrl": "https://open.spotify.com/track/4hRY1BvcMvCCOPGU1DW8o8",
+        "uri": "spotify:track:4hRY1BvcMvCCOPGU1DW8o8"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273368acedb5c264f7704b1e492",
+    "spotifyUrl": "https://open.spotify.com/album/17mZxprFkV5Fuki7z3V7RW",
+    "addedAt": "2026-09-27T12:01:18Z"
+  },
+  {
+    "id": "0HjZwdJiRthtbLo7BshlaN",
+    "name": "Develerle Yaşıyorum",
+    "artists": [
+      {
+        "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+        "name": "Gaye Su Akyol"
+      }
+    ],
+    "artistNames": "Gaye Su Akyol",
+    "releaseDate": "2012",
+    "releaseYear": "2012",
+    "totalTracks": 9,
+    "tracks": [
+      {
+        "id": "4mlJTeg1JhJFflF4lTShkr",
+        "name": "Abbas",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 283273,
+        "durationFormatted": "4:43",
+        "spotifyUrl": "https://open.spotify.com/track/4mlJTeg1JhJFflF4lTShkr",
+        "uri": "spotify:track:4mlJTeg1JhJFflF4lTShkr"
+      },
+      {
+        "id": "6gDboF2n3NLJ0woZDHDAOj",
+        "name": "Develerle Yaşıyorum",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 287198,
+        "durationFormatted": "4:47",
+        "spotifyUrl": "https://open.spotify.com/track/6gDboF2n3NLJ0woZDHDAOj",
+        "uri": "spotify:track:6gDboF2n3NLJ0woZDHDAOj"
+      },
+      {
+        "id": "7Br2osXnyxFWBW9fv2hQzN",
+        "name": "Biliyorum",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 257265,
+        "durationFormatted": "4:17",
+        "spotifyUrl": "https://open.spotify.com/track/7Br2osXnyxFWBW9fv2hQzN",
+        "uri": "spotify:track:7Br2osXnyxFWBW9fv2hQzN"
+      },
+      {
+        "id": "3Hl0gEPS3x81a1uqHggC9Z",
+        "name": "Yıllar Yılan",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 253200,
+        "durationFormatted": "4:13",
+        "spotifyUrl": "https://open.spotify.com/track/3Hl0gEPS3x81a1uqHggC9Z",
+        "uri": "spotify:track:3Hl0gEPS3x81a1uqHggC9Z"
+      },
+      {
+        "id": "4hqQl7zo126T66C0DKbnAr",
+        "name": "Zaman Asla Affetmez",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 157439,
+        "durationFormatted": "2:37",
+        "spotifyUrl": "https://open.spotify.com/track/4hqQl7zo126T66C0DKbnAr",
+        "uri": "spotify:track:4hqQl7zo126T66C0DKbnAr"
+      },
+      {
+        "id": "4Z4UFufZ15uFDy0GmckA3l",
+        "name": "Çok Mutlusun",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 182117,
+        "durationFormatted": "3:02",
+        "spotifyUrl": "https://open.spotify.com/track/4Z4UFufZ15uFDy0GmckA3l",
+        "uri": "spotify:track:4Z4UFufZ15uFDy0GmckA3l"
+      },
+      {
+        "id": "6xfuJBrQrAQcIiNR1aO7T6",
+        "name": "Ölü Bir Adama",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 136166,
+        "durationFormatted": "2:16",
+        "spotifyUrl": "https://open.spotify.com/track/6xfuJBrQrAQcIiNR1aO7T6",
+        "uri": "spotify:track:6xfuJBrQrAQcIiNR1aO7T6"
+      },
+      {
+        "id": "6aKmyq8zsST4ZSmhXEvAou",
+        "name": "Cehennem Meyhanesi",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 288644,
+        "durationFormatted": "4:48",
+        "spotifyUrl": "https://open.spotify.com/track/6aKmyq8zsST4ZSmhXEvAou",
+        "uri": "spotify:track:6aKmyq8zsST4ZSmhXEvAou"
+      },
+      {
+        "id": "3YQr5qy6yuDJQ8rd8BKcFx",
+        "name": "Ruhun Ölmüş Senin",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "0VsS7WKuNEsKGNIWuiwSyZ",
+            "name": "Gaye Su Akyol"
+          }
+        ],
+        "artistNames": "Gaye Su Akyol",
+        "album": {
+          "id": "0HjZwdJiRthtbLo7BshlaN",
+          "name": "Develerle Yaşıyorum",
+          "releaseYear": "2012"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851ad03cfcea3a997ce235aaefa",
+        "durationMs": 222090,
+        "durationFormatted": "3:42",
+        "spotifyUrl": "https://open.spotify.com/track/3YQr5qy6yuDJQ8rd8BKcFx",
+        "uri": "spotify:track:3YQr5qy6yuDJQ8rd8BKcFx"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ad03cfcea3a997ce235aaefa",
+    "spotifyUrl": "https://open.spotify.com/album/0HjZwdJiRthtbLo7BshlaN",
+    "addedAt": "2026-09-27T12:01:13Z"
+  },
+  {
     "id": "2nPrqxgMHaDfqW7VjuQYGE",
     "name": "Aégis",
     "artists": [
