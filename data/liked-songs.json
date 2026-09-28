@@ -1,5 +1,87 @@
 [
   {
+    "id": "32FfL5hpFQdweMkxg8Z55o",
+    "name": "Les eaux de mars",
+    "artists": [
+      {
+        "id": "03EYBMnqSchCMp5D9qmFXi",
+        "name": "Stacey Kent"
+      },
+      {
+        "id": "5L3fIRSYQCR3EJwQICfyRq",
+        "name": "Jim Tomlinson"
+      },
+      {
+        "id": "1x7a6AcM8lS9mfpkzfIgAt",
+        "name": "Graham Harvey"
+      },
+      {
+        "id": "1Ak5vW938xaMoVfXuHeZfA",
+        "name": "Matt Skelton"
+      },
+      {
+        "id": "55Ib86Ob0dKLELhJ1gvUri",
+        "name": "John Parricelli"
+      },
+      {
+        "id": "2GryQVS8rv0VqHUGN4Ua3v",
+        "name": "Jeremy Brown"
+      }
+    ],
+    "artistNames": "Stacey Kent, Jim Tomlinson, Graham Harvey, Matt Skelton, John Parricelli, Jeremy Brown",
+    "album": {
+      "id": "3afGgL2rBWMuLYEWXScDFb",
+      "name": "Raconte-moi... (Bonus Edition)",
+      "releaseDate": "2010-03-22",
+      "releaseYear": "2010",
+      "totalTracks": 13
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273551e2f81764662b5c9c5335d",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851551e2f81764662b5c9c5335d",
+    "durationMs": 218293,
+    "durationFormatted": "3:38",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/32FfL5hpFQdweMkxg8Z55o",
+    "uri": "spotify:track:32FfL5hpFQdweMkxg8Z55o",
+    "addedAt": "2026-09-27T22:18:09Z",
+    "addedDate": "2026-09-27"
+  },
+  {
+    "id": "4YgSlaIvdQfu8JU78x7MaZ",
+    "name": "Sympathique",
+    "artists": [
+      {
+        "id": "6KyUat70qaniuiZq63HzFZ",
+        "name": "Pink Martini"
+      },
+      {
+        "id": "3eBVmYkS103Lfh4IPH0H9A",
+        "name": "China Forbes"
+      },
+      {
+        "id": "6YTL8wArPzRzIUAIT7N80O",
+        "name": "Thomas M. Lauderdale"
+      }
+    ],
+    "artistNames": "Pink Martini, China Forbes, Thomas M. Lauderdale",
+    "album": {
+      "id": "29MX9p2H3rBVdQAuSCQ8rc",
+      "name": "Sympathique",
+      "releaseDate": "1999-04-20",
+      "releaseYear": "1999",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b31bd144093d6e0ad94318a8",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851b31bd144093d6e0ad94318a8",
+    "durationMs": 170880,
+    "durationFormatted": "2:50",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/4YgSlaIvdQfu8JU78x7MaZ",
+    "uri": "spotify:track:4YgSlaIvdQfu8JU78x7MaZ",
+    "addedAt": "2026-09-27T21:32:03Z",
+    "addedDate": "2026-09-27"
+  },
+  {
     "id": "07jreZPe9CuJXfXQeZC79K",
     "name": "Castle in the Snow",
     "artists": [
