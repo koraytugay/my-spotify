@@ -343,6 +343,15 @@
   },
   {
     "rank": 39,
+    "id": "1O8CSXsPwEqxcoBE360PPO",
+    "name": "Stratovarius",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4733f393ad04f47b31edaadb",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
+  },
+  {
+    "rank": 40,
     "id": "36QJpDe2go2KgaRleHCDTp",
     "name": "Led Zeppelin",
     "genres": [],
@@ -351,7 +360,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "id": "7jxJ25p0pPjk0MStloN6o6",
     "name": "Blind Guardian",
     "genres": [],
@@ -360,22 +369,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "id": "6WDnC2nx6hEPdtcU2LLGtE",
     "name": "Ezginin Günlügü",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
-  },
-  {
-    "rank": 42,
-    "id": "1O8CSXsPwEqxcoBE360PPO",
-    "name": "Stratovarius",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4733f393ad04f47b31edaadb",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
   },
   {
     "rank": 43,
@@ -442,11 +442,11 @@
   },
   {
     "rank": 50,
-    "id": "4CYeVo5iZbtYGBN4Isc3n6",
-    "name": "Dio",
+    "id": "1Yox196W7bzVNZI7RBaPnf",
+    "name": "Megadeth",
     "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb555c8199ba80168cfeafdfbc",
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd5233fdc8cad84de5b366f1b",
     "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/4CYeVo5iZbtYGBN4Isc3n6"
+    "spotifyUrl": "https://open.spotify.com/artist/1Yox196W7bzVNZI7RBaPnf"
   }
 ]
