@@ -334,21 +334,21 @@
   },
   {
     "rank": 38,
-    "id": "2nszamLjZFgu3Yx77mKxuC",
-    "name": "UNKLE",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebac89f1cb4f6881854f55f761",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/2nszamLjZFgu3Yx77mKxuC"
-  },
-  {
-    "rank": 39,
     "id": "1O8CSXsPwEqxcoBE360PPO",
     "name": "Stratovarius",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4733f393ad04f47b31edaadb",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
+  },
+  {
+    "rank": 39,
+    "id": "2nszamLjZFgu3Yx77mKxuC",
+    "name": "UNKLE",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebac89f1cb4f6881854f55f761",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/2nszamLjZFgu3Yx77mKxuC"
   },
   {
     "rank": 40,
