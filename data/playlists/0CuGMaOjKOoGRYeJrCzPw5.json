@@ -8,11 +8,11 @@
   "images": [
     {
       "height": null,
-      "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
       "width": null
     }
   ],
-  "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+  "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
   "owner": "MAFE 06",
   "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
   "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -160,7 +160,7 @@
       "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "durationMs": 244696,
       "durationFormatted": "4:04",
-      "previewUrl": "https://p.scdn.co/mp3-preview/b8963a6ebddd6a05d06969713c3d83829a66655f",
+      "previewUrl": "https://p.scdn.co/mp3-preview/315f9d7ffa89c5ae91e8afdf58a034c614de0d45",
       "spotifyUrl": "https://open.spotify.com/track/6NmvUJWehbEFt1AXufPKo3",
       "uri": "spotify:track:6NmvUJWehbEFt1AXufPKo3"
     },
