@@ -426,7 +426,7 @@
     "album": {
       "id": "3flpWP3fNsTYeheAxlbsG1",
       "name": "Esmer Günler",
-      "releaseDate": "1989",
+      "releaseDate": "1989-01-01",
       "releaseYear": "1989",
       "totalTracks": 12
     },
@@ -1442,7 +1442,7 @@
     "album": {
       "id": "1PhNvGfupWTK1MkPbHMwL0",
       "name": "Tual 2005",
-      "releaseDate": "2005",
+      "releaseDate": "2005-01-01",
       "releaseYear": "2005",
       "totalTracks": 10
     },
@@ -3048,7 +3048,7 @@
     "album": {
       "id": "1PhNvGfupWTK1MkPbHMwL0",
       "name": "Tual 2005",
-      "releaseDate": "2005",
+      "releaseDate": "2005-01-01",
       "releaseYear": "2005",
       "totalTracks": 10
     },
@@ -11532,7 +11532,7 @@
     "artistNames": "The Beatles",
     "album": {
       "id": "0ETFjACtuP2ADo6LFhL6HN",
-      "name": "Abbey Road (Remastered)",
+      "name": "Abbey Road (Remastered 2009)",
       "releaseDate": "1969-09-26",
       "releaseYear": "1969",
       "totalTracks": 17
@@ -13728,7 +13728,7 @@
     "artistNames": "The Beatles",
     "album": {
       "id": "3KzAvEXcqJKBF97HrXwlgf",
-      "name": "Please Please Me (Remastered)",
+      "name": "Please Please Me (Remastered 2009)",
       "releaseDate": "1963-03-22",
       "releaseYear": "1963",
       "totalTracks": 14
