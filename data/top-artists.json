@@ -145,15 +145,6 @@
   },
   {
     "rank": 17,
-    "id": "7Iffw1nP3NjCWkRIx3Ily9",
-    "name": "Bruce Dickinson",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd90e4a9038787929178b4815",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9"
-  },
-  {
-    "rank": 18,
     "id": "1AzrlUnOS6dhH0iMV86ctS",
     "name": "Oi Va Voi",
     "genres": [],
@@ -162,13 +153,22 @@
     "spotifyUrl": "https://open.spotify.com/artist/1AzrlUnOS6dhH0iMV86ctS"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "id": "0PFtn5NtBbbUNbU9EAmIWF",
     "name": "TOTO",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eba59a5bcab211f964fe9bfb06",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/0PFtn5NtBbbUNbU9EAmIWF"
+  },
+  {
+    "rank": 19,
+    "id": "7Iffw1nP3NjCWkRIx3Ily9",
+    "name": "Bruce Dickinson",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd90e4a9038787929178b4815",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9"
   },
   {
     "rank": 20,
