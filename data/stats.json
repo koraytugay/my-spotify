@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 617,
+  "totalLikedSongs": 618,
   "totalPlaylists": 15,
   "totalSavedAlbums": 101,
   "totalFollowedArtists": 86,
-  "totalDurationMs": 160569356,
-  "totalDurationHours": 44.6,
+  "totalDurationMs": 160845022,
+  "totalDurationHours": 44.7,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "44 hrs 36 mins",
+  "totalDurationFormatted": "44 hrs 40 mins",
   "uniqueArtistsCount": 519,
   "topLikedArtists": [
     {
@@ -36,6 +36,10 @@
     {
       "name": "Agalloch",
       "count": 5
+    },
+    {
+      "name": "Hayko Cepkin",
+      "count": 4
     },
     {
       "name": "Suzanne Vega",
@@ -110,10 +114,6 @@
       "count": 3
     },
     {
-      "name": "Hayko Cepkin",
-      "count": 3
-    },
-    {
       "name": "Black Uhuru",
       "count": 3
     },
@@ -132,7 +132,7 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "2010s": 152,
+    "2010s": 153,
     "1990s": 139,
     "1980s": 90,
     "1970s": 46,
@@ -189,7 +189,7 @@
     "2007": 16,
     "2008": 13,
     "2009": 18,
-    "2010": 12,
+    "2010": 13,
     "2011": 15,
     "2012": 15,
     "2013": 14,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-10-08T01:23:53.817Z"
+  "lastUpdated": "2026-10-08T20:53:46.594Z"
 }
