@@ -199,6 +199,15 @@
   },
   {
     "rank": 23,
+    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
+    "name": "Erkin Koray",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
+  },
+  {
+    "rank": 24,
     "id": "5QpQ8Zu2s3aMjYf88au1Le",
     "name": "Kurban",
     "genres": [],
@@ -207,22 +216,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/5QpQ8Zu2s3aMjYf88au1Le"
   },
   {
-    "rank": 24,
+    "rank": 25,
     "id": "2PfiteGKkLREGubVMoSUE3",
     "name": "Douglas Holmquist",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb737e8be6dc14ff293a8596ed",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/2PfiteGKkLREGubVMoSUE3"
-  },
-  {
-    "rank": 25,
-    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
-    "name": "Erkin Koray",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/4o3Nv2BAyoZkyGaRXv4rT3"
   },
   {
     "rank": 26,
@@ -244,21 +244,21 @@
   },
   {
     "rank": 28,
-    "id": "7G1GBhoKtEPnP86X2PvEYO",
-    "name": "Nina Simone",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
-  },
-  {
-    "rank": 29,
     "id": "5M52tdBnJaKSvOpJGz8mfZ",
     "name": "Black Sabbath",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
+  },
+  {
+    "rank": 29,
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
   },
   {
     "rank": 30,
