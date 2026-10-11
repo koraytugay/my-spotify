@@ -111,16 +111,6 @@
   },
   {
     "rank": 12,
-    "id": "0aheciYTtr7GEX6D9PLBUv",
-    "name": "In The Shadow Of Our Pale Companion",
-    "artistNames": "Agalloch",
-    "albumName": "The Mantle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
-    "durationFormatted": "14:45",
-    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
-  },
-  {
-    "rank": 13,
     "id": "3c0VZEpuHQFWUNyedFR8T2",
     "name": "The Beginning Of All Things That Will End",
     "artistNames": "In Flames",
@@ -130,17 +120,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3c0VZEpuHQFWUNyedFR8T2"
   },
   {
-    "rank": 14,
-    "id": "49PeTGd7GuKTyCjHrbMWXn",
-    "name": "Jotun",
-    "artistNames": "In Flames",
-    "albumName": "Whoracle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
-    "durationFormatted": "3:53",
-    "spotifyUrl": "https://open.spotify.com/track/49PeTGd7GuKTyCjHrbMWXn"
-  },
-  {
-    "rank": 15,
+    "rank": 13,
     "id": "1obcQYM6WDLbLz1N97dOwk",
     "name": "State of Slow Decay",
     "artistNames": "In Flames",
@@ -148,6 +128,26 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b42da327fef7175303311a11",
     "durationFormatted": "3:58",
     "spotifyUrl": "https://open.spotify.com/track/1obcQYM6WDLbLz1N97dOwk"
+  },
+  {
+    "rank": 14,
+    "id": "05lem7bHWxyo98HOwPmils",
+    "name": "Hope Leaves",
+    "artistNames": "Opeth",
+    "albumName": "Damnation",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
+    "durationFormatted": "4:27",
+    "spotifyUrl": "https://open.spotify.com/track/05lem7bHWxyo98HOwPmils"
+  },
+  {
+    "rank": 15,
+    "id": "0aheciYTtr7GEX6D9PLBUv",
+    "name": "In The Shadow Of Our Pale Companion",
+    "artistNames": "Agalloch",
+    "albumName": "The Mantle",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
+    "durationFormatted": "14:45",
+    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
   },
   {
     "rank": 16,
@@ -161,16 +161,6 @@
   },
   {
     "rank": 17,
-    "id": "05lem7bHWxyo98HOwPmils",
-    "name": "Hope Leaves",
-    "artistNames": "Opeth",
-    "albumName": "Damnation",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273cf5507e5a84e6332c910b0d5",
-    "durationFormatted": "4:27",
-    "spotifyUrl": "https://open.spotify.com/track/05lem7bHWxyo98HOwPmils"
-  },
-  {
-    "rank": 18,
     "id": "5MPLeS9KdZlA04OOCUb5Bt",
     "name": "Los Angeles",
     "artistNames": "The Midnight",
@@ -178,6 +168,16 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
     "durationFormatted": "6:29",
     "spotifyUrl": "https://open.spotify.com/track/5MPLeS9KdZlA04OOCUb5Bt"
+  },
+  {
+    "rank": 18,
+    "id": "49PeTGd7GuKTyCjHrbMWXn",
+    "name": "Jotun",
+    "artistNames": "In Flames",
+    "albumName": "Whoracle",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
+    "durationFormatted": "3:53",
+    "spotifyUrl": "https://open.spotify.com/track/49PeTGd7GuKTyCjHrbMWXn"
   },
   {
     "rank": 19,
@@ -281,16 +281,6 @@
   },
   {
     "rank": 29,
-    "id": "0t4BqNdnmncQyZoot8pu6S",
-    "name": "A Celebration For The Death Of Man",
-    "artistNames": "Agalloch",
-    "albumName": "The Mantle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
-    "durationFormatted": "2:24",
-    "spotifyUrl": "https://open.spotify.com/track/0t4BqNdnmncQyZoot8pu6S"
-  },
-  {
-    "rank": 30,
     "id": "4fSJyuJQjd7uyosEAhtNNy",
     "name": "Foregone, Pt. 1",
     "artistNames": "In Flames",
@@ -300,17 +290,7 @@
     "spotifyUrl": "https://open.spotify.com/track/4fSJyuJQjd7uyosEAhtNNy"
   },
   {
-    "rank": 31,
-    "id": "0JnWbRHpBkW2TeiL9JmqLn",
-    "name": "Not Unlike The Waves (2016 - Remaster)",
-    "artistNames": "Agalloch",
-    "albumName": "Ashes Against The Grain",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2736d57143a74d29439e0b4cfe3",
-    "durationFormatted": "9:23",
-    "spotifyUrl": "https://open.spotify.com/track/0JnWbRHpBkW2TeiL9JmqLn"
-  },
-  {
-    "rank": 32,
+    "rank": 30,
     "id": "3P0LXXybFHgu2aY1NyGViV",
     "name": "Coil",
     "artistNames": "Opeth",
@@ -320,7 +300,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3P0LXXybFHgu2aY1NyGViV"
   },
   {
-    "rank": 33,
+    "rank": 31,
     "id": "20ToJxHZS0icU10tNbuWQg",
     "name": "A Bir",
     "artistNames": "Kurban",
@@ -330,7 +310,7 @@
     "spotifyUrl": "https://open.spotify.com/track/20ToJxHZS0icU10tNbuWQg"
   },
   {
-    "rank": 34,
+    "rank": 32,
     "id": "6RpVxU3fXKPWzjXYiSOjcz",
     "name": "Boomerang",
     "artistNames": "Aziza Mustafa Zadeh",
@@ -340,7 +320,7 @@
     "spotifyUrl": "https://open.spotify.com/track/6RpVxU3fXKPWzjXYiSOjcz"
   },
   {
-    "rank": 35,
+    "rank": 33,
     "id": "7EqkvBTdhYPTd91mN2DmcA",
     "name": "Burden",
     "artistNames": "Opeth",
@@ -350,7 +330,7 @@
     "spotifyUrl": "https://open.spotify.com/track/7EqkvBTdhYPTd91mN2DmcA"
   },
   {
-    "rank": 36,
+    "rank": 34,
     "id": "3EiQGaaHMHFk5ykD1a7vYt",
     "name": "Tears of the Dragon - 2001 Remaster",
     "artistNames": "Bruce Dickinson",
@@ -360,7 +340,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3EiQGaaHMHFk5ykD1a7vYt"
   },
   {
-    "rank": 37,
+    "rank": 35,
     "id": "12bVZuuIZS6jVv6jobbOH1",
     "name": "Faith in Others",
     "artistNames": "Opeth",
@@ -370,7 +350,7 @@
     "spotifyUrl": "https://open.spotify.com/track/12bVZuuIZS6jVv6jobbOH1"
   },
   {
-    "rank": 38,
+    "rank": 36,
     "id": "31sCixHTcZyEGjjmKHcG5B",
     "name": "Benighted (Remastered)",
     "artistNames": "Opeth",
@@ -380,7 +360,7 @@
     "spotifyUrl": "https://open.spotify.com/track/31sCixHTcZyEGjjmKHcG5B"
   },
   {
-    "rank": 39,
+    "rank": 37,
     "id": "0IGwkqS3OpZXvH1GfvsU5N",
     "name": "Babutsa",
     "artistNames": "Babutsa, Soner Türsoy, Pervin Peri Tevfik, Ali Rebke",
@@ -390,7 +370,7 @@
     "spotifyUrl": "https://open.spotify.com/track/0IGwkqS3OpZXvH1GfvsU5N"
   },
   {
-    "rank": 40,
+    "rank": 38,
     "id": "2SBoCQ56I12WYuipLRx3a5",
     "name": "Syndicate (Intro)",
     "artistNames": "The Midnight",
@@ -400,7 +380,7 @@
     "spotifyUrl": "https://open.spotify.com/track/2SBoCQ56I12WYuipLRx3a5"
   },
   {
-    "rank": 41,
+    "rank": 39,
     "id": "6610mniZ7wt2hW7uLFa3C5",
     "name": "Su Gibi",
     "artistNames": "Aslı Gökyokuş",
@@ -410,7 +390,7 @@
     "spotifyUrl": "https://open.spotify.com/track/6610mniZ7wt2hW7uLFa3C5"
   },
   {
-    "rank": 42,
+    "rank": 40,
     "id": "05QrRP2vcoad6HHRQ5AXjL",
     "name": "To Tame a Land - 2015 Remaster",
     "artistNames": "Iron Maiden",
@@ -420,7 +400,7 @@
     "spotifyUrl": "https://open.spotify.com/track/05QrRP2vcoad6HHRQ5AXjL"
   },
   {
-    "rank": 43,
+    "rank": 41,
     "id": "1wJ5Z1Nkcqknyi2U2mjL0G",
     "name": "In The Shadow Of Our Pale Companion (2016 - Remaster)",
     "artistNames": "Agalloch",
@@ -430,7 +410,7 @@
     "spotifyUrl": "https://open.spotify.com/track/1wJ5Z1Nkcqknyi2U2mjL0G"
   },
   {
-    "rank": 44,
+    "rank": 42,
     "id": "4B3Ms1qv49YEwRzJS5gdQk",
     "name": "Meet Your Maker",
     "artistNames": "In Flames",
@@ -440,7 +420,7 @@
     "spotifyUrl": "https://open.spotify.com/track/4B3Ms1qv49YEwRzJS5gdQk"
   },
   {
-    "rank": 45,
+    "rank": 43,
     "id": "1J9ylqJ29VS6yFhIkkNBzL",
     "name": "Revelations - 2015 Remaster",
     "artistNames": "Iron Maiden",
@@ -450,7 +430,7 @@
     "spotifyUrl": "https://open.spotify.com/track/1J9ylqJ29VS6yFhIkkNBzL"
   },
   {
-    "rank": 46,
+    "rank": 44,
     "id": "4MNYmTlgIA82YZorRH0HH9",
     "name": "Let It Rain",
     "artistNames": "Tracy Chapman",
@@ -460,17 +440,7 @@
     "spotifyUrl": "https://open.spotify.com/track/4MNYmTlgIA82YZorRH0HH9"
   },
   {
-    "rank": 47,
-    "id": "0qTctGYxe64fe6VXsXv8tr",
-    "name": "Gyroscope",
-    "artistNames": "In Flames",
-    "albumName": "Whoracle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
-    "durationFormatted": "3:26",
-    "spotifyUrl": "https://open.spotify.com/track/0qTctGYxe64fe6VXsXv8tr"
-  },
-  {
-    "rank": 48,
+    "rank": 45,
     "id": "0v6ivHTT6dmuOtge9LeaCn",
     "name": "Jason",
     "artistNames": "The Midnight, Nikki Flores",
@@ -480,23 +450,53 @@
     "spotifyUrl": "https://open.spotify.com/track/0v6ivHTT6dmuOtge9LeaCn"
   },
   {
-    "rank": 49,
-    "id": "1S3DPRNNYpKXmWlM5QyzhR",
-    "name": "Food for the Gods",
+    "rank": 46,
+    "id": "34JS7SWgCH3282btYwsPWQ",
+    "name": "Alias",
     "artistNames": "In Flames",
-    "albumName": "Whoracle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
-    "durationFormatted": "4:21",
-    "spotifyUrl": "https://open.spotify.com/track/1S3DPRNNYpKXmWlM5QyzhR"
+    "albumName": "A Sense of Purpose (The Mirror's Truth Version)",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2730cc0e7621bf93b73ae65ceff",
+    "durationFormatted": "4:49",
+    "spotifyUrl": "https://open.spotify.com/track/34JS7SWgCH3282btYwsPWQ"
+  },
+  {
+    "rank": 47,
+    "id": "0fBPwRmfNmOdpNcxOoli9Q",
+    "name": "Harvest",
+    "artistNames": "Opeth",
+    "albumName": "Blackwater Park",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27313d0ed017d3ad35ed6bd1e90",
+    "durationFormatted": "6:01",
+    "spotifyUrl": "https://open.spotify.com/track/0fBPwRmfNmOdpNcxOoli9Q"
+  },
+  {
+    "rank": 48,
+    "id": "0lLwd09XAnK4aB9UK4TUpI",
+    "name": "Journey",
+    "artistNames": "Black Uhuru",
+    "albumName": "Red",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731fa4fc7bfd857df5a824e289",
+    "durationFormatted": "5:22",
+    "spotifyUrl": "https://open.spotify.com/track/0lLwd09XAnK4aB9UK4TUpI"
+  },
+  {
+    "rank": 49,
+    "id": "5lVsAfvY2ij8A2T6oYdAyt",
+    "name": "Vampires",
+    "artistNames": "The Midnight",
+    "albumName": "Endless Summer",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
+    "durationFormatted": "5:17",
+    "spotifyUrl": "https://open.spotify.com/track/5lVsAfvY2ij8A2T6oYdAyt"
   },
   {
     "rank": 50,
-    "id": "31mcY0ozVICuIRoTEiB612",
-    "name": "The Hive",
-    "artistNames": "In Flames",
-    "albumName": "Whoracle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
-    "durationFormatted": "4:03",
-    "spotifyUrl": "https://open.spotify.com/track/31mcY0ozVICuIRoTEiB612"
+    "id": "5NsOnvpjvH9sCz8TyVOmOz",
+    "name": "Désolé",
+    "artistNames": "Sexion d'Assaut",
+    "albumName": "L'école des points vitaux",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399d53d8504478066f858f544",
+    "durationFormatted": "3:24",
+    "spotifyUrl": "https://open.spotify.com/track/5NsOnvpjvH9sCz8TyVOmOz"
   }
 ]
