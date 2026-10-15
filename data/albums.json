@@ -1,5 +1,254 @@
 [
   {
+    "id": "27IYmZR70uKhAxkzEfnLN3",
+    "name": "Gençliğin Gözyaşları",
+    "artists": [
+      {
+        "id": "5gs9qloTR5m6dM0ScMty3H",
+        "name": "Rafet El Roman"
+      }
+    ],
+    "artistNames": "Rafet El Roman",
+    "releaseDate": "1995-07-18",
+    "releaseYear": "1995",
+    "totalTracks": 10,
+    "tracks": [
+      {
+        "id": "52JwEVEIbMkCmhazBJISoC",
+        "name": "Seni Seviyorum",
+        "trackNumber": 1,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 242466,
+        "durationFormatted": "4:02",
+        "spotifyUrl": "https://open.spotify.com/track/52JwEVEIbMkCmhazBJISoC",
+        "uri": "spotify:track:52JwEVEIbMkCmhazBJISoC"
+      },
+      {
+        "id": "1w82GMHowqDV0VqrnXL9I5",
+        "name": "Sorma Neden",
+        "trackNumber": 2,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 292733,
+        "durationFormatted": "4:52",
+        "spotifyUrl": "https://open.spotify.com/track/1w82GMHowqDV0VqrnXL9I5",
+        "uri": "spotify:track:1w82GMHowqDV0VqrnXL9I5"
+      },
+      {
+        "id": "6PRvExNVPdLx71DNc2Bw3Y",
+        "name": "Amerika",
+        "trackNumber": 3,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 240733,
+        "durationFormatted": "4:00",
+        "spotifyUrl": "https://open.spotify.com/track/6PRvExNVPdLx71DNc2Bw3Y",
+        "uri": "spotify:track:6PRvExNVPdLx71DNc2Bw3Y"
+      },
+      {
+        "id": "7MIjo6ObM8ne5OaYHBP1Gj",
+        "name": "Sen Ve Ben",
+        "trackNumber": 4,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 231266,
+        "durationFormatted": "3:51",
+        "spotifyUrl": "https://open.spotify.com/track/7MIjo6ObM8ne5OaYHBP1Gj",
+        "uri": "spotify:track:7MIjo6ObM8ne5OaYHBP1Gj"
+      },
+      {
+        "id": "4Z3aQt4L5JV4yLqRdiqvA8",
+        "name": "Yaşa Çiftçi",
+        "trackNumber": 5,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 251200,
+        "durationFormatted": "4:11",
+        "spotifyUrl": "https://open.spotify.com/track/4Z3aQt4L5JV4yLqRdiqvA8",
+        "uri": "spotify:track:4Z3aQt4L5JV4yLqRdiqvA8"
+      },
+      {
+        "id": "1iSC4Zxm5tR0fOPAmmWKUd",
+        "name": "Şu Hayatta",
+        "trackNumber": 6,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 289200,
+        "durationFormatted": "4:49",
+        "spotifyUrl": "https://open.spotify.com/track/1iSC4Zxm5tR0fOPAmmWKUd",
+        "uri": "spotify:track:1iSC4Zxm5tR0fOPAmmWKUd"
+      },
+      {
+        "id": "19zjiNfRJdaxD8JNPtrU79",
+        "name": "Bilemem İnsanlar Ne Yapar",
+        "trackNumber": 7,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 304933,
+        "durationFormatted": "5:04",
+        "spotifyUrl": "https://open.spotify.com/track/19zjiNfRJdaxD8JNPtrU79",
+        "uri": "spotify:track:19zjiNfRJdaxD8JNPtrU79"
+      },
+      {
+        "id": "1gW0hiErrkNmeJ506C4CyN",
+        "name": "Baba Ocağında",
+        "trackNumber": 8,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 195266,
+        "durationFormatted": "3:15",
+        "spotifyUrl": "https://open.spotify.com/track/1gW0hiErrkNmeJ506C4CyN",
+        "uri": "spotify:track:1gW0hiErrkNmeJ506C4CyN"
+      },
+      {
+        "id": "3gx8tZQyg37TLxYIcQQHrq",
+        "name": "Leyla",
+        "trackNumber": 9,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 232400,
+        "durationFormatted": "3:52",
+        "spotifyUrl": "https://open.spotify.com/track/3gx8tZQyg37TLxYIcQQHrq",
+        "uri": "spotify:track:3gx8tZQyg37TLxYIcQQHrq"
+      },
+      {
+        "id": "5ebo9gGDw1CKrDLhgjMPMR",
+        "name": "Gençliğin Gözyaşı",
+        "trackNumber": 10,
+        "artists": [
+          {
+            "id": "5gs9qloTR5m6dM0ScMty3H",
+            "name": "Rafet El Roman"
+          }
+        ],
+        "artistNames": "Rafet El Roman",
+        "album": {
+          "id": "27IYmZR70uKhAxkzEfnLN3",
+          "name": "Gençliğin Gözyaşları",
+          "releaseYear": "1995"
+        },
+        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+        "durationMs": 267466,
+        "durationFormatted": "4:27",
+        "spotifyUrl": "https://open.spotify.com/track/5ebo9gGDw1CKrDLhgjMPMR",
+        "uri": "spotify:track:5ebo9gGDw1CKrDLhgjMPMR"
+      }
+    ],
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+    "spotifyUrl": "https://open.spotify.com/album/27IYmZR70uKhAxkzEfnLN3",
+    "addedAt": "2019-12-28T03:03:42Z"
+  },
+  {
     "id": "17mZxprFkV5Fuki7z3V7RW",
     "name": "Anadolu Ejderi",
     "artists": [
@@ -4340,255 +4589,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731befeb6c478b05929860335f",
     "spotifyUrl": "https://open.spotify.com/album/6E4wzHgEc1wu0AJbtW4fN8",
     "addedAt": "2026-08-15T16:34:48Z"
-  },
-  {
-    "id": "27IYmZR70uKhAxkzEfnLN3",
-    "name": "Gençliğin Gözyaşları",
-    "artists": [
-      {
-        "id": "5gs9qloTR5m6dM0ScMty3H",
-        "name": "Rafet El Roman"
-      }
-    ],
-    "artistNames": "Rafet El Roman",
-    "releaseDate": "1995-07-18",
-    "releaseYear": "1995",
-    "totalTracks": 10,
-    "tracks": [
-      {
-        "id": "52JwEVEIbMkCmhazBJISoC",
-        "name": "Seni Seviyorum",
-        "trackNumber": 1,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 242466,
-        "durationFormatted": "4:02",
-        "spotifyUrl": "https://open.spotify.com/track/52JwEVEIbMkCmhazBJISoC",
-        "uri": "spotify:track:52JwEVEIbMkCmhazBJISoC"
-      },
-      {
-        "id": "1w82GMHowqDV0VqrnXL9I5",
-        "name": "Sorma Neden",
-        "trackNumber": 2,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 292733,
-        "durationFormatted": "4:52",
-        "spotifyUrl": "https://open.spotify.com/track/1w82GMHowqDV0VqrnXL9I5",
-        "uri": "spotify:track:1w82GMHowqDV0VqrnXL9I5"
-      },
-      {
-        "id": "6PRvExNVPdLx71DNc2Bw3Y",
-        "name": "Amerika",
-        "trackNumber": 3,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 240733,
-        "durationFormatted": "4:00",
-        "spotifyUrl": "https://open.spotify.com/track/6PRvExNVPdLx71DNc2Bw3Y",
-        "uri": "spotify:track:6PRvExNVPdLx71DNc2Bw3Y"
-      },
-      {
-        "id": "7MIjo6ObM8ne5OaYHBP1Gj",
-        "name": "Sen Ve Ben",
-        "trackNumber": 4,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 231266,
-        "durationFormatted": "3:51",
-        "spotifyUrl": "https://open.spotify.com/track/7MIjo6ObM8ne5OaYHBP1Gj",
-        "uri": "spotify:track:7MIjo6ObM8ne5OaYHBP1Gj"
-      },
-      {
-        "id": "4Z3aQt4L5JV4yLqRdiqvA8",
-        "name": "Yaşa Çiftçi",
-        "trackNumber": 5,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 251200,
-        "durationFormatted": "4:11",
-        "spotifyUrl": "https://open.spotify.com/track/4Z3aQt4L5JV4yLqRdiqvA8",
-        "uri": "spotify:track:4Z3aQt4L5JV4yLqRdiqvA8"
-      },
-      {
-        "id": "1iSC4Zxm5tR0fOPAmmWKUd",
-        "name": "Şu Hayatta",
-        "trackNumber": 6,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 289200,
-        "durationFormatted": "4:49",
-        "spotifyUrl": "https://open.spotify.com/track/1iSC4Zxm5tR0fOPAmmWKUd",
-        "uri": "spotify:track:1iSC4Zxm5tR0fOPAmmWKUd"
-      },
-      {
-        "id": "19zjiNfRJdaxD8JNPtrU79",
-        "name": "Bilemem İnsanlar Ne Yapar",
-        "trackNumber": 7,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 304933,
-        "durationFormatted": "5:04",
-        "spotifyUrl": "https://open.spotify.com/track/19zjiNfRJdaxD8JNPtrU79",
-        "uri": "spotify:track:19zjiNfRJdaxD8JNPtrU79"
-      },
-      {
-        "id": "1gW0hiErrkNmeJ506C4CyN",
-        "name": "Baba Ocağında",
-        "trackNumber": 8,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 195266,
-        "durationFormatted": "3:15",
-        "spotifyUrl": "https://open.spotify.com/track/1gW0hiErrkNmeJ506C4CyN",
-        "uri": "spotify:track:1gW0hiErrkNmeJ506C4CyN"
-      },
-      {
-        "id": "3gx8tZQyg37TLxYIcQQHrq",
-        "name": "Leyla",
-        "trackNumber": 9,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 232400,
-        "durationFormatted": "3:52",
-        "spotifyUrl": "https://open.spotify.com/track/3gx8tZQyg37TLxYIcQQHrq",
-        "uri": "spotify:track:3gx8tZQyg37TLxYIcQQHrq"
-      },
-      {
-        "id": "5ebo9gGDw1CKrDLhgjMPMR",
-        "name": "Gençliğin Gözyaşı",
-        "trackNumber": 10,
-        "artists": [
-          {
-            "id": "5gs9qloTR5m6dM0ScMty3H",
-            "name": "Rafet El Roman"
-          }
-        ],
-        "artistNames": "Rafet El Roman",
-        "album": {
-          "id": "27IYmZR70uKhAxkzEfnLN3",
-          "name": "Gençliğin Gözyaşları",
-          "releaseYear": "1995"
-        },
-        "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-        "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
-        "durationMs": 267466,
-        "durationFormatted": "4:27",
-        "spotifyUrl": "https://open.spotify.com/track/5ebo9gGDw1CKrDLhgjMPMR",
-        "uri": "spotify:track:5ebo9gGDw1CKrDLhgjMPMR"
-      }
-    ],
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
-    "spotifyUrl": "https://open.spotify.com/album/27IYmZR70uKhAxkzEfnLN3",
-    "addedAt": "2019-12-28T03:03:42Z"
   },
   {
     "id": "3XbOSoOGvHMb7dO7ASWOMn",

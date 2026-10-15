@@ -1,5 +1,32 @@
 [
   {
+    "id": "5ebo9gGDw1CKrDLhgjMPMR",
+    "name": "Gençliğin Gözyaşı",
+    "artists": [
+      {
+        "id": "5gs9qloTR5m6dM0ScMty3H",
+        "name": "Rafet El Roman"
+      }
+    ],
+    "artistNames": "Rafet El Roman",
+    "album": {
+      "id": "27IYmZR70uKhAxkzEfnLN3",
+      "name": "Gençliğin Gözyaşları",
+      "releaseDate": "1995-07-18",
+      "releaseYear": "1995",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d719a0525043b85d30bc6961",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d719a0525043b85d30bc6961",
+    "durationMs": 267466,
+    "durationFormatted": "4:27",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/5ebo9gGDw1CKrDLhgjMPMR",
+    "uri": "spotify:track:5ebo9gGDw1CKrDLhgjMPMR",
+    "addedAt": "2026-10-15T21:09:13Z",
+    "addedDate": "2026-10-15"
+  },
+  {
     "id": "2zziz37en4xl61inSeNb8l",
     "name": "Yol Gözümü Dağlıyor",
     "artists": [

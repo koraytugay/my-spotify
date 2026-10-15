@@ -1,12 +1,12 @@
 {
-  "totalLikedSongs": 618,
+  "totalLikedSongs": 619,
   "totalPlaylists": 15,
   "totalSavedAlbums": 101,
   "totalFollowedArtists": 87,
-  "totalDurationMs": 160845022,
-  "totalDurationHours": 44.7,
+  "totalDurationMs": 161112488,
+  "totalDurationHours": 44.8,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "44 hrs 40 mins",
+  "totalDurationFormatted": "44 hrs 45 mins",
   "uniqueArtistsCount": 519,
   "topLikedArtists": [
     {
@@ -132,8 +132,8 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "1990s": 140,
     "2010s": 153,
-    "1990s": 139,
     "1980s": 90,
     "1970s": 46,
     "2000s": 145,
@@ -174,7 +174,7 @@
     "1992": 10,
     "1993": 13,
     "1994": 11,
-    "1995": 7,
+    "1995": 8,
     "1996": 22,
     "1997": 22,
     "1998": 14,
@@ -205,5 +205,5 @@
     "2023": 3,
     "2025": 3
   },
-  "lastUpdated": "2026-10-15T19:31:26.028Z"
+  "lastUpdated": "2026-10-15T23:57:32.856Z"
 }
