@@ -370,15 +370,6 @@
   },
   {
     "rank": 42,
-    "id": "7jxJ25p0pPjk0MStloN6o6",
-    "name": "Blind Guardian",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb26139a78b669ae67aacde9f3",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
-  },
-  {
-    "rank": 43,
     "id": "2QsEbhCFyEzogaOtMYeXO4",
     "name": "Düş Sokağı Sakinleri",
     "genres": [],
@@ -387,13 +378,22 @@
     "spotifyUrl": "https://open.spotify.com/artist/2QsEbhCFyEzogaOtMYeXO4"
   },
   {
-    "rank": 44,
+    "rank": 43,
     "id": "6SLAMfhOi7UJI0fMztaK0m",
     "name": "Rainbow",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/e0ad73e5231086142031094d86e8bef61576268c",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"
+  },
+  {
+    "rank": 44,
+    "id": "7jxJ25p0pPjk0MStloN6o6",
+    "name": "Blind Guardian",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb26139a78b669ae67aacde9f3",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
   },
   {
     "rank": 45,
