@@ -121,6 +121,16 @@
   },
   {
     "rank": 13,
+    "id": "28uitw2AXQQIUHvSJW9qy6",
+    "name": "Days of Thunder",
+    "artistNames": "The Midnight",
+    "albumName": "Days of Thunder",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
+    "durationFormatted": "5:24",
+    "spotifyUrl": "https://open.spotify.com/track/28uitw2AXQQIUHvSJW9qy6"
+  },
+  {
+    "rank": 14,
     "id": "1obcQYM6WDLbLz1N97dOwk",
     "name": "State of Slow Decay",
     "artistNames": "In Flames",
@@ -130,7 +140,7 @@
     "spotifyUrl": "https://open.spotify.com/track/1obcQYM6WDLbLz1N97dOwk"
   },
   {
-    "rank": 14,
+    "rank": 15,
     "id": "05lem7bHWxyo98HOwPmils",
     "name": "Hope Leaves",
     "artistNames": "Opeth",
@@ -140,7 +150,7 @@
     "spotifyUrl": "https://open.spotify.com/track/05lem7bHWxyo98HOwPmils"
   },
   {
-    "rank": 15,
+    "rank": 16,
     "id": "0aheciYTtr7GEX6D9PLBUv",
     "name": "In The Shadow Of Our Pale Companion",
     "artistNames": "Agalloch",
@@ -150,7 +160,7 @@
     "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
   },
   {
-    "rank": 16,
+    "rank": 17,
     "id": "3rSBC54a06a8Bamie645eO",
     "name": "Peruvian Skies",
     "artistNames": "Dream Theater",
@@ -160,7 +170,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3rSBC54a06a8Bamie645eO"
   },
   {
-    "rank": 17,
+    "rank": 18,
     "id": "5MPLeS9KdZlA04OOCUb5Bt",
     "name": "Los Angeles",
     "artistNames": "The Midnight",
@@ -170,7 +180,7 @@
     "spotifyUrl": "https://open.spotify.com/track/5MPLeS9KdZlA04OOCUb5Bt"
   },
   {
-    "rank": 18,
+    "rank": 19,
     "id": "49PeTGd7GuKTyCjHrbMWXn",
     "name": "Jotun",
     "artistNames": "In Flames",
@@ -180,7 +190,7 @@
     "spotifyUrl": "https://open.spotify.com/track/49PeTGd7GuKTyCjHrbMWXn"
   },
   {
-    "rank": 19,
+    "rank": 20,
     "id": "2wXSx9UxsNIYidGi5r0SZ4",
     "name": "Ending Credits",
     "artistNames": "Opeth",
@@ -190,7 +200,7 @@
     "spotifyUrl": "https://open.spotify.com/track/2wXSx9UxsNIYidGi5r0SZ4"
   },
   {
-    "rank": 20,
+    "rank": 21,
     "id": "1fd8YbOoVAU8KK5ONDOqs9",
     "name": "Hours of Wealth",
     "artistNames": "Opeth",
@@ -198,16 +208,6 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731451fa8ef96932abd5a81791",
     "durationFormatted": "5:20",
     "spotifyUrl": "https://open.spotify.com/track/1fd8YbOoVAU8KK5ONDOqs9"
-  },
-  {
-    "rank": 21,
-    "id": "28uitw2AXQQIUHvSJW9qy6",
-    "name": "Days of Thunder",
-    "artistNames": "The Midnight",
-    "albumName": "Days of Thunder",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
-    "durationFormatted": "5:24",
-    "spotifyUrl": "https://open.spotify.com/track/28uitw2AXQQIUHvSJW9qy6"
   },
   {
     "rank": 22,
