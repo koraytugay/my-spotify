@@ -244,21 +244,21 @@
   },
   {
     "rank": 28,
-    "id": "5M52tdBnJaKSvOpJGz8mfZ",
-    "name": "Black Sabbath",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
-  },
-  {
-    "rank": 29,
     "id": "7G1GBhoKtEPnP86X2PvEYO",
     "name": "Nina Simone",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+  },
+  {
+    "rank": 29,
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
   },
   {
     "rank": 30,
