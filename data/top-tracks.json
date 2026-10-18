@@ -151,16 +151,6 @@
   },
   {
     "rank": 16,
-    "id": "0aheciYTtr7GEX6D9PLBUv",
-    "name": "In The Shadow Of Our Pale Companion",
-    "artistNames": "Agalloch",
-    "albumName": "The Mantle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
-    "durationFormatted": "14:45",
-    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
-  },
-  {
-    "rank": 17,
     "id": "3rSBC54a06a8Bamie645eO",
     "name": "Peruvian Skies",
     "artistNames": "Dream Theater",
@@ -170,7 +160,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3rSBC54a06a8Bamie645eO"
   },
   {
-    "rank": 18,
+    "rank": 17,
     "id": "5MPLeS9KdZlA04OOCUb5Bt",
     "name": "Los Angeles",
     "artistNames": "The Midnight",
@@ -180,7 +170,7 @@
     "spotifyUrl": "https://open.spotify.com/track/5MPLeS9KdZlA04OOCUb5Bt"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "id": "49PeTGd7GuKTyCjHrbMWXn",
     "name": "Jotun",
     "artistNames": "In Flames",
@@ -190,7 +180,7 @@
     "spotifyUrl": "https://open.spotify.com/track/49PeTGd7GuKTyCjHrbMWXn"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "id": "2wXSx9UxsNIYidGi5r0SZ4",
     "name": "Ending Credits",
     "artistNames": "Opeth",
@@ -200,7 +190,7 @@
     "spotifyUrl": "https://open.spotify.com/track/2wXSx9UxsNIYidGi5r0SZ4"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "id": "1fd8YbOoVAU8KK5ONDOqs9",
     "name": "Hours of Wealth",
     "artistNames": "Opeth",
@@ -208,6 +198,16 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731451fa8ef96932abd5a81791",
     "durationFormatted": "5:20",
     "spotifyUrl": "https://open.spotify.com/track/1fd8YbOoVAU8KK5ONDOqs9"
+  },
+  {
+    "rank": 21,
+    "id": "0aheciYTtr7GEX6D9PLBUv",
+    "name": "In The Shadow Of Our Pale Companion",
+    "artistNames": "Agalloch",
+    "albumName": "The Mantle",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
+    "durationFormatted": "14:45",
+    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
   },
   {
     "rank": 22,
