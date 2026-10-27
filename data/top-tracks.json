@@ -121,16 +121,6 @@
   },
   {
     "rank": 13,
-    "id": "28uitw2AXQQIUHvSJW9qy6",
-    "name": "Days of Thunder",
-    "artistNames": "The Midnight",
-    "albumName": "Days of Thunder",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
-    "durationFormatted": "5:24",
-    "spotifyUrl": "https://open.spotify.com/track/28uitw2AXQQIUHvSJW9qy6"
-  },
-  {
-    "rank": 14,
     "id": "1obcQYM6WDLbLz1N97dOwk",
     "name": "State of Slow Decay",
     "artistNames": "In Flames",
@@ -138,6 +128,16 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b42da327fef7175303311a11",
     "durationFormatted": "3:58",
     "spotifyUrl": "https://open.spotify.com/track/1obcQYM6WDLbLz1N97dOwk"
+  },
+  {
+    "rank": 14,
+    "id": "28uitw2AXQQIUHvSJW9qy6",
+    "name": "Days of Thunder",
+    "artistNames": "The Midnight",
+    "albumName": "Days of Thunder",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
+    "durationFormatted": "5:24",
+    "spotifyUrl": "https://open.spotify.com/track/28uitw2AXQQIUHvSJW9qy6"
   },
   {
     "rank": 15,
@@ -161,16 +161,6 @@
   },
   {
     "rank": 17,
-    "id": "5MPLeS9KdZlA04OOCUb5Bt",
-    "name": "Los Angeles",
-    "artistNames": "The Midnight",
-    "albumName": "Days of Thunder",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
-    "durationFormatted": "6:29",
-    "spotifyUrl": "https://open.spotify.com/track/5MPLeS9KdZlA04OOCUb5Bt"
-  },
-  {
-    "rank": 18,
     "id": "49PeTGd7GuKTyCjHrbMWXn",
     "name": "Jotun",
     "artistNames": "In Flames",
@@ -180,7 +170,7 @@
     "spotifyUrl": "https://open.spotify.com/track/49PeTGd7GuKTyCjHrbMWXn"
   },
   {
-    "rank": 19,
+    "rank": 18,
     "id": "2wXSx9UxsNIYidGi5r0SZ4",
     "name": "Ending Credits",
     "artistNames": "Opeth",
@@ -190,7 +180,7 @@
     "spotifyUrl": "https://open.spotify.com/track/2wXSx9UxsNIYidGi5r0SZ4"
   },
   {
-    "rank": 20,
+    "rank": 19,
     "id": "1fd8YbOoVAU8KK5ONDOqs9",
     "name": "Hours of Wealth",
     "artistNames": "Opeth",
@@ -200,27 +190,17 @@
     "spotifyUrl": "https://open.spotify.com/track/1fd8YbOoVAU8KK5ONDOqs9"
   },
   {
+    "rank": 20,
+    "id": "5MPLeS9KdZlA04OOCUb5Bt",
+    "name": "Los Angeles",
+    "artistNames": "The Midnight",
+    "albumName": "Days of Thunder",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dffe8e5a1e7c4eed82fbbfd5",
+    "durationFormatted": "6:29",
+    "spotifyUrl": "https://open.spotify.com/track/5MPLeS9KdZlA04OOCUb5Bt"
+  },
+  {
     "rank": 21,
-    "id": "0aheciYTtr7GEX6D9PLBUv",
-    "name": "In The Shadow Of Our Pale Companion",
-    "artistNames": "Agalloch",
-    "albumName": "The Mantle",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
-    "durationFormatted": "14:45",
-    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
-  },
-  {
-    "rank": 22,
-    "id": "3c8Js71F49v0WaPB6rseV3",
-    "name": "Gotham City",
-    "artistNames": "H Magnum, Nassi",
-    "albumName": "Gotham City",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27338296c7e0340d716af095783",
-    "durationFormatted": "4:23",
-    "spotifyUrl": "https://open.spotify.com/track/3c8Js71F49v0WaPB6rseV3"
-  },
-  {
-    "rank": 23,
     "id": "5HGzGElmhG7Fk2d0qh00Zh",
     "name": "Isolation Years",
     "artistNames": "Opeth",
@@ -230,7 +210,7 @@
     "spotifyUrl": "https://open.spotify.com/track/5HGzGElmhG7Fk2d0qh00Zh"
   },
   {
-    "rank": 24,
+    "rank": 22,
     "id": "6QKhecJ2JuajCTPTtYkKUQ",
     "name": "Afraid to Shoot Strangers - 2015 Remaster",
     "artistNames": "Iron Maiden",
@@ -240,7 +220,7 @@
     "spotifyUrl": "https://open.spotify.com/track/6QKhecJ2JuajCTPTtYkKUQ"
   },
   {
-    "rank": 25,
+    "rank": 23,
     "id": "20K0BwwzSchxPyuvrwQ94O",
     "name": "Anadolu Ejderi",
     "artistNames": "Gaye Su Akyol",
@@ -250,7 +230,17 @@
     "spotifyUrl": "https://open.spotify.com/track/20K0BwwzSchxPyuvrwQ94O"
   },
   {
-    "rank": 26,
+    "rank": 24,
+    "id": "3c8Js71F49v0WaPB6rseV3",
+    "name": "Gotham City",
+    "artistNames": "H Magnum, Nassi",
+    "albumName": "Gotham City",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27338296c7e0340d716af095783",
+    "durationFormatted": "4:23",
+    "spotifyUrl": "https://open.spotify.com/track/3c8Js71F49v0WaPB6rseV3"
+  },
+  {
+    "rank": 25,
     "id": "72z5fkfbXTPYGFBrt6iMod",
     "name": "Bleeding Out",
     "artistNames": "In Flames",
@@ -260,27 +250,7 @@
     "spotifyUrl": "https://open.spotify.com/track/72z5fkfbXTPYGFBrt6iMod"
   },
   {
-    "rank": 27,
-    "id": "6uo6xoOGgFcknsAxl3Y2O1",
-    "name": "Youth Of Eglington",
-    "artistNames": "Black Uhuru",
-    "albumName": "Red",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731fa4fc7bfd857df5a824e289",
-    "durationFormatted": "5:01",
-    "spotifyUrl": "https://open.spotify.com/track/6uo6xoOGgFcknsAxl3Y2O1"
-  },
-  {
-    "rank": 28,
-    "id": "6mB9A9YLbY4jxpKX5EYAnT",
-    "name": "Sunset",
-    "artistNames": "The Midnight",
-    "albumName": "Endless Summer",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
-    "durationFormatted": "5:26",
-    "spotifyUrl": "https://open.spotify.com/track/6mB9A9YLbY4jxpKX5EYAnT"
-  },
-  {
-    "rank": 29,
+    "rank": 26,
     "id": "4fSJyuJQjd7uyosEAhtNNy",
     "name": "Foregone, Pt. 1",
     "artistNames": "In Flames",
@@ -290,7 +260,17 @@
     "spotifyUrl": "https://open.spotify.com/track/4fSJyuJQjd7uyosEAhtNNy"
   },
   {
-    "rank": 30,
+    "rank": 27,
+    "id": "6mB9A9YLbY4jxpKX5EYAnT",
+    "name": "Sunset",
+    "artistNames": "The Midnight",
+    "albumName": "Endless Summer",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
+    "durationFormatted": "5:26",
+    "spotifyUrl": "https://open.spotify.com/track/6mB9A9YLbY4jxpKX5EYAnT"
+  },
+  {
+    "rank": 28,
     "id": "3P0LXXybFHgu2aY1NyGViV",
     "name": "Coil",
     "artistNames": "Opeth",
@@ -300,7 +280,7 @@
     "spotifyUrl": "https://open.spotify.com/track/3P0LXXybFHgu2aY1NyGViV"
   },
   {
-    "rank": 31,
+    "rank": 29,
     "id": "20ToJxHZS0icU10tNbuWQg",
     "name": "A Bir",
     "artistNames": "Kurban",
@@ -308,6 +288,26 @@
     "coverUrl": "https://i.scdn.co/image/ab67616d0000b273123a1612ed69c39cbce6cc2f",
     "durationFormatted": "0:44",
     "spotifyUrl": "https://open.spotify.com/track/20ToJxHZS0icU10tNbuWQg"
+  },
+  {
+    "rank": 30,
+    "id": "6uo6xoOGgFcknsAxl3Y2O1",
+    "name": "Youth Of Eglington",
+    "artistNames": "Black Uhuru",
+    "albumName": "Red",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731fa4fc7bfd857df5a824e289",
+    "durationFormatted": "5:01",
+    "spotifyUrl": "https://open.spotify.com/track/6uo6xoOGgFcknsAxl3Y2O1"
+  },
+  {
+    "rank": 31,
+    "id": "0aheciYTtr7GEX6D9PLBUv",
+    "name": "In The Shadow Of Our Pale Companion",
+    "artistNames": "Agalloch",
+    "albumName": "The Mantle",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273ac5a3d24a0d86ac8d838bd47",
+    "durationFormatted": "14:45",
+    "spotifyUrl": "https://open.spotify.com/track/0aheciYTtr7GEX6D9PLBUv"
   },
   {
     "rank": 32,
@@ -441,16 +441,6 @@
   },
   {
     "rank": 45,
-    "id": "0v6ivHTT6dmuOtge9LeaCn",
-    "name": "Jason",
-    "artistNames": "The Midnight, Nikki Flores",
-    "albumName": "Endless Summer",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
-    "durationFormatted": "5:31",
-    "spotifyUrl": "https://open.spotify.com/track/0v6ivHTT6dmuOtge9LeaCn"
-  },
-  {
-    "rank": 46,
     "id": "34JS7SWgCH3282btYwsPWQ",
     "name": "Alias",
     "artistNames": "In Flames",
@@ -460,7 +450,7 @@
     "spotifyUrl": "https://open.spotify.com/track/34JS7SWgCH3282btYwsPWQ"
   },
   {
-    "rank": 47,
+    "rank": 46,
     "id": "0fBPwRmfNmOdpNcxOoli9Q",
     "name": "Harvest",
     "artistNames": "Opeth",
@@ -470,33 +460,43 @@
     "spotifyUrl": "https://open.spotify.com/track/0fBPwRmfNmOdpNcxOoli9Q"
   },
   {
+    "rank": 47,
+    "id": "17IlA17obHzVVKDT4IW5Wx",
+    "name": "Pure Light Of Mind",
+    "artistNames": "In Flames",
+    "albumName": "Foregone (Bonus Edition)",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273b42da327fef7175303311a11",
+    "durationFormatted": "4:26",
+    "spotifyUrl": "https://open.spotify.com/track/17IlA17obHzVVKDT4IW5Wx"
+  },
+  {
     "rank": 48,
-    "id": "0lLwd09XAnK4aB9UK4TUpI",
-    "name": "Journey",
-    "artistNames": "Black Uhuru",
-    "albumName": "Red",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2731fa4fc7bfd857df5a824e289",
-    "durationFormatted": "5:22",
-    "spotifyUrl": "https://open.spotify.com/track/0lLwd09XAnK4aB9UK4TUpI"
+    "id": "6Rqn2GFlmvmV4w9Ala0I1e",
+    "name": "Feeling Good",
+    "artistNames": "Nina Simone",
+    "albumName": "I Put A Spell On You",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273892abb1ade35b4863b29e051",
+    "durationFormatted": "2:54",
+    "spotifyUrl": "https://open.spotify.com/track/6Rqn2GFlmvmV4w9Ala0I1e"
   },
   {
     "rank": 49,
-    "id": "5lVsAfvY2ij8A2T6oYdAyt",
-    "name": "Vampires",
-    "artistNames": "The Midnight",
-    "albumName": "Endless Summer",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
-    "durationFormatted": "5:17",
-    "spotifyUrl": "https://open.spotify.com/track/5lVsAfvY2ij8A2T6oYdAyt"
+    "id": "0qTctGYxe64fe6VXsXv8tr",
+    "name": "Gyroscope",
+    "artistNames": "In Flames",
+    "albumName": "Whoracle",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732d90350cfe583b3aff6f09a6",
+    "durationFormatted": "3:26",
+    "spotifyUrl": "https://open.spotify.com/track/0qTctGYxe64fe6VXsXv8tr"
   },
   {
     "rank": 50,
-    "id": "5NsOnvpjvH9sCz8TyVOmOz",
-    "name": "Désolé",
-    "artistNames": "Sexion d'Assaut",
-    "albumName": "L'école des points vitaux",
-    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27399d53d8504478066f858f544",
-    "durationFormatted": "3:24",
-    "spotifyUrl": "https://open.spotify.com/track/5NsOnvpjvH9sCz8TyVOmOz"
+    "id": "0v6ivHTT6dmuOtge9LeaCn",
+    "name": "Jason",
+    "artistNames": "The Midnight, Nikki Flores",
+    "albumName": "Endless Summer",
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27366f27b0ef0b92099a1927721",
+    "durationFormatted": "5:31",
+    "spotifyUrl": "https://open.spotify.com/track/0v6ivHTT6dmuOtge9LeaCn"
   }
 ]
