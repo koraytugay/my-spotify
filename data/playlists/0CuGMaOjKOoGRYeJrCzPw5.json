@@ -4,7 +4,7 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 80,
+  "tracksTotal": 81,
   "images": [
     {
       "height": null,
@@ -142,6 +142,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/d47de45dad8e11cd70968da07b8d4b1781d952f6",
       "spotifyUrl": "https://open.spotify.com/track/2EDJkuEd5tvxSAPiXCHACe",
       "uri": "spotify:track:2EDJkuEd5tvxSAPiXCHACe"
+    },
+    {
+      "id": "7srV7yMZdnoIOpcaAPzgXm",
+      "name": "Lowkey",
+      "artists": [
+        {
+          "name": "Brandon Szabo"
+        }
+      ],
+      "artistNames": "Brandon Szabo",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000d72c509d8436999a3137fe4dda3b",
+      "durationMs": 179000,
+      "durationFormatted": "2:59",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e7ea1fa107711e9978bbdcf9ffc4ae78bcf0eb27",
+      "spotifyUrl": "https://open.spotify.com/track/7srV7yMZdnoIOpcaAPzgXm",
+      "uri": "spotify:track:7srV7yMZdnoIOpcaAPzgXm"
     },
     {
       "id": "5qQRCOGEDEggAE54ZJCFfq",
