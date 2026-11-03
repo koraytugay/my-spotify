@@ -163,15 +163,6 @@
   },
   {
     "rank": 19,
-    "id": "7Iffw1nP3NjCWkRIx3Ily9",
-    "name": "Bruce Dickinson",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3c9a2707c712052cd56c4d31",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9"
-  },
-  {
-    "rank": 20,
     "id": "03vX1djHak8X52SuNfr3U7",
     "name": "Babutsa",
     "genres": [],
@@ -180,13 +171,22 @@
     "spotifyUrl": "https://open.spotify.com/artist/03vX1djHak8X52SuNfr3U7"
   },
   {
-    "rank": 21,
+    "rank": 20,
     "id": "4inwzuD2iBZK8Ck3ft7Wlk",
     "name": "Yavuz Çetin",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb2583c2bb637aaecd94253eb7",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/4inwzuD2iBZK8Ck3ft7Wlk"
+  },
+  {
+    "rank": 21,
+    "id": "7Iffw1nP3NjCWkRIx3Ily9",
+    "name": "Bruce Dickinson",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3c9a2707c712052cd56c4d31",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9"
   },
   {
     "rank": 22,
@@ -253,15 +253,6 @@
   },
   {
     "rank": 29,
-    "id": "5M52tdBnJaKSvOpJGz8mfZ",
-    "name": "Black Sabbath",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
-  },
-  {
-    "rank": 30,
     "id": "0VsS7WKuNEsKGNIWuiwSyZ",
     "name": "Gaye Su Akyol",
     "genres": [],
@@ -270,7 +261,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
   },
   {
-    "rank": 31,
+    "rank": 30,
     "id": "4uGB0nZ5d1iCXS3sHR3pzm",
     "name": "Gökhan Türkmen",
     "genres": [],
@@ -279,7 +270,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
   },
   {
-    "rank": 32,
+    "rank": 31,
     "id": "4tZwfgrHOc3mvqYlEYSvVi",
     "name": "Daft Punk",
     "genres": [],
@@ -288,13 +279,22 @@
     "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
   },
   {
-    "rank": 33,
+    "rank": 32,
     "id": "2fYdUIUPS7aDdWCzb8Aw2k",
     "name": "Aşkın Nur Yengi",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
+  },
+  {
+    "rank": 33,
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
   },
   {
     "rank": 34,
@@ -433,20 +433,20 @@
   },
   {
     "rank": 49,
-    "id": "0WwSkZ7LtFUFjGjMZBMt6T",
-    "name": "Dire Straits",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T"
-  },
-  {
-    "rank": 50,
     "id": "4CYeVo5iZbtYGBN4Isc3n6",
     "name": "Dio",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb555c8199ba80168cfeafdfbc",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/4CYeVo5iZbtYGBN4Isc3n6"
+  },
+  {
+    "rank": 50,
+    "id": "0WwSkZ7LtFUFjGjMZBMt6T",
+    "name": "Dire Straits",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T"
   }
 ]
