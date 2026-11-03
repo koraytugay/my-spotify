@@ -1,5 +1,32 @@
 [
   {
+    "id": "6ZIu0WOUSRQmQRK00uUWqV",
+    "name": "Kara Basma İz Olur",
+    "artists": [
+      {
+        "id": "2BB5zdnk16mjBs0BbIcb6r",
+        "name": "Anatolian Psych Rock Lab"
+      }
+    ],
+    "artistNames": "Anatolian Psych Rock Lab",
+    "album": {
+      "id": "3B4PpyO0uZqnCkoAifX7MB",
+      "name": "Nemrudun Kızı",
+      "releaseDate": "2026-01-13",
+      "releaseYear": "2026",
+      "totalTracks": 7
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a31fe5cf9cd20d8755ffb7c9",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a31fe5cf9cd20d8755ffb7c9",
+    "durationMs": 204759,
+    "durationFormatted": "3:24",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6ZIu0WOUSRQmQRK00uUWqV",
+    "uri": "spotify:track:6ZIu0WOUSRQmQRK00uUWqV",
+    "addedAt": "2026-11-03T13:49:33Z",
+    "addedDate": "2026-11-03"
+  },
+  {
     "id": "6Sy9BUbgFse0n0LPA5lwy5",
     "name": "Sandstorm",
     "artists": [

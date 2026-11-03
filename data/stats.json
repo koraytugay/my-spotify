@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 626,
+  "totalLikedSongs": 627,
   "totalPlaylists": 15,
   "totalSavedAlbums": 101,
   "totalFollowedArtists": 87,
-  "totalDurationMs": 162669636,
+  "totalDurationMs": 162874395,
   "totalDurationHours": 45.2,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "45 hrs 11 mins",
-  "uniqueArtistsCount": 528,
+  "totalDurationFormatted": "45 hrs 14 mins",
+  "uniqueArtistsCount": 529,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -132,12 +132,12 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
+    "2020s": 27,
     "2000s": 150,
     "2010s": 154,
     "1980s": 91,
     "1990s": 140,
     "1970s": 46,
-    "2020s": 26,
     "1960s": 18,
     "1950s": 1
   },
@@ -203,7 +203,8 @@
     "2021": 9,
     "2022": 5,
     "2023": 3,
-    "2025": 3
+    "2025": 3,
+    "2026": 1
   },
-  "lastUpdated": "2026-11-03T07:20:17.757Z"
+  "lastUpdated": "2026-11-03T21:19:28.603Z"
 }
