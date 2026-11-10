@@ -1,5 +1,32 @@
 [
   {
+    "id": "6oyYKWTbYt5Zb8tIiLZbmH",
+    "name": "Unchain My Heart",
+    "artists": [
+      {
+        "id": "3pFCERyEiP5xeN2EsPXhjI",
+        "name": "Joe Cocker"
+      }
+    ],
+    "artistNames": "Joe Cocker",
+    "album": {
+      "id": "0ZHwXuQmOlwI6i1ZSX0CEx",
+      "name": "Unchain My Heart",
+      "releaseDate": "1987-10-28",
+      "releaseYear": "1987",
+      "totalTracks": 10
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27397510f5c6cede3b4e8ff32f7",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485197510f5c6cede3b4e8ff32f7",
+    "durationMs": 304293,
+    "durationFormatted": "5:04",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6oyYKWTbYt5Zb8tIiLZbmH",
+    "uri": "spotify:track:6oyYKWTbYt5Zb8tIiLZbmH",
+    "addedAt": "2026-11-10T01:02:16Z",
+    "addedDate": "2026-11-10"
+  },
+  {
     "id": "6ZIu0WOUSRQmQRK00uUWqV",
     "name": "Kara Basma İz Olur",
     "artists": [
