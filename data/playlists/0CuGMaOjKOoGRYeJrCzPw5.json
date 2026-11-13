@@ -4,15 +4,15 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 80,
+  "tracksTotal": 81,
   "images": [
     {
       "height": null,
-      "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "width": null
     }
   ],
-  "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+  "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
   "owner": "MAFE 06",
   "spotifyUrl": "https://open.spotify.com/playlist/0CuGMaOjKOoGRYeJrCzPw5",
   "uri": "spotify:playlist:0CuGMaOjKOoGRYeJrCzPw5",
@@ -37,6 +37,27 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/d125c2d009d8388e01078361811e910f71966746",
       "spotifyUrl": "https://open.spotify.com/track/1qDrWA6lyx8cLECdZE7TV7",
       "uri": "spotify:track:1qDrWA6lyx8cLECdZE7TV7"
+    },
+    {
+      "id": "2d22c2vWbXxtm7QjxwP3IT",
+      "name": "Morning - Live",
+      "artists": [
+        {
+          "name": "Marc E. Bassy"
+        }
+      ],
+      "artistNames": "Marc E. Bassy",
+      "album": {
+        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
+        "releaseYear": ""
+      },
+      "coverUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
+      "durationMs": 208269,
+      "durationFormatted": "3:28",
+      "previewUrl": "https://p.scdn.co/mp3-preview/c4bd0ab566e210fffe547721258a576d127b3903",
+      "spotifyUrl": "https://open.spotify.com/track/2d22c2vWbXxtm7QjxwP3IT",
+      "uri": "spotify:track:2d22c2vWbXxtm7QjxwP3IT"
     },
     {
       "id": "1jitlWJElKJ10yt3dKN9Xv",
