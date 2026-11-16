@@ -1,13 +1,13 @@
 {
-  "totalLikedSongs": 628,
+  "totalLikedSongs": 635,
   "totalPlaylists": 15,
   "totalSavedAlbums": 101,
   "totalFollowedArtists": 87,
-  "totalDurationMs": 163178688,
-  "totalDurationHours": 45.3,
+  "totalDurationMs": 164774837,
+  "totalDurationHours": 45.8,
   "totalDurationDays": 1.9,
-  "totalDurationFormatted": "45 hrs 19 mins",
-  "uniqueArtistsCount": 530,
+  "totalDurationFormatted": "45 hrs 46 mins",
+  "uniqueArtistsCount": 533,
   "topLikedArtists": [
     {
       "name": "In Flames",
@@ -24,6 +24,10 @@
     {
       "name": "Erkin Koray",
       "count": 7
+    },
+    {
+      "name": "Supertramp",
+      "count": 5
     },
     {
       "name": "Yavuz Çetin",
@@ -67,10 +71,6 @@
     },
     {
       "name": "Pentagram",
-      "count": 4
-    },
-    {
-      "name": "Supertramp",
       "count": 4
     },
     {
@@ -132,28 +132,28 @@
   ],
   "topGenres": [],
   "decadeDistribution": {
-    "1980s": 92,
+    "1960s": 20,
+    "1970s": 49,
+    "1980s": 94,
     "2020s": 27,
     "2000s": 152,
     "2010s": 152,
     "1990s": 140,
-    "1970s": 46,
-    "1960s": 18,
     "1950s": 1
   },
   "yearDistribution": {
     "1958": 1,
     "1963": 2,
     "1965": 3,
-    "1966": 3,
+    "1966": 5,
     "1967": 6,
     "1968": 2,
     "1969": 2,
-    "1970": 4,
+    "1970": 5,
     "1971": 3,
-    "1972": 1,
+    "1972": 2,
     "1973": 5,
-    "1974": 4,
+    "1974": 5,
     "1975": 4,
     "1976": 8,
     "1977": 3,
@@ -166,8 +166,8 @@
     "1984": 12,
     "1985": 8,
     "1986": 7,
-    "1987": 18,
-    "1988": 6,
+    "1987": 19,
+    "1988": 7,
     "1989": 11,
     "1990": 8,
     "1991": 9,
@@ -206,5 +206,5 @@
     "2025": 3,
     "2026": 1
   },
-  "lastUpdated": "2026-11-15T20:38:06.438Z"
+  "lastUpdated": "2026-11-16T01:27:11.060Z"
 }

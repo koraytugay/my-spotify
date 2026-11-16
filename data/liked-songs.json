@@ -1,5 +1,194 @@
 [
   {
+    "id": "5L6O0JbqrZyAKdBeAWxA5I",
+    "name": "Summer Wine",
+    "artists": [
+      {
+        "id": "3IZrrNonYELubLPJmqOci2",
+        "name": "Nancy Sinatra"
+      }
+    ],
+    "artistNames": "Nancy Sinatra",
+    "album": {
+      "id": "5ItM6NHvCg4ABJJJID9ZN7",
+      "name": "Nancy In London (Definitive Reissue)",
+      "releaseDate": "1966",
+      "releaseYear": "1966",
+      "totalTracks": 15
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273de26d6974229e380b0907b0b",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851de26d6974229e380b0907b0b",
+    "durationMs": 223440,
+    "durationFormatted": "3:43",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/5L6O0JbqrZyAKdBeAWxA5I",
+    "uri": "spotify:track:5L6O0JbqrZyAKdBeAWxA5I",
+    "addedAt": "2026-11-16T00:56:53Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "26QKxvjlCo2fSd3T4c8Zpb",
+    "name": "Heart of Gold",
+    "artists": [
+      {
+        "id": "6v8FB84lnmJs434UJf2Mrm",
+        "name": "Neil Young"
+      }
+    ],
+    "artistNames": "Neil Young",
+    "album": {
+      "id": "2LOpi63tYGh0Suy8eLJDVQ",
+      "name": "Harvest (50th Anniversary Edition)",
+      "releaseDate": "1972-02-01",
+      "releaseYear": "1972",
+      "totalTracks": 27
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dd19d44cf651a37e3532a945",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851dd19d44cf651a37e3532a945",
+    "durationMs": 187110,
+    "durationFormatted": "3:07",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/26QKxvjlCo2fSd3T4c8Zpb",
+    "uri": "spotify:track:26QKxvjlCo2fSd3T4c8Zpb",
+    "addedAt": "2026-11-16T00:56:39Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "3hgcfNQI4jOIqjhI13im4E",
+    "name": "Puerto Rico",
+    "artists": [
+      {
+        "id": "0ODWsmNXtn928qhhEn87C8",
+        "name": "Vaya Con Dios"
+      }
+    ],
+    "artistNames": "Vaya Con Dios",
+    "album": {
+      "id": "06L4NxMfZ88N1JZsMVlHM7",
+      "name": "Vaya Con Dios",
+      "releaseDate": "1988-09-30",
+      "releaseYear": "1988",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732879473f2f7fe7eb5bac313b",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512879473f2f7fe7eb5bac313b",
+    "durationMs": 261653,
+    "durationFormatted": "4:21",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/3hgcfNQI4jOIqjhI13im4E",
+    "uri": "spotify:track:3hgcfNQI4jOIqjhI13im4E",
+    "addedAt": "2026-11-16T00:56:30Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "64G0PEQx1t9sFm0VeoL1CX",
+    "name": "Crime Of The Century - Remastered 2025",
+    "artists": [
+      {
+        "id": "3JsMj0DEzyWc0VDlHuy9Bx",
+        "name": "Supertramp"
+      }
+    ],
+    "artistNames": "Supertramp",
+    "album": {
+      "id": "303L03k05JRwgsSn3TlzQr",
+      "name": "Crime Of The Century (Remastered 2025)",
+      "releaseDate": "1974-09-13",
+      "releaseYear": "1974",
+      "totalTracks": 8
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2737fb904acf92b3c46282a6f98",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048517fb904acf92b3c46282a6f98",
+    "durationMs": 342760,
+    "durationFormatted": "5:42",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/64G0PEQx1t9sFm0VeoL1CX",
+    "uri": "spotify:track:64G0PEQx1t9sFm0VeoL1CX",
+    "addedAt": "2026-11-16T00:56:27Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "1hvKYV2SkmX1D2AeRCDxLH",
+    "name": "Bang Bang (My Baby Shot Me Down)",
+    "artists": [
+      {
+        "id": "3IZrrNonYELubLPJmqOci2",
+        "name": "Nancy Sinatra"
+      }
+    ],
+    "artistNames": "Nancy Sinatra",
+    "album": {
+      "id": "7lkW8dx8Feb7tzVNMgxGCm",
+      "name": "How Does That Grab You? (2024 Reissue)",
+      "releaseDate": "1966",
+      "releaseYear": "1966",
+      "totalTracks": 13
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273c98f495819698b300a53cc32",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851c98f495819698b300a53cc32",
+    "durationMs": 162920,
+    "durationFormatted": "2:42",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/1hvKYV2SkmX1D2AeRCDxLH",
+    "uri": "spotify:track:1hvKYV2SkmX1D2AeRCDxLH",
+    "addedAt": "2026-11-16T00:28:52Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "0rG0A8acI3ttuTieBYIElo",
+    "name": "Blue Hotel",
+    "artists": [
+      {
+        "id": "7290H8m1Dwt8G7jm1y9CQx",
+        "name": "Chris Isaak"
+      }
+    ],
+    "artistNames": "Chris Isaak",
+    "album": {
+      "id": "6TSG34NxECXMGlZr04k6WB",
+      "name": "Chris Isaak",
+      "releaseDate": "1987-03-10",
+      "releaseYear": "1987",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273d2a1a528927f2d50361d07ac",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851d2a1a528927f2d50361d07ac",
+    "durationMs": 192866,
+    "durationFormatted": "3:12",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/0rG0A8acI3ttuTieBYIElo",
+    "uri": "spotify:track:0rG0A8acI3ttuTieBYIElo",
+    "addedAt": "2026-11-16T00:27:25Z",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "4ntaCVtTclqT43krz9n3Z9",
+    "name": "Lady D'Arbanville",
+    "artists": [
+      {
+        "id": "08F3Y3SctIlsOEmKd6dnH8",
+        "name": "Yusuf / Cat Stevens"
+      }
+    ],
+    "artistNames": "Yusuf / Cat Stevens",
+    "album": {
+      "id": "2XXF6pODroMYQ3qPmXeMB1",
+      "name": "Mona Bone Jakon (Remastered 2020)",
+      "releaseDate": "1970-04-24",
+      "releaseYear": "1970",
+      "totalTracks": 11
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273dcc7d80ac24734a1d2cde062",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851dcc7d80ac24734a1d2cde062",
+    "durationMs": 225400,
+    "durationFormatted": "3:45",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/4ntaCVtTclqT43krz9n3Z9",
+    "uri": "spotify:track:4ntaCVtTclqT43krz9n3Z9",
+    "addedAt": "2026-11-16T00:27:12Z",
+    "addedDate": "2026-11-16"
+  },
+  {
     "id": "6oyYKWTbYt5Zb8tIiLZbmH",
     "name": "Unchain My Heart",
     "artists": [
