@@ -1,5 +1,32 @@
 [
   {
+    "id": "6HUCDcXf4M59NBZ5EOtd5T",
+    "name": "I Follow Rivers - Live @ Giel!",
+    "artists": [
+      {
+        "id": "3UhIlk54Oe4ja06V962ptU",
+        "name": "Triggerfinger"
+      }
+    ],
+    "artistNames": "Triggerfinger",
+    "album": {
+      "id": "4BnvRP9X47bdGj6NRNoEMq",
+      "name": "All This Dancin' around",
+      "releaseDate": "2010-10-01",
+      "releaseYear": "2010",
+      "totalTracks": 14
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b27368862ed0eb3b8f8e3c1c9612",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d0000485168862ed0eb3b8f8e3c1c9612",
+    "durationMs": 213551,
+    "durationFormatted": "3:33",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/6HUCDcXf4M59NBZ5EOtd5T",
+    "uri": "spotify:track:6HUCDcXf4M59NBZ5EOtd5T",
+    "addedAt": "2026-11-17T00:40:42Z",
+    "addedDate": "2026-11-17"
+  },
+  {
     "id": "5L6O0JbqrZyAKdBeAWxA5I",
     "name": "Summer Wine",
     "artists": [
