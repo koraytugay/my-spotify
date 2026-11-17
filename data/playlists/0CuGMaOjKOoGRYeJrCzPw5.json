@@ -4,7 +4,7 @@
   "description": "Somebody Somebody But you didn&#x27;t have to cut me off Make out like it never happened and that we were nothing And I don&#x27;t even need your lov",
   "public": true,
   "collaborative": false,
-  "tracksTotal": 81,
+  "tracksTotal": 74,
   "images": [
     {
       "height": null,
@@ -417,27 +417,6 @@
       "uri": "spotify:track:3neTp2db8L6qXnWtIROIjj"
     },
     {
-      "id": "7c6qL8qscJII1d4SN1H2oE",
-      "name": "Zombie",
-      "artists": [
-        {
-          "name": "Fanny Alexandra"
-        }
-      ],
-      "artistNames": "Fanny Alexandra",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 338052,
-      "durationFormatted": "5:38",
-      "previewUrl": "https://p.scdn.co/mp3-preview/31ee9ecde7b7b6a4477c47b28b56891d75232a21",
-      "spotifyUrl": "https://open.spotify.com/track/7c6qL8qscJII1d4SN1H2oE",
-      "uri": "spotify:track:7c6qL8qscJII1d4SN1H2oE"
-    },
-    {
       "id": "0LbA2OXF3g21WO3vDPwHmC",
       "name": "Enero En Nueva York",
       "artists": [
@@ -522,27 +501,6 @@
       "uri": "spotify:track:7tF0g57CG25Ew3GX7wa67l"
     },
     {
-      "id": "1Hd2fO1Lz8Szb9jbggtcd7",
-      "name": "Just me",
-      "artists": [
-        {
-          "name": "Mykel?"
-        }
-      ],
-      "artistNames": "Mykel?",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 115147,
-      "durationFormatted": "1:55",
-      "previewUrl": "https://p.scdn.co/mp3-preview/95043a3efb1e67658005ebd8bdfcdf0b980e09bf",
-      "spotifyUrl": "https://open.spotify.com/track/1Hd2fO1Lz8Szb9jbggtcd7",
-      "uri": "spotify:track:1Hd2fO1Lz8Szb9jbggtcd7"
-    },
-    {
       "id": "5aDdG6MrOtxPiuPejIgj6F",
       "name": "El Ganador",
       "artists": [
@@ -564,25 +522,25 @@
       "uri": "spotify:track:5aDdG6MrOtxPiuPejIgj6F"
     },
     {
-      "id": "5q57S12JvCn47GDmnd3Qge",
-      "name": "Lightning in a White Dress",
+      "id": "6dyXsCRtHY5e5cJMW9vajP",
+      "name": "Shattered Grid",
       "artists": [
         {
-          "name": "Roger Bonner"
+          "name": "Shattered Grid"
         }
       ],
-      "artistNames": "Roger Bonner",
+      "artistNames": "Shattered Grid",
       "album": {
         "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
         "releaseYear": ""
       },
       "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 287390,
-      "durationFormatted": "4:47",
-      "previewUrl": "https://p.scdn.co/mp3-preview/ee3096e0911d979d18629ed272c175d14bfbd037",
-      "spotifyUrl": "https://open.spotify.com/track/5q57S12JvCn47GDmnd3Qge",
-      "uri": "spotify:track:5q57S12JvCn47GDmnd3Qge"
+      "durationMs": 210800,
+      "durationFormatted": "3:30",
+      "previewUrl": "https://p.scdn.co/mp3-preview/e86cc8e4cbc38994aa09fd055889ca40d29220b7",
+      "spotifyUrl": "https://open.spotify.com/track/6dyXsCRtHY5e5cJMW9vajP",
+      "uri": "spotify:track:6dyXsCRtHY5e5cJMW9vajP"
     },
     {
       "id": "0nwi5cJKDYDGzXPrK1lzTO",
@@ -625,27 +583,6 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/b97eda194d79a39b4e7d11e3fb992e66e746fe0b",
       "spotifyUrl": "https://open.spotify.com/track/0KBJnzUxJc1tN5rB3OZoPt",
       "uri": "spotify:track:0KBJnzUxJc1tN5rB3OZoPt"
-    },
-    {
-      "id": "6xWKv4dizv8gOjZwu8EKX5",
-      "name": "We're Much Better People Now",
-      "artists": [
-        {
-          "name": "MICHAEL WATERS"
-        }
-      ],
-      "artistNames": "MICHAEL WATERS",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 214800,
-      "durationFormatted": "3:34",
-      "previewUrl": "https://p.scdn.co/mp3-preview/1aa85f5b46a491e07de658982b4983bc0e94292e",
-      "spotifyUrl": "https://open.spotify.com/track/6xWKv4dizv8gOjZwu8EKX5",
-      "uri": "spotify:track:6xWKv4dizv8gOjZwu8EKX5"
     },
     {
       "id": "07uZjrjFWEUGNEL0mGLicl",
@@ -772,27 +709,6 @@
       "previewUrl": null,
       "spotifyUrl": "https://open.spotify.com/track/1zebrlnS8iBSOSDVCcwTK7",
       "uri": "spotify:track:1zebrlnS8iBSOSDVCcwTK7"
-    },
-    {
-      "id": "38Cz75dJ5NguxdqLLQNGes",
-      "name": "YOU SAW IT",
-      "artists": [
-        {
-          "name": "GUS MAOH"
-        }
-      ],
-      "artistNames": "GUS MAOH",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 205237,
-      "durationFormatted": "3:25",
-      "previewUrl": "https://p.scdn.co/mp3-preview/c3b29318721b750470fa01a7b4c19ea06bde969e",
-      "spotifyUrl": "https://open.spotify.com/track/38Cz75dJ5NguxdqLLQNGes",
-      "uri": "spotify:track:38Cz75dJ5NguxdqLLQNGes"
     },
     {
       "id": "4o35g6xblMQTdd0aejLk7Z",
@@ -1173,27 +1089,6 @@
       "uri": "spotify:track:5fYBOVdmGKEsqK3u5pk2j5"
     },
     {
-      "id": "0wOklCY0EiZ0DwBkeo8LRn",
-      "name": "Pizza on the Lake",
-      "artists": [
-        {
-          "name": "Marty The Pizza Guy"
-        }
-      ],
-      "artistNames": "Marty The Pizza Guy",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 130100,
-      "durationFormatted": "2:10",
-      "previewUrl": "https://p.scdn.co/mp3-preview/1e00714a66772b2815f1f7d674a01f1dd689bffc",
-      "spotifyUrl": "https://open.spotify.com/track/0wOklCY0EiZ0DwBkeo8LRn",
-      "uri": "spotify:track:0wOklCY0EiZ0DwBkeo8LRn"
-    },
-    {
       "id": "0tCLEnxwsUH9z82uDF9ZGA",
       "name": "Mil Botellas Destapar",
       "artists": [
@@ -1362,27 +1257,6 @@
       "uri": "spotify:track:7u1PK6VeDCNHzztGJtqqPF"
     },
     {
-      "id": "5smijW1xR0o6zwOk1ZlkS7",
-      "name": "Crimson Stag",
-      "artists": [
-        {
-          "name": "Innocent Darkness"
-        }
-      ],
-      "artistNames": "Innocent Darkness",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 226423,
-      "durationFormatted": "3:46",
-      "previewUrl": "https://p.scdn.co/mp3-preview/ea68cb4761974ddda50d0b448dd64ca9cf17a0c1",
-      "spotifyUrl": "https://open.spotify.com/track/5smijW1xR0o6zwOk1ZlkS7",
-      "uri": "spotify:track:5smijW1xR0o6zwOk1ZlkS7"
-    },
-    {
       "id": "0Bq7UQv3bdHZX7NhNKlJCJ",
       "name": "Otro Día",
       "artists": [
@@ -1507,27 +1381,6 @@
       "previewUrl": "https://p.scdn.co/mp3-preview/acdfe73cf77e225c43f53e53ac314356589dc830",
       "spotifyUrl": "https://open.spotify.com/track/3q1dv1JPbzRMwFi6DErh3u",
       "uri": "spotify:track:3q1dv1JPbzRMwFi6DErh3u"
-    },
-    {
-      "id": "5c2Kb5EfGMyWHfI0YNXC8P",
-      "name": "I Believe in Ghosts - Remix",
-      "artists": [
-        {
-          "name": "New London Fire"
-        }
-      ],
-      "artistNames": "New London Fire",
-      "album": {
-        "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
-        "releaseYear": ""
-      },
-      "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 188946,
-      "durationFormatted": "3:08",
-      "previewUrl": "https://p.scdn.co/mp3-preview/4d5323d844c14d5db1bbeb3601bd99c44782d990",
-      "spotifyUrl": "https://open.spotify.com/track/5c2Kb5EfGMyWHfI0YNXC8P",
-      "uri": "spotify:track:5c2Kb5EfGMyWHfI0YNXC8P"
     },
     {
       "id": "5hPaDzRIdbZD7Fy3tledhM",
