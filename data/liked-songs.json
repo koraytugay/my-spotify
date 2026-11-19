@@ -1,5 +1,32 @@
 [
   {
+    "id": "4MYWsMkKhvJK3oKEFQCuzX",
+    "name": "Just a Friend of Mine",
+    "artists": [
+      {
+        "id": "0ODWsmNXtn928qhhEn87C8",
+        "name": "Vaya Con Dios"
+      }
+    ],
+    "artistNames": "Vaya Con Dios",
+    "album": {
+      "id": "06L4NxMfZ88N1JZsMVlHM7",
+      "name": "Vaya Con Dios",
+      "releaseDate": "1988-09-30",
+      "releaseYear": "1988",
+      "totalTracks": 12
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b2732879473f2f7fe7eb5bac313b",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d000048512879473f2f7fe7eb5bac313b",
+    "durationMs": 203533,
+    "durationFormatted": "3:23",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/4MYWsMkKhvJK3oKEFQCuzX",
+    "uri": "spotify:track:4MYWsMkKhvJK3oKEFQCuzX",
+    "addedAt": "2026-11-19T02:01:09Z",
+    "addedDate": "2026-11-19"
+  },
+  {
     "id": "6HUCDcXf4M59NBZ5EOtd5T",
     "name": "I Follow Rivers - Live @ Giel!",
     "artists": [
