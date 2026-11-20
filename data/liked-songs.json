@@ -1,5 +1,32 @@
 [
   {
+    "id": "0IWtEFQBwRHaMXZQtGEVcM",
+    "name": "Wonderful Life",
+    "artists": [
+      {
+        "id": "0eu0y7eJ5NMo07NEQEIq1V",
+        "name": "Black"
+      }
+    ],
+    "artistNames": "Black",
+    "album": {
+      "id": "6xdiJ1Fexr0r7A9Wb1FHdJ",
+      "name": "Wonderful Life",
+      "releaseDate": "1987-01-01",
+      "releaseYear": "1987",
+      "totalTracks": 15
+    },
+    "coverUrl": "https://i.scdn.co/image/ab67616d0000b273a40e4b29bfacc9ef505b86d2",
+    "thumbnailUrl": "https://i.scdn.co/image/ab67616d00004851a40e4b29bfacc9ef505b86d2",
+    "durationMs": 287933,
+    "durationFormatted": "4:47",
+    "explicit": false,
+    "spotifyUrl": "https://open.spotify.com/track/0IWtEFQBwRHaMXZQtGEVcM",
+    "uri": "spotify:track:0IWtEFQBwRHaMXZQtGEVcM",
+    "addedAt": "2026-11-20T00:19:22Z",
+    "addedDate": "2026-11-20"
+  },
+  {
     "id": "4MYWsMkKhvJK3oKEFQCuzX",
     "name": "Just a Friend of Mine",
     "artists": [
