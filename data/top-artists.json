@@ -82,15 +82,6 @@
   },
   {
     "rank": 10,
-    "id": "0ZZDIo31D35xGrXYTodWrL",
-    "name": "Zeki Müren",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb73f8c083460fab4bd812cf6d",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/0ZZDIo31D35xGrXYTodWrL"
-  },
-  {
-    "rank": 11,
     "id": "1w5Kfo2jwwIPruYS2UWh56",
     "name": "Pearl Jam",
     "genres": [],
@@ -99,7 +90,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/1w5Kfo2jwwIPruYS2UWh56"
   },
   {
-    "rank": 12,
+    "rank": 11,
     "id": "1Xz8iP9Dvl5uI88iraOhs7",
     "name": "Pentagram",
     "genres": [],
@@ -108,7 +99,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/1Xz8iP9Dvl5uI88iraOhs7"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "id": "14H7ag1wpQOsPPQJOD6Dqr",
     "name": "Zero 7",
     "genres": [],
@@ -117,7 +108,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/14H7ag1wpQOsPPQJOD6Dqr"
   },
   {
-    "rank": 14,
+    "rank": 13,
     "id": "5keeQyPKYRxUCKDMECTXG3",
     "name": "Black Uhuru",
     "genres": [],
@@ -126,13 +117,22 @@
     "spotifyUrl": "https://open.spotify.com/artist/5keeQyPKYRxUCKDMECTXG3"
   },
   {
-    "rank": 15,
+    "rank": 14,
     "id": "7oPgCQqMMXEXrNau5vxYZP",
     "name": "Tracy Chapman",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/965060777aeacb43659097cddc16b741785a508f",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/7oPgCQqMMXEXrNau5vxYZP"
+  },
+  {
+    "rank": 15,
+    "id": "0ZZDIo31D35xGrXYTodWrL",
+    "name": "Zeki Müren",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb73f8c083460fab4bd812cf6d",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/0ZZDIo31D35xGrXYTodWrL"
   },
   {
     "rank": 16,
@@ -217,6 +217,15 @@
   },
   {
     "rank": 25,
+    "id": "7G1GBhoKtEPnP86X2PvEYO",
+    "name": "Nina Simone",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
+  },
+  {
+    "rank": 26,
     "id": "0ou1EkRCAJcfRv2P1qKVPo",
     "name": "Flört",
     "genres": [],
@@ -225,22 +234,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/0ou1EkRCAJcfRv2P1qKVPo"
   },
   {
-    "rank": 26,
+    "rank": 27,
     "id": "0ylYRIvKTpv9uvTfKbYjM0",
     "name": "Mehmet Erdem",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebec7d2c6098bd5602395c0eb1",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/0ylYRIvKTpv9uvTfKbYjM0"
-  },
-  {
-    "rank": 27,
-    "id": "7G1GBhoKtEPnP86X2PvEYO",
-    "name": "Nina Simone",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb136c51c848c26a6cce7f9e56",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/7G1GBhoKtEPnP86X2PvEYO"
   },
   {
     "rank": 28,
@@ -343,21 +343,21 @@
   },
   {
     "rank": 39,
-    "id": "6WDnC2nx6hEPdtcU2LLGtE",
-    "name": "Ezginin Günlügü",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
-  },
-  {
-    "rank": 40,
     "id": "36QJpDe2go2KgaRleHCDTp",
     "name": "Led Zeppelin",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/207803ce008388d3427a685254f9de6a8f61dc2e",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
+  },
+  {
+    "rank": 40,
+    "id": "6WDnC2nx6hEPdtcU2LLGtE",
+    "name": "Ezginin Günlügü",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb67fbca8649f87113a7cbfe49",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
   },
   {
     "rank": 41,
