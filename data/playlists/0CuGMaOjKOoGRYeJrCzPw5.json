@@ -160,7 +160,7 @@
       "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "durationMs": 179000,
       "durationFormatted": "2:59",
-      "previewUrl": "https://p.scdn.co/mp3-preview/e7ea1fa107711e9978bbdcf9ffc4ae78bcf0eb27",
+      "previewUrl": "https://p.scdn.co/mp3-preview/1857237c633c32ac5365e0a0ed346b9e46435f8e",
       "spotifyUrl": "https://open.spotify.com/track/7srV7yMZdnoIOpcaAPzgXm",
       "uri": "spotify:track:7srV7yMZdnoIOpcaAPzgXm"
     },
@@ -1236,25 +1236,25 @@
       "uri": "spotify:track:3VzywF2Vd3ejMsREBNp0tj"
     },
     {
-      "id": "7goPmphVtc08QFjmiJlL7u",
-      "name": "My Kind Of Lovin'",
+      "id": "56hqTkNrduuBtLilKwmTQB",
+      "name": "Too Much",
       "artists": [
         {
-          "name": "V. Heavenrich"
+          "name": "Uby"
         }
       ],
-      "artistNames": "V. Heavenrich",
+      "artistNames": "Uby",
       "album": {
         "name": "Somebody That I Used to Know (feat. Kimbra) Gotye Somebody Somebody But you didn't have to cut me of",
         "releaseYear": ""
       },
       "coverUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
       "thumbnailUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84509d8436999a3137fe4dda3b",
-      "durationMs": 169090,
-      "durationFormatted": "2:49",
-      "previewUrl": "https://p.scdn.co/mp3-preview/f7ea4866f785b3c14930e7c621729f140590a30f",
-      "spotifyUrl": "https://open.spotify.com/track/7goPmphVtc08QFjmiJlL7u",
-      "uri": "spotify:track:7goPmphVtc08QFjmiJlL7u"
+      "durationMs": 192440,
+      "durationFormatted": "3:12",
+      "previewUrl": "https://p.scdn.co/mp3-preview/44d21f7432898a5cedf7df977d1c536661ed2ddd",
+      "spotifyUrl": "https://open.spotify.com/track/56hqTkNrduuBtLilKwmTQB",
+      "uri": "spotify:track:56hqTkNrduuBtLilKwmTQB"
     },
     {
       "id": "3vkYspVLTTaeJhAsBXh491",
