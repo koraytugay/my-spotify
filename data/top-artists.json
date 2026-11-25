@@ -289,6 +289,15 @@
   },
   {
     "rank": 33,
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb357fdaf56c64a36a36741538",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+  },
+  {
+    "rank": 34,
     "id": "2jbrqAuwSdvwcMTbtvncND",
     "name": "MFÖ",
     "genres": [],
@@ -297,7 +306,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2jbrqAuwSdvwcMTbtvncND"
   },
   {
-    "rank": 34,
+    "rank": 35,
     "id": "5KORW1YGiERJqfuYjXMCyz",
     "name": "Mattafix",
     "genres": [],
@@ -306,7 +315,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5KORW1YGiERJqfuYjXMCyz"
   },
   {
-    "rank": 35,
+    "rank": 36,
     "id": "4M6Z1wubeKtwPqbjJygTOc",
     "name": "Shontelle",
     "genres": [],
@@ -315,7 +324,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4M6Z1wubeKtwPqbjJygTOc"
   },
   {
-    "rank": 36,
+    "rank": 37,
     "id": "5EHvXKnNz78jkAVgTQLQ5O",
     "name": "Dark Tranquillity",
     "genres": [],
@@ -324,7 +333,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/5EHvXKnNz78jkAVgTQLQ5O"
   },
   {
-    "rank": 37,
+    "rank": 38,
     "id": "1O8CSXsPwEqxcoBE360PPO",
     "name": "Stratovarius",
     "genres": [],
@@ -333,7 +342,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/1O8CSXsPwEqxcoBE360PPO"
   },
   {
-    "rank": 38,
+    "rank": 39,
     "id": "2nszamLjZFgu3Yx77mKxuC",
     "name": "UNKLE",
     "genres": [],
@@ -342,7 +351,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2nszamLjZFgu3Yx77mKxuC"
   },
   {
-    "rank": 39,
+    "rank": 40,
     "id": "36QJpDe2go2KgaRleHCDTp",
     "name": "Led Zeppelin",
     "genres": [],
@@ -351,7 +360,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp"
   },
   {
-    "rank": 40,
+    "rank": 41,
     "id": "6WDnC2nx6hEPdtcU2LLGtE",
     "name": "Ezginin Günlügü",
     "genres": [],
@@ -360,7 +369,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/6WDnC2nx6hEPdtcU2LLGtE"
   },
   {
-    "rank": 41,
+    "rank": 42,
     "id": "2QsEbhCFyEzogaOtMYeXO4",
     "name": "Düş Sokağı Sakinleri",
     "genres": [],
@@ -369,7 +378,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/2QsEbhCFyEzogaOtMYeXO4"
   },
   {
-    "rank": 42,
+    "rank": 43,
     "id": "7jxJ25p0pPjk0MStloN6o6",
     "name": "Blind Guardian",
     "genres": [],
@@ -378,7 +387,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/7jxJ25p0pPjk0MStloN6o6"
   },
   {
-    "rank": 43,
+    "rank": 44,
     "id": "4vnmifnGOeRXfNTRtgd4Tj",
     "name": "Sexion d'Assaut",
     "genres": [],
@@ -387,7 +396,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4vnmifnGOeRXfNTRtgd4Tj"
   },
   {
-    "rank": 44,
+    "rank": 45,
     "id": "31eXqCx5cAlItdGdoHMEOu",
     "name": "Theatre Of Tragedy",
     "genres": [],
@@ -396,7 +405,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/31eXqCx5cAlItdGdoHMEOu"
   },
   {
-    "rank": 45,
+    "rank": 46,
     "id": "64d1rUxfizSAOE9UbMnUZd",
     "name": "Sezen Aksu",
     "genres": [],
@@ -405,7 +414,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/64d1rUxfizSAOE9UbMnUZd"
   },
   {
-    "rank": 46,
+    "rank": 47,
     "id": "6SLAMfhOi7UJI0fMztaK0m",
     "name": "Rainbow",
     "genres": [],
@@ -414,7 +423,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/6SLAMfhOi7UJI0fMztaK0m"
   },
   {
-    "rank": 47,
+    "rank": 48,
     "id": "0k17h0D3J5VfsdmQ1iZtE9",
     "name": "Pink Floyd",
     "genres": [],
@@ -423,7 +432,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9"
   },
   {
-    "rank": 48,
+    "rank": 49,
     "id": "4CYeVo5iZbtYGBN4Isc3n6",
     "name": "Dio",
     "genres": [],
@@ -432,21 +441,12 @@
     "spotifyUrl": "https://open.spotify.com/artist/4CYeVo5iZbtYGBN4Isc3n6"
   },
   {
-    "rank": 49,
+    "rank": 50,
     "id": "0WwSkZ7LtFUFjGjMZBMt6T",
     "name": "Dire Straits",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4bdaa8c5e65b64f50549c393",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/0WwSkZ7LtFUFjGjMZBMt6T"
-  },
-  {
-    "rank": 50,
-    "id": "1CTvStsvYcGi6FfDHzNg0t",
-    "name": "Mazhar Alanson",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5871450c612fa87eff011f4b",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/1CTvStsvYcGi6FfDHzNg0t"
   }
 ]
