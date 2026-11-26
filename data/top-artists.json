@@ -280,21 +280,21 @@
   },
   {
     "rank": 32,
-    "id": "5M52tdBnJaKSvOpJGz8mfZ",
-    "name": "Black Sabbath",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
-  },
-  {
-    "rank": 33,
     "id": "3WrFJ7ztbogyGnTHbHJFl2",
     "name": "The Beatles",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb357fdaf56c64a36a36741538",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+  },
+  {
+    "rank": 33,
+    "id": "5M52tdBnJaKSvOpJGz8mfZ",
+    "name": "Black Sabbath",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebd109fa1e6b28ddfc5846cc4f",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/5M52tdBnJaKSvOpJGz8mfZ"
   },
   {
     "rank": 34,
