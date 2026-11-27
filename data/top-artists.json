@@ -244,6 +244,15 @@
   },
   {
     "rank": 28,
+    "id": "3WrFJ7ztbogyGnTHbHJFl2",
+    "name": "The Beatles",
+    "genres": [],
+    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb357fdaf56c64a36a36741538",
+    "followers": 0,
+    "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
+  },
+  {
+    "rank": 29,
     "id": "0VsS7WKuNEsKGNIWuiwSyZ",
     "name": "Gaye Su Akyol",
     "genres": [],
@@ -252,7 +261,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/0VsS7WKuNEsKGNIWuiwSyZ"
   },
   {
-    "rank": 29,
+    "rank": 30,
     "id": "4uGB0nZ5d1iCXS3sHR3pzm",
     "name": "Gökhan Türkmen",
     "genres": [],
@@ -261,7 +270,7 @@
     "spotifyUrl": "https://open.spotify.com/artist/4uGB0nZ5d1iCXS3sHR3pzm"
   },
   {
-    "rank": 30,
+    "rank": 31,
     "id": "4tZwfgrHOc3mvqYlEYSvVi",
     "name": "Daft Punk",
     "genres": [],
@@ -270,22 +279,13 @@
     "spotifyUrl": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
   },
   {
-    "rank": 31,
+    "rank": 32,
     "id": "2fYdUIUPS7aDdWCzb8Aw2k",
     "name": "Aşkın Nur Yengi",
     "genres": [],
     "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13",
     "followers": 0,
     "spotifyUrl": "https://open.spotify.com/artist/2fYdUIUPS7aDdWCzb8Aw2k"
-  },
-  {
-    "rank": 32,
-    "id": "3WrFJ7ztbogyGnTHbHJFl2",
-    "name": "The Beatles",
-    "genres": [],
-    "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb357fdaf56c64a36a36741538",
-    "followers": 0,
-    "spotifyUrl": "https://open.spotify.com/artist/3WrFJ7ztbogyGnTHbHJFl2"
   },
   {
     "rank": 33,
